@@ -1,0 +1,70 @@
+Region metadata variables defined in settings script section
+Maps
+Plugins
+Graphics
+Audio
+Script Settings
+Script section UI_ItemStorage line 79 from def pbStartScene(bag) to def pbStartScene(bag, party)
+Script section UI_PokeMart line 320 from @subscene.pbStartScene(bag) to @subscene.pbStartScene(bag, $player.party)
+Script section Battle_CatchAndStoreMixin - controlling pokeballs in battle - if gameswitch 100 is on, "Disables Poké Balls"
+Script section Item_Effects (Infini Candy, Infini Repel)
+Script section UI_Trading - Add pbStartTradeYourself function
+Script section Utilities_BattleAudio -  define region defaults, including per gender of trainer
+Script section Overworld and Overworld_FieldMoves - Define region defaults for surfing (pbBGMPlay(surfbgm))
+Script section UI_Credits - change constants to array of images and BGM, controlled by region
+Script section UI_HallOfFame - change constants to array of BGM, controlled by region
+Script section UI_Evolution and UI_EggHatching - array of BGM, controlled by region
+Script section Overworld - regional item get ME
+Script section UI_MysteryGift - Sounds
+Script section Utilities_Pokemon - regional sounds for pbAddPokemon, AddtoParty, AddForeignPokemon
+Script section Minigame_SlotMachine - sounds
+Script section Overworld_Fieldmoves - pbCheckHiddenMoveBadge from $player.badges[badge] to $player.badges[Settings::regionHMArray[pbGetCurrentRegion()][badge]]
+Script section Formhandlers for regional forms
+Script section Overworld_Metadata - Additional Day Cares
+Script section Overworld_DayCare - Support for Additional Day Cares
+Script section Overworld_FieldMoves - Custom code for regi events
+Plugin script for gen 9 project General > Pokemon - define Hisui region as id 51
+Plugin settings for dynamax and terastal - switches
+Plugin scripts for bag with interactable party screen to add page jumping functionality, cloning jumpup and jumpdown from elsif block (line 72/92) into if block above (line 32 to 51)
+Plugin scripts for bag with interactable party screen to add multiple item use at once (line 1717 to 1724) as well as item handlers in terastalization plugin (line 196 to 203)
+Script section Game_Stats - Line 139-140, initialize @times_to_enter_hall_of_fame as an array
+Script section Game_Stats - Line 169-175, def set_time_to_hall_of_fame(number)
+Script section PokemonStorage - Line 402-423, def pbEachPokemonEx and def pbMergeStorage(storageDst, storageSrc)
+Encounters PBS
+Map Connections PBS
+Map Metadata PBS
+Trainers PBS
+Town Map PBS
+Regional Dexes PBS
+Metadata PBS
+Pokemon PBS
+Pokemon Forms PBS
+Items PBS
+Database (F9) System section - Title BGM
+
+Multidisc Scripts (Main, many edits, see thread)
+
+Known issues:
+-Lore text on computer and other objects allow for omnidirectional reading
+-No Fame Checker in Cerulean; most fame checker lore events are missing around the world.
+-Teachy TV tutorial is nonfunctional
+-Missing functionality for Saffron Fan Club, Berry powder guy, badge description guy in cerulean, Sticker npc on four island, heracross measurer on six island, magikarp guy on route 12
+-Selphy's requests are not coded
+-Missing info on Bill's PC in his cottage (Can usually see Eeveelutions)
+-Lavender Tower ghost system unimplemented; an NPC stopgap is in place for now
+-Missing sound effect for spin tiles
+-Missing blackboard text on celadon mansion rooftop explaining game mechanics (replaced by status blackboard)
+-Camera flicker with spin tiles
+-No arriving animations for warp tiles, fall through holes
+-Missing animation for Hall of Fame machine
+-Stopgap Tri-Pass cutscene is in place
+-Bill teleporter cutscene is placeholder
+-Intro cutscene does not have the Nidoran coming out of a pokeball animation, and the Nidoran is misplaced
+-Intro BGM is not looped properly
+-Some TMs and items are unobtainable due to generational differences - i.e., TM07 Horn Drill can't be obtained as it was replaced in the gen 3 celadon mart, protector has no sources as this is not gen 4 kanto, etc.
+-All mail item functionality
+-Gamefreak diploma NPC is currently hard coded instead of calling for each number of species in a dex dynamically
+-You can't do trade evolutions where you need to trade a mon for a mon, such as karablast
+-Missing light effects in E4
+-"Wading" tiles do not properly function
+-Missing animations for Seagallop Ferry

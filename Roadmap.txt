@@ -1,0 +1,25 @@
+Roadmap/TODO for V1.0:
+- Add ability to trade in duplicate TMs to black market for credit
+- Redefine trainer classes and give proper money reward values
+- Standardize all maps with proper tilesets
+- Seafoam Island boulder puzzle
+- Trainer rematches/phone system
+- Respawning item systems e.g. berries in berry forest, beach items
+- Define wild pokemon held items past gen 1
+- Special NPCs need proper overworld sprites i.e. Ariana and Archer
+- Sprites for animated trainer intros
+- Add proper VS sprites
+- Sprites for key items (everything after OldSeaMap in PBS)
+- TMs need descriptions (fixed in v22?)
+- Custom title screen, credits images
+- Dynamax and tera plugin settings
+- Update Follower plugin to include gen 9 data (low prio, fix in v22?)
+- Events that display a pokemon image need to be fixed. Intro cutscene (move events too), fuchsia zoo, pallet town starters, ss anne snorlax guy, other gifts, etc
+- TM Vendor event is hardcoded to not allow numbers above 360 (how to make dynamic?)
+	- Additionally, add a way to trade in duplicate TMs for credit?
+- Roamers? (v22, if ever)
+
+
+V1.1
+- Get multiple region scripts working
+- Begin work on the next region

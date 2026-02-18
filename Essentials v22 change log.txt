@@ -1,0 +1,351 @@
+######################################################################
+# Essentials v22 change log
+######################################################################
+
+== Gen 9 ==
+
+* Added Gen 9 PBS files, including the Mega Evolutions/Stones and Nihil Light from Pokémon Legends: Z-A.
+* Added code for all of that.
+
+== UI ==
+
+* Rewrote various UI to make them all based on the same underlying code and for consistency. Added various new functionalities in the process. Some UI has also been redesigned to a greater or lesser extent.
+
+* Pause menu
+** Added the location signpost.
+** The "Quit Game" option now returns you to the intro and title screens instead of immediately exiting the game.
+
+* Pokédex
+** Is now always opened in the same way, both when there are multiple Regional Dexes to choose from and when there's only a single one to view immediately.
+** A search now checks every form of a species and includes that species in the results if any of its forms match the search parameters. This used to only check the form last viewed for that species.
+** Entry pages are now modular, meaning it is easier for a plugin to add a new one.
+** The size of a Pokédex-specific type icon is now written in a constant (POKEDEX_TYPE_ICON_SIZE) for easier access.
+** The Town Map shown in the Area page can now be moved around or changed to a different region's Town Map at will.
+** The Area page now shows the current location of roaming Pokémon, as well as the current location of the player.
+** The shiny forms of Pokémon can now be viewed. A shiny star appears in various places when a shiny form is being shown.
+
+* Party
+** You can now quickly move held items between Pokémon.
+** The first panel no longer uses a different graphic.
+
+* Pokémon summary
+** Icons representing the party/box Pokémon you can navigate between while in the summary screen are shown on the left.
+** HP and types have been moved to the left. The held item has been moved to the right. Status condition has been moved to the HP bar.
+** Ability and move descriptions now have one extra line of text each to be displayed in.
+** Moves now show their damage category immediately rather than only when viewing move details.
+** The summary screen of an egg now consists of two text boxes rather than one.
+** The Trainer Memo page is now the last page rather than the second. The Ribbons page is now hidden for any Pokémon that doesn't have any ribbons.
+** You can now change a Pokémon's nickname from its summary screen, if possible and if the Setting ALLOW_RENAMING_POKEMON_IN_SUMMARY_SCREEN is true (in Gen 9 by default).
+** You can now make a Pokémon forget or remember a move from its summary screen, if the Setting ALLOW_CHANGING_MOVES_IN_SUMMARY_SCREEN is true (in Gen 9 by default).
+
+* Bag
+** The Bag's background graphics can now be different depending on the player's gender. The female version of a graphic has "_f" added to the end of its filename.
+** The pockets are now displayed at the top of the screen rather than the left.
+** Removed the Mail pocket and added the Held Items pocket. Rearranged some of the pockets.
+** Bag pockets are now defined in GameData::BagPocket, rather than being meaningless numbers and being listed in Settings. If a pocket is defined with a :parent_pocket, items that should go in that pocket (e.g. Venusaurite is defined in items.txt to go into the MegaStones pocket) will instead go in the parent pocket (e.g. GameData::BagPocket with a :parent_pocket of HeldItems).
+** The contents of a pocket can now be sorted alphabetically or by "type" (this actually means the order in which they're defined in the PBS file items.txt). As before, some pockets cannot be rearranged.
+** Items that are usable on a Pokémon in the party or on a Pokémon in battle will show a set of Poké Ball icons at the top left, that show which Pokémon in the party they will have an effect on.
+** The TMs & HMs pocket can show more details of the move taught by a machine item.
+
+* Town Map
+** The Town Map now supports themed graphics. There are two alternate themes by default: one for wall maps, and a pink one for female players.
+** The Town Map now supports maps larger than the display area. The area you can move the cursor in is defined in the PBS file town_map.txt and does NOT depend on the size of the graphic.
+** You can now freely change the region in the Town Map to any other region you've visited.
+** The Town Map now displays roaming Pokémon, but only if they have a defined icon in the Setting ROAMING_SPECIES.
+** Added zooming in of the Town Map (if Setting ENABLE_TOWN_MAP_ZOOM_IN_FOR_DETAILS is true). While zoomed in, the right side of the screen shows the selected point's markings, graphic and description (this used to be the Point of Interest).
+** Added marking functionality to the Town Map (if Setting ENABLE_TOWN_MAP_MARKING is true). A point in the Town Map can have up to 4 markings.
+
+* Trainer Card
+
+* Load
+** Added support for multiple save files. Added the Setting SAVE_SLOTS to let the dev choose how many save files the player is allowed (just one, one per New Game, or as many as they like).
+** Removed "Language" because it is now in the Options.
+
+* Save
+** A better information card of the game being saved is now shown, which matches how it looks in the Load screen.
+** The last time you saved is displayed.
+** Multiple save files are supported. If you can have as many save files as you like, information about how each one relates to the current game being saved is displayed.
+
+* Options
+** The options have been split into multiple tabs.
+** The Speech Frame/Menu Frame options now only appear if there are multiple windowskins to choose from.
+** Added two new volume slider options: one that controls all audio and one just for Pokémon cries.
+** Added the option "Skip Move Learning" from Gen 9. It only applies to learning a move via levelling up, not via evolving.
+** Added the option "Language" which lets you change the language. Removed this from the Load screen.
+** Added the "Controls" tab where controls can be changed. A control can have exactly 1 keyboard key and 1 gamepad button assigned to it, in addition to any keys/buttons that are always assigned to that control which can't be changed.
+
+* Pokémon storage
+** Redesigned the left pane a little.
+** When choosing a box wallpaper, you can now see in real time what it will look like.
+* A selected Pokémon now has a red outline.
+** You can now quickly move held items between Pokémon. Pokémon not holding an item become semi-transparent.
+
+* Poké Mart
+** Items in the Poké Mart that are too expensive will colour their prices red.
+** Selling items now always shows how much money the player has, and also shows how much the selected item sells for without needing to try to sell it.
+
+* Some interactivity is now displayed as icons in the UI. The inputs that these icons relate to are shown in the Options.
+* Some commonly-used icons (type, damage category, status) now have their sizes written in constants so they can more easily be changed. (GameData::Type::ICON_SIZE for Graphics/UI/types.png, GameData::Status::ICON_SIZE for Graphics/UI/statuses.png, GameData::Move::CATEGORY_ICON_SIZE for Graphics/UI/category.png.)
+* Raised the maximum lengths of the player's name and Pokémon nicknames to 12 characters.
+* The text entry screen for naming the player/Pokémon/storage boxes now supports more characters.
+* The location signpost that appears when you enter a map can now use a graphic as its background rather than being just text in a box. It supports the styles from DP, Pt and HGSS. Settings DEFAULT_LOCATION_SIGN_GRAPHIC and LOCATION_SIGN_GRAPHIC_STYLES are related to this.
+* Added rules to Voltorb Flip.
+* Choice lists displayed by events and by pbMessage can now have text formatting. Added examples of this to the example NPC in the player's house that talks about choices.
+* When asking to use another Repel, you now have the option to quickly use the same item as last time, so you don't need to open the Bag to reuse it.
+* A windowskin can have its own pause_arrow graphic, if it is named "<windowskin name>_arrow.png" and is placed in Graphics/Windowskins/.
+
+== Animation Editor ==
+
+* Made a new battle animation editor, along with a new data format for its animations. This is entirely separate from the old animation editor (which still exists).
+* New animations are based on particles that move and change over time, rather than each frame being a snapshot of cels entirely unrelated to the next frame's snapshot. This means animations are smoother.
+* New animations are saved in PBS files in the subfolder Animations (and in any folders within that). They are compiled.
+* A move/common animation can have multiple separate animations for it. One will be chosen at random each time.
+* Made 12 animations using the new editor and format (so far).
+
+== Translations ==
+
+* Added various methods to class Translation that deal with localisation and translations. They cover date formats, thousands/decimal separators in numbers, length/weight measurement units, alternate versions of messages and whether a language uses whitespace to separate words.
+* In an extracted translation file, if a source line is written as "[F]Text", its translation will be used instead of the translation of "Text" if the player is female.
+* Added def pbOfThis and related methods to battle code to improve some translations.
+* Improved text wrapping for Chinese, Japanese and Korean text.
+
+== Input ==
+
+* The Special input, D by default, is no longer used.
+* Renamed Input::JUMPUP and Input::JUMPDOWN to Input::QUICK_UP and INPUT::QUICK_DOWN respectively.
+* The Ready Menu is now opened with the Jump Up (A) or Jump Down (S) inputs, rather than Special (D).
+* Disabled the input mapping window accessed via F1, because controls can now be set in the Options.
+
+== Overworld ==
+
+* Minor lag improvements to overworld animations.
+* Playing an overworld animation (such as via addUserAnimation) with a height of -1 will play it below the map (but above reflections). Useful for ripples in puddles.
+* Added water ripple animation when moving over puddles and still water.
+* An event with "airborne" in its name will not sink into tall grass (i.e. ignores the Bush flag of tiles), and will not make tall grass rustle or puddles/still water ripple when it moves over those tiles.
+* The animation shown when the player walks into an obstacle can now be interrupted by turning/moving in another direction. The animation is also slowed to reduce the spamming of the bump sound.
+* Added the Boolean constant PIXELLATE_CIRCLE to class DarknessSprite, which makes the darkness circle more pixellated to match the style of 16x16 pixel tiles.
+
+== Pokémon ==
+
+* Added Setting LEGENDARIES_HAVE_SOME_PERFECT_IVS that makes Legendary/Mythical/Ultra Beast Pokémon have at least 3 perfect IVs.
+* Added code to make wild Pokémon in the Safari Zone and Bug-Catching Contests reroll their IVs if they don't have a perfect one.
+* Removed the gender symbols from Nidoran's name when it's used as the name of a specific (non-nicknamed) Pokémon.
+* You can now use pkmn.isSpecies?(:BULBASAUR, :CHARMANDER, :SQUIRTLE...) to check if a Pokémon is any of the given species all at once.
+
+== Battle ==
+
+* Created battle rule "CertainCapture" which ensures that any attempt to capture a Pokémon is successful.
+* Refactored various battle rules.
+* Added Setting DEFAULT_WEATHER_AND_TERRAIN_CANNOT_BE_REPLACED.
+* Added Setting SHOW_MODIFIED_MOVE_PROPERTIES, which will make a move's displayed type/power/category/etc. be the calculated values of them rather than the values defined in moves.txt.
+* Added a PriorityChange handler for items.
+* The CriticalCalcFromX ability and item handlers now have the move as a parameter.
+* Added support for common animation "CriticalHitRateUp".
+* def pbSleep and def pbFreeze now have the battler inflicting the status problem as a parameter, for consistency with the other status problem-inflicting methods.
+* Refactored the code for throwing a Poké Ball in battle.
+* Tweaked the capture chance calculation, including a few new factors added in Gens 8/9 that are togglable in Settings.
+* Improved the code relating to tracking how held items are moved between Pokémon in battle, and removed item duplication tricks.
+* Added AI that makes a Pokémon with Wonder Guard not want to switch if it's immune to all damaging moves known by foes (unless it's about to faint from Perish Song or EOR damage).
+* You can now have Safari battles even if you don't have any Pokémon in your party.
+
+== Code ==
+
+* Added Setting ITEM_SELL_PRICE_DIVISOR which determines an item's default sell price relative to its buy price.
+* Both the used and unused versions of Pokémon-fusing items can now do both fusing and unfusing.
+* Increased the player's maximum money amount to $9,999,999.
+* Made Voltorb Flip board generation more accurate to HGSS.
+* Renamed BASICWALLPAPERQTY to BASIC_WALLPAPER_COUNT.
+* Rewrote Setting ROAMING_SPECIES and added a way to define a Town Map icon for a roamer.
+* Moved default battle BGM/ME names into Settings.
+* Removed Setting USE_CURRENT_REGION_DEX.
+* Added Setting DISABLE_STORING_IMPORTANT_ITEMS which prevents all important items (Key Items, HMs, TMs) being deposited into the PC.
+* Added $stats.primal_reversion_count.
+* Added $stats.wild_battles_fled.
+* Added $stats.pokemon_release_count.
+* Made some unhelpful error messages when compiling more helpful.
+* Added a descriptive error message if a trainer's back sprite doesn't exist but should.
+* Added a more descriptive error message if looking at the Trainer Card and the player doesn't have a front sprite.
+* Added script variables, i.e. Game Variables can now be named "s:pbSomething" and their value will be the result of def pbSomething.
+* Restored compatibility with mp3 files.
+* Updated the extracted scripts loader to make it only load .rb files, and to ignore any folders in the Data/Scripts/ folder whose name begin with ".".
+
+== PBS files ==
+
+* Rewrote all move, ability, item and Pokédex descriptions to ensure they fit into the spaces provided and to give them more modern wordings.
+* If an item doesn't have a description in the PBS file items.txt and it teaches a move, it will use the move's description instead.
+* Added item flag "CannotDeposit" which prevents an item being deposited into the PC.
+* Deleted the contest scarf items entirely.
+* Evolutions in pokemon.txt/pokemon_forms.txt are now written as multiple "Evolution =" lines instead of one "Evolutions =" line. "Evolutions =" with lots of evolutions in the same line still works, but is no longer preferred.
+* Added evolution methods LevelBattle, LevelCoins, Counter, AfterBattleCounter, AfterBattleCounterMakeReady, EventReady.
+* Removed evolution methods BattleDealCriticalHit, EventAfterDamageTaken.
+* Added form flag "EggInRegion_X", where X is a region number.
+* Added a Pokémon's level-up moveset level being negative meaning its move can only be learned from the Move Relearner.
+* Added the flag "NoName" for trainer types, which makes the trainer type's name (e.g. Camper, Hiker) not be added to the trainer's name.
+* Added "PokeBall" property for trainer types, which is the default type of Poké Ball that trainers of those types keep their Pokémon in.
+* Rewrote town_map.txt a little, and added some new properties (including PointSize for a region, and FlyIconOffset and HideFlyIcon for individual points). The Town Map Generator doesn't support this new format but still supports the old one.
+* Added support for putting "\v[42]" in a map's name (map metadata) and Town Map location names.
+* Added map metadata value "LocationSign", which is the filename of a graphic to use for the location sign that appears when entering the map.
+* Added map metadata flag "CertainCaptures" which makes all attempts to capture Pokémon in battles on that map succeed.
+* Added tile type of "wall_floor" in PBS file dungeon_tilesets.txt, used for floor tiles that are drawn beneath walls. If there is a wall_floor tile, and the floor tile is an autotile, the floor autotile will draw its edges next to the walls.
+
+== Other files ==
+
+* The Town Map Generator (formerly called townmapgen) now embeds its own graphics and is now just a single file. It has also been redesigned a little. It doesn't support the new format of the PBS file town_map.txt, but it still supports the old format.
+* Replaced the shortcut to the wiki.
+* Tweaked the narrow font to fix some spacing errors.
+* Updated mkxp-z.
+* Moved pause_arrow.png into Graphics/Windowskins/. Added a bunch of new windowskin pause arrows.
+* Changed the braille in the tile puzzle graphics.
+* Changed the SE played when a screenshot is taken to a camera click.
+* Screenshots taken with F8 are now saved to the "Screenshots" folder in the game folder, rather than in the same place as the save file.
+* Error log files now go into the game's folder rather than the save file folder.
+* Disabled the path cache to make startup faster. This means filenames are now case-sensitive.
+
+== Debug and Compiler ==
+
+* Added Setting PROMPT_TO_COMPILE that asks upon starting up the game whether you want to compile. No more trying to hold Ctrl upon startup is needed if you find that difficult.
+* Added Settings SKIP_TITLE_SCREEN and SKIP_CONTINUE_SCREEN which get you into a game more quickly when in Debug mode.
+* Made the Compiler code more modular, so it only automatically compiles what it needs to. It's also easier to add more things to compile.
+* PluginManager now automatically recompiles the plugins if the number of them has changed, or if any don't match the name and version of a plugin that was previously compiled (in addition to the old check of whether any script file was recently modified).
+* The Compiler now creates a map metadata entry for any map which doesn't have one.
+* Added an option in the party Debug menu to purify a Shadow Pokémon (regardless of its heart gauge).
+* You can now manually set a Pokémon form to any number (0-999) in its Debug menu even if that number isn't a defined form.
+
+
+
+######################################################################
+# Bug fixes
+######################################################################
+
+== UI ==
+
+* Fixed Pokédex not showing male/female options for species with gender differences, and showing them for species without.
+* Fixed error in the Pokédex when a map with encounters doesn't have MapPosition metadata.
+* Fixed the Exp bar still appearing in the summary screen for a Shadow Pokémon.
+* An egg's summary screen page now uses the Trainer Memo icon.
+* Fixed being able to rearrange moves in the summary screen during battle.
+* Fixed some unusable items (evolution stones, EV-altering items) showing in the Bag when accessing it from the party screen to use an item on the selected Pokémon.
+* Fixed being able to fly from the Town Map even if the Setting CAN_FLY_FROM_TOWN_MAP is false.
+* Fixed multiple Fly icons being shown in the Town Map over any location you can fly to which spans multiple points in the Town Map. This is fixed by being able to define in town_map.txt whether a flyable point will show its Fly icon, or how much its Fly icon should be offset.
+* Fused Pokémon can no longer be released from Pokémon storage.
+* Fixed mail going missing when attaching it to a Pokémon from the Mailbox.
+* Fixed setPrice/setSellPrice setting the incorrect sell price for an item.
+* You can no longer sell items with a sell price of $0.
+* Fixed location signpost not appearing properly after using Fly.
+* Fixed party size magic numbers in Load screen.
+* Fixed a crash when your Voltorb Flip level drops.
+* Fixed the player's sprite in the Duel minigame not taking the player's outfit into account.
+* Fixed line breaks making some messages (ones that have more than 2 lines to appear in) appear oddly at slow text speeds.
+* Fixed bug when displaying messages that use \wt or \wtnp at instant speed.
+* Fixed some UI messages having an empty line of text when they shouldn't.
+* Fixed <icon=something> at the end of a message not appearing.
+
+== Translations ==
+
+* Language files are now loaded properly even if the game is encrypted.
+* Fixed trying to load non-existent language files not reverting the messages to the default messages if other language files are already loaded.
+* Found some lines of text that weren't translatable, and made them so.
+
+== Overworld ==
+
+* Fixed weird player movement when jumping across a map connection.
+* Fixed being able to jump over a ledge the wrong way if it's on the edge of a connected map.
+* There is no longer a slight pause before moving in the direction you're already facing.
+* Fixed standing on an event preventing you from interacting with an event you're facing, if the one you're standing on has no event commands to be triggered.
+* Events now check whether only they are triggered after moving, not whether all events are.
+* Fixed events with an even width/height that approach the player shuffling back and forth endlessly in front of them.
+* Fixed an event's reflection not disappearing if its page is changed to one without a graphic.
+* Fixed incorrect layering of reflections in still water.
+* Fixed crash when a phone contact tries to call you while you're on a map with no map metadata.
+* Fixed berry plants not growing if they use the old growth mechanics.
+* Fixed triggering a trainer battle with a trainer who has an intro BGM immediately after ending surfing not playing the map's BGM after the battle.
+* Fixed the position property of animations in the Database not changing the position of the animation relative to the event/player that caused it. Doesn't apply to grass rustling/dust clouds after jumping.
+* Fixed overworld weather graphics not being shaded according to the time of day.
+
+== Battle ==
+
+* Fixed Metal Burst working even if its user's substitute took the damage it reflects, and made it able to target any Pokémon that hit it this round (most recent first; it tries a less recent Pokémon if the more recent one is no longer in battle).
+* Fixed Sky Drop being able to pick up a target that is too heavy or semi-invulnerable.
+* Fixed Pokémon being Sky Dropped becoming stuck in the sky if the Sky Dropper failed to attack after picking it up.
+* Fixed Struggle being unusable if the Pokémon is locked into a move via a Choice item/Gorilla Tactics.
+* Fixed Throat Chop's effect being inaccurate.
+* Made the effect of Whirlwind/Roar/Circle Throw/Dragon Tail more accurate to how they're supposed to work.
+* Fixed the damage SE played when being hit by a fixed damage move depending on the move's type effectiveness.
+* Fixed OHKO moves not being certain to hit if No Guard applies.
+* Fixed the self-confusion damage calculation. It is no longer affected by damage-altering abilities/items, and is now affected by natural damage variance.
+* Using a move via Dancer no longer resets the failure rate of Protect-type moves.
+* The data box in battle now refreshes when its Pokémon's illusion is broken.
+* Fixed Magnet Pull working on distant battlers.
+* Fixed Pickpocket being triggered by the charging turn of a two turn attack.
+* Shield Dust no longer prevents additional effects that affect the move's user, e.g. Flame Charge.
+* Fixed abilities triggering twice when a Pokémon with Neutralizing Gas faints and is switched out.
+* Fixed some abilities showing their splash animation even if they're prevented from working.
+* Fixed Focus Band and affection only protecting against KOs when the holder was at full HP.
+* Fixed Micle Berry not working.
+* Fixed items like X Attack opening the party screen upon trying to use them even if the game says it will have no effect.
+* Fixed type-resisting berries applying to more than just one hit.
+* Fixed error relating to type-resisting berries and moves called by another move.
+* Fixed type-resisting berries being consumable even if Unnerve applies.
+* Moves that fail will fail because of semi-invulnerability before failing due to other immunities/effects.
+* Fixed Cramorant's form not reverting after coughing up its Gulp Missile.
+* You no longer get the option to run from a wild battle at the end of a turn if one of your Pokémon fainted but you also have any Pokémon still in battle.
+* Fixed being able to bypass a caught wild Pokémon being forced into the player's party.
+* You can no longer send a Pokémon with the cannot_store property to storage if you are trying to add a newly-caught Pokémon to your party when it's full.
+* Fixed partner trainers defined with Bag items not having them.
+* Fixed wild and NPC trainers' Pokémon not using their "getForm" handler to determine their form if they have that handler.
+* Fixed long messages in battle not appearing/lingering properly, especially when making them appear faster by pressing Use/Back.
+* Fixed message spam in battle if the default weather is a primordial weather.
+* Fixed the Pokédex not registering Pokémon in Safari battles as seen/owned.
+
+== Battle AI ==
+
+* Fixed AI always switching Pokémon due to unusable moves if the Pokémon is asleep or frozen.
+* Fixed the AI thinking it will take End of Round damage when it won't, and switching because of that.
+* Fixed the AI wanting to trigger a target's ability/item instead of not wanting to.
+* Fixed AI bug when it has Flame Burst and it could deal extra damage to a target's ally.
+* Fixed the AI thinking Wonder Guard provides immunity to all damaging moves, not just ones that aren't super effective.
+
+== PBS files ==
+
+* Fixed Mega Scizor's stats.
+* Wicked Blow and Surging Strikes are now correctly classed as punching moves.
+* Fixed Big Nugget's Fling power in Gen 8.
+
+== Debug and Compiler ==
+
+* Fixed some Debug text.
+* Fixed bug with writing some values to PBS files.
+* Fixed being unable to write values to PBS files that were enumerated to something other than a number.
+* Fixed the Compiler writing of trainers.txt deleting all the predefined Pokémon genders.
+* Fixed bad conversion of old phone data in an old save file.
+* Prevented a second error message showing if the Compiler crashes.
+
+== Code ==
+
+* Fixed class PngAnimatedBitmap animating slowly.
+* Fixed error when raising an error due to badly defined type.
+* Fixed being unable to replace a NamedEvent.
+* Error messages that occur while running a Script event command now show the map's name as the RMXP map's name rather than the map metadata's name.
+* Fixed Fluctuating growth rate's equation for levels above 100.
+* Fixed a version number like 1.10 being considered lower than 1.9.
+* Fixed def seen_forms_count not returning the correct number.
+* Fixed Rotom Catalog not being able to set its original form.
+* Fixed evolutions that require a trade for another species not working.
+
+== Random map generator ==
+
+* Fixed random map generator using an autotile as the floor putting seams randomly and around floor decorations.
+* Fixed random map generator's large floor/void decorations having each corner not necessarily being from the same decoration object.
+* Fixed random map generator's large floor/void decorations not being drawn properly if they're autotiles.
+* Fixed random map generator's floor patches being randomised per tile instead of per patch.
+* Fixed random map generator placing events on non-passable tiles.
+
+== Other ==
+
+* Fixed starting a new game using a BGM played by the Jukebox from a save file.
+* When a Pokémon is released, its held item is now put in the Bag instead of being lost.
+* Fixed the evolution method LevelDarkInParty counting the Pokémon trying to evolve if it's Dark-type.
+* Fixed the Prison Bottle not working on Hoopa the first time.
+* Happiness gain from grooming and massages is no longer affected by Luxury Ball/Soothe Bell.
+* Removed Swarm affecting the encounter rate.
+* Fixed def pbResetAllRoamers resetting the wrong roaming Pokémon.
