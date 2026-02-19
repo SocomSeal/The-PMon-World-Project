@@ -1,0 +1,57 @@
+Core Systems
+- Add 'debug' scripts for the regional storage merge functions. Currently, there is no way to proceed if a player (somehow) has a full storage when these are triggered
+- Define wild pokemon held items past gen 1
+- Dynamax and tera plugin settings (verify these are correct)
+- Update Follower plugin to include gen 9 data (low prio, fix in v22?)
+- Roamers? (v22, if ever)
+- You can't do trade evolutions where you need to trade a mon for a mon, such as karablast (fixed in v22)
+- TM black market event is hardcoded to not allow numbers above 360 (how to make dynamic?)
+	- Add ability to trade in duplicate TMs to black market for credit
+KANTO
+- Gamefreak diploma NPC is currently hard coded instead of calling for each number of species in a dex dynamically
+
+
+Feature Complete
+- Respawning item systems e.g. berries in berry forest, beach items
+- Redefine trainer classes and give proper money reward values
+- Trainer rematches/phone system
+- Seafoam Island boulder puzzle
+- Sprites for key items (everything after OldSeaMap in PBS)
+- TMs need descriptions (fixed in v22?)
+- All mail item functionality is missing
+KANTO
+- Teachy TV tutorial is nonfunctional
+- Selphy's requests are not coded
+- Missing functionality for Saffron Fan Club, Berry powder guy, badge description guy in cerulean, Sticker npc on four island, heracross measurer on six island, magikarp guy on route 12
+- Lavender Tower ghost system unimplemented; an NPC stopgap is in place for now
+- Some TMs and items are unobtainable due to generational differences - i.e., TM07 Horn Drill can't be obtained as it was replaced in the gen 3 celadon mart, protector has no sources as this is not gen 4 kanto, etc.
+	- Changes to canon content should be kept minimal when solving this issue
+	- Items should be held by wild pokemon that can evolve using them, i.e. Protector on Rhyhorn/Rhydon, Magmarizer on Magmar, etc.
+	- Exceptions should be made at best judgement and must fit established lore, I.e., the Up-Grade for Porygon was moved to Silph Co. from the Rocket Warehouse, with the Dubious Disc replacing the spawn in the Rocket Warehouse
+
+Cosmetic
+- Standardize all maps with proper tilesets
+- Special NPCs need proper overworld sprites i.e. Ariana and Archer
+- Sprites for animated trainer intros
+- Add proper VS sprites
+- Custom title screen, credits images
+- "Wading" tiles do not properly function
+- Missing sound effect for spin tiles
+- Camera flicker with spin tiles
+- No arriving animations for warp tiles, fall through holes
+KANTO
+- Events that display a pokemon image need to be fixed. Intro cutscene (move events too), fuchsia zoo, pallet town starters, ss anne snorlax guy, other gifts, etc
+	- Intro cutscene does not have the Nidoran coming out of a pokeball animation while Oak remains loaded
+- No Fame Checker in Cerulean; most fame checker lore events are missing around the world.
+- Missing info on Bill's PC in his cottage (Can usually see Eeveelutions)
+- Missing animation for Hall of Fame machine
+- Stopgap Tri-Pass cutscene is in place
+- Bill teleporter cutscene is placeholder (verify, may be finalized)
+- Intro BGM is not looped properly
+- Missing light effects in E4
+- Missing animations for Seagallop Ferry
+
+
+Inconsequential
+- Lore text on computer and other objects allow for omnidirectional reading
+- Missing blackboard text on celadon mansion rooftop explaining game mechanics (replaced by status blackboard)
