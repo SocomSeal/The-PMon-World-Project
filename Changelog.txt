@@ -27,21 +27,12 @@ Plugin script for gen 9 project General > Pokemon - define Hisui region as id 51
 Plugin settings for dynamax and terastal - switches
 Plugin scripts for bag with interactable party screen to add page jumping functionality, cloning jumpup and jumpdown from elsif block (line 72/92) into if block above (line 32 to 51)
 Plugin scripts for bag with interactable party screen to add multiple item use at once (line 1717 to 1724) as well as item handlers in terastalization plugin (line 196 to 203)
-Script section Game_Stats - Line 139-140, initialize @times_to_enter_hall_of_fame as an array
-Script section Game_Stats - Line 169-175, def set_time_to_hall_of_fame(number)
+Script section Game_Stats - Line 139-140, disable @time_to_enter_hall_of_fame, initialize @times_to_enter_hall_of_fame as an array
+Script section Game_Stats - Line 170-176, disable def set_time_to_hall_of_fame, add def set_time_to_hall_of_fame(number)
+Script section UI_HallOfFame - Line 248, totalsec = $stats.times_to_enter_hall_of_fame[pbGet(50)].to_i
 Script section PokemonStorage - Line 402-423, def pbEachPokemonEx and def pbMergeStorage(storageDst, storageSrc)
-Multidisc Scripts (Main, many edits, see thread)
-Additional Multidisc edits - sprintf("Data/Map%03d.rxdata", to sprintf("Data/%sMap%03d.rxdata", $game_system.disc,
-	ONLY CHANGE LISTED
-	Script section StartGame - Line 13
-	Script section Scene_Map - Line 60
-	Script section Game_Map - Line 48
-	Script section Game_MapFactory - Line 455
-	Script section TileDrawingHelper - Line 165, Line 212
-	Script section Overworld_MapTransitionAnims - Line 108
-	Script section Compiler_CompilePBS - Line 118, Line 120
-	Script section Compiler_MapsAndEvents - Line 312
-	Script section Main - Line 17, Line 98
+Multidisc Scripts (See forum thread or documentation)
+
 	
 	
 Encounters PBS
