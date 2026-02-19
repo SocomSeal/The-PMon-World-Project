@@ -1,0 +1,24 @@
+What to push to Main without exception? If you edit:
+- Map Data Files
+- encounters PBS
+- map_connections PBS
+- map_metadata PBS
+
+The region's project MUST be compiled, and you MUST commit these things to Main, in the relevant Data\disc# folder
+- Maps
+- encounters.dat
+- map_connections.dat
+- map_metadata.dat
+
+
+If you edit:
+- System settings
+- Scripts
+- Plugins
+- Sprites or other graphics
+- Audio files
+- PBS files
+- Any other 'global' data
+
+Then you MUST ensure that your changes are properly commited to Main AND other region branches. Otherwise projects will desync.
+It is far easier to make global changes on Main so that all branches can pull them.
