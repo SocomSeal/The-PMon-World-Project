@@ -5,3 +5,15 @@ Name = Intro
 #-------------------------------
 [002]   # Region Transfer Map
 Name = Region Transfer Map
+#-------------------------------
+[007]   # Littleroot Town
+Name = Littleroot Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[012]   # PLACEHOLDER Route101
+Name = Route 101
+Outdoor = true
+ShowArea = true
+Bicycle = true

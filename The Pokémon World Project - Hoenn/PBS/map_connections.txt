@@ -1,2 +1,4 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+# Littleroot Town (7) - PLACEHOLDER Route101 (12)
+7,North,8,12,South,0
