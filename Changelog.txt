@@ -30,6 +30,20 @@ Plugin scripts for bag with interactable party screen to add multiple item use a
 Script section Game_Stats - Line 139-140, initialize @times_to_enter_hall_of_fame as an array
 Script section Game_Stats - Line 169-175, def set_time_to_hall_of_fame(number)
 Script section PokemonStorage - Line 402-423, def pbEachPokemonEx and def pbMergeStorage(storageDst, storageSrc)
+Multidisc Scripts (Main, many edits, see thread)
+Additional Multidisc edits - sprintf("Data/Map%03d.rxdata", to sprintf("Data/%sMap%03d.rxdata", $game_system.disc,
+	ONLY CHANGE LISTED
+	Script section StartGame - Line 13
+	Script section Scene_Map - Line 60
+	Script section Game_Map - Line 48
+	Script section Game_MapFactory - Line 455
+	Script section TileDrawingHelper - Line 165, Line 212
+	Script section Overworld_MapTransitionAnims - Line 108
+	Script section Compiler_CompilePBS - Line 118, Line 120
+	Script section Compiler_MapsAndEvents - Line 312
+	Script section Main - Line 17, Line 98
+	
+	
 Encounters PBS
 Map Connections PBS
 Map Metadata PBS
@@ -42,7 +56,7 @@ Pokemon Forms PBS
 Items PBS
 Database (F9) System section - Title BGM
 
-Multidisc Scripts (Main, many edits, see thread)
+
 
 Known issues:
 -Lore text on computer and other objects allow for omnidirectional reading
