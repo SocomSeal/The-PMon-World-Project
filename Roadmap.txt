@@ -20,6 +20,37 @@ Roadmap/TODO for V1.0:
 - Roamers? (v22, if ever)
 
 
+
 V1.1
 - Get multiple region scripts working
 - Begin work on the next region
+
+
+
+
+
+Known issues:
+-Lore text on computer and other objects allow for omnidirectional reading
+-"Wading" tiles do not properly function
+-Missing sound effect for spin tiles
+-Camera flicker with spin tiles
+-No arriving animations for warp tiles, fall through holes
+-All mail item functionality is missing
+-You can't do trade evolutions where you need to trade a mon for a mon, such as karablast (fixed in v22)
+KANTO
+-No Fame Checker in Cerulean; most fame checker lore events are missing around the world.
+-Teachy TV tutorial is nonfunctional
+-Missing functionality for Saffron Fan Club, Berry powder guy, badge description guy in cerulean, Sticker npc on four island, heracross measurer on six island, magikarp guy on route 12
+-Selphy's requests are not coded
+-Missing info on Bill's PC in his cottage (Can usually see Eeveelutions)
+-Lavender Tower ghost system unimplemented; an NPC stopgap is in place for now
+-Missing blackboard text on celadon mansion rooftop explaining game mechanics (replaced by status blackboard)
+-Missing animation for Hall of Fame machine
+-Stopgap Tri-Pass cutscene is in place
+-Bill teleporter cutscene is placeholder
+-Intro cutscene does not have the Nidoran coming out of a pokeball animation, and the Nidoran is misplaced
+-Intro BGM is not looped properly
+-Some TMs and items are unobtainable due to generational differences - i.e., TM07 Horn Drill can't be obtained as it was replaced in the gen 3 celadon mart, protector has no sources as this is not gen 4 kanto, etc.
+-Gamefreak diploma NPC is currently hard coded instead of calling for each number of species in a dex dynamically
+-Missing light effects in E4
+-Missing animations for Seagallop Ferry

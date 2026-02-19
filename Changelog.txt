@@ -32,12 +32,11 @@ Script section Game_Stats - Line 170-176, disable def set_time_to_hall_of_fame, 
 Script section UI_HallOfFame - Line 248, totalsec = $stats.times_to_enter_hall_of_fame[pbGet(50)].to_i
 Script section PokemonStorage - Line 402-423, def pbEachPokemonEx and def pbMergeStorage(storageDst, storageSrc)
 Multidisc Scripts (See forum thread or documentation)
-
 	
 	
-Encounters PBS
-Map Connections PBS
-Map Metadata PBS
+Encounters PBS (per region as .dat)
+Map Connections PBS (per region as .dat)
+Map Metadata PBS (per region as .dat)
 Trainers PBS
 Town Map PBS
 Regional Dexes PBS
@@ -46,30 +45,3 @@ Pokemon PBS
 Pokemon Forms PBS
 Items PBS
 Database (F9) System section - Title BGM
-
-
-
-Known issues:
--Lore text on computer and other objects allow for omnidirectional reading
--No Fame Checker in Cerulean; most fame checker lore events are missing around the world.
--Teachy TV tutorial is nonfunctional
--Missing functionality for Saffron Fan Club, Berry powder guy, badge description guy in cerulean, Sticker npc on four island, heracross measurer on six island, magikarp guy on route 12
--Selphy's requests are not coded
--Missing info on Bill's PC in his cottage (Can usually see Eeveelutions)
--Lavender Tower ghost system unimplemented; an NPC stopgap is in place for now
--Missing sound effect for spin tiles
--Missing blackboard text on celadon mansion rooftop explaining game mechanics (replaced by status blackboard)
--Camera flicker with spin tiles
--No arriving animations for warp tiles, fall through holes
--Missing animation for Hall of Fame machine
--Stopgap Tri-Pass cutscene is in place
--Bill teleporter cutscene is placeholder
--Intro cutscene does not have the Nidoran coming out of a pokeball animation, and the Nidoran is misplaced
--Intro BGM is not looped properly
--Some TMs and items are unobtainable due to generational differences - i.e., TM07 Horn Drill can't be obtained as it was replaced in the gen 3 celadon mart, protector has no sources as this is not gen 4 kanto, etc.
--All mail item functionality
--Gamefreak diploma NPC is currently hard coded instead of calling for each number of species in a dex dynamically
--You can't do trade evolutions where you need to trade a mon for a mon, such as karablast
--Missing light effects in E4
--"Wading" tiles do not properly function
--Missing animations for Seagallop Ferry
