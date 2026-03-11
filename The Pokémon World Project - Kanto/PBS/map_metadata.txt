@@ -1127,55 +1127,55 @@ Outdoor = true
 ShowArea = true
 MapPosition = 101,6,6
 #-------------------------------
-[246]   # Mt. Ember 1F
+[246]   # Mt. Ember Summit 1F
 Name = Mt. Ember 1F
 ShowArea = true
 Bicycle = true
 MapPosition = 101,6,6
 #-------------------------------
-[247]   # Mt. Ember 2F
+[247]   # Mt. Ember Summit 2F
 Name = Mt. Ember 2F
 ShowArea = true
 Bicycle = true
 MapPosition = 101,6,6
 #-------------------------------
-[248]   # Mt. Ember 3F
+[248]   # Mt. Ember Summit 3F
 Name = Mt. Ember 3F
 ShowArea = true
 Bicycle = true
 MapPosition = 101,6,6
 #-------------------------------
-[249]   # Mt. Ember 1F
+[249]   # Mt. Ember Ruby 1F
 Name = Mt. Ember 1F
 ShowArea = true
 Bicycle = true
 MapPosition = 101,6,6
 #-------------------------------
-[250]   # Mt. Ember B1F
+[250]   # Mt. Ember Ruby B1F
 Name = Mt. Ember B1F
 ShowArea = true
 Bicycle = true
 MapPosition = 101,6,6
 #-------------------------------
-[251]   # Mt. Ember B2F
+[251]   # Mt. Ember Ruby B2F
 Name = Mt. Ember B2F
 ShowArea = true
 Bicycle = true
 MapPosition = 101,6,6
 #-------------------------------
-[252]   # Mt. Ember B3F
+[252]   # Mt. Ember Ruby B3F
 Name = Mt. Ember B3F
 ShowArea = true
 Bicycle = true
 MapPosition = 101,6,6
 #-------------------------------
-[253]   # Mt. Ember B4F
+[253]   # Mt. Ember Ruby B4F
 Name = Mt. Ember B4F
 ShowArea = true
 Bicycle = true
 MapPosition = 101,6,6
 #-------------------------------
-[254]   # Mt. Ember B5F
+[254]   # Mt. Ember Ruby B5F
 Name = Mt. Ember B5F
 ShowArea = true
 Bicycle = true
