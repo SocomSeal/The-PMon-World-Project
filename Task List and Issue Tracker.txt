@@ -7,6 +7,7 @@ Core Systems
 - You can't do trade evolutions where you need to trade a mon for a mon, such as karablast (fixed in v22)
 - TM black market event is hardcoded to not allow numbers above 360 (how to make dynamic?)
 	- Add ability to trade in duplicate TMs to black market for credit
+- Implement better spinners? Turn to player when they run?
 KANTO
 - Gamefreak diploma NPC is currently hard coded instead of calling for each number of species in a dex dynamically
 
@@ -51,12 +52,12 @@ KANTO
 - Missing light effects in E4
 - Missing animations for Seagallop Ferry
 HOENN
-- Various tiles are not "complete" as faithful recreations, e.g. fences, path inner corners, flower shop planter boxes, cave ledges
+- Various tiles are not "complete" as faithful recreations, e.g. fences, path inner corners, flower shop planter boxes, cave ledges, rusturf tunnel cave exits
 - Fortree shadows are missing
 - Fortree bridges don't have bobbing animations when walked on
 - Pacifidlog bridges don't have bobbing animations when walked on (Current implementation has z-fighting issues)
 - Animated large water rocks are using the HGSS Gen 3 sprite instead of a proper RSE (RSE_Water Rock Large1 needs to have its texture updated, and HGSS_Water Rock Large3 needs the same texture update as well as a name change to RSE_xx2)
-- Tilesets need color correction - i.e. Lilycove Department textures are desaturated
+- Tilesets need color correction - i.e. Lilycove Department textures are desaturated, this is a recurring issue with the Hoenn asset pack used. All tilesets must be corrected using properly ripped tiles.
 
 
 Inconsequential
