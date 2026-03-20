@@ -52,12 +52,13 @@ KANTO
 - Missing light effects in E4
 - Missing animations for Seagallop Ferry
 HOENN
-- Various tiles are not "complete" as faithful recreations, e.g. fences, path inner corners, flower shop planter boxes, cave ledges, rusturf tunnel cave exits, Mirage Tower
+- Various tiles are not "complete" as faithful recreations, e.g. fences, path inner corners, flower shop planter boxes, cave ledges, rusturf tunnel cave exits, Mirage Tower, MT. Chimney Caldera, Meteor Falls ledges
 - Fortree shadows are missing
 - Fortree bridges don't have bobbing animations when walked on
 - Pacifidlog bridges don't have bobbing animations when walked on (Current implementation has z-fighting issues)
 - Animated large water rocks are using the HGSS Gen 3 sprite instead of a proper RSE (RSE_Water Rock Large1 needs to have its texture updated, and HGSS_Water Rock Large3 needs the same texture update as well as a name change to RSE_xx2)
 - Tilesets need color correction - i.e. Lilycove Department textures are desaturated, this is a recurring issue with the Hoenn asset pack used. All tilesets must be corrected using properly ripped tiles.
+- No ORAS music exists for the Magma Hideout or the Game Corner
 
 
 Inconsequential
