@@ -3889,7 +3889,6 @@ Pokemon = SMEARGLE,50
 LoseText = I'm not much good in battle.
 Pokemon = GEODUDE,48
 Pokemon = GRAVELER,48
-<<<<<<< Updated upstream
 Pokemon = GRAVELER,48
 =======
 Pokemon = GRAVELER,48
@@ -4175,4 +4174,3 @@ LoseText = I’d rather pet my Pokémon than battle!
 Pokemon = POLIWHIRL,28
 #-------------------------------
 #-------------------------------
->>>>>>> Stashed changes
