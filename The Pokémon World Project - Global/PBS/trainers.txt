@@ -3889,4 +3889,290 @@ Pokemon = SMEARGLE,50
 LoseText = I'm not much good in battle.
 Pokemon = GEODUDE,48
 Pokemon = GRAVELER,48
+<<<<<<< Updated upstream
 Pokemon = GRAVELER,48
+=======
+Pokemon = GRAVELER,48
+#-------------------------------
+# HGSS Trainers
+#-------------------------------
+# Route 29 [No Trainers]
+#-------------------------------
+# Cherrygrove City
+#-------------------------------
+[HGSS_RIVAL,Passerby Boy]
+LoseText = ...Humph! Are you happy you won?
+Pokemon = CHIKORITA,5
+	Gender = male
+#-------------------------------
+[HGSS_RIVAL,Passerby Boy,1]
+LoseText = ...Humph! Are you happy you won?
+Pokemon = CYNDAQUIL,5
+	Gender = male
+#-------------------------------
+[HGSS_RIVAL,Passerby Boy,2]
+LoseText = ...Humph! Are you happy you won?
+Pokemon = TOTODILE,5
+	Gender = male
+#-------------------------------
+# Route 30
+#-------------------------------
+[HGSS_YOUNGSTER,Joey]
+LoseText = Oh... I'm out of Pokémon that can fight.
+Pokemon = RATTATA,4
+#-------------------------------
+[HGSS_YOUNGSTER,Joey,1]
+LoseText = Oh... I'm out of Pokémon that can fight.
+Pokemon = RATICATE,34
+#-------------------------------
+[HGSS_YOUNGSTER,Joey,2]
+LoseText = Oh... I'm out of Pokémon that can fight.
+Pokemon = RATICATE,40
+#-------------------------------
+[HGSS_YOUNGSTER,Joey,3]
+LoseText = Oh... I'm out of Pokémon that can fight.
+Pokemon = RATICATE,54
+#-------------------------------
+[HGSS_YOUNGSTER,Mikey]
+LoseText = That's strange. I won before.
+Pokemon = PIDGEY,2
+Pokemon = RATTATA,4
+#-------------------------------
+[HGSS_BUG_CATCHER,Don]
+LoseText = Argh! You're too strong!
+Pokemon = CATERPIE,3
+Pokemon = CATERPIE,3
+#-------------------------------
+# Route 31
+#-------------------------------
+[HGSS_BUG_CATCHER,Wade]
+LoseText = Awwwww...
+Pokemon = CATERPIE,2
+Pokemon = CATERPIE,2
+Pokemon = CATERPIE,2
+Pokemon = WEEDLE,3
+#-------------------------------
+[HGSS_BUG_CATCHER,Wade,1]
+LoseText = Awwwww...
+Pokemon = METAPOD,18
+Pokemon = METAPOD,18
+Pokemon = KAKUNA,22
+Pokemon = BUTTERFREE,29
+#-------------------------------
+[HGSS_BUG_CATCHER,Wade,2]
+LoseText = Awwwww...
+Pokemon = BUTTERFREE,28
+Pokemon = BUTTERFREE,28
+Pokemon = BEEDRILL,37
+Pokemon = BUTTERFREE,40
+#-------------------------------
+[HGSS_BUG_CATCHER,Wade,3]
+LoseText = Placeholder
+Pokemon = BUTTERFREE,36
+Pokemon = BUTTERFREE,36
+Pokemon = BEEDRILL,43
+Pokemon = BUTTERFREE,52
+#-------------------------------
+# Dark Cave [No Trainers]
+#-------------------------------
+# Sprout Tower
+#-------------------------------
+[HGSS_SAGE,Nico]
+LoseText = I fought hard, but I'm too weak.
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+#-------------------------------
+[HGSS_SAGE,Chow]
+LoseText = Th-thank you!
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+#-------------------------------
+[HGSS_SAGE,Edmond]
+LoseText = I tried to copy BELLSPROUT's gentle movements for battle... but I didn't train well enough.
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+Pokemon = BELLSPROUT,3
+#-------------------------------
+[HGSS_SAGE,Jin]
+LoseText = This little squirt made me hurt!
+Pokemon = BELLSPROUT,6
+#-------------------------------
+[HGSS_SAGE,Neal]
+LoseText = It is my head that is bright!
+Pokemon = BELLSPROUT,6
+#-------------------------------
+[HGSS_SAGE,Troy]
+LoseText = Yes, your trust is real!
+Pokemon = BELLSPROUT,7
+Pokemon = HOOTHOOT,7
+#-------------------------------
+[HGSS_ELDER,Li]
+LoseText = Ah, excellent!
+Pokemon = BELLSPROUT,7
+	Moves = VINEWHIP,GROWTH
+Pokemon = BELLSPROUT,7
+	Moves = VINEWHIP,GROWTH
+Pokemon = HOOTHOOT,7
+	Moves = VINEWHIP,GROWTH
+#-------------------------------
+# Violet City
+#-------------------------------
+[HGSS_BIRD_KEEPER,Abe]
+LoseText = This can't be true!
+Pokemon = SPEAROW,9
+#-------------------------------
+[HGSS_BIRD_KEEPER,Rod]
+LoseText = Gaaah!
+Pokemon = PIDGEY,7
+Pokemon = PIDGEY,7
+#-------------------------------
+[HGSS_GYM_LEADER,Falkner]
+LoseText = I understand... I'll bow out gracefully.
+Pokemon = PIDGEY,9
+	Moves = TACKLE, SANDATTACK
+Pokemon = PIDGEOTTO,13
+	Moves = TACKLE, ROOST, GUST
+#-------------------------------
+# Route 32
+#-------------------------------
+[HGSS_YOUNGSTER,Albert]
+LoseText = You're strong!
+Pokemon = RATTATA,6
+Pokemon = ZUBAT,8
+#-------------------------------
+[HGSS_PICNICKER,Liz]
+LoseText = Pfft. Before I could get serious, I lost!
+Pokemon = NIDORANfE,8
+#-------------------------------
+[HGSS_PICNICKER,Liz,1]
+LoseText = Pfft. Before I could get serious, I lost!
+Pokemon = WEEPINBELL,35
+Pokemon = NIDORINA,38
+#-------------------------------
+[HGSS_PICNICKER,Liz,2]
+LoseText = Pfft. Before I could get serious, I lost!
+Pokemon = WEEPINBELL,39
+Pokemon = NIDORINO,38
+Pokemon = NIDORINA,40
+#-------------------------------
+[HGSS_PICNICKER,Liz,3]
+LoseText = Pfft. Before I could get serious, I lost!
+Pokemon = WEEPINBELL,47
+Pokemon = NIDOKING,58
+Pokemon = NIDOQUEEN,60
+#-------------------------------
+[HGSS_CAMPER,Roland]
+LoseText = Hmmm. This is disappointing.
+Pokemon = NIDORANmA,9
+#-------------------------------
+[HGSS_FISHERMAN,Henry]
+LoseText = Splash?
+Pokemon = POLIWAG,8
+Pokemon = POLIWAG,8
+#-------------------------------
+[HGSS_FISHERMAN,Justin]
+LoseText = Sploosh!
+Pokemon = MAGIKARP,5
+Pokemon = MAGIKARP,5
+Pokemon = MAGIKARP,15
+Pokemon = MAGIKARP,5
+#-------------------------------
+[HGSS_FISHERMAN,Ralph]
+LoseText = Tch! I tried to rush things...
+Pokemon = GOLDEEN,10
+#-------------------------------
+[HGSS_FISHERMAN,Ralph,1]
+LoseText = Tch! I tried to rush things...
+Pokemon = SEAKING,40
+#-------------------------------
+[HGSS_FISHERMAN,Ralph,2]
+LoseText = Tch! I tried to rush things...
+Pokemon = QWILFISH,45
+Pokemon = SEAKING,42
+#-------------------------------
+[HGSS_FISHERMAN,Ralph,3]
+LoseText = Tch! I tried to rush things...
+Pokemon = QWILFISH,53
+Pokemon = SEAKING,56
+#-------------------------------
+[HGSS_YOUNGSTER,Gordon]
+LoseText = Shucks. I thought I could win.
+Pokemon = WOOPER,10
+#-------------------------------
+[HGSS_BIRD_KEEPER,Peter]
+LoseText = I know what my weaknesses are.
+Pokemon = PIDGEY,6
+Pokemon = PIDGEY,6
+Pokemon = SPEAROW,8
+#-------------------------------
+# Ruins of Alph
+#-------------------------------
+[HGSS_PSYCHIC,Nathan]
+LoseText = ...
+Pokemon = GIRAFARIG,26
+#-------------------------------
+# Union Cave
+#-------------------------------
+[HGSS_FIREBREATHER,Ray]
+LoseText = FLASH!
+Pokemon = VULPIX,9
+#-------------------------------
+[HGSS_HIKER,Daniel]
+LoseText = Whoa! I'm beaten big time!
+Pokemon = ONIX,11
+#-------------------------------
+[HGSS_HIKER,Russel]
+LoseText = Oh, oh, oh!
+Pokemon = GEODUDE,4
+Pokemon = GEODUDE,6
+Pokemon = GEODUDE,8
+#-------------------------------
+[HGSS_FIREBREATHER,Bill]
+LoseText = I flamed out!
+Pokemon = KOFFING,6
+Pokemon = KOFFING,6
+#-------------------------------
+[HGSS_POKEMANIAC,Larry]
+LoseText = Ugh. My poor Pokémon...
+Pokemon = SLOWPOKE,11
+#-------------------------------
+[HGSS_HIKER,Leonard]
+LoseText = Wa ha ha! You're a feisty one!
+Pokemon = GEODUDE,23
+Pokemon = MACHOP,25
+#-------------------------------
+[HGSS_HIKER,Phillip]
+LoseText = Uurggh...
+Pokemon = GEODUDE,23
+Pokemon = GRAVELER,23
+#-------------------------------
+[HGSS_POKEMANIAC,Andrew]
+LoseText = Go... Go away!
+Pokemon = MAROWAK,24
+Pokemon = MAROWAK,24
+#-------------------------------
+[HGSS_POKEMANIAC,Calvin]
+LoseText = I'm the one who learned something from your demonstration!
+Pokemon = KANGASKHAN,26
+#-------------------------------
+[HGSS_ACETRAINER,Nick]
+LoseText = You've got dazzling style!
+Pokemon = CHARMANDER,26
+Pokemon = SQUIRTLE,26
+Pokemon = BULBASAUR,26
+#-------------------------------
+[HGSS_ACETRAINER,Gwen]
+LoseText = Aww, no! You're too good for me.
+Pokemon = EEVEE,26
+Pokemon = VAPOREON,22
+Pokemon = FLAREON,22
+Pokemon = JOLTEON,22
+#-------------------------------
+[HGSS_ACETRAINER,Emma]
+LoseText = I’d rather pet my Pokémon than battle! 
+Pokemon = POLIWHIRL,28
+#-------------------------------
+#-------------------------------
+>>>>>>> Stashed changes
