@@ -4016,7 +4016,9 @@ Pokemon = BELLSPROUT,7
 Pokemon = HOOTHOOT,7
 	Moves = VINEWHIP,GROWTH
 #-------------------------------
-# Violet City
+# Violet City [No Trainers]
+#-------------------------------
+# Violet City Gym
 #-------------------------------
 [HGSS_BIRD_KEEPER,Abe]
 LoseText = This can't be true!
@@ -4027,7 +4029,7 @@ LoseText = Gaaah!
 Pokemon = PIDGEY,7
 Pokemon = PIDGEY,7
 #-------------------------------
-[HGSS_GYM_LEADER,Falkner]
+[HGSS_LEADER,Falkner]
 LoseText = I understand... I'll bow out gracefully.
 Pokemon = PIDGEY,9
 	Moves = TACKLE, SANDATTACK
@@ -4108,7 +4110,7 @@ Pokemon = SPEAROW,8
 #-------------------------------
 # Ruins of Alph
 #-------------------------------
-[HGSS_PSYCHIC,Nathan]
+[HGSS_PSYCHIC_M,Nathan]
 LoseText = ...
 Pokemon = GIRAFARIG,26
 #-------------------------------
@@ -4156,21 +4158,132 @@ Pokemon = MAROWAK,24
 LoseText = I'm the one who learned something from your demonstration!
 Pokemon = KANGASKHAN,26
 #-------------------------------
-[HGSS_ACETRAINER,Nick]
+[HGSS_ACETRAINER_M,Nick]
 LoseText = You've got dazzling style!
 Pokemon = CHARMANDER,26
 Pokemon = SQUIRTLE,26
 Pokemon = BULBASAUR,26
 #-------------------------------
-[HGSS_ACETRAINER,Gwen]
+[HGSS_ACETRAINER_F,Gwen]
 LoseText = Aww, no! You're too good for me.
 Pokemon = EEVEE,26
 Pokemon = VAPOREON,22
 Pokemon = FLAREON,22
 Pokemon = JOLTEON,22
 #-------------------------------
-[HGSS_ACETRAINER,Emma]
+[HGSS_ACETRAINER_F,Emma]
 LoseText = I’d rather pet my Pokémon than battle! 
 Pokemon = POLIWHIRL,28
 #-------------------------------
+# Route 33
+#-------------------------------
+[HGSS_HIKER,Anthony]
+LoseText = Whoa! You've got more zip than me!
+Pokemon = GEODUDE,11
+Pokemon = MACHOP,11
+#-------------------------------
+[HGSS_HIKER,Anthony,1]
+LoseText = Whoa! You've got more zip than me!
+Pokemon = GRAVELER,33
+Pokemon = MACHOKE,32
+#-------------------------------
+[HGSS_HIKER,Anthony,2]
+LoseText = Whoa! You've got more zip than me!
+Pokemon = GRAVELER,37
+Pokemon = GRAVELER,38
+Pokemon = MACHOKE,40
+#-------------------------------
+[HGSS_HIKER,Anthony,3]
+LoseText = Whoa! You've got more zip than me!
+Pokemon = GRAVELER,41
+Pokemon = GOLEM,49
+Pokemon = MACHAMP,55
+#-------------------------------
+# Azalea Town
+#-------------------------------
+[HGSS_RIVAL,Silver,3]
+LoseText = ...Humph! Useless Pokémon! Listen, you. You won only because my Pokémon were weak.
+Pokemon = GASTLY,14
+	Moves = LICK,SPITE,MEANLOOK,CURSE
+Pokemon = ZUBAT,16
+	Moves = ABSORB,SUPERSONIC,ASTONISH,BITE
+Pokemon = BAYLEEF,18
+	Moves = POISONPOWDER,REFLECT,SYNTHESIS,RAZORLEAF
+#-------------------------------
+[HGSS_RIVAL,Silver,4]
+LoseText = ...Humph! Useless Pokémon! Listen, you. You won only because my Pokémon were weak.
+Pokemon = GASTLY,14
+	Moves = LICK,SPITE,MEANLOOK,CURSE
+Pokemon = ZUBAT,16
+	Moves = ABSORB,SUPERSONIC,ASTONISH,BITE
+Pokemon = QUILAVA,18
+	Moves = LEER,SMOKESCREEN,EMBER,QUICKATTACK
+#-------------------------------
+[HGSS_RIVAL,Silver,5]
+LoseText = ...Humph! Useless Pokémon! Listen, you. You won only because my Pokémon were weak.
+Pokemon = GASTLY,14
+	Moves = LICK,SPITE,MEANLOOK,CURSE
+Pokemon = ZUBAT,16
+	Moves = ABSORB,SUPERSONIC,ASTONISH,BITE
+Pokemon = CROCONAW,18
+	Moves = WATERGUN,RAGE,BITE,SCARYFACE
+#-------------------------------
+# Azalea Town Gym
+#-------------------------------
+[HGSS_BUG_CATCHER,Al]
+LoseText = You proved how tough you are...
+Pokemon = CATERPIE,12
+Pokemon = WEEDLE,12
+#-------------------------------
+[HGSS_BUG_CATCHER,Benny]
+LoseText = Just evolving isn't enough!
+Pokemon = WEEDLE,7
+Pokemon = KAKUNA,9
+Pokemon = BEEDRILL,12
+#-------------------------------
+[HGSS_BUG_CATCHER,Josh]
+LoseText = Urrgggh!
+Pokemon = PARAS,13
+#-------------------------------
+[HGSS_TWINS,Amy & Mimi]
+LoseText = Amy: Oh, goodness!            Mimi: I'm feeling a bit dizzy...
+Pokemon = LEDYBA,10
+Pokemon = SPINARAK,10
+#-------------------------------
+[HGSS_LEADER,Bugsy]
+LoseText = Aw, that's the end of it...
+Pokemon = SCYTHER,17
+	Item = SITRUSBERRY
+	AbilityIndex = 1
+	Moves = QUICKATTACK,LEER,UTURN,FOCUSENERGY
+Pokemon = METAPOD,15
+	Moves = TACKLE
+Pokemon = KAKUNA,15
+	Moves = POISONSTING
+#-------------------------------
+# Ilex Forest
+#-------------------------------
+# Route 34
+#-------------------------------
+# Goldenrod City
+#-------------------------------
+# Goldenrod City Gym
+#-------------------------------
+# Route 33
+#-------------------------------
+# Route 33
+#-------------------------------
+# Route 33
+#-------------------------------
+# Route 33
+#-------------------------------
+# Route 33
+#-------------------------------
+# Route 33
+#-------------------------------
+# Route 33
+#-------------------------------
+# Route 33
+#-------------------------------
+# Route 33
 #-------------------------------
