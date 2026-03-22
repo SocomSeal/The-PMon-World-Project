@@ -4199,6 +4199,31 @@ Pokemon = GRAVELER,41
 Pokemon = GOLEM,49
 Pokemon = MACHAMP,55
 #-------------------------------
+# Slowpoke Well
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText = Arrgh! This is NOT my day!
+Pokemon = RATTATA,9
+Pokemon = RATTATA,9
+#-------------------------------
+[HGSS_TEAMROCKET_F,Grunt]
+LoseText = You rotten brat!
+Pokemon = ZUBAT,9
+Pokemon = EKANS,11
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText = Just... Too strong...
+Pokemon = RATTATA,7
+Pokemon = ZUBAT,9
+Pokemon = ZUBAT,9
+#-------------------------------
+[HGSS_EXECUTIVE,Proton]
+LoseText = Grr... For a kid to be this good... I didn’t see it coming.
+Pokemon = ZUBAT,8
+	Moves = ABSORB,SUPERSONIC
+Pokemon = KOFFING,12
+	Moves = POISONGAS,TACKLE,SMOG,SMOKESCREEN
+#-------------------------------
 # Azalea Town
 #-------------------------------
 [HGSS_RIVAL,Silver,3]
@@ -4268,8 +4293,6 @@ Pokemon = KAKUNA,15
 # Goldenrod City
 #-------------------------------
 # Goldenrod City Gym
-#-------------------------------
-# Route 33
 #-------------------------------
 # Route 33
 #-------------------------------
