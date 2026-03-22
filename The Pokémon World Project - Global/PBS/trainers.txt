@@ -3899,17 +3899,17 @@ Pokemon = GRAVELER,48
 #-------------------------------
 # Cherrygrove City
 #-------------------------------
-[HGSS_RIVAL,Passerby Boy]
+[HGSS_PKMNTR_Silver,Passerby Boy]
 LoseText = ...Humph! Are you happy you won?
 Pokemon = CHIKORITA,5
 	Gender = male
 #-------------------------------
-[HGSS_RIVAL,Passerby Boy,1]
+[HGSS_PKMNTR_Silver,Passerby Boy,1]
 LoseText = ...Humph! Are you happy you won?
 Pokemon = CYNDAQUIL,5
 	Gender = male
 #-------------------------------
-[HGSS_RIVAL,Passerby Boy,2]
+[HGSS_PKMNTR_Silver,Passerby Boy,2]
 LoseText = ...Humph! Are you happy you won?
 Pokemon = TOTODILE,5
 	Gender = male
@@ -4029,7 +4029,7 @@ LoseText = Gaaah!
 Pokemon = PIDGEY,7
 Pokemon = PIDGEY,7
 #-------------------------------
-[HGSS_LEADER,Falkner]
+[HGSS_LEADER_Falkner,Falkner]
 LoseText = I understand... I'll bow out gracefully.
 Pokemon = PIDGEY,9
 	Moves = TACKLE, SANDATTACK
@@ -4217,7 +4217,7 @@ Pokemon = RATTATA,7
 Pokemon = ZUBAT,9
 Pokemon = ZUBAT,9
 #-------------------------------
-[HGSS_EXECUTIVE,Proton]
+[HGSS_ROCKETADMIN_Proton,Proton]
 LoseText = Grr... For a kid to be this good... I didn’t see it coming.
 Pokemon = ZUBAT,8
 	Moves = ABSORB,SUPERSONIC
@@ -4226,7 +4226,7 @@ Pokemon = KOFFING,12
 #-------------------------------
 # Azalea Town
 #-------------------------------
-[HGSS_RIVAL,Silver,3]
+[HGSS_PKMNTR_Silver,Silver,3]
 LoseText = ...Humph! Useless Pokémon! Listen, you. You won only because my Pokémon were weak.
 Pokemon = GASTLY,14
 	Moves = LICK,SPITE,MEANLOOK,CURSE
@@ -4235,7 +4235,7 @@ Pokemon = ZUBAT,16
 Pokemon = BAYLEEF,18
 	Moves = POISONPOWDER,REFLECT,SYNTHESIS,RAZORLEAF
 #-------------------------------
-[HGSS_RIVAL,Silver,4]
+[HGSS_PKMNTR_Silver,Silver,4]
 LoseText = ...Humph! Useless Pokémon! Listen, you. You won only because my Pokémon were weak.
 Pokemon = GASTLY,14
 	Moves = LICK,SPITE,MEANLOOK,CURSE
@@ -4244,7 +4244,7 @@ Pokemon = ZUBAT,16
 Pokemon = QUILAVA,18
 	Moves = LEER,SMOKESCREEN,EMBER,QUICKATTACK
 #-------------------------------
-[HGSS_RIVAL,Silver,5]
+[HGSS_PKMNTR_Silver,Silver,5]
 LoseText = ...Humph! Useless Pokémon! Listen, you. You won only because my Pokémon were weak.
 Pokemon = GASTLY,14
 	Moves = LICK,SPITE,MEANLOOK,CURSE
@@ -4275,7 +4275,7 @@ LoseText = Amy: Oh, goodness!            Mimi: I'm feeling a bit dizzy...
 Pokemon = LEDYBA,10
 Pokemon = SPINARAK,10
 #-------------------------------
-[HGSS_LEADER,Bugsy]
+[HGSS_LEADER_Bugsy,Bugsy]
 LoseText = Aw, that's the end of it...
 Pokemon = SCYTHER,17
 	Item = SITRUSBERRY
@@ -4313,10 +4313,43 @@ Pokemon = HOPPIP,9
 Pokemon = HOPPIP,9
 Pokemon = BULBASAUR,12
 #-------------------------------
+[HGSS_PICNICKER,Gina,1]
+LoseText = Oh, no! I just can’t win...
+Pokemon = HOPPIP,24
+Pokemon = HOPPIP,24
+Pokemon = IVYSAUR,32
+#-------------------------------
+[HGSS_PICNICKER,Gina,2]
+LoseText = Oh, no! I just can’t win...
+Pokemon = SKIPLOOM,26
+Pokemon = SKIPLOOM,26
+Pokemon = IVYSAURSAUR,44
+#-------------------------------
+[HGSS_PICNICKER,Gina,3]
+LoseText = Oh, no! I just can’t win...
+Pokemon = SKIPLOOM,30
+Pokemon = JUMPLUFF,36
+Pokemon = VENUSAUR,55
+#-------------------------------
 [HGSS_YOUNGSTER,Ian]
 LoseText = No! There are better Trainers...
 Pokemon = MANKEY,10
 Pokemon = DIGLETT,12
+#-------------------------------
+[HGSS_YOUNGSTER,Ian,1]
+LoseText = No! There are better Trainers...
+Pokemon = MANKEY,27
+Pokemon = DUGTRIO,33
+#-------------------------------
+[HGSS_YOUNGSTER,Ian,2]
+LoseText = No! There are better Trainers...
+Pokemon = PRIMEAPE,38
+Pokemon = DUGTRIO,40
+#-------------------------------
+[HGSS_YOUNGSTER,Ian,3]
+LoseText = No! There are better Trainers...
+Pokemon = PRIMEAPE,47
+Pokemon = DUGTRIO,58
 #-------------------------------
 [HGSS_POLICEMAN,Keith]
 LoseText = You don’t have to worry about the night when you’re with strong Pokémon.
@@ -4325,6 +4358,26 @@ Pokemon = GROWLITHE,17
 [HGSS_CAMPER,Todd]
 LoseText = Didn’t I train enough?
 Pokemon = PSYDUCK,14
+#-------------------------------
+[HGSS_CAMPER,Todd,1]
+LoseText = Didn’t I train enough?
+Pokemon = GEODUDE,17
+Pokemon = GEODUDE,17
+Pokemon = PSYDUCK,31
+#-------------------------------
+[HGSS_CAMPER,Todd,2]
+LoseText = Didn’t I train enough?
+Pokemon = GEODUDE,23
+Pokemon = GRAVELER,33
+Pokemon = SLUGMA,32
+Pokemon = GOLDUCK,36
+#-------------------------------
+[HGSS_CAMPER,Todd,3]
+LoseText = Didn’t I train enough?
+Pokemon = GRAVELER,36
+Pokemon = GRAVELER,44
+Pokemon = MAGCARGO,54
+Pokemon = GOLDUCK,56
 #-------------------------------
 [HGSS_ACETRAINER_F,Irene]
 #Double Battle With Jenn
@@ -4347,28 +4400,168 @@ Pokemon = CLOYSTER,28
 #-------------------------------
 # Goldenrod City Gym
 #-------------------------------
+[HGSS_BEAUTY,Victoria]
+LoseText = Let's see... Oops, it's over?
+Pokemon = SENTRET,9
+Pokemon = SENTRET,13
+Pokemon = SENTRET,16
+#-------------------------------
+[HGSS_BEAUTY,Samantha]
+LoseText = No! Oh, MEOWTH, I’m so sorry!
+Pokemon = MEOWTH,16
+Pokemon = MEOWTH,16
+#-------------------------------
+[HGSS_LASS,Carrie]
+LoseText = Gosh... I thought you were weak...
+Pokemon = SNUBBULL,17
+#-------------------------------
+[HGSS_LASS,Cathy]
+LoseText = Oh, no, no, no!
+Pokemon = JIGGLYPUFF,15
+Pokemon = JIGGLYPUFF,15
+Pokemon = JIGGLYPUFF,15
+#-------------------------------
+[HGSS_LEADER_Whitney,Whitney]
+LoseText = Ugh...
+Pokemon = CLEFAIRY,17
+	Moves = DOUBLESLAP,MIMIC,ENCORE,METRONOME
+Pokemon = MILTANK,19
+	Item = LUMBERRY
+	AbilityIndex = 1
+	Moves = ROLLOUT,ATTRACT,STOMP,MILKDRINK
+#-------------------------------
 # Radio Tower
+#-------------------------------
+# 1F
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText =
+Pokemon = SLOWPOKE,11
+Pokemon = SLOWPOKE,11
+#-------------------------------
+# 2F
+#-------------------------------
+[HGSS_TEAMROCKET_F,Grunt]
+LoseText =
+Pokemon = SLOWPOKE,11
+Pokemon = SLOWPOKE,11
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText =
+Pokemon = SLOWPOKE,11
+Pokemon = SLOWPOKE,11
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText =
+Pokemon = SLOWPOKE,11
+Pokemon = SLOWPOKE,11
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText = 
+Pokemon = SLOWPOKE,11
+Pokemon = SLOWPOKE,11
+#-------------------------------
+# 3F
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText = 
+Pokemon = SLOWPOKE,11
+Pokemon = SLOWPOKE,11
+#-------------------------------
+[HGSS_SCIENTIST,Garett]
+LoseText = 
+Pokemon = SLOWPOKE,11
+Pokemon = SLOWPOKE,11
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText = 
+Pokemon = SLOWPOKE,11
+Pokemon = SLOWPOKE,11
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText = 
+Pokemon = SLOWPOKE,11
+Pokemon = SLOWPOKE,11
+#-------------------------------
+# 4F
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText = 
+Pokemon = SLOWPOKE,11
+Pokemon = SLOWPOKE,11
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText = 
+Pokemon = SLOWPOKE,11
+Pokemon = SLOWPOKE,11
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText = 
+Pokemon = SLOWPOKE,11
+Pokemon = SLOWPOKE,11
+#-------------------------------
+[HGSS_ROCKETADMIN_Proton,Proton]
+LoseText = 
+Pokemon = GOLBAT,28
+Pokemon = WEEZING,33
+#-------------------------------
+# 5F
+#-------------------------------
+[HGSS_ROCKETADMIN_Petrel,Petrel]
+LoseText = 
+Pokemon = KOFFING,30
+	Moves = SLUDGE,SMOKESCREEN,SELFDESTRUCT,TACKLE
+Pokemon = KOFFING,30
+	Moves = SLUDGE,SMOKESCREEN,SELFDESTRUCT,TACKLE
+Pokemon = KOFFING,30
+	Moves = SLUDGE,SMOKESCREEN,SELFDESTRUCT,TACKLE
+Pokemon = KOFFING,30
+	Moves = SLUDGE,SMOKESCREEN,SELFDESTRUCT,TACKLE
+Pokemon = WEEZING,32
+	Moves = TACKLE,SLUDGE,SMOKESCREEN,EXPLOSION
+Pokemon = KOFFING,30
+	Moves = SLUDGE,SMOKESCREEN,SELFDESTRUCT,TACKLE
+#-------------------------------
+[HGSS_ROCKETADMIN_Ariana,Ariana]
+LoseText = 
+Pokemon = ARBOK,32
+	Moves = GLARE,CRUNCH,WRAP,POISONSTING
+Pokemon = VILEPLUME,32
+	Moves = SWEETSCENT,MEGADRAIN,ACID,SLEEPPOWDER
+Pokemon = MURKROW,32
+	Moves = NIGHTSHADE,WINGATTACK,ASTONISH,PURSUIT
+#-------------------------------
+# Observation Deck
+#-------------------------------
+[HGSS_ROCKETADMIN_Archer,Archer]
+LoseText = 
+Pokemon = HOUNDOUR,35
+	Moves = FAINTATTACK,FIREFANG,CRUNCH,ROAR
+Pokemon = KOFFING,35
+	Moves = SLUDGE,SMOKESCREEN,TACKLE,HAZE
+Pokemon = HOUNDOOM,38
+	Moves = FAINTATTACK,FIREFANG,BITE,SMOG
 #-------------------------------
 # Goldenrod Tunnel
 #-------------------------------
 [HGSS_POKEMANIAC,Donald]
-LoseText = 
+LoseText = Gah! I lost! That makes me mad!
 Pokemon = SLOWPOKE,11
 Pokemon = SLOWPOKE,11
 #-------------------------------
 [HGSS_SUPERNERD,TERU]
-LoseText = 
+LoseText = Ow, ow, ow!
 Pokemon = MAGNEMITE,7
 Pokemon = MAGNEMITE,7
 Pokemon = MAGNEMITE,9
 Pokemon = VOLTORB,11
 #-------------------------------
-[HGSS_POKEMANIAC,Isaac]
-LoseText = 
+[HGSS_POKEMANIAC,Issac]
+LoseText = Aiyeeee!
 Pokemon = LICKITUNG,12
 #-------------------------------
-[HGSS_RIVAL,Silver,9]
-LoseText = 
+[HGSS_PKMNTR_Silver,Silver,9]
+LoseText = ...Why... Why do I lose?
 Pokemon = GOLBAT,32
 	Moves = AIRCUTTER,CONFUSERAY,BITE,ASTONISH
 Pokemon = MAGNEMITE,30
@@ -4380,8 +4573,8 @@ Pokemon = SNEASEL,34
 Pokemon = MEGANIUM,34
 	Moves = REFLECT,PETALDANCE,POISONPOWDER,SYNTHESIS
 #-------------------------------
-[HGSS_RIVAL,Silver,10]
-LoseText = 
+[HGSS_PKMNTR_Silver,Silver,10]
+LoseText = ...Why... Why do I lose?
 Pokemon = GOLBAT,32
 	Moves = AIRCUTTER,CONFUSERAY,BITE,ASTONISH
 Pokemon = MAGNEMITE,30
@@ -4393,8 +4586,8 @@ Pokemon = SNEASEL,34
 Pokemon = QUILAVA,34
 	Moves = SMOKESCREEN,SWIFT,QUICKATTACK,FLAMEWHEEL
 #-------------------------------
-[HGSS_RIVAL,Silver,11]
-LoseText = 
+[HGSS_PKMNTR_Silver,Silver,11]
+LoseText = ...Why... Why do I lose?
 Pokemon = GOLBAT,32
 	Moves = AIRCUTTER,CONFUSERAY,BITE,ASTONISH
 Pokemon = MAGNEMITE,30
@@ -4407,49 +4600,52 @@ Pokemon = FERALIGATR,32
 	Moves = WATERGUN,ICEFANG,CRUNCH,THRASH
 #-------------------------------
 [HGSS_TEAMROCKET_M,Grunt]
-LoseText = 
-Pokemon = GRIMER,11
-Pokemon = GRIMER,11
+LoseText = Urk! Yeah, think you’re cool, huh?
+Pokemon = RATTATA,27
 #-------------------------------
 [HGSS_TEAMROCKET_M,Grunt]
-LoseText = 
-Pokemon = GRIMER,11
-Pokemon = GRIMER,11
+LoseText = Uh-oh! I was sunk by indecision!
+Pokemon = MUK,23
+Pokemon = KOFFING,23
+Pokemon = RATTATA,25
 #-------------------------------
 [HGSS_BURGLAR,Duncan]
-LoseText = 
-Pokemon = GRIMER,11
-Pokemon = GRIMER,11
+LoseText = Mercy!
+Pokemon = KOFFING,23
+Pokemon = KOFFING,23
+Pokemon = MAGMAR,25
 #-------------------------------
 [HGSS_BURGLAR,Orson]
-LoseText = 
-Pokemon = GRIMER,11
-Pokemon = GRIMER,11
+LoseText = So strong...
+Pokemon = GROWLITHE,26
+Pokemon = KOFFING,24
 #-------------------------------
 [HGSS_TEAMROCKET_M,Grunt]
-LoseText = 
-Pokemon = GRIMER,11
-Pokemon = GRIMER,11
+LoseText = Uwww... I blew it.
+Pokemon = KOFFING,24
+Pokemon = MUK,24
 #-------------------------------
 [HGSS_TEAMROCKET_F,Grunt]
-LoseText = 
-Pokemon = GRIMER,11
-Pokemon = GRIMER,11
+LoseText = How could you?
+Pokemon = GLOOM,25
+Pokemon = GLOOM,25
+#-------------------------------
+# Goldenrod Tunnel - Warehouse
 #-------------------------------
 [HGSS_TEAMROCKET_M,Grunt]
-LoseText = 
-Pokemon = GRIMER,11
-Pokemon = GRIMER,11
+LoseText = Blast it!
+Pokemon = RATICATE,24
+Pokemon = GOLBAT,24
 #-------------------------------
 [HGSS_TEAMROCKET_M,Grunt]
-LoseText = 
-Pokemon = GRIMER,11
-Pokemon = GRIMER,11
+LoseText = Hyuck-hyuck-hyuck! So that’s how you did it!
+Pokemon = GRIMER,26
+Pokemon = WEEZING,23
 #-------------------------------
 [HGSS_TEAMROCKET_M,Grunt]
-LoseText = 
-Pokemon = GRIMER,11
-Pokemon = GRIMER,11
+LoseText = I got disposed of...
+Pokemon = KOFFING,25
+Pokemon = KOFFING,25
 #-------------------------------
 # Route 35
 #-------------------------------
