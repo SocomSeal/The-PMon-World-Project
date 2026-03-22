@@ -4347,6 +4347,110 @@ Pokemon = CLOYSTER,28
 #-------------------------------
 # Goldenrod City Gym
 #-------------------------------
+# Radio Tower
+#-------------------------------
+# Goldenrod Tunnel
+#-------------------------------
+[HGSS_POKEMANIAC,Donald]
+LoseText = 
+Pokemon = SLOWPOKE,11
+Pokemon = SLOWPOKE,11
+#-------------------------------
+[HGSS_SUPERNERD,TERU]
+LoseText = 
+Pokemon = MAGNEMITE,7
+Pokemon = MAGNEMITE,7
+Pokemon = MAGNEMITE,9
+Pokemon = VOLTORB,11
+#-------------------------------
+[HGSS_POKEMANIAC,Isaac]
+LoseText = 
+Pokemon = LICKITUNG,12
+#-------------------------------
+[HGSS_RIVAL,Silver,9]
+LoseText = 
+Pokemon = GOLBAT,32
+	Moves = AIRCUTTER,CONFUSERAY,BITE,ASTONISH
+Pokemon = MAGNEMITE,30
+	Moves = THUNDERWAVE,SPARK,SUPERSONIC,SONICBOOM
+Pokemon = HAUNTER,32
+	Moves = SHADOWBALL,CONFUSERAY,MEANLOOK,CURSE
+Pokemon = SNEASEL,34
+	Moves = FAINTATTACK,QUICKATTACK,ICYWIND,FURYSWIPES
+Pokemon = MEGANIUM,34
+	Moves = REFLECT,PETALDANCE,POISONPOWDER,SYNTHESIS
+#-------------------------------
+[HGSS_RIVAL,Silver,10]
+LoseText = 
+Pokemon = GOLBAT,32
+	Moves = AIRCUTTER,CONFUSERAY,BITE,ASTONISH
+Pokemon = MAGNEMITE,30
+	Moves = THUNDERWAVE,SPARK,SUPERSONIC,SONICBOOM
+Pokemon = HAUNTER,32
+	Moves = SHADOWBALL,CONFUSERAY,MEANLOOK,CURSE
+Pokemon = SNEASEL,34
+	Moves = FAINTATTACK,QUICKATTACK,ICYWIND,FURYSWIPES
+Pokemon = QUILAVA,34
+	Moves = SMOKESCREEN,SWIFT,QUICKATTACK,FLAMEWHEEL
+#-------------------------------
+[HGSS_RIVAL,Silver,11]
+LoseText = 
+Pokemon = GOLBAT,32
+	Moves = AIRCUTTER,CONFUSERAY,BITE,ASTONISH
+Pokemon = MAGNEMITE,30
+	Moves = THUNDERWAVE,SPARK,SUPERSONIC,SONICBOOM
+Pokemon = HAUNTER,32
+	Moves = SHADOWBALL,CONFUSERAY,MEANLOOK,CURSE
+Pokemon = SNEASEL,34
+	Moves = FAINTATTACK,QUICKATTACK,ICYWIND,FURYSWIPES
+Pokemon = FERALIGATR,32
+	Moves = WATERGUN,ICEFANG,CRUNCH,THRASH
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText = 
+Pokemon = GRIMER,11
+Pokemon = GRIMER,11
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText = 
+Pokemon = GRIMER,11
+Pokemon = GRIMER,11
+#-------------------------------
+[HGSS_BURGLAR,Duncan]
+LoseText = 
+Pokemon = GRIMER,11
+Pokemon = GRIMER,11
+#-------------------------------
+[HGSS_BURGLAR,Orson]
+LoseText = 
+Pokemon = GRIMER,11
+Pokemon = GRIMER,11
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText = 
+Pokemon = GRIMER,11
+Pokemon = GRIMER,11
+#-------------------------------
+[HGSS_TEAMROCKET_F,Grunt]
+LoseText = 
+Pokemon = GRIMER,11
+Pokemon = GRIMER,11
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText = 
+Pokemon = GRIMER,11
+Pokemon = GRIMER,11
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText = 
+Pokemon = GRIMER,11
+Pokemon = GRIMER,11
+#-------------------------------
+[HGSS_TEAMROCKET_M,Grunt]
+LoseText = 
+Pokemon = GRIMER,11
+Pokemon = GRIMER,11
+#-------------------------------
 # Route 35
 #-------------------------------
 # National Park
