@@ -3937,36 +3937,36 @@ LoseText = That's strange. I won before.
 Pokemon = PIDGEY,2
 Pokemon = RATTATA,4
 #-------------------------------
-[HGSS_BUG_CATCHER,Don]
+[HGSS_BUGCATCHER,Don]
 LoseText = Argh! You're too strong!
 Pokemon = CATERPIE,3
 Pokemon = CATERPIE,3
 #-------------------------------
 # Route 31
 #-------------------------------
-[HGSS_BUG_CATCHER,Wade]
+[HGSS_BUGCATCHER,Wade]
 LoseText = Awwwww...
 Pokemon = CATERPIE,2
 Pokemon = CATERPIE,2
 Pokemon = CATERPIE,2
 Pokemon = WEEDLE,3
 #-------------------------------
-[HGSS_BUG_CATCHER,Wade,1]
+[HGSS_BUGCATCHER,Wade,1]
 LoseText = Awwwww...
 Pokemon = METAPOD,18
 Pokemon = METAPOD,18
 Pokemon = KAKUNA,22
 Pokemon = BUTTERFREE,29
 #-------------------------------
-[HGSS_BUG_CATCHER,Wade,2]
+[HGSS_BUGCATCHER,Wade,2]
 LoseText = Awwwww...
 Pokemon = BUTTERFREE,28
 Pokemon = BUTTERFREE,28
 Pokemon = BEEDRILL,37
 Pokemon = BUTTERFREE,40
 #-------------------------------
-[HGSS_BUG_CATCHER,Wade,3]
-LoseText = Placeholder
+[HGSS_BUGCATCHER,Wade,3]
+LoseText = Awwwww...
 Pokemon = BUTTERFREE,36
 Pokemon = BUTTERFREE,36
 Pokemon = BEEDRILL,43
@@ -4020,11 +4020,11 @@ Pokemon = HOOTHOOT,7
 #-------------------------------
 # Violet City Gym
 #-------------------------------
-[HGSS_BIRD_KEEPER,Abe]
+[HGSS_BIRDKEEPER,Abe]
 LoseText = This can't be true!
 Pokemon = SPEAROW,9
 #-------------------------------
-[HGSS_BIRD_KEEPER,Rod]
+[HGSS_BIRDKEEPER,Rod]
 LoseText = Gaaah!
 Pokemon = PIDGEY,7
 Pokemon = PIDGEY,7
@@ -4102,7 +4102,7 @@ Pokemon = SEAKING,56
 LoseText = Shucks. I thought I could win.
 Pokemon = WOOPER,10
 #-------------------------------
-[HGSS_BIRD_KEEPER,Peter]
+[HGSS_BIRDKEEPER,Peter]
 LoseText = I know what my weaknesses are.
 Pokemon = PIDGEY,6
 Pokemon = PIDGEY,6
@@ -4255,18 +4255,18 @@ Pokemon = CROCONAW,18
 #-------------------------------
 # Azalea Town Gym
 #-------------------------------
-[HGSS_BUG_CATCHER,Al]
+[HGSS_BUGCATCHER,Al]
 LoseText = You proved how tough you are...
 Pokemon = CATERPIE,12
 Pokemon = WEEDLE,12
 #-------------------------------
-[HGSS_BUG_CATCHER,Benny]
+[HGSS_BUGCATCHER,Benny]
 LoseText = Just evolving isn't enough!
 Pokemon = WEEDLE,7
 Pokemon = KAKUNA,9
 Pokemon = BEEDRILL,12
 #-------------------------------
-[HGSS_BUG_CATCHER,Josh]
+[HGSS_BUGCATCHER,Josh]
 LoseText = Urrgggh!
 Pokemon = PARAS,13
 #-------------------------------
@@ -4288,15 +4288,68 @@ Pokemon = KAKUNA,15
 #-------------------------------
 # Ilex Forest
 #-------------------------------
+[HGSS_BUGCATCHER,Wayne]
+LoseText = I hadn't seen that Pokémon before...
+Pokemon = LEDYBA,8
+Pokemon = PARAS,10
+#-------------------------------
 # Route 34
+#-------------------------------
+[HGSS_YOUNGSTER,Samuel]
+LoseText = Whoa!
+Pokemon = RATTATA,7
+Pokemon = SANDSHREW,10
+Pokemon = SPEAROW,8
+Pokemon = SPEAROW,8
+#-------------------------------
+[HGSS_POKEFAN,Brandon]
+LoseText = Why does it end this way?
+Pokemon = SNUBBULL,13
+Pokemon = MAREEP,13
+#-------------------------------
+[HGSS_PICNICKER,Gina]
+LoseText = Oh, no! I just can’t win...
+Pokemon = HOPPIP,9
+Pokemon = HOPPIP,9
+Pokemon = BULBASAUR,12
+#-------------------------------
+[HGSS_YOUNGSTER,Ian]
+LoseText = No! There are better Trainers...
+Pokemon = MANKEY,10
+Pokemon = DIGLETT,12
+#-------------------------------
+[HGSS_POLICEMAN,Keith]
+LoseText = You don’t have to worry about the night when you’re with strong Pokémon.
+Pokemon = GROWLITHE,17
+#-------------------------------
+[HGSS_CAMPER,Todd]
+LoseText = Didn’t I train enough?
+Pokemon = PSYDUCK,14
+#-------------------------------
+[HGSS_ACETRAINER_F,Irene]
+#Double Battle With Jenn
+LoseText = Irene: Ohhh! Too strong!
+Pokemon = GOLDEEN,22
+Pokemon = SEAKING,24
+#-------------------------------
+[HGSS_ACETRAINER_F,Jenn]
+#Double Battle with Irene
+LoseText = Jenn: So sorry, Irene!
+Pokemon = STARYU,24
+Pokemon = STARMIE,26
+#-------------------------------
+[HGSS_ACETRAINER_F,Kate]
+LoseText = Kate: No! I can’t believe I lost.
+Pokemon = SHELLDER,26
+Pokemon = CLOYSTER,28
 #-------------------------------
 # Goldenrod City
 #-------------------------------
 # Goldenrod City Gym
 #-------------------------------
-# Route 33
+# Route 35
 #-------------------------------
-# Route 33
+# National Park
 #-------------------------------
 # Route 33
 #-------------------------------
