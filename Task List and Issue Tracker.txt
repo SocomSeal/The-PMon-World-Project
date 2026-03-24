@@ -8,8 +8,10 @@ Core Systems
 - TM black market event is hardcoded to not allow numbers above 360 (how to make dynamic?)
 	- Add ability to trade in duplicate TMs to black market for credit
 - Implement better spinners? Turn to player when they run?
+- Trainer lose text needs new lines - how to implement?
 KANTO
 - Gamefreak diploma NPC is currently hard coded instead of calling for each number of species in a dex dynamically
+- Verify Kanto doubles classes (Twins, CoolCouple, etc.) are in PBS and called correctly. First battle should be trainer 0 and 1, rematch 1 and 2, etc.
 
 
 Feature Complete
@@ -52,7 +54,7 @@ KANTO
 - Missing light effects in E4
 - Missing animations for Seagallop Ferry
 HOENN
-- Various tiles are not "complete" as faithful recreations, e.g. fences, path inner corners, flower shop planter boxes, cave ledges, rusturf tunnel cave exits, Mirage Tower, MT. Chimney Caldera, Meteor Falls ledges
+- Various tiles are not "complete" as faithful recreations, e.g. fences, path inner corners, flower shop planter boxes, cave ledges, rusturf tunnel cave exits, Mirage Tower, MT. Chimney Caldera, Meteor Falls ledges, Seafloor cavern walls, Cave of Origin crystals
 - Fortree shadows are missing
 - Fortree bridges don't have bobbing animations when walked on
 - Pacifidlog bridges don't have bobbing animations when walked on (Current implementation has z-fighting issues)
