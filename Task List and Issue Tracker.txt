@@ -54,7 +54,7 @@ KANTO
 - Missing light effects in E4
 - Missing animations for Seagallop Ferry
 HOENN
-- Various tiles are not "complete" as faithful recreations, e.g. fences, path inner corners, flower shop planter boxes, cave ledges, rusturf tunnel cave exits, Mirage Tower, MT. Chimney Caldera, Meteor Falls ledges, Seafloor cavern walls
+- Various tiles are not "complete" as faithful recreations, e.g. fences, path inner corners, flower shop planter boxes, cave ledges, rusturf tunnel cave exits, Mirage Tower, MT. Chimney Caldera, Meteor Falls ledges, Seafloor cavern walls, Cave of Origin crystals
 - Fortree shadows are missing
 - Fortree bridges don't have bobbing animations when walked on
 - Pacifidlog bridges don't have bobbing animations when walked on (Current implementation has z-fighting issues)
