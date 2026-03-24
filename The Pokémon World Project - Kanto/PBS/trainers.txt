@@ -1368,22 +1368,22 @@ Pokemon = MUK,22
 Pokemon = GRIMER,22
 #-------------------------------
 [FRLG_TWINS,Eli & Anne,0]
-LoseText = \rEli: But... We used our twin power...
+LoseText = Eli: But... We used our twin power...
 Pokemon = CLEFAIRY,22
 Pokemon = JIGGLYPUFF,22
 #-------------------------------
 [FRLG_TWINS,Eli & Anne,1]
-LoseText = \rEli: But... We used our twin power...
+LoseText = Eli: But... We used our twin power...
 Pokemon = CLEFAIRY,28
 Pokemon = JIGGLYPUFF,28
 #-------------------------------
 [FRLG_TWINS,Eli & Anne,2]
-LoseText = \rAnne:Our twin power...
+LoseText = Anne:Our twin power...
 Pokemon = CLEFAIRY,22
 Pokemon = JIGGLYPUFF,22
 #-------------------------------
 [FRLG_TWINS,Eli & Anne,3]
-LoseText = \rAnne:Our twin power...
+LoseText = Anne:Our twin power...
 Pokemon = CLEFAIRY,28
 Pokemon = JIGGLYPUFF,28
 #-------------------------------
