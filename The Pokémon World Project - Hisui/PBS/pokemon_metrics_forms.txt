@@ -1,0 +1,1427 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[VENUSAUR,1]
+BackSprite = 0,6
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,21
+ShadowSprite = 0,8,2
+#-------------------------------
+[CHARIZARD,1]
+BackSprite = 0,3
+FrontSprite = 0,5
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,6
+ShadowSprite = 4,14,5
+AnimationSpeed = 1,2
+#-------------------------------
+[CHARIZARD,2]
+BackSprite = 0,3
+FrontSprite = 0,5
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,6
+ShadowSprite = 4,10,8
+#-------------------------------
+[BLASTOISE,1]
+BackSprite = 0,3
+FrontSprite = 0,5
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,18
+ShadowSprite = 2,12,6
+AnimationSpeed = 1,2
+#-------------------------------
+[BEEDRILL,1]
+BackSprite = 0,6
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -7,12
+ShadowSprite = 4,32,18
+AnimationSpeed = 1,2
+#-------------------------------
+[PIDGEOT,1]
+BackSprite = 0,0
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 4,6
+ShadowSprite = 4,34,24
+#-------------------------------
+[RATTATA,1]
+BackSprite = 0,12
+FrontSprite = 0,9
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -2,35
+ShadowSprite = 1,-12,-6
+#-------------------------------
+[RATICATE,1]
+BackSprite = 0,10
+FrontSprite = 0,9
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -1,24
+ShadowSprite = 0,1,-6
+#-------------------------------
+[PIKACHU,2]
+BackSprite = -4,11
+FrontSprite = 7,4
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,24
+ShadowSprite = 1,5,4
+#-------------------------------
+[PIKACHU,3]
+BackSprite = -4,11
+FrontSprite = 7,4
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,24
+ShadowSprite = 1,5,4
+#-------------------------------
+[PIKACHU,4]
+BackSprite = -4,11
+FrontSprite = 7,4
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,24
+ShadowSprite = 1,5,4
+#-------------------------------
+[PIKACHU,5]
+BackSprite = -4,11
+FrontSprite = 7,4
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,24
+ShadowSprite = 1,5,4
+#-------------------------------
+[PIKACHU,6]
+BackSprite = -4,11
+FrontSprite = 7,4
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,24
+ShadowSprite = 1,5,4
+#-------------------------------
+[PIKACHU,7]
+BackSprite = -4,11
+FrontSprite = 7,4
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,24
+ShadowSprite = 1,5,4
+#-------------------------------
+[PIKACHU,8]
+BackSprite = -4,11
+FrontSprite = 7,4
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,24
+ShadowSprite = 1,5,4
+AnimationSpeed = 1
+#-------------------------------
+[PIKACHU,9]
+BackSprite = -4,11
+FrontSprite = 7,4
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,24
+ShadowSprite = 1,5,4
+AnimationSpeed = 1
+#-------------------------------
+[PIKACHU,10]
+BackSprite = -4,11
+FrontSprite = 7,4
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,24
+ShadowSprite = 1,5,4
+AnimationSpeed = 1
+#-------------------------------
+[PIKACHU,11]
+BackSprite = -4,11
+FrontSprite = 7,4
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,24
+ShadowSprite = 1,5,4
+AnimationSpeed = 1
+#-------------------------------
+[PIKACHU,12]
+BackSprite = -4,11
+FrontSprite = 7,4
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,24
+ShadowSprite = 1,5,4
+AnimationSpeed = 1
+#-------------------------------
+[PIKACHU,13]
+BackSprite = -4,11
+FrontSprite = 7,4
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,24
+ShadowSprite = 1,5,4
+AnimationSpeed = 1
+#-------------------------------
+[PIKACHU,14]
+BackSprite = -4,11
+FrontSprite = 7,4
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,24
+ShadowSprite = 1,5,4
+AnimationSpeed = 1
+#-------------------------------
+[PIKACHU,15]
+BackSprite = -4,11
+FrontSprite = 7,4
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,24
+ShadowSprite = 1,5,4
+AnimationSpeed = 1
+#-------------------------------
+[RAICHU,1]
+BackSprite = 0,7
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 15,16
+ShadowSprite = 0,38,17
+#-------------------------------
+[SANDSHREW,1]
+BackSprite = 0,12
+FrontSprite = 0,10
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 1,33
+ShadowSprite = 2,2,2
+#-------------------------------
+[SANDSLASH,1]
+BackSprite = 0,11
+FrontSprite = 0,9
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -5,29
+ShadowSprite = 2,10,2
+#-------------------------------
+[VULPIX,1]
+BackSprite = 0,11
+FrontSprite = 0,10
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,32
+ShadowSprite = 0,1,-1
+#-------------------------------
+[NINETALES,1]
+BackSprite = 0,8
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 1,19
+ShadowSprite = 0,1,2
+#-------------------------------
+[DIGLETT,1]
+BackSprite = 0,15
+FrontSprite = 0,12
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,45
+ShadowSprite = 4,-1,1
+#-------------------------------
+[DUGTRIO,1]
+BackSprite = 0,11
+FrontSprite = 0,10
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 1,36
+ShadowSprite = 0,-2,0
+#-------------------------------
+[MEOWTH,1]
+BackSprite = 0,11
+FrontSprite = 0,9
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,29
+ShadowSprite = 2,7,4
+#-------------------------------
+[MEOWTH,2]
+BackSprite = 0,11
+FrontSprite = 0,9
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,29
+ShadowSprite = 0,9,-6
+#-------------------------------
+[PERSIAN,1]
+BackSprite = 0,7
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,24
+ShadowSprite = 0,5,2
+#-------------------------------
+[ALAKAZAM,1]
+BackSprite = 0,2
+FrontSprite = 0,5
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,18
+ShadowSprite = 3,10,12
+AnimationSpeed = 1
+#-------------------------------
+[GEODUDE,1]
+BackSprite = 0,15
+FrontSprite = 0,11
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -1,20
+ShadowSprite = 0,22,10
+#-------------------------------
+[GRAVELER,1]
+BackSprite = 0,11
+FrontSprite = 0,10
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -2,30
+ShadowSprite = 0,-11,-7
+#-------------------------------
+[GOLEM,1]
+BackSprite = 0,7
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -7,26
+ShadowSprite = 0,9,6
+#-------------------------------
+[PONYTA,1]
+BackSprite = 0,10
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,25
+ShadowSprite = 1,-8,8
+#-------------------------------
+[RAPIDASH,1]
+BackSprite = 0,5
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,14
+ShadowSprite = 0,9,3
+#-------------------------------
+[SLOWPOKE,1]
+BackSprite = 0,16
+FrontSprite = 0,12
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 2,44
+ShadowSprite = 0,-10,5
+#-------------------------------
+[SLOWBRO,1]
+BackSprite = 0,9
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,23
+ShadowSprite = 0,4,-3
+#-------------------------------
+[SLOWBRO,2]
+BackSprite = 0,3
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,23
+ShadowSprite = 0,8,8
+AnimationSpeed = 3
+#-------------------------------
+[FARFETCHD,1]
+BackSprite = 0,11
+FrontSprite = 0,10
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,30
+ShadowSprite = 0,15,7
+AnimationSpeed = 1
+#-------------------------------
+[GRIMER,1]
+BackSprite = 0,12
+FrontSprite = 0,10
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -9,36
+ShadowSprite = 0,-6,-4
+#-------------------------------
+[MUK,1]
+BackSprite = 0,9
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,17
+ShadowSprite = 2,-5,-4
+#-------------------------------
+[GENGAR,1]
+BackSprite = 0,9
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,24
+ShadowSprite = 1,-9,2
+AnimationSpeed = 2,1
+#-------------------------------
+[EXEGGUTOR,1]
+BackSprite = 0,0
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -2,8
+ShadowSprite = 0,12,7
+#-------------------------------
+[MAROWAK,1]
+BackSprite = 0,5
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -12,31
+ShadowSprite = 2,1,3
+#-------------------------------
+[WEEZING,1]
+BackSprite = 0,1
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -4,7
+ShadowSprite = 2,22,19
+#-------------------------------
+[KANGASKHAN,1]
+BackSprite = 0,7
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,17
+ShadowSprite = 1,11,0
+#-------------------------------
+[MRMIME,1]
+BackSprite = 0,10
+FrontSprite = 0,9
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -2,22
+ShadowSprite = 0,-11,0
+#-------------------------------
+[PINSIR,1]
+BackSprite = 0,5
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -7,16
+ShadowSprite = 0,28,18
+AnimationSpeed = 1
+#-------------------------------
+[GYARADOS,1]
+BackSprite = 0,2
+FrontSprite = 0,5
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,9
+ShadowSprite = 4,19,21
+AnimationSpeed = 3,2
+#-------------------------------
+[AERODACTYL,1]
+BackSprite = 0,6
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,1
+ShadowSprite = 6,26,16
+AnimationSpeed = 2,1
+#-------------------------------
+[ARTICUNO,1]
+BackSprite = 0,7
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 4,12
+ShadowSprite = 4,19,21
+#-------------------------------
+[ZAPDOS,1]
+BackSprite = 0,6
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -1,11
+ShadowSprite = 1,5,4
+AnimationSpeed = 1
+#-------------------------------
+[MOLTRES,1]
+BackSprite = 0,8
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,11
+ShadowSprite = 2,12,24
+#-------------------------------
+[MEWTWO,1]
+BackSprite = 0,4
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 1,16
+ShadowSprite = 0,6,7
+AnimationSpeed = 3,2
+#-------------------------------
+[MEWTWO,2]
+BackSprite = 0,7
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 1,16
+ShadowSprite = 2,22,17
+#-------------------------------
+[PICHU,2]
+BackSprite = 0,1,2
+FrontSprite = 0,9
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,36
+ShadowSprite = 2,9,5
+AnimationSpeed = 1
+#-------------------------------
+[AMPHAROS,1]
+BackSprite = 0,5
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,18
+ShadowSprite = 3,0,-1
+#-------------------------------
+[SLOWKING,1]
+BackSprite = 0,8
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,15
+ShadowSprite = 1,-3,-1
+AnimationSpeed = 3,2
+#-------------------------------
+[STEELIX,1]
+BackSprite = 0,3
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,9
+ShadowSprite = 3,23,9
+#-------------------------------
+[SCIZOR,1]
+BackSprite = 0,3
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -6,20
+ShadowSprite = 0,10,6
+#-------------------------------
+[HERACROSS,1]
+BackSprite = 0,5
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -4,17
+ShadowSprite = 2,7,2
+#-------------------------------
+[CORSOLA,1]
+BackSprite = 0,13
+FrontSprite = 0,11
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 2,33
+ShadowSprite = 0,0,2
+#-------------------------------
+[HOUNDOOM,1]
+BackSprite = 0,3
+FrontSprite = 0,5
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 8,17
+ShadowSprite = -1,2,3
+#-------------------------------
+[TYRANITAR,1]
+BackSprite = 0,5
+FrontSprite = 0,5
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 6,15
+ShadowSprite = 2,3,7
+#-------------------------------
+[SCEPTILE,1]
+BackSprite = 0,1
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,16
+ShadowSprite = 0,-2,2
+#-------------------------------
+[BLAZIKEN,1]
+BackSprite = 0,1
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -2,14
+ShadowSprite = 1,16,13
+#-------------------------------
+[SWAMPERT,1]
+BackSprite = 0,6
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,18
+ShadowSprite = 1,0,4
+#-------------------------------
+[ZIGZAGOON,1]
+BackSprite = 0,12
+FrontSprite = 0,10
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -4,33
+ShadowSprite = 0,-3,1
+#-------------------------------
+[LINOONE,1]
+BackSprite = 0,14
+FrontSprite = 0,11
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,21
+ShadowSprite = 0,-19,-12
+#-------------------------------
+[GARDEVOIR,1]
+BackSprite = 0,4
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -5,14
+ShadowSprite = 2,3,7
+#-------------------------------
+[SABLEYE,1]
+BackSprite = 0,6
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 3,32
+ShadowSprite = 0,1,4
+#-------------------------------
+[MAWILE,1]
+BackSprite = 0,6
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -3,28
+ShadowSprite = 0,2,1
+#-------------------------------
+[AGGRON,1]
+BackSprite = 0,2
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -6,15
+ShadowSprite = 2,4,3
+#-------------------------------
+[MEDICHAM,1]
+BackSprite = 0,5
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 4,12
+ShadowSprite = 1,4,6
+AnimationSpeed = 3,2
+#-------------------------------
+[MANECTRIC,1]
+BackSprite = 0,3
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -1,18
+ShadowSprite = 3,9,3
+#-------------------------------
+[SHARPEDO,1]
+BackSprite = 0,4
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,6
+ShadowSprite = 4,32,19
+#-------------------------------
+[CAMERUPT,1]
+BackSprite = 0,6
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,23
+ShadowSprite = 2,0,0
+#-------------------------------
+[ALTARIA,1]
+BackSprite = 0,3
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,8
+ShadowSprite = 4,13,9
+#-------------------------------
+[CASTFORM,1]
+BackSprite = 0,10
+FrontSprite = 0,10
+ShadowSize = 2
+DmaxBackSprite = 0,3
+DmaxFrontSprite = -2,21
+ShadowSprite = 2,30,16
+#-------------------------------
+[CASTFORM,2]
+BackSprite = 0,12
+FrontSprite = 0,10
+ShadowSize = 2
+DmaxBackSprite = 0,3
+DmaxFrontSprite = -2,21
+ShadowSprite = 2,34,16
+#-------------------------------
+[CASTFORM,3]
+BackSprite = 0,11
+FrontSprite = 0,10
+ShadowSize = 2
+DmaxBackSprite = 0,3
+DmaxFrontSprite = -2,21
+ShadowSprite = 2,30,16
+#-------------------------------
+[BANETTE,1]
+BackSprite = 0,8
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,23
+ShadowSprite = 2,-1,4
+#-------------------------------
+[ABSOL,1]
+BackSprite = 0,8
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -2,26
+ShadowSprite = 6,-7,-9
+#-------------------------------
+[GLALIE,1]
+BackSprite = 0,7
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,14
+ShadowSprite = 4,19,13
+AnimationSpeed = 1,2
+#-------------------------------
+[SALAMENCE,1]
+BackSprite = 0,1
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -6,17
+ShadowSprite = -1,-26,-3
+#-------------------------------
+[METAGROSS,1]
+BackSprite = 0,9
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 1,41
+ShadowSprite = 0,30,8
+#-------------------------------
+[LATIAS,1]
+BackSprite = 0,7
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,9
+ShadowSprite = 4,8,6
+#-------------------------------
+[LATIOS,1]
+BackSprite = 0,7
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 2,10
+ShadowSprite = 4,8,16
+#-------------------------------
+[KYOGRE,1]
+BackSprite = 0,5
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 6,15
+ShadowSprite = 2,7,11
+#-------------------------------
+[GROUDON,1]
+BackSprite = 0,4
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,14
+ShadowSprite = 2,0,1
+#-------------------------------
+[RAYQUAZA,1]
+BackSprite = 0,0
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,3
+ShadowSprite = 0,41,16
+AnimationSpeed = 3
+#-------------------------------
+[DEOXYS,1]
+BackSprite = 0,3
+FrontSprite = 0,5
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,11
+ShadowSprite = 2,1,7
+#-------------------------------
+[DEOXYS,2]
+BackSprite = 0,4
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,11
+ShadowSprite = 2,6,3
+#-------------------------------
+[DEOXYS,3]
+BackSprite = 0,4
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,11
+ShadowSprite = 0,2,0
+#-------------------------------
+[BURMY,1]
+BackSprite = 0,13
+FrontSprite = 0,11
+ShadowSize = 2
+DmaxBackSprite = 0,9
+DmaxFrontSprite = 0,18
+ShadowSprite = 0,26,14
+#-------------------------------
+[BURMY,2]
+BackSprite = 0,12
+FrontSprite = 0,10
+ShadowSize = 2
+DmaxBackSprite = 0,9
+DmaxFrontSprite = 0,18
+ShadowSprite = 0,26,13
+#-------------------------------
+[CHERRIM,1]
+BackSprite = 0,13
+FrontSprite = 0,11
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -3,28
+ShadowSprite = 0,3,5
+#-------------------------------
+[LOPUNNY,1]
+BackSprite = 0,6
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -3,18
+ShadowSprite = 1,1,6
+AnimationSpeed = 3,1
+#-------------------------------
+[GARCHOMP,1]
+BackSprite = 0,5
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -8,9
+ShadowSprite = 1,0,3
+AnimationSpeed = 1,2
+#-------------------------------
+[LUCARIO,1]
+BackSprite = 0,7
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,16
+ShadowSprite = 0,-1,-2
+#-------------------------------
+[ABOMASNOW,1]
+BackSprite = 0,5
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,14
+ShadowSprite = 0,7,4
+#-------------------------------
+[GALLADE,1]
+BackSprite = 0,5
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -4,12
+ShadowSprite = -1,7,5
+#-------------------------------
+[ROTOM,1]
+BackSprite = 0,10
+FrontSprite = 0,9
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,14
+ShadowSprite = 0,38,23
+#-------------------------------
+[ROTOM,2]
+BackSprite = 0,8
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,14
+ShadowSprite = 0,30,12
+#-------------------------------
+[ROTOM,3]
+BackSprite = 0,6
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,14
+ShadowSprite = 0,28,15
+#-------------------------------
+[ROTOM,4]
+BackSprite = 0,9
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,14
+ShadowSprite = 4,30,25
+#-------------------------------
+[ROTOM,5]
+BackSprite = 0,10
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,14
+ShadowSprite = 0,32,14
+#-------------------------------
+[GIRATINA,1]
+BackSprite = 0,3
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -5,9
+ShadowSprite = 0,32,24
+#-------------------------------
+[SHAYMIN,1]
+BackSprite = 0,10
+FrontSprite = 0,9
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -3,41
+ShadowSprite = 0,10,6
+#-------------------------------
+[AUDINO,1]
+BackSprite = 0,7
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 1,37
+ShadowSprite = 4,-1,-1
+#-------------------------------
+[DARUMAKA,2]
+BackSprite = 0,14
+FrontSprite = 0,11
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,48
+ShadowSprite = 0,-16,-3
+#-------------------------------
+[DARMANITAN,1]
+BackSprite = 0,14
+FrontSprite = 0,11
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,42
+ShadowSprite = 2,6,3
+#-------------------------------
+[DARMANITAN,2]
+BackSprite = 0,11
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,42
+ShadowSprite = 2,-16,-9
+#-------------------------------
+[DARMANITAN,3]
+BackSprite = 0,12
+FrontSprite = 0,10
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,42
+ShadowSprite = 1,12,9
+#-------------------------------
+[YAMASK,1]
+BackSprite = 0,12
+FrontSprite = 0,10
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,28
+ShadowSprite = 0,24,6
+#-------------------------------
+[SAWSBUCK,3]
+BackSprite = 0,4
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -5,21
+ShadowSprite = 0,9,4
+#-------------------------------
+[STUNFISK,1]
+BackSprite = 0,16
+FrontSprite = 0,11
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,47
+ShadowSprite = 0,-22,-9
+AnimationSpeed = 3,2
+#-------------------------------
+[TORNADUS,1]
+BackSprite = 0,3
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,17
+ShadowSprite = 0,-2,-9
+#-------------------------------
+[THUNDURUS,1]
+BackSprite = 0,1
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,26
+ShadowSprite = 4,0,10
+#-------------------------------
+[LANDORUS,1]
+BackSprite = 0,3
+FrontSprite = 0,5
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,14
+ShadowSprite = 0,34,17
+#-------------------------------
+[KYUREM,1]
+BackSprite = 0,3
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -4,34
+ShadowSprite = 1,0,6
+#-------------------------------
+[KYUREM,2]
+BackSprite = 0,0
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -4,34
+ShadowSprite = 0,19,6
+#-------------------------------
+[KYUREM,3]
+BackSprite = 0,3
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -4,34
+ShadowSprite = 1,0,6
+#-------------------------------
+[KYUREM,4]
+BackSprite = 0,0
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -4,34
+ShadowSprite = 0,19,6
+#-------------------------------
+[KELDEO,1]
+BackSprite = 0,8
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 3,32
+ShadowSprite = 0,9,6
+#-------------------------------
+[MELOETTA,1]
+BackSprite = 0,7
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,27
+ShadowSprite = 1,12,7
+#-------------------------------
+[GRENINJA,2]
+BackSprite = 0,6
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 3,31
+ShadowSprite = 0,9,6
+#-------------------------------
+[FLOETTE,5]
+BackSprite = 0,9
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 5,32
+ShadowSprite = 0,15,16
+AnimationSpeed = 3,2
+#-------------------------------
+[FURFROU,1]
+BackSprite = 0,7
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -2,28
+ShadowSprite = 0,11,7
+#-------------------------------
+[FURFROU,2]
+BackSprite = 0,7
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -2,28
+ShadowSprite = 0,11,7
+#-------------------------------
+[FURFROU,3]
+BackSprite = 0,7
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -2,28
+ShadowSprite = 0,11,7
+#-------------------------------
+[FURFROU,4]
+BackSprite = 0,7
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -2,28
+ShadowSprite = 0,11,7
+#-------------------------------
+[FURFROU,5]
+BackSprite = 0,7
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -2,28
+ShadowSprite = 0,11,7
+#-------------------------------
+[FURFROU,6]
+BackSprite = 0,7
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -2,28
+ShadowSprite = 0,11,7
+#-------------------------------
+[FURFROU,7]
+BackSprite = 0,7
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -2,28
+ShadowSprite = 0,11,7
+#-------------------------------
+[FURFROU,8]
+BackSprite = 0,7
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -2,28
+ShadowSprite = 0,11,7
+#-------------------------------
+[FURFROU,9]
+BackSprite = 0,7
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -2,28
+ShadowSprite = 0,11,7
+#-------------------------------
+[MEOWSTIC,1]
+BackSprite = 0,57,2
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,32
+ShadowSprite = 1,3,6
+#-------------------------------
+[AEGISLASH,1]
+BackSprite = 0,4
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,24
+ShadowSprite = 7,11,12
+AnimationSpeed = 1
+#-------------------------------
+[XERNEAS,1]
+BackSprite = 0,0
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -8,4
+ShadowSprite = 0,6,9
+#-------------------------------
+[ZYGARDE,1]
+BackSprite = 0,6
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -1,9
+ShadowSprite = 1,0,4
+#-------------------------------
+[ZYGARDE,2]
+BackSprite = 0,0
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -1,9
+ShadowSprite = 2,-11,6
+#-------------------------------
+[ZYGARDE,3]
+BackSprite = 0,0
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -1,9
+ShadowSprite = 2,-11,6
+#-------------------------------
+[DIANCIE,1]
+BackSprite = 0,3
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,21
+ShadowSprite = 0,1,12
+AnimationSpeed = 2,1
+#-------------------------------
+[HOOPA,1]
+BackSprite = 0,0
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,31
+ShadowSprite = -1,30,12
+AnimationSpeed = 2,1
+#-------------------------------
+[ORICORIO,1]
+BackSprite = 0,10
+FrontSprite = 0,10
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 6,35
+ShadowSprite = 0,8,2
+#-------------------------------
+[ORICORIO,2]
+BackSprite = 0,10
+FrontSprite = 0,9
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 6,35
+ShadowSprite = 0,7,5
+#-------------------------------
+[ORICORIO,3]
+BackSprite = 0,9
+FrontSprite = 0,9
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 6,35
+ShadowSprite = 0,2,2
+#-------------------------------
+[LYCANROC,1]
+BackSprite = 0,6
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,33
+ShadowSprite = 0,9,5
+#-------------------------------
+[LYCANROC,2]
+BackSprite = 0,8
+FrontSprite = 0,8
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,33
+ShadowSprite = 0,-9,-6
+#-------------------------------
+[WISHIWASHI,1]
+BackSprite = 0,0
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,28
+ShadowSprite = 4,0,11
+AnimationSpeed = 3
+#-------------------------------
+[MINIOR,7]
+BackSprite = 0,15
+FrontSprite = 0,12
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 1,20
+ShadowSprite = 0,-11,13
+#-------------------------------
+[MINIOR,8]
+BackSprite = 0,15
+FrontSprite = 0,12
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 1,20
+ShadowSprite = 0,-11,13
+#-------------------------------
+[MINIOR,9]
+BackSprite = 0,15
+FrontSprite = 0,12
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 1,20
+ShadowSprite = 0,-11,13
+#-------------------------------
+[MINIOR,10]
+BackSprite = 0,15
+FrontSprite = 0,12
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 1,20
+ShadowSprite = 0,-11,13
+#-------------------------------
+[MINIOR,11]
+BackSprite = 0,15
+FrontSprite = 0,12
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 1,20
+ShadowSprite = 0,-11,13
+#-------------------------------
+[MINIOR,12]
+BackSprite = 0,15
+FrontSprite = 0,12
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 1,20
+ShadowSprite = 0,-11,13
+#-------------------------------
+[MINIOR,13]
+BackSprite = 0,15
+FrontSprite = 0,12
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 1,20
+ShadowSprite = 0,-11,13
+#-------------------------------
+[MIMIKYU,1]
+BackSprite = 0,10
+FrontSprite = 0,10
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 9,40
+ShadowSprite = 0,-25,-16
+#-------------------------------
+[NECROZMA,1]
+BackSprite = 0,2
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,18
+ShadowSprite = 3,1,3
+#-------------------------------
+[NECROZMA,2]
+BackSprite = 0,1
+FrontSprite = 0,5
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,18
+ShadowSprite = 2,31,24
+#-------------------------------
+[NECROZMA,3]
+BackSprite = 0,0
+FrontSprite = 0,5
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,18
+ShadowSprite = 0,38,14
+#-------------------------------
+[NECROZMA,4]
+BackSprite = 0,0
+FrontSprite = 0,5
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,18
+ShadowSprite = 0,38,14
+#-------------------------------
+[CRAMORANT,1]
+BackSprite = 0,5
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -3,20
+ShadowSprite = 0,9,2
+#-------------------------------
+[CRAMORANT,2]
+BackSprite = 0,5
+FrontSprite = 0,7
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -3,20
+ShadowSprite = 0,1,11
+#-------------------------------
+[TOXTRICITY,1]
+BackSprite = 0,3
+FrontSprite = 0,5
+ShadowSize = 2
+DmaxBackSprite = 2,0
+DmaxFrontSprite = -1,12
+ShadowSprite = 0,9,8
+#-------------------------------
+[EISCUE,1]
+BackSprite = 0,3
+FrontSprite = 0,5
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,13
+ShadowSprite = 0,13,4
+#-------------------------------
+[ZACIAN,1]
+BackSprite = 0,1
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = -7,48
+DmaxFrontSprite = 8,10
+ShadowSprite = 1,7,6
+#-------------------------------
+[ZAMAZENTA,1]
+BackSprite = 0,1
+FrontSprite = 0,4
+ShadowSize = 2
+DmaxBackSprite = -3,48
+DmaxFrontSprite = 0,8
+ShadowSprite = 2,5,0
+#-------------------------------
+[URSHIFU,1]
+BackSprite = 0,3
+FrontSprite = 0,6
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,20
+ShadowSprite = 1,10,9
+#-------------------------------
+[ZARUDE,1]
+BackSprite = 0,57
+FrontSprite = -1,11
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -9,25
+ShadowSprite = 1,-10,3
+#-------------------------------
+[CALYREX,1]
+BackSprite = 0,3
+FrontSprite = 0,5
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 3,12
+ShadowSprite = 4,11,7
+#-------------------------------
+[CALYREX,2]
+BackSprite = 0,2
+FrontSprite = 0,5
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 3,12
+ShadowSprite = 3,4,3

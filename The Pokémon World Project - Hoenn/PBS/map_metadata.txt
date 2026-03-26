@@ -6,14 +6,17 @@ Name = Intro
 [002]   # Region Transfer Map
 Name = Region Transfer Map
 #-------------------------------
+[005]   # Routes
+Name = Route 101
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
 [007]   # Littleroot Town
 Name = Littleroot Town
 Outdoor = true
 ShowArea = true
 Bicycle = true
 #-------------------------------
-[005]   # Routes
-Name = Route 101
-Outdoor = true
-ShowArea = true
-Bicycle = true
+[083]   # Sootopolis City
+DiveMap = 255

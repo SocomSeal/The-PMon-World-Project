@@ -1,0 +1,679 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+# Table of Contents:
+# [MC] Main Characters
+# [FRLG] Kanto Trainer Classes
+# [HGSS] Johto Trainer Classes
+# [RSE] Hoenn Trainer Classes
+# [DPPt] Sinnoh Trainer Classes
+# [BW] Unova Trainer Classes
+# [XY] Kalos Trainer Classes
+# [USUM] Alola Trainer Classes
+# [SwSh] Galar Trainer Classes
+# [SV] Paldea Trainer Classes
+# [R10] PLACEHOLDER TEXT Trainer Classes
+#-------------------------------
+# [MC] Main Characters
+#-------------------------------
+[CUSTOM_PL_CustomM]
+Name = Player
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[CUSTOM_PL_CustomF]
+Name = Player
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[FRLG_PKMNTRAINER_Red]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[FRLG_PKMNTRAINER_Leaf]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[HGSS_PKMNTRAINER_Kris]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[HGSS_BOSSTR_Red]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[HGSS_ROCKETBOSS]
+Name = Rocket Boss
+Gender = Male
+BaseMoney = 100
+IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
+#-------------------------------
+[RSE_PKMNTRAINER_Brendan]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[RSE_PKMNTRAINER_May]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[XY_PKMNTRAINER_Calem]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[XY_PKMNTRAINER_Serena]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[XY_PKMNTRAINER_Shauna]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[XY_PKMNTRAINER_Tierno]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[XY_PKMNTRAINER_Trevor]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[USUM_PKMNTRAINER_Elio]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[USUM_PKMNTRAINER_Selene]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[USUM_PKMNTRAINER_Hau]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[USUM_PKMNTRAINER_Gladion]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[FRLG_PKMNTRAINER_Chase]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[FRLG_PKMNTRAINER_Elaine]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[FRLG_PKMNTRAINER_Trace]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[SwSh_PKMNTRAINER_Victor]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[SwSh_PKMNTRAINER_Gloria]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[SwSh_PKMNTRAINER_Hop]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[SwSh_PKMNTRAINER_Bede]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[SwSh_PKMNTRAINER_Marnie]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[SwSh_PKMNTRAINER_Klara]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[SwSh_PKMNTRAINER_Avery]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[HISUI_PKMNTRAINER_Rei]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[HISUI_PKMNTRAINER_Akari]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[SV_PKMNTRAINER_Florian]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[SV_PKMNTRAINER_Juliana]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[SV_PKMNTRAINER_Nemona]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[SV_PKMNTRAINER_Arven]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[SV_PKMNTRAINER_Penny]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[SV_PKMNTRAINER_Carmine]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[SV_PKMNTRAINER_Kieran]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[XY_PKMNTRAINER_Paxton]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[XY_PKMNTRAINER_Harmony]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[XY_PKMNTRAINER_Urbain]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[XY_PKMNTRAINER_Taunie]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+# [FRLG] Kanto Trainer Classes
+#-------------------------------
+[FRLG_RIVAL1]
+Name = Rival
+Gender = Male
+BaseMoney = 16
+IntroBGM = FRLG Rival Appears
+#-------------------------------
+[FRLG_RIVAL2]
+Name = Rival
+Gender = Male
+BaseMoney = 36
+IntroBGM = FRLG Rival Appears
+#-------------------------------
+[FRLG_RIVAL1_CustomM]
+Name = Rival
+Gender = Male
+BaseMoney = 16
+IntroBGM = FRLG Rival Appears
+#-------------------------------
+[FRLG_RIVAL2_CustomM]
+Name = Rival
+Gender = Male
+BaseMoney = 36
+IntroBGM = FRLG Rival Appears
+#-------------------------------
+[FRLG_RIVAL1_CustomF]
+Name = Rival
+Gender = Female
+BaseMoney = 16
+IntroBGM = FRLG Rival Appears
+#-------------------------------
+[FRLG_RIVAL2_CustomF]
+Name = Rival
+Gender = Female
+BaseMoney = 36
+IntroBGM = FRLG Rival Appears
+#-------------------------------
+[FRLG_AROMALADY]
+Name = Aroma Lady
+Gender = Female
+BaseMoney = 32
+#-------------------------------
+[FRLG_BEAUTY]
+Name = Beauty
+Gender = Female
+BaseMoney = 56
+#-------------------------------
+[FRLG_BIKER]
+Name = Biker
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[FRLG_BIRDKEEPER]
+Name = Bird Keeper
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[FRLG_BUGCATCHER]
+Name = Bug Catcher
+Gender = Male
+BaseMoney = 16
+#-------------------------------
+[FRLG_BURGLAR]
+Name = Burglar
+Gender = Male
+BaseMoney = 88
+SkillLevel = 32
+IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
+#-------------------------------
+[FRLG_CHANNELER]
+Name = Channeler
+Gender = Female
+BaseMoney = 32
+IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
+#-------------------------------
+[FRLG_CUEBALL]
+Name = Cue Ball
+Gender = Male
+BaseMoney = 24
+#-------------------------------
+[FRLG_ENGINEER]
+Name = Engineer
+Gender = Male
+BaseMoney = 48
+#-------------------------------
+[FRLG_FISHERMAN]
+Name = Fisherman
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[FRLG_GAMBLER]
+Name = Gambler
+Gender = Male
+BaseMoney = 72
+SkillLevel = 32
+#-------------------------------
+[FRLG_GENTLEMAN]
+Name = Gentleman
+Gender = Male
+BaseMoney = 72
+#-------------------------------
+[FRLG_HIKER]
+Name = Hiker
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[FRLG_JUGGLER]
+Name = Juggler
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[FRLG_LADY]
+Name = Lady
+Gender = Female
+BaseMoney = 160
+SkillLevel = 72
+#-------------------------------
+[FRLG_PAINTER]
+Name = Painter
+Gender = Female
+BaseMoney = 16
+#-------------------------------
+[FRLG_POKEMANIAC]
+Name = Poké Maniac
+Gender = Male
+BaseMoney = 64
+IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
+#-------------------------------
+[FRLG_PKMNBREEDER]
+Name = Pokémon Breeder
+Gender = Female
+BaseMoney = 48
+#-------------------------------
+[FRLG_PROFESSOR_Oak]
+Name = Professor
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[FRLG_ROCKER]
+Name = Rocker
+Gender = Male
+BaseMoney = 24
+#-------------------------------
+[FRLG_RUINMANIAC]
+Name = Ruin Maniac
+Gender = Male
+BaseMoney = 48
+#-------------------------------
+[FRLG_SAILOR]
+Name = Sailor
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[FRLG_SCIENTIST]
+Name = Scientist
+Gender = Male
+BaseMoney = 48
+IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
+#-------------------------------
+[FRLG_SUPERNERD]
+Name = Super Nerd
+Gender = Male
+BaseMoney = 48
+IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
+#-------------------------------
+[FRLG_TAMER]
+Name = Tamer
+Gender = Male
+BaseMoney = 40
+#-------------------------------
+[FRLG_BLACKBELT]
+Name = Black Belt
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[FRLG_CRUSHGIRL]
+Name = Crush Girl
+Gender = Female
+BaseMoney = 24
+#-------------------------------
+[FRLG_CAMPER]
+Name = Camper
+Gender = Male
+BaseMoney = 16
+#-------------------------------
+[FRLG_PICNICKER]
+Name = Picnicker
+Gender = Female
+BaseMoney = 16
+#-------------------------------
+[FRLG_COOLTRAINER_M]
+Name = Cool Tamer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[FRLG_COOLTRAINER_F]
+Name = Cool Tamer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[FRLG_YOUNGSTER]
+Name = Youngster
+Gender = Male
+BaseMoney = 16
+#-------------------------------
+[FRLG_LASS]
+Name = Lass
+Gender = Female
+BaseMoney = 16
+#-------------------------------
+[FRLG_PKMNRANGER_M]
+Name = Pokémon Ranger
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[FRLG_PKMNRANGER_F]
+Name = Pokémon Ranger
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[FRLG_PSYCHIC_M]
+Name = Psychic
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[FRLG_PSYCHIC_F]
+Name = Psychic
+Gender = Female
+BaseMoney = 32
+#-------------------------------
+[FRLG_SWIMMER_M]
+Name = Swimmer
+Gender = Male
+BaseMoney = 16
+SkillLevel = 32
+#-------------------------------
+[FRLG_SWIMMER_F]
+Name = Swimmer
+Gender = Female
+BaseMoney = 16
+SkillLevel = 32
+#-------------------------------
+[FRLG_SWIMMER2_M]
+Name = Swimmer
+Gender = Male
+BaseMoney = 16
+SkillLevel = 32
+#-------------------------------
+[FRLG_SWIMMER2_F]
+Name = Swimmer
+Gender = Female
+BaseMoney = 16
+SkillLevel = 32
+#-------------------------------
+[FRLG_TUBER_M]
+Name = Tuber
+Gender = Male
+BaseMoney = 4
+SkillLevel = 16
+#-------------------------------
+[FRLG_TUBER_F]
+Name = Tuber
+Gender = Female
+BaseMoney = 4
+SkillLevel = 16
+#-------------------------------
+[FRLG_TUBER2_M]
+Name = Tuber
+Gender = Male
+BaseMoney = 4
+SkillLevel = 16
+#-------------------------------
+[FRLG_TUBER2_F]
+Name = Tuber
+Gender = Female
+BaseMoney = 4
+SkillLevel = 16
+#-------------------------------
+[FRLG_COOLCOUPLE]
+Name = Cool Couple
+Gender = Male
+BaseMoney = 72
+SkillLevel = 48
+#-------------------------------
+[FRLG_CRUSHKIN]
+Name = Crush Kin
+Gender = Male
+BaseMoney = 48
+#-------------------------------
+[FRLG_SISANDBRO]
+Name = Sis and Bro
+Gender = Female
+BaseMoney = 16
+SkillLevel = 48
+#-------------------------------
+[FRLG_TWINS]
+Name = Twins
+Gender = Female
+BaseMoney = 24
+#-------------------------------
+[FRLG_YOUNGCOUPLE]
+Name = Young Couple
+Gender = Female
+BaseMoney = 60
+SkillLevel = 32
+#-------------------------------
+[FRLG_TEAMROCKET_M]
+Name = Team Rocket
+Gender = Male
+BaseMoney = 32
+IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
+#-------------------------------
+[FRLG_TEAMROCKET_F]
+Name = Team Rocket
+Gender = Female
+BaseMoney = 32
+IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
+#-------------------------------
+[FRLG_ROCKETBOSS]
+Name = Boss
+Gender = Male
+BaseMoney = 100
+IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
+#-------------------------------
+[FRLG_ROCKETADMIN_Archer]
+Name = Rocket Admin
+Gender = Male
+BaseMoney = 72
+IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
+#-------------------------------
+[FRLG_ROCKETADMIN_Ariana]
+Name = Rocket Admin
+Gender = Female
+BaseMoney = 72
+IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
+#-------------------------------
+[FRLG_LEADER_Brock]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+IntroBGM = FRLG Tense Battle!
+BattleBGM = FRLG Battle (VS Gym Leader)
+VictoryBGM = FRLG Victory (VS Gym Leader)
+#-------------------------------
+[FRLG_LEADER_Misty]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+IntroBGM = FRLG Tense Battle!
+BattleBGM = FRLG Battle (VS Gym Leader)
+VictoryBGM = FRLG Victory (VS Gym Leader)
+#-------------------------------
+[FRLG_LEADER_Surge]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+IntroBGM = FRLG Tense Battle!
+BattleBGM = FRLG Battle (VS Gym Leader)
+VictoryBGM = FRLG Victory (VS Gym Leader)
+#-------------------------------
+[FRLG_LEADER_Erika]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+IntroBGM = FRLG Tense Battle!
+BattleBGM = FRLG Battle (VS Gym Leader)
+VictoryBGM = FRLG Victory (VS Gym Leader)
+#-------------------------------
+[FRLG_LEADER_Koga]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+IntroBGM = FRLG Tense Battle!
+BattleBGM = FRLG Battle (VS Gym Leader)
+VictoryBGM = FRLG Victory (VS Gym Leader)
+#-------------------------------
+[FRLG_LEADER_Sabrina]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+IntroBGM = FRLG Tense Battle!
+BattleBGM = FRLG Battle (VS Gym Leader)
+VictoryBGM = FRLG Victory (VS Gym Leader)
+#-------------------------------
+[FRLG_LEADER_Blaine]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+IntroBGM = FRLG Tense Battle!
+BattleBGM = FRLG Battle (VS Gym Leader)
+VictoryBGM = FRLG Victory (VS Gym Leader)
+#-------------------------------
+[FRLG_LEADER_Giovanni]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
+BattleBGM = FRLG Battle (VS Gym Leader)
+VictoryBGM = FRLG Victory (VS Gym Leader)
+#-------------------------------
+[FRLG_ELITEFOUR_Lorelei]
+Name = Elite Four
+Gender = Female
+BaseMoney = 100
+IntroBGM = FRLG Tense Battle!
+BattleBGM = FRLG Battle (VS Gym Leader)
+VictoryBGM = FRLG Victory (VS Gym Leader)
+#-------------------------------
+[FRLG_ELITEFOUR_Bruno]
+Name = Elite Four
+Gender = Male
+BaseMoney = 100
+IntroBGM = FRLG Tense Battle!
+BattleBGM = FRLG Battle (VS Gym Leader)
+VictoryBGM = FRLG Victory (VS Gym Leader)
+#-------------------------------
+[FRLG_ELITEFOUR_Agatha]
+Name = Elite Four
+Gender = Female
+BaseMoney = 100
+IntroBGM = FRLG Tense Battle!
+BattleBGM = FRLG Battle (VS Gym Leader)
+VictoryBGM = FRLG Victory (VS Gym Leader)
+#-------------------------------
+[FRLG_ELITEFOUR_Lance]
+Name = Elite Four
+Gender = Male
+BaseMoney = 100
+IntroBGM = FRLG Tense Battle!
+BattleBGM = FRLG Battle (VS Gym Leader)
+VictoryBGM = FRLG Victory (VS Gym Leader)
+#-------------------------------
+[FRLG_CHAMPION]
+Name = Champion
+Gender = Male
+BaseMoney = 100
+IntroBGM = NULL
+BattleBGM = FRLG The Last Battle (VS Rival)
+VictoryBGM = FRLG Victory (VS Gym Leader)
+#-------------------------------
+[FRLG_CHAMPION_CustomM]
+Name = Champion
+Gender = Male
+BaseMoney = 100
+IntroBGM = NULL
+BattleBGM = FRLG The Last Battle (VS Rival)
+VictoryBGM = FRLG Victory (VS Gym Leader)
+#-------------------------------
+[FRLG_CHAMPION_CustomF]
+Name = Champion
+Gender = Female
+BaseMoney = 100
+IntroBGM = NULL
+BattleBGM = FRLG The Last Battle (VS Rival)
+VictoryBGM = FRLG Victory (VS Gym Leader)
