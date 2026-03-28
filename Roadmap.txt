@@ -1,3 +1,14 @@
-Roadmap for V1.0:
-- Create proof of concept second region maps and write region transfer scripts
-	- S.S. Anne sailor in Vermillion
+Roadmap as of March 27th 2026:
+
+- Hoenn (Mid to Late 2026)
+	- Mapping
+	- Eventing (Main game)
+	- Eventing (Post game)
+	- Bug fix pass
+- Sinnoh
+	- Begin work
+	
+	
+Current Major Roadblocks:
+
+- The battle system is currently causing a crash in v1.0; once fixed the resource will be updated to v1.1
