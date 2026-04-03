@@ -15,137 +15,137 @@
 #-------------------------------
 # [MC] Main Characters
 #-------------------------------
-[HGSS_PKMNTRAINER_Ethan]
+[HGSS_POKEMONTRAINER_Ethan]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 ShadowXY = 0,-3
 #-------------------------------
-[HGSS_PKMNTRAINER_Lyra]
+[HGSS_POKEMONTRAINER_Lyra]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 ShadowXY = 0,-2
 #-------------------------------
-[DPPt_PKMNTRAINER_Lucas]
+[DPPt_POKEMONTRAINER_Lucas]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 ShadowXY = 0,-3
 #-------------------------------
-[DPPt_PKMNTRAINER_Dawn]
+[DPPt_POKEMONTRAINER_Dawn]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 ShadowXY = 0,-2
 #-------------------------------
-[BW_PKMNTRAINER_Hilbert]
+[BW_POKEMONTRAINER_Hilbert]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 ShadowXY = 0,-2
 #-------------------------------
-[BW_PKMNTRAINER_Hilda]
+[BW_POKEMONTRAINER_Hilda]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 ShadowXY = 0,-2
 #-------------------------------
-[BW_PKMNTRAINER_Nate]
-Name = Pokémon Trainer
-Gender = Male
-BaseMoney = 60
-ShadowXY = 0,-3
-#-------------------------------
-[BW_PKMNTRAINER_Rosa]
-Name = Pokémon Trainer
-Gender = Female
-BaseMoney = 60
-ShadowXY = 0,-2
-#-------------------------------
-[HGSS_PKMNTRAINER_Silver]
+[BW_POKEMONTRAINER_Nate]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 ShadowXY = 0,-3
 #-------------------------------
-[RSE_PKMNTRAINER_Wally]
+[BW_POKEMONTRAINER_Rosa]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+ShadowXY = 0,-2
+#-------------------------------
+[HGSS_POKEMONTRAINER_Silver]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+ShadowXY = 0,-3
+#-------------------------------
+[RSE_POKEMONTRAINER_Wally]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 ShadowXY = 0,-1
 #-------------------------------
-[DPPt_PKMNTRAINER_Barry]
+[DPPt_POKEMONTRAINER_Barry]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 ShadowXY = 1,-4
 #-------------------------------
-[DPPt_PKMNTRAINER_Barry2]
+[DPPt_POKEMONTRAINER_Barry2]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 ShadowXY = 1,-3
 #-------------------------------
-[BW_PKMNTRAINER_Bianca]
+[BW_POKEMONTRAINER_Bianca]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 ShadowXY = 0,-1
 #-------------------------------
-[BW_PKMNTRAINER_Bianca2]
+[BW_POKEMONTRAINER_Bianca2]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 ShadowXY = 0,-3
 #-------------------------------
-[BW_PKMNTRAINER_Cheren]
+[BW_POKEMONTRAINER_Cheren]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 ShadowXY = 0,-3
 #-------------------------------
-[BW_PKMNTRAINER_Hugh]
+[BW_POKEMONTRAINER_Hugh]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 ShadowXY = 0,-3
 #-------------------------------
-[BW_PKMNTRAINER_Colress]
+[BW_POKEMONTRAINER_Colress]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 100
 ShadowXY = 0,-1
 #-------------------------------
-[BW_PKMNTRAINER_N]
+[BW_POKEMONTRAINER_N]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 100
 #-------------------------------
-[DPPt_PKMNTRAINER_Mira]
+[DPPt_POKEMONTRAINER_Mira]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 ShadowXY = 0,-2
 #-------------------------------
-[DPPt_PKMNTRAINER_Marley]
+[DPPt_POKEMONTRAINER_Marley]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 ShadowXY = 0,-3
 #-------------------------------
-[DPPt_PKMNTRAINER_Buck]
+[DPPt_POKEMONTRAINER_Buck]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[DPPt_PKMNTRAINER_Cheryl]
+[DPPt_POKEMONTRAINER_Cheryl]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 ShadowXY = 0,-1
 #-------------------------------
-[DPPt_PKMNTRAINER_Riley]
+[DPPt_POKEMONTRAINER_Riley]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60

@@ -15,27 +15,27 @@
 #-------------------------------
 # [MC] Main Characters
 #-------------------------------
-[CUSTOM_PL_CustomM]
+[player_M]
 Name = Player
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[CUSTOM_PL_CustomF]
+[player_F]
 Name = Player
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[FRLG_PKMNTRAINER_Red]
+[FRLG_POKEMONTRAINER_Red]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[FRLG_PKMNTRAINER_Leaf]
+[FRLG_POKEMONTRAINER_Leaf]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[HGSS_PKMNTRAINER_Kris]
+[HGSS_POKEMONTRAINER_Kris]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
@@ -51,172 +51,172 @@ Gender = Male
 BaseMoney = 100
 IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
 #-------------------------------
-[RSE_PKMNTRAINER_Brendan]
+[RSE_POKEMONTRAINER_Brendan]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[RSE_PKMNTRAINER_May]
+[RSE_POKEMONTRAINER_May]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[XY_PKMNTRAINER_Calem]
+[XY_POKEMONTRAINER_Calem]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[XY_PKMNTRAINER_Serena]
+[XY_POKEMONTRAINER_Serena]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[XY_PKMNTRAINER_Shauna]
+[XY_POKEMONTRAINER_Shauna]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[XY_PKMNTRAINER_Tierno]
+[XY_POKEMONTRAINER_Tierno]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[XY_PKMNTRAINER_Trevor]
+[XY_POKEMONTRAINER_Trevor]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[USUM_PKMNTRAINER_Elio]
+[USUM_POKEMONTRAINER_Elio]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[USUM_PKMNTRAINER_Selene]
+[USUM_POKEMONTRAINER_Selene]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[USUM_PKMNTRAINER_Hau]
+[USUM_POKEMONTRAINER_Hau]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[USUM_PKMNTRAINER_Gladion]
+[USUM_POKEMONTRAINER_Gladion]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[FRLG_PKMNTRAINER_Chase]
+[FRLG_POKEMONTRAINER_Chase]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[FRLG_PKMNTRAINER_Elaine]
+[FRLG_POKEMONTRAINER_Elaine]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[FRLG_PKMNTRAINER_Trace]
+[FRLG_POKEMONTRAINER_Trace]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[SwSh_PKMNTRAINER_Victor]
+[SwSh_POKEMONTRAINER_Victor]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[SwSh_PKMNTRAINER_Gloria]
+[SwSh_POKEMONTRAINER_Gloria]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[SwSh_PKMNTRAINER_Hop]
+[SwSh_POKEMONTRAINER_Hop]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[SwSh_PKMNTRAINER_Bede]
+[SwSh_POKEMONTRAINER_Bede]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[SwSh_PKMNTRAINER_Marnie]
+[SwSh_POKEMONTRAINER_Marnie]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[SwSh_PKMNTRAINER_Klara]
+[SwSh_POKEMONTRAINER_Klara]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[SwSh_PKMNTRAINER_Avery]
+[SwSh_POKEMONTRAINER_Avery]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[HISUI_PKMNTRAINER_Rei]
+[HISUI_POKEMONTRAINER_Rei]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[HISUI_PKMNTRAINER_Akari]
+[HISUI_POKEMONTRAINER_Akari]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[SV_PKMNTRAINER_Florian]
+[SV_POKEMONTRAINER_Florian]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[SV_PKMNTRAINER_Juliana]
+[SV_POKEMONTRAINER_Juliana]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[SV_PKMNTRAINER_Nemona]
+[SV_POKEMONTRAINER_Nemona]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[SV_PKMNTRAINER_Arven]
+[SV_POKEMONTRAINER_Arven]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[SV_PKMNTRAINER_Penny]
+[SV_POKEMONTRAINER_Penny]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[SV_PKMNTRAINER_Carmine]
+[SV_POKEMONTRAINER_Carmine]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[SV_PKMNTRAINER_Kieran]
+[SV_POKEMONTRAINER_Kieran]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[XY_PKMNTRAINER_Paxton]
+[XY_POKEMONTRAINER_Paxton]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[XY_PKMNTRAINER_Harmony]
+[XY_POKEMONTRAINER_Harmony]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[XY_PKMNTRAINER_Urbain]
+[XY_POKEMONTRAINER_Urbain]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
-[XY_PKMNTRAINER_Taunie]
+[XY_POKEMONTRAINER_Taunie]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
