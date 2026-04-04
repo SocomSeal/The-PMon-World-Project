@@ -32,6 +32,7 @@ Script section Game_Stats - Line 170-176, disable def set_time_to_hall_of_fame, 
 Script section UI_HallOfFame - Line 248, totalsec = $stats.times_to_enter_hall_of_fame[pbGet(50)].to_i
 Script section PokemonStorage - Line 402-423, def pbEachPokemonEx and def pbMergeStorage(storageDst, storageSrc)
 Multidisc Scripts (See forum thread or documentation)
+Script section ALL - Replace "Object ball" with "OBJ_SYSTEM_POKEBALL"
 	
 	
 Encounters PBS (per region as .dat)
