@@ -33,6 +33,8 @@ Script section UI_HallOfFame - Line 248, totalsec = $stats.times_to_enter_hall_o
 Script section PokemonStorage - Line 402-423, def pbEachPokemonEx and def pbMergeStorage(storageDst, storageSrc)
 Multidisc Scripts (See forum thread or documentation)
 Script section ALL - Replace "Object ball" with "OBJ_SYSTEM_POKEBALL"
+Script section UI_TrainerCard - Update calculation for displayed badges to make badge events easier (i.e. 11-18), if $player.badges[i + 1 + (region * 10)]
+Script section Utilities - Line 383, def pbGetCurrentRegion - limit region check to max of 100 regions (0-49 main games, 50-99 side games), with regions over 100 (sub-regions) being returned as their primary region
 	
 	
 Encounters PBS (per region as .dat)
