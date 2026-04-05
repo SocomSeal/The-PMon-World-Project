@@ -444,91 +444,91 @@ BaseMoney = 72
 ShadowXY = 0,-3
 #-------------------------------
 [HGSS_ROCKETADMIN_Archer]
-Name = Rocket Admin
+Name = Team Rocket Admin
 Gender = Male
 BaseMoney = 72
 ShadowXY = 0,-2
 #-------------------------------
 [HGSS_ROCKETADMIN_Ariana]
-Name = Rocket Admin
+Name = Team Rocket Admin
 Gender = Female
 BaseMoney = 72
 ShadowXY = 0,-3
 #-------------------------------
 [HGSS_ROCKETADMIN_Petrel]
-Name = Rocket Admin
+Name = Team Rocket Admin
 Gender = Male
 BaseMoney = 72
 ShadowXY = 0,-5
 #-------------------------------
 [HGSS_ROCKETADMIN_Proton]
-Name = Rocket Admin
+Name = Team Rocket Admin
 Gender = Male
 BaseMoney = 72
 ShadowXY = 0,-2
 #-------------------------------
-[DPPt_TEAMGALACTIC_M]
-Name = Team Galactic
+[DPPt_GALACTICGRUNT_M]
+Name = Team Galactic Grunt
 Gender = Male
 BaseMoney = 32
 ShadowXY = 0,-2
 #-------------------------------
-[DPPt_TEAMGALACTIC_F]
-Name = Team Galactic
+[DPPt_GALACTICGRUNT_F]
+Name = Team Galactic Grunt
 Gender = Female
 BaseMoney = 32
 ShadowXY = 0,-2
 #-------------------------------
 [DPPt_GALACTICBOSS]
-Name = Galactic Boss
+Name = Team Galactic Boss
 Gender = Male
 BaseMoney = 100
 ShadowXY = 0,-2
 #-------------------------------
-[BW_TEAMPLASMA_M]
-Name = Team Plasma
+[BW_PLASMAGRUNT_M]
+Name = Team Plasma Grunt
 Gender = Male
 BaseMoney = 32
 ShadowXY = 0,-5
 #-------------------------------
-[BW_TEAMPLASMA2_M]
-Name = Team Plasma
+[BW_PLASMAGRUNT_M_2]
+Name = Team Plasma Grunt
 Gender = Male
 BaseMoney = 32
 ShadowXY = 0,-5
 #-------------------------------
-[BW_TEAMPLASMA_F]
-Name = Team Plasma
+[BW_PLASMAGRUNT_F]
+Name = Team Plasma Grunt
 Gender = Female
 BaseMoney = 32
 ShadowXY = 0,-2
 #-------------------------------
-[BW_TEAMPLASMA2_F]
-Name = Team Plasma
+[BW_PLASMAGRUNT_F_2]
+Name = Team Plasma Grunt
 Gender = Female
 BaseMoney = 32
 ShadowXY = 0,-3
 #-------------------------------
-[BW_TEAMPLASMA_Rood]
-Name = Team Plasma
+[BW_POKEMONTRAINER_Rood]
+Name = Pokemon Trainer
 Gender = Male
 BaseMoney = 72
 ShadowXY = 1,-4
 #-------------------------------
-[BW_TEAMPLASMA_Zinzolin]
+[BW_PLASMA_Zinzolin]
 Name = Team Plasma
 Gender = Male
 BaseMoney = 72
 ShadowXY = 0,-3
 #-------------------------------
 [BW_PLASMABOSS]
-Name = Plasma Boss
+Name = Team Plasma Boss
 Gender = Male
 BaseMoney = 100
 ShadowXY = 0,-3
 #-------------------------------
-[BW_PLASMABOSS2]
-Name = Plasma Boss
+[BW_PLASMABOSS_2]
+Name = Team Plasma Boss
 Gender = Male
 BaseMoney = 100
 ShadowXY = 2,-10

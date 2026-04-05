@@ -567,23 +567,23 @@ Pokemon = GEODUDE,10
 Pokemon = GEODUDE,10
 Pokemon = ONIX,10
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,1]
+[FRLG_ROCKETGRUNT_M,Grunt,1]
 LoseText = I blew it!
 Pokemon = SANDSHREW,11
 Pokemon = RATTATA,11
 Pokemon = ZUBAT,11
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,2]
+[FRLG_ROCKETGRUNT_M,Grunt,2]
 LoseText = So, you are good...
 Pokemon = ZUBAT,11
 Pokemon = EKANS,11
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,3]
+[FRLG_ROCKETGRUNT_M,Grunt,3]
 LoseText = I'm steamed!
 Pokemon = RATTATA,13
 Pokemon = SANDSHREW,13
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,4]
+[FRLG_ROCKETGRUNT_M,Grunt,4]
 LoseText = Urgh! Now I'm mad!
 Pokemon = RATTATA,13
 Pokemon = ZUBAT,13
@@ -596,7 +596,7 @@ Pokemon = KOFFING,12
 #-------------------------------
 # Cerulean City
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,6]
+[FRLG_ROCKETGRUNT_M,Grunt,6]
 LoseText = Stop! I give up! I'll leave quietly!
 Pokemon = MACHOP,17
 Pokemon = DROWZEE,17
@@ -676,7 +676,7 @@ Pokemon = NIDORINA,28
 LoseText = Whoa! Too much!
 Pokemon = MANKEY,18
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,5]
+[FRLG_ROCKETGRUNT_M,Grunt,5]
 LoseText = Arrgh! You are good!
 Pokemon = EKANS,15
 Pokemon = ZUBAT,15
@@ -1326,18 +1326,18 @@ Pokemon = GASTLY,24
 #-------------------------------
 # Pokemon Tower 7F
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,19]
+[FRLG_ROCKETGRUNT_M,Grunt,19]
 LoseText = I give up!
 Pokemon = ZUBAT,25
 Pokemon = ZUBAT,25
 Pokemon = GOLBAT,25
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,20]
+[FRLG_ROCKETGRUNT_M,Grunt,20]
 LoseText = Please! No more!
 Pokemon = KOFFING,26
 Pokemon = DROWZEE,26
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,21]
+[FRLG_ROCKETGRUNT_M,Grunt,21]
 LoseText = Don't fight us Rockets!
 Pokemon = ZUBAT,23
 Pokemon = RATTATA,23
@@ -1508,44 +1508,44 @@ Pokemon = VILEPLUME,29
 #-------------------------------
 # Celadon Game Corner
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,7]
+[FRLG_ROCKETGRUNT_M,Grunt,7]
 LoseText = Dang!
 Pokemon = RATICATE,20
 Pokemon = ZUBAT,20
 #-------------------------------
 # Rocket Hideout B1F
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,8]
+[FRLG_ROCKETGRUNT_M,Grunt,8]
 LoseText = Boom!
 Pokemon = RATICATE,21
 Pokemon = RATICATE,21
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,9]
+[FRLG_ROCKETGRUNT_M,Grunt,9]
 LoseText = Oww! Beaten!
 Pokemon = DROWZEE,21
 Pokemon = MACHOP,21
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,10]
+[FRLG_ROCKETGRUNT_M,Grunt,10]
 LoseText = This won't do!
 Pokemon = RATTATA,19
 Pokemon = RATTATA,19
 Pokemon = RATICATE,19
 Pokemon = RATICATE,19
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,11]
+[FRLG_ROCKETGRUNT_M,Grunt,11]
 LoseText = I can't do it!
 Pokemon = GRIMER,20
 Pokemon = KOFFING,20
 Pokemon = KOFFING,20
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,12]
+[FRLG_ROCKETGRUNT_M,Grunt,12]
 LoseText = Why...?
 Pokemon = GRIMER,22
 Pokemon = KOFFING,22
 #-------------------------------
 # Rocket Hideout B2F
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,13]
+[FRLG_ROCKETGRUNT_M,Grunt,13]
 LoseText = I surrender!
 Pokemon = ZUBAT,17
 Pokemon = KOFFING,17
@@ -1555,30 +1555,30 @@ Pokemon = RATICATE,17
 #-------------------------------
 # Rocket Hideout B3F
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,14]
+[FRLG_ROCKETGRUNT_M,Grunt,14]
 LoseText = What? I lost? No!
 Pokemon = MACHOP,21
 Pokemon = MACHOP,21
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,15]
+[FRLG_ROCKETGRUNT_M,Grunt,15]
 LoseText = Oof! Taken down!
 Pokemon = MACHOP,21
 Pokemon = MACHOP,21
 #-------------------------------
 # Rocket Hideout B4F
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,16]
+[FRLG_ROCKETGRUNT_M,Grunt,16]
 LoseText = No!
 Pokemon = KOFFING,21
 Pokemon = ZUBAT,21
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,17]
+[FRLG_ROCKETGRUNT_M,Grunt,17]
 LoseText = Burned Again!
 Pokemon = SANDSHREW,23
 Pokemon = EKANS,23
 Pokemon = SANDSLASH,23
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,18]
+[FRLG_ROCKETGRUNT_M,Grunt,18]
 LoseText = Ayaya!
 Pokemon = EKANS,23
 Pokemon = SANDSHREW,23
@@ -2244,7 +2244,7 @@ Pokemon = HITMONCHAN,37
 #-------------------------------
 # Silph Co. 2F
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,22]
+[FRLG_ROCKETGRUNT_M,Grunt,22]
 LoseText = I goofed!
 Pokemon = GOLBAT,25
 Pokemon = ZUBAT,25
@@ -2252,7 +2252,7 @@ Pokemon = ZUBAT,25
 Pokemon = RATICATE,25
 Pokemon = ZUBAT,25
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,23]
+[FRLG_ROCKETGRUNT_M,Grunt,23]
 LoseText = Tough!
 Pokemon = CUBONE,29
 Pokemon = ZUBAT,29
@@ -2272,7 +2272,7 @@ Pokemon = WEEZING,26
 #-------------------------------
 # Silph Co. 3F
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,24]
+[FRLG_ROCKETGRUNT_M,Grunt,24]
 LoseText = I give up!
 Pokemon = RATICATE,28
 Pokemon = HYPNO,28
@@ -2285,13 +2285,13 @@ Pokemon = WEEZING,29
 #-------------------------------
 # Silph Co. 4F
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,25]
+[FRLG_ROCKETGRUNT_M,Grunt,25]
 LoseText = Who are you?
 Pokemon = EKANS,28
 Pokemon = ZUBAT,28
 Pokemon = CUBONE,28
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,26]
+[FRLG_ROCKETGRUNT_M,Grunt,26]
 LoseText = Arrgh!
 Pokemon = MACHOP,29
 Pokemon = DROWZEE,29
@@ -2309,11 +2309,11 @@ Pokemon = KOFFING,26
 Pokemon = WEEZING,26
 Pokemon = MAGNEMITE,26
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,27]
+[FRLG_ROCKETGRUNT_M,Grunt,27]
 LoseText = Cough... Cough...
 Pokemon = HYPNO,33
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,28]
+[FRLG_ROCKETGRUNT_M,Grunt,28]
 LoseText = Boom!
 Pokemon = ARBOK,33
 #-------------------------------
@@ -2324,12 +2324,12 @@ Pokemon = MRMIME,29
 #-------------------------------
 # Silph Co. 6F
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,29]
+[FRLG_ROCKETGRUNT_M,Grunt,29]
 LoseText = Flame out!
 Pokemon = MACHOP,29
 Pokemon = MACHOKE,29
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,30]
+[FRLG_ROCKETGRUNT_M,Grunt,30]
 LoseText = You traitor!
 Pokemon = ZUBAT,28
 Pokemon = ZUBAT,28
@@ -2345,19 +2345,19 @@ Pokemon = KOFFING,25
 #-------------------------------
 # Silph Co. 7F
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,31]
+[FRLG_ROCKETGRUNT_M,Grunt,31]
 LoseText = Aack! Brothers, I lost!
 Pokemon = CUBONE,29
 Pokemon = CUBONE,29
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,32]
+[FRLG_ROCKETGRUNT_M,Grunt,32]
 LoseText = Lights out!
 Pokemon = RATICATE,26
 Pokemon = ZUBAT,26
 Pokemon = GOLBAT,26
 Pokemon = RATTATA,26
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,33]
+[FRLG_ROCKETGRUNT_M,Grunt,33]
 LoseText = Fine! I lost!
 Pokemon = SANDSHREW,29
 Pokemon = SANDSHREW,29
@@ -2369,14 +2369,14 @@ Pokemon = MUK,29
 #-------------------------------
 # Silph Co. 8F
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,34]
+[FRLG_ROCKETGRUNT_M,Grunt,34]
 LoseText = Not enough grit!
 Pokemon = RATICATE,26
 Pokemon = ARBOK,26
 Pokemon = KOFFING,26
 Pokemon = GOLBAT,26
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,35]
+[FRLG_ROCKETGRUNT_M,Grunt,35]
 LoseText = Whoo! Oh, Brothers!
 Pokemon = WEEZING,28
 Pokemon = GOLBAT,28
@@ -2389,13 +2389,13 @@ Pokemon = ELECTRODE,29
 #-------------------------------
 # Silph Co. 9F
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,36]
+[FRLG_ROCKETGRUNT_M,Grunt,36]
 LoseText = Warg! Brothers, I lost!
 Pokemon = GOLBAT,28
 Pokemon = DROWZEE,28
 Pokemon = HYPNO,28
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,37]
+[FRLG_ROCKETGRUNT_M,Grunt,37]
 LoseText = Ghaaah!
 Pokemon = DROWZEE,28
 Pokemon = GRIMER,28
@@ -2414,13 +2414,13 @@ LoseText = No continues left!
 Pokemon = MAGNEMITE,29
 Pokemon = KOFFING,29
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,38]
+[FRLG_ROCKETGRUNT_M,Grunt,38]
 LoseText = I'm stunned!
 Pokemon = MACHOKE,33
 #-------------------------------
 # Silph Co. 11F
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,39]
+[FRLG_ROCKETGRUNT_M,Grunt,39]
 LoseText = Gaah! Demolished!
 Pokemon = RATTATA,25
 Pokemon = RATTATA,25
@@ -2428,7 +2428,7 @@ Pokemon = ZUBAT,25
 Pokemon = RATTATA,25
 Pokemon = EKANS,25
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,40]
+[FRLG_ROCKETGRUNT_M,Grunt,40]
 LoseText = Don't... Please!
 Pokemon = EXEGGCUTE,32
 Pokemon = DROWZEE,32
@@ -3206,12 +3206,12 @@ Pokemon = SEAKING,35
 #-------------------------------
 # Mt. Ember
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,40]
+[FRLG_ROCKETGRUNT_M,Grunt,40]
 LoseText = Huh, what?
 Pokemon = CUBONE,37
 Pokemon = MAROWAK,37
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,41]
+[FRLG_ROCKETGRUNT_M,Grunt,41]
 LoseText = Wait! But how?
 Pokemon = RATTATA,35
 Pokemon = RATICATE,35
@@ -3312,7 +3312,7 @@ Pokemon = WEEPINBELL,37
 #-------------------------------
 # Icefall Cave Back
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,42]
+[FRLG_ROCKETGRUNT_M,Grunt,42]
 LoseText = We didn't plan on this!
 Pokemon = ZUBAT,38
 Pokemon = ZUBAT,38
@@ -3411,37 +3411,37 @@ Pokemon = PERSIAN,49
 #-------------------------------
 # Five Isle Meadow
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,43]
+[FRLG_ROCKETGRUNT_M,Grunt,43]
 LoseText = Is this for real?
 Pokemon = RATTATA,48
 Pokemon = GRIMER,48
 Pokemon = MUK,48
 #-------------------------------
-[FRLG_TEAMROCKET_F,Grunt,1]
+[FRLG_ROCKETGRUNT_F,Grunt,1]
 LoseText = Oh, that makes me furious!
 Pokemon = EKANS,48
 Pokemon = GLOOM,48
 Pokemon = GLOOM,48
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,44]
+[FRLG_ROCKETGRUNT_M,Grunt,44]
 LoseText = That wasn't supposed to happen...
 Pokemon = KOFFING,49
 Pokemon = WEEZING,49
 #-------------------------------
 # Rocket Warehouse
 #-------------------------------
-[FRLG_TEAMROCKET_F,Grunt,2]
+[FRLG_ROCKETGRUNT_F,Grunt,2]
 LoseText = Oh, but... Too much!
 Pokemon = HOUNDOUR,49
 Pokemon = HOUNDOUR,49
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,45]
+[FRLG_ROCKETGRUNT_M,Grunt,45]
 LoseText = What do you think you're doing?!
 Pokemon = MACHOP,48
 Pokemon = MACHOP,48
 Pokemon = MACHOKE,48
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,46]
+[FRLG_ROCKETGRUNT_M,Grunt,46]
 LoseText = Don't...you...dare...laugh...
 Pokemon = HYPNO,49
 Pokemon = HYPNO,49
@@ -3703,7 +3703,7 @@ LoseText = Nope, no luck at all...
 Pokemon = QWILFISH,49
 Pokemon = QWILFISH,49
 #-------------------------------
-[FRLG_TEAMROCKET_M,Grunt,47]
+[FRLG_ROCKETGRUNT_M,Grunt,47]
 LoseText = ...Huh?
 Pokemon = MUK,48
 Pokemon = GOLBAT,48

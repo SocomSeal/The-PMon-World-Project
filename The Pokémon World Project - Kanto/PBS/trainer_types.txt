@@ -40,13 +40,13 @@ Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
-[HGSS_BOSSTR_Red]
+[HGSS_POKEMONTRAINER_Red]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 100
 #-------------------------------
 [HGSS_ROCKETBOSS]
-Name = Rocket Boss
+Name = Team Rocket Boss
 Gender = Male
 BaseMoney = 100
 IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
@@ -528,32 +528,32 @@ Gender = Female
 BaseMoney = 60
 SkillLevel = 32
 #-------------------------------
-[FRLG_TEAMROCKET_M]
+[FRLG_ROCKETGRUNT_M]
 Name = Team Rocket
 Gender = Male
 BaseMoney = 32
 IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
 #-------------------------------
-[FRLG_TEAMROCKET_F]
+[FRLG_ROCKETGRUNT_F]
 Name = Team Rocket
 Gender = Female
 BaseMoney = 32
 IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
 #-------------------------------
 [FRLG_ROCKETBOSS]
-Name = Boss
+Name = Team Rocket Boss
 Gender = Male
 BaseMoney = 100
 IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
 #-------------------------------
 [FRLG_ROCKETADMIN_Archer]
-Name = Rocket Admin
+Name = Team Rocket Admin
 Gender = Male
 BaseMoney = 72
 IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
 #-------------------------------
 [FRLG_ROCKETADMIN_Ariana]
-Name = Rocket Admin
+Name = Team Rocket Admin
 Gender = Female
 BaseMoney = 72
 IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
