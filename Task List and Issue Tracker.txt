@@ -34,7 +34,7 @@ KANTO
 
 Cosmetic
 - Standardize all maps with proper tilesets
-- Special NPCs need proper overworld sprites i.e. Ariana and Archer
+- Doors. 32px doors need proper overhangs set on the tileset, and 40px doors need similar fixes to function. (Set tileset as "open", make door event sprites transparent)
 - Sprites for animated trainer intros
 - Add proper VS sprites
 - Custom title screen, credits images
