@@ -11,4 +11,4 @@ Roadmap as of March 27th 2026:
 	
 Current Major Roadblocks:
 
-- The battle system is currently causing a crash in v1.0; once fixed the resource will be updated to v1.1
+- 

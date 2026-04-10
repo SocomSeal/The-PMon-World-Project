@@ -34,7 +34,7 @@ KANTO
 
 Cosmetic
 - Standardize all maps with proper tilesets
-- Special NPCs need proper overworld sprites i.e. Ariana and Archer
+- Doors. 32px doors need proper overhangs set on the tileset, and 40px doors need similar fixes to function. (Set tileset as "open", make door event sprites transparent)
 - Sprites for animated trainer intros
 - Add proper VS sprites
 - Custom title screen, credits images
@@ -56,7 +56,7 @@ KANTO
 - Missing animations for Seagallop Ferry
 - Missing TV animations
 HOENN
-- Various tiles are not "complete" as faithful recreations, e.g. fences, path inner corners, flower shop planter boxes, cave ledges, rusturf tunnel cave exits, Mirage Tower, MT. Chimney Caldera, Meteor Falls ledges, Seafloor cavern walls, Cave of Origin crystals, underwater cliffs
+- Various tiles are not "complete" as faithful recreations, e.g. fences, slateport southwest sea corner, path inner corners, flower shop planter boxes, cave ledges, rusturf tunnel cave exits, Mirage Tower, MT. Chimney Caldera, Meteor Falls ledges, Seafloor cavern walls, Cave of Origin crystals (the corners on this tileset also suck, the whole thing is a mess), underwater cliffs
 - Fortree shadows are missing
 - Fortree bridges don't have bobbing animations when walked on
 - Pacifidlog bridges don't have bobbing animations when walked on (Current implementation has z-fighting issues)
