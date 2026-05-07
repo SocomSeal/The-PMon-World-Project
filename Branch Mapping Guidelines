@@ -1,0 +1,27 @@
+Where should you be working? If you're editing:
+- Map Data Files
+- encounters PBS
+- map_connections PBS
+- map_metadata PBS
+
+ONLY make these changes within your region's project. 
+If your work is finalized, you MUST compile your project afterwards, and copy these things to Full Game, in the relevant Data\disc# folder
+- Maps
+- encounters.dat
+- map_connections.dat
+- map_metadata.dat
+
+
+
+If you want to edit:
+- System settings
+- Scripts
+- Plugins
+- Sprites or other graphics
+- Tilesets
+- Audio files
+- Other, 'global' PBS files
+- Any other 'global' data
+
+Then you MUST perform these changes within the Global project, and ensure that your changes are properly copied to Full Game AND other region projects. 
+Failure to follow these guidelines will cause projects to desync.
