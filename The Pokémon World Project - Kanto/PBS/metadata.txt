@@ -1,0 +1,35 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[0]
+StartMoney = 3000
+StartItemStorage = POTION
+Home = 2,0,1,8
+StorageCreator = Bill
+WildBattleBGM = FRLG Battle (VS Wild Pokemon)
+TrainerBattleBGM = FRLG Battle (VS Trainer)
+WildVictoryBGM = FRLG Victory (VS Wild Pokemon)
+TrainerVictoryBGM = FRLG Victory (VS Trainer)
+SurfBGM = FRLG Surfing
+BicycleBGM = FRLG Cycling
+#-------------------------------
+[1]
+TrainerType = player_M
+WalkCharset = player_M
+RunCharset = player_M_run
+CycleCharset = player_M_bike
+SurfCharset = player_M_surf
+DiveCharset = player_M_surf
+FishCharset = player_M_fish_offset
+SurfFishCharset = player_M_fish_offset
+SpinCharset = player_M_spin
+#-------------------------------
+[2]
+TrainerType = player_F
+WalkCharset = player_F
+RunCharset = player_F_run
+CycleCharset = player_F_bike
+SurfCharset = player_F_surf
+DiveCharset = player_F_surf
+FishCharset = player_F_fish_offset
+SurfFishCharset = player_F_fish_offset
+SpinCharset = player_F_spin
