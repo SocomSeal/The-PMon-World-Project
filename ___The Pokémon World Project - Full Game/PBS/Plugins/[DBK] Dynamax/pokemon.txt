@@ -1,9 +1,0 @@
-#-------------------------------
-[ALCREMIE]
-Flags = AllFormsShareGmax
-#-------------------------------
-[ZACIAN]
-Flags = CannotDynamax
-#-------------------------------
-[ZAMAZENTA]
-Flags = CannotDynamax
