@@ -17,6 +17,31 @@ Name = Littleroot Town
 Outdoor = true
 ShowArea = true
 Bicycle = true
+MapPosition = 3,5,13
+#-------------------------------
+[008]   # Unnamed's House
+Name = \PN's House
+MapPosition = 3,5,13
+#-------------------------------
+[009]   # Brendan's House
+Name = Prof. Birch's House
+MapPosition = 3,5,13
+#-------------------------------
+[010]   # May's House
+Name = Prof. Birch's House
+MapPosition = 3,5,13
+#-------------------------------
+[011]   # Birch's Lab
+Name = Prof. Birch's Lab
+MapPosition = 3,5,13
 #-------------------------------
 [083]   # Sootopolis City
+Name = Sootopolis City
 DiveMap = 255
+#-------------------------------
+[101]   # Route 101
+Name = Route 101
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,5,12
