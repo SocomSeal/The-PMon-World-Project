@@ -12,3 +12,23 @@ Roadmap as of March 27th 2026:
 Current Major Roadblocks:
 
 - 
+
+
+
+
+Socom's Worklist
+
+
+- Hoenn mapping
+	Altering Cave and beyond, Battle Frontier needed to set fly point
+	All routes past 101
+	Additional maps?
+	DOORS. Tilesets need overhangs, door character sheets need to be made
+		Could touch up Kanto in this way?
+- Hoenn Town Map PBS
+	Add fly points to missing locations, verify points of interest are on the correct squares
+- Map metadata PBS
+	Add metadata for all maps, size, dive maps, etc
+- Scripting
+	Choosing a starter is done. Next steps include Oldale town, with the 'footprint NPC', Route 103 and the rival battle, the pokedex scene
+	How to implement Wally Ralts sequence? Look into DBK scripting, or placeholder for now?
