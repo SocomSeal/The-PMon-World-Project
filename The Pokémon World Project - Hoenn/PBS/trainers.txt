@@ -1,7 +1,7 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
-#-------------------------------
+#-------------------------------#
 # Kanto Rival
-#-------------------------------
+#-------------------------------#
 [FRLG_RIVAL1,Blue]
 LoseText = WHAT? Unbelievable! I picked the wrong Pokémon!
 Pokemon = BULBASAUR,5
@@ -3890,3 +3890,682 @@ LoseText = I'm not much good in battle.
 Pokemon = GEODUDE,48
 Pokemon = GRAVELER,48
 Pokemon = GRAVELER,48
+#
+#-------------------------------#
+# RSE RIVAL
+#-------------------------------#
+[RSE_POKEMONTRAINER_BRENDAN,Brendan]
+LoseText = Huh, \pn, you're not too shabby.
+Pokemon = TORCHIC,5
+[RSE_POKEMONTRAINER_BRENDAN,Brendan,1]
+LoseText = Huh, \pn, you're not too shabby.
+Pokemon = MUDKIP,5
+[RSE_POKEMONTRAINER_BRENDAN,Brendan,2]
+LoseText = Huh, \pn, you're not too shabby.
+Pokemon = TREECKO,5
+#-------------------------------
+[RSE_POKEMONTRAINER_MAY,May]
+LoseText = Wow! That's great!\n\pn, you're pretty good!
+Pokemon = TORCHIC,5
+	Gender = male
+[RSE_POKEMONTRAINER_MAY,May,1]
+LoseText = Wow! That's great!\n\pn, you're pretty good!
+Pokemon = MUDKIP,5
+	Gender = male
+[RSE_POKEMONTRAINER_MAY,May,2]
+LoseText = Wow! That's great!\n\pn, you're pretty good!
+Pokemon = TREECKO,5
+	Gender = male
+#-------------------------------
+[RSE_POKEMONTRAINER_BRENDAN,Brendan,3]
+LoseText = Hmm…\nYou're pretty good.
+Pokemon = LOTAD,13
+Pokemon = TORCHIC,15
+[RSE_POKEMONTRAINER_BRENDAN,Brendan,4]
+LoseText = Hmm…\nYou're pretty good.
+Pokemon = SLUGMA,13
+Pokemon = MUDKIP,15
+[RSE_POKEMONTRAINER_BRENDAN,Brendan,5]
+LoseText = Hmm…\nYou're pretty good.
+Pokemon = WINGULL,13
+Pokemon = TREECKO,15
+#-------------------------------
+[RSE_POKEMONTRAINER_MAY,May,3]
+LoseText = Yikes!\nYou're better than I expected!
+Pokemon = LOTAD,13
+Pokemon = TORCHIC,15
+	Gender = male
+[RSE_POKEMONTRAINER_MAY,May,4]
+LoseText = Yikes!\nYou're better than I expected!
+Pokemon = SLUGMA,13
+Pokemon = MUDKIP,15
+	Gender = male
+[RSE_POKEMONTRAINER_MAY,May,5]
+LoseText = Yikes!\nYou're better than I expected!
+Pokemon = WINGULL,13
+Pokemon = TREECKO,15
+	Gender = male
+#-------------------------------
+[RSE_POKEMONTRAINER_BRENDAN,Brendan,6]
+LoseText = Hmm…\nYou're pretty good.
+Pokemon = WINGULL,18
+Pokemon = LOMBRE,18
+Pokemon = COMBUSKEN,20
+[RSE_POKEMONTRAINER_BRENDAN,Brendan,7]
+LoseText = Hmm…\nYou're pretty good.
+Pokemon = LOMBRE,18
+Pokemon = SLUGMA,18
+Pokemon = MARSHSTOMP,20
+[RSE_POKEMONTRAINER_BRENDAN,Brendan,8]
+LoseText = Hmm…\nYou're pretty good.
+Pokemon = SLUGMA,18
+Pokemon = WINGULL,18
+Pokemon = GROVYLE,20
+#-------------------------------
+[RSE_POKEMONTRAINER_MAY,May,6]
+LoseText = Yikes!\nYou're better than I expected!
+Pokemon = WINGULL,18
+Pokemon = LOMBRE,18
+Pokemon = COMBUSKEN,20
+	Gender = male
+[RSE_POKEMONTRAINER_MAY,May,7]
+LoseText = Yikes!\nYou're better than I expected!
+Pokemon = LOMBRE,18
+Pokemon = SLUGMA,18
+Pokemon = MARSHSTOMP,20
+	Gender = male
+[RSE_POKEMONTRAINER_MAY,May,8]
+LoseText = Yikes!\nYou're better than I expected!
+Pokemon = SLUGMA,18
+Pokemon = WINGULL,18
+Pokemon = GROVYLE,20
+	Gender = male
+#-------------------------------
+[RSE_POKEMONTRAINER_BRENDAN,Brendan,9]
+LoseText = Hmm…\nYou've gotten pretty darn decent.
+Pokemon = WINGULL,29
+Pokemon = LOMBRE,29
+Pokemon = COMBUSKEN,31
+[RSE_POKEMONTRAINER_BRENDAN,Brendan,10]
+LoseText = Hmm…\nYou've gotten pretty darn decent.
+Pokemon = LOMBRE,29
+Pokemon = SLUGMA,29
+Pokemon = MARSHSTOMP,31
+[RSE_POKEMONTRAINER_BRENDAN,Brendan,11]
+LoseText = Hmm…\nYou've gotten pretty darn decent.
+Pokemon = SLUGMA,29
+Pokemon = WINGULL,29
+Pokemon = GROVYLE,31
+#-------------------------------
+[RSE_POKEMONTRAINER_MAY,May,9]
+LoseText = Achah!\n\pn,you're strong!\nI was worried that you might be struggling with your training.
+Pokemon = WINGULL,29
+Pokemon = LOMBRE,29
+Pokemon = COMBUSKEN,31
+	Gender = male
+[RSE_POKEMONTRAINER_MAY,May,10]
+LoseText = Achah!\n\pn,you're strong!\nI was worried that you might be struggling with your training.
+Pokemon = LOMBRE,29
+Pokemon = SLUGMA,29
+Pokemon = MARSHSTOMP,31
+	Gender = male
+[RSE_POKEMONTRAINER_MAY,May,11]
+LoseText = Achah!\n\pn,you're strong!\nI was worried that you might be struggling with your training.
+Pokemon = SLUGMA,29
+Pokemon = WINGULL,29
+Pokemon = GROVYLE,31
+	Gender = male
+#-------------------------------
+[RSE_POKEMONTRAINER_BRENDAN,Brendan,12]
+LoseText = Humph…\nYou've done a lot of raising.\nThat stings a bit--I had a head start on you as a TRAINER...
+Pokemon = 
+Pokemon = TROPIUS,31
+Pokemon = PELIPPER,32
+Pokemon = LUDICOLO,32
+Pokemon = COMBUSKEN,34
+[RSE_POKEMONTRAINER_BRENDAN,Brendan,13]
+LoseText = Humph…\nYou've done a lot of raising.\nThat stings a bit--I had a head start on you as a TRAINER...
+Pokemon = TROPIUS,31
+Pokemon = LUDICOLO,32
+Pokemon = SLUGMA,32
+Pokemon = MARSHSTOMP,34
+[RSE_POKEMONTRAINER_BRENDAN,Brendan,14]
+LoseText = Humph…\nYou've done a lot of raising.\nThat stings a bit--I had a head start on you as a TRAINER...
+Pokemon = TROPIUS,31
+Pokemon = SLUGMA,32
+Pokemon = PELIPPER,32
+Pokemon = GROVYLE,34
+#-------------------------------
+[RSE_POKEMONTRAINER_MAY,May,12]
+LoseText = … … … … … … … …\n\nI remember the battle I had with you, \pn, on ROUTE 103.\nThat battle helped you become this strong, \pn, didn't it?
+Pokemon = TROPIUS,31
+Pokemon = PELIPPER,32
+Pokemon = LUDICOLO,32
+Pokemon = COMBUSKEN,34
+	Gender = male
+[RSE_POKEMONTRAINER_MAY,May,13]
+LoseText = … … … … … … … …\n\nI remember the battle I had with you, \pn, on ROUTE 103.\nThat battle helped you become this strong, \pn, didn't it?
+Pokemon = TROPIUS,31
+Pokemon = LUDICOLO,32
+Pokemon = SLUGMA,32
+Pokemon = MARSHSTOMP,34
+	Gender = male
+[RSE_POKEMONTRAINER_MAY,May,14]
+LoseText = … … … … … … … …\n\nI remember the battle I had with you, \pn, on ROUTE 103.\nThat battle helped you become this strong, \pn, didn't it?
+Pokemon = TROPIUS,31
+Pokemon = SLUGMA,32
+Pokemon = PELIPPER,32
+Pokemon = GROVYLE,34
+	Gender = male
+#-------------------------------
+# RSE ROUTES
+#-------------------------------
+# Route 102
+#-------------------------------
+[RSE_YOUNGSTER,Calvin]
+LoseText = Arrgh, I lost…\nI should have trained mine more…
+Pokemon = POOCHYENA,5
+#-------------------------------	
+[RSE_BUGCATCHER,Rick]
+LoseText = Ow! Down and out!
+Pokemon = WURMPLE,4
+Pokemon = WURMPLE,4
+#-------------------------------
+[RSE_YOUNGSTER,Allen]
+LoseText = I called you because I thought\nI could beat you…
+Pokemon = ZIGZAGOON,4
+Pokemon = TAILLOW,4
+#-------------------------------
+[RSE_LASS,Tiana]
+LoseText = I ended up furthering your career…
+Pokemon = ZIGZAGOON,4
+Pokemon = SHROOMISH,4
+#-------------------------------
+# Route 102 Rematch
+#-------------------------------
+[RSE_YOUNGSTER,Calvin,1]
+LoseText =
+Pokemon = LINOONE,27
+#-------------------------------
+[RSE_YOUNGSTER,Calvin,2]
+LoseText =
+Pokemon = SWELLOW,28
+Pokemon = LINOONE,30
+#-------------------------------
+[RSE_YOUNGSTER,Calvin,3]
+LoseText =
+Pokemon = SWELLOW,31
+Pokemon = LINOONE,33
+#-------------------------------
+[RSE_YOUNGSTER,Calvin,4]
+LoseText =
+Pokemon = SWELLOW,34
+Pokemon = VIGOROTH,32
+Pokemon = LINOONE,36
+#-------------------------------
+# Route 104
+#-------------------------------
+[RSE_YOUNGSTER,Billy]
+LoseText =
+Pokemon = ZIGZAGOON,5
+Pokemon = SEEDOT,7
+[RSE_FISHERMAN,Darian]
+LoseText = What the…
+Pokemon = MAGIKARP,9
+#-------------------------------
+# RSE TEAM AQUA
+#-------------------------------
+[RSE_AQUALEADER_ARCHIE,Archie]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = What?!\nI lost to a mere child like you?!
+Pokemon = MIGHTYENA,41
+Pokemon = CROBAT,41
+Pokemon = SHARPEDO,43
+#
+RSE_AQUAADMIN_MATT,Matt]
+Items = SUPERPOTION
+LoseText = Hehehe…\nSo, I lost, too…
+Pokemon = MIGHTYENA,34
+Pokemon = GOLBAT,34
+#
+[RSE_AQUAADMIN_SHELLY,Shelly]
+LoseText = Ahahahaha!\nYou're disgustingly strong!
+Pokemon = CARVANHA,28
+Pokemon = MIGHTYENA,28
+#
+[RSE_AQUAADMIN_SHELLY,Shelly]
+LoseText = Ahahahaha!\n\nOuch!
+Pokemon = SHARPEDO,37
+Pokemon = MIGHTYENA,37
+#
+[RSE_AQUAGRUNT_M,Grunt]
+LoseText = You're kidding me! You're tough!
+Pokemon = POOCHYENA,9
+#
+[RSE_AQUAGRUNT_M,Grunt,1]
+LoseText = Urrrggh! My career in crimes comes to\na dead end!
+Pokemon = POOCHYENA,11
+#
+[RSE_AQUAGRUNT_M,Grunt,2]
+LoseText = Awaaaah!\nA kid beat me!
+Pokemon = CARVANHA,15
+#
+[RSE_AQUAGRUNT_M,Grunt,3]
+LoseText = What?!\nI lost, too!
+Pokemon = ZUBAT,14
+Pokemon = CARVANHA,14
+#
+[RSE_AQUAGRUNT_F,Grunt]
+LoseText = Huh?\nI lost?!
+Pokemon = CARVANHA,28
+#
+[RSE_AQUAGRUNT_M,Grunt,4]
+LoseText = Blast it…\nBlasted by a kid…
+Pokemon = ZUBAT,27
+Pokemon = POOCHYENA,27
+#
+[RSE_AQUAGRUNT_M,Grunt,5]
+LoseText = Our plan's being spoiled by a kid?
+Pokemon = POOCHYENA,27
+Pokemon = CARVANHA,27
+#
+[RSE_AQUAGRUNT_F,Grunt,1]
+LoseText = Oh, will you look at my POKéMON?
+Pokemon = ZUBAT,27
+Pokemon = POOCHYENA,27
+#
+[RSE_AQUAGRUNT_M,Grunt,6]
+LoseText = You got me!
+Pokemon = POOCHYENA,26
+Pokemon = ZUBAT,26
+Pokemon = CARVANHA,26
+#
+[RSE_AQUAGRUNT_M,Grunt,7]
+LoseText = Urgh… I should've let you take on\nTEAM MAGMA first…
+Pokemon = CARVANHA,32
+#
+[RSE_AQUAGRUNT_M,Grunt,8]
+LoseText = I thought you were one of the MAGMAS\nwho happened to come back…
+Pokemon = ZUBAT,32
+#
+[RSE_AQUAGRUNT_M,Grunt,9]
+LoseText = If you're going to mess with anyone,\nlet it be TEAM MAGMA…
+Pokemon = POOCHYENA,30
+Pokemon = CARVANHA,30
+#
+[RSE_AQUAGRUNT_F,Grunt,2]
+LoseText = If you want to join TEAM AQUA that\nbadly, we can consider it…
+Pokemon = WAILMER,30
+Pokemon = ZUBAT,30
+#
+[RSE_AQUAGRUNT_M,Grunt,10]
+LoseText = Grrrrr…\nI lost it!
+Pokemon = POOCHYENA,32
+#
+[RSE_AQUAGRUNT_F,Grunt,3]
+LoseText = Yawn…\nOh, I lost…
+Pokemon = CARVANHA,32
+#
+[RSE_AQUAGRUNT_M,Grunt,11]
+LoseText = I can't win at all…
+Pokemon = ZUBAT,31
+Pokemon = CARVANHA,31
+#
+[RSE_AQUAGRUNT_F,Grunt,4]
+LoseText = I lost in a cool way…
+Pokemon = POOCHYENA,31
+Pokemon = ZUBAT,31
+#
+[RSE_AQUAGRUNT_M,Grunt,12]
+LoseText = Tired of waiting…\nLost and dazed…
+Pokemon = CARVANHA,32
+#
+[RSE_AQUAGRUNT_M,Grunt,13]
+LoseText = I took a serious licking!
+Pokemon = ZUBAT,32
+#
+[RSE_AQUAGRUNT_F,Grunt,5]
+LoseText = What's wrong with you?\nYou're not tired at all!
+Pokemon = ZUBAT,32
+#
+[RSE_AQUAGRUNT_M,Grunt,14]
+LoseText = I was too occupied thinking about\n the warp panels…
+Pokemon = CARVANHA,32
+#
+[RSE_AQUAGRUNT_M,Grunt,15]
+LoseText = I want to go home…
+Pokemon = POOCHYENA,36
+#
+[RSE_AQUAGRUNT_M,Grunt,16]
+LoseText = Losing makes me sore!
+Pokemon = CARVANHA,36
+#
+[RSE_AQUAGRUNT_M,Grunt,17]
+LoseText = Lost it…
+Pokemon = ZUBAT,36
+#
+[RSE_AQUAGRUNT_F,Grunt,6]
+LoseText = I failed to win!
+Pokemon = CARVANHA,36
+#
+[RSE_AQUAGRUNT_M,Grunt,18]
+LoseText = Gwah!
+Pokemon = MIGHTYENA,35
+Pokemon = GOLBAT,35
+#
+# SAPPHIRE ONLY
+[RSE_AQUALEADER_ARCHIE,Archie,1]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = What?!\n\nI, ARCHIE, was caught off guard?!
+Pokemon = MIGHTYENA,24
+Pokemon = GOLBAT,24
+Pokemon = SHARPEDO,25
+# SAPPHIRE ONLY
+#
+#-------------------------------
+# RSE TEAM MAGMA
+#-------------------------------
+[RSE_MAGMALEADER_MAXIE,Maxie]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = What?!\n\nI, MAXIE, was caught off guard?!
+Pokemon = MIGHTYENA,24
+Pokemon = ZUBAT,24
+Pokemon = CAMERUPT,25
+#
+[RSE_MAGMALEADER_MAXIE,Maxie,1]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = What makes you so adept at handling POKéMON?
+Pokemon = MIGHTYENA,37
+Pokemon = CROBAT,38
+Pokemon = CAMERUPT,39
+#
+[RSE_MAGMALEADER_MAXIE,Maxie,2]
+LoseText = All I want…\nI just want to expand the land mass…
+Pokemon = MIGHTYENA,42
+Pokemon = CROBAT,43
+Pokemon = CAMERUPT,44
+#
+[RSE_MAGMAADMIN_TABITHA,Tabitha]
+LoseText = Hehehe…\n\nEven though I've lost, if our leader awakens that thing…
+Pokemon = NUMEL,18
+Pokemon = POOCHYENA,20
+Pokemon = NUMEL,22
+Pokemon = ZUBAT,22
+#
+[RSE_MAGMAADMIN_TABITHA,Tabitha,1]
+LoseText = Taken down again…\nHehe…
+Pokemon = NUMEL,26
+Pokemon = MIGHTYENA,28
+Pokemon = ZUBAT,30
+Pokemon = CAMERUPT,33
+#
+[RSE_MAGMAADMIN_TABITHA,Tabitha,2]
+LoseText = I'm with our leader…
+Pokemon = CAMERUPT,36
+Pokemon = MIGHTYENA,38
+Pokemon = GOLBAT,40
+#
+[RSE_MAGMAGRUNT_F,Grunt]
+LoseText = My dream of a big house…
+Pokemon = NUMEL,20
+#
+[RSE_MAGMAGRUNT_M,Grunt]
+LoseText = Hunh?\nWhat do you mean I lost?
+Pokemon = ZUBAT,20
+#
+[RSE_MAGMAGRUNT_M,Grunt,1]
+LoseText = Urrrgh…\n\nI should've ducked into our HIDEOUT\nright away…
+Pokemon = POOCHYENA,22
+Pokemon = NUMEL,22
+#
+[RSE_MAGMAGRUNT_M,Grunt,2]
+LoseText = Arrgh!\nTaken down!
+Pokemon = POOCHYENA,29
+#
+# IMPORTANT, THE GRUNT BELOW IS IS THE ONE IN 1F
+[RSE_MAGMAGRUNT_M,Grunt,3]
+LoseText = Ooh wow!\nI concede!
+Pokemon = NUMEL,29
+#
+[RSE_MAGMAGRUNT_F,Grunt,1]
+LoseText = Aiyiyi…\nMy pride as a TEAM MAGMA member…
+Pokemon = MIGHTYENA,29
+#
+[RSE_MAGMAGRUNT_M,Grunt,4]
+LoseText = Mutter…
+Pokemon = BALTOY,28
+Pokemon = NUMEL,28
+#
+[RSE_MAGMAGRUNT_M,Grunt,5]
+LoseText = Graaah!
+Pokemon = BALTOY,28
+Pokemon = ZUBAT,28
+#
+# IMPORTANT, THE GRUNT BELOW IS THE ONE IN MAGMA HIDEOUT ENTRANCE
+[RSE_MAGMAGRUNT_M,Grunt,6]
+LoseText = I'm always late for training sessions,\ntoo!\nI hate to say it, but I'm wimpy…
+Pokemon = ZUBAT,29
+#
+# IMPORTANT, THE GRUNT BELOW IS THE ONE IN B1F
+[RSE_MAGMAGRUNT_M,Grunt,7]
+LoseText = You're a fiery battler.\nJust like a volcano!
+Pokemon = ZUBAT,29
+#
+[RSE_MAGMAGRUNT_M,Grunt,8]
+LoseText = I'm having trouble believing this…
+Pokemon = POOCHYENA,29
+#
+[RSE_MAGMAGRUNT_F,Grunt,2]
+LoseText = I may have lost, but…
+Pokemon = NUMEL,29
+#
+# IMPORTANT, THE GRUNT BELOW IS IN B1F
+[RSE_MAGMAGRUNT_M,Grunt,9]
+LoseText = Yeah, I really may not be right for\nTEAM MAGMA…
+Pokemon = MIGHTYENA,29
+#
+# IMPORTANT, THE GRUNT BELOW IS IN B2F
+[RSE_MAGMAGRUNT_M,Grunt,10]
+LoseText = I'm getting heat exhaustion…
+Pokemon = ZUBAT,29
+#
+# IMPORTANT, THE GRUNT BELOW IS IN B3F
+[RSE_MAGMAGRUNT_M,Grunt,11]
+LoseText = Yeah, I think we are doing something\nwrong somehow.
+Pokemon = MIGHTYENA,29
+#
+[RSE_MAGMAGRUNT_F,Grunt,3]
+LoseText = Oh, no!\nYou're not to be trusted at all!
+Pokemon = BALTOY,29
+#
+[RSE_MAGMAGRUNT_M,Grunt,12]
+LoseText = I guess it's impossible to win if one\ndoesn't have a calm mind…
+Pokemon = BALTOY,29
+#
+# IMPORTANT, THE GRUNT BELOW IS IN B4F
+[RSE_MAGMAGRUNT_M,Grunt,13]
+LoseText = Grrr…\nI've come so far, but now this?
+Pokemon = NUMEL,29
+#
+# IMPORTANT, THE GRUNT BELOW IS IN B4F
+[RSE_MAGMAGRUNT_M,Grunt,14]
+LoseText = Was I that easy to knock down?
+Pokemon = ZUBAT,29
+#
+[RSE_MAGMAGRUNT_F,Grunt,4]
+LoseText = Ran out of fuel…
+Pokemon = ZUBAT,31
+Pokemon = POOCHYENA,31
+#
+[RSE_MAGMAGRUNT_M,Grunt,15]
+LoseText = Grrr…\nWe should've used sneaky treachery…
+Pokemon = NUMEL,32
+#
+[RSE_MAGMAGRUNT_M,Grunt,16]
+LoseText = Please, can you spare some fuel?\nEven a chintzy cup will do!
+Pokemon = BALTOY,32
+#
+[RSE_MAGMAGRUNT_M,Grunt,17]
+LoseText = Ack! Ack! Aaack!
+Pokemon = MIGHTYENA,26
+Pokemon = MIGHTYENA,28
+Pokemon = NUMEL,30
+#
+[RSE_MAGMAGRUNT_M,Grunt,18]
+LoseText = I lost!\nBut!
+Pokemon = ZUBAT,32
+#
+[RSE_MAGMAGRUNT_M,Grunt,19]
+LoseText = I lost, too!\nBut!
+Pokemon = MIGHTYENA,32
+#
+# IMPORTANT, THE GRUNT BELOW IS ON THE UPPER FLOOR OF THE SPACE CENTER
+[RSE_MAGMAGRUNT_M,Grunt,20]
+LoseText = We should've taken a break…\nThat's what we should've done…
+Pokemon = BALTOY,32
+#
+# RUBY ONLY
+[RSE_MAGMAADMIN_COURTNEY,Courtney]
+LoseText = Ahahahaha!\nYou're disgustingly strong!
+Pokemon = NUMEL,28
+Pokemon = MIGHTYENA,28
+#
+[RSE_MAGMAADMIN_COURTNEY,Courtney,1]
+LoseText = Ahahahaha!\n\nOuch!
+Pokemon = CAMERUPT,38
+Pokemon = MIGHTYENA,38
+# RUBY ONLY
+#
+#-------------------------------
+# RSE LEADERS
+#-------------------------------
+[RSE_GYMLEADER_ROXANNE,Roxanne]
+Items = POTION,POTION
+LoseText = So…\nI lost…\nIt seems that I still have much more to learn…\nI understand.\n\nThe POKéMON LEAGUE's rules state that TRAINERS are to be given this if they defeat a GYM LEADER.\nPlease accept the official POKéMON LEAGUE STONE BADGE.
+Pokemon = GEODUDE,12
+Pokemon = GEODUDE,12
+Pokemon = NOSEPASS,15
+#
+[RSE_GYMLEADER_BRAWLY,Brawly]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = Whoah, wow! You made a much bigger splash than I expected!\nYou swamped me!\n\nOkay, you've got me.\nTake this GYM BADGE!
+Pokemon = MACHOP,16
+Pokemon = MEDITITE,16
+Pokemon = MAKUHITA,19
+#
+[RSE_GYMLEADER_WATTSON,Wattson]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = Wahahahah!\nFine, I lost!\nYou ended up giving me a thrill!\nTake this BADGE!
+Pokemon = VOLTORB,20
+Pokemon = ELECTRIKE,20
+Pokemon = MAGNETON,22
+Pokemon = MANECTRIC,24
+#
+[RSE_GYMLEADER_FLANNERY,Flannery]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = Oh…\nI guess I was trying too hard…\nI… I've only recently become\na GYM LEADER.\nI tried too hard to be someone\nI'm not.\nI have to do things my natural way. If I don't, my POKéMON will be confused.\nThanks for teaching me that.\nFor that, you deserve this.
+Pokemon = NUMEL,24
+Pokemon = SLUGMA,24
+Pokemon = CAMERUPT,26
+Pokemon = TORKOAL,29
+#
+[RSE_GYMLEADER_NORMAN,Norman]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = …\n\nI… I can't…\n\nI can't believe it. \pn…\n\nI lost to \pn?\n\nBut, rules are rules!\nHere, take this.
+Pokemon = SPINDA,27
+Pokemon = VIGOROTH,27
+Pokemon = LINOONE,29
+Pokemon = SLAKING,31
+#
+[RSE_GYMLEADER_WINONA,Winona]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = Never before have I seen a TRAINER command POKéMON with more grace than I…\nIn recognition of your prowess,\nI present to you this GYM BADGE.
+Pokemon = SWABLU,29
+Pokemon = TROPIUS,29
+Pokemon = PELIPPER,30
+Pokemon = SKARMORY,31
+Pokemon = ALTARIA,33
+#
+[RSE_GYMLEADER_TATEANDLIZA,Tate&Liza]
+Items = HYPERPOTION,HYPERPOTION,HYPERPOTION,HYPERPOTION
+LoseText = TATE: What?! Our combination…\nLIZA: Was shattered!\nTATE: It can't be helped. You've won…\nLIZA: So, in recognition, take this.
+Pokemon = CLAYDOL,41
+Pokemon = XATU,41 
+Pokemon = LUNATONE,42
+Pokemon = SOLROCK,42
+#
+[RSE_GYMLEADER_JUAN,Juan]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = Ahahaha, excellent!\nVery well, you are the winner.\nFrom you, I sense the brilliant shine\nof skill that will overcome all.\nHowever, compared with me or even\nWALLACE, you are lacking in elegance.\nPerhaps I should make you a loan\nof my outfit?\n… … … … … …\n… … … … … …\nHahaha, I merely jest!\n\nRather than my clothes, I shall reward\nyou with this, the RAIN BADGE!
+Pokemon = LUVDISC,41
+Pokemon = WHISCASH,41
+Pokemon = SEALEO,43
+Pokemon = CRAWDAUNT,43
+Pokemon = KINGDRA,46
+#
+[RSE_ELITEFOUR_SIDNEY,Sidney]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Well, how do you like that? I lost!\nEh, it was fun,so it doesn't matter.
+Pokemon = MIGHTYENA,46
+Pokemon = SHIFTRY,48
+Pokemon = CACTURNE,46
+Pokemon = CRAWDAUNT,48
+Pokemon = ABSOL,49
+#
+[RSE_ELITEFOUR_PHOEBE]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Oh, darn.\nI've gone and lost.
+Pokemon = DUSCLOPS,48
+Pokemon = BANETTE,49
+Pokemon = SABLEYE,50
+Pokemon = BANETTE,49
+Pokemon = DUSCLOPS,51
+#
+[RSE_ELITEFOUR_GLACIA]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = You and your POKéMON…\nHow hot your spirits burn!\nThe all-consuming heat overwhelms.\n\nIt's no surprise that my icy skills\nfailed to harm you.
+Pokemon = SEALEO,50
+Pokemon = GLALIE,50
+Pokemon = SEALEO,52
+Pokemon = GLALIE,52
+Pokemon = WALREIN,53
+#
+[RSE_ELITEFOUR_DRAKE]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Superb, it should be said.
+Pokemon = SHELGON,52
+Pokemon = ALTARIA,54
+Pokemon = KINGDRA,53
+Pokemon = FLYGON,53
+Pokemon = SALAMENCE,55
+#
+[RSE_CHAMPION_WALLACE]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = I, the CHAMPION, fall in defeat…\n\nThat was wonderful work.\nYou were elegant, infuriatingly so. And yet it was utterly glorious!\nKudos to you, \pn!\n\nYou are a truly noble POKéMON\nTRAINER!
+Pokemon = WAILORD,57
+Pokemon = TENTACRUEL,55
+Pokemon = LUDICOLO,56
+Pokemon = WHISCASH,56
+Pokemon = GYARADOS,56
+Pokemon = MILOTIC,58
+#
+# RUBY and SAPPHIRE ONLY
+[RSE_GYMLEADER_WALLACE,Wallace]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = Bravo.\n\nI realize now your authenticity and\nmagnificence as a POKéMON TRAINER.\nI find much joy in having met you and\nyour POKéMON.\nYou have proven yourself worthy of\nthe RAIN BADGE. Accept it.
+Pokemon = LUVDISC,40
+Pokemon = SEALEO,40
+Pokemon = SEAKING,42
+Pokemon = WHISCASH,42
+Pokemon = MILOTIC,43
+#
+[RSE_CHAMPION_STEVEN]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = I, the CHAMPION, fall in defeat…\n\nKudos to you, \pn!\n\nYou are a truly noble POKéMON\nTRAINER!
+Pokemon = SKARMORY,57
+Pokemon = CLAYDOL,55
+Pokemon = AGGRON,56
+Pokemon = CRADILY,56
+Pokemon = ARMALDO,56
+Pokemon = METAGROSS,58
+# RUBY and SAPPHIRE ONLY
