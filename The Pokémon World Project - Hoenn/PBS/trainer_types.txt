@@ -51,425 +51,7 @@ Gender = Male
 BaseMoney = 100
 IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
 
-#-------------------------------#
-# [RSE] Hoenn Trainer Classes
-#-------------------------------#
-[RSE_POKEMONTRAINER_BRENDAN]
-Name = Pokémon Trainer
-Gender = Male
-BaseMoney = 60
-#-------------------------------
-[RSE_POKEMONTRAINER_MAY]
-Name = Pokémon Trainer
-Gender = Female
-BaseMoney = 60
-#-------------------------------
-[RSE_AQUALEADER_ARCHIE]
-Name = Aqua Leader
-Gender = Male
-BaseMoney = 80
-#-------------------------------
-[RSE_MAGMALEADER_MAXIE]
-Name = Magma Leader
-Gender = Male
-BaseMoney = 80
-#-------------------------------
-[RSE_AQUAADMIN_MATT]
-Name = Aqua Admin
-Gender = Male
-BaseMoney = 40
-#-------------------------------
-[RSE_AQUAADMIN_SHELLY]
-Name = Aqua Admin
-Gender = Female
-BaseMoney = 40
-#-------------------------------
-[RSE_MAGMAADMIN_TABITHA]
-Name = Magma Admin
-Gender = Male
-BaseMoney = 40
-#-------------------------------
-[RSE_MAGMAADMIN_COURTNEY]
-Name = Magma Admin
-Gender = Female
-BaseMoney = 40
-#-------------------------------
-[RSE_AQUAGRUNT_M]
-Name = Team Aqua
-Gender = Male
-BaseMoney = 20
-#-------------------------------
-[RSE_AQUAGRUNT_F]
-Name = Team Aqua
-Gender = Female
-BaseMoney = 20
-#-------------------------------
-[RSE_MAGMAGRUNT_M]
-Name = Team Magma
-Gender = Male
-BaseMoney = 20
-#-------------------------------
-[RSE_MAGMAGRUNT_F]
-Name = Team Magma
-Gender = Female
-BaseMoney = 20
-#-------------------------------
-[RSE_AROMALADY]
-Name = Aroma Lady
-Gender = Female
-BaseMoney = 40
-#-------------------------------
-[RSE_BATTLEGIRL]
-Name = Battle Girl
-Gender = Female
-BaseMoney = 24
-#-------------------------------
-[RSE_BEAUTY]
-Name = Beauty
-Gender = Female
-BaseMoney = 80
-#-------------------------------
-[RSE_BIRDKEEPER]
-Name = Bird Keeper
-Gender = Male
-BaseMoney = 32
-#-------------------------------
-[RSE_BLACKBELT]
-Name = Black Belt
-Gender = Male
-BaseMoney = 32
-#-------------------------------
-[RSE_BUGCATCHER]
-Name = Bug Catcher
-Gender = Male
-BaseMoney = 16
-#-------------------------------
-[RSE_BUGMANIAC]
-Name = Bug Maniac
-Gender = Male
-BaseMoney = 60
-#-------------------------------
-[RSE_CAMPER]
-Name = Camper
-Gender = Male
-BaseMoney = 16
-#-------------------------------
-[RSE_COLLECTOR]
-Name = Collector
-Gender = Male
-BaseMoney = 60
-#-------------------------------
-[RSE_COOLTRAINER_M]
-Name = Cooltrainer
-Gender = Male
-BaseMoney = 48
-#-------------------------------
-[RSE_COOLTRAINER_F]
-Name = Cooltrainer
-Gender = Female
-BaseMoney = 48
-#-------------------------------
-[RSE_DRAGONTAMER]
-Name = Dragon Tamer
-Gender = Male
-BaseMoney = 48
-#-------------------------------
-[RSE_EXPERT_M]
-Name = Expert
-Gender = Male
-BaseMoney = 40
-#-------------------------------
-[RSE_EXPERT_F]
-Name = Expert
-Gender = Female
-BaseMoney = 40
-#-------------------------------
-[RSE_FISHERMAN]
-Name = Fisherman
-Gender = Male
-BaseMoney = 40
-#-------------------------------
-[RSE_GENTLEMAN]
-Name = Gentleman
-Gender = Male
-BaseMoney = 80
-#-------------------------------
-[RSE_GUITARIST]
-Name = Guitarist
-Gender = Male
-BaseMoney = 32
-#-------------------------------
-[RSE_HEXMANIAC]
-Name = Hex Maniac
-Gender = Female
-BaseMoney = 24
-#-------------------------------
-[RSE_HIKER]
-Name = Hiker
-Gender = Male
-BaseMoney = 40
-#-------------------------------
-[RSE_INTERVIEWERS]
-Name = Interviewers
-Gender = Unknown
-BaseMoney = 96
-#-------------------------------
-[RSE_KINDLER]
-Name = Kindler
-Gender = Male
-BaseMoney = 32
-#-------------------------------
-[RSE_LADY]
-Name = Lady
-Gender = Female
-BaseMoney = 160
-#-------------------------------
-[RSE_LASS]
-Name = Lass
-Gender = Female
-BaseMoney = 16
-#-------------------------------
-[RSE_NINJABOY]
-Name = Ninja Boy
-Gender = Male
-BaseMoney = 12
-#-------------------------------
-[RSE_OLDCOUPLE]
-Name = Old Couple
-Gender = Unknown
-BaseMoney = 80
-#-------------------------------
-[RSE_PARASOLLADY]
-Name = Parasol Lady
-Gender = Female
-BaseMoney = 40
-#-------------------------------
-[RSE_PICKNICKER]
-Name = Picknicker
-Gender = Female
-BaseMoney = 16
-#-------------------------------
-[RSE_POKEMONBREEDER_M]
-Name = Pokémon Breeder
-Gender = Male
-BaseMoney = 40
-#-------------------------------
-[RSE_POKEMONBREEDER_F]
-Name = Pokémon Breeder
-Gender = Female
-BaseMoney = 40
-#-------------------------------
-[RSE_POKEMONFAN_M]
-Name = Pokémon Fan
-Gender = Male
-BaseMoney = 80
-#-------------------------------
-[RSE_POKEMONFAN_F]
-Name = Pokémon Fan
-Gender = Female
-BaseMoney = 80
-#-------------------------------
-[RSE_POKEMONRANGER_M]
-Name = Pokémon Ranger
-Gender = Male
-BaseMoney = 48
-#-------------------------------
-[RSE_POKEMONRANGER_F]
-Name = Pokémon Ranger
-Gender = Female
-BaseMoney = 48
-#-------------------------------
-[RSE_PSYCHIC]
-Name = Psychic
-Gender = Female
-BaseMoney = 24
-#-------------------------------
-[RSE_RICHBOY]
-Name = Rich Boy
-Gender = Male
-BaseMoney = 160
-#-------------------------------
-[RSE_RUINMANIAC]
-Name = Ruin Maniac
-Gender = Male
-BaseMoney = 60
-#-------------------------------
-[RSE_SAILOR]
-Name = Sailor
-Gender = Male
-BaseMoney = 32
-#-------------------------------
-[RSE_SCHOOLKID_M]
-Name = School Kid
-Gender = Male
-BaseMoney = 20
-#-------------------------------
-[RSE_SCHOOLKID_F]
-Name = School Kid
-Gender = Female
-BaseMoney = 20
-#-------------------------------
-[RSE_SISANDBRO]
-Name = Sis and Bro
-Gender = Unknown
-BaseMoney = 23
-#-------------------------------
-[RSE_SRANDJR]
-Name = Sr. and Jr.
-Gender = Unknown
-BaseMoney = 32
-#-------------------------------
-[RSE_SWIMMER_M]
-Name = Swimmer
-Gender = Male
-BaseMoney = 8
-#-------------------------------
-[RSE_SWIMMER_F]
-Name = Swimmer
-Gender = Female
-BaseMoney = 8
-#-------------------------------
-[RSE_TRIATHLETE_M]
-Name = Triathlete
-Gender = Male
-BaseMoney = 40
-#-------------------------------
-[RSE_TRIATHLETE_F]
-Name = Triathlete
-Gender = Female
-BaseMoney = 40
-#-------------------------------
-[RSE_TUBER_M]
-Name = Tuber
-Gender = Male
-BaseMoney = 4
-#-------------------------------
-[RSE_TUBER_F]
-Name = Tuber
-Gender = Female
-BaseMoney = 4
-#-------------------------------
-[RSE_TWINS]
-Name = Twins
-Gender = Unknown
-BaseMoney = 24
-#-------------------------------
-[RSE_VICTOR]
-Name = Winstrate Victor
-Gender = Male
-BaseMoney = 40
-#-------------------------------
-[RSE_VICTORIA]
-Name = Winstrate Victoria
-Gender = Female
-BaseMoney = 40
-#-------------------------------
-[RSE_VIVI]
-Name = Winstrate Vivi
-Gender = Female
-BaseMoney = 40
-#-------------------------------
-[RSE_VICKY]
-Name = Winstrate Vicky
-Gender = Female
-BaseMoney = 40
-#-------------------------------
-[RSE_YOUNGCOUPLE]
-Name = Young Couple
-Gender = Unknown
-BaseMoney = 64
-#-------------------------------
-[RSE_YOUNGSTER]
-Name = Youngster
-Gender = Male
-BaseMoney = 16
-#-------------------------------
-[RSE_GYMLEADER_ROXANNE]
-Name = Gym Leader
-Gender = Female
-BaseMoney = 100
-#-------------------------------
-[RSE_GYMLEADER_BRAWLY]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-#-------------------------------
-[RSE_GYMLEADER_WATTSON]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-#-------------------------------
-[RSE_GYMLEADER_FLANNERY]
-Name = Gym Leader
-Gender = Female
-BaseMoney = 100
-#-------------------------------
-[RSE_GYMLEADER_NORMAN]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-#-------------------------------
-[RSE_GYMLEADER_WINONA]
-Name = Gym Leader
-Gender = Female
-BaseMoney = 100
-#-------------------------------
-[RSE_GYMLEADER_TATEANDLIZA]
-Name = Gym Leader
-Gender = Unknown
-BaseMoney = 100
-#-------------------------------
-[RSE_GYMLEADER_JUAN]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-#-------------------------------
-[RSE_GYMLEADER_WALLACE]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-#-------------------------------
-[RSE_ELITEFOUR_SIDNEY]
-Name = Elite Four
-Gender = Male
-BaseMoney = 100
-#-------------------------------
-[RSE_ELITEFOUR_PHOEBE]
-Name = Elite Four
-Gender = Female
-BaseMoney = 100
-#-------------------------------
-[RSE_ELITEFOUR_GLACIA]
-Name = Elite Four
-Gender = Female
-BaseMoney = 100
-#-------------------------------
-[RSE_ELITEFOUR_DRAKE]
-Name = Elite Four
-Gender = Male
-BaseMoney = 100
-#-------------------------------
-[RSE_CHAMPION_WALLACE]
-Name = Champion
-Gender = Male
-BaseMoney = 200
-#-------------------------------
-[RSE_CHAMPION_STEVEN]
-Name = Champion
-Gender = Male
-BaseMoney = 200
-#-------------------------------
-[RSE_POKEMONTRAINER_STEVEN]
-Name = Pokémon Trainer
-Gender = Male
-BaseMoney = 60
-SkillLevel = 100
-#-------------------------------
-[RSE_POKEMONTRAINER_WALLY]
-Name = Pokémon Trainer
-Gender = Male
-BaseMoney = 60
-SkillLevel = 100
+
 
 #-------------------------------#
 [XY_POKEMONTRAINER_Calem]
@@ -1088,3 +670,453 @@ BaseMoney = 100
 IntroBGM = NULL
 BattleBGM = FRLG The Last Battle (VS Rival)
 VictoryBGM = FRLG Victory (VS Gym Leader)
+#
+#-------------------------------#
+# [RSE] Hoenn Trainer Classes
+#-------------------------------#
+[RSE_POKEMONTRAINER_BRENDAN]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[RSE_POKEMONTRAINER_MAY]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[RSE_AQUALEADER_ARCHIE]
+Name = Aqua Leader
+Gender = Male
+BaseMoney = 80
+#-------------------------------
+[RSE_MAGMALEADER_MAXIE]
+Name = Magma Leader
+Gender = Male
+BaseMoney = 80
+#-------------------------------
+[RSE_AQUAADMIN_MATT]
+Name = Aqua Admin
+Gender = Male
+BaseMoney = 40
+#-------------------------------
+[RSE_AQUAADMIN_SHELLY]
+Name = Aqua Admin
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_MAGMAADMIN_TABITHA]
+Name = Magma Admin
+Gender = Male
+BaseMoney = 40
+#-------------------------------
+[RSE_MAGMAADMIN_COURTNEY]
+Name = Magma Admin
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_AQUAGRUNT_M]
+Name = Team Aqua
+Gender = Male
+BaseMoney = 20
+#-------------------------------
+[RSE_AQUAGRUNT_F]
+Name = Team Aqua
+Gender = Female
+BaseMoney = 20
+#-------------------------------
+[RSE_MAGMAGRUNT_M]
+Name = Team Magma
+Gender = Male
+BaseMoney = 20
+#-------------------------------
+[RSE_MAGMAGRUNT_F]
+Name = Team Magma
+Gender = Female
+BaseMoney = 20
+#-------------------------------
+[RSE_AROMALADY]
+Name = Aroma Lady
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_BATTLEGIRL]
+Name = Battle Girl
+Gender = Female
+BaseMoney = 24
+#-------------------------------
+[RSE_BEAUTY]
+Name = Beauty
+Gender = Female
+BaseMoney = 80
+#-------------------------------
+[RSE_BIRDKEEPER]
+Name = Bird Keeper
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[RSE_BLACKBELT]
+Name = Black Belt
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[RSE_BUGCATCHER]
+Name = Bug Catcher
+Gender = Male
+BaseMoney = 16
+#-------------------------------
+[RSE_BUGMANIAC]
+Name = Bug Maniac
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[RSE_CAMPER]
+Name = Camper
+Gender = Male
+BaseMoney = 16
+#-------------------------------
+[RSE_COLLECTOR]
+Name = Collector
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[RSE_COOLTRAINER_M]
+Name = Cooltrainer
+Gender = Male
+BaseMoney = 48
+#-------------------------------
+[RSE_COOLTRAINER_F]
+Name = Cooltrainer
+Gender = Female
+BaseMoney = 48
+#-------------------------------
+[RSE_DRAGONTAMER]
+Name = Dragon Tamer
+Gender = Male
+BaseMoney = 48
+#-------------------------------
+[RSE_EXPERT_M]
+Name = Expert
+Gender = Male
+BaseMoney = 40
+#-------------------------------
+[RSE_EXPERT_F]
+Name = Expert
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_FISHERMAN]
+Name = Fisherman
+Gender = Male
+BaseMoney = 40
+#-------------------------------
+[RSE_GENTLEMAN]
+Name = Gentleman
+Gender = Male
+BaseMoney = 80
+#-------------------------------
+[RSE_GUITARIST]
+Name = Guitarist
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[RSE_HEXMANIAC]
+Name = Hex Maniac
+Gender = Female
+BaseMoney = 24
+#-------------------------------
+[RSE_HIKER]
+Name = Hiker
+Gender = Male
+BaseMoney = 40
+#-------------------------------
+[RSE_INTERVIEWERS]
+Name = Interviewer
+Gender = Unknown
+BaseMoney = 96
+#-------------------------------
+[RSE_KINDLER]
+Name = Kindler
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[RSE_LADY]
+Name = Lady
+Gender = Female
+BaseMoney = 160
+#-------------------------------
+[RSE_LASS]
+Name = Lass
+Gender = Female
+BaseMoney = 16
+#-------------------------------
+[RSE_NINJABOY]
+Name = Ninja Boy
+Gender = Male
+BaseMoney = 12
+#-------------------------------
+[RSE_OLDCOUPLE]
+Name = Old Couple
+Gender = Unknown
+BaseMoney = 80
+#-------------------------------
+[RSE_PARASOLLADY]
+Name = Parasol Lady
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_PICKNICKER]
+Name = Picknicker
+Gender = Female
+BaseMoney = 16
+#-------------------------------
+[RSE_POKEMONBREEDER_M]
+Name = Pokémon Breeder
+Gender = Male
+BaseMoney = 40
+#-------------------------------
+[RSE_POKEMONBREEDER_F]
+Name = Pokémon Breeder
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_POKEFAN_M]
+Name = PokéFan
+Gender = Male
+BaseMoney = 80
+#-------------------------------
+[RSE_POKEFAN_F]
+Name = PokéFan
+Gender = Female
+BaseMoney = 80
+#-------------------------------
+[RSE_POKEMANIAC]
+Name = PokéManiac
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[RSE_POKEMONRANGER_M]
+Name = Pokémon Ranger
+Gender = Male
+BaseMoney = 48
+#-------------------------------
+[RSE_POKEMONRANGER_F]
+Name = Pokémon Ranger
+Gender = Female
+BaseMoney = 48
+#-------------------------------
+[RSE_PSYCHIC_M]
+Name = Psychic
+Gender = Male
+BaseMoney = 24
+#-------------------------------
+[RSE_PSYCHIC_F]
+Name = Psychic
+Gender = Female
+BaseMoney = 24
+#-------------------------------
+[RSE_RICHBOY]
+Name = Rich Boy
+Gender = Male
+BaseMoney = 160
+#-------------------------------
+[RSE_RUINMANIAC]
+Name = Ruin Maniac
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[RSE_SAILOR]
+Name = Sailor
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[RSE_SCHOOLKID_M]
+Name = School Kid
+Gender = Male
+BaseMoney = 20
+#-------------------------------
+[RSE_SCHOOLKID_F]
+Name = School Kid
+Gender = Female
+BaseMoney = 20
+#-------------------------------
+[RSE_SISANDBRO]
+Name = Sis and Bro
+Gender = Unknown
+BaseMoney = 23
+#-------------------------------
+[RSE_SRANDJR]
+Name = Sr. and Jr.
+Gender = Unknown
+BaseMoney = 32
+#-------------------------------
+[RSE_SWIMMER_M]
+Name = Swimmer
+Gender = Male
+BaseMoney = 8
+#-------------------------------
+[RSE_SWIMMER_F]
+Name = Swimmer
+Gender = Female
+BaseMoney = 8
+#-------------------------------
+[RSE_TRIATHLETEBIKE_M]
+Name = Triathlete
+Gender = Male
+BaseMoney = 40
+#-------------------------------
+[RSE_TRIATHLETEBIKE_F]
+Name = Triathlete
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_TRIATHLETEJOG_M]
+Name = Triathlete
+Gender = Male
+BaseMoney = 40
+#-------------------------------
+[RSE_TRIATHLETEJOG_F]
+Name = Triathlete
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_TRIATHLETESWIM_M]
+Name = Triathlete
+Gender = Male
+BaseMoney = 40
+#-------------------------------
+[RSE_TRIATHLETESWIM_F]
+Name = Triathlete
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_TUBER_M]
+Name = Tuber
+Gender = Male
+BaseMoney = 4
+#-------------------------------
+[RSE_TUBER_F]
+Name = Tuber
+Gender = Female
+BaseMoney = 4
+#-------------------------------
+[RSE_TWINS]
+Name = Twins
+Gender = Unknown
+BaseMoney = 24
+#-------------------------------
+[RSE_VICTOR]
+Name = Winstrate
+Gender = Male
+BaseMoney = 40
+#-------------------------------
+[RSE_VICTORIA]
+Name = Winstrate
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_VIVI]
+Name = Winstrate
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_VICKY]
+Name = Winstrate
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_YOUNGCOUPLE]
+Name = Young Couple
+Gender = Unknown
+BaseMoney = 64
+#-------------------------------
+[RSE_YOUNGSTER]
+Name = Youngster
+Gender = Male
+BaseMoney = 16
+#-------------------------------
+[RSE_LEADER_ROXANNE]
+Name = Leader
+Gender = Female
+BaseMoney = 100
+#-------------------------------
+[RSE_LEADER_BRAWLY]
+Name = Leader
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[RSE_LEADER_WATTSON]
+Name = Leader
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[RSE_LEADER_FLANNERY]
+Name = Leader
+Gender = Female
+BaseMoney = 100
+#-------------------------------
+[RSE_LEADER_NORMAN]
+Name = Leader
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[RSE_LEADER_WINONA]
+Name = Leader
+Gender = Female
+BaseMoney = 100
+#-------------------------------
+[RSE_LEADER_TATEANDLIZA]
+Name = Leader
+Gender = Unknown
+BaseMoney = 100
+#-------------------------------
+[RSE_LEADER_JUAN]
+Name = Leader
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[RSE_LEADER_WALLACE]
+Name = Leader
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[RSE_ELITEFOUR_SIDNEY]
+Name = Elite Four
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[RSE_ELITEFOUR_PHOEBE]
+Name = Elite Four
+Gender = Female
+BaseMoney = 100
+#-------------------------------
+[RSE_ELITEFOUR_GLACIA]
+Name = Elite Four
+Gender = Female
+BaseMoney = 100
+#-------------------------------
+[RSE_ELITEFOUR_DRAKE]
+Name = Elite Four
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[RSE_CHAMPION_WALLACE]
+Name = Champion
+Gender = Male
+BaseMoney = 200
+#-------------------------------
+[RSE_CHAMPION_STEVEN]
+Name = Champion
+Gender = Male
+BaseMoney = 200
+#-------------------------------
+[RSE_POKEMONTRAINER_STEVEN]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+SkillLevel = 100
+#-------------------------------
+[RSE_POKEMONTRAINER_WALLY]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+SkillLevel = 100
