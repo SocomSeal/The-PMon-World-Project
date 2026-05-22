@@ -1,4 +1,4 @@
-Roadmap as of March 27th 2026:
+Roadmap as of May 22nd 2026:
 
 - Hoenn (Mid to Late 2026)
 	- Mapping
@@ -20,9 +20,6 @@ Socom's Worklist
 
 
 - Hoenn mapping
-	Altering Cave and beyond, Battle Frontier needed to set fly point
-	All routes past 114
-	Additional maps?
 	DOORS. Tilesets need overhangs, door character sheets need to be made
 		Could touch up Kanto in this way?
 - Hoenn Town Map PBS
