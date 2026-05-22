@@ -12,6 +12,8 @@ Core Systems
 KANTO
 - Gamefreak diploma NPC is currently hard coded instead of calling for each number of species in a dex dynamically
 - Verify Kanto doubles classes (Twins, CoolCouple, etc.) are in PBS and called correctly. First battle should be trainer 0 and 1, rematch 1 and 2, etc.
+HOENN
+- Verify tileset tiletags (combine with outdoor tileset door and overhang work?). Best done by copying a single tileset, then re-adding animated tiles per tileset.
 
 
 Feature Complete
@@ -58,11 +60,16 @@ KANTO
 - Missing animations for Seagallop Ferry
 - Missing TV animations
 HOENN
-- Various tiles are not "complete" as faithful recreations, e.g. fences, slateport southwest sea corner, path inner corners, flower shop planter boxes, cave ledges, rusturf tunnel cave exits, Mirage Tower, MT. Chimney Caldera, Meteor Falls ledges, Seafloor cavern walls, Cave of Origin crystals (the corners on this tileset also suck, the whole thing is a mess), underwater cliffs, cave inner corners
+- Various tiles are not "complete" as faithful recreations, e.g. fences (Slateport, Route 117, etc.), slateport southwest sea corner, path inner corners, flower shop planter boxes, cave ledges, rusturf tunnel cave exits, Mirage Tower, MT. Chimney Caldera, Meteor Falls ledges, Seafloor cavern walls, Cave of Origin crystals (the corners on this tileset also suck, the whole thing is a mess), underwater cliffs, cave inner corners, Route119 WaterCliff to StoneCliff tile transition at waterfall, no vertical transition on animated large rock water tiles from shore to sea, Current tiles on Routes 132-134 are not layered below rocks/cliffs, causing unpleasant seams (see Route 133 middle for example of how this can be fixed, would need to do on all cliff and rock tiles)
+- Missing Sootopolis "crater tiles" on Route 126 - non-visible to player, low priority
+	- Missing "Land Water Edge" tiles around Sootopolis on Route 126, as the map requires too many autotiles
+- Route 130 Mirage Island - Overworld tileset needs brown cave stairs added next to others
+- Missing the SINGLE FLOWER tile on Route119 due to too many autotiles on the map
+- Review Cliff Wall "Cracks" when Cliff tiles are below another cliff tile. Only crack when a full cliff tile is above?
 - Fortree shadows are missing
 - Fortree bridges don't have bobbing animations when walked on
 - Pacifidlog bridges don't have bobbing animations when walked on (Current implementation has z-fighting issues)
-- Animated large water rocks are using the HGSS Gen 3 sprite instead of a proper RSE (RSE_Water Rock Large1 needs to have its texture updated, and HGSS_Water Rock Large3 needs the same texture update as well as a name change to RSE_xx2)
+- Animated large water rocks are using the HGSS Gen 3 sprite instead of a proper RSE (RSE_Water Rock Large1 2 and 3 needs to have textures updated, with 2 needing to be updated to the proper color for Route 115)
 	- This animation was not in place in the original games, so can possibly be removed? Adding it back would be part of a graphics standardization pass
 - Tilesets need color correction - i.e. Lilycove Department textures are desaturated, this is a recurring issue with the Hoenn asset pack used. All tilesets must be corrected using properly ripped tiles.
 - No ORAS music exists for the Game Corner

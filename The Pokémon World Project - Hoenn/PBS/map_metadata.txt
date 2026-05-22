@@ -45,3 +45,10 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 3,5,12
+#-------------------------------
+[104]   # Route 101
+Name = Route 101
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,5,12
