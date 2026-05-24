@@ -51,6 +51,7 @@ Cosmetic
 - Camera flicker with spin tiles
 - No arriving animations for warp tiles, fall through holes
 - Trainers that are meant to trigger instantly when walking into a door, i.e. on the SS Anne, are not evented to (Essentials does not let them trigger by themselves - need to use event touch events or hard code the trainer into the door entry event)
+- Missing Pokecenter Monitor animations during healing sequence
 KANTO
 - Intro cutscene needs to be touched up, sprite positioning
 	- Intro cutscene does not have the Nidoran coming out of a pokeball animation while Oak remains loaded

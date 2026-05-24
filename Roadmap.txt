@@ -20,7 +20,7 @@ Socom's Worklist
 
 
 - Hoenn mapping
-	DOORS. Tilesets need overhangs, door character sheets need to be made
+	DOORS. !!!Tilesets need overhangs!!!
 		Could touch up Kanto in this way?
 - Hoenn Town Map PBS
 	Add fly points to missing locations, verify points of interest are on the correct squares
