@@ -37,6 +37,7 @@ KANTO
 HOENN
 - Water currents (currently implemented as normal water tiles)
 - Battle Frontier
+- Missing Mystery Gift NPC (is usually on PC floor 2, relocate where? Mart behind counter next to shopkeep?)
 
 Cosmetic
 - Standardize all maps with proper tilesets
@@ -51,7 +52,6 @@ Cosmetic
 - Camera flicker with spin tiles
 - No arriving animations for warp tiles, fall through holes
 - Trainers that are meant to trigger instantly when walking into a door, i.e. on the SS Anne, are not evented to (Essentials does not let them trigger by themselves - need to use event touch events or hard code the trainer into the door entry event)
-- Missing Pokecenter Monitor animations during healing sequence
 KANTO
 - Intro cutscene needs to be touched up, sprite positioning
 	- Intro cutscene does not have the Nidoran coming out of a pokeball animation while Oak remains loaded
@@ -64,12 +64,15 @@ KANTO
 - Missing light effects in E4
 - Missing animations for Seagallop Ferry
 - Missing TV animations
+- Missing Pokecenter Monitor animations during healing sequence
+- Missing Pokemart clerk dialogue
 HOENN
 - Various tiles are not "complete" as faithful recreations, e.g. fences (Slateport, Route 117, etc.), slateport southwest sea corner, path inner corners, flower shop planter boxes, cave ledges, rusturf tunnel cave exits, Mirage Tower, MT. Chimney Caldera, Meteor Falls ledges, Seafloor cavern walls, Cave of Origin crystals (the corners on this tileset also suck, the whole thing is a mess), underwater cliffs, cave inner corners, Route119 WaterCliff to StoneCliff tile transition at waterfall, no vertical transition on animated large rock water tiles from shore to sea, Current tiles on Routes 132-134 are not layered below rocks/cliffs, causing unpleasant seams (see Route 133 middle for example of how this can be fixed, would need to do on all cliff and rock tiles)
 - Missing Sootopolis "crater tiles" on Route 126 - non-visible to player, low priority
 	- Missing "Land Water Edge" tiles around Sootopolis on Route 126, as the map requires too many autotiles
 - Missing the SINGLE FLOWER tile on Route119 due to too many autotiles on the map
-- Review Cliff Wall "Cracks" when Cliff tiles are below another cliff tile. Only crack when a full cliff tile is above?
+- Review Cliff Wall "Cracks" when Cliff tiles are below another cliff tile. Only crack when a full cliff tile is above, not just rounded corners
+- Review Lake top edge tiles, round them (see area around Battle Pike for example of what needs to be fixed)
 - Fortree shadows are missing
 - Fortree bridges don't have bobbing animations when walked on
 - Pacifidlog bridges don't have bobbing animations when walked on (Current implementation has z-fighting issues)
@@ -78,8 +81,14 @@ HOENN
 - Tilesets need color correction - i.e. Lilycove Department textures are desaturated, this is a recurring issue with the Hoenn asset pack used. All tilesets must be corrected using properly ripped tiles.
 - No ORAS music exists for the Game Corner
 - Starter choice cutscene with Birch's bag is unimplemented - a temporary choice menu has been added in its place
-
+- NPC_RSE_WOMAN_3 has an incorrect sprite (top is meant to be yellow over red, with red bottoms)
+- Hoenn TV Events and Logic
 
 Inconsequential
 - Lore text on computer and other objects allow for omnidirectional reading
+KANTO
 - Missing blackboard text on celadon mansion rooftop explaining game mechanics (replaced by status blackboard)
+- NPC_FRLG_POLICEMAN should be renamed NPC_FRLG_GUARD
+HOENN
+- Flypoint and healingpoint for Littleroot is set to Birch's Lab, how to make it go to each house defined by player gender?
+	Healingpoint can be done by splitting player's house into two maps, but how fly?
