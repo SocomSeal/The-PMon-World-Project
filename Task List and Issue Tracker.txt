@@ -83,9 +83,11 @@ HOENN
 - Starter choice cutscene with Birch's bag is unimplemented - a temporary choice menu has been added in its place
 - NPC_RSE_WOMAN_3 has an incorrect sprite (top is meant to be yellow over red, with red bottoms)
 - Hoenn TV Events and Logic
+- No player house clock event after "setting" it
 
 Inconsequential
 - Lore text on computer and other objects allow for omnidirectional reading
+- PBS data is (mostly) shared between regions. Could rewrite Essentials code to utilize the disc scripts? I.e., change Species DATA_FILENAME from "species.dat" to filepath disc#/+"species.dat"
 KANTO
 - Missing blackboard text on celadon mansion rooftop explaining game mechanics (replaced by status blackboard)
 - NPC_FRLG_POLICEMAN should be renamed NPC_FRLG_GUARD
