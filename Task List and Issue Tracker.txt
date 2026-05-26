@@ -2,7 +2,7 @@ Core Systems
 - Add 'error handling' scripts for the regional storage merge functions. Currently, there is no way to proceed if a player (somehow) has a full storage when these are triggered
 - Define wild pokemon held items past gen 1
 - Dynamax and tera plugin settings (verify these are correct)
-- Update Follower plugin to include gen 9 data (low prio, fix in v22?)
+- Update Follower plugin to include gen 9 data (low prio, fix in v22?) (Update from 21.1 port to official version?)
 - Roamers? (v22, if ever)
 - You can't do trade evolutions where you need to trade a mon for a mon, such as karablast (fixed in v22)
 - TM black market event is hardcoded to not allow numbers above 360 (how to make dynamic?)
@@ -12,13 +12,15 @@ Core Systems
 KANTO
 - Gamefreak diploma NPC is currently hard coded instead of calling for each number of species in a dex dynamically
 - Verify Kanto doubles classes (Twins, CoolCouple, etc.) are in PBS and called correctly. First battle should be trainer 0 and 1, rematch 1 and 2, etc.
+HOENN
+- Verify tileset tiletags (combine with outdoor tileset door and overhang work?). Best done by copying a single tileset, then re-adding animated tiles per tileset.
 
 
 Feature Complete
 - Respawning item systems e.g. berries in berry forest, beach items
 - Redefine trainer classes and give proper money reward values
 - Trainer rematches/phone system
-- Seafoam Island boulder puzzle
+- Seafoam Island boulder puzzle & Water currents
 - Sprites for key items (everything after OldSeaMap in PBS)
 - TMs need descriptions (worked around in v22?)
 - All mail item functionality is missing
@@ -31,6 +33,11 @@ KANTO
 	- Changes to canon content should be kept minimal when solving this issue
 	- Items should be held by wild pokemon that can evolve using them, i.e. Protector on Rhyhorn/Rhydon, Magmarizer on Magmar, etc.
 	- Exceptions should be made at best judgement and must fit established lore, I.e., the Up-Grade for Porygon was moved to Silph Co. from the Rocket Warehouse, with the Dubious Disc replacing the spawn in the Rocket Warehouse
+- Trainer tower
+HOENN
+- Water currents (currently implemented as normal water tiles)
+- Battle Frontier
+- Missing Mystery Gift NPC (is usually on PC floor 2, relocate where? Mart behind counter next to shopkeep?)
 
 Cosmetic
 - Standardize all maps with proper tilesets
@@ -57,18 +64,31 @@ KANTO
 - Missing light effects in E4
 - Missing animations for Seagallop Ferry
 - Missing TV animations
+- Missing Pokecenter Monitor animations during healing sequence
+- Missing Pokemart clerk dialogue
 HOENN
-- Various tiles are not "complete" as faithful recreations, e.g. fences, slateport southwest sea corner, path inner corners, flower shop planter boxes, cave ledges, rusturf tunnel cave exits, Mirage Tower, MT. Chimney Caldera, Meteor Falls ledges, Seafloor cavern walls, Cave of Origin crystals (the corners on this tileset also suck, the whole thing is a mess), underwater cliffs, cave inner corners
+- Various tiles are not "complete" as faithful recreations, e.g. fences (Slateport, Route 117, etc.), slateport southwest sea corner, path inner corners, flower shop planter boxes, cave ledges, rusturf tunnel cave exits, Mirage Tower, MT. Chimney Caldera, Meteor Falls ledges, Seafloor cavern walls, Cave of Origin crystals (the corners on this tileset also suck, the whole thing is a mess), underwater cliffs, cave inner corners, Route119 WaterCliff to StoneCliff tile transition at waterfall, no vertical transition on animated large rock water tiles from shore to sea, Current tiles on Routes 132-134 are not layered below rocks/cliffs, causing unpleasant seams (see Route 133 middle for example of how this can be fixed, would need to do on all cliff and rock tiles)
+- Missing Sootopolis "crater tiles" on Route 126 - non-visible to player, low priority
+	- Missing "Land Water Edge" tiles around Sootopolis on Route 126, as the map requires too many autotiles
+- Missing the SINGLE FLOWER tile on Route119 due to too many autotiles on the map
+- Review Cliff Wall "Cracks" when Cliff tiles are below another cliff tile. Only crack when a full cliff tile is above, not just rounded corners
+- Review Lake top edge tiles, round them (see area around Battle Pike for example of what needs to be fixed)
 - Fortree shadows are missing
 - Fortree bridges don't have bobbing animations when walked on
 - Pacifidlog bridges don't have bobbing animations when walked on (Current implementation has z-fighting issues)
-- Animated large water rocks are using the HGSS Gen 3 sprite instead of a proper RSE (RSE_Water Rock Large1 needs to have its texture updated, and HGSS_Water Rock Large3 needs the same texture update as well as a name change to RSE_xx2)
+- Animated large water rocks are using the HGSS Gen 3 sprite instead of a proper RSE (RSE_Water Rock Large1 2 and 3 needs to have textures updated, with 2 needing to be updated to the proper color for Route 115)
 	- This animation was not in place in the original games, so can possibly be removed? Adding it back would be part of a graphics standardization pass
 - Tilesets need color correction - i.e. Lilycove Department textures are desaturated, this is a recurring issue with the Hoenn asset pack used. All tilesets must be corrected using properly ripped tiles.
 - No ORAS music exists for the Game Corner
 - Starter choice cutscene with Birch's bag is unimplemented - a temporary choice menu has been added in its place
-
+- NPC_RSE_WOMAN_3 has an incorrect sprite (top is meant to be yellow over red, with red bottoms)
+- Hoenn TV Events and Logic
 
 Inconsequential
 - Lore text on computer and other objects allow for omnidirectional reading
+KANTO
 - Missing blackboard text on celadon mansion rooftop explaining game mechanics (replaced by status blackboard)
+- NPC_FRLG_POLICEMAN should be renamed NPC_FRLG_GUARD
+HOENN
+- Flypoint and healingpoint for Littleroot is set to Birch's Lab, how to make it go to each house defined by player gender?
+	Healingpoint can be done by splitting player's house into two maps, but how fly?

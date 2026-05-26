@@ -1,4 +1,4 @@
-Roadmap as of March 27th 2026:
+Roadmap as of May 22nd 2026:
 
 - Hoenn (Mid to Late 2026)
 	- Mapping
@@ -20,15 +20,13 @@ Socom's Worklist
 
 
 - Hoenn mapping
-	Altering Cave and beyond, Battle Frontier needed to set fly point
-	All routes past 101
-	Additional maps?
-	DOORS. Tilesets need overhangs, door character sheets need to be made
+	Route 119 cliffs south end of route are missing
+	Trees east side of lavaridge are missing
+	DOORS. !!!Tilesets need overhangs!!!
 		Could touch up Kanto in this way?
-- Hoenn Town Map PBS
-	Add fly points to missing locations, verify points of interest are on the correct squares
 - Map metadata PBS
-	Add metadata for all maps, size, dive maps, etc
+	Add metadata for all maps, size, dive maps, etc (Oldale town and beyond)
 - Scripting
-	Choosing a starter is done. Next steps include Oldale town, with the 'footprint NPC', Route 103 and the rival battle, the pokedex scene
+	Choosing a starter is done. Next steps include Route 103 and the rival battle, the pokedex scene
 	How to implement Wally Ralts sequence? Look into DBK scripting, or placeholder for now?
+	!!!When Sootopolis is scripted, MAKE SURE TO REMEMBER SCENARIO HANDLING. If the player flies into Sootopolis when the storm sequence is happening, they need to be sent to the storm/event version of the map! (Use autorun event to transfer?)!!!
