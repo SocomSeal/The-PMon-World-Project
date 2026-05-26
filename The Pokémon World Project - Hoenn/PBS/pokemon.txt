@@ -1,4 +1,6 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
+# Currently no 'PEATBLOCK' item implemented for URSARING evolve
+# Do not know if 'PRISM SCALE' should be given to FEEBAS
 #-------------------------------
 [MISSINGNO]
 Name = MissingNo
@@ -679,7 +681,6 @@ Generation = 1
 Flags = HasGenderedSprites
 WildItemCommon = ORANBERRY
 WildItemUncommon = LIGHTBALL
-WildItemRare = LIGHTBALL
 Evolutions = RAICHU,Item,THUNDERSTONE
 #-------------------------------
 [RAICHU]
@@ -735,7 +736,7 @@ Habitat = RoughTerrain
 Category = Mouse
 Pokedex = When it curls up in a ball, it can make any attack bounce off harmlessly. Its hide has turned tough and solid as a result of living in the desert.
 Generation = 1
-WildItemUncommon = GRIPCLAW
+WildItemUncommon = QUICKCLAW
 Evolutions = SANDSLASH,Level,22
 #-------------------------------
 [SANDSLASH]
@@ -1005,7 +1006,8 @@ Category = Fox
 Pokedex = It can freely control fire, making fiery orbs fly like will-o'-the-wisps. Just before evolution, its six tails grow hot as if on fire.
 Generation = 1
 WildItemCommon = RAWSTBERRY
-WildItemUncommon = CHARCOAL
+WildItemUncommon = RAWSTBERRY
+WildItemRare = RAWSTBERRY
 Evolutions = NINETALES,Item,FIRESTONE
 #-------------------------------
 [NINETALES]
@@ -2391,8 +2393,7 @@ Habitat = Urban
 Category = Sludge
 Pokedex = Born from polluted sludge in the sea, Grimer's favorite food is anything filthy. They feed on wastewater pumped out from factories.
 Generation = 1
-WildItemUncommon = BLACKSLUDGE
-WildItemRare = NUGGET
+WildItemUncommon = NUGGET
 Evolutions = MUK,Level,38
 #-------------------------------
 [MUK]
@@ -3007,7 +3008,6 @@ Category = Spikes
 Pokedex = Once it starts running, it doesn't stop. Its tiny brain makes it so stupid that it can't remember why it started running in the first place.
 Generation = 1
 Flags = HasGenderedSprites
-WildItemCommon = PROTECTOR
 WildItemUncommon = PROTECTOR
 Evolutions = RHYDON,Level,42
 #-------------------------------
@@ -3585,7 +3585,6 @@ Habitat = Urban
 Category = Transform
 Pokedex = A Ditto rearranges its cell structure to transform itself. However, if it tries to change based on its memory, it will get details wrong.
 Generation = 1
-WildItemCommon = QUICKPOWDER
 WildItemUncommon = METALPOWDER
 #-------------------------------
 [EEVEE]
@@ -4583,7 +4582,7 @@ Habitat = Sea
 Category = Angler
 Pokedex = When it senses danger, it discharges positive and negative electricity from its two antennae. It lives in depths beyond sunlight's reach.
 Generation = 2
-WildItemUncommon = DEEPSEASCALE
+WildItemUncommon = YELLOWSHARD
 Evolutions = LANTURN,Level,27
 #-------------------------------
 [LANTURN]
@@ -5457,6 +5456,7 @@ Category = Long Neck
 Pokedex = A Girafarig is an herbivore--it eats grass and tree shoots. While it is eating, its tail makes chewing and swallowing motions as if it were also eating.
 Generation = 2
 Flags = HasGenderedSprites
+WildItemUncommon = PERSIMBERRY
 Evolutions = FARIGIRAF,HasMove,TWINBEAM
 #-------------------------------
 [PINECO]
@@ -5726,9 +5726,9 @@ Habitat = Mountain
 Category = Mold
 Pokedex = A Shuckle hides under rocks, keeping its body concealed inside its shell while eating stored berries. The berries mix with its body fluids to become a juice.
 Generation = 2
-WildItemCommon = BERRYJUICE
-WildItemUncommon = BERRYJUICE
-WildItemRare = BERRYJUICE
+WildItemCommon = ORANBERRY
+WildItemUncommon = ORANBERRY
+WildItemRare = ORANBERRY
 #-------------------------------
 [HERACROSS]
 Name = Heracross
@@ -5973,7 +5973,7 @@ Habitat = Sea
 Category = Coral
 Pokedex = Corsola live in warm southern seas. If the sea becomes polluted, the beautiful coral stalks become discolored and crumble away in tatters.
 Generation = 2
-WildItemUncommon = LUMINOUSMOSS
+WildItemUncommon = REDSHARD
 Evolutions = CURSOLA,None,
 #-------------------------------
 [REMORAID]
@@ -7009,6 +7009,7 @@ Habitat = Grassland
 Category = Bite
 Pokedex = It savagely threatens foes with bared fangs. It chases after fleeing targets tenaciously. It turns tail and runs, however, if the foe strikes back.
 Generation = 3
+WildItemUncommon = PECHABERRY
 Evolutions = MIGHTYENA,Level,18
 #-------------------------------
 [MIGHTYENA]
@@ -7035,6 +7036,7 @@ Habitat = Grassland
 Category = Bite
 Pokedex = In the wild, Mightyena live in a pack. They never defy their leader's orders. They defeat foes with perfectly coordinated teamwork.
 Generation = 3
+WildItemUncommon = PECHABERRY
 #-------------------------------
 [ZIGZAGOON]
 Name = Zigzagoon
@@ -7061,8 +7063,7 @@ Habitat = Grassland
 Category = Tiny Raccoon
 Pokedex = Rubbing its nose against the ground, it always wanders about back and forth in search of something. It is distinguished by the zigzag footprints it leaves.
 Generation = 3
-WildItemCommon = POTION
-WildItemUncommon = REVIVE
+WildItemUncommon = ORANBERRY
 Evolutions = LINOONE,Level,20
 #-------------------------------
 [LINOONE]
@@ -7089,8 +7090,8 @@ Habitat = Grassland
 Category = Rushing
 Pokedex = It is exceedingly fast if it only has to run in a straight line. When it spots pond- dwelling prey underwater, it quickly leaps in and catches it with its sharp claws.
 Generation = 3
-WildItemCommon = POTION
-WildItemUncommon = MAXREVIVE
+WildItemCommon = ORANBERRY
+WildItemUncommon = SITRUSBERRY
 Evolutions = OBSTAGOON,None,
 #-------------------------------
 [WURMPLE]
@@ -7117,8 +7118,6 @@ Habitat = Forest
 Category = Worm
 Pokedex = It sticks to tree branches and eats leaves. The thread it spits from its mouth becomes gooey when it touches air and slows the movement of its foes.
 Generation = 3
-WildItemCommon = PECHABERRY
-WildItemUncommon = BRIGHTPOWDER
 Evolutions = SILCOON,Silcoon,7,CASCOON,Cascoon,7
 #-------------------------------
 [SILCOON]
@@ -7250,7 +7249,6 @@ Habitat = WatersEdge
 Category = Water Weed
 Pokedex = This Pokémon lives in ponds with clean water. It is known to ferry small Pokémon across ponds by carrying them on the broad leaf on its head.
 Generation = 3
-WildItemUncommon = MENTALHERB
 Evolutions = LOMBRE,Level,14
 #-------------------------------
 [LOMBRE]
@@ -7277,7 +7275,6 @@ Habitat = WatersEdge
 Category = Jolly
 Pokedex = In the evening, it takes great delight in popping out of rivers and startling people. It feeds on aquatic moss that grows on rocks in the riverbed.
 Generation = 3
-WildItemUncommon = MENTALHERB
 Evolutions = LUDICOLO,Item,WATERSTONE
 #-------------------------------
 [LUDICOLO]
@@ -7305,7 +7302,6 @@ Category = Carefree
 Pokedex = When it hears festive music, all the cells in its body become stimulated, and it begins moving in rhythm. It does not quail even when it faces a tough opponent.
 Generation = 3
 Flags = HasGenderedSprites
-WildItemUncommon = MENTALHERB
 #-------------------------------
 [SEEDOT]
 Name = Seedot
@@ -7332,7 +7328,6 @@ Habitat = Forest
 Category = Acorn
 Pokedex = It hangs off branches and absorbs nutrients. When it finishes eating, its body becomes so heavy that it drops to the ground with a thump.
 Generation = 3
-WildItemUncommon = POWERHERB
 Evolutions = NUZLEAF,Level,14
 #-------------------------------
 [NUZLEAF]
@@ -7360,7 +7355,6 @@ Category = Wily
 Pokedex = A forest-dwelling Pokémon that is skilled at climbing trees. Its long and pointed nose is its weak point. It loses power if the nose is gripped.
 Generation = 3
 Flags = HasGenderedSprites
-WildItemUncommon = POWERHERB
 Evolutions = SHIFTRY,Item,LEAFSTONE
 #-------------------------------
 [SHIFTRY]
@@ -7388,7 +7382,6 @@ Category = Wicked
 Pokedex = It is said to arrive on chilly, wintry winds. Feared from long ago as the guardian of forests, this Pokémon lives in a deep forest where people do not venture.
 Generation = 3
 Flags = HasGenderedSprites
-WildItemUncommon = POWERHERB
 #-------------------------------
 [TAILLOW]
 Name = Taillow
@@ -7467,7 +7460,6 @@ Habitat = Sea
 Category = Seagull
 Pokedex = It makes its nest on a sheer cliff at the edge of the sea. It has trouble keeping its wings flapping in flight. Instead, it soars on updrafts.
 Generation = 3
-WildItemCommon = PRETTYFEATHER
 Evolutions = PELIPPER,Level,25
 #-------------------------------
 [PELIPPER]
@@ -7494,7 +7486,6 @@ Habitat = Sea
 Category = Water Bird
 Pokedex = It skims the tops of waves as it flies. When it spots prey, it uses its large beak to scoop up the victim with water. It protects its eggs in its beak.
 Generation = 3
-WildItemCommon = PRETTYFEATHER
 #-------------------------------
 [RALTS]
 Name = Ralts
@@ -7521,6 +7512,7 @@ Habitat = Urban
 Category = Feeling
 Pokedex = A Ralts has the power to sense the emotions of people and Pokémon with the horns on its head. It takes cover if it senses any hostility.
 Generation = 3
+WildItemUncommon = DAWNSTONE
 Evolutions = KIRLIA,Level,20
 #-------------------------------
 [KIRLIA]
@@ -7599,7 +7591,6 @@ Habitat = WatersEdge
 Category = Pond Skater
 Pokedex = They gather on puddles after evening downpours, gliding across the surface of water as if sliding. It secretes honey with a sweet aroma from its head.
 Generation = 3
-WildItemCommon = HONEY
 Evolutions = MASQUERAIN,Level,22
 #-------------------------------
 [MASQUERAIN]
@@ -7626,7 +7617,6 @@ Habitat = WatersEdge
 Category = Eyeball
 Pokedex = It intimidates foes with the large eyelike patterns on its antennae. Because it can't fly if its wings get wet, it shelters from rain under large trees and eaves.
 Generation = 3
-WildItemUncommon = SILVERPOWDER
 #-------------------------------
 [SHROOMISH]
 Name = Shroomish
@@ -7653,8 +7643,6 @@ Habitat = Forest
 Category = Mushroom
 Pokedex = It loves to eat damp, composted soil in forests. If you enter a forest after a long rain, you can see many Shroomish feasting on composted soil.
 Generation = 3
-WildItemCommon = TINYMUSHROOM
-WildItemUncommon = BIGMUSHROOM
 Evolutions = BRELOOM,Level,23
 #-------------------------------
 [BRELOOM]
@@ -7681,8 +7669,6 @@ Habitat = Forest
 Category = Mushroom
 Pokedex = It scatters spores from holes in the cap on its head. It loves warm and humid climates. It feeds on trees and plants in fields and forests.
 Generation = 3
-WildItemCommon = TINYMUSHROOM
-WildItemUncommon = BIGMUSHROOM
 #-------------------------------
 [SLAKOTH]
 Name = Slakoth
@@ -7784,7 +7770,6 @@ Habitat = Forest
 Category = Trainee
 Pokedex = It makes its nest at the roots of a mighty tree. Using its whiskerlike antennae, it probes its surroundings in the pitch-black darkness of soil.
 Generation = 3
-WildItemUncommon = SOFTSAND
 Evolutions = NINJASK,Ninjask,20,SHEDINJA,Shedinja,20
 #-------------------------------
 [NINJASK]
@@ -7861,6 +7846,7 @@ Habitat = Cave
 Category = Whisper
 Pokedex = Its cries equal a jet plane in volume. It inhales through its ear canals. Because of this system, it can cry continually without having to catch its breath.
 Generation = 3
+WildItemUncommon = CHESTOBERRY
 Evolutions = LOUDRED,Level,20
 #-------------------------------
 [LOUDRED]
@@ -7887,6 +7873,7 @@ Habitat = Cave
 Category = Big Voice
 Pokedex = It positions the round speakers on its head to assail foes with ultrasonic waves at massive volume. It builds power by stomping the ground.
 Generation = 3
+WildItemUncommon = CHESTOBERRY
 Evolutions = EXPLOUD,Level,40
 #-------------------------------
 [EXPLOUD]
@@ -7939,7 +7926,6 @@ Habitat = Mountain
 Category = Guts
 Pokedex = It loves to toughen up its body above all else. If you hear quaking rumbles in a cave, it is the sound of Makuhita undertaking strenuous training.
 Generation = 3
-WildItemUncommon = BLACKBELT
 Evolutions = HARIYAMA,Level,24
 #-------------------------------
 [HARIYAMA]
@@ -8021,7 +8007,6 @@ Habitat = Cave
 Category = Compass
 Pokedex = Its body emits a powerful magnetism. It feeds on prey that is pulled in by the force. Its magnetism is stronger in cold seasons.
 Generation = 3
-WildItemUncommon = MAGNET
 Evolutions = PROBOPASS,LocationFlag,Magnetic,PROBOPASS,Item,THUNDERSTONE
 #-------------------------------
 [SKITTY]
@@ -8049,6 +8034,7 @@ Habitat = Forest
 Category = Kitten
 Pokedex = A Skitty's adorably cute behavior makes it highly popular. In battle, it makes its tail puff out. It threatens foes with a sharp growl.
 Generation = 3
+WildItemUncommon = LEPPABERRY
 Evolutions = DELCATTY,Item,MOONSTONE
 #-------------------------------
 [DELCATTY]
@@ -8101,7 +8087,6 @@ Habitat = Cave
 Category = Darkness
 Pokedex = It digs branching holes in caves using its sharp claws in search of food--raw gems. A Sableye lurks in darkness and is seen only rarely.
 Generation = 3
-WildItemUncommon = WIDELENS
 #-------------------------------
 [MAWILE]
 Name = Mawile
@@ -8128,7 +8113,6 @@ Habitat = Cave
 Category = Deceiver
 Pokedex = Its giant jaws are actually steel horns that transformed. It fools foes into complacency with its adorable gestures, then chomps them with its huge jaws.
 Generation = 3
-WildItemUncommon = IRONBALL
 #-------------------------------
 [ARON]
 Name = Aron
@@ -8342,7 +8326,6 @@ Habitat = Grassland
 Category = Cheering
 Pokedex = It has the trait of cheering on its fellow Pokémon. By shorting out the electricity it releases from its paws, it creates pom-poms for cheering.
 Generation = 3
-WildItemUncommon = CELLBATTERY
 #-------------------------------
 [MINUN]
 Name = Minun
@@ -8369,7 +8352,6 @@ Habitat = Grassland
 Category = Cheering
 Pokedex = At a meeting of Pokémon academics, it was announced that simultaneous exposure to electricity from a Plusle and Minun will promote circulation and boost vitality.
 Generation = 3
-WildItemUncommon = CELLBATTERY
 #-------------------------------
 [VOLBEAT]
 Name = Volbeat
@@ -8397,7 +8379,6 @@ Habitat = Forest
 Category = Firefly
 Pokedex = With their taillights lit, Volbeat fly in a swarm, drawing geometric designs in the night sky. They move their nests if their pond water becomes dirty.
 Generation = 3
-WildItemUncommon = BRIGHTPOWDER
 #-------------------------------
 [ILLUMISE]
 Name = Illumise
@@ -8425,7 +8406,6 @@ Habitat = Forest
 Category = Firefly
 Pokedex = A nocturnal Pokémon that becomes active upon nightfall. It leads a Volbeat swarm to draw patterns in the night sky. Over 200 different patterns have been seen.
 Generation = 3
-WildItemUncommon = BRIGHTPOWDER
 #-------------------------------
 [ROSELIA]
 Name = Roselia
@@ -8453,7 +8433,7 @@ Category = Thorn
 Pokedex = A Roselia that drinks nutritionally rich springwater blooms with lovely flowers. The fragrance of its flowers has the effect of making its foes careless.
 Generation = 3
 Flags = HasGenderedSprites
-WildItemUncommon = POISONBARB
+WildItemUncommon = SHINYSTONE
 Evolutions = ROSERADE,Item,SHINYSTONE
 #-------------------------------
 [GULPIN]
@@ -8482,8 +8462,7 @@ Category = Stomach
 Pokedex = This Pokémon's stomach fluid can even digest scrap iron. In one gulp, it can swallow something that is as large as itself.
 Generation = 3
 Flags = HasGenderedSprites
-WildItemCommon = ORANBERRY
-WildItemUncommon = SITRUSBERRY
+WildItemUncommon = BIGPEARL
 Evolutions = SWALOT,Level,26
 #-------------------------------
 [SWALOT]
@@ -8539,7 +8518,6 @@ Habitat = Sea
 Category = Savage
 Pokedex = Carvanha attack ships in swarms, making them sink. Although it is said to be a very vicious Pokémon, it timidly flees as soon as it finds itself alone.
 Generation = 3
-WildItemUncommon = DEEPSEATOOTH
 Evolutions = SHARPEDO,Level,30
 #-------------------------------
 [SHARPEDO]
@@ -8566,7 +8544,6 @@ Habitat = Sea
 Category = Brutal
 Pokedex = The vicious and sly gangster of the sea. Its skin is specially textured to minimize drag in water. Its speed tops out at over 75 miles per hour.
 Generation = 3
-WildItemUncommon = DEEPSEATOOTH
 #-------------------------------
 [WAILMER]
 Name = Wailmer
@@ -8646,6 +8623,7 @@ Category = Numb
 Pokedex = A Numel stores boiling magma in the hump on its back. It is a hardy Pokémon that can transport a 220-pound load. It has served humans at work since long ago.
 Generation = 3
 Flags = HasGenderedSprites
+WildItemUncommon = RAWSTBERRY
 Evolutions = CAMERUPT,Level,33
 #-------------------------------
 [CAMERUPT]
@@ -8699,7 +8677,6 @@ Habitat = Mountain
 Category = Coal
 Pokedex = It battles using energy it gets from burning coal. When loosing smoke from its nostrils, it lets off a sound that is similar to a locomotive's horn.
 Generation = 3
-WildItemUncommon = CHARCOAL
 #-------------------------------
 [SPOINK]
 Name = Spoink
@@ -8778,6 +8755,7 @@ Habitat = Mountain
 Category = Spot Panda
 Pokedex = It is distinguished by a pattern of spots that is always different. Its unsteady, tottering walk has the effect of fouling its foe's aim.
 Generation = 3
+WildItemUncommon = CHESTOBERRY
 #-------------------------------
 [TRAPINCH]
 Name = Trapinch
@@ -8881,7 +8859,7 @@ Habitat = RoughTerrain
 Category = Cactus
 Pokedex = Cacnea live in deserts with virtually no rainfall. It battles by swinging its thick, spiked arms. Once a year, a yellow flower blooms.
 Generation = 3
-WildItemUncommon = STICKYBARB
+WildItemUncommon = POISONBARB
 Evolutions = CACTURNE,Level,32
 #-------------------------------
 [CACTURNE]
@@ -8909,7 +8887,6 @@ Category = Scarecrow
 Pokedex = After spending thousands of years in harsh deserts, its blood transformed into the same substances as sand. It is nocturnal, so it hunts at night.
 Generation = 3
 Flags = HasGenderedSprites
-WildItemUncommon = STICKYBARB
 #-------------------------------
 [SWABLU]
 Name = Swablu
@@ -8988,7 +8965,6 @@ Habitat = Grassland
 Category = Cat Ferret
 Pokedex = When it battles, it stands on its hind legs and attacks with its sharply clawed forelegs. Its fur bristles if it encounters any Seviper.
 Generation = 3
-WildItemUncommon = QUICKCLAW
 #-------------------------------
 [SEVIPER]
 Name = Seviper
@@ -9015,7 +8991,6 @@ Habitat = Grassland
 Category = Fang Snake
 Pokedex = Seviper and Zangoose are eternal rivals. It counters a Zangoose's dazzling agility with its swordlike tail, which also oozes a horrible poison.
 Generation = 3
-WildItemUncommon = SHEDSHELL
 #-------------------------------
 [LUNATONE]
 Name = Lunatone
@@ -9040,7 +9015,6 @@ Habitat = Cave
 Category = Meteorite
 Pokedex = It becomes very active on the night of a full moon. This Pokémon was first discovered 40 years ago at the site of a meteor strike.
 Generation = 3
-WildItemCommon = STARDUST
 WildItemUncommon = MOONSTONE
 #-------------------------------
 [SOLROCK]
@@ -9066,7 +9040,6 @@ Habitat = Cave
 Category = Meteorite
 Pokedex = Solar energy is the source of this Pokémon's power. On sunny days, groups of Solrock line up facing the sun and absorb its light.
 Generation = 3
-WildItemCommon = STARDUST
 WildItemUncommon = SUNSTONE
 #-------------------------------
 [BARBOACH]
@@ -9196,7 +9169,6 @@ Habitat = RoughTerrain
 Category = Clay Doll
 Pokedex = A Baltoy moves by spinning on its single foot. It has been depicted in murals adorning the walls of a once-bustling city in an ancient age.
 Generation = 3
-WildItemUncommon = LIGHTCLAY
 Evolutions = CLAYDOL,Level,36
 #-------------------------------
 [CLAYDOL]
@@ -9222,7 +9194,6 @@ Habitat = RoughTerrain
 Category = Clay Doll
 Pokedex = A Claydol sleeps while hovering in midair. Its arms are separate from its body. They are kept floating by the Pokémon's manipulation of psychic power.
 Generation = 3
-WildItemUncommon = LIGHTCLAY
 #-------------------------------
 [LILEEP]
 Name = Lileep
@@ -9355,8 +9326,6 @@ Habitat = WatersEdge
 Category = Fish
 Pokedex = Feebas live in ponds that are heavily infested with weeds. Because of its hopelessly shabby appearance, it seems as if few trainers raise it.
 Generation = 3
-WildItemCommon = PRISMSCALE
-WildItemUncommon = PRISMSCALE
 Evolutions = MILOTIC,TradeItem,PRISMSCALE,MILOTIC,Beauty,170
 #-------------------------------
 [MILOTIC]
@@ -9439,6 +9408,7 @@ Habitat = Forest
 Category = Color Swap
 Pokedex = A Pokémon that has the ability to alter its body colors to match its surroundings. A Kecleon reverts to its original colors if it is startled.
 Generation = 3
+WildItemUncommon = PERSIMBERRY
 #-------------------------------
 [SHUPPET]
 Name = Shuppet
@@ -9519,9 +9489,7 @@ Habitat = Forest
 Category = Requiem
 Pokedex = A glare from its single scarlet eye makes even burly grown-ups freeze in utter fear. It is a nocturnal Pokémon that roams about under the cloak of darkness.
 Generation = 3
-WildItemCommon = REAPERCLOTH
-WildItemUncommon = REAPERCLOTH
-WildItemRare = SPELLTAG
+WildItemUncommon = SPELLTAG,REAPERCLOTH
 Evolutions = DUSCLOPS,Level,37
 #-------------------------------
 [DUSCLOPS]
@@ -9548,9 +9516,7 @@ Habitat = Forest
 Category = Beckon
 Pokedex = It is thought that its body is hollow with only a spectral ball of fire burning inside. However, no one has been able to confirm this theory as fact.
 Generation = 3
-WildItemCommon = REAPERCLOTH
 WildItemUncommon = REAPERCLOTH
-WildItemRare = SPELLTAG
 Evolutions = DUSKNOIR,TradeItem,REAPERCLOTH
 #-------------------------------
 [TROPIUS]
@@ -9603,7 +9569,6 @@ Habitat = Grassland
 Category = Wind Chime
 Pokedex = They fly about very actively when the hot season arrives. They communicate among themselves using seven different and distinguishing cries.
 Generation = 3
-WildItemUncommon = CLEANSETAG
 #-------------------------------
 [ABSOL]
 Name = Absol
@@ -9683,7 +9648,7 @@ Habitat = Cave
 Category = Snow Hat
 Pokedex = They tend to move about in groups of around five Snorunt. In snowy regions, it is said that when they are seen late at night, snowfall will arrive by morning.
 Generation = 3
-WildItemUncommon = SNOWBALL
+WildItemUncommon = DAWNSTONE
 Evolutions = GLALIE,Level,42,FROSLASS,ItemFemale,DAWNSTONE
 #-------------------------------
 [GLALIE]
@@ -9814,8 +9779,7 @@ Habitat = Sea
 Category = Bivalve
 Pokedex = A Clamperl slams its shell closed on prey to prevent escape. The pearl it creates upon evolution is said to be infused with a mysterious energy.
 Generation = 3
-WildItemCommon = PEARL
-WildItemUncommon = BIGPEARL
+WildItemUncommon = BLUESHARD
 Evolutions = HUNTAIL,TradeItem,DEEPSEATOOTH,GOREBYSS,TradeItem,DEEPSEASCALE
 #-------------------------------
 [HUNTAIL]
@@ -9896,7 +9860,7 @@ Category = Longevity
 Pokedex = A Pokémon that was once believed to be extinct. The species has not changed its form for 100 million years. It walks on the seafloor using its pectoral fins.
 Generation = 3
 Flags = HasGenderedSprites
-WildItemUncommon = DEEPSEASCALE
+WildItemUncommon = GREENSHARD
 #-------------------------------
 [LUVDISC]
 Name = Luvdisc
@@ -9950,7 +9914,7 @@ Habitat = RoughTerrain
 Category = Rock Head
 Pokedex = Although it is small, this Pokémon is very powerful because its body is a bundle of muscles. It launches head-butts with its ironlike skull.
 Generation = 3
-WildItemUncommon = DRAGONFANG
+WildItemUncommon = DRAGONSCALE
 Evolutions = SHELGON,Level,30
 #-------------------------------
 [SHELGON]
@@ -10188,6 +10152,9 @@ Category = Eon
 Pokedex = They make a small herd of only several members. They rarely make contact with people or other Pokémon. They disappear if they sense enemies.
 Generation = 3
 Flags = Legendary
+WildItemCommon = SOULDEW
+WildItemUncommon = SOULDEW
+WildItemRare = SOULDEW
 #-------------------------------
 [LATIOS]
 Name = Latios
@@ -10213,6 +10180,9 @@ Category = Eon
 Pokedex = Even in hiding, it can detect the locations of others and sense their emotions since it has telepathy. Its intelligence allows it to understand human languages.
 Generation = 3
 Flags = Legendary
+WildItemCommon = SOULDEW
+WildItemUncommon = SOULDEW
+WildItemRare = SOULDEW
 #-------------------------------
 [KYOGRE]
 Name = Kyogre
