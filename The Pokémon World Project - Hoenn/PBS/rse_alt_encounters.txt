@@ -375,7 +375,7 @@ Land,11
     10,JIGGLYPUFF,24,25
     10,SWELLOW,25
     10,WINGULL,24,26
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
@@ -394,7 +394,7 @@ Land,11
     20,NINCADA,6,7
     20,TAILLOW,6,8
     20,WHISMUR,6
-    14,POOCHYNEA,6,8
+    14,POOCHYENA,6,8
     14,ZIGZAGOON,6,8
     10,ABRA,7
     2,SKITTY,7,8
@@ -405,7 +405,7 @@ Land,11
     20,NINCADA,6,7
     20,TAILLOW,6,8
     20,WHISMUR,6
-    14,POOCHYNEA,6,8
+    14,POOCHYENA,6,8
     14,ZIGZAGOON,6,8
     10,ABRA,7
     2,SKITTY,7,8
@@ -620,7 +620,7 @@ Land,11
     9,WINGULL,26,28
     5,GLOOM,28
     1,KECLEON,25
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
@@ -635,7 +635,7 @@ SuperRod
     100,WAILMER,20,45
 #-------------------------------
 [141] # Route 122
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
@@ -662,7 +662,7 @@ Land,11
     9,WINGULL,26,28
     5,GLOOM,28
     1,KECLEON,25
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
@@ -677,7 +677,7 @@ SuperRod
     100,WAILMER,20,45
 #-------------------------------
 [144] # Route 124
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
@@ -693,7 +693,7 @@ SuperRod
     40,SHARPEDO,30,35
 #-------------------------------
 [146] # Route 125
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
@@ -709,7 +709,7 @@ SuperRod
     40,SHARPEDO,30,35
 #-------------------------------
 [147] # Route 126
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
@@ -725,7 +725,7 @@ SuperRod
     40,SHARPEDO,30,35
 #-------------------------------
 [148] # Route 127
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
@@ -741,7 +741,7 @@ SuperRod
     40,SHARPEDO,30,35
 #-------------------------------
 [149] # Route 128
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
@@ -758,7 +758,7 @@ SuperRod
     15,CORSOLA,30,35
 #-------------------------------
 [150] # Route 129
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     4,PELIPPER,25,30
@@ -775,7 +775,7 @@ SuperRod
     40,SHARPEDO,30,35
 #-------------------------------
 [151] # Route 130
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
@@ -791,7 +791,7 @@ SuperRod
     40,SHARPEDO,30,35
 #-------------------------------
 [152] # Route 131
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
@@ -807,7 +807,7 @@ SuperRod
     40,SHARPEDO,30,35
 #-------------------------------
 [153] # Route 132
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
@@ -824,7 +824,7 @@ SuperRod
     15,HORSEA,25,30
 #-------------------------------
 [154] # Route 133
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
@@ -841,7 +841,7 @@ SuperRod
     15,HORSEA,25,30
 #-------------------------------
 [155] # Route 134
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
@@ -873,7 +873,7 @@ Cave,5
     100,WHISMUR,5,8
 #-------------------------------
 [28] # Dewford Town
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
@@ -936,7 +936,7 @@ SuperRod
     20,TENTACRUEL,20,35
 #-------------------------------
 [32] # Slateport City
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
@@ -1440,7 +1440,7 @@ Cave,5
     6,ALTARIA,38,39
 #-------------------------------
 [88] # Pacifidlog Town
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
@@ -1456,7 +1456,7 @@ SuperRod
     40,SHARPEDO,30,35
 #-------------------------------
 [91] # Ever Grande City
-Surf,2
+Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
     5,PELIPPER,25,30
