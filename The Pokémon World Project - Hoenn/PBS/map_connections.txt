@@ -1,498 +1,936 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-# Slateport City (32) - Route 103 (103)
-32,West,0,103,East,40
-# Route 102 (102) - Route 103 (103)
-102,East,0,103,West,20
-# Mauville City (41) - Route 103 (103)
-41,West,80,103,East,0
-# Route 110 (113) - Route 103 (103)
-113,West,60,103,East,0
-# Route 126 (147) - Route 103 (103)
-147,South,0,103,North,440
-# Route 111 (117) - Route 103 (103)
-117,West,220,103,East,0
-# Route 127 (148) - Route 103 (103)
-148,South,0,103,North,520
-# Route 109 (111) - Route 103 (103)
-111,West,0,103,East,100
-# Oldale Town (12) - Slateport City (32)
-12,South,80,32,North,0
-# Route 102 (102) - Slateport City (32)
-102,South,130,32,North,0
-# Route 128 (149) - Slateport City (32)
-149,South,0,32,North,440
-# Ever Grande City South (91) - Slateport City (32)
-91,South,0,32,North,560
-# Petalburg City (16) - Slateport City (32)
-16,South,160,32,North,0
-# Route 104 (104) - Slateport City (32)
-104,South,200,32,North,0
-# Route 108 (110) - Slateport City (32)
-110,East,0,32,West,100
-# Route 117 (132) - Slateport City (32)
-132,East,120,32,West,0
-# Route 118 (134) - Slateport City (32)
-134,West,120,32,East,0
-# Route 110 (113) - Slateport City (32)
-113,South,0,32,North,0
-# Route 112 (121) - Slateport City (32)
-121,East,240,32,West,0
-# Route 109 (111) - Slateport City (32)
-111,North,0,32,South,0
-# Route 113 (123) - Slateport City (32)
-123,East,260,32,West,0
-# Route 134 (155) - Slateport City (32)
-155,West,0,32,East,0
-# Route 102 (102) - Oldale Town (12)
-102,East,0,12,West,0
-# Route 101 (101) - Oldale Town (12)
-101,North,0,12,South,0
-# Route 105 (107) - Oldale Town (12)
-107,North,120,12,South,0
-# Route 130 (151) - Oldale Town (12)
-151,North,0,12,South,440
-# Route 108 (110) - Oldale Town (12)
-110,West,0,12,East,120
-# Route 117 (132) - Oldale Town (12)
-132,West,100,12,East,0
-# Route 132 (153) - Oldale Town (12)
-153,North,0,12,South,280
-# Pacifidlog Town (88) - Oldale Town (12)
-88,North,0,12,South,360
-# Route 131 (152) - Oldale Town (12)
-152,North,0,12,South,380
-# Lavaridge Town (58) - Oldale Town (12)
-58,West,180,12,East,0
-# Route 134 (155) - Oldale Town (12)
-155,North,0,12,South,120
-# Route 133 (154) - Oldale Town (12)
-154,North,0,12,South,200
-# Route 129 (150) - Oldale Town (12)
-150,North,0,12,South,520
-# Littleroot Town (7) - Route 102 (102)
-7,West,0,102,East,40
-# Route 101 (101) - Route 102 (102)
-101,West,0,102,East,20
-# Route 105 (107) - Route 102 (102)
-107,North,70,102,South,0
-# Petalburg City (16) - Route 102 (102)
-16,East,10,102,West,0
-# Route 130 (151) - Route 102 (102)
-151,North,0,102,South,490
-# Verdanturf Town (48) - Route 102 (102)
-48,West,100,102,East,0
-# Route 132 (153) - Route 102 (102)
-153,North,0,102,South,330
-# Pacifidlog Town (88) - Route 102 (102)
-88,North,0,102,South,410
-# Route 131 (152) - Route 102 (102)
-152,North,0,102,South,430
-# Route 134 (155) - Route 102 (102)
-155,North,0,102,South,170
-# Route 133 (154) - Route 102 (102)
-154,North,0,102,South,250
-# Route 129 (150) - Route 102 (102)
-150,North,0,102,South,570
+# Littleroot Town (7) - North Interior Lavaridge (337)
+7,East,0,337,West,260
+# Oldale Town (12) - North Interior Lavaridge (337)
+12,East,0,337,West,220
+# Interior Rusturf Tunnel (335) - North Interior Lavaridge (337)
+335,East,0,337,West,60
+# Lavaridge Town (58) - North Interior Lavaridge (337)
+58,North,0,337,South,0
+# Verdanturf Town (48) - North Interior Lavaridge (337)
+48,East,0,337,West,120
+# Route 124 (144) - North Interior Lavaridge (337)
+144,North,0,337,South,420
+# Route 101 (101) - North Interior Lavaridge (337)
+101,East,0,337,West,240
+# Route 107 (109) - North Interior Lavaridge (337)
+109,East,0,337,West,340
+# Fallarbor Town (53) - North Interior Lavaridge (337)
+53,South,60,337,North,0
+# Route 116 (130) - North Interior Lavaridge (337)
+130,East,0,337,West,100
+# Fortree City (64) - North Interior Lavaridge (337)
+64,South,0,337,North,180
+# Route 112 (121) - North Interior Lavaridge (337)
+121,West,0,337,East,0
+# South Interior Littleroot (329) - North Interior Lavaridge (337)
+329,East,0,337,West,280
+# Route 113 (123) - North Interior Lavaridge (337)
+123,South,40,337,North,0
+# South Interior Fallarbor (336) - North Interior Lavaridge (337)
+336,East,0,337,West,0
+# Route 125 (146) - North Interior Lavaridge (337)
+146,North,0,337,South,500
+# Route 102 (102) - Littleroot Town (7)
+102,East,40,7,West,0
+# Lavaridge Town (58) - Littleroot Town (7)
+58,West,220,7,East,0
+# Northeast Interior Petalburg (332) - Littleroot Town (7)
+332,East,140,7,West,0
+# Route 117 (132) - Littleroot Town (7)
+132,West,140,7,East,0
 # Route 101 (101) - Littleroot Town (7)
 101,South,0,7,North,0
 # Route 108 (110) - Littleroot Town (7)
 110,West,0,7,East,80
-# Route 117 (132) - Littleroot Town (7)
-132,West,140,7,East,0
-# Lavaridge Town (58) - Littleroot Town (7)
-58,West,220,7,East,0
-# Route 128 (149) - Route 101 (101)
-149,South,0,101,North,520
-# Ever Grande City South (91) - Route 101 (101)
-91,South,0,101,North,640
-# Petalburg City (16) - Route 101 (101)
-16,South,80,101,North,0
-# Route 104 (104) - Route 101 (101)
-104,South,120,101,North,0
-# Route 108 (110) - Route 101 (101)
-110,West,0,101,East,100
-# Route 117 (132) - Route 101 (101)
-132,West,120,101,East,0
-# Route 110 (113) - Route 101 (101)
-113,South,0,101,North,80
-# Lavaridge Town (58) - Route 101 (101)
-58,West,200,101,East,0
-# Ever Grande City South (91) - Route 128 (149)
-91,West,40,149,East,0
-# Route 105 (107) - Route 128 (149)
-107,North,640,149,South,0
-# Route 130 (151) - Route 128 (149)
-151,North,80,149,South,0
-# Route 124 (144) - Route 128 (149)
-144,East,160,149,West,0
-# Route 132 (153) - Route 128 (149)
-153,North,240,149,South,0
-# Pacifidlog Town (88) - Route 128 (149)
-88,North,160,149,South,0
-# Route 131 (152) - Route 128 (149)
-152,North,140,149,South,0
-# Route 126 (147) - Route 128 (149)
-147,East,80,149,West,0
-# Route 127 (148) - Route 128 (149)
-148,South,0,149,North,0
-# Route 134 (155) - Route 128 (149)
-155,North,400,149,South,0
-# Route 133 (154) - Route 128 (149)
-154,North,320,149,South,0
-# Route 129 (150) - Route 128 (149)
-150,North,0,149,South,0
-# Route 105 (107) - Ever Grande City South (91)
-107,North,760,91,South,0
-# Rustboro City (21) - Ever Grande City South (91)
-21,South,760,91,North,0
-# Route 130 (151) - Ever Grande City South (91)
-151,North,200,91,South,0
-# Route 132 (153) - Ever Grande City South (91)
-153,North,360,91,South,0
-# Pacifidlog Town (88) - Ever Grande City South (91)
-88,North,280,91,South,0
-# Route 131 (152) - Ever Grande City South (91)
-152,North,260,91,South,0
-# Route 134 (155) - Ever Grande City South (91)
-155,North,520,91,South,0
-# Route 133 (154) - Ever Grande City South (91)
-154,North,440,91,South,0
-# Route 129 (150) - Ever Grande City South (91)
-150,North,120,91,South,0
-# Petalburg City (16) - Route 105 (107)
-16,West,30,107,East,0
-# Route 114 (125) - Route 105 (107)
-125,West,260,107,East,0
-# Route 106 (108) - Route 105 (107)
-108,North,0,107,South,0
-# Route 104 (104) - Route 105 (107)
-104,South,0,107,North,0
-# Route 116 (130) - Route 105 (107)
-130,West,140,107,East,0
-# Route 110 (113) - Route 105 (107)
-113,South,0,107,North,200
+# West Interior Slateport (330) - Littleroot Town (7)
+330,West,40,7,East,0
+# South Interior Petalburg (328) - Littleroot Town (7)
+328,East,20,7,West,0
+# South Interior Littleroot (329) - Littleroot Town (7)
+329,North,0,7,South,0
+# East Route 109 (326) - Littleroot Town (7)
+326,North,0,7,South,120
+# South Interior Lavaridge (334) - Littleroot Town (7)
+334,West,200,7,East,0
+# Oldale Town (12) - Route 102 (102)
+12,West,0,102,East,0
+# Pacifidlog Town (88) - Route 102 (102)
+88,North,0,102,South,410
+# Petalburg City (16) - Route 102 (102)
+16,East,10,102,West,0
+# Verdanturf Town (48) - Route 102 (102)
+48,West,100,102,East,0
+# Northeast Interior Petalburg (332) - Route 102 (102)
+332,South,0,102,North,0
+# Route 130 (151) - Route 102 (102)
+151,North,0,102,South,490
+# Slateport City (32) - Route 102 (102)
+32,North,0,102,South,130
+# Route 101 (101) - Route 102 (102)
+101,West,0,102,East,20
+# Route 105 (107) - Route 102 (102)
+107,North,70,102,South,0
+# Route 103 (103) - Route 102 (102)
+103,West,20,102,East,0
+# West Interior Cycling Road (333) - Route 102 (102)
+333,West,80,102,East,0
+# South Interior Petalburg (328) - Route 102 (102)
+328,North,30,102,South,0
+# Route 133 (154) - Route 102 (102)
+154,North,0,102,South,250
+# Route 132 (153) - Route 102 (102)
+153,North,0,102,South,330
+# South Interior Littleroot (329) - Route 102 (102)
+329,West,0,102,East,60
+# Route 134 (155) - Route 102 (102)
+155,North,0,102,South,170
+# North Interior Petalburg (331) - Route 102 (102)
+331,East,100,102,West,0
+# Route 129 (150) - Route 102 (102)
+150,North,0,102,South,570
+# Route 131 (152) - Route 102 (102)
+152,North,0,102,South,430
+# Pacifidlog Town (88) - Oldale Town (12)
+88,North,0,12,South,360
+# Lavaridge Town (58) - Oldale Town (12)
+58,West,180,12,East,0
+# Northeast Interior Petalburg (332) - Oldale Town (12)
+332,East,100,12,West,0
+# Route 130 (151) - Oldale Town (12)
+151,North,0,12,South,440
+# Route 117 (132) - Oldale Town (12)
+132,West,100,12,East,0
+# Slateport City (32) - Oldale Town (12)
+32,North,0,12,South,80
+# Route 101 (101) - Oldale Town (12)
+101,North,0,12,South,0
+# Route 105 (107) - Oldale Town (12)
+107,North,120,12,South,0
+# Route 108 (110) - Oldale Town (12)
+110,West,0,12,East,120
+# West Interior Slateport (330) - Oldale Town (12)
+330,West,0,12,East,0
+# Route 103 (103) - Oldale Town (12)
+103,South,0,12,North,0
+# South Interior Petalburg (328) - Oldale Town (12)
+328,North,80,12,South,0
+# Route 133 (154) - Oldale Town (12)
+154,North,0,12,South,200
+# Route 132 (153) - Oldale Town (12)
+153,North,0,12,South,280
+# Route 134 (155) - Oldale Town (12)
+155,North,0,12,South,120
+# South Interior Lavaridge (334) - Oldale Town (12)
+334,West,160,12,East,0
+# Route 129 (150) - Oldale Town (12)
+150,North,0,12,South,520
+# Route 131 (152) - Oldale Town (12)
+152,North,0,12,South,380
+# Petalburg City (16) - Pacifidlog Town (88)
+16,South,440,88,North,0
+# Dewford Town (28) - Pacifidlog Town (88)
+28,North,420,88,South,0
+# Ever Grande City South (91) - Pacifidlog Town (88)
+91,South,0,88,North,280
+# Route 107 (109) - Pacifidlog Town (88)
+109,North,400,88,South,0
+# Route 104 (104) - Pacifidlog Town (88)
+104,South,480,88,North,0
+# Route 108 (110) - Pacifidlog Town (88)
+110,North,340,88,South,0
+# Route 110 (113) - Pacifidlog Town (88)
+113,South,280,88,North,0
+# Route 121 (139) - Pacifidlog Town (88)
+139,East,180,88,West,0
+# Route 128 (149) - Pacifidlog Town (88)
+149,South,0,88,North,160
+# Route 132 (153) - Pacifidlog Town (88)
+153,East,0,88,West,0
+# Southwest Granite Cave (323) - Pacifidlog Town (88)
+323,North,500,88,South,0
+# Route 131 (152) - Pacifidlog Town (88)
+152,West,0,88,East,0
 # Rustboro City (21) - Petalburg City (16)
 21,East,110,16,West,0
-# Route 104 (104) - Petalburg City (16)
-104,East,50,16,West,0
+# Northeast Interior Petalburg (332) - Petalburg City (16)
+332,West,90,16,East,0
 # Route 130 (151) - Petalburg City (16)
 151,North,0,16,South,520
-# Route 132 (153) - Petalburg City (16)
-153,North,0,16,South,360
-# Pacifidlog Town (88) - Petalburg City (16)
-88,North,0,16,South,440
-# Route 131 (152) - Petalburg City (16)
-152,North,0,16,South,460
-# Route 134 (155) - Petalburg City (16)
-155,North,0,16,South,200
-# Route 133 (154) - Petalburg City (16)
-154,North,0,16,South,280
-# Route 129 (150) - Petalburg City (16)
-150,North,0,16,South,600
+# Slateport City (32) - Petalburg City (16)
+32,North,0,16,South,160
+# Route 101 (101) - Petalburg City (16)
+101,North,0,16,South,80
+# Route 104 (104) - Petalburg City (16)
+104,East,50,16,West,0
+# Route 105 (107) - Petalburg City (16)
+107,North,40,16,South,0
+# South Interior Petalburg (328) - Petalburg City (16)
+328,North,0,16,South,0
 # Route 115 (129) - Petalburg City (16)
 129,East,190,16,West,0
+# Route 133 (154) - Petalburg City (16)
+154,North,0,16,South,280
+# Route 132 (153) - Petalburg City (16)
+153,North,0,16,South,360
+# Route 134 (155) - Petalburg City (16)
+155,North,0,16,South,200
+# North Interior Petalburg (331) - Petalburg City (16)
+331,South,0,16,North,0
+# Route 129 (150) - Petalburg City (16)
+150,North,0,16,South,600
+# Route 131 (152) - Petalburg City (16)
+152,North,0,16,South,460
+# Interior Rusturf Tunnel (335) - Rustboro City (21)
+335,West,40,21,East,0
+# Ever Grande City South (91) - Rustboro City (21)
+91,North,0,21,South,760
 # Route 114 (125) - Rustboro City (21)
 125,West,120,21,East,0
 # Route 104 (104) - Rustboro City (21)
 104,North,0,21,South,0
+# West Rustboro (321) - Rustboro City (21)
+321,East,120,21,West,0
 # Route 116 (130) - Rustboro City (21)
 130,West,0,21,East,0
+# South Interior Petalburg (328) - Rustboro City (21)
+328,West,0,21,East,140
 # Route 115 (129) - Rustboro City (21)
 129,South,0,21,North,0
-# Fallarbor Town (53) - Route 114 (125)
-53,West,0,125,East,0
-# Route 104 (104) - Route 114 (125)
-104,East,0,125,West,180
-# Route 121 (139) - Route 114 (125)
-139,North,0,125,South,360
-# Route 107 (109) - Route 114 (125)
-109,West,0,125,East,360
-# Route 115 (129) - Route 114 (125)
-129,East,0,125,West,40
-# Dewford Town (28) - Fallarbor Town (53)
-28,East,0,53,West,360
-# Route 106 (108) - Fallarbor Town (53)
-108,East,0,53,West,340
-# Route 112 (121) - Fallarbor Town (53)
-121,North,0,53,South,80
-# Route 113 (123) - Fallarbor Town (53)
-123,West,0,53,East,0
-# Route 106 (108) - Dewford Town (28)
-108,South,60,28,North,0
-# Route 107 (109) - Dewford Town (28)
-109,West,0,28,East,0
-# Route 108 (110) - Route 106 (108)
-110,North,0,108,South,140
-# Route 107 (109) - Route 106 (108)
-109,West,0,108,East,20
-# Route 130 (151) - Route 104 (104)
-151,North,0,104,South,560
-# Route 116 (130) - Route 104 (104)
-130,West,60,104,East,0
-# Route 132 (153) - Route 104 (104)
-153,North,0,104,South,400
-# Pacifidlog Town (88) - Route 104 (104)
-88,North,0,104,South,480
-# Route 131 (152) - Route 104 (104)
-152,North,0,104,South,500
-# Route 134 (155) - Route 104 (104)
-155,North,0,104,South,240
-# Route 133 (154) - Route 104 (104)
-154,North,0,104,South,320
-# Route 129 (150) - Route 104 (104)
-150,North,0,104,South,640
-# Lilycove City (69) - Route 130 (151)
-69,East,190,151,West,0
-# Mossdeep City (76) - Route 130 (151)
-76,West,160,151,East,0
-# Route 131 (152) - Route 130 (151)
-152,East,0,151,West,0
-# Route 110 (113) - Route 130 (151)
-113,South,360,151,North,0
-# Route 127 (148) - Route 130 (151)
-148,West,120,151,East,0
-# Route 125 (146) - Route 130 (151)
-146,West,200,151,East,0
-# Route 129 (150) - Route 130 (151)
-150,West,0,151,East,0
-# Route 121 (139) - Lilycove City (69)
-139,East,0,69,West,10
-# Route 124 (144) - Lilycove City (69)
-144,West,10,69,East,0
-# Route 132 (153) - Lilycove City (69)
-153,East,0,69,West,190
-# Route 126 (147) - Lilycove City (69)
-147,West,0,69,East,70
-# Mossdeep City (76) - Route 121 (139)
-76,North,0,139,South,240
-# Route 120 (138) - Route 121 (139)
-138,East,80,139,West,0
-# Route 122 (141) - Route 121 (139)
-141,North,0,139,South,20
-# Pacifidlog Town (88) - Route 121 (139)
-88,West,0,139,East,180
-# Route 112 (121) - Route 121 (139)
-121,South,240,139,North,0
-# Lavaridge Town (58) - Route 121 (139)
-58,South,260,139,North,0
-# Route 133 (154) - Route 121 (139)
-154,East,0,139,West,180
-# Mauville City (41) - Mossdeep City (76)
-41,North,440,76,South,0
-# Route 124 (144) - Mossdeep City (76)
-144,East,40,76,West,0
-# Verdanturf Town (48) - Mossdeep City (76)
-48,North,520,76,South,0
-# Route 117 (132) - Mossdeep City (76)
-132,North,500,76,South,0
-# Route 118 (134) - Mossdeep City (76)
-134,North,400,76,South,0
-# Route 120 (138) - Mossdeep City (76)
-138,South,280,76,North,0
-# Route 126 (147) - Mossdeep City (76)
-147,North,80,76,South,0
-# Route 127 (148) - Mossdeep City (76)
-148,North,0,76,South,0
-# Route 123 (142) - Mossdeep City (76)
-142,North,320,76,South,0
-# Route 125 (146) - Mossdeep City (76)
-146,South,0,76,North,0
-# Route 124 (144) - Mauville City (41)
-144,South,0,41,North,360
-# Route 108 (110) - Mauville City (41)
-110,East,0,41,West,220
-# Route 116 (130) - Mauville City (41)
-130,South,160,41,North,0
-# Route 117 (132) - Mauville City (41)
-132,East,0,41,West,0
-# Route 119 (135) - Mauville City (41)
-135,South,0,41,North,80
-# Route 118 (134) - Mauville City (41)
-134,West,0,41,East,0
-# Route 122 (141) - Mauville City (41)
-141,South,0,41,North,220
-# Route 110 (113) - Mauville City (41)
-113,North,0,41,South,0
-# Route 111 (117) - Mauville City (41)
-117,South,0,41,North,0
-# Route 112 (121) - Mauville City (41)
-121,East,120,41,West,0
-# Route 113 (123) - Mauville City (41)
-123,East,140,41,West,0
-# Route 134 (155) - Mauville City (41)
-155,West,0,41,East,120
-# Verdanturf Town (48) - Route 124 (144)
-48,North,440,144,South,0
-# Route 117 (132) - Route 124 (144)
-132,North,420,144,South,0
-# Route 118 (134) - Route 124 (144)
-134,North,320,144,South,0
-# Route 131 (152) - Route 124 (144)
-152,East,0,144,West,200
-# Route 126 (147) - Route 124 (144)
-147,North,0,144,South,0
-# Route 127 (148) - Route 124 (144)
-148,West,0,144,East,80
-# Route 123 (142) - Route 124 (144)
-142,North,240,144,South,0
-# Route 125 (146) - Route 124 (144)
-146,West,0,144,East,0
-# Route 129 (150) - Route 124 (144)
-150,West,0,144,East,200
-# Route 108 (110) - Verdanturf Town (48)
-110,West,0,48,East,220
-# Route 116 (130) - Verdanturf Town (48)
-130,South,80,48,North,0
+# North Interior Petalburg (331) - Rustboro City (21)
+331,West,0,21,East,20
+# Lavaridge Town (58) - Interior Rusturf Tunnel (335)
+58,West,20,335,East,0
+# Route 117 (132) - Interior Rusturf Tunnel (335)
+132,West,0,335,East,60
+# Route 114 (125) - Interior Rusturf Tunnel (335)
+125,South,0,335,North,0
+# Route 104 (104) - Interior Rusturf Tunnel (335)
+104,East,0,335,West,100
+# Route 105 (107) - Interior Rusturf Tunnel (335)
+107,East,0,335,West,180
+# Route 116 (130) - Interior Rusturf Tunnel (335)
+130,North,0,335,South,0
+# Route 108 (110) - Interior Rusturf Tunnel (335)
+110,West,0,335,East,280
+# West Interior Slateport (330) - Interior Rusturf Tunnel (335)
+330,West,0,335,East,160
+# Route 115 (129) - Interior Rusturf Tunnel (335)
+129,East,40,335,West,0
+# Route 112 (121) - Interior Rusturf Tunnel (335)
+121,South,0,335,North,120
+# South Interior Lavaridge (334) - Interior Rusturf Tunnel (335)
+334,West,0,335,East,0
+# South Interior Fallarbor (336) - Interior Rusturf Tunnel (335)
+336,South,0,335,North,40
+# Verdanturf Town (48) - Lavaridge Town (58)
+48,East,0,58,West,80
+# Route 101 (101) - Lavaridge Town (58)
+101,East,0,58,West,200
+# Route 107 (109) - Lavaridge Town (58)
+109,East,0,58,West,300
+# Route 116 (130) - Lavaridge Town (58)
+130,East,0,58,West,60
+# Route 112 (121) - Lavaridge Town (58)
+121,West,40,58,East,0
+# Route 121 (139) - Lavaridge Town (58)
+139,North,0,58,South,260
+# South Interior Littleroot (329) - Lavaridge Town (58)
+329,East,0,58,West,240
+# South Interior Lavaridge (334) - Lavaridge Town (58)
+334,North,0,58,South,0
+# South Interior Fallarbor (336) - Lavaridge Town (58)
+336,East,40,58,West,0
+# Northeast Interior Petalburg (332) - Verdanturf Town (48)
+332,East,0,48,West,0
+# Mossdeep City (76) - Verdanturf Town (48)
+76,South,0,48,North,520
+# Route 124 (144) - Verdanturf Town (48)
+144,South,0,48,North,440
 # Route 117 (132) - Verdanturf Town (48)
 132,West,0,48,East,0
+# Route 116 (130) - Verdanturf Town (48)
+130,South,80,48,North,0
+# Route 108 (110) - Verdanturf Town (48)
+110,West,0,48,East,220
+# West Interior Slateport (330) - Verdanturf Town (48)
+330,West,0,48,East,100
+# West Interior Cycling Road (333) - Verdanturf Town (48)
+333,North,0,48,South,0
+# Route 110 (113) - Verdanturf Town (48)
+113,North,0,48,South,80
+# South Interior Petalburg (328) - Verdanturf Town (48)
+328,East,0,48,West,120
+# Route 111 (117) - Verdanturf Town (48)
+117,South,0,48,North,80
 # Route 119 (135) - Verdanturf Town (48)
 135,South,0,48,North,160
 # Route 122 (141) - Verdanturf Town (48)
 141,South,0,48,North,300
-# Route 110 (113) - Verdanturf Town (48)
-113,North,0,48,South,80
-# Route 111 (117) - Verdanturf Town (48)
-117,South,0,48,North,80
-# Lavaridge Town (58) - Verdanturf Town (48)
-58,West,80,48,East,0
-# Route 116 (130) - Route 108 (110)
-130,East,240,110,West,0
-# Route 110 (113) - Route 108 (110)
-113,West,200,110,East,0
-# Route 111 (117) - Route 108 (110)
-117,West,360,110,East,0
-# Route 109 (111) - Route 108 (110)
-111,West,40,110,East,0
-# Route 107 (109) - Route 108 (110)
-109,East,0,110,West,0
-# Route 117 (132) - Route 116 (130)
-132,West,0,130,East,20
+# South Interior Lavaridge (334) - Verdanturf Town (48)
+334,West,60,48,East,0
+# Mossdeep City (76) - Northeast Interior Petalburg (332)
+76,South,0,332,North,570
+# Route 124 (144) - Northeast Interior Petalburg (332)
+144,South,0,332,North,490
+# Route 101 (101) - Northeast Interior Petalburg (332)
+101,West,0,332,East,120
+# Route 116 (130) - Northeast Interior Petalburg (332)
+130,South,30,332,North,0
+# West Interior Slateport (330) - Northeast Interior Petalburg (332)
+330,North,0,332,South,70
+# Route 103 (103) - Northeast Interior Petalburg (332)
+103,West,0,332,East,80
+# West Interior Cycling Road (333) - Northeast Interior Petalburg (332)
+333,West,0,332,East,20
+# Route 111 (117) - Northeast Interior Petalburg (332)
+117,South,0,332,North,130
+# Route 119 (135) - Northeast Interior Petalburg (332)
+135,South,0,332,North,210
+# Route 122 (141) - Northeast Interior Petalburg (332)
+141,South,0,332,North,350
+# South Interior Littleroot (329) - Northeast Interior Petalburg (332)
+329,West,0,332,East,160
+# South Interior Lavaridge (334) - Northeast Interior Petalburg (332)
+334,South,0,332,North,70
+# North Interior Petalburg (331) - Northeast Interior Petalburg (332)
+331,East,0,332,West,0
+# Mauville City (41) - Mossdeep City (76)
+41,North,440,76,South,0
+# Route 130 (151) - Mossdeep City (76)
+151,East,0,76,West,160
+# Route 124 (144) - Mossdeep City (76)
+144,East,40,76,West,0
+# Route 117 (132) - Mossdeep City (76)
+132,North,500,76,South,0
+# Route 118 (134) - Mossdeep City (76)
+134,North,400,76,South,0
+# Route 126 (147) - Mossdeep City (76)
+147,North,80,76,South,0
+# Route 127 (148) - Mossdeep City (76)
+148,North,0,76,South,0
+# Route 120 (138) - Mossdeep City (76)
+138,South,280,76,North,0
+# Route 121 (139) - Mossdeep City (76)
+139,South,240,76,North,0
+# Route 123 (142) - Mossdeep City (76)
+142,North,320,76,South,0
+# North Interior Petalburg (331) - Mossdeep City (76)
+331,North,600,76,South,0
+# Route 125 (146) - Mossdeep City (76)
+146,South,0,76,North,0
+# South Interior Ocean Dewford (327) - Mauville City (41)
+327,East,0,41,West,200
+# Route 124 (144) - Mauville City (41)
+144,South,0,41,North,360
+# Route 117 (132) - Mauville City (41)
+132,East,0,41,West,0
+# Route 116 (130) - Mauville City (41)
+130,South,160,41,North,0
+# Route 108 (110) - Mauville City (41)
+110,East,0,41,West,220
+# West Interior Slateport (330) - Mauville City (41)
+330,East,0,41,West,100
+# Route 103 (103) - Mauville City (41)
+103,East,0,41,West,80
+# West Interior Cycling Road (333) - Mauville City (41)
+333,North,80,41,South,0
+# Southwest Dewford (324) - Mauville City (41)
+324,East,0,41,West,240
+# Route 110 (113) - Mauville City (41)
+113,North,0,41,South,0
+# Route 118 (134) - Mauville City (41)
+134,West,0,41,East,0
+# Route 112 (121) - Mauville City (41)
+121,East,120,41,West,0
+# Route 111 (117) - Mauville City (41)
+117,South,0,41,North,0
+# Route 119 (135) - Mauville City (41)
+135,South,0,41,North,80
+# Route 122 (141) - Mauville City (41)
+141,South,0,41,North,220
+# East Route 109 (326) - Mauville City (41)
+326,West,0,41,East,160
+# Route 134 (155) - Mauville City (41)
+155,West,0,41,East,120
+# South Interior Lavaridge (334) - Mauville City (41)
+334,East,60,41,West,0
+# Route 113 (123) - Mauville City (41)
+123,East,140,41,West,0
+# Dewford Town (28) - South Interior Ocean Dewford (327)
+28,North,20,327,South,0
+# Slateport City (32) - South Interior Ocean Dewford (327)
+32,West,80,327,East,0
+# Route 107 (109) - South Interior Ocean Dewford (327)
+109,North,0,327,South,0
+# Route 106 (108) - South Interior Ocean Dewford (327)
+108,East,0,327,West,0
+# Route 114 (125) - South Interior Ocean Dewford (327)
+125,East,340,327,West,0
+# Route 105 (107) - South Interior Ocean Dewford (327)
+107,South,80,327,North,0
+# Route 108 (110) - South Interior Ocean Dewford (327)
+110,North,0,327,South,60
+# West Interior Slateport (330) - South Interior Ocean Dewford (327)
+330,South,0,327,North,60
+# Route 109 (111) - South Interior Ocean Dewford (327)
+111,West,20,327,East,0
+# Route 110 (113) - South Interior Ocean Dewford (327)
+113,West,180,327,East,0
+# South Interior Petalburg (328) - South Interior Ocean Dewford (327)
+328,South,40,327,North,0
+# Route 111 (117) - South Interior Ocean Dewford (327)
+117,West,340,327,East,0
+# South Interior Littleroot (329) - South Interior Ocean Dewford (327)
+329,South,0,327,North,40
+# South Route 109 (325) - South Interior Ocean Dewford (327)
+325,West,0,327,East,43
+# Southwest Granite Cave (323) - South Interior Ocean Dewford (327)
+323,North,100,327,South,0
+# Route 130 (151) - Dewford Town (28)
+151,South,0,28,North,500
+# Route 107 (109) - Dewford Town (28)
+109,West,0,28,East,0
+# Route 106 (108) - Dewford Town (28)
+108,South,60,28,North,0
+# Fallarbor Town (53) - Dewford Town (28)
+53,West,360,28,East,0
+# West Rustboro (321) - Dewford Town (28)
+321,South,80,28,North,0
+# Southwest Dewford (324) - Dewford Town (28)
+324,North,80,28,South,0
+# South Interior Fallarbor (336) - Dewford Town (28)
+336,West,340,28,East,0
+# Route 129 (150) - Dewford Town (28)
+150,South,0,28,North,580
+# Southwest Granite Cave (323) - Dewford Town (28)
+323,East,0,28,West,0
+# Route 131 (152) - Dewford Town (28)
+152,South,0,28,North,440
+# Lilycove City (69) - Route 130 (151)
+69,East,190,151,West,0
+# Ever Grande City South (91) - Route 130 (151)
+91,South,0,151,North,200
+# Route 107 (109) - Route 130 (151)
+109,North,480,151,South,0
+# Route 104 (104) - Route 130 (151)
+104,South,560,151,North,0
+# Route 108 (110) - Route 130 (151)
+110,North,420,151,South,0
+# Route 110 (113) - Route 130 (151)
+113,South,360,151,North,0
+# Route 127 (148) - Route 130 (151)
+148,West,120,151,East,0
+# Route 128 (149) - Route 130 (151)
+149,West,40,151,East,0
+# Route 129 (150) - Route 130 (151)
+150,West,0,151,East,0
+# Southwest Granite Cave (323) - Route 130 (151)
+323,North,580,151,South,0
+# Route 131 (152) - Route 130 (151)
+152,East,0,151,West,0
+# Route 125 (146) - Route 130 (151)
+146,West,200,151,East,0
+# Route 124 (144) - Lilycove City (69)
+144,West,10,69,East,0
+# Route 126 (147) - Lilycove City (69)
+147,West,0,69,East,70
+# Route 121 (139) - Lilycove City (69)
+139,East,0,69,West,10
+# Route 132 (153) - Lilycove City (69)
+153,East,0,69,West,190
+# Route 117 (132) - Route 124 (144)
+132,North,420,144,South,0
+# Route 118 (134) - Route 124 (144)
+134,North,320,144,South,0
+# Route 126 (147) - Route 124 (144)
+147,North,0,144,South,0
+# Route 127 (148) - Route 124 (144)
+148,West,0,144,East,80
+# Route 128 (149) - Route 124 (144)
+149,West,0,144,East,160
+# Route 123 (142) - Route 124 (144)
+142,North,240,144,South,0
+# North Interior Petalburg (331) - Route 124 (144)
+331,North,520,144,South,0
+# Route 129 (150) - Route 124 (144)
+150,West,0,144,East,200
+# Route 131 (152) - Route 124 (144)
+152,East,0,144,West,200
+# Route 125 (146) - Route 124 (144)
+146,West,0,144,East,0
+# Slateport City (32) - Route 117 (132)
+32,West,0,132,East,120
+# Route 101 (101) - Route 117 (132)
+101,East,0,132,West,120
+# Route 107 (109) - Route 117 (132)
+109,East,0,132,West,220
+# Route 116 (130) - Route 117 (132)
+130,East,20,132,West,0
+# West Interior Cycling Road (333) - Route 117 (132)
+333,North,20,132,South,0
+# Route 109 (111) - Route 117 (132)
+111,West,0,132,East,180
+# Route 110 (113) - Route 117 (132)
+113,West,0,132,East,20
+# Route 111 (117) - Route 117 (132)
+117,West,140,132,East,0
+# Route 119 (135) - Route 117 (132)
+135,South,0,132,North,140
+# Route 122 (141) - Route 117 (132)
+141,South,0,132,North,280
+# South Interior Littleroot (329) - Route 117 (132)
+329,East,0,132,West,160
+# South Interior Lavaridge (334) - Route 117 (132)
+334,South,0,132,North,0
+# South Route 109 (325) - Route 117 (132)
+325,West,0,132,East,243
+# South Interior Fallarbor (336) - Route 117 (132)
+336,East,120,132,West,0
+# Ever Grande City South (91) - Slateport City (32)
+91,South,0,32,North,560
+# Route 104 (104) - Slateport City (32)
+104,South,200,32,North,0
+# Route 108 (110) - Slateport City (32)
+110,East,0,32,West,100
+# West Interior Slateport (330) - Slateport City (32)
+330,East,20,32,West,0
+# Route 103 (103) - Slateport City (32)
+103,East,40,32,West,0
+# West Interior Cycling Road (333) - Slateport City (32)
+333,East,100,32,West,0
+# Route 109 (111) - Slateport City (32)
+111,North,0,32,South,0
+# Southwest Dewford (324) - Slateport City (32)
+324,East,0,32,West,120
+# Route 110 (113) - Slateport City (32)
+113,South,0,32,North,0
+# Route 118 (134) - Slateport City (32)
+134,West,120,32,East,0
+# Route 112 (121) - Slateport City (32)
+121,East,240,32,West,0
+# Route 128 (149) - Slateport City (32)
+149,South,0,32,North,440
+# East Route 109 (326) - Slateport City (32)
+326,West,0,32,East,40
+# Route 134 (155) - Slateport City (32)
+155,West,0,32,East,0
+# South Interior Lavaridge (334) - Slateport City (32)
+334,East,180,32,West,0
+# Route 113 (123) - Slateport City (32)
+123,East,260,32,West,0
+# Route 101 (101) - Ever Grande City South (91)
+101,North,640,91,South,0
+# Route 105 (107) - Ever Grande City South (91)
+107,North,760,91,South,0
+# South Interior Petalburg (328) - Ever Grande City South (91)
+328,North,720,91,South,0
+# Route 133 (154) - Ever Grande City South (91)
+154,North,440,91,South,0
+# Route 128 (149) - Ever Grande City South (91)
+149,East,0,91,West,40
+# Route 132 (153) - Ever Grande City South (91)
+153,North,360,91,South,0
+# Route 134 (155) - Ever Grande City South (91)
+155,North,520,91,South,0
+# Route 129 (150) - Ever Grande City South (91)
+150,North,120,91,South,0
+# Route 131 (152) - Ever Grande City South (91)
+152,North,260,91,South,0
+# Route 104 (104) - Route 101 (101)
+104,South,120,101,North,0
+# Route 108 (110) - Route 101 (101)
+110,West,0,101,East,100
+# West Interior Slateport (330) - Route 101 (101)
+330,West,20,101,East,0
+# Route 110 (113) - Route 101 (101)
+113,South,0,101,North,80
+# South Interior Petalburg (328) - Route 101 (101)
+328,East,0,101,West,0
+# Route 128 (149) - Route 101 (101)
+149,South,0,101,North,520
+# South Interior Lavaridge (334) - Route 101 (101)
+334,West,180,101,East,0
+# Route 106 (108) - Route 107 (109)
+108,East,20,109,West,0
+# Route 114 (125) - Route 107 (109)
+125,East,360,109,West,0
+# West Rustboro (321) - Route 107 (109)
+321,South,100,109,North,0
+# Route 108 (110) - Route 107 (109)
+110,West,0,109,East,0
+# West Interior Slateport (330) - Route 107 (109)
+330,West,120,109,East,0
+# Southwest Dewford (324) - Route 107 (109)
+324,North,100,109,South,0
+# South Interior Lavaridge (334) - Route 107 (109)
+334,West,280,109,East,0
+# Route 129 (150) - Route 107 (109)
+150,South,0,109,North,560
+# Route 131 (152) - Route 107 (109)
+152,South,0,109,North,420
+# Fallarbor Town (53) - Route 106 (108)
+53,West,340,108,East,0
+# West Rustboro (321) - Route 106 (108)
+321,East,340,108,West,0
+# Route 105 (107) - Route 106 (108)
+107,South,0,108,North,0
+# Route 108 (110) - Route 106 (108)
+110,North,0,108,South,140
+# West Interior Slateport (330) - Route 106 (108)
+330,South,0,108,North,140
+# South Interior Petalburg (328) - Route 106 (108)
+328,South,0,108,North,40
+# South Interior Littleroot (329) - Route 106 (108)
+329,South,0,108,North,120
+# South Interior Fallarbor (336) - Route 106 (108)
+336,West,320,108,East,0
+# Southwest Granite Cave (323) - Route 106 (108)
+323,North,20,108,South,0
+# Route 114 (125) - Fallarbor Town (53)
+125,East,0,53,West,0
+# Route 112 (121) - Fallarbor Town (53)
+121,North,0,53,South,80
+# Route 113 (123) - Fallarbor Town (53)
+123,West,0,53,East,0
+# South Interior Fallarbor (336) - Fallarbor Town (53)
+336,North,0,53,South,0
+# Route 104 (104) - Route 114 (125)
+104,East,0,125,West,180
+# Route 105 (107) - Route 114 (125)
+107,East,0,125,West,260
+# Route 115 (129) - Route 114 (125)
+129,East,0,125,West,40
+# Route 121 (139) - Route 114 (125)
+139,North,0,125,South,360
+# South Interior Lavaridge (334) - Route 114 (125)
+334,North,0,125,South,100
+# South Interior Fallarbor (336) - Route 114 (125)
+336,West,0,125,East,20
+# West Rustboro (321) - Route 104 (104)
+321,East,180,104,West,0
+# Route 105 (107) - Route 104 (104)
+107,North,0,104,South,0
+# Route 116 (130) - Route 104 (104)
+130,West,60,104,East,0
+# South Interior Petalburg (328) - Route 104 (104)
+328,West,0,104,East,80
+# Route 133 (154) - Route 104 (104)
+154,North,0,104,South,320
+# Route 132 (153) - Route 104 (104)
+153,North,0,104,South,400
+# Route 134 (155) - Route 104 (104)
+155,North,0,104,South,240
+# North Interior Petalburg (331) - Route 104 (104)
+331,West,40,104,East,0
+# Route 129 (150) - Route 104 (104)
+150,North,0,104,South,640
+# Route 131 (152) - Route 104 (104)
+152,North,0,104,South,500
+# Route 105 (107) - West Rustboro (321)
+107,West,0,321,East,260
+# Route 108 (110) - West Rustboro (321)
+110,North,0,321,South,160
+# Route 115 (129) - West Rustboro (321)
+129,West,0,321,East,40
+# Southwest Granite Cave (323) - West Rustboro (321)
+323,North,0,321,South,0
+# Route 116 (130) - Route 105 (107)
+130,West,140,107,East,0
+# Route 110 (113) - Route 105 (107)
+113,South,0,107,North,200
+# South Interior Petalburg (328) - Route 105 (107)
+328,West,0,107,East,0
+# Route 128 (149) - Route 105 (107)
+149,South,0,107,North,640
+# North Interior Petalburg (331) - Route 105 (107)
+331,West,120,107,East,0
+# Route 108 (110) - Route 116 (130)
+110,West,0,130,East,240
+# West Interior Slateport (330) - Route 116 (130)
+330,West,0,130,East,120
+# Route 115 (129) - Route 116 (130)
+129,East,80,130,West,0
 # Route 118 (134) - Route 116 (130)
 134,North,0,130,South,200
 # Route 126 (147) - Route 116 (130)
 147,North,0,130,South,520
 # Route 127 (148) - Route 116 (130)
 148,North,0,130,South,600
-# Lavaridge Town (58) - Route 116 (130)
-58,West,60,130,East,0
 # Route 123 (142) - Route 116 (130)
 142,North,0,130,South,280
-# Route 115 (129) - Route 116 (130)
-129,East,80,130,West,0
-# Route 119 (135) - Route 117 (132)
-135,South,0,132,North,140
-# Route 122 (141) - Route 117 (132)
-141,South,0,132,North,280
-# Route 110 (113) - Route 117 (132)
-113,West,0,132,East,20
-# Route 111 (117) - Route 117 (132)
-117,West,140,132,East,0
-# Route 109 (111) - Route 117 (132)
-111,West,0,132,East,180
-# Route 107 (109) - Route 117 (132)
-109,East,0,132,West,220
-# Fortree City (64) - Route 119 (135)
-64,West,0,135,East,0
-# Route 118 (134) - Route 119 (135)
-134,North,40,135,South,0
-# Route 126 (147) - Route 119 (135)
-147,North,0,135,South,280
-# Route 127 (148) - Route 119 (135)
-148,North,0,135,South,360
-# Route 123 (142) - Route 119 (135)
-142,West,0,135,East,140
-# Route 133 (154) - Route 119 (135)
-154,West,0,135,East,260
-# Route 118 (134) - Fortree City (64)
-134,East,0,64,West,140
-# Route 120 (138) - Fortree City (64)
-138,West,0,64,East,0
-# Route 112 (121) - Fortree City (64)
-121,North,160,64,South,0
-# Route 134 (155) - Fortree City (64)
-155,East,0,64,West,260
-# Route 122 (141) - Route 118 (134)
-141,South,0,134,North,180
-# Route 110 (113) - Route 118 (134)
-113,North,40,134,South,0
-# Route 111 (117) - Route 118 (134)
-117,East,140,134,West,0
-# Route 109 (111) - Route 118 (134)
-111,East,0,134,West,180
-# Route 123 (142) - Route 118 (134)
-142,West,0,134,East,0
-# Route 133 (154) - Route 118 (134)
-154,West,0,134,East,120
-# Route 122 (141) - Route 120 (138)
-141,North,0,138,South,60
-# Route 132 (153) - Route 120 (138)
-153,West,0,138,East,260
-# Route 126 (147) - Route 122 (141)
-147,North,0,141,South,140
-# Route 127 (148) - Route 122 (141)
-148,North,0,141,South,220
-# Route 123 (142) - Route 122 (141)
-142,North,100,141,South,0
-# Route 125 (146) - Route 122 (141)
-146,South,0,141,North,220
-# Pacifidlog Town (88) - Route 132 (153)
-88,West,0,153,East,0
-# Route 110 (113) - Route 132 (153)
-113,South,200,153,North,0
-# Route 133 (154) - Route 132 (153)
-154,East,0,153,West,0
-# Route 131 (152) - Pacifidlog Town (88)
-152,West,0,88,East,0
-# Route 110 (113) - Pacifidlog Town (88)
-113,South,280,88,North,0
-# Route 110 (113) - Route 131 (152)
-113,South,300,152,North,0
-# Route 126 (147) - Route 131 (152)
-147,West,120,152,East,0
+# South Interior Lavaridge (334) - Route 116 (130)
+334,West,40,130,East,0
+# North Interior Petalburg (331) - Route 116 (130)
+331,North,0,130,South,0
+# Route 109 (111) - Route 108 (110)
+111,West,40,110,East,0
+# Southwest Dewford (324) - Route 108 (110)
+324,North,160,110,South,0
+# Route 110 (113) - Route 108 (110)
+113,West,200,110,East,0
+# Route 111 (117) - Route 108 (110)
+117,West,360,110,East,0
+# South Interior Littleroot (329) - Route 108 (110)
+329,East,60,110,West,0
+# South Route 109 (325) - Route 108 (110)
+325,West,0,110,East,23
+# South Interior Fallarbor (336) - Route 108 (110)
+336,East,340,110,West,0
+# Route 129 (150) - Route 108 (110)
+150,South,0,110,North,500
+# Route 131 (152) - Route 108 (110)
+152,South,0,110,North,360
+# Route 103 (103) - West Interior Slateport (330)
+103,South,20,330,North,0
+# Route 109 (111) - West Interior Slateport (330)
+111,West,0,330,East,80
+# Route 110 (113) - West Interior Slateport (330)
+113,West,80,330,East,0
+# Route 111 (117) - West Interior Slateport (330)
+117,West,240,330,East,0
+# South Interior Littleroot (329) - West Interior Slateport (330)
+329,East,0,330,West,60
+# South Route 109 (325) - West Interior Slateport (330)
+325,West,0,330,East,143
+# South Interior Fallarbor (336) - West Interior Slateport (330)
+336,East,220,330,West,0
+# West Interior Cycling Road (333) - Route 103 (103)
+333,South,0,103,North,0
+# Route 109 (111) - Route 103 (103)
+111,West,0,103,East,100
+# Route 110 (113) - Route 103 (103)
+113,West,60,103,East,0
+# South Interior Petalburg (328) - Route 103 (103)
+328,East,0,103,West,40
+# Route 111 (117) - Route 103 (103)
+117,West,220,103,East,0
+# Route 126 (147) - Route 103 (103)
+147,South,0,103,North,440
+# Route 127 (148) - Route 103 (103)
+148,South,0,103,North,520
+# South Route 109 (325) - Route 103 (103)
+325,West,0,103,East,163
+# Route 109 (111) - West Interior Cycling Road (333)
+111,West,0,333,East,160
+# Route 110 (113) - West Interior Cycling Road (333)
+113,West,0,333,East,0
+# South Interior Petalburg (328) - West Interior Cycling Road (333)
+328,East,0,333,West,100
+# Route 118 (134) - West Interior Cycling Road (333)
+134,South,0,333,North,120
+# Route 111 (117) - West Interior Cycling Road (333)
+117,West,160,333,East,0
+# Route 128 (149) - West Interior Cycling Road (333)
+149,North,0,333,South,520
+# Route 123 (142) - West Interior Cycling Road (333)
+142,South,0,333,North,200
+# South Route 109 (325) - West Interior Cycling Road (333)
+325,West,0,333,East,223
+# Southwest Dewford (324) - Route 109 (111)
+324,East,0,111,West,60
+# Route 118 (134) - Route 109 (111)
+134,West,180,111,East,0
+# Route 112 (121) - Route 109 (111)
+121,East,300,111,West,0
+# East Route 109 (326) - Route 109 (111)
+326,West,20,111,East,0
+# Route 134 (155) - Route 109 (111)
+155,West,60,111,East,0
+# South Interior Lavaridge (334) - Route 109 (111)
+334,East,240,111,West,0
+# South Route 109 (325) - Route 109 (111)
+325,North,0,111,South,0
+# Route 113 (123) - Route 109 (111)
+123,East,320,111,West,0
+# Route 110 (113) - Southwest Dewford (324)
+113,West,220,324,East,0
+# Route 111 (117) - Southwest Dewford (324)
+117,West,380,324,East,0
+# South Route 109 (325) - Southwest Dewford (324)
+325,West,0,324,East,3
+# Southwest Granite Cave (323) - Southwest Dewford (324)
+323,South,0,324,North,0
+# South Interior Petalburg (328) - Route 110 (113)
+328,North,160,113,South,0
+# Route 118 (134) - Route 110 (113)
+134,West,20,113,East,0
 # Route 112 (121) - Route 110 (113)
 121,East,140,113,West,0
-# Route 113 (123) - Route 110 (113)
-123,East,160,113,West,0
+# Route 133 (154) - Route 110 (113)
+154,North,0,113,South,120
+# Route 132 (153) - Route 110 (113)
+153,North,0,113,South,200
+# East Route 109 (326) - Route 110 (113)
+326,West,0,113,East,140
 # Route 134 (155) - Route 110 (113)
 155,West,0,113,East,100
 # Route 123 (142) - Route 110 (113)
 142,South,0,113,North,120
-# Route 133 (154) - Route 110 (113)
-154,North,0,113,South,120
+# South Interior Lavaridge (334) - Route 110 (113)
+334,East,80,113,West,0
+# Route 113 (123) - Route 110 (113)
+123,East,160,113,West,0
 # Route 129 (150) - Route 110 (113)
 150,North,0,113,South,440
-# Route 111 (117) - Route 126 (147)
-117,South,360,147,North,0
-# Route 127 (148) - Route 126 (147)
-148,West,0,147,East,0
-# Route 125 (146) - Route 126 (147)
-146,West,80,147,East,0
-# Route 129 (150) - Route 126 (147)
-150,West,0,147,East,120
+# Route 131 (152) - Route 110 (113)
+152,North,0,113,South,300
+# Route 115 (129) - South Interior Petalburg (328)
+129,East,220,328,West,0
+# Route 128 (149) - South Interior Petalburg (328)
+149,South,0,328,North,600
+# South Interior Littleroot (329) - South Interior Petalburg (328)
+329,West,0,328,East,40
+# North Interior Petalburg (331) - Route 115 (129)
+331,West,0,129,East,100
+# Fortree City (64) - Route 118 (134)
+64,West,140,134,East,0
+# Route 111 (117) - Route 118 (134)
+117,East,140,134,West,0
+# Route 119 (135) - Route 118 (134)
+135,South,0,134,North,40
+# Route 122 (141) - Route 118 (134)
+141,South,0,134,North,180
+# Route 133 (154) - Route 118 (134)
+154,West,0,134,East,120
+# Route 123 (142) - Route 118 (134)
+142,West,0,134,East,0
+# South Interior Lavaridge (334) - Route 118 (134)
+334,South,100,134,North,0
+# South Route 109 (325) - Route 118 (134)
+325,East,0,134,West,243
+# Route 112 (121) - Fortree City (64)
+121,North,160,64,South,0
+# Route 119 (135) - Fortree City (64)
+135,East,0,64,West,0
+# Route 120 (138) - Fortree City (64)
+138,West,0,64,East,0
+# Route 134 (155) - Fortree City (64)
+155,East,0,64,West,260
+# South Interior Fallarbor (336) - Fortree City (64)
+336,North,240,64,South,0
+# Route 111 (117) - Route 112 (121)
+117,West,20,121,East,0
+# Route 121 (139) - Route 112 (121)
+139,North,0,121,South,240
+# South Interior Lavaridge (334) - Route 112 (121)
+334,North,20,121,South,0
+# South Route 109 (325) - Route 112 (121)
+325,West,0,121,East,363
+# Route 113 (123) - Route 112 (121)
+123,South,60,121,North,0
+# Route 126 (147) - Route 111 (117)
+147,North,0,117,South,360
 # Route 127 (148) - Route 111 (117)
 148,North,0,117,South,440
-# Route 112 (121) - Route 111 (117)
-121,East,0,117,West,20
-# Route 113 (123) - Route 111 (117)
-123,East,0,117,West,0
+# East Route 109 (326) - Route 111 (117)
+326,West,0,117,East,300
 # Route 134 (155) - Route 111 (117)
 155,West,0,117,East,260
 # Route 123 (142) - Route 111 (117)
 142,North,0,117,South,120
-# Lavaridge Town (58) - Route 112 (121)
-58,East,0,121,West,40
-# Route 109 (111) - Route 112 (121)
-111,West,0,121,East,300
-# Route 113 (123) - Route 112 (121)
-123,South,60,121,North,0
-# Route 107 (109) - Lavaridge Town (58)
-109,East,0,58,West,300
-# Route 113 (123) - Route 109 (111)
-123,East,320,111,West,0
-# Route 134 (155) - Route 109 (111)
-155,West,60,111,East,0
+# South Interior Lavaridge (334) - Route 111 (117)
+334,East,0,117,West,80
+# Route 113 (123) - Route 111 (117)
+123,East,0,117,West,0
+# North Interior Petalburg (331) - Route 111 (117)
+331,North,160,117,South,0
+# Route 119 (135) - Route 126 (147)
+135,South,280,147,North,0
+# Route 127 (148) - Route 126 (147)
+148,West,0,147,East,0
+# Route 122 (141) - Route 126 (147)
+141,South,140,147,North,0
+# Route 128 (149) - Route 126 (147)
+149,West,0,147,East,80
+# South Interior Lavaridge (334) - Route 126 (147)
+334,South,420,147,North,0
+# Route 129 (150) - Route 126 (147)
+150,West,0,147,East,120
+# Route 131 (152) - Route 126 (147)
+152,East,0,147,West,120
+# Route 125 (146) - Route 126 (147)
+146,West,80,147,East,0
+# Route 127 (148) - Route 119 (135)
+148,North,0,135,South,360
+# Route 133 (154) - Route 119 (135)
+154,West,0,135,East,260
+# Route 123 (142) - Route 119 (135)
+142,West,0,135,East,140
+# North Interior Petalburg (331) - Route 119 (135)
+331,North,240,135,South,0
+# Route 122 (141) - Route 127 (148)
+141,South,220,148,North,0
+# Route 128 (149) - Route 127 (148)
+149,North,0,148,South,0
+# South Interior Lavaridge (334) - Route 127 (148)
+334,South,500,148,North,0
+# Route 120 (138) - Route 122 (141)
+138,South,60,141,North,0
+# Route 121 (139) - Route 122 (141)
+139,South,20,141,North,0
+# Route 123 (142) - Route 122 (141)
+142,North,100,141,South,0
+# North Interior Petalburg (331) - Route 122 (141)
+331,North,380,141,South,0
+# Route 125 (146) - Route 122 (141)
+146,South,0,141,North,220
+# Route 121 (139) - Route 120 (138)
+139,West,0,138,East,80
+# Route 132 (153) - Route 120 (138)
+153,West,0,138,East,260
+# Route 133 (154) - Route 121 (139)
+154,East,0,139,West,180
+# South Interior Fallarbor (336) - Route 121 (139)
+336,South,320,139,North,0
+# Route 128 (149) - Route 133 (154)
+149,South,0,154,North,320
+# Route 132 (153) - Route 133 (154)
+153,West,0,154,East,0
+# South Interior Littleroot (329) - Route 133 (154)
+329,North,200,154,South,0
+# East Route 109 (326) - Route 133 (154)
+326,North,80,154,South,0
+# Route 134 (155) - Route 133 (154)
+155,East,0,154,West,0
+# Route 132 (153) - Route 128 (149)
+153,North,240,149,South,0
+# Route 134 (155) - Route 128 (149)
+155,North,400,149,South,0
+# Route 129 (150) - Route 128 (149)
+150,North,0,149,South,0
+# Route 131 (152) - Route 128 (149)
+152,North,140,149,South,0
+# South Interior Littleroot (329) - Route 132 (153)
+329,North,280,153,South,0
+# East Route 109 (326) - Route 132 (153)
+326,North,160,153,South,0
+# Route 134 (155) - South Interior Littleroot (329)
+155,South,0,329,North,120
+# South Interior Lavaridge (334) - South Interior Littleroot (329)
+334,West,220,329,East,0
+# Route 134 (155) - East Route 109 (326)
+155,South,0,326,North,0
+# South Route 109 (325) - East Route 109 (326)
+325,East,0,326,West,83
 # Route 123 (142) - Route 134 (155)
 142,West,120,155,East,0
-# Route 133 (154) - Route 134 (155)
-154,West,0,155,East,0
+# South Route 109 (325) - Route 134 (155)
+325,East,0,155,West,123
+# South Interior Lavaridge (334) - Route 123 (142)
+334,South,180,142,North,0
+# South Route 109 (325) - South Interior Lavaridge (334)
+325,West,0,334,East,303
+# South Interior Fallarbor (336) - South Interior Lavaridge (334)
+336,East,60,334,West,0
+# North Interior Petalburg (331) - South Interior Lavaridge (334)
+331,North,100,334,South,0
+# Route 113 (123) - South Route 109 (325)
+123,East,383,325,West,0
+# South Interior Fallarbor (336) - Route 113 (123)
+336,North,20,123,South,0
+# Southwest Granite Cave (323) - Route 129 (150)
+323,North,660,150,South,0
+# Route 131 (152) - Southwest Granite Cave (323)
+152,South,0,323,North,520

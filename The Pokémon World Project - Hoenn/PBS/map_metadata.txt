@@ -19,7 +19,7 @@ ShowArea = true
 Bicycle = true
 MapPosition = 3,5,13
 #-------------------------------
-[008]   # Unnamed's House
+[008]   # \PN's House
 Name = \PN's House
 MapPosition = 3,5,13
 #-------------------------------
@@ -35,9 +35,112 @@ MapPosition = 3,5,13
 Name = Prof. Birch's Lab
 MapPosition = 3,5,13
 #-------------------------------
+[012]   # Oldale Town
+Name = Oldale Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,5,11
+#-------------------------------
+[016]   # Petalburg City
+Name = Petalburg City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,2,11
+#-------------------------------
+[021]   # Rustboro City
+Name = Rustboro City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,1,7
+MapSize = 1,11
+#-------------------------------
+[028]   # Dewford Town
+Name = Dewford Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,3,16
+#-------------------------------
+[032]   # Slateport City
+Name = Slateport City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,9,12
+MapSize = 1,11
+#-------------------------------
+[041]   # Mauville City
+Name = Mauville City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,9,8
+MapSize = 2,11
+#-------------------------------
+[048]   # Verdanturf Town
+Name = Verdanturf Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,5,8
+#-------------------------------
+[053]   # Fallarbor Town
+Name = Fallarbor Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,4,2
+#-------------------------------
+[058]   # Lavaridge Town
+Name = Lavaridge Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,6,5
+#-------------------------------
+[064]   # Fortree City
+Name = Fortree City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,13,2
+#-------------------------------
+[069]   # Lilycove City
+Name = Lilycove City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,19,5
+MapSize = 2,11
+#-------------------------------
+[076]   # Mossdeep City
+Name = Mossdeep City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,25,7
+MapSize = 2,11
+#-------------------------------
 [083]   # Sootopolis City
 Name = Sootopolis City
 DiveMap = 255
+#-------------------------------
+[088]   # Pacifidlog Town
+Name = Pacifidlog Town
+Outdoor = true
+ShowArea = true
+MapPosition = 3,18,12
+#-------------------------------
+[091]   # Ever Grande City South
+Name = Ever Grande City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,28,10
+MapSize = 1,11
 #-------------------------------
 [101]   # Route 101
 Name = Route 101
@@ -46,9 +149,321 @@ ShowArea = true
 Bicycle = true
 MapPosition = 3,5,12
 #-------------------------------
-[104]   # Route 101
-Name = Route 101
+[102]   # Route 102
+Name = Route 102
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 3,5,12
+MapPosition = 3,3,11
+MapSize = 2,11
+#-------------------------------
+[103]   # Route 103
+Name = Route 103
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,5,10
+MapSize = 4,1111
+#-------------------------------
+[104]   # Route 104
+Name = Route 104
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,1,9
+MapSize = 1,111
+#-------------------------------
+[107]   # Route 105
+Name = Route 105
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,1,12
+DiveMap = 256
+MapSize = 1,111
+#-------------------------------
+[108]   # Route 106
+Name = Route 106
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,1,15
+MapSize = 3,111
+#-------------------------------
+[109]   # Route 107
+Name = Route 107
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,4,16
+MapSize = 3,111
+#-------------------------------
+[110]   # Route 108
+Name = Route 108
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,7,16
+MapSize = 2,11
+#-------------------------------
+[111]   # Route 109
+Name = Route 109
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,9,14
+MapSize = 1,111
+#-------------------------------
+[113]   # Route 110
+Name = Route 110
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,9,9
+MapSize = 1,111
+#-------------------------------
+[117]   # Route 111
+Name = Route 111
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,9,2
+MapSize = 1,111111
+#-------------------------------
+[121]   # Route 112
+Name = Route 112
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,8,5
+MapSize = 2,11
+#-------------------------------
+[123]   # Route 113
+Name = Route 113
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,5,2
+MapSize = 4,1111
+#-------------------------------
+[125]   # Route 114
+Name = Route 114
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,2,2
+MapSize = 2,111010
+#-------------------------------
+[129]   # Route 115
+Name = Route 115
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,1,4
+MapSize = 1,111
+#-------------------------------
+[130]   # Route 116
+Name = Route 116
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,2,7
+MapSize = 4,1111
+#-------------------------------
+[132]   # Route 117
+Name = Route 117
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,6,8
+MapSize = 3,111
+#-------------------------------
+[134]   # Route 118
+Name = Route 118
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,11,8
+MapSize = 2,11
+#-------------------------------
+[135]   # Route 119
+Name = Route 119
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,12,2
+MapSize = 1,111111
+#-------------------------------
+[138]   # Route 120
+Name = Route 120
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,14,2
+MapSize = 1,1111
+#-------------------------------
+[139]   # Route 121
+Name = Route 121
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,15,5
+MapSize = 4,1111
+#-------------------------------
+[141]   # Route 122
+Name = Route 122
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,17,7
+#-------------------------------
+[142]   # Route 123
+Name = Route 123
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,13,8
+MapSize = 5,11111
+#-------------------------------
+[144]   # Route 124
+Name = Route 124
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,21,5
+DiveMap = 257
+MapSize = 4,111111111111
+#-------------------------------
+[146]   # Route 125
+Name = Route 125
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,25,5
+DiveMap = 258
+MapSize = 2,1111
+#-------------------------------
+[147]   # Route 126
+Name = Route 126
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,21,8
+DiveMap = 259
+MapSize = 3,111111111
+#-------------------------------
+[148]   # Route 127
+Name = Route 127
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,24,8
+DiveMap = 260
+MapSize = 3,111111111
+#-------------------------------
+[149]   # Route 128
+Name = Route 128
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,24,11
+DiveMap = 261
+MapSize = 3,111
+#-------------------------------
+[150]   # Route 129
+Name = Route 129
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,24,12
+DiveMap = 262
+MapSize = 3,111
+#-------------------------------
+[151]   # Route 130
+Name = Route 130
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,21,12
+MapSize = 3,111
+#-------------------------------
+[152]   # Route 131
+Name = Route 131
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,19,12
+MapSize = 2,11
+#-------------------------------
+[153]   # Route 132
+Name = Route 132
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,16,12
+MapSize = 2,11
+#-------------------------------
+[154]   # Route 133
+Name = Route 133
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,13,12
+MapSize = 3,111
+#-------------------------------
+[155]   # Route 134
+Name = Route 134
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 3,10,12
+DiveMap = 263
+MapSize = 3,111
+#-------------------------------
+[321]   # West Rustboro
+MapPosition = 0,0,0
+#-------------------------------
+[323]   # Southwest Granite Cave
+MapPosition = 0,0,0
+#-------------------------------
+[324]   # Southwest Dewford
+MapPosition = 0,0,0
+#-------------------------------
+[325]   # South Route 109
+MapPosition = 0,0,0
+#-------------------------------
+[326]   # East Route 109
+MapPosition = 0,0,0
+#-------------------------------
+[327]   # South Interior Ocean Dewford
+MapPosition = 0,0,0
+#-------------------------------
+[328]   # South Interior Petalburg
+MapPosition = 0,0,0
+#-------------------------------
+[329]   # South Interior Littleroot
+MapPosition = 0,0,0
+#-------------------------------
+[330]   # West Interior Slateport
+MapPosition = 0,0,0
+#-------------------------------
+[331]   # North Interior Petalburg
+MapPosition = 0,0,0
+#-------------------------------
+[332]   # Northeast Interior Petalburg
+MapPosition = 0,0,0
+#-------------------------------
+[333]   # West Interior Cycling Road
+MapPosition = 0,0,0
+#-------------------------------
+[334]   # South Interior Lavaridge
+MapPosition = 0,0,0
+#-------------------------------
+[335]   # Interior Rusturf Tunnel
+MapPosition = 0,0,0
+#-------------------------------
+[336]   # South Interior Fallarbor
+MapPosition = 0,0,0
+#-------------------------------
+[337]   # North Interior Lavaridge
+MapPosition = 0,0,0
