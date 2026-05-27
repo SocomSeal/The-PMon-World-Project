@@ -20,12 +20,8 @@ Socom's Worklist
 
 
 - Hoenn mapping
-	Route 119 cliffs south end of route are missing
-	Trees east side of lavaridge are missing
 	DOORS. !!!Tilesets need overhangs!!!
 		Could touch up Kanto in this way?
-- Map metadata PBS
-	Add metadata for all maps, size, dive maps, etc (Oldale town and beyond)
 - Scripting
 	Choosing a starter is done. Next steps include Route 103 and the rival battle, the pokedex scene
 	How to implement Wally Ralts sequence? Look into DBK scripting, or placeholder for now?
