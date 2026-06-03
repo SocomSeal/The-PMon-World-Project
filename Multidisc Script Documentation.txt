@@ -142,6 +142,9 @@ def change_disc(number, id = nil, x = nil, y = nil, direction = nil)
   $game_temp.player_new_direction = direction
   # Change the current map id in case the new and old are identical.
   $game_map.map_id = 0
+  # Reloads Map Connections
+  MapFactoryHelper.clear
+  MapFactoryHelper.getMapConnections
   $game_map.refresh
 
 end
