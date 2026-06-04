@@ -1715,3 +1715,84 @@ MapPosition = 0,0,0
 [337]   # North Interior Lavaridge
 Name = North Interior Lavaridge
 MapPosition = 0,0,0
+#-------------------------------
+[338]   # Sootopolis City_U (STORMING)
+Name = Sootopolis City
+ShowArea = true
+MapPosition = 3,22,9
+#-------------------------------
+[339]   # Northwest Meteor Falls
+Name = Northwest Meteor Falls
+MapPosition = 0,0,0
+#-------------------------------
+[340]   # Desert Jungle
+Name = Desert Jungle
+MapPosition = 0,0,0
+#-------------------------------
+[341]   # South Fortree
+Name = South Fortree
+MapPosition = 0,0,0
+#-------------------------------
+[342]   # West Mt. Pyre
+Name = West Mt. Pyre
+MapPosition = 0,0,0
+#-------------------------------
+[343]   # North Mainland Edge
+Name = North Mainland Edge
+MapPosition = 0,0,0
+#-------------------------------
+[344]   # West Safari Zone
+Name = West Safari Zone
+MapPosition = 0,0,0
+#-------------------------------
+[345]   # East Safari Zone
+Name = East Safari Zone
+MapPosition = 0,0,0
+#-------------------------------
+[346]   # North Lilycove
+Name = North Lilycove
+MapPosition = 0,0,0
+#-------------------------------
+[347]   # North Ocean
+Name = North Ocean
+MapPosition = 0,0,0
+#-------------------------------
+[348]   # Northeast Ocean
+Name = Northeast Ocean
+MapPosition = 0,0,0
+#-------------------------------
+[349]   # Southeast Ocean
+Name = Southeast Ocean
+MapPosition = 0,0,0
+#-------------------------------
+[350]   # Southwest Ocean
+Name = Southwest Ocean
+MapPosition = 0,0,0
+#-------------------------------
+[351]   # East Cycling Road
+Name = East Cycling Road
+MapPosition = 0,0,0
+#-------------------------------
+[352]   # South Ocean
+Name = South Ocean
+MapPosition = 0,0,0
+#-------------------------------
+[353]   # East Central Ocean
+Name = East Central Ocean
+MapPosition = 0,0,0
+#-------------------------------
+[354]   # East Mt. Pyre
+Name = East Mt. Pyre
+MapPosition = 0,0,0
+#-------------------------------
+[355]   # South Lilycove
+Name = South Lilycove
+MapPosition = 0,0,0
+#-------------------------------
+[356]   # North Central Ocean
+Name = North Central Ocean
+MapPosition = 0,0,0
+#-------------------------------
+[357]   # South Central Ocean
+Name = South Central Ocean
+MapPosition = 0,0,0
