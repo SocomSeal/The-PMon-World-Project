@@ -37,6 +37,7 @@ KANTO
 HOENN
 - Water currents (currently implemented as normal water tiles)
 - Battle Frontier
+	- Check the events leading up to it. Scott's Match Call after becoming Champion, the proper dialogue for the Rival in Birch's lab
 - Missing Mystery Gift NPC (is usually on PC floor 2, relocate where? Mart behind counter next to shopkeep?)
 
 Cosmetic
@@ -84,6 +85,7 @@ HOENN
 - NPC_RSE_WOMAN_3 has an incorrect sprite (top is meant to be yellow over red, with red bottoms)
 - Hoenn TV Events and Logic
 - No player house clock event after "setting" it
+- Wally Ralts Catching Tutorial is unimplemented - a simple screen flash has been added in its place
 
 Inconsequential
 - Lore text on computer and other objects allow for omnidirectional reading

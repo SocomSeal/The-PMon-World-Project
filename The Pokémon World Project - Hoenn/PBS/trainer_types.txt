@@ -50,10 +50,7 @@ Name = Team Rocket Boss
 Gender = Male
 BaseMoney = 100
 IntroBGM = FRLG A Trainer Appears (Bad Guy Version)
-
-
-
-#-------------------------------#
+#-------------------------------
 [XY_POKEMONTRAINER_Calem]
 Name = Pokémon Trainer
 Gender = Male
@@ -678,11 +675,13 @@ VictoryBGM = FRLG Victory (VS Gym Leader)
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
+IntroBGM = ORAS Rival Brendan
 #-------------------------------
 [RSE_POKEMONTRAINER_MAY]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
+IntroBGM = ORAS Rival May
 #-------------------------------
 [RSE_AQUALEADER_ARCHIE]
 Name = Aqua Leader

@@ -1,55 +1,157 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-# Slateport City (32) - South Lilycove (355)
-32,North,280,355,South,0
-# Pacifidlog Town (88) - South Lilycove (355)
-88,North,0,355,South,0
-# Route 130 (151) - South Lilycove (355)
-151,West,0,355,East,150
-# Route 101 (101) - South Lilycove (355)
-101,North,360,355,South,0
-# Route 105 (107) - South Lilycove (355)
-107,North,480,355,South,0
-# Route 121 (139) - South Lilycove (355)
-139,East,30,355,West,0
-# Lilycove City (69) - South Lilycove (355)
-69,South,0,355,North,0
-# East Safari Zone (345) - South Lilycove (355)
-345,East,70,355,West,0
-# Route 124 (144) - South Lilycove (355)
-144,West,50,355,East,0
-# Route 126 (147) - South Lilycove (355)
-147,West,0,355,East,30
-# Southeast Ocean (349) - South Lilycove (355)
-349,North,0,355,South,240
-# Route 129 (150) - South Lilycove (355)
-150,North,0,355,South,160
-# Route 131 (152) - South Lilycove (355)
-152,North,0,355,South,20
-# North Ocean (347) - South Lilycove (355)
-347,West,70,355,East,0
-# South Interior Petalburg (328) - South Lilycove (355)
-328,North,440,355,South,0
-# Route 132 (153) - South Lilycove (355)
-153,North,80,355,South,0
-# East Central Ocean (353) - South Lilycove (355)
-353,West,0,355,East,110
-# Route 133 (154) - South Lilycove (355)
-154,North,160,355,South,0
-# Route 134 (155) - South Lilycove (355)
-155,North,240,355,South,0
-# Southwest Ocean (350) - South Lilycove (355)
-350,East,0,355,West,190
-# North Central Ocean (356) - South Lilycove (355)
-356,East,0,355,West,50
-# East Mt. Pyre (354) - South Lilycove (355)
-354,East,10,355,West,0
-# South Central Ocean (357) - South Lilycove (355)
-357,East,0,355,West,130
+# Littleroot Town (7) - Route 101 (101)
+7,North,0,101,South,0
+# North Interior Lavaridge (337) - Littleroot Town (7)
+337,West,260,7,East,0
+# Route 117 (132) - Littleroot Town (7)
+132,West,140,7,East,0
+# Lavaridge Town (58) - Littleroot Town (7)
+58,West,220,7,East,0
+# Route 102 (102) - Littleroot Town (7)
+102,East,40,7,West,0
+# Route 108 (110) - Littleroot Town (7)
+110,West,0,7,East,80
+# South Interior Lavaridge (334) - Littleroot Town (7)
+334,West,200,7,East,0
+# West Interior Slateport (330) - Littleroot Town (7)
+330,West,40,7,East,0
+# Southeast Ocean (349) - Littleroot Town (7)
+349,South,0,7,North,600
+# South Interior Petalburg (328) - Littleroot Town (7)
+328,East,20,7,West,0
+# South Interior Littleroot (329) - Littleroot Town (7)
+329,North,0,7,South,0
+# Northeast Interior Petalburg (332) - Littleroot Town (7)
+332,East,140,7,West,0
+# Southwest Ocean (350) - Littleroot Town (7)
+350,North,0,7,South,140
+# East Route 109 (326) - Littleroot Town (7)
+326,North,0,7,South,120
 # Oldale Town (12) - Slateport City (32)
 12,South,80,32,North,0
+# Pacifidlog Town (88) - Oldale Town (12)
+88,North,0,12,South,360
+# Route 130 (151) - Oldale Town (12)
+151,North,0,12,South,440
+# Route 101 (101) - Oldale Town (12)
+101,North,0,12,South,0
+# North Interior Lavaridge (337) - Oldale Town (12)
+337,West,220,12,East,0
+# Route 117 (132) - Oldale Town (12)
+132,West,100,12,East,0
+# Lavaridge Town (58) - Oldale Town (12)
+58,West,180,12,East,0
+# Route 105 (107) - Oldale Town (12)
+107,North,120,12,South,0
+# Route 103 (103) - Oldale Town (12)
+103,South,0,12,North,0
+# Route 102 (102) - Oldale Town (12)
+102,East,0,12,West,0
+# Route 108 (110) - Oldale Town (12)
+110,West,0,12,East,120
+# South Interior Lavaridge (334) - Oldale Town (12)
+334,West,160,12,East,0
+# West Interior Slateport (330) - Oldale Town (12)
+330,West,0,12,East,0
+# Southeast Ocean (349) - Oldale Town (12)
+349,North,0,12,South,600
+# Route 129 (150) - Oldale Town (12)
+150,North,0,12,South,520
+# Route 131 (152) - Oldale Town (12)
+152,North,0,12,South,380
+# South Interior Petalburg (328) - Oldale Town (12)
+328,North,80,12,South,0
+# Route 132 (153) - Oldale Town (12)
+153,North,0,12,South,280
+# Route 133 (154) - Oldale Town (12)
+154,North,0,12,South,200
+# Route 134 (155) - Oldale Town (12)
+155,North,0,12,South,120
+# Northeast Interior Petalburg (332) - Oldale Town (12)
+332,East,100,12,West,0
 # Petalburg City (16) - Slateport City (32)
 16,South,160,32,North,0
+# Petalburg City (16) - Pacifidlog Town (88)
+16,South,440,88,North,0
+# Route 130 (151) - Petalburg City (16)
+151,North,0,16,South,520
+# Rustboro City (21) - Petalburg City (16)
+21,East,110,16,West,0
+# Route 101 (101) - Petalburg City (16)
+101,North,0,16,South,80
+# Route 105 (107) - Petalburg City (16)
+107,North,40,16,South,0
+# Route 102 (102) - Petalburg City (16)
+102,West,0,16,East,10
+# North Interior Petalburg (331) - Petalburg City (16)
+331,South,0,16,North,0
+# Route 104 (104) - Petalburg City (16)
+104,East,50,16,West,0
+# Route 115 (129) - Petalburg City (16)
+129,East,190,16,West,0
+# Southeast Ocean (349) - Petalburg City (16)
+349,North,0,16,South,680
+# Route 129 (150) - Petalburg City (16)
+150,North,0,16,South,600
+# Route 131 (152) - Petalburg City (16)
+152,North,0,16,South,460
+# Northwest Meteor Falls (339) - Petalburg City (16)
+339,East,230,16,West,0
+# South Interior Petalburg (328) - Petalburg City (16)
+328,North,0,16,South,0
+# Route 132 (153) - Petalburg City (16)
+153,North,0,16,South,360
+# Route 133 (154) - Petalburg City (16)
+154,North,0,16,South,280
+# Route 134 (155) - Petalburg City (16)
+155,North,0,16,South,200
+# Northeast Interior Petalburg (332) - Petalburg City (16)
+332,West,90,16,East,0
+# Rustboro City (21) - West Rustboro (321)
+21,West,0,321,East,120
+# Ever Grande City South (91) - Rustboro City (21)
+91,North,0,21,South,760
+# North Interior Petalburg (331) - Rustboro City (21)
+331,West,0,21,East,20
+# Route 104 (104) - Rustboro City (21)
+104,North,0,21,South,0
+# Route 114 (125) - Rustboro City (21)
+125,West,120,21,East,0
+# Route 115 (129) - Rustboro City (21)
+129,South,0,21,North,0
+# Route 116 (130) - Rustboro City (21)
+130,West,0,21,East,0
+# South Interior Petalburg (328) - Rustboro City (21)
+328,West,0,21,East,140
+# Interior Rusturf Tunnel (335) - Rustboro City (21)
+335,West,40,21,East,0
+# Dewford Town (28) - Pacifidlog Town (88)
+28,North,420,88,South,0
+# Dewford Town (28) - Route 130 (151)
+28,North,500,151,South,0
+# West Rustboro (321) - Dewford Town (28)
+321,South,80,28,North,0
+# South Interior Fallarbor (336) - Dewford Town (28)
+336,West,340,28,East,0
+# Fallarbor Town (53) - Dewford Town (28)
+53,West,360,28,East,0
+# Route 106 (108) - Dewford Town (28)
+108,South,60,28,North,0
+# Route 107 (109) - Dewford Town (28)
+109,West,0,28,East,0
+# South Interior Ocean Dewford (327) - Dewford Town (28)
+327,West,20,28,East,0
+# Route 129 (150) - Dewford Town (28)
+150,South,0,28,North,580
+# Southwest Granite Cave (323) - Dewford Town (28)
+323,East,0,28,West,0
+# Route 131 (152) - Dewford Town (28)
+152,South,0,28,North,440
+# Southwest Dewford (324) - Dewford Town (28)
+324,North,80,28,South,0
+# Slateport City (32) - South Lilycove (355)
+32,North,280,355,South,0
 # Ever Grande City South (91) - Slateport City (32)
 91,South,0,32,North,560
 # East Cycling Road (351) - Slateport City (32)
@@ -96,406 +198,8 @@
 324,East,0,32,West,120
 # South Central Ocean (357) - Slateport City (32)
 357,South,0,32,North,60
-# Pacifidlog Town (88) - Oldale Town (12)
-88,North,0,12,South,360
-# Route 130 (151) - Oldale Town (12)
-151,North,0,12,South,440
-# Route 101 (101) - Oldale Town (12)
-101,North,0,12,South,0
-# North Interior Lavaridge (337) - Oldale Town (12)
-337,West,220,12,East,0
-# Route 117 (132) - Oldale Town (12)
-132,West,100,12,East,0
-# Lavaridge Town (58) - Oldale Town (12)
-58,West,180,12,East,0
-# Route 105 (107) - Oldale Town (12)
-107,North,120,12,South,0
-# Route 103 (103) - Oldale Town (12)
-103,South,0,12,North,0
-# Route 102 (102) - Oldale Town (12)
-102,East,0,12,West,0
-# Route 108 (110) - Oldale Town (12)
-110,West,0,12,East,120
-# South Interior Lavaridge (334) - Oldale Town (12)
-334,West,160,12,East,0
-# West Interior Slateport (330) - Oldale Town (12)
-330,West,0,12,East,0
-# Southeast Ocean (349) - Oldale Town (12)
-349,North,0,12,South,600
-# Route 129 (150) - Oldale Town (12)
-150,North,0,12,South,520
-# Route 131 (152) - Oldale Town (12)
-152,North,0,12,South,380
-# South Interior Petalburg (328) - Oldale Town (12)
-328,North,80,12,South,0
-# Route 132 (153) - Oldale Town (12)
-153,North,0,12,South,280
-# Route 133 (154) - Oldale Town (12)
-154,North,0,12,South,200
-# Route 134 (155) - Oldale Town (12)
-155,North,0,12,South,120
-# Northeast Interior Petalburg (332) - Oldale Town (12)
-332,East,100,12,West,0
-# Petalburg City (16) - Pacifidlog Town (88)
-16,South,440,88,North,0
-# Dewford Town (28) - Pacifidlog Town (88)
-28,North,420,88,South,0
-# Ever Grande City South (91) - Pacifidlog Town (88)
-91,South,0,88,North,280
-# East Cycling Road (351) - Pacifidlog Town (88)
-351,South,240,88,North,0
-# Route 102 (102) - Pacifidlog Town (88)
-102,South,410,88,North,0
-# Route 110 (113) - Pacifidlog Town (88)
-113,South,280,88,North,0
-# Route 108 (110) - Pacifidlog Town (88)
-110,North,340,88,South,0
-# South Ocean (352) - Pacifidlog Town (88)
-352,North,0,88,South,0
-# Route 121 (139) - Pacifidlog Town (88)
-139,East,180,88,West,0
-# East Safari Zone (345) - Pacifidlog Town (88)
-345,East,220,88,West,0
-# Route 107 (109) - Pacifidlog Town (88)
-109,North,400,88,South,0
-# Route 104 (104) - Pacifidlog Town (88)
-104,South,480,88,North,0
-# Route 128 (149) - Pacifidlog Town (88)
-149,South,0,88,North,160
-# Southwest Granite Cave (323) - Pacifidlog Town (88)
-323,North,500,88,South,0
-# Route 131 (152) - Pacifidlog Town (88)
-152,West,0,88,East,0
-# Route 132 (153) - Pacifidlog Town (88)
-153,East,0,88,West,0
-# East Central Ocean (353) - Pacifidlog Town (88)
-353,South,0,88,North,80
-# Southwest Ocean (350) - Pacifidlog Town (88)
-350,East,0,88,West,40
-# North Central Ocean (356) - Pacifidlog Town (88)
-356,East,100,88,West,0
-# East Mt. Pyre (354) - Pacifidlog Town (88)
-354,East,160,88,West,0
-# South Central Ocean (357) - Pacifidlog Town (88)
-357,East,20,88,West,0
-# Route 130 (151) - Petalburg City (16)
-151,North,0,16,South,520
-# Rustboro City (21) - Petalburg City (16)
-21,East,110,16,West,0
-# Route 101 (101) - Petalburg City (16)
-101,North,0,16,South,80
-# Route 105 (107) - Petalburg City (16)
-107,North,40,16,South,0
-# Route 102 (102) - Petalburg City (16)
-102,West,0,16,East,10
-# North Interior Petalburg (331) - Petalburg City (16)
-331,South,0,16,North,0
-# Route 104 (104) - Petalburg City (16)
-104,East,50,16,West,0
-# Route 115 (129) - Petalburg City (16)
-129,East,190,16,West,0
-# Southeast Ocean (349) - Petalburg City (16)
-349,North,0,16,South,680
-# Route 129 (150) - Petalburg City (16)
-150,North,0,16,South,600
-# Route 131 (152) - Petalburg City (16)
-152,North,0,16,South,460
-# Northwest Meteor Falls (339) - Petalburg City (16)
-339,East,230,16,West,0
-# South Interior Petalburg (328) - Petalburg City (16)
-328,North,0,16,South,0
-# Route 132 (153) - Petalburg City (16)
-153,North,0,16,South,360
-# Route 133 (154) - Petalburg City (16)
-154,North,0,16,South,280
-# Route 134 (155) - Petalburg City (16)
-155,North,0,16,South,200
-# Northeast Interior Petalburg (332) - Petalburg City (16)
-332,West,90,16,East,0
-# Dewford Town (28) - Route 130 (151)
-28,North,500,151,South,0
-# Ever Grande City South (91) - Route 130 (151)
-91,South,0,151,North,200
-# East Cycling Road (351) - Route 130 (151)
-351,South,320,151,North,0
-# Mossdeep City (76) - Route 130 (151)
-76,West,160,151,East,0
-# Route 102 (102) - Route 130 (151)
-102,South,490,151,North,0
-# Route 110 (113) - Route 130 (151)
-113,South,360,151,North,0
-# Route 108 (110) - Route 130 (151)
-110,North,420,151,South,0
-# South Ocean (352) - Route 130 (151)
-352,North,80,151,South,0
-# Lilycove City (69) - Route 130 (151)
-69,East,190,151,West,0
-# Route 107 (109) - Route 130 (151)
-109,North,480,151,South,0
-# Route 104 (104) - Route 130 (151)
-104,South,560,151,North,0
-# Route 125 (146) - Route 130 (151)
-146,West,200,151,East,0
-# Route 127 (148) - Route 130 (151)
-148,West,120,151,East,0
-# Route 128 (149) - Route 130 (151)
-149,West,40,151,East,0
-# Route 129 (150) - Route 130 (151)
-150,West,0,151,East,0
-# Southwest Granite Cave (323) - Route 130 (151)
-323,North,580,151,South,0
-# Route 131 (152) - Route 130 (151)
-152,East,0,151,West,0
-# North Lilycove (346) - Route 130 (151)
-346,East,220,151,West,0
-# East Central Ocean (353) - Route 130 (151)
-353,South,0,151,North,0
-# South Central Ocean (357) - Route 130 (151)
-357,South,300,151,North,0
-# West Rustboro (321) - Dewford Town (28)
-321,South,80,28,North,0
-# South Interior Fallarbor (336) - Dewford Town (28)
-336,West,340,28,East,0
-# Fallarbor Town (53) - Dewford Town (28)
-53,West,360,28,East,0
-# Route 106 (108) - Dewford Town (28)
-108,South,60,28,North,0
-# Route 107 (109) - Dewford Town (28)
-109,West,0,28,East,0
-# South Interior Ocean Dewford (327) - Dewford Town (28)
-327,West,20,28,East,0
-# Route 129 (150) - Dewford Town (28)
-150,South,0,28,North,580
-# Southwest Granite Cave (323) - Dewford Town (28)
-323,East,0,28,West,0
-# Route 131 (152) - Dewford Town (28)
-152,South,0,28,North,440
-# Southwest Dewford (324) - Dewford Town (28)
-324,North,80,28,South,0
-# Rustboro City (21) - West Rustboro (321)
-21,West,0,321,East,120
-# Route 106 (108) - West Rustboro (321)
-108,West,0,321,East,340
-# Route 105 (107) - West Rustboro (321)
-107,West,0,321,East,260
-# Route 108 (110) - West Rustboro (321)
-110,North,0,321,South,160
-# South Ocean (352) - West Rustboro (321)
-352,North,0,321,South,500
-# Route 107 (109) - West Rustboro (321)
-109,North,0,321,South,100
-# Route 104 (104) - West Rustboro (321)
-104,West,0,321,East,180
-# Route 115 (129) - West Rustboro (321)
-129,West,0,321,East,40
-# Southwest Granite Cave (323) - West Rustboro (321)
-323,North,0,321,South,0
-# Northwest Meteor Falls (339) - West Rustboro (321)
-339,West,0,321,East,0
-# North Mainland Edge (343) - West Rustboro (321)
-343,South,0,321,North,0
-# Ever Grande City South (91) - Rustboro City (21)
-91,North,0,21,South,760
-# North Interior Petalburg (331) - Rustboro City (21)
-331,West,0,21,East,20
-# Route 104 (104) - Rustboro City (21)
-104,North,0,21,South,0
-# Route 114 (125) - Rustboro City (21)
-125,West,120,21,East,0
-# Route 115 (129) - Rustboro City (21)
-129,South,0,21,North,0
-# Route 116 (130) - Rustboro City (21)
-130,West,0,21,East,0
-# South Interior Petalburg (328) - Rustboro City (21)
-328,West,0,21,East,140
-# Interior Rusturf Tunnel (335) - Rustboro City (21)
-335,West,40,21,East,0
-# Route 101 (101) - Ever Grande City South (91)
-101,North,640,91,South,0
-# Route 105 (107) - Ever Grande City South (91)
-107,North,760,91,South,0
-# Northeast Ocean (348) - Ever Grande City South (91)
-348,East,140,91,West,0
-# Route 128 (149) - Ever Grande City South (91)
-149,East,0,91,West,40
-# Southeast Ocean (349) - Ever Grande City South (91)
-349,North,40,91,South,0
-# Route 129 (150) - Ever Grande City South (91)
-150,North,120,91,South,0
-# Route 131 (152) - Ever Grande City South (91)
-152,North,260,91,South,0
-# South Interior Petalburg (328) - Ever Grande City South (91)
-328,North,720,91,South,0
-# Route 132 (153) - Ever Grande City South (91)
-153,North,360,91,South,0
-# Route 133 (154) - Ever Grande City South (91)
-154,North,440,91,South,0
-# Route 134 (155) - Ever Grande City South (91)
-155,North,520,91,South,0
-# Littleroot Town (7) - Route 101 (101)
-7,North,0,101,South,0
-# North Interior Lavaridge (337) - Route 101 (101)
-337,West,240,101,East,0
-# East Cycling Road (351) - Route 101 (101)
-351,South,0,101,North,120
-# Route 117 (132) - Route 101 (101)
-132,West,120,101,East,0
-# Lavaridge Town (58) - Route 101 (101)
-58,West,200,101,East,0
-# Route 102 (102) - Route 101 (101)
-102,East,20,101,West,0
-# Route 110 (113) - Route 101 (101)
-113,South,0,101,North,80
-# Route 108 (110) - Route 101 (101)
-110,West,0,101,East,100
-# South Interior Lavaridge (334) - Route 101 (101)
-334,West,180,101,East,0
-# Route 104 (104) - Route 101 (101)
-104,South,120,101,North,0
-# West Interior Slateport (330) - Route 101 (101)
-330,West,20,101,East,0
-# Route 128 (149) - Route 101 (101)
-149,South,0,101,North,520
-# South Interior Petalburg (328) - Route 101 (101)
-328,East,0,101,West,0
-# East Central Ocean (353) - Route 101 (101)
-353,South,0,101,North,440
-# Northeast Interior Petalburg (332) - Route 101 (101)
-332,East,120,101,West,0
-# South Central Ocean (357) - Route 101 (101)
-357,South,0,101,North,140
-# North Interior Lavaridge (337) - Littleroot Town (7)
-337,West,260,7,East,0
-# Route 117 (132) - Littleroot Town (7)
-132,West,140,7,East,0
-# Lavaridge Town (58) - Littleroot Town (7)
-58,West,220,7,East,0
-# Route 102 (102) - Littleroot Town (7)
-102,East,40,7,West,0
-# Route 108 (110) - Littleroot Town (7)
-110,West,0,7,East,80
-# South Interior Lavaridge (334) - Littleroot Town (7)
-334,West,200,7,East,0
-# West Interior Slateport (330) - Littleroot Town (7)
-330,West,40,7,East,0
-# Southeast Ocean (349) - Littleroot Town (7)
-349,South,0,7,North,600
-# South Interior Petalburg (328) - Littleroot Town (7)
-328,East,20,7,West,0
-# South Interior Littleroot (329) - Littleroot Town (7)
-329,North,0,7,South,0
-# Northeast Interior Petalburg (332) - Littleroot Town (7)
-332,East,140,7,West,0
-# Southwest Ocean (350) - Littleroot Town (7)
-350,North,0,7,South,140
-# East Route 109 (326) - Littleroot Town (7)
-326,North,0,7,South,120
-# Verdanturf Town (48) - North Interior Lavaridge (337)
-48,East,0,337,West,120
-# Lavaridge Town (58) - North Interior Lavaridge (337)
-58,North,0,337,South,0
-# South Interior Fallarbor (336) - North Interior Lavaridge (337)
-336,East,0,337,West,0
-# Fallarbor Town (53) - North Interior Lavaridge (337)
-53,South,60,337,North,0
-# Route 107 (109) - North Interior Lavaridge (337)
-109,East,0,337,West,340
-# Fortree City (64) - North Interior Lavaridge (337)
-64,South,0,337,North,180
-# Route 112 (121) - North Interior Lavaridge (337)
-121,West,0,337,East,0
-# Route 116 (130) - North Interior Lavaridge (337)
-130,East,0,337,West,100
-# Route 113 (123) - North Interior Lavaridge (337)
-123,South,40,337,North,0
-# Route 125 (146) - North Interior Lavaridge (337)
-146,North,0,337,South,500
-# Route 124 (144) - North Interior Lavaridge (337)
-144,North,0,337,South,420
-# South Interior Littleroot (329) - North Interior Lavaridge (337)
-329,East,0,337,West,280
-# Interior Rusturf Tunnel (335) - North Interior Lavaridge (337)
-335,East,0,337,West,60
-# East Cycling Road (351) - Verdanturf Town (48)
-351,North,0,48,South,120
-# Route 117 (132) - Verdanturf Town (48)
-132,West,0,48,East,0
-# Mossdeep City (76) - Verdanturf Town (48)
-76,South,0,48,North,520
-# Lavaridge Town (58) - Verdanturf Town (48)
-58,West,80,48,East,0
-# Route 102 (102) - Verdanturf Town (48)
-102,East,0,48,West,100
-# Route 110 (113) - Verdanturf Town (48)
-113,North,0,48,South,80
-# Route 108 (110) - Verdanturf Town (48)
-110,West,0,48,East,220
-# South Interior Lavaridge (334) - Verdanturf Town (48)
-334,West,60,48,East,0
-# Route 111 (117) - Verdanturf Town (48)
-117,South,0,48,North,80
-# Route 116 (130) - Verdanturf Town (48)
-130,South,80,48,North,0
-# West Interior Slateport (330) - Verdanturf Town (48)
-330,West,0,48,East,100
-# Route 119 (135) - Verdanturf Town (48)
-135,South,0,48,North,160
-# Route 122 (141) - Verdanturf Town (48)
-141,South,0,48,North,300
-# West Mt. Pyre (342) - Verdanturf Town (48)
-342,South,0,48,North,200
-# Route 124 (144) - Verdanturf Town (48)
-144,South,0,48,North,440
-# South Interior Petalburg (328) - Verdanturf Town (48)
-328,East,0,48,West,120
-# West Interior Cycling Road (333) - Verdanturf Town (48)
-333,North,0,48,South,0
-# Northeast Interior Petalburg (332) - Verdanturf Town (48)
-332,East,0,48,West,0
-# Desert Jungle (340) - Verdanturf Town (48)
-340,South,0,48,North,120
-# North Central Ocean (356) - Verdanturf Town (48)
-356,North,0,48,South,140
 # Mauville City (41) - East Cycling Road (351)
 41,East,20,351,West,0
-# Route 117 (132) - East Cycling Road (351)
-132,South,100,351,North,0
-# Route 105 (107) - East Cycling Road (351)
-107,North,240,351,South,0
-# Route 110 (113) - East Cycling Road (351)
-113,East,0,351,West,0
-# Route 109 (111) - East Cycling Road (351)
-111,East,0,351,West,160
-# Route 111 (117) - East Cycling Road (351)
-117,East,160,351,West,0
-# South Route 109 (325) - East Cycling Road (351)
-325,East,0,351,West,223
-# Route 118 (134) - East Cycling Road (351)
-134,South,0,351,North,0
-# Route 123 (142) - East Cycling Road (351)
-142,South,0,351,North,80
-# Southeast Ocean (349) - East Cycling Road (351)
-349,North,0,351,South,480
-# Route 129 (150) - East Cycling Road (351)
-150,North,0,351,South,400
-# Route 131 (152) - East Cycling Road (351)
-152,North,0,351,South,260
-# South Interior Petalburg (328) - East Cycling Road (351)
-328,North,200,351,South,0
-# Route 132 (153) - East Cycling Road (351)
-153,North,0,351,South,160
-# Route 133 (154) - East Cycling Road (351)
-154,North,0,351,South,80
-# Route 134 (155) - East Cycling Road (351)
-155,North,0,351,South,0
-# Southwest Ocean (350) - East Cycling Road (351)
-350,West,0,351,East,140
-# North Central Ocean (356) - East Cycling Road (351)
-356,West,0,351,East,0
-# East Mt. Pyre (354) - East Cycling Road (351)
-354,South,0,351,North,220
-# South Central Ocean (357) - East Cycling Road (351)
-357,West,0,351,East,80
 # Route 117 (132) - Mauville City (41)
 132,East,0,41,West,0
 # Mossdeep City (76) - Mauville City (41)
@@ -542,42 +246,136 @@
 356,North,0,41,South,60
 # Southwest Dewford (324) - Mauville City (41)
 324,East,0,41,West,240
+# Verdanturf Town (48) - North Interior Lavaridge (337)
+48,East,0,337,West,120
+# East Cycling Road (351) - Verdanturf Town (48)
+351,North,0,48,South,120
+# Route 117 (132) - Verdanturf Town (48)
+132,West,0,48,East,0
+# Mossdeep City (76) - Verdanturf Town (48)
+76,South,0,48,North,520
+# Lavaridge Town (58) - Verdanturf Town (48)
+58,West,80,48,East,0
+# Route 102 (102) - Verdanturf Town (48)
+102,East,0,48,West,100
+# Route 110 (113) - Verdanturf Town (48)
+113,North,0,48,South,80
+# Route 108 (110) - Verdanturf Town (48)
+110,West,0,48,East,220
+# South Interior Lavaridge (334) - Verdanturf Town (48)
+334,West,60,48,East,0
+# Route 111 (117) - Verdanturf Town (48)
+117,South,0,48,North,80
+# Route 116 (130) - Verdanturf Town (48)
+130,South,80,48,North,0
+# West Interior Slateport (330) - Verdanturf Town (48)
+330,West,0,48,East,100
+# Route 119 (135) - Verdanturf Town (48)
+135,South,0,48,North,160
+# Route 122 (141) - Verdanturf Town (48)
+141,South,0,48,North,300
+# West Mt. Pyre (342) - Verdanturf Town (48)
+342,South,0,48,North,200
+# Route 124 (144) - Verdanturf Town (48)
+144,South,0,48,North,440
+# South Interior Petalburg (328) - Verdanturf Town (48)
+328,East,0,48,West,120
+# West Interior Cycling Road (333) - Verdanturf Town (48)
+333,North,0,48,South,0
+# Northeast Interior Petalburg (332) - Verdanturf Town (48)
+332,East,0,48,West,0
+# Desert Jungle (340) - Verdanturf Town (48)
+340,South,0,48,North,120
+# North Central Ocean (356) - Verdanturf Town (48)
+356,North,0,48,South,140
+# Fallarbor Town (53) - North Interior Lavaridge (337)
+53,South,60,337,North,0
+# Fallarbor Town (53) - South Interior Fallarbor (336)
+53,South,0,336,North,0
+# Route 106 (108) - Fallarbor Town (53)
+108,East,0,53,West,340
+# Route 112 (121) - Fallarbor Town (53)
+121,North,0,53,South,80
+# Route 114 (125) - Fallarbor Town (53)
+125,East,0,53,West,0
+# Route 113 (123) - Fallarbor Town (53)
+123,West,0,53,East,0
+# South Fortree (341) - Fallarbor Town (53)
+341,North,0,53,South,240
+# North Mainland Edge (343) - Fallarbor Town (53)
+343,South,100,53,North,0
+# Lavaridge Town (58) - Route 101 (101)
+58,West,200,101,East,0
+# Lavaridge Town (58) - North Interior Lavaridge (337)
+58,North,0,337,South,0
+# South Interior Fallarbor (336) - Lavaridge Town (58)
+336,East,40,58,West,0
+# Route 121 (139) - Lavaridge Town (58)
+139,North,0,58,South,260
+# South Interior Lavaridge (334) - Lavaridge Town (58)
+334,North,0,58,South,0
+# Route 107 (109) - Lavaridge Town (58)
+109,East,0,58,West,300
+# Route 112 (121) - Lavaridge Town (58)
+121,West,40,58,East,0
+# Route 116 (130) - Lavaridge Town (58)
+130,East,0,58,West,60
+# North Ocean (347) - Lavaridge Town (58)
+347,South,0,58,North,420
+# South Interior Littleroot (329) - Lavaridge Town (58)
+329,East,0,58,West,240
+# Interior Rusturf Tunnel (335) - Lavaridge Town (58)
+335,North,100,58,South,0
+# Fortree City (64) - North Interior Lavaridge (337)
+64,South,0,337,North,180
+# Fortree City (64) - South Interior Fallarbor (336)
+64,South,0,336,North,240
+# Route 112 (121) - Fortree City (64)
+121,North,160,64,South,0
+# Route 118 (134) - Fortree City (64)
+134,East,0,64,West,140
+# South Fortree (341) - Fortree City (64)
+341,North,0,64,South,0
+# Route 119 (135) - Fortree City (64)
+135,East,0,64,West,0
+# Route 120 (138) - Fortree City (64)
+138,West,0,64,East,0
+# Route 134 (155) - Fortree City (64)
+155,East,0,64,West,260
+# North Mainland Edge (343) - Fortree City (64)
+343,South,340,64,North,0
+# Lilycove City (69) - South Lilycove (355)
+69,South,0,355,North,0
+# Lilycove City (69) - Route 130 (151)
+69,East,190,151,West,0
+# Lilycove City (69) - Route 121 (139)
+69,West,10,139,East,0
+# East Safari Zone (345) - Lilycove City (69)
+345,East,30,69,West,0
+# Route 124 (144) - Lilycove City (69)
+144,West,10,69,East,0
+# Route 126 (147) - Lilycove City (69)
+147,West,0,69,East,70
+# North Ocean (347) - Lilycove City (69)
+347,West,30,69,East,0
+# Route 132 (153) - Lilycove City (69)
+153,East,0,69,West,190
+# North Lilycove (346) - Lilycove City (69)
+346,South,0,69,North,0
+# East Central Ocean (353) - Lilycove City (69)
+353,West,0,69,East,150
+# Southwest Ocean (350) - Lilycove City (69)
+350,East,0,69,West,230
+# North Central Ocean (356) - Lilycove City (69)
+356,East,0,69,West,90
+# East Mt. Pyre (354) - Lilycove City (69)
+354,East,0,69,West,30
+# South Central Ocean (357) - Lilycove City (69)
+357,East,0,69,West,170
+# Mossdeep City (76) - Route 130 (151)
+76,West,160,151,East,0
 # Mossdeep City (76) - Route 117 (132)
 76,South,0,132,North,500
-# South Interior Fallarbor (336) - Route 117 (132)
-336,East,120,132,West,0
-# Route 110 (113) - Route 117 (132)
-113,West,0,132,East,20
-# South Interior Lavaridge (334) - Route 117 (132)
-334,South,0,132,North,0
-# Route 107 (109) - Route 117 (132)
-109,East,0,132,West,220
-# Route 109 (111) - Route 117 (132)
-111,West,0,132,East,180
-# Route 111 (117) - Route 117 (132)
-117,West,140,132,East,0
-# Route 116 (130) - Route 117 (132)
-130,East,20,132,West,0
-# South Route 109 (325) - Route 117 (132)
-325,West,0,132,East,243
-# Route 119 (135) - Route 117 (132)
-135,South,0,132,North,140
-# Route 122 (141) - Route 117 (132)
-141,South,0,132,North,280
-# West Mt. Pyre (342) - Route 117 (132)
-342,South,0,132,North,180
-# Route 124 (144) - Route 117 (132)
-144,South,0,132,North,420
-# South Interior Littleroot (329) - Route 117 (132)
-329,East,0,132,West,160
-# West Interior Cycling Road (333) - Route 117 (132)
-333,North,20,132,South,0
-# Desert Jungle (340) - Route 117 (132)
-340,South,0,132,North,100
-# Interior Rusturf Tunnel (335) - Route 117 (132)
-335,East,60,132,West,0
-# North Central Ocean (356) - Route 117 (132)
-356,North,0,132,South,120
 # Northeast Ocean (348) - Mossdeep City (76)
 348,West,60,76,East,0
 # Route 121 (139) - Mossdeep City (76)
@@ -606,118 +404,128 @@
 353,East,0,76,West,120
 # Northeast Interior Petalburg (332) - Mossdeep City (76)
 332,North,570,76,South,0
-# South Interior Fallarbor (336) - Lavaridge Town (58)
-336,East,40,58,West,0
-# Route 121 (139) - Lavaridge Town (58)
-139,North,0,58,South,260
-# South Interior Lavaridge (334) - Lavaridge Town (58)
-334,North,0,58,South,0
-# Route 107 (109) - Lavaridge Town (58)
-109,East,0,58,West,300
-# Route 112 (121) - Lavaridge Town (58)
-121,West,40,58,East,0
-# Route 116 (130) - Lavaridge Town (58)
-130,East,0,58,West,60
-# North Ocean (347) - Lavaridge Town (58)
-347,South,0,58,North,420
-# South Interior Littleroot (329) - Lavaridge Town (58)
-329,East,0,58,West,240
-# Interior Rusturf Tunnel (335) - Lavaridge Town (58)
-335,North,100,58,South,0
-# Fallarbor Town (53) - South Interior Fallarbor (336)
-53,South,0,336,North,0
-# Route 106 (108) - South Interior Fallarbor (336)
-108,East,0,336,West,320
-# Route 108 (110) - South Interior Fallarbor (336)
-110,West,0,336,East,340
-# Route 121 (139) - South Interior Fallarbor (336)
-139,North,0,336,South,320
-# South Interior Lavaridge (334) - South Interior Fallarbor (336)
-334,West,0,336,East,60
-# Fortree City (64) - South Interior Fallarbor (336)
-64,South,0,336,North,240
-# Route 114 (125) - South Interior Fallarbor (336)
-125,East,20,336,West,0
-# West Interior Slateport (330) - South Interior Fallarbor (336)
-330,West,0,336,East,220
-# Route 113 (123) - South Interior Fallarbor (336)
-123,South,0,336,North,20
-# Interior Rusturf Tunnel (335) - South Interior Fallarbor (336)
-335,North,40,336,South,0
-# Route 106 (108) - Fallarbor Town (53)
-108,East,0,53,West,340
-# Route 112 (121) - Fallarbor Town (53)
-121,North,0,53,South,80
-# Route 114 (125) - Fallarbor Town (53)
-125,East,0,53,West,0
-# Route 113 (123) - Fallarbor Town (53)
-123,West,0,53,East,0
-# South Fortree (341) - Fallarbor Town (53)
-341,North,0,53,South,240
-# North Mainland Edge (343) - Fallarbor Town (53)
-343,South,100,53,North,0
-# Route 105 (107) - Route 106 (108)
-107,South,0,108,North,0
-# Route 108 (110) - Route 106 (108)
-110,North,0,108,South,140
-# South Ocean (352) - Route 106 (108)
-352,North,0,108,South,480
-# Route 107 (109) - Route 106 (108)
-109,West,0,108,East,20
-# South Interior Ocean Dewford (327) - Route 106 (108)
-327,West,0,108,East,0
-# West Interior Slateport (330) - Route 106 (108)
-330,South,0,108,North,140
-# Southwest Granite Cave (323) - Route 106 (108)
-323,North,20,108,South,0
-# South Interior Petalburg (328) - Route 106 (108)
-328,South,0,108,North,40
-# South Interior Littleroot (329) - Route 106 (108)
-329,South,0,108,North,120
+# Pacifidlog Town (88) - South Lilycove (355)
+88,North,0,355,South,0
+# Ever Grande City South (91) - Pacifidlog Town (88)
+91,South,0,88,North,280
+# East Cycling Road (351) - Pacifidlog Town (88)
+351,South,240,88,North,0
+# Route 102 (102) - Pacifidlog Town (88)
+102,South,410,88,North,0
+# Route 110 (113) - Pacifidlog Town (88)
+113,South,280,88,North,0
+# Route 108 (110) - Pacifidlog Town (88)
+110,North,340,88,South,0
+# South Ocean (352) - Pacifidlog Town (88)
+352,North,0,88,South,0
+# Route 121 (139) - Pacifidlog Town (88)
+139,East,180,88,West,0
+# East Safari Zone (345) - Pacifidlog Town (88)
+345,East,220,88,West,0
+# Route 107 (109) - Pacifidlog Town (88)
+109,North,400,88,South,0
+# Route 104 (104) - Pacifidlog Town (88)
+104,South,480,88,North,0
+# Route 128 (149) - Pacifidlog Town (88)
+149,South,0,88,North,160
+# Southwest Granite Cave (323) - Pacifidlog Town (88)
+323,North,500,88,South,0
+# Route 131 (152) - Pacifidlog Town (88)
+152,West,0,88,East,0
+# Route 132 (153) - Pacifidlog Town (88)
+153,East,0,88,West,0
+# East Central Ocean (353) - Pacifidlog Town (88)
+353,South,0,88,North,80
+# Southwest Ocean (350) - Pacifidlog Town (88)
+350,East,0,88,West,40
+# North Central Ocean (356) - Pacifidlog Town (88)
+356,East,100,88,West,0
+# East Mt. Pyre (354) - Pacifidlog Town (88)
+354,East,160,88,West,0
+# South Central Ocean (357) - Pacifidlog Town (88)
+357,East,20,88,West,0
+# Ever Grande City South (91) - Route 130 (151)
+91,South,0,151,North,200
+# Route 101 (101) - Ever Grande City South (91)
+101,North,640,91,South,0
+# Route 105 (107) - Ever Grande City South (91)
+107,North,760,91,South,0
+# Northeast Ocean (348) - Ever Grande City South (91)
+348,East,140,91,West,0
+# Route 128 (149) - Ever Grande City South (91)
+149,East,0,91,West,40
+# Southeast Ocean (349) - Ever Grande City South (91)
+349,North,40,91,South,0
+# Route 129 (150) - Ever Grande City South (91)
+150,North,120,91,South,0
+# Route 131 (152) - Ever Grande City South (91)
+152,North,260,91,South,0
+# South Interior Petalburg (328) - Ever Grande City South (91)
+328,North,720,91,South,0
+# Route 132 (153) - Ever Grande City South (91)
+153,North,360,91,South,0
+# Route 133 (154) - Ever Grande City South (91)
+154,North,440,91,South,0
+# Route 134 (155) - Ever Grande City South (91)
+155,North,520,91,South,0
+# Route 101 (101) - South Lilycove (355)
+101,North,360,355,South,0
+# North Interior Lavaridge (337) - Route 101 (101)
+337,West,240,101,East,0
+# East Cycling Road (351) - Route 101 (101)
+351,South,0,101,North,120
+# Route 117 (132) - Route 101 (101)
+132,West,120,101,East,0
+# Route 102 (102) - Route 101 (101)
+102,East,20,101,West,0
+# Route 110 (113) - Route 101 (101)
+113,South,0,101,North,80
+# Route 108 (110) - Route 101 (101)
+110,West,0,101,East,100
+# South Interior Lavaridge (334) - Route 101 (101)
+334,West,180,101,East,0
+# Route 104 (104) - Route 101 (101)
+104,South,120,101,North,0
+# West Interior Slateport (330) - Route 101 (101)
+330,West,20,101,East,0
+# Route 128 (149) - Route 101 (101)
+149,South,0,101,North,520
+# South Interior Petalburg (328) - Route 101 (101)
+328,East,0,101,West,0
+# East Central Ocean (353) - Route 101 (101)
+353,South,0,101,North,440
+# Northeast Interior Petalburg (332) - Route 101 (101)
+332,East,120,101,West,0
+# South Central Ocean (357) - Route 101 (101)
+357,South,0,101,North,140
+# Route 102 (102) - Route 130 (151)
+102,South,490,151,North,0
 # Route 102 (102) - Route 105 (107)
 102,South,0,107,North,70
-# Route 110 (113) - Route 105 (107)
-113,South,0,107,North,200
-# South Interior Ocean Dewford (327) - Route 105 (107)
-327,North,0,107,South,80
-# North Interior Petalburg (331) - Route 105 (107)
-331,West,120,107,East,0
-# Route 104 (104) - Route 105 (107)
-104,South,0,107,North,0
-# Route 114 (125) - Route 105 (107)
-125,West,260,107,East,0
-# Route 116 (130) - Route 105 (107)
-130,West,140,107,East,0
-# Route 128 (149) - Route 105 (107)
-149,South,0,107,North,640
-# South Interior Petalburg (328) - Route 105 (107)
-328,West,0,107,East,0
-# East Central Ocean (353) - Route 105 (107)
-353,South,0,107,North,560
-# Interior Rusturf Tunnel (335) - Route 105 (107)
-335,West,180,107,East,0
-# South Central Ocean (357) - Route 105 (107)
-357,South,0,107,North,260
-# Route 103 (103) - Northeast Ocean (348)
-103,North,600,348,South,0
-# South Ocean (352) - Northeast Ocean (348)
-352,East,0,348,West,320
-# Route 125 (146) - Northeast Ocean (348)
-146,East,0,348,West,20
-# Route 127 (148) - Northeast Ocean (348)
-148,East,0,348,West,100
-# Route 128 (149) - Northeast Ocean (348)
-149,North,80,348,South,0
-# Route 129 (150) - Northeast Ocean (348)
-150,East,0,348,West,220
-# North Ocean (347) - Northeast Ocean (348)
-347,East,0,348,West,0
-# Northwest Meteor Falls (339) - Northeast Ocean (348)
-339,South,720,348,North,0
-# East Central Ocean (353) - Northeast Ocean (348)
-353,North,160,348,South,0
 # Route 102 (102) - Route 103 (103)
 102,North,50,103,South,0
+# North Interior Petalburg (331) - Route 102 (102)
+331,East,100,102,West,0
+# Southeast Ocean (349) - Route 102 (102)
+349,North,0,102,South,650
+# Route 129 (150) - Route 102 (102)
+150,North,0,102,South,570
+# Route 131 (152) - Route 102 (102)
+152,North,0,102,South,430
+# South Interior Petalburg (328) - Route 102 (102)
+328,North,30,102,South,0
+# South Interior Littleroot (329) - Route 102 (102)
+329,West,0,102,East,60
+# Route 132 (153) - Route 102 (102)
+153,North,0,102,South,330
+# Route 133 (154) - Route 102 (102)
+154,North,0,102,South,250
+# Route 134 (155) - Route 102 (102)
+155,North,0,102,South,170
+# West Interior Cycling Road (333) - Route 102 (102)
+333,West,80,102,East,0
+# Route 103 (103) - Northeast Ocean (348)
+103,North,600,348,South,0
 # Route 110 (113) - Route 103 (103)
 113,West,60,103,East,0
 # Route 109 (111) - Route 103 (103)
@@ -740,28 +548,170 @@
 332,East,80,103,West,0
 # South Central Ocean (357) - Route 103 (103)
 357,North,0,103,South,140
-# North Interior Petalburg (331) - Route 102 (102)
-331,East,100,102,West,0
-# Southeast Ocean (349) - Route 102 (102)
-349,North,0,102,South,650
-# Route 129 (150) - Route 102 (102)
-150,North,0,102,South,570
-# Route 131 (152) - Route 102 (102)
-152,North,0,102,South,430
-# South Interior Petalburg (328) - Route 102 (102)
-328,North,30,102,South,0
-# South Interior Littleroot (329) - Route 102 (102)
-329,West,0,102,East,60
-# Route 132 (153) - Route 102 (102)
-153,North,0,102,South,330
-# Route 133 (154) - Route 102 (102)
-154,North,0,102,South,250
-# Route 134 (155) - Route 102 (102)
-155,North,0,102,South,170
-# West Interior Cycling Road (333) - Route 102 (102)
-333,West,80,102,East,0
+# Route 104 (104) - Route 130 (151)
+104,South,560,151,North,0
+# Route 104 (104) - West Rustboro (321)
+104,West,0,321,East,180
+# Route 104 (104) - Route 105 (107)
+104,South,0,107,North,0
+# Route 104 (104) - North Interior Petalburg (331)
+104,East,0,331,West,40
+# Route 114 (125) - Route 104 (104)
+125,West,180,104,East,0
+# Route 116 (130) - Route 104 (104)
+130,West,60,104,East,0
+# Southeast Ocean (349) - Route 104 (104)
+349,North,0,104,South,720
+# Route 129 (150) - Route 104 (104)
+150,North,0,104,South,640
+# Route 131 (152) - Route 104 (104)
+152,North,0,104,South,500
+# South Interior Petalburg (328) - Route 104 (104)
+328,West,0,104,East,80
+# Route 132 (153) - Route 104 (104)
+153,North,0,104,South,400
+# Route 133 (154) - Route 104 (104)
+154,North,0,104,South,320
+# Route 134 (155) - Route 104 (104)
+155,North,0,104,South,240
+# Interior Rusturf Tunnel (335) - Route 104 (104)
+335,West,100,104,East,0
+# Route 105 (107) - South Lilycove (355)
+107,North,480,355,South,0
+# Route 105 (107) - West Rustboro (321)
+107,West,0,321,East,260
+# Route 105 (107) - East Cycling Road (351)
+107,North,240,351,South,0
+# Route 105 (107) - Route 106 (108)
+107,South,0,108,North,0
+# Route 110 (113) - Route 105 (107)
+113,South,0,107,North,200
+# South Interior Ocean Dewford (327) - Route 105 (107)
+327,North,0,107,South,80
+# North Interior Petalburg (331) - Route 105 (107)
+331,West,120,107,East,0
+# Route 114 (125) - Route 105 (107)
+125,West,260,107,East,0
+# Route 116 (130) - Route 105 (107)
+130,West,140,107,East,0
+# Route 128 (149) - Route 105 (107)
+149,South,0,107,North,640
+# South Interior Petalburg (328) - Route 105 (107)
+328,West,0,107,East,0
+# East Central Ocean (353) - Route 105 (107)
+353,South,0,107,North,560
+# Interior Rusturf Tunnel (335) - Route 105 (107)
+335,West,180,107,East,0
+# South Central Ocean (357) - Route 105 (107)
+357,South,0,107,North,260
+# Route 106 (108) - West Rustboro (321)
+108,West,0,321,East,340
+# Route 106 (108) - South Interior Fallarbor (336)
+108,East,0,336,West,320
+# Route 108 (110) - Route 106 (108)
+110,North,0,108,South,140
+# South Ocean (352) - Route 106 (108)
+352,North,0,108,South,480
+# Route 107 (109) - Route 106 (108)
+109,West,0,108,East,20
+# South Interior Ocean Dewford (327) - Route 106 (108)
+327,West,0,108,East,0
+# West Interior Slateport (330) - Route 106 (108)
+330,South,0,108,North,140
+# Southwest Granite Cave (323) - Route 106 (108)
+323,North,20,108,South,0
+# South Interior Petalburg (328) - Route 106 (108)
+328,South,0,108,North,40
+# South Interior Littleroot (329) - Route 106 (108)
+329,South,0,108,North,120
+# Route 107 (109) - Route 130 (151)
+109,North,480,151,South,0
+# Route 107 (109) - West Rustboro (321)
+109,North,0,321,South,100
+# Route 107 (109) - North Interior Lavaridge (337)
+109,East,0,337,West,340
+# Route 107 (109) - Route 117 (132)
+109,East,0,132,West,220
+# Route 107 (109) - Route 108 (110)
+109,East,0,110,West,0
+# Route 107 (109) - South Interior Lavaridge (334)
+109,East,0,334,West,280
+# South Interior Ocean Dewford (327) - Route 107 (109)
+327,South,0,109,North,0
+# Route 114 (125) - Route 107 (109)
+125,East,360,109,West,0
+# West Interior Slateport (330) - Route 107 (109)
+330,West,120,109,East,0
+# Route 129 (150) - Route 107 (109)
+150,South,0,109,North,560
+# Route 131 (152) - Route 107 (109)
+152,South,0,109,North,420
+# Southwest Dewford (324) - Route 107 (109)
+324,North,100,109,South,0
+# Route 108 (110) - Route 130 (151)
+110,North,420,151,South,0
+# Route 108 (110) - West Rustboro (321)
+110,North,0,321,South,160
+# Route 108 (110) - South Interior Fallarbor (336)
+110,West,0,336,East,340
 # Route 108 (110) - Route 110 (113)
 110,East,0,113,West,200
+# Route 109 (111) - Route 108 (110)
+111,West,40,110,East,0
+# South Interior Ocean Dewford (327) - Route 108 (110)
+327,South,60,110,North,0
+# Route 111 (117) - Route 108 (110)
+117,West,360,110,East,0
+# Route 116 (130) - Route 108 (110)
+130,East,240,110,West,0
+# South Route 109 (325) - Route 108 (110)
+325,West,0,110,East,23
+# Route 129 (150) - Route 108 (110)
+150,South,0,110,North,500
+# Route 131 (152) - Route 108 (110)
+152,South,0,110,North,360
+# South Interior Littleroot (329) - Route 108 (110)
+329,East,60,110,West,0
+# Interior Rusturf Tunnel (335) - Route 108 (110)
+335,East,280,110,West,0
+# Southwest Dewford (324) - Route 108 (110)
+324,North,160,110,South,0
+# Route 109 (111) - East Cycling Road (351)
+111,East,0,351,West,160
+# Route 109 (111) - Route 117 (132)
+111,West,0,132,East,180
+# Route 109 (111) - South Interior Lavaridge (334)
+111,West,0,334,East,240
+# Route 109 (111) - Route 112 (121)
+111,West,0,121,East,300
+# South Interior Ocean Dewford (327) - Route 109 (111)
+327,East,0,111,West,20
+# West Interior Slateport (330) - Route 109 (111)
+330,East,80,111,West,0
+# Route 113 (123) - Route 109 (111)
+123,East,320,111,West,0
+# South Route 109 (325) - Route 109 (111)
+325,North,0,111,South,0
+# Route 118 (134) - Route 109 (111)
+134,West,180,111,East,0
+# Route 134 (155) - Route 109 (111)
+155,West,60,111,East,0
+# West Interior Cycling Road (333) - Route 109 (111)
+333,East,160,111,West,0
+# Desert Jungle (340) - Route 109 (111)
+340,West,320,111,East,0
+# Southwest Ocean (350) - Route 109 (111)
+350,South,0,111,North,60
+# East Route 109 (326) - Route 109 (111)
+326,West,20,111,East,0
+# Southwest Dewford (324) - Route 109 (111)
+324,East,0,111,West,60
+# Route 110 (113) - Route 130 (151)
+113,South,360,151,North,0
+# Route 110 (113) - East Cycling Road (351)
+113,East,0,351,West,0
+# Route 110 (113) - Route 117 (132)
+113,West,0,132,East,20
 # South Interior Lavaridge (334) - Route 110 (113)
 334,East,80,113,West,0
 # Route 112 (121) - Route 110 (113)
@@ -800,212 +750,16 @@
 354,South,0,113,North,260
 # Southwest Dewford (324) - Route 110 (113)
 324,East,0,113,West,220
-# Route 107 (109) - Route 108 (110)
-109,East,0,110,West,0
-# Route 109 (111) - Route 108 (110)
-111,West,40,110,East,0
-# South Interior Ocean Dewford (327) - Route 108 (110)
-327,South,60,110,North,0
-# Route 111 (117) - Route 108 (110)
-117,West,360,110,East,0
-# Route 116 (130) - Route 108 (110)
-130,East,240,110,West,0
-# South Route 109 (325) - Route 108 (110)
-325,West,0,110,East,23
-# Route 129 (150) - Route 108 (110)
-150,South,0,110,North,500
-# Route 131 (152) - Route 108 (110)
-152,South,0,110,North,360
-# South Interior Littleroot (329) - Route 108 (110)
-329,East,60,110,West,0
-# Interior Rusturf Tunnel (335) - Route 108 (110)
-335,East,280,110,West,0
-# Southwest Dewford (324) - Route 108 (110)
-324,North,160,110,South,0
-# Route 121 (139) - South Ocean (352)
-139,East,280,352,West,0
-# East Safari Zone (345) - South Ocean (352)
-345,East,320,352,West,0
-# South Interior Ocean Dewford (327) - South Ocean (352)
-327,South,400,352,North,0
-# Southeast Ocean (349) - South Ocean (352)
-349,West,100,352,East,0
-# Route 129 (150) - South Ocean (352)
-150,South,0,352,North,160
-# Route 131 (152) - South Ocean (352)
-152,South,0,352,North,20
-# Route 132 (153) - South Ocean (352)
-153,East,100,352,West,0
-# Southwest Ocean (350) - South Ocean (352)
-350,East,60,352,West,0
-# North Central Ocean (356) - South Ocean (352)
-356,East,200,352,West,0
-# East Mt. Pyre (354) - South Ocean (352)
-354,East,260,352,West,0
-# South Central Ocean (357) - South Ocean (352)
-357,East,120,352,West,0
-# Lilycove City (69) - Route 121 (139)
-69,West,10,139,East,0
-# East Safari Zone (345) - Route 121 (139)
-345,South,0,139,North,20
-# Route 112 (121) - Route 121 (139)
-121,South,240,139,North,0
-# Route 114 (125) - Route 121 (139)
-125,South,360,139,North,0
-# Route 122 (141) - Route 121 (139)
-141,North,0,139,South,20
-# Route 120 (138) - Route 121 (139)
-138,East,80,139,West,0
-# West Mt. Pyre (342) - Route 121 (139)
-342,North,80,139,South,0
-# North Lilycove (346) - Route 121 (139)
-346,West,40,139,East,0
-# Route 133 (154) - Route 121 (139)
-154,East,0,139,West,180
-# North Mainland Edge (343) - Route 121 (139)
-343,East,100,139,West,0
-# West Safari Zone (344) - Route 121 (139)
-344,South,0,139,North,0
-# East Mt. Pyre (354) - Route 121 (139)
-354,North,0,139,South,60
-# East Safari Zone (345) - Lilycove City (69)
-345,East,30,69,West,0
-# Route 124 (144) - Lilycove City (69)
-144,West,10,69,East,0
-# Route 126 (147) - Lilycove City (69)
-147,West,0,69,East,70
-# North Ocean (347) - Lilycove City (69)
-347,West,30,69,East,0
-# Route 132 (153) - Lilycove City (69)
-153,East,0,69,West,190
-# North Lilycove (346) - Lilycove City (69)
-346,South,0,69,North,0
-# East Central Ocean (353) - Lilycove City (69)
-353,West,0,69,East,150
-# Southwest Ocean (350) - Lilycove City (69)
-350,East,0,69,West,230
-# North Central Ocean (356) - Lilycove City (69)
-356,East,0,69,West,90
-# East Mt. Pyre (354) - Lilycove City (69)
-354,East,0,69,West,30
-# South Central Ocean (357) - Lilycove City (69)
-357,East,0,69,West,170
-# South Interior Lavaridge (334) - East Safari Zone (345)
-334,North,280,345,South,0
-# West Mt. Pyre (342) - East Safari Zone (345)
-342,East,0,345,West,60
-# Northwest Meteor Falls (339) - East Safari Zone (345)
-339,South,420,345,North,0
-# North Lilycove (346) - East Safari Zone (345)
-346,West,0,345,East,0
-# West Safari Zone (344) - East Safari Zone (345)
-344,East,60,345,West,0
-# Interior Rusturf Tunnel (335) - East Safari Zone (345)
-335,North,380,345,South,0
-# Route 107 (109) - South Interior Lavaridge (334)
-109,East,0,334,West,280
-# Route 112 (121) - South Interior Lavaridge (334)
-121,South,0,334,North,20
-# Route 109 (111) - South Interior Lavaridge (334)
-111,West,0,334,East,240
+# Route 111 (117) - East Cycling Road (351)
+117,East,160,351,West,0
+# Route 111 (117) - Route 117 (132)
+117,West,140,132,East,0
 # Route 111 (117) - South Interior Lavaridge (334)
 117,West,80,334,East,0
-# North Interior Petalburg (331) - South Interior Lavaridge (334)
-331,North,100,334,South,0
-# Route 114 (125) - South Interior Lavaridge (334)
-125,South,100,334,North,0
-# Route 116 (130) - South Interior Lavaridge (334)
-130,East,0,334,West,40
-# South Route 109 (325) - South Interior Lavaridge (334)
-325,West,0,334,East,303
-# Route 118 (134) - South Interior Lavaridge (334)
-134,North,0,334,South,100
-# Route 123 (142) - South Interior Lavaridge (334)
-142,North,0,334,South,180
-# Route 126 (147) - South Interior Lavaridge (334)
-147,North,0,334,South,420
-# Route 127 (148) - South Interior Lavaridge (334)
-148,North,0,334,South,500
-# South Interior Littleroot (329) - South Interior Lavaridge (334)
-329,East,0,334,West,220
-# Northeast Interior Petalburg (332) - South Interior Lavaridge (334)
-332,North,70,334,South,0
-# West Safari Zone (344) - South Interior Lavaridge (334)
-344,South,0,334,North,260
-# Interior Rusturf Tunnel (335) - South Interior Lavaridge (334)
-335,East,0,334,West,0
-# South Interior Ocean Dewford (327) - Route 107 (109)
-327,South,0,109,North,0
-# Route 114 (125) - Route 107 (109)
-125,East,360,109,West,0
-# West Interior Slateport (330) - Route 107 (109)
-330,West,120,109,East,0
-# Route 129 (150) - Route 107 (109)
-150,South,0,109,North,560
-# Route 131 (152) - Route 107 (109)
-152,South,0,109,North,420
-# Southwest Dewford (324) - Route 107 (109)
-324,North,100,109,South,0
-# Route 112 (121) - Fortree City (64)
-121,North,160,64,South,0
-# Route 118 (134) - Fortree City (64)
-134,East,0,64,West,140
-# South Fortree (341) - Fortree City (64)
-341,North,0,64,South,0
-# Route 119 (135) - Fortree City (64)
-135,East,0,64,West,0
-# Route 120 (138) - Fortree City (64)
-138,West,0,64,East,0
-# Route 134 (155) - Fortree City (64)
-155,East,0,64,West,260
-# North Mainland Edge (343) - Fortree City (64)
-343,South,340,64,North,0
-# Route 109 (111) - Route 112 (121)
-111,West,0,121,East,300
 # Route 111 (117) - Route 112 (121)
 117,West,20,121,East,0
-# Route 113 (123) - Route 112 (121)
-123,South,60,121,North,0
-# South Route 109 (325) - Route 112 (121)
-325,West,0,121,East,363
-# Interior Rusturf Tunnel (335) - Route 112 (121)
-335,North,120,121,South,0
-# South Interior Ocean Dewford (327) - Route 109 (111)
-327,East,0,111,West,20
-# West Interior Slateport (330) - Route 109 (111)
-330,East,80,111,West,0
-# Route 113 (123) - Route 109 (111)
-123,East,320,111,West,0
-# South Route 109 (325) - Route 109 (111)
-325,North,0,111,South,0
-# Route 118 (134) - Route 109 (111)
-134,West,180,111,East,0
-# Route 134 (155) - Route 109 (111)
-155,West,60,111,East,0
-# West Interior Cycling Road (333) - Route 109 (111)
-333,East,160,111,West,0
-# Desert Jungle (340) - Route 109 (111)
-340,West,320,111,East,0
-# Southwest Ocean (350) - Route 109 (111)
-350,South,0,111,North,60
-# East Route 109 (326) - Route 109 (111)
-326,West,20,111,East,0
-# Southwest Dewford (324) - Route 109 (111)
-324,East,0,111,West,60
 # Route 111 (117) - South Interior Ocean Dewford (327)
 117,West,340,327,East,0
-# Route 114 (125) - South Interior Ocean Dewford (327)
-125,East,340,327,West,0
-# West Interior Slateport (330) - South Interior Ocean Dewford (327)
-330,South,0,327,North,60
-# South Route 109 (325) - South Interior Ocean Dewford (327)
-325,West,0,327,East,43
-# Southwest Granite Cave (323) - South Interior Ocean Dewford (327)
-323,North,100,327,South,0
-# South Interior Petalburg (328) - South Interior Ocean Dewford (327)
-328,South,40,327,North,0
-# South Interior Littleroot (329) - South Interior Ocean Dewford (327)
-329,South,0,327,North,40
 # North Interior Petalburg (331) - Route 111 (117)
 331,North,160,117,South,0
 # West Interior Slateport (330) - Route 111 (117)
@@ -1034,46 +788,36 @@
 326,West,0,117,East,300
 # Southwest Dewford (324) - Route 111 (117)
 324,East,0,117,West,380
-# Route 104 (104) - North Interior Petalburg (331)
-104,East,0,331,West,40
-# Route 115 (129) - North Interior Petalburg (331)
-129,East,100,331,West,0
-# Route 116 (130) - North Interior Petalburg (331)
-130,South,0,331,North,0
-# Route 119 (135) - North Interior Petalburg (331)
-135,South,0,331,North,240
-# Route 122 (141) - North Interior Petalburg (331)
-141,South,0,331,North,380
-# West Mt. Pyre (342) - North Interior Petalburg (331)
-342,South,0,331,North,280
-# Route 124 (144) - North Interior Petalburg (331)
-144,South,0,331,North,520
-# Northwest Meteor Falls (339) - North Interior Petalburg (331)
-339,East,140,331,West,0
-# Northeast Interior Petalburg (332) - North Interior Petalburg (331)
-332,West,0,331,East,0
-# Desert Jungle (340) - North Interior Petalburg (331)
-340,South,0,331,North,200
-# Route 114 (125) - Route 104 (104)
-125,West,180,104,East,0
-# Route 116 (130) - Route 104 (104)
-130,West,60,104,East,0
-# Southeast Ocean (349) - Route 104 (104)
-349,North,0,104,South,720
-# Route 129 (150) - Route 104 (104)
-150,North,0,104,South,640
-# Route 131 (152) - Route 104 (104)
-152,North,0,104,South,500
-# South Interior Petalburg (328) - Route 104 (104)
-328,West,0,104,East,80
-# Route 132 (153) - Route 104 (104)
-153,North,0,104,South,400
-# Route 133 (154) - Route 104 (104)
-154,North,0,104,South,320
-# Route 134 (155) - Route 104 (104)
-155,North,0,104,South,240
-# Interior Rusturf Tunnel (335) - Route 104 (104)
-335,West,100,104,East,0
+# Route 112 (121) - North Interior Lavaridge (337)
+121,West,0,337,East,0
+# Route 112 (121) - Route 121 (139)
+121,South,240,139,North,0
+# Route 112 (121) - South Interior Lavaridge (334)
+121,South,0,334,North,20
+# Route 113 (123) - Route 112 (121)
+123,South,60,121,North,0
+# South Route 109 (325) - Route 112 (121)
+325,West,0,121,East,363
+# Interior Rusturf Tunnel (335) - Route 112 (121)
+335,North,120,121,South,0
+# Route 113 (123) - North Interior Lavaridge (337)
+123,South,40,337,North,0
+# Route 113 (123) - South Interior Fallarbor (336)
+123,South,0,336,North,20
+# South Route 109 (325) - Route 113 (123)
+325,West,0,123,East,383
+# South Fortree (341) - Route 113 (123)
+341,North,0,123,South,220
+# North Mainland Edge (343) - Route 113 (123)
+343,South,120,123,North,0
+# Route 114 (125) - South Interior Fallarbor (336)
+125,East,20,336,West,0
+# Route 114 (125) - Route 121 (139)
+125,South,360,139,North,0
+# Route 114 (125) - South Interior Lavaridge (334)
+125,South,100,334,North,0
+# Route 114 (125) - South Interior Ocean Dewford (327)
+125,East,340,327,West,0
 # Route 115 (129) - Route 114 (125)
 129,East,0,125,West,40
 # Northwest Meteor Falls (339) - Route 114 (125)
@@ -1082,6 +826,10 @@
 343,South,60,125,North,0
 # Interior Rusturf Tunnel (335) - Route 114 (125)
 335,North,0,125,South,0
+# Route 115 (129) - West Rustboro (321)
+129,West,0,321,East,40
+# Route 115 (129) - North Interior Petalburg (331)
+129,East,100,331,West,0
 # Route 116 (130) - Route 115 (129)
 130,West,0,129,East,80
 # Northwest Meteor Falls (339) - Route 115 (129)
@@ -1090,6 +838,14 @@
 328,West,0,129,East,220
 # Interior Rusturf Tunnel (335) - Route 115 (129)
 335,West,0,129,East,40
+# Route 116 (130) - North Interior Lavaridge (337)
+130,East,0,337,West,100
+# Route 116 (130) - Route 117 (132)
+130,East,20,132,West,0
+# Route 116 (130) - South Interior Lavaridge (334)
+130,East,0,334,West,40
+# Route 116 (130) - North Interior Petalburg (331)
+130,South,0,331,North,0
 # West Interior Slateport (330) - Route 116 (130)
 330,West,0,130,East,120
 # Route 118 (134) - Route 116 (130)
@@ -1106,30 +862,38 @@
 332,North,0,130,South,30
 # Interior Rusturf Tunnel (335) - Route 116 (130)
 335,South,0,130,North,0
-# South Route 109 (325) - West Interior Slateport (330)
-325,West,0,330,East,143
-# South Interior Littleroot (329) - West Interior Slateport (330)
-329,East,0,330,West,60
-# Interior Rusturf Tunnel (335) - West Interior Slateport (330)
-335,East,160,330,West,0
-# South Route 109 (325) - Route 113 (123)
-325,West,0,123,East,383
-# South Fortree (341) - Route 113 (123)
-341,North,0,123,South,220
-# North Mainland Edge (343) - Route 113 (123)
-343,South,120,123,North,0
+# Route 117 (132) - East Cycling Road (351)
+132,South,100,351,North,0
+# South Interior Fallarbor (336) - Route 117 (132)
+336,East,120,132,West,0
+# South Interior Lavaridge (334) - Route 117 (132)
+334,South,0,132,North,0
+# South Route 109 (325) - Route 117 (132)
+325,West,0,132,East,243
+# Route 119 (135) - Route 117 (132)
+135,South,0,132,North,140
+# Route 122 (141) - Route 117 (132)
+141,South,0,132,North,280
+# West Mt. Pyre (342) - Route 117 (132)
+342,South,0,132,North,180
+# Route 124 (144) - Route 117 (132)
+144,South,0,132,North,420
+# South Interior Littleroot (329) - Route 117 (132)
+329,East,0,132,West,160
+# West Interior Cycling Road (333) - Route 117 (132)
+333,North,20,132,South,0
+# Desert Jungle (340) - Route 117 (132)
+340,South,0,132,North,100
+# Interior Rusturf Tunnel (335) - Route 117 (132)
+335,East,60,132,West,0
+# North Central Ocean (356) - Route 117 (132)
+356,North,0,132,South,120
+# Route 118 (134) - East Cycling Road (351)
+134,South,0,351,North,0
+# Route 118 (134) - South Interior Lavaridge (334)
+134,North,0,334,South,100
 # Route 118 (134) - South Route 109 (325)
 134,West,243,325,East,0
-# Route 134 (155) - South Route 109 (325)
-155,West,123,325,East,0
-# West Interior Cycling Road (333) - South Route 109 (325)
-333,East,223,325,West,0
-# Desert Jungle (340) - South Route 109 (325)
-340,West,383,325,East,0
-# East Route 109 (326) - South Route 109 (325)
-326,West,83,325,East,0
-# Southwest Dewford (324) - South Route 109 (325)
-324,East,3,325,West,0
 # South Fortree (341) - Route 118 (134)
 341,West,120,134,East,0
 # Route 119 (135) - Route 118 (134)
@@ -1150,18 +914,10 @@
 340,South,0,134,North,0
 # North Central Ocean (356) - Route 118 (134)
 356,North,0,134,South,20
+# Route 119 (135) - North Interior Petalburg (331)
+135,South,0,331,North,240
 # Route 119 (135) - South Fortree (341)
 135,East,20,341,West,0
-# Route 122 (141) - South Fortree (341)
-141,North,0,341,South,100
-# Route 120 (138) - South Fortree (341)
-138,West,20,341,East,0
-# West Mt. Pyre (342) - South Fortree (341)
-342,North,0,341,South,0
-# Route 134 (155) - South Fortree (341)
-155,East,0,341,West,240
-# East Mt. Pyre (354) - South Fortree (341)
-354,North,0,341,South,140
 # Route 123 (142) - Route 119 (135)
 142,West,0,135,East,140
 # West Mt. Pyre (342) - Route 119 (135)
@@ -1178,24 +934,50 @@
 340,East,0,135,West,0
 # North Mainland Edge (343) - Route 119 (135)
 343,South,300,135,North,0
-# Route 122 (141) - Route 123 (142)
-141,South,0,142,North,100
-# West Mt. Pyre (342) - Route 123 (142)
-342,South,0,142,North,0
-# Route 124 (144) - Route 123 (142)
-144,South,0,142,North,240
-# Route 134 (155) - Route 123 (142)
-155,East,0,142,West,120
-# West Interior Cycling Road (333) - Route 123 (142)
-333,North,200,142,South,0
-# Desert Jungle (340) - Route 123 (142)
-340,South,80,142,North,0
-# North Central Ocean (356) - Route 123 (142)
-356,North,60,142,South,0
-# East Mt. Pyre (354) - Route 123 (142)
-354,West,40,142,East,0
+# Route 120 (138) - Route 121 (139)
+138,East,80,139,West,0
+# Route 120 (138) - South Fortree (341)
+138,West,20,341,East,0
 # Route 120 (138) - Route 122 (141)
 138,South,60,141,North,0
+# West Mt. Pyre (342) - Route 120 (138)
+342,North,40,138,South,0
+# Route 132 (153) - Route 120 (138)
+153,West,0,138,East,260
+# North Mainland Edge (343) - Route 120 (138)
+343,South,380,138,North,0
+# West Safari Zone (344) - Route 120 (138)
+344,West,20,138,East,0
+# East Mt. Pyre (354) - Route 120 (138)
+354,North,0,138,South,100
+# Route 121 (139) - South Lilycove (355)
+139,East,30,355,West,0
+# Route 121 (139) - South Interior Fallarbor (336)
+139,North,0,336,South,320
+# Route 121 (139) - South Ocean (352)
+139,East,280,352,West,0
+# East Safari Zone (345) - Route 121 (139)
+345,South,0,139,North,20
+# Route 122 (141) - Route 121 (139)
+141,North,0,139,South,20
+# West Mt. Pyre (342) - Route 121 (139)
+342,North,80,139,South,0
+# North Lilycove (346) - Route 121 (139)
+346,West,40,139,East,0
+# Route 133 (154) - Route 121 (139)
+154,East,0,139,West,180
+# North Mainland Edge (343) - Route 121 (139)
+343,East,100,139,West,0
+# West Safari Zone (344) - Route 121 (139)
+344,South,0,139,North,0
+# East Mt. Pyre (354) - Route 121 (139)
+354,North,0,139,South,60
+# Route 122 (141) - North Interior Petalburg (331)
+141,South,0,331,North,380
+# Route 122 (141) - South Fortree (341)
+141,North,0,341,South,100
+# Route 122 (141) - Route 123 (142)
+141,South,0,142,North,100
 # West Mt. Pyre (342) - Route 122 (141)
 342,East,0,141,West,0
 # Route 125 (146) - Route 122 (141)
@@ -1210,38 +992,32 @@
 344,East,120,141,West,0
 # East Mt. Pyre (354) - Route 122 (141)
 354,West,0,141,East,0
-# West Mt. Pyre (342) - Route 120 (138)
-342,North,40,138,South,0
-# Route 132 (153) - Route 120 (138)
-153,West,0,138,East,260
-# North Mainland Edge (343) - Route 120 (138)
-343,South,380,138,North,0
-# West Safari Zone (344) - Route 120 (138)
-344,West,20,138,East,0
-# East Mt. Pyre (354) - Route 120 (138)
-354,North,0,138,South,100
-# Route 125 (146) - West Mt. Pyre (342)
-146,South,0,342,North,320
-# Route 126 (147) - West Mt. Pyre (342)
-147,North,0,342,South,240
-# Route 127 (148) - West Mt. Pyre (342)
-148,North,0,342,South,320
-# Route 134 (155) - West Mt. Pyre (342)
-155,East,0,342,West,160
-# Northeast Interior Petalburg (332) - West Mt. Pyre (342)
-332,North,250,342,South,0
+# Route 123 (142) - East Cycling Road (351)
+142,South,0,351,North,80
+# Route 123 (142) - South Interior Lavaridge (334)
+142,North,0,334,South,180
+# West Mt. Pyre (342) - Route 123 (142)
+342,South,0,142,North,0
+# Route 124 (144) - Route 123 (142)
+144,South,0,142,North,240
+# Route 134 (155) - Route 123 (142)
+155,East,0,142,West,120
+# West Interior Cycling Road (333) - Route 123 (142)
+333,North,200,142,South,0
+# Desert Jungle (340) - Route 123 (142)
+340,South,80,142,North,0
+# North Central Ocean (356) - Route 123 (142)
+356,North,60,142,South,0
+# East Mt. Pyre (354) - Route 123 (142)
+354,West,40,142,East,0
+# Route 124 (144) - South Lilycove (355)
+144,West,50,355,East,0
+# Route 124 (144) - North Interior Lavaridge (337)
+144,North,0,337,South,420
+# Route 124 (144) - North Interior Petalburg (331)
+144,South,0,331,North,520
 # Route 124 (144) - Route 125 (146)
 144,East,0,146,West,0
-# Route 126 (147) - Route 125 (146)
-147,East,0,146,West,80
-# Southeast Ocean (349) - Route 125 (146)
-349,West,0,146,East,200
-# North Ocean (347) - Route 125 (146)
-347,South,80,146,North,0
-# East Central Ocean (353) - Route 125 (146)
-353,East,0,146,West,160
-# East Mt. Pyre (354) - Route 125 (146)
-354,North,180,146,South,0
 # Route 126 (147) - Route 124 (144)
 147,North,0,144,South,0
 # Route 127 (148) - Route 124 (144)
@@ -1258,6 +1034,30 @@
 346,East,20,144,West,0
 # Northeast Interior Petalburg (332) - Route 124 (144)
 332,North,490,144,South,0
+# Route 125 (146) - Route 130 (151)
+146,West,200,151,East,0
+# Route 125 (146) - North Interior Lavaridge (337)
+146,North,0,337,South,500
+# Route 125 (146) - Northeast Ocean (348)
+146,East,0,348,West,20
+# Route 125 (146) - West Mt. Pyre (342)
+146,South,0,342,North,320
+# Route 126 (147) - Route 125 (146)
+147,East,0,146,West,80
+# Southeast Ocean (349) - Route 125 (146)
+349,West,0,146,East,200
+# North Ocean (347) - Route 125 (146)
+347,South,80,146,North,0
+# East Central Ocean (353) - Route 125 (146)
+353,East,0,146,West,160
+# East Mt. Pyre (354) - Route 125 (146)
+354,North,180,146,South,0
+# Route 126 (147) - South Lilycove (355)
+147,West,0,355,East,30
+# Route 126 (147) - South Interior Lavaridge (334)
+147,North,0,334,South,420
+# Route 126 (147) - West Mt. Pyre (342)
+147,North,0,342,South,240
 # Route 127 (148) - Route 126 (147)
 148,West,0,147,East,0
 # Route 128 (149) - Route 126 (147)
@@ -1272,6 +1072,14 @@
 353,North,0,147,South,0
 # Desert Jungle (340) - Route 126 (147)
 340,South,320,147,North,0
+# Route 127 (148) - Route 130 (151)
+148,West,120,151,East,0
+# Route 127 (148) - Northeast Ocean (348)
+148,East,0,348,West,100
+# Route 127 (148) - South Interior Lavaridge (334)
+148,North,0,334,South,500
+# Route 127 (148) - West Mt. Pyre (342)
+148,North,0,342,South,320
 # Route 128 (149) - Route 127 (148)
 149,North,0,148,South,0
 # Southeast Ocean (349) - Route 127 (148)
@@ -1280,6 +1088,10 @@
 353,North,80,148,South,0
 # Desert Jungle (340) - Route 127 (148)
 340,South,400,148,North,0
+# Route 128 (149) - Route 130 (151)
+149,West,40,151,East,0
+# Route 128 (149) - Northeast Ocean (348)
+149,North,80,348,South,0
 # Southeast Ocean (349) - Route 128 (149)
 349,North,0,149,South,80
 # Route 129 (150) - Route 128 (149)
@@ -1298,58 +1110,62 @@
 155,North,400,149,South,0
 # West Interior Cycling Road (333) - Route 128 (149)
 333,South,520,149,North,0
+# Route 129 (150) - South Lilycove (355)
+150,North,0,355,South,160
+# Route 129 (150) - Route 130 (151)
+150,West,0,151,East,0
+# Route 129 (150) - East Cycling Road (351)
+150,North,0,351,South,400
+# Route 129 (150) - Northeast Ocean (348)
+150,East,0,348,West,220
+# Route 129 (150) - South Ocean (352)
+150,South,0,352,North,160
 # Route 129 (150) - Southeast Ocean (349)
 150,East,0,349,West,0
-# North Ocean (347) - Southeast Ocean (349)
-347,East,220,349,West,0
-# East Central Ocean (353) - Southeast Ocean (349)
-353,South,160,349,North,0
-# South Central Ocean (357) - Southeast Ocean (349)
-357,South,460,349,North,0
 # Southwest Granite Cave (323) - Route 129 (150)
 323,North,660,150,South,0
 # East Central Ocean (353) - Route 129 (150)
 353,East,40,150,West,0
 # South Central Ocean (357) - Route 129 (150)
 357,South,380,150,North,0
+# Route 130 (151) - South Lilycove (355)
+151,West,0,355,East,150
+# East Cycling Road (351) - Route 130 (151)
+351,South,320,151,North,0
+# South Ocean (352) - Route 130 (151)
+352,North,80,151,South,0
+# Southwest Granite Cave (323) - Route 130 (151)
+323,North,580,151,South,0
+# Route 131 (152) - Route 130 (151)
+152,East,0,151,West,0
+# North Lilycove (346) - Route 130 (151)
+346,East,220,151,West,0
+# East Central Ocean (353) - Route 130 (151)
+353,South,0,151,North,0
+# South Central Ocean (357) - Route 130 (151)
+357,South,300,151,North,0
+# Route 131 (152) - South Lilycove (355)
+152,North,0,355,South,20
+# Route 131 (152) - East Cycling Road (351)
+152,North,0,351,South,260
+# Route 131 (152) - South Ocean (352)
+152,South,0,352,North,20
 # Route 131 (152) - Southwest Granite Cave (323)
 152,South,0,323,North,520
-# Southwest Dewford (324) - Southwest Granite Cave (323)
-324,North,0,323,South,0
 # North Ocean (347) - Route 131 (152)
 347,West,220,152,East,0
 # East Central Ocean (353) - Route 131 (152)
 353,West,40,152,East,0
 # South Central Ocean (357) - Route 131 (152)
 357,South,240,152,North,0
-# Northwest Meteor Falls (339) - North Ocean (347)
-339,South,560,347,North,0
-# North Lilycove (346) - North Ocean (347)
-346,East,0,347,West,0
-# South Interior Petalburg (328) - Northwest Meteor Falls (339)
-328,West,0,339,East,260
-# North Lilycove (346) - Northwest Meteor Falls (339)
-346,North,0,339,South,480
-# North Mainland Edge (343) - Northwest Meteor Falls (339)
-343,South,20,339,North,0
-# Interior Rusturf Tunnel (335) - Northwest Meteor Falls (339)
-335,West,0,339,East,80
-# South Interior Littleroot (329) - South Interior Petalburg (328)
-329,West,0,328,East,40
-# East Central Ocean (353) - South Interior Petalburg (328)
-353,South,0,328,North,520
-# West Interior Cycling Road (333) - South Interior Petalburg (328)
-333,West,100,328,East,0
-# South Central Ocean (357) - South Interior Petalburg (328)
-357,South,0,328,North,220
+# Route 132 (153) - South Lilycove (355)
+153,North,80,355,South,0
+# Route 132 (153) - East Cycling Road (351)
+153,North,0,351,South,160
+# Route 132 (153) - South Ocean (352)
+153,East,100,352,West,0
 # Route 132 (153) - South Interior Littleroot (329)
 153,South,0,329,North,280
-# Route 133 (154) - South Interior Littleroot (329)
-154,South,0,329,North,200
-# Route 134 (155) - South Interior Littleroot (329)
-155,South,0,329,North,120
-# Northeast Interior Petalburg (332) - South Interior Littleroot (329)
-332,East,160,329,West,0
 # North Lilycove (346) - Route 132 (153)
 346,West,220,153,East,0
 # East Central Ocean (353) - Route 132 (153)
@@ -1364,22 +1180,14 @@
 326,North,160,153,South,0
 # South Central Ocean (357) - Route 132 (153)
 357,South,140,153,North,0
-# East Central Ocean (353) - North Lilycove (346)
-353,West,0,346,East,180
-# Southwest Ocean (350) - North Lilycove (346)
-350,East,0,346,West,260
-# North Central Ocean (356) - North Lilycove (346)
-356,East,0,346,West,120
-# East Mt. Pyre (354) - North Lilycove (346)
-354,East,0,346,West,60
-# South Central Ocean (357) - North Lilycove (346)
-357,East,0,346,West,200
+# Route 133 (154) - South Lilycove (355)
+154,North,160,355,South,0
+# Route 133 (154) - East Cycling Road (351)
+154,North,0,351,South,80
+# Route 133 (154) - South Interior Littleroot (329)
+154,South,0,329,North,200
 # Route 133 (154) - East Central Ocean (353)
 154,North,240,353,South,0
-# Route 134 (155) - East Central Ocean (353)
-155,North,320,353,South,0
-# West Interior Cycling Road (333) - East Central Ocean (353)
-333,South,440,353,North,0
 # Route 134 (155) - Route 133 (154)
 155,East,0,154,West,0
 # West Safari Zone (344) - Route 133 (154)
@@ -1390,29 +1198,223 @@
 326,North,80,154,South,0
 # South Central Ocean (357) - Route 133 (154)
 357,South,60,154,North,0
+# Route 134 (155) - South Lilycove (355)
+155,North,240,355,South,0
+# Route 134 (155) - East Cycling Road (351)
+155,North,0,351,South,0
+# Route 134 (155) - South Route 109 (325)
+155,West,123,325,East,0
+# Route 134 (155) - South Fortree (341)
+155,East,0,341,West,240
+# Route 134 (155) - West Mt. Pyre (342)
+155,East,0,342,West,160
+# Route 134 (155) - South Interior Littleroot (329)
+155,South,0,329,North,120
+# Route 134 (155) - East Central Ocean (353)
+155,North,320,353,South,0
 # Southwest Ocean (350) - Route 134 (155)
 350,North,0,155,South,20
 # East Route 109 (326) - Route 134 (155)
 326,North,0,155,South,0
 # South Central Ocean (357) - Route 134 (155)
 357,South,0,155,North,20
-# Northeast Interior Petalburg (332) - West Interior Cycling Road (333)
-332,East,20,333,West,0
-# East Mt. Pyre (354) - West Interior Cycling Road (333)
-354,South,0,333,North,340
-# Desert Jungle (340) - Northeast Interior Petalburg (332)
-340,South,0,332,North,170
-# North Mainland Edge (343) - Desert Jungle (340)
-343,South,260,340,North,0
-# West Safari Zone (344) - North Mainland Edge (343)
-344,West,0,343,East,0
-# Interior Rusturf Tunnel (335) - West Safari Zone (344)
-335,North,360,344,South,0
+# South Ocean (352) - West Rustboro (321)
+352,North,0,321,South,500
+# Southwest Granite Cave (323) - West Rustboro (321)
+323,North,0,321,South,0
+# Northwest Meteor Falls (339) - West Rustboro (321)
+339,West,0,321,East,0
+# North Mainland Edge (343) - West Rustboro (321)
+343,South,0,321,North,0
+# Southwest Granite Cave (323) - South Interior Ocean Dewford (327)
+323,North,100,327,South,0
+# Southwest Dewford (324) - Southwest Granite Cave (323)
+324,North,0,323,South,0
+# Southwest Dewford (324) - South Route 109 (325)
+324,East,3,325,West,0
+# South Route 109 (325) - East Cycling Road (351)
+325,East,0,351,West,223
+# South Route 109 (325) - South Interior Lavaridge (334)
+325,West,0,334,East,303
+# South Route 109 (325) - South Interior Ocean Dewford (327)
+325,West,0,327,East,43
+# South Route 109 (325) - West Interior Slateport (330)
+325,West,0,330,East,143
+# West Interior Cycling Road (333) - South Route 109 (325)
+333,East,223,325,West,0
+# Desert Jungle (340) - South Route 109 (325)
+340,West,383,325,East,0
+# East Route 109 (326) - South Route 109 (325)
+326,West,83,325,East,0
 # East Route 109 (326) - Southwest Ocean (350)
 326,East,0,350,West,0
 # North Central Ocean (356) - East Route 109 (326)
 356,West,140,326,East,0
 # South Central Ocean (357) - East Route 109 (326)
 357,West,60,326,East,0
+# South Interior Ocean Dewford (327) - South Ocean (352)
+327,South,400,352,North,0
+# West Interior Slateport (330) - South Interior Ocean Dewford (327)
+330,South,0,327,North,60
+# South Interior Petalburg (328) - South Interior Ocean Dewford (327)
+328,South,40,327,North,0
+# South Interior Littleroot (329) - South Interior Ocean Dewford (327)
+329,South,0,327,North,40
+# South Interior Petalburg (328) - South Lilycove (355)
+328,North,440,355,South,0
+# South Interior Petalburg (328) - East Cycling Road (351)
+328,North,200,351,South,0
+# South Interior Petalburg (328) - Northwest Meteor Falls (339)
+328,West,0,339,East,260
+# South Interior Littleroot (329) - South Interior Petalburg (328)
+329,West,0,328,East,40
+# East Central Ocean (353) - South Interior Petalburg (328)
+353,South,0,328,North,520
+# West Interior Cycling Road (333) - South Interior Petalburg (328)
+333,West,100,328,East,0
+# South Central Ocean (357) - South Interior Petalburg (328)
+357,South,0,328,North,220
+# South Interior Littleroot (329) - North Interior Lavaridge (337)
+329,East,0,337,West,280
+# South Interior Littleroot (329) - South Interior Lavaridge (334)
+329,East,0,334,West,220
+# South Interior Littleroot (329) - West Interior Slateport (330)
+329,East,0,330,West,60
+# Northeast Interior Petalburg (332) - South Interior Littleroot (329)
+332,East,160,329,West,0
+# West Interior Slateport (330) - South Interior Fallarbor (336)
+330,West,0,336,East,220
+# Interior Rusturf Tunnel (335) - West Interior Slateport (330)
+335,East,160,330,West,0
+# North Interior Petalburg (331) - South Interior Lavaridge (334)
+331,North,100,334,South,0
+# West Mt. Pyre (342) - North Interior Petalburg (331)
+342,South,0,331,North,280
+# Northwest Meteor Falls (339) - North Interior Petalburg (331)
+339,East,140,331,West,0
+# Northeast Interior Petalburg (332) - North Interior Petalburg (331)
+332,West,0,331,East,0
+# Desert Jungle (340) - North Interior Petalburg (331)
+340,South,0,331,North,200
+# Northeast Interior Petalburg (332) - South Interior Lavaridge (334)
+332,North,70,334,South,0
+# Northeast Interior Petalburg (332) - West Mt. Pyre (342)
+332,North,250,342,South,0
+# Northeast Interior Petalburg (332) - West Interior Cycling Road (333)
+332,East,20,333,West,0
+# Desert Jungle (340) - Northeast Interior Petalburg (332)
+340,South,0,332,North,170
+# West Interior Cycling Road (333) - East Central Ocean (353)
+333,South,440,353,North,0
+# East Mt. Pyre (354) - West Interior Cycling Road (333)
+354,South,0,333,North,340
+# South Interior Lavaridge (334) - South Interior Fallarbor (336)
+334,West,0,336,East,60
+# South Interior Lavaridge (334) - East Safari Zone (345)
+334,North,280,345,South,0
+# West Safari Zone (344) - South Interior Lavaridge (334)
+344,South,0,334,North,260
+# Interior Rusturf Tunnel (335) - South Interior Lavaridge (334)
+335,East,0,334,West,0
+# Interior Rusturf Tunnel (335) - North Interior Lavaridge (337)
+335,East,0,337,West,60
+# Interior Rusturf Tunnel (335) - South Interior Fallarbor (336)
+335,North,40,336,South,0
+# Interior Rusturf Tunnel (335) - East Safari Zone (345)
+335,North,380,345,South,0
+# Interior Rusturf Tunnel (335) - Northwest Meteor Falls (339)
+335,West,0,339,East,80
+# Interior Rusturf Tunnel (335) - West Safari Zone (344)
+335,North,360,344,South,0
+# South Interior Fallarbor (336) - North Interior Lavaridge (337)
+336,East,0,337,West,0
+# Northwest Meteor Falls (339) - Northeast Ocean (348)
+339,South,720,348,North,0
+# Northwest Meteor Falls (339) - East Safari Zone (345)
+339,South,420,345,North,0
+# Northwest Meteor Falls (339) - North Ocean (347)
+339,South,560,347,North,0
+# North Lilycove (346) - Northwest Meteor Falls (339)
+346,North,0,339,South,480
+# North Mainland Edge (343) - Northwest Meteor Falls (339)
+343,South,20,339,North,0
+# North Mainland Edge (343) - Desert Jungle (340)
+343,South,260,340,North,0
+# West Mt. Pyre (342) - South Fortree (341)
+342,North,0,341,South,0
+# East Mt. Pyre (354) - South Fortree (341)
+354,North,0,341,South,140
+# West Mt. Pyre (342) - East Safari Zone (345)
+342,East,0,345,West,60
+# West Safari Zone (344) - North Mainland Edge (343)
+344,West,0,343,East,0
+# West Safari Zone (344) - East Safari Zone (345)
+344,East,60,345,West,0
+# East Safari Zone (345) - South Lilycove (355)
+345,East,70,355,West,0
+# East Safari Zone (345) - South Ocean (352)
+345,East,320,352,West,0
+# North Lilycove (346) - East Safari Zone (345)
+346,West,0,345,East,0
+# North Lilycove (346) - North Ocean (347)
+346,East,0,347,West,0
+# East Central Ocean (353) - North Lilycove (346)
+353,West,0,346,East,180
+# Southwest Ocean (350) - North Lilycove (346)
+350,East,0,346,West,260
+# North Central Ocean (356) - North Lilycove (346)
+356,East,0,346,West,120
+# East Mt. Pyre (354) - North Lilycove (346)
+354,East,0,346,West,60
+# South Central Ocean (357) - North Lilycove (346)
+357,East,0,346,West,200
+# North Ocean (347) - South Lilycove (355)
+347,West,70,355,East,0
+# North Ocean (347) - Northeast Ocean (348)
+347,East,0,348,West,0
+# North Ocean (347) - Southeast Ocean (349)
+347,East,220,349,West,0
+# South Ocean (352) - Northeast Ocean (348)
+352,East,0,348,West,320
+# East Central Ocean (353) - Northeast Ocean (348)
+353,North,160,348,South,0
+# Southeast Ocean (349) - South Lilycove (355)
+349,North,0,355,South,240
+# Southeast Ocean (349) - East Cycling Road (351)
+349,North,0,351,South,480
+# Southeast Ocean (349) - South Ocean (352)
+349,West,100,352,East,0
+# East Central Ocean (353) - Southeast Ocean (349)
+353,South,160,349,North,0
+# South Central Ocean (357) - Southeast Ocean (349)
+357,South,460,349,North,0
+# Southwest Ocean (350) - South Lilycove (355)
+350,East,0,355,West,190
+# Southwest Ocean (350) - East Cycling Road (351)
+350,West,0,351,East,140
+# Southwest Ocean (350) - South Ocean (352)
+350,East,60,352,West,0
+# North Central Ocean (356) - East Cycling Road (351)
+356,West,0,351,East,0
+# East Mt. Pyre (354) - East Cycling Road (351)
+354,South,0,351,North,220
+# South Central Ocean (357) - East Cycling Road (351)
+357,West,0,351,East,80
+# North Central Ocean (356) - South Ocean (352)
+356,East,200,352,West,0
+# East Mt. Pyre (354) - South Ocean (352)
+354,East,260,352,West,0
+# South Central Ocean (357) - South Ocean (352)
+357,East,120,352,West,0
+# East Central Ocean (353) - South Lilycove (355)
+353,West,0,355,East,110
+# East Mt. Pyre (354) - South Lilycove (355)
+354,East,10,355,West,0
 # East Mt. Pyre (354) - North Central Ocean (356)
 354,South,0,356,North,200
+# North Central Ocean (356) - South Lilycove (355)
+356,East,0,355,West,50
+# South Central Ocean (357) - South Lilycove (355)
+357,East,0,355,West,130
+# Ever Grande City North (322) - North Pokemon League (358)
+322,North,0,358,South,0

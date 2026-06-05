@@ -1796,3 +1796,21 @@ MapPosition = 0,0,0
 [357]   # South Central Ocean
 Name = South Central Ocean
 MapPosition = 0,0,0
+#-------------------------------
+[358]   # North Pokemon League
+Name = North Pokemon League
+MapPosition = 0,0,0
+#-------------------------------
+[359]   # Cutscene Maps
+Name = Cutscene Maps
+MapPosition = 0,0,0
+#-------------------------------
+[360]   # Oldale Route101 Combo
+Name = Oldale Town
+Outdoor = true
+MapPosition = 3,5,11
+#-------------------------------
+[361]   # Wally Ralts Cutscene
+Name = Petalburg City
+Outdoor = true
+MapPosition = 3,2,11
