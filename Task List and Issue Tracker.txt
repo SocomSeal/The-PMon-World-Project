@@ -67,6 +67,8 @@ KANTO
 - Missing TV animations
 - Missing Pokecenter Monitor animations during healing sequence
 - Missing Pokemart clerk dialogue
+JOHTO
+- Missing backsprites (and implementation) of alternate player costumes 201
 HOENN
 - Various tiles are not "complete" as faithful recreations, e.g. fences (Slateport, Route 117, etc.), slateport southwest sea corner, path inner corners, flower shop planter boxes, Lilycove Aqua Hideout Outdoor Entrance, Secret Base divots, land/sea edge upper tips (sootopolis, mt pyre), aqua hideout deep water with shadows, cave ledges, rusturf tunnel cave exits, Mirage Tower, MT. Chimney Caldera, Meteor Falls ledges, Seafloor cavern walls, Cave of Origin crystals (the corners on this tileset also suck, the whole thing is a mess), underwater cliffs, cave inner corners, Current tiles on Routes 132-134 are not layered below rocks/cliffs, causing unpleasant seams (see Route 133 middle for example of how this can be fixed, would need to do on all cliff and rock tiles)
 - Missing Sootopolis "crater tiles" on Route 126 - non-visible to player, low priority
@@ -77,8 +79,6 @@ HOENN
 - Fortree shadows are missing
 - Fortree bridges don't have bobbing animations when walked on
 - Pacifidlog bridges don't have bobbing animations when walked on (Current implementation has z-fighting issues)
-- Animated large water rocks are using the HGSS Gen 3 sprite instead of a proper RSE (RSE_Water Rock Large1 2 and 3 needs to have textures updated, with 2 needing to be updated to the proper color for Route 115)
-	- This animation was not in place in the original games, so can possibly be removed? Adding it back would be part of a graphics standardization pass
 - Tilesets need color correction - i.e. Lilycove Department textures are desaturated, this is a recurring issue with the Hoenn asset pack used. All tilesets must be corrected using properly ripped tiles.
 - No ORAS music exists for the Game Corner
 - Starter choice cutscene with Birch's bag is unimplemented - a temporary choice menu has been added in its place
@@ -86,6 +86,13 @@ HOENN
 - Hoenn TV Events and Logic
 - No player house clock event after "setting" it
 - Wally Ralts Catching Tutorial is unimplemented - a simple screen flash has been added in its place
+- Missing player front and backsprites for ORAS sprite (302)
+SINNOH
+- 
+UNOVA
+- 
+KALOS
+- 
 
 Inconsequential
 - Lore text on computer and other objects allow for omnidirectional reading
