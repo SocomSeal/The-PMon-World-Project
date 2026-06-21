@@ -9,7 +9,7 @@ Core Systems
 	- Add ability to trade in duplicate TMs to black market for credit
 - Implement better spinners? Turn to player when they run? (Plugin?)
 - Trainer lose text needs new line characters - how to implement?
-- Regional pokedexes need to be finished
+- Regional pokedexes need to be finished PAST Gen 7
 KANTO
 - Gamefreak diploma NPC is currently hard coded instead of calling for each number of species in a dex dynamically
 - Verify Kanto doubles classes (Twins, CoolCouple, etc.) are in PBS and called correctly. First battle should be trainer 0 and 1, rematch 1 and 2, etc.
@@ -22,9 +22,9 @@ Feature Complete
 - Redefine trainer classes and give proper money reward values
 - Trainer rematches/phone system
 - Seafoam Island boulder puzzle & Water currents
-- Sprites for key items (everything after OldSeaMap in PBS)
+- Sprites for key items (OAKPARCEL, SSTICKET, GOLDTEETH, BIKEVOUCHER, CARDKEY, LIFTKEY, SECRETKEY, TEA, TRIPASS, RAINBOWPASS, RUBY, SAPPHIRE, AURORATICKET)
 - TMs need descriptions (worked around in v22?)
-- All mail item functionality is missing
+- All mail item functionality is missing, including sprites
 KANTO
 - Teachy TV tutorial is nonfunctional
 - Selphy's requests are not coded
@@ -40,6 +40,7 @@ HOENN
 - Battle Frontier
 	- Check the events leading up to it. Scott's Match Call after becoming Champion, the proper dialogue for the Rival in Birch's lab
 - Missing Mystery Gift NPC (is usually on PC floor 2, relocate where? Mart behind counter next to shopkeep?)
+- Profile Man in Petalburg Pokecenter
 
 Cosmetic
 - Standardize all maps with proper tilesets
@@ -52,7 +53,7 @@ Cosmetic
 - "Wading" tiles do not properly function
 - Missing sound effect for spin tiles
 - Camera flicker with spin tiles
-- No arriving animations for warp tiles, fall through holes
+- Missing Pokemart clerk dialogue per region (pbMart functions have hard-coded dialogue)
 - Trainers that are meant to trigger instantly when walking into a door, i.e. on the SS Anne, are not evented to (Essentials does not let them trigger by themselves - need to use event touch events or hard code the trainer into the door entry event)
 KANTO
 - Intro cutscene needs to be touched up, sprite positioning
@@ -67,7 +68,7 @@ KANTO
 - Missing animations for Seagallop Ferry
 - Missing TV animations
 - Missing Pokecenter Monitor animations during healing sequence
-- Missing Pokemart clerk dialogue
+- No arriving animations for falling through holes
 JOHTO
 - Missing backsprites (and implementation) of alternate player costumes 201
 HOENN
@@ -78,7 +79,6 @@ HOENN
 - Fortree bridges don't have bobbing animations when walked on
 - Pacifidlog bridges don't have bobbing animations when walked on (Current implementation has z-fighting issues)
 - Tilesets need color correction - i.e. Lilycove Department textures are desaturated, this is a recurring issue with the Hoenn asset pack used. All tilesets must be corrected using properly ripped tiles.
-- No ORAS music exists for the Game Corner
 - Starter choice cutscene with Birch's bag is unimplemented - a temporary choice menu has been added in its place
 - NPC_RSE_WOMAN_3 has an incorrect sprite (top is meant to be yellow over red, with red bottoms)
 - Hoenn TV Events and Logic

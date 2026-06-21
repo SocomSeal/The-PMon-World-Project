@@ -18,6 +18,7 @@ MapPosition = 3,5,13
 [010]   # May's House
 Name = Prof. Birch's House
 MapPosition = 3,5,13
+Flags = PowerSpot
 #-------------------------------
 [011]   # Birch's Lab
 Name = Prof. Birch's Lab
@@ -150,6 +151,7 @@ MapSize = 1,11
 [037]   # Pokémon Fan Club
 Name = Pokémon Fan Club
 MapPosition = 3,9,12
+Flags = PowerSpot
 #-------------------------------
 [038]   # Stern's Shipyard
 Name = Stern's Shipyard
@@ -239,6 +241,7 @@ MapPosition = 3,4,2
 [056]   # Fallarbor Town Houses
 Name = Fallarbor Town
 MapPosition = 3,4,2
+Flags = PowerSpot
 #-------------------------------
 [057]   # Fallarbor Battle Tent
 Name = Fallarbor Battle Tent
@@ -255,6 +258,7 @@ MapPosition = 3,6,5
 Name = Lavaridge Town
 HealingSpot = 58,9,6
 MapPosition = 3,6,5
+Flags = PowerSpot
 #-------------------------------
 [060]   # Lavaridge Town Poké Mart
 Name = Lavaridge Town
@@ -266,6 +270,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 3,13,2
+Flags = PowerSpot
 #-------------------------------
 [065]   # Fortree City Poké Center
 Name = Fortree City
