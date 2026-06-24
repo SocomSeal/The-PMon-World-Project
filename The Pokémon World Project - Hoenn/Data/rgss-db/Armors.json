@@ -1,0 +1,22 @@
+[
+  null,
+  {
+    "json_class": "RPG::Armor",
+    "int_plus": 0,
+    "eva": 0,
+    "mdef": 0,
+    "icon_name": "",
+    "name": "",
+    "agi_plus": 0,
+    "price": 0,
+    "auto_state_id": 0,
+    "pdef": 0,
+    "guard_state_set": [],
+    "dex_plus": 0,
+    "kind": 0,
+    "guard_element_set": [],
+    "str_plus": 0,
+    "description": "",
+    "id": 1
+  }
+]

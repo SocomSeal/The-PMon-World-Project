@@ -1,0 +1,37 @@
+[
+  null,
+  {
+    "json_class": "RPG::Troop",
+    "pages": [
+      {
+        "json_class": "RPG::Troop::Page",
+        "list": [
+          {
+            "json_class": "RPG::EventCommand",
+            "parameters": [],
+            "indent": 0,
+            "code": 0
+          }
+        ],
+        "condition": {
+          "json_class": "RPG::Troop::Page::Condition",
+          "actor_id": 1,
+          "turn_a": 0,
+          "turn_valid": false,
+          "enemy_hp": 50,
+          "switch_valid": false,
+          "switch_id": 1,
+          "enemy_index": 0,
+          "actor_valid": false,
+          "actor_hp": 50,
+          "turn_b": 0,
+          "enemy_valid": false
+        },
+        "span": 0
+      }
+    ],
+    "name": "",
+    "id": 1,
+    "members": []
+  }
+]

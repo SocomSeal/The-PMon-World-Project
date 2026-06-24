@@ -40,6 +40,7 @@ HOENN
 - Battle Frontier
 	- Check the events leading up to it. Scott's Match Call after becoming Champion, the proper dialogue for the Rival in Birch's lab
 - Missing Mystery Gift NPC (is usually on PC floor 2, relocate where? Mart behind counter next to shopkeep?)
+	- Additionally missing the Mystery Gift questionaire in Marts
 - Profile Man in Petalburg Pokecenter
 
 Cosmetic
@@ -55,6 +56,7 @@ Cosmetic
 - Camera flicker with spin tiles
 - Missing Pokemart clerk dialogue per region (pbMart functions have hard-coded dialogue)
 - Trainers that are meant to trigger instantly when walking into a door, i.e. on the SS Anne, are not evented to (Essentials does not let them trigger by themselves - need to use event touch events or hard code the trainer into the door entry event)
+- Verify in-game trades are properly defined
 KANTO
 - Intro cutscene needs to be touched up, sprite positioning
 	- Intro cutscene does not have the Nidoran coming out of a pokeball animation while Oak remains loaded
@@ -85,6 +87,9 @@ HOENN
 - No player house clock event after "setting" it
 - Wally Ralts Catching Tutorial is unimplemented - a simple screen flash has been added in its place
 - Missing player front and backsprites for ORAS sprite (302)
+- Pokecenter Healing Machine ball graphic is reused from FRLG
+- Missing FRLG-style sprite for NPC_DEVONEMPLOYEE
+- Missing implementation of "Wanda" NPC in Rustboro
 SINNOH
 - 
 UNOVA

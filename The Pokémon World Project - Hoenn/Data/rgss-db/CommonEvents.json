@@ -1,0 +1,2390 @@
+[
+  null,
+  {
+    "json_class": "RPG::CommonEvent",
+    "list": [
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Sprite Main"
+        ],
+        "indent": 0,
+        "code": 118
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Please select an option"
+        ],
+        "indent": 0,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          [
+            "Player Sprites",
+            "Pokémon Sprites",
+            "General Settings",
+            "BACK"
+          ],
+          4
+        ],
+        "indent": 0,
+        "code": 102
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          "Player Sprites"
+        ],
+        "indent": 0,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player Sprites"
+        ],
+        "indent": 1,
+        "code": 118
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Select a sprite to use"
+        ],
+        "indent": 1,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          [
+            "Kanto",
+            "Johto",
+            "Hoenn",
+            "Sinnoh"
+          ],
+          0
+        ],
+        "indent": 1,
+        "code": 102
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          "Kanto"
+        ],
+        "indent": 1,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 1"
+        ],
+        "indent": 2,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player sprite changed to Kanto"
+        ],
+        "indent": 2,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player Sprites"
+        ],
+        "indent": 2,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          1,
+          "Johto"
+        ],
+        "indent": 1,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 2"
+        ],
+        "indent": 2,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player sprite changed to Johto"
+        ],
+        "indent": 2,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player Sprites"
+        ],
+        "indent": 2,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          2,
+          "Hoenn"
+        ],
+        "indent": 1,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          1,
+          100,
+          0,
+          0,
+          0
+        ],
+        "indent": 2,
+        "code": 111
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 3"
+        ],
+        "indent": 3,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 411
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          1,
+          100,
+          0,
+          1,
+          0
+        ],
+        "indent": 3,
+        "code": 111
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 301"
+        ],
+        "indent": 4,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 4,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 411
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          1,
+          100,
+          0,
+          2,
+          0
+        ],
+        "indent": 4,
+        "code": 111
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 302"
+        ],
+        "indent": 5,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 5,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 4,
+        "code": 411
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          100,
+          100,
+          0,
+          0,
+          0
+        ],
+        "indent": 5,
+        "code": 122
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "An error has occured with the Hoenn Sprite "
+        ],
+        "indent": 5,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Swapper.\\nPlease notify the developer and try again."
+        ],
+        "indent": 5,
+        "code": 401
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player Sprites"
+        ],
+        "indent": 5,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 5,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 4,
+        "code": 412
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 4,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 412
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 412
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player sprite changed to Hoenn"
+        ],
+        "indent": 2,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player Sprites"
+        ],
+        "indent": 2,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          3,
+          "Sinnoh"
+        ],
+        "indent": 1,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          250,
+          0
+        ],
+        "indent": 2,
+        "code": 111
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 4"
+        ],
+        "indent": 3,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 411
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 401"
+        ],
+        "indent": 3,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 412
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player sprite changed to Sinnoh"
+        ],
+        "indent": 2,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player Sprites"
+        ],
+        "indent": 2,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 1,
+        "code": 404
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          [
+            "Unova",
+            "Kalos",
+            "Alola",
+            "Galar"
+          ],
+          0
+        ],
+        "indent": 1,
+        "code": 102
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          "Unova"
+        ],
+        "indent": 1,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 5"
+        ],
+        "indent": 2,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player sprite changed to Unova"
+        ],
+        "indent": 2,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player Sprites"
+        ],
+        "indent": 2,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          1,
+          "Kalos"
+        ],
+        "indent": 1,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 6"
+        ],
+        "indent": 2,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player sprite changed to Kalos"
+        ],
+        "indent": 2,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player Sprites"
+        ],
+        "indent": 2,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          2,
+          "Alola"
+        ],
+        "indent": 1,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 7"
+        ],
+        "indent": 2,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player sprite changed to Alola"
+        ],
+        "indent": 2,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player Sprites"
+        ],
+        "indent": 2,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          3,
+          "Galar"
+        ],
+        "indent": 1,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 8"
+        ],
+        "indent": 2,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player sprite changed to Galar"
+        ],
+        "indent": 2,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player Sprites"
+        ],
+        "indent": 2,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 1,
+        "code": 404
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          [
+            "Paldea"
+          ],
+          4
+        ],
+        "indent": 1,
+        "code": 102
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          "Paldea"
+        ],
+        "indent": 1,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 9"
+        ],
+        "indent": 2,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player sprite changed to Paldea"
+        ],
+        "indent": 2,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player Sprites"
+        ],
+        "indent": 2,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 1,
+        "code": 404
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          [
+            "Other Regions",
+            "Other Characters",
+            "Custom",
+            "BACK"
+          ],
+          4
+        ],
+        "indent": 1,
+        "code": 102
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          "Other Regions"
+        ],
+        "indent": 1,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          [
+            "Hisui",
+            "Orre"
+          ],
+          4
+        ],
+        "indent": 2,
+        "code": 102
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          "Hisui"
+        ],
+        "indent": 2,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "PLACEHOLDER TEXT"
+        ],
+        "indent": 3,
+        "code": 108
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Insert sprite logic here"
+        ],
+        "indent": 3,
+        "code": 408
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "This option is not yet available"
+        ],
+        "indent": 3,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player Sprites"
+        ],
+        "indent": 3,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          1,
+          "Orre"
+        ],
+        "indent": 2,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "PLACEHOLDER TEXT"
+        ],
+        "indent": 3,
+        "code": 108
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Insert sprite logic here"
+        ],
+        "indent": 3,
+        "code": 408
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "This option is not yet available"
+        ],
+        "indent": 3,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player Sprites"
+        ],
+        "indent": 3,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 404
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          [
+            "BACK"
+          ],
+          1
+        ],
+        "indent": 2,
+        "code": 102
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          "BACK"
+        ],
+        "indent": 2,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player Sprites"
+        ],
+        "indent": 3,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 404
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          1,
+          "Other Characters"
+        ],
+        "indent": 1,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "PLACEHOLDER TEXT"
+        ],
+        "indent": 2,
+        "code": 108
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Insert sprite logic here"
+        ],
+        "indent": 2,
+        "code": 408
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "There are no options available"
+        ],
+        "indent": 2,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player Sprites"
+        ],
+        "indent": 2,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          2,
+          "Custom"
+        ],
+        "indent": 1,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 0"
+        ],
+        "indent": 2,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player sprite changed to Custom"
+        ],
+        "indent": 2,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Player Sprites"
+        ],
+        "indent": 2,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          3,
+          "BACK"
+        ],
+        "indent": 1,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Sprite Main"
+        ],
+        "indent": 2,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 1,
+        "code": 404
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 1,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          1,
+          "Pokémon Sprites"
+        ],
+        "indent": 0,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Pokémon Sprites"
+        ],
+        "indent": 1,
+        "code": 118
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "PLACEHOLDER TEXT"
+        ],
+        "indent": 1,
+        "code": 108
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Insert sprite logic here"
+        ],
+        "indent": 1,
+        "code": 408
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "There are no options available"
+        ],
+        "indent": 1,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Sprite Main"
+        ],
+        "indent": 1,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 1,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          2,
+          "General Settings"
+        ],
+        "indent": 0,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "General Settings"
+        ],
+        "indent": 1,
+        "code": 118
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "What would you like to change?"
+        ],
+        "indent": 1,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          [
+            "Sprite Lock",
+            "Regional Options"
+          ],
+          0
+        ],
+        "indent": 1,
+        "code": 102
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          "Sprite Lock"
+        ],
+        "indent": 1,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Sprite Lock"
+        ],
+        "indent": 2,
+        "code": 118
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          98,
+          0
+        ],
+        "indent": 2,
+        "code": 111
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$game_variables[1] = \"ON\""
+        ],
+        "indent": 3,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 411
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$game_variables[1] = \"OFF\""
+        ],
+        "indent": 3,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 412
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Sprite Lock is: \\v[1]"
+        ],
+        "indent": 2,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          [
+            "ON",
+            "OFF",
+            "INFO",
+            "BACK"
+          ],
+          4
+        ],
+        "indent": 2,
+        "code": 102
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          "ON"
+        ],
+        "indent": 2,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          98,
+          98,
+          0
+        ],
+        "indent": 3,
+        "code": 121
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Sprite Lock"
+        ],
+        "indent": 3,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          1,
+          "OFF"
+        ],
+        "indent": 2,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          98,
+          98,
+          1
+        ],
+        "indent": 3,
+        "code": 121
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Sprite Lock"
+        ],
+        "indent": 3,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          2,
+          "INFO"
+        ],
+        "indent": 2,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "This setting controls whether events are allowed to "
+        ],
+        "indent": 3,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "change the sprites automatically."
+        ],
+        "indent": 3,
+        "code": 401
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "The most common example of this is entering a new "
+        ],
+        "indent": 3,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "region, as by default your player sprite will "
+        ],
+        "indent": 3,
+        "code": 401
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "change to fit the region."
+        ],
+        "indent": 3,
+        "code": 401
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Turn this ON if you would like to retain a single sprite "
+        ],
+        "indent": 3,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "no matter what region you enter."
+        ],
+        "indent": 3,
+        "code": 401
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Sprite Lock"
+        ],
+        "indent": 3,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          3,
+          "BACK"
+        ],
+        "indent": 2,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "General Settings"
+        ],
+        "indent": 3,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 404
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          1,
+          "Regional Options"
+        ],
+        "indent": 1,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Regional Options"
+        ],
+        "indent": 2,
+        "code": 118
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Which region?"
+        ],
+        "indent": 2,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          [
+            "Hoenn",
+            "Sinnoh"
+          ],
+          0
+        ],
+        "indent": 2,
+        "code": 102
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          "Hoenn"
+        ],
+        "indent": 2,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          1,
+          100,
+          0,
+          0,
+          0
+        ],
+        "indent": 3,
+        "code": 111
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$game_variables[1] = \"Emerald\""
+        ],
+        "indent": 4,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 4,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 411
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          1,
+          100,
+          0,
+          1,
+          0
+        ],
+        "indent": 4,
+        "code": 111
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$game_variables[1] = \"RS\""
+        ],
+        "indent": 5,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 5,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 4,
+        "code": 411
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          1,
+          100,
+          0,
+          2,
+          0
+        ],
+        "indent": 5,
+        "code": 111
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$game_variables[1] = \"ORAS\""
+        ],
+        "indent": 6,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 6,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 5,
+        "code": 411
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          100,
+          100,
+          0,
+          0,
+          0
+        ],
+        "indent": 6,
+        "code": 122
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "An error has occured with the Hoenn Sprite "
+        ],
+        "indent": 6,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Swapper.\\nPlease notify the developer and try again."
+        ],
+        "indent": 6,
+        "code": 401
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 6,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 5,
+        "code": 412
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 5,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 4,
+        "code": 412
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 4,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 412
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Hoenn Sprite is set to \\v[1].\\n"
+        ],
+        "indent": 3,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Would you like to change it?"
+        ],
+        "indent": 3,
+        "code": 401
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          [
+            "YES",
+            "NO"
+          ],
+          2
+        ],
+        "indent": 3,
+        "code": 102
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          "YES"
+        ],
+        "indent": 3,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          [
+            "Emerald",
+            "RS",
+            "ORAS"
+          ],
+          0
+        ],
+        "indent": 4,
+        "code": 102
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          "Emerald"
+        ],
+        "indent": 4,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Hoenn Sprite Set to Emerald"
+        ],
+        "indent": 5,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          100,
+          100,
+          0,
+          0,
+          0
+        ],
+        "indent": 5,
+        "code": 122
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          12,
+          "$player.outfit == 3 || $player.outfit == 301 || $player.outfit == 302"
+        ],
+        "indent": 5,
+        "code": 111
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 3"
+        ],
+        "indent": 6,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 6,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 5,
+        "code": 412
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 5,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          1,
+          "RS"
+        ],
+        "indent": 4,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Hoenn Sprite Set to Ruby & Sapphire"
+        ],
+        "indent": 5,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          100,
+          100,
+          0,
+          0,
+          1
+        ],
+        "indent": 5,
+        "code": 122
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          12,
+          "$player.outfit == 3 || $player.outfit == 301 || $player.outfit == 302"
+        ],
+        "indent": 5,
+        "code": 111
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 301"
+        ],
+        "indent": 6,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 6,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 5,
+        "code": 412
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 5,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          2,
+          "ORAS"
+        ],
+        "indent": 4,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Hoenn Sprite Set to Omega Ruby & Alpha Sapphire"
+        ],
+        "indent": 5,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          100,
+          100,
+          0,
+          0,
+          2
+        ],
+        "indent": 5,
+        "code": 122
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          12,
+          "$player.outfit == 3 || $player.outfit == 301 || $player.outfit == 302"
+        ],
+        "indent": 5,
+        "code": 111
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 302"
+        ],
+        "indent": 6,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 6,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 5,
+        "code": 412
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 5,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 4,
+        "code": 404
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Regional Options"
+        ],
+        "indent": 4,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 4,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          1,
+          "NO"
+        ],
+        "indent": 3,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Regional Options"
+        ],
+        "indent": 4,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 4,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 404
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          1,
+          "Sinnoh"
+        ],
+        "indent": 2,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          250,
+          0
+        ],
+        "indent": 3,
+        "code": 111
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$game_variables[1] = \"ON\""
+        ],
+        "indent": 4,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 4,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 411
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$game_variables[1] = \"OFF\""
+        ],
+        "indent": 4,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 4,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 412
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Sinnoh Winter Sprite is set to \\v[1].\\n"
+        ],
+        "indent": 3,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Would you like to change it?"
+        ],
+        "indent": 3,
+        "code": 401
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          [
+            "YES",
+            "NO"
+          ],
+          2
+        ],
+        "indent": 3,
+        "code": 102
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          "YES"
+        ],
+        "indent": 3,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          250,
+          0
+        ],
+        "indent": 4,
+        "code": 111
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Sinnoh Sprite Set to Diamond & Pearl."
+        ],
+        "indent": 5,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          250,
+          250,
+          1
+        ],
+        "indent": 5,
+        "code": 121
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          12,
+          "$player.outfit == 4 || $player.outfit == 401"
+        ],
+        "indent": 5,
+        "code": 111
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 401"
+        ],
+        "indent": 6,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 6,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 5,
+        "code": 412
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 5,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 4,
+        "code": 411
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Sinnoh Sprite Set to Platinum."
+        ],
+        "indent": 5,
+        "code": 101
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          250,
+          250,
+          0
+        ],
+        "indent": 5,
+        "code": 121
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          12,
+          "$player.outfit == 4 || $player.outfit == 401"
+        ],
+        "indent": 5,
+        "code": 111
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "$player.outfit = 4"
+        ],
+        "indent": 6,
+        "code": 355
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 6,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 5,
+        "code": 412
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 5,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 4,
+        "code": 412
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Regional Options"
+        ],
+        "indent": 4,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 4,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          1,
+          "NO"
+        ],
+        "indent": 3,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Regional Options"
+        ],
+        "indent": 4,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 4,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 404
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 404
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          [
+            "BACK"
+          ],
+          1
+        ],
+        "indent": 2,
+        "code": 102
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          "BACK"
+        ],
+        "indent": 2,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "General Settings"
+        ],
+        "indent": 3,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 3,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 404
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 1,
+        "code": 404
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          [
+            "BACK"
+          ],
+          1
+        ],
+        "indent": 1,
+        "code": 102
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          0,
+          "BACK"
+        ],
+        "indent": 1,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Sprite Main"
+        ],
+        "indent": 2,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 2,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 1,
+        "code": 404
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 1,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          3,
+          "BACK"
+        ],
+        "indent": 0,
+        "code": 402
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [
+          "Choice Menu"
+        ],
+        "indent": 1,
+        "code": 119
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 1,
+        "code": 0
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 0,
+        "code": 404
+      },
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 0,
+        "code": 0
+      }
+    ],
+    "name": "Sprite Swap",
+    "trigger": 0,
+    "switch_id": 1,
+    "id": 1
+  },
+  {
+    "json_class": "RPG::CommonEvent",
+    "name": "",
+    "list": [
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 0,
+        "code": 0
+      }
+    ],
+    "trigger": 0,
+    "switch_id": 1,
+    "id": 2
+  },
+  {
+    "json_class": "RPG::CommonEvent",
+    "list": [
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 0,
+        "code": 0
+      }
+    ],
+    "name": "",
+    "trigger": 0,
+    "switch_id": 1,
+    "id": 3
+  },
+  {
+    "json_class": "RPG::CommonEvent",
+    "list": [
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 0,
+        "code": 0
+      }
+    ],
+    "name": "",
+    "trigger": 0,
+    "switch_id": 1,
+    "id": 4
+  },
+  {
+    "json_class": "RPG::CommonEvent",
+    "list": [
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 0,
+        "code": 0
+      }
+    ],
+    "name": "",
+    "trigger": 0,
+    "switch_id": 1,
+    "id": 5
+  },
+  {
+    "json_class": "RPG::CommonEvent",
+    "list": [
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 0,
+        "code": 0
+      }
+    ],
+    "name": "",
+    "trigger": 0,
+    "switch_id": 1,
+    "id": 6
+  },
+  {
+    "json_class": "RPG::CommonEvent",
+    "list": [
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 0,
+        "code": 0
+      }
+    ],
+    "name": "",
+    "trigger": 0,
+    "switch_id": 1,
+    "id": 7
+  },
+  {
+    "json_class": "RPG::CommonEvent",
+    "list": [
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 0,
+        "code": 0
+      }
+    ],
+    "name": "",
+    "trigger": 0,
+    "switch_id": 1,
+    "id": 8
+  },
+  {
+    "json_class": "RPG::CommonEvent",
+    "list": [
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 0,
+        "code": 0
+      }
+    ],
+    "name": "",
+    "trigger": 0,
+    "switch_id": 1,
+    "id": 9
+  },
+  {
+    "json_class": "RPG::CommonEvent",
+    "list": [
+      {
+        "json_class": "RPG::EventCommand",
+        "parameters": [],
+        "indent": 0,
+        "code": 0
+      }
+    ],
+    "name": "",
+    "trigger": 0,
+    "switch_id": 1,
+    "id": 10
+  }
+]
