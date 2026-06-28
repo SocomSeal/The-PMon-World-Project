@@ -57,8 +57,10 @@ Cosmetic
 - Trainers that are meant to trigger instantly when walking into a door, i.e. on the SS Anne, are not evented to (Essentials does not let them trigger by themselves - need to use event touch events or hard code the trainer into the door entry event)
 - Verify in-game trades are properly defined
 - Doors don't lock player in place during fade-in
+	- ALL DOOR EVENTS will need to be audited, for fade-in, transparency, etc. Fade-in while transparent, finish fade, remove transparency
 - Cutscenes are not properly coded (most prevalent in Kanto) - "walk in place" (2frame) and "Walk faster in place" (1frame) moveroutes are coded as "turn" moveroutes instead
 - Music fade is unimplemented with cutscenes, rival appearances, etc
+- Side-stair events are clunky
 KANTO
 - Intro cutscene needs to be touched up, sprite positioning
 	- Intro cutscene does not have the Nidoran coming out of a pokeball animation while Oak remains loaded
