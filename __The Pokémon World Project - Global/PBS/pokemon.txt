@@ -19574,7 +19574,7 @@ Color = Green
 Shape = Serpentine
 Habitat = Forest
 Category = Battery
-Pokedex = It buries itself in fallen leaves and barely Moves =  munching away on humus. If you accidentally step on one, you'll get a shock!
+Pokedex = It buries itself in fallen leaves and barely moves, munching away on humus. If you accidentally step on one, you'll get a shock!
 Generation = 7
 WildItemUncommon = CELLBATTERY
 Evolutions = VIKAVOLT,Item,THUNDERSTONE,VIKAVOLT,LocationFlag,Magnetic
@@ -21873,7 +21873,7 @@ Color = Yellow
 Shape = Insectoid
 Habitat = Grassland
 Category = Radome
-Pokedex = It barely Moves =  but it's still alive. Hiding in its shell without food or water seems to have awakened its psychic powers.
+Pokedex = It barely moves, but it's still alive. Hiding in its shell without food or water seems to have awakened its psychic powers.
 Generation = 8
 WildItemUncommon = PSYCHICSEED
 Evolutions = ORBEETLE,Level,30

@@ -12,18 +12,31 @@ Core Systems
 KANTO
 - Gamefreak diploma NPC is currently hard coded instead of calling for each number of species in a dex dynamically
 - Verify Kanto doubles classes (Twins, CoolCouple, etc.) are in PBS and called correctly. First battle should be trainer 0 and 1, rematch 1 and 2, etc.
+JOHTO
+- 
 HOENN
 - Verify tileset tiletags (combine with outdoor tileset door and overhang work?). Best done by copying a single tileset, then re-adding animated tiles per tileset.
 - Trainers PBS needs to be completed
+SINNOH
+- 
+UNOVA
+- 
+KALOS
+- 
+ALOLA
+- 
+GALAR
+- 
+PALDEA
+- 
 
 Feature Complete
-- Respawning item systems e.g. berries in berry forest, beach items
 - Redefine trainer classes and give proper money reward values
 - Trainer rematches/phone system
-- Seafoam Island boulder puzzle & Water currents
 - Sprites for key items (OAKPARCEL, SSTICKET, GOLDTEETH, BIKEVOUCHER, CARDKEY, LIFTKEY, SECRETKEY, TEA, TRIPASS, RAINBOWPASS, RUBY, SAPPHIRE, AURORATICKET)
 - TMs need descriptions (worked around in v22?)
 - All mail item functionality is missing, including sprites
+- Verify in-game trades are properly defined
 KANTO
 - Teachy TV tutorial is nonfunctional
 - Selphy's requests are not coded
@@ -34,6 +47,11 @@ KANTO
 	- Items should be held by wild pokemon that can evolve using them, i.e. Protector on Rhyhorn/Rhydon, Magmarizer on Magmar, etc.
 	- Exceptions should be made at best judgement and must fit established lore, I.e., the Up-Grade for Porygon was moved to Silph Co. from the Rocket Warehouse, with the Dubious Disc replacing the spawn in the Rocket Warehouse
 - Trainer tower
+- Respawning item systems e.g. berries in berry forest, beach items
+- Seafoam Island boulder puzzle & Water currents
+- Trainers that are meant to trigger instantly when walking into a door, i.e. on the SS Anne, are not evented to (Essentials does not let them trigger by themselves - need to use event touch events or hard code the trainer into the door entry event)
+JOHTO
+- 
 HOENN
 - Water currents (currently implemented as normal water tiles)
 - Battle Frontier
@@ -41,6 +59,19 @@ HOENN
 - Missing Mystery Gift NPC (is usually on PC floor 2, relocate where? Mart behind counter next to shopkeep?)
 	- Additionally missing the Mystery Gift questionaire in Marts
 - Profile Man in Petalburg Pokecenter
+- All vendors that sell secret base items are missing them (Pretty Petal Flower Shop, 
+SINNOH
+- 
+UNOVA
+- 
+KALOS
+- 
+ALOLA
+- 
+GALAR
+- 
+PALDEA
+- 
 
 Cosmetic
 - Standardize all maps with proper tilesets
@@ -54,13 +85,15 @@ Cosmetic
 - Missing sound effect for spin tiles
 - Camera flicker with spin tiles
 - Missing Pokemart clerk dialogue per region (pbMart functions have hard-coded dialogue)
-- Trainers that are meant to trigger instantly when walking into a door, i.e. on the SS Anne, are not evented to (Essentials does not let them trigger by themselves - need to use event touch events or hard code the trainer into the door entry event)
-- Verify in-game trades are properly defined
 - Doors don't lock player in place during fade-in
-	- ALL DOOR EVENTS will need to be audited, for fade-in, transparency, etc. Fade-in while transparent, finish fade, remove transparency
+	- ALL DOOR EVENTS will need to be audited, for fade-in, transparency, etc.
+	  8 frame delay on transparent fades, such as caves
+	  6 frame delay to match fade on player-visible 'empty door' events, so it finishes before the player gains control
+	  Doors with an animation retain the 6 frame fade without any frame delay on top of it, as the animation covers the gap
 - Cutscenes are not properly coded (most prevalent in Kanto) - "walk in place" (2frame) and "Walk faster in place" (1frame) moveroutes are coded as "turn" moveroutes instead
 - Music fade is unimplemented with cutscenes, rival appearances, etc
 - Side-stair events are clunky
+- NPC dialogue referencing "Single Use TM" items should be updated to reference TRs, due to the project's mechanics gen being set to current
 KANTO
 - Intro cutscene needs to be touched up, sprite positioning
 	- Intro cutscene does not have the Nidoran coming out of a pokeball animation while Oak remains loaded
@@ -93,21 +126,52 @@ HOENN
 - Wally Ralts Catching Tutorial is unimplemented - a simple screen flash has been added in its place
 - Missing player front and backsprites for ORAS sprite (302)
 - Pokecenter Healing Machine ball graphic is reused from FRLG
-- Missing FRLG-style sprite for NPC_DEVONEMPLOYEE
+- Missing FRLG-style sprite for trainer_PSYCHIC_F, color correction on trainer_AROMALADY
 - Missing implementation of "Wanda" NPC in Rustboro
+- Secret base tiles (especially cliff walls) need to be redone once the plugin is implemented
+- Prof Birch needs coding to be on Route 101 and Route 103 after the Wally sequence - time should be split, Sun Lab, Mon/Tues 101, Weds/Thurs 103, Fri/Sat Lab
+- Petalburg Gym Doors are missing an "Unlock" sound effect
+- There are no dungeon location previews
+SINNOH
+- 
+- There are no dungeon location previews
+UNOVA
+- 
+- There are no dungeon location previews
+KALOS
+- 
+- There are no dungeon location previews
+ALOLA
+- 
+- There are no dungeon location previews
+GALAR
+- 
+- There are no dungeon location previews
+PALDEA
+- 
+- There are no dungeon location previews
+
+Inconsequential
+- Lore text on computer and other objects allow for omnidirectional reading
+- PBS data is (mostly) shared between regions. Could rewrite Essentials code to utilize the disc scripts? I.e., change Species DATA_FILENAME from "species.dat" to filepath disc#/+"species.dat"
+- In-game trade pokemon do not properly set OT ID
+KANTO
+- Missing blackboard text on celadon mansion rooftop explaining game mechanics (replaced by status blackboard)
+- NPC_FRLG_POLICEMAN should be renamed NPC_FRLG_GUARD
+HOENN
+- 
+HOENN
+- Flypoint and healingpoint for Littleroot is set to Birch's Lab, how to make it go to each house defined by player gender?
+	Healingpoint can be done by splitting player's house into two maps, but how fly?
 SINNOH
 - 
 UNOVA
 - 
 KALOS
 - 
-
-Inconsequential
-- Lore text on computer and other objects allow for omnidirectional reading
-- PBS data is (mostly) shared between regions. Could rewrite Essentials code to utilize the disc scripts? I.e., change Species DATA_FILENAME from "species.dat" to filepath disc#/+"species.dat"
-KANTO
-- Missing blackboard text on celadon mansion rooftop explaining game mechanics (replaced by status blackboard)
-- NPC_FRLG_POLICEMAN should be renamed NPC_FRLG_GUARD
-HOENN
-- Flypoint and healingpoint for Littleroot is set to Birch's Lab, how to make it go to each house defined by player gender?
-	Healingpoint can be done by splitting player's house into two maps, but how fly?
+ALOLA
+- 
+GALAR
+- 
+PALDEA
+- 

@@ -227,11 +227,10 @@ end
 
 #
 # Multidisc Scripts - sprintf("Data/Map%03d.rxdata", -> sprintf("Data/%sMap%03d.rxdata", $game_system.disc,
-#	ONLY CHANGE LISTED - DO NOT TOUCH Intl_Messages or CompilePBS
+#	ONLY CHANGE LISTED - DO NOT TOUCH Intl_Messages, CompilePBS, or Compiler_MapsAndEvents
 #	Script section StartGame - Line 13
 #	Script section Scene_Map - Line 60
 #	Script section Game_Map - Line 48
 #	Script section Game_MapFactory - Line 455
 #	Script section TileDrawingHelper - Line 165, Line 212
 #	Script section Overworld_MapTransitionAnims - Line 108
-#	Script section Compiler_MapsAndEvents - Line 312

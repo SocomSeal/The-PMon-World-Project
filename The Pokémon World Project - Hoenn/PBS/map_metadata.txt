@@ -1528,12 +1528,12 @@ Name = Battle Pyramid
 ShowArea = true
 MapPosition = 3,23,14
 #-------------------------------
-[292]   # Battle Frontier Poké Center
+[292]   # Oldale Town Poké Center
 Name = Battle Frontier
 HealingSpot = 284,64,53
 MapPosition = 3,23,14
 #-------------------------------
-[293]   # Battle Frontier Poké Mart
+[293]   # Oldale Town Poké Mart
 Name = Battle Frontier
 MapPosition = 3,23,14
 #-------------------------------
@@ -1810,12 +1810,22 @@ MapPosition = 0,0,0
 Name = Cutscene Maps
 MapPosition = 0,0,0
 #-------------------------------
-[360]   # Oldale Route101 Combo
+[360]   # Oldale Route101 Cutscene
 Name = Oldale Town
 Outdoor = true
 MapPosition = 3,5,11
 #-------------------------------
-[361]   # Wally Ralts Cutscene
+[361]   # Petalburg Cutscene
 Name = Petalburg City
 Outdoor = true
 MapPosition = 3,2,11
+#-------------------------------
+[362]   # Slateport -> Dewford Boat Cutscene
+Name = Dewford Town
+Outdoor = true
+MapPosition = 3,1,15
+#-------------------------------
+[363]   # Dewford -> Slateport Boat Cutscene
+Name = Route 104
+Outdoor = true
+MapPosition = 3,1,15
