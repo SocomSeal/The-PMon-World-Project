@@ -413,7 +413,7 @@ class Battle
     @bgm_position     = 0
     @default_bgm      = nil
     @playing_bgm      = nil
-    @low_hp_bgm       = "Battle low HP"
+    @low_hp_bgm       = "SYS Battle Low HP"
   end
   
   #-----------------------------------------------------------------------------

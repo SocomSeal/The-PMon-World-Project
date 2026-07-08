@@ -4,13 +4,6 @@
 StartMoney = 3000
 StartItemStorage = POTION
 Home = 2,0,1,8
-StorageCreator = Bill
-WildBattleBGM = FRLG Battle (VS Wild Pokemon)
-TrainerBattleBGM = FRLG Battle (VS Trainer)
-WildVictoryBGM = FRLG Victory (VS Wild Pokemon)
-TrainerVictoryBGM = FRLG Victory (VS Trainer)
-SurfBGM = FRLG Surfing
-BicycleBGM = FRLG Cycling
 #-------------------------------
 [1]
 TrainerType = player_M

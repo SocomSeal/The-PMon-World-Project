@@ -94,6 +94,9 @@ Cosmetic
 - Music fade is unimplemented with cutscenes, rival appearances, etc
 - Side-stair events are clunky
 - NPC dialogue referencing "Single Use TM" items should be updated to reference TRs, due to the project's mechanics gen being set to current
+- Pokemon storage creator should be updated to a regional array
+- Should title_bgm be updated to a regional array? A random regional array?
+- Credits need to be updated with a regional music array
 KANTO
 - Intro cutscene needs to be touched up, sprite positioning
 	- Intro cutscene does not have the Nidoran coming out of a pokeball animation while Oak remains loaded
@@ -132,6 +135,7 @@ HOENN
 - Prof Birch needs coding to be on Route 101 and Route 103 after the Wally sequence - time should be split, Sun Lab, Mon/Tues 101, Weds/Thurs 103, Fri/Sat Lab
 - Petalburg Gym Doors are missing an "Unlock" sound effect
 - There are no dungeon location previews
+- Briney Boat sequence TECHNICALLY has the camera one tile too low, as it is centered on the player (which is the boat sprite during the cutscene), and not one tile above as it is in the OG
 SINNOH
 - 
 - There are no dungeon location previews

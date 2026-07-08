@@ -13,7 +13,8 @@ Script section Utilities_BattleAudio -  define region defaults, including per ge
 Script section Overworld and Overworld_FieldMoves - Define region defaults for surfing (pbBGMPlay(surfbgm))
 Script section UI_Credits - change constants to array of images and BGM, controlled by region
 Script section UI_HallOfFame - change constants to array of BGM, controlled by region
-Script section UI_Evolution and UI_EggHatching - array of BGM, controlled by region
+Script section UI_Evolution and UI_EggHatching - array of BGM, controlled by region for evomusic and success
+Script section UI_Evolution - update system file from "Evolution start" to "SYS Evolution Start"
 Script section Overworld - regional item get ME
 Script section UI_MysteryGift - Sounds
 Script section Utilities_Pokemon - regional sounds for pbAddPokemon, AddtoParty, AddForeignPokemon
@@ -35,7 +36,8 @@ Multidisc Scripts (See forum thread or documentation)
 Script section ALL - Replace "Object ball" with "OBJ_SYSTEM_POKEBALL"
 Script section UI_TrainerCard - Update calculation for displayed badges to make badge events easier (i.e. 11-18), if $player.badges[i + 1 + (region * 10)]
 Script section Utilities - Line 383, def pbGetCurrentRegion - limit region check to max of 100 regions (0-49 main games, 50-99 side games), with regions over 100 (sub-regions) being returned as their primary region
-
+Script section Plugins > DBK_000 > 001 > 003 change @low_hp_bgm filename to "SYS Battle Low HP"
+Script section Game_Player - Line 603, update bike_bgm to regional array
 	
 	
 Encounters PBS (per region as .dat)
