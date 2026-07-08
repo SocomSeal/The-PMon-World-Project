@@ -18,6 +18,12 @@ Current Major Roadblocks:
 
 Socom's Worklist
 
+- Scripting
+	Events through delivering Steven's Letter are done
+	
+	!!!When Sootopolis is scripted, MAKE SURE TO REMEMBER SCENARIO HANDLING. 
+	If the player flies into Sootopolis when the storm sequence is happening, 
+	they need to be sent to the storm/event version of the map! (Use autorun event to transfer?)!!!
 
 - Graphics standardization
 	- Create secondary set of Trainer and Pokemon graphics (Gen 3 64px statics, and Gen4/5 80px static/96px animated)
@@ -25,6 +31,3 @@ Socom's Worklist
 - Hoenn mapping
 	DOORS. !!!Tilesets need overhangs!!!
 		Could touch up Kanto in this way?
-- Scripting
-	Events through saving Peeko are done
-	!!!When Sootopolis is scripted, MAKE SURE TO REMEMBER SCENARIO HANDLING. If the player flies into Sootopolis when the storm sequence is happening, they need to be sent to the storm/event version of the map! (Use autorun event to transfer?)!!!

@@ -1,0 +1,40 @@
+General:
+  - There seem to be some shady figures hanging about each region's Professor's labs.
+	I wonder what they're up to? Are the assistants in on their schemes?
+  - You may have to leave your Pokemon behind when traveling to a new region, but you can
+	pack anything you'd like in your bags. I wonder what kind of mischief this could cause?
+
+Kanto:
+  - That trainer at the end of Nugget Bridge is really bad with faces. I bet he'd just
+	keep handing out free nuggets if you just left and came back!
+  - Silph Co. is the leader of technological innovation in Kanto. They've even created an
+	Up-Grade material that can evolve a certain Pokemon! Unfortunately, I hear Team Rocket
+	has stolen the research to create their own version... I hope it can be recovered from them soon.
+  - Mew? The precursor Pokemon? I hear you can find information about it on Cinnabar Island.
+  - What's up with that suspicious abandoned truck on Vermilion's docks? Could it have anything
+	to do with the rumors that the S.S. Anne is used to traffic Pokemon for Team Rocket?
+
+Johto:
+  - COMING SOON
+
+Hoenn:
+  - COMING SOON
+
+Sinnoh:
+  - COMING SOON
+
+Unova:
+  - COMING SOON
+
+Kalos:
+  - COMING SOON
+
+Alola:
+  - COMING SOON
+
+Galar:
+  - COMING SOON
+
+Paldea:
+  - COMING SOON
+  - 
