@@ -96,6 +96,7 @@ Cosmetic
 - NPC dialogue referencing "Single Use TM" items should be updated to reference TRs, due to the project's mechanics gen being set to current
 - Pokemon storage creator should be updated to a regional array
 - Should title_bgm be updated to a regional array? A random regional array?
+- Should evolution be updated to a regional array?
 - Credits need to be updated with a regional music array
 KANTO
 - Intro cutscene needs to be touched up, sprite positioning
@@ -136,6 +137,7 @@ HOENN
 - Petalburg Gym Doors are missing an "Unlock" sound effect
 - There are no dungeon location previews
 - Briney Boat sequence TECHNICALLY has the camera one tile too low, as it is centered on the player (which is the boat sprite during the cutscene), and not one tile above as it is in the OG
+- Intro Truck cutscene is missing (truck noises, shifting boxes)
 SINNOH
 - 
 - There are no dungeon location previews
