@@ -1,11 +1,11 @@
 General:
   - There seem to be some shady figures hanging about each region's Professor's labs.
-	I wonder what they're up to? Are the assistants in on their schemes?
+	I wonder what they're up to? Are the aides in on their schemes?
   - You may have to leave your Pokemon behind when traveling to a new region, but you can
 	pack anything you'd like in your bags. I wonder what kind of mischief this could cause?
 
 Kanto:
-  - That trainer at the end of Nugget Bridge is really bad with faces. I bet he'd just
+  - That trainer at the end of Nugget Bridge is really bad with faces. I bet he'd
 	keep handing out free nuggets if you just left and came back!
   - Silph Co. is the leader of technological innovation in Kanto. They've even created an
 	Up-Grade material that can evolve a certain Pokemon! Unfortunately, I hear Team Rocket
