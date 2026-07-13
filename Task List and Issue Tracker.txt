@@ -59,7 +59,11 @@ HOENN
 - Missing Mystery Gift NPC (is usually on PC floor 2, relocate where? Mart behind counter next to shopkeep?)
 	- Additionally missing the Mystery Gift questionaire in Marts
 - Profile Man in Petalburg Pokecenter
-- All vendors that sell secret base items are missing them (Pretty Petal Flower Shop, 
+- All vendors that sell secret base items are missing them (Pretty Petal Flower Shop, Slateport Market, 
+- Berry Powder functionality (NPC in Slateport Market, 
+- Pokemon contests. Contests themselves, Fan club president, 
+- Interviewers and interview code (Fan club, 
+- Battle tent functionality 
 SINNOH
 - 
 UNOVA
@@ -98,6 +102,7 @@ Cosmetic
 - Should title_bgm be updated to a regional array? A random regional array?
 - Should evolution be updated to a regional array?
 - Credits need to be updated with a regional music array
+- Rustboro Match Call cutscene has the incorrect sound effect
 KANTO
 - Intro cutscene needs to be touched up, sprite positioning
 	- Intro cutscene does not have the Nidoran coming out of a pokeball animation while Oak remains loaded
@@ -125,12 +130,13 @@ HOENN
 - Tilesets need color correction - i.e. Lilycove Department textures are desaturated, this is a recurring issue with the Hoenn asset pack used. All tilesets must be corrected using properly ripped tiles.
 - Starter choice cutscene with Birch's bag is unimplemented - a temporary choice menu has been added in its place
 - NPC_RSE_WOMAN_3 has an incorrect sprite (top is meant to be yellow over red, with red bottoms)
+- trainer_RSE_PSYCHIC_F has no accurate overworld sprite, color correction on trainer_RSE_AROMALADY, RSE_INTERVIEWERS class
+- Missing accurate overworlds for the RSE_YOUNGCOUPLE trainer class
 - Hoenn TV Events and Logic
 - No player house clock event after "setting" it
 - Wally Ralts Catching Tutorial is unimplemented - a simple screen flash has been added in its place
 - Missing player front and backsprites for ORAS sprite (302)
 - Pokecenter Healing Machine ball graphic is reused from FRLG
-- Missing FRLG-style sprite for trainer_PSYCHIC_F, color correction on trainer_AROMALADY
 - Missing implementation of "Wanda" NPC in Rustboro
 - Secret base tiles (especially cliff walls) need to be redone once the plugin is implemented
 - Prof Birch needs coding to be on Route 101 and Route 103 after the Wally sequence - time should be split, Sun Lab, Mon/Tues 101, Weds/Thurs 103, Fri/Sat Lab

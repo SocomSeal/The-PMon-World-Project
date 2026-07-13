@@ -24,7 +24,6 @@ Name = Viridian City
 Outdoor = true
 ShowArea = true
 MapPosition = 1,5,10
-Flags = PowerSpot
 #-------------------------------
 [011]   # Viridian City Poké Center
 Name = Viridian City
@@ -148,7 +147,6 @@ MapPosition = 1,12,8
 Name = Celadon City
 HealingSpot = 36,48,18
 MapPosition = 1,12,8
-Flags = PowerSpot
 #-------------------------------
 [038]   # Celadon Dept. Store
 Name = Celadon Dept. Store
@@ -231,7 +229,6 @@ MapPosition = 1,15,8
 [056]   # Saffron Fighting Dojo
 Name = Fighting Dojo
 MapPosition = 1,15,8
-Flags = PowerSpot
 #-------------------------------
 [057]   # Saffron Gym
 Name = Saffron Gym
@@ -247,7 +244,6 @@ MapPosition = 1,5,16
 Name = Cinnabar Island
 HealingSpot = 58,20,12
 MapPosition = 1,5,16
-Flags = PowerSpot
 #-------------------------------
 [060]   # Cinnabar Island Poké Mart
 Name = Cinnabar Island
@@ -256,7 +252,6 @@ MapPosition = 1,5,16
 [061]   # Pokémon Lab
 Name = Pokémon Lab
 MapPosition = 1,5,16
-Flags = PowerSpot
 #-------------------------------
 [062]   # Cinnabar Gym
 Name = Cinnabar Gym
@@ -271,7 +266,6 @@ MapPosition = 1,3,5
 [064]   # Pokémon League
 Name = Pokémon League
 MapPosition = 1,3,5
-Flags = PowerSpot
 #-------------------------------
 [065]   # Elite Four Lorelei
 Name = Elite Four Lorelei
