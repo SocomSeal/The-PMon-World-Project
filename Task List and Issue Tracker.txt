@@ -118,6 +118,7 @@ KANTO
 - Missing Pokecenter Monitor animations during healing sequence
 - No arriving animations for falling through holes
 - The running shoes event in Pewter was entirely omitted - it should be included in the resource, even if commented out/hidden by self-switches during regular gameplay
+- Large tree sprites need their shadows properly done, i.e. sprite without them on the outer edge of the trees
 JOHTO
 - Missing backsprites (and implementation) of alternate player costumes 201
 HOENN
