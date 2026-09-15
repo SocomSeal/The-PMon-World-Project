@@ -3,7 +3,7 @@
 [0]
 StartMoney = 3000
 StartItemStorage = POTION
-Home = 2,0,1,8
+Home = 2,0,0,0
 #-------------------------------
 [1]
 TrainerType = player_M
