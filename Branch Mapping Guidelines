@@ -5,6 +5,7 @@ Where should you be working? If you're editing:
 - map_metadata PBS
 
 ONLY make these changes within your region's project. 
+
 If your work is finalized, you MUST compile your project afterwards, and copy these things to Full Game, in the relevant Data\disc# folder
 - Maps
 - encounters.dat
@@ -25,3 +26,12 @@ If you want to edit:
 
 Then you MUST perform these changes within the Global project, and ensure that your changes are properly copied to Full Game AND other region projects. 
 Failure to follow these guidelines will cause projects to desync.
+
+
+
+
+If starting a new Region, copy the "Global" project and rename it. The items to change are:
+Project Title
+Region Transfer Map Scripts (Copy from another region, such as Kanto, and update variables)
+
+Example images can be found in the #systems-general Discord channel.
