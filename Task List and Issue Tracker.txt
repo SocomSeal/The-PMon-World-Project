@@ -11,7 +11,7 @@ Core Systems
 - Trainer lose text needs new line characters - how to implement?
 KANTO
 - Gamefreak diploma NPC is currently hard coded instead of calling for each number of species in a dex dynamically
-- Verify Kanto doubles classes (Twins, CoolCouple, etc.) are in PBS and called correctly. First battle should be trainer 0 and 1, rematch 1 and 2, etc.
+- Verify Kanto doubles classes (Twins, CoolCouple, etc.) are in PBS and called correctly. First battle should be trainer 0 and 1, rematch 2 and 3, etc.
 JOHTO
 - 
 HOENN
@@ -32,7 +32,9 @@ PALDEA
 
 Feature Complete
 - Redefine trainer classes and give proper money reward values
-- Trainer rematches/phone system
+- Trainer rematches/phone system, make it REGIONAL
+	- All trainer events with rematches need to be remade
+	- Pay special attention to boss trainers such as gym leaders and rival, and key characters such as professor, mom, etc.
 - Sprites for key items (OAKPARCEL, SSTICKET, GOLDTEETH, BIKEVOUCHER, CARDKEY, LIFTKEY, SECRETKEY, TEA, TRIPASS, RAINBOWPASS, RUBY, SAPPHIRE, AURORATICKET)
 - TMs need descriptions (worked around in v22?)
 - All mail item functionality is missing, including sprites
@@ -54,16 +56,25 @@ JOHTO
 - 
 HOENN
 - Water currents (currently implemented as normal water tiles)
-- Battle Frontier
+- Battle frontier
 	- Check the events leading up to it. Scott's Match Call after becoming Champion, the proper dialogue for the Rival in Birch's lab
 - Missing Mystery Gift NPC (is usually on PC floor 2, relocate where? Mart behind counter next to shopkeep?)
 	- Additionally missing the Mystery Gift questionaire in Marts
 - Profile Man in Petalburg Pokecenter
 - All vendors that sell secret base items are missing them (Pretty Petal Flower Shop, Slateport Market, 
 - Berry Powder functionality (NPC in Slateport Market, 
-- Pokemon contests. Contests themselves, Fan club president, 
-- Interviewers and interview code (Fan club, 
+- Pokemon contests. Contests themselves, Fan club, artwork in museum, 
+- Interviewers and interview code (OCeanic Museum, Fan club, gabby and ty, 
 - Battle tent functionality 
+- Birch pokedex review events, including in lab
+- Post-game Norman and other player house events
+- Post-game littleroot events i.e. battle frontier, lati roamer, etc.
+- Update Slateport and Lilycove ferry attendant events (they currently have the Vermillion sailor dialogue)
+- Implement Mach and Acro bikes
+	- Implement cracked cave tiles (Granite Cave, 
+- Superancient pokemon roaming events (Route 105, 
+- Dungeons: Petalburg Woods, Rusturf Tunnel, Granite Cave, Abandoned Cave, New Mauvile, 
+- Verify trainers in gyms
 SINNOH
 - 
 UNOVA
@@ -79,6 +90,7 @@ PALDEA
 
 Cosmetic
 - Standardize all maps with proper tilesets
+- Standardize dialogue with either "..." or "…"
 - Verify color palettes are RGB (Debug is showing errors on sprite load)
 - Doors. 32px doors need proper overhangs set on the tileset, and 40px doors need similar fixes to function. (Set tileset as "open", make door event sprites transparent)
 - Entrance/Exits do not display an arrow when standing on them, before the player triggers the warp
@@ -124,7 +136,6 @@ JOHTO
 HOENN
 - Various tiles are not "complete" as faithful recreations, e.g. fences (Slateport, Route 117, etc.), slateport southwest sea corner, path inner corners, flower shop planter boxes, Lilycove Aqua Hideout Outdoor Entrance, Secret Base divots, land/sea edge upper tips (sootopolis, mt pyre), aqua hideout deep water with shadows, cave ledges, rusturf tunnel cave exits, Mirage Tower, MT. Chimney Caldera, Meteor Falls ledges, Seafloor cavern walls, Cave of Origin crystals (the corners on this tileset also suck, the whole thing is a mess), underwater cliffs, cave inner corners, Current tiles on Routes 132-134 are not layered below rocks/cliffs, causing unpleasant seams (see Route 133 middle for example of how this can be fixed, would need to do on all cliff and rock tiles)
 - Missing Sootopolis "crater tiles" on Route 126 - non-visible to player, low priority
-	- Missing "Land Water Edge" tiles around Sootopolis on Route 126, as the map requires too many autotiles
 - Fortree shadows are missing
 - Fortree bridges don't have bobbing animations when walked on
 - Pacifidlog bridges don't have bobbing animations when walked on (Current implementation has z-fighting issues)
@@ -141,10 +152,11 @@ HOENN
 - Missing implementation of "Wanda" NPC in Rustboro
 - Secret base tiles (especially cliff walls) need to be redone once the plugin is implemented
 - Prof Birch needs coding to be on Route 101 and Route 103 after the Wally sequence - time should be split, Sun Lab, Mon/Tues 101, Weds/Thurs 103, Fri/Sat Lab
-- Petalburg Gym Doors are missing an "Unlock" sound effect
+- Petalburg Gym Doors are missing the proper "Unlock" sound effect
 - There are no dungeon location previews
 - Briney Boat sequence TECHNICALLY has the camera one tile too low, as it is centered on the player (which is the boat sprite during the cutscene), and not one tile above as it is in the OG
 - Intro Truck cutscene is missing (truck noises, shifting boxes)
+- Dewford Gym doesn't have the darkness mechanic implemented
 SINNOH
 - 
 - There are no dungeon location previews

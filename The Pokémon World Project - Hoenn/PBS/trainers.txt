@@ -4117,7 +4117,7 @@ LoseText =
 Pokemon = PLUSLE,15
 Pokemon = MINUN,15
 [RSE_POKEFAN_M,Miguel]
-LoseText = 
+LoseText = Oh, my gosh!\nMy darling POKéMON!
 Pokemon = SKITTY,15
 	Gender = female
 	Item = ORANBERRY

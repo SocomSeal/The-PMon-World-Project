@@ -42,8 +42,11 @@ Script section Game_Player - Line 603, update bike_bgm to regional array
 Script section UI_Trading - update "battle capture success" BGM to SYS file (Intentionally NOT set to regional)
 Script section Overworld_BerryPlants - Line 455, update "Berry get" to regional music array
 All sections - replace instances of pbSEPlay("Pkmn level up") with a regional sound array for levelUpEffect
-	
-	
+Script section Item_Phone - Line 207, add def self.doublebattle(trainer_type, name, version_modifier = 0, start_version = 0)
+
+
+
+
 Encounters PBS (per region as .dat)
 Map Connections PBS (per region as .dat)
 Map Metadata PBS (per region as .dat)
