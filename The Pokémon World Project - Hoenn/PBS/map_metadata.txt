@@ -563,6 +563,7 @@ MapPosition = 3,9,7
 #-------------------------------
 [119]   # Trainer Hill
 Name = Trainer Hill
+HealingSpot = 117,31,113
 MapPosition = 3,9,7
 #-------------------------------
 [120]   # Rest House
@@ -934,6 +935,7 @@ Name = Mt. Chimney
 Outdoor = true
 ShowArea = true
 Bicycle = true
+Weather = RSE_Ash,100
 MapPosition = 3,8,4
 #-------------------------------
 [179]   # Cable Car Station
@@ -1408,7 +1410,7 @@ MapPosition = 3,25,11
 #-------------------------------
 [269]   # Intro Truck
 Name = Moving Truck
-MapPosition = 3,5,13
+MapPosition = 3,0,0
 #-------------------------------
 [270]   # Altering Cave
 Name = Altering Cave
@@ -1528,12 +1530,12 @@ Name = Battle Pyramid
 ShowArea = true
 MapPosition = 3,23,14
 #-------------------------------
-[292]   # Oldale Town Poké Center
+[292]   # Battle Frontier Poké Center
 Name = Battle Frontier
 HealingSpot = 284,64,53
 MapPosition = 3,23,14
 #-------------------------------
-[293]   # Oldale Town Poké Mart
+[293]   # Battle Frontier Poké Mart
 Name = Battle Frontier
 MapPosition = 3,23,14
 #-------------------------------
@@ -1820,12 +1822,27 @@ Name = Petalburg City
 Outdoor = true
 MapPosition = 3,2,11
 #-------------------------------
-[362]   # Slateport -> Dewford Boat Cutscene
+[362]   # Petalburg -> Dewford Boat Cutscene
 Name = Dewford Town
 Outdoor = true
 MapPosition = 3,1,15
 #-------------------------------
-[363]   # Dewford -> Slateport Boat Cutscene
+[363]   # Dewford -> Petalburg Boat Cutscene
 Name = Route 104
 Outdoor = true
 MapPosition = 3,1,15
+#-------------------------------
+[364]   # Dewford -> Slateport Boat Cutscene
+Name = Route 109
+Outdoor = true
+MapPosition = 3,9,16
+#-------------------------------
+[365]   # Slateport -> Dewford Boat Cutscene
+Name = Dewford Town
+Outdoor = true
+MapPosition = 3,9,16
+#-------------------------------
+[366]   # Mauville Wally Cutscene
+Name = Mauville City
+Outdoor = true
+MapPosition = 3,9,8

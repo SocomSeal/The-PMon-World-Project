@@ -43,6 +43,7 @@ Script section UI_Trading - update "battle capture success" BGM to SYS file (Int
 Script section Overworld_BerryPlants - Line 455, update "Berry get" to regional music array
 All sections - replace instances of pbSEPlay("Pkmn level up") with a regional sound array for levelUpEffect
 Script section Item_Phone - Line 207, add def self.doublebattle(trainer_type, name, version_modifier = 0, start_version = 0)
+Script section UI_PokeMart - redefine pbPokemonMart to include introSpeech and endSpeech variables, as well as edit command text to simply "BUY, SELL, EXIT"
 
 
 

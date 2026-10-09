@@ -1,0 +1,36 @@
+[
+  null,
+  {
+    "json_class": "RPG::Item",
+    "consumable": true,
+    "animation1_id": 0,
+    "minus_state_set": [],
+    "icon_name": "",
+    "name": "",
+    "mdef_f": 0,
+    "recover_hp_rate": 0,
+    "common_event_id": 0,
+    "price": 0,
+    "occasion": 0,
+    "plus_state_set": [],
+    "recover_sp": 0,
+    "pdef_f": 0,
+    "parameter_points": 0,
+    "menu_se": {
+      "json_class": "RPG::AudioFile",
+      "volume": 80,
+      "name": "",
+      "pitch": 100
+    },
+    "scope": 0,
+    "element_set": [],
+    "recover_sp_rate": 0,
+    "hit": 100,
+    "parameter_type": 0,
+    "animation2_id": 0,
+    "description": "",
+    "id": 1,
+    "variance": 0,
+    "recover_hp": 0
+  }
+]

@@ -56,8 +56,10 @@ JOHTO
 - 
 HOENN
 - Water currents (currently implemented as normal water tiles)
-- Battle frontier
-	- Check the events leading up to it. Scott's Match Call after becoming Champion, the proper dialogue for the Rival in Birch's lab
+- Post-game facilities are missing functionality
+	- Trainer Hill
+	- Battle frontier
+		- Check the events leading up to it. Scott's Match Call after becoming Champion, the proper dialogue for the Rival in Birch's lab
 - Missing Mystery Gift NPC (is usually on PC floor 2, relocate where? Mart behind counter next to shopkeep?)
 	- Additionally missing the Mystery Gift questionaire in Marts
 - Profile Man in Petalburg Pokecenter
@@ -73,8 +75,8 @@ HOENN
 - Implement Mach and Acro bikes
 	- Implement cracked cave tiles (Granite Cave, 
 - Superancient pokemon roaming events (Route 105, 
-- Dungeons: Petalburg Woods, Rusturf Tunnel, Granite Cave, Abandoned Cave, New Mauvile, 
-- Verify trainers in gyms
+- Dungeons: Petalburg Woods, Rusturf Tunnel, Granite Cave, Abandoned Cave, New Mauvile, Trick House, 
+- Change the Voltorb Flip tables in the Mauville Game Corner with the proper Roulette game
 SINNOH
 - 
 UNOVA
@@ -91,7 +93,10 @@ PALDEA
 Cosmetic
 - Standardize all maps with proper tilesets
 - Standardize dialogue with either "..." or "…"
+- Standardize monetary symbols in dialogue to the PokeDollar symbol (¥, $, etc.)
+- Standardize signskins and check for bolding, i.e. signs with a quote, newline, then name of a place should have the name of the place bolded
 - Verify color palettes are RGB (Debug is showing errors on sprite load)
+- Pokemon Center 2nd floors are missing (includes some generic NPCs with dialogue)
 - Doors. 32px doors need proper overhangs set on the tileset, and 40px doors need similar fixes to function. (Set tileset as "open", make door event sprites transparent)
 - Entrance/Exits do not display an arrow when standing on them, before the player triggers the warp
 - Sprites for animated trainer intros
@@ -114,7 +119,8 @@ Cosmetic
 - Should title_bgm be updated to a regional array? A random regional array?
 - Should evolution be updated to a regional array?
 - Credits need to be updated with a regional music array
-- Rustboro Match Call cutscene has the incorrect sound effect
+- Game corner mechanics need to be audited. I.e., some slot machines are supposed to have different odds
+- Region-specific weather effects of default weathers need to be looked at i.e. Hoenn Rain and Sand instead of default
 KANTO
 - Intro cutscene needs to be touched up, sprite positioning
 	- Intro cutscene does not have the Nidoran coming out of a pokeball animation while Oak remains loaded
@@ -153,10 +159,15 @@ HOENN
 - Secret base tiles (especially cliff walls) need to be redone once the plugin is implemented
 - Prof Birch needs coding to be on Route 101 and Route 103 after the Wally sequence - time should be split, Sun Lab, Mon/Tues 101, Weds/Thurs 103, Fri/Sat Lab
 - Petalburg Gym Doors are missing the proper "Unlock" sound effect
+- Mauville Gym Gates are missing the proper "Open" sound effect
 - There are no dungeon location previews
 - Briney Boat sequence TECHNICALLY has the camera one tile too low, as it is centered on the player (which is the boat sprite during the cutscene), and not one tile above as it is in the OG
 - Intro Truck cutscene is missing (truck noises, shifting boxes)
 - Dewford Gym doesn't have the darkness mechanic implemented
+- Wally's Pokenav registration is linked to the Rock Smash rocks on Route 111 instead of a step counter as in the original games
+- Mauville "OldGuys" NPCs are missing from the Pokecenter
+- Rustboro Match Call cutscene has the incorrect sound effect
+- Missing animation/cutscene for the Cable Car
 SINNOH
 - 
 - There are no dungeon location previews
