@@ -157,7 +157,7 @@ Pokemon = GROVYLE,20
 #-------------------------------#
 [RSE_POKEMONTRAINER_Brendan,Brendan,9]
 LoseText = Hmm… You've gotten pretty darn decent.
-Pokemon = Pelipper,29
+Pokemon = PELIPPER,29
 	Moves = WINGATTACK,SUPERSONIC,MIST,PROTECT
 Pokemon = LOMBRE,29
 	Moves = ABSORB,NATUREPOWER,FAKEOUT,FURYSWIPES
@@ -177,14 +177,14 @@ Pokemon = MARSHTOMP,31
 LoseText = Hmm… You've gotten pretty darn decent.
 Pokemon = SLUGMA,29
 	Moves = EMBER,ROCKTHROW,HARDEN,AMNESIA
-Pokemon = Pelipper,29
+Pokemon = PELIPPER,29
 	Moves = WINGATTACK,SUPERSONIC,MIST,PROTECT
 Pokemon = GROVYLE,31
 	Moves = FURYCUTTER,PURSUIT,SCREECH,LEAFBLADE
 #-------------------------------
 [RSE_POKEMONTRAINER_May,May,9]
 LoseText = Achah! \PN,you're strong! I was worried that you might be struggling with your training.
-Pokemon = Pelipper,29
+Pokemon = PELIPPER,29
 	Moves = WINGATTACK,SUPERSONIC,MIST,PROTECT
 Pokemon = LOMBRE,29
 	Moves = ABSORB,NATUREPOWER,FAKEOUT,FURYSWIPES
@@ -206,7 +206,7 @@ Pokemon = MARSHTOMP,31
 LoseText = Achah! \PN,you're strong! I was worried that you might be struggling with your training.
 Pokemon = SLUGMA,29
 	Moves = EMBER,ROCKTHROW,HARDEN,AMNESIA
-Pokemon = Pelipper,29
+Pokemon = PELIPPER,29
 	Moves = WINGATTACK,SUPERSONIC,MIST,PROTECT
 Pokemon = GROVYLE,31
 	Gender = male
@@ -975,7 +975,7 @@ Pokemon = WAILMER,14
 LoseText = I failed to prophesize my own demise!
 Pokemon = ABRA,15
 #-------------------------------
-[RSE_TRIATHLETEBIKE_F,Alyssa]
+[RSE_TRIATHLETECYCLE_F,Alyssa]
 LoseText = Oops! I ended up losing!
 Pokemon = MAGNEMITE,15
 #-------------------------------
@@ -1056,58 +1056,58 @@ Pokemon = PLUSLE,35
 Pokemon = MINUN,35
 	Item = SITRUSBERRY
 #-------------------------------
-[RSE_TRIATHLETEBIKE_M,Anthony]
+[RSE_TRIATHLETECYCLE_M,Anthony]
 LoseText = Crash and burn!
 Pokemon = MAGNEMITE,14
 Pokemon = MAGNEMITE,14
 #-------------------------------
-[RSE_TRIATHLETEBIKE_F,Abigail]
+[RSE_TRIATHLETECYCLE_F,Abigail]
 LoseText = POKéMON battles are hard, too!
 Pokemon = MAGNEMITE,16
 #-------------------------------
-[RSE_TRIATHLETEBIKE_F,Abigail,1]
+[RSE_TRIATHLETECYCLE_F,Abigail,1]
 LoseText = Wow… How could you be so strong?
 Pokemon = MAGNEMITE,28
 #-------------------------------
-[RSE_TRIATHLETEBIKE_F,Abigail,2]
+[RSE_TRIATHLETECYCLE_F,Abigail,2]
 LoseText = Wow… How could you be so strong?
 Pokemon = MAGNEMITE,31
 #-------------------------------
-[RSE_TRIATHLETEBIKE_F,Abigail,3]
+[RSE_TRIATHLETECYCLE_F,Abigail,3]
 LoseText = Wow… How could you be so strong?
 Pokemon = MAGNETON,34
 #-------------------------------
-[RSE_TRIATHLETEBIKE_F,Abigail,4]
+[RSE_TRIATHLETECYCLE_F,Abigail,4]
 LoseText = Wow… How could you be so strong?
 Pokemon = MAGNETON,37
 #-------------------------------
-[RSE_TRIATHLETEBIKE_M,Benjamin]
+[RSE_TRIATHLETECYCLE_M,Benjamin]
 LoseText = I shouldn't panic during POKéMON battles…
 Pokemon = MAGNEMITE,16
 #-------------------------------
-[RSE_TRIATHLETEBIKE_M,Benjamin,1]
+[RSE_TRIATHLETECYCLE_M,Benjamin,1]
 LoseText = I didn't panic, but I still lost…
 Pokemon = MAGNEMITE,30
 #-------------------------------
-[RSE_TRIATHLETEBIKE_M,Benjamin,2]
+[RSE_TRIATHLETECYCLE_M,Benjamin,2]
 LoseText = I didn't panic, but I still lost…
 Pokemon = MAGNEMITE,33
 #-------------------------------
-[RSE_TRIATHLETEBIKE_M,Benjamin,3]
+[RSE_TRIATHLETECYCLE_M,Benjamin,3]
 LoseText = I didn't panic, but I still lost…
 Pokemon = MAGNETON,36
 #-------------------------------
-[RSE_TRIATHLETEBIKE_M,Benjamin,4]
+[RSE_TRIATHLETECYCLE_M,Benjamin,4]
 LoseText = I didn't panic, but I still lost…
 Pokemon = MAGNETON,39
 #-------------------------------
-[RSE_TRIATHLETEBIKE_F,Jasmine]
+[RSE_TRIATHLETECYCLE_F,Jasmine]
 LoseText = I'm worried about muscle cramps…
 Pokemon = MAGNEMITE,14
 Pokemon = MAGNEMITE,14
 Pokemon = VOLTORB,6
 #-------------------------------
-[RSE_TRIATHLETEBIKE_M,Jacob]
+[RSE_TRIATHLETECYCLE_M,Jacob]
 LoseText = Whoa! My brakes failed!
 Pokemon = VOLTORB,6
 Pokemon = VOLTORB,6
@@ -1420,6 +1420,325 @@ Pokemon = SANDSHREW,18
 LoseText = Y-You're all happy to win? Even though it's only me?
 Pokemon = ARON,18
 Pokemon = ARON,18
+#-------------------------------#
+# Route 114
+#-------------------------------#
+
+
+
+[RSE_FISHERMAN,Nolan]
+LoseText = I like to battle, but that doesn't mean I'm good at it…
+Pokemon = BARBOACH,19
+#-------------------------------
+[RSE_FISHERMAN,Kai]
+LoseText = 
+Pokemon = BARBOACH,19
+#-------------------------------
+[RSE_PICNICKER,Charlotte]
+LoseText = 
+Pokemon = NUZLEAF,19
+#-------------------------------
+[RSE_FISHERMAN,Claude]
+LoseText = 
+Pokemon = MAGIKARP,16
+Pokemon = GOLDEEN,17
+Pokemon = BARBOACH,18
+#-------------------------------
+[RSE_PICNICKER,Nancy]
+LoseText = 
+Pokemon = MARILL,18
+Pokemon = LOMBRE,18
+#-------------------------------
+[RSE_SRANDJR,Tyra & Ivy]
+LoseText = 
+Pokemon = ROSELIA,18
+Pokemon = GRAVELER,20
+#-------------------------------
+[RSE_SRANDJR,Tyra & Ivy,1]
+LoseText = 
+Pokemon = ROSELIA,18
+Pokemon = GRAVELER,20
+#-------------------------------
+[RSE_CAMPER,Shane]
+LoseText = 
+Pokemon = SANDSHREW,18
+Pokemon = NUZLEAF,18
+#-------------------------------
+[RSE_POKEMANIAC,Steve]
+LoseText = 
+Pokemon = ARON,19
+#-------------------------------
+[RSE_POKEMANIAC,Steve,1]
+LoseText = 
+Pokemon = LAIRON,27
+#-------------------------------
+[RSE_POKEMANIAC,Steve,2]
+LoseText = 
+Pokemon = LAIRON,29
+Pokemon = RHYHORN,29
+#-------------------------------
+[RSE_POKEMANIAC,Steve,3]
+LoseText = 
+Pokemon = LAIRON,32
+Pokemon = RHYHORN,32
+#-------------------------------
+[RSE_POKEMANIAC,Steve,4]
+LoseText = 
+Pokemon = AGGRON,35
+Pokemon = RHYDON,35
+#-------------------------------
+[RSE_KINDLER,Bernie]
+LoseText = 
+Pokemon = SLUGMA,18
+Pokemon = WINGULL,18
+#-------------------------------
+[RSE_KINDLER,Bernie,1]
+LoseText = 
+Pokemon = SLUGMA,26
+Pokemon = WINGULL,26
+#-------------------------------
+[RSE_KINDLER,Bernie,2]
+LoseText = 
+Pokemon = SLUGMA,29
+Pokemon = PELIPPER,29
+#-------------------------------
+[RSE_KINDLER,Bernie,3]
+LoseText = 
+Pokemon = SLUGMA,32
+Pokemon = PELIPPER,32
+#-------------------------------
+[RSE_KINDLER,Bernie,4]
+LoseText = 
+Pokemon = MAGCARGO,35
+Pokemon = PELIPPER,35
+#-------------------------------
+[RSE_HIKER,Lenny]
+LoseText = 
+Pokemon = GEODUDE,18
+Pokemon = MACHOP,18
+#-------------------------------
+[RSE_PICNICKER,Angelina]
+LoseText = 
+Pokemon = LOMBRE,18
+Pokemon = MARILL,18
+#-------------------------------
+[RSE_HIKER,Lucas]
+LoseText = 
+Pokemon = GEODUDE,18
+Pokemon = NUMEL,18
+#-------------------------------#
+# Route 115
+#-------------------------------#
+
+[RSE_PSYCHIC_F,Alix]
+LoseText = 
+Pokemon = KADABRA,26
+Pokemon = KIRLIA,26
+#-------------------------------
+[RSE_BATTLEGIRL,Helene]
+LoseText = 
+Pokemon = MEDITITE,26
+Pokemon = MAKUHITA,26
+	Gender = male
+#-------------------------------
+[RSE_NINJABOY,Jaiden]
+LoseText = 
+Pokemon = NINJASK,26
+Pokemon = GULPIN,26
+#-------------------------------
+[RSE_EXPERT_M,Timothy]
+LoseText = 
+Pokemon = HARIYAMA,27
+#-------------------------------
+[RSE_EXPERT_M,Timothy,1]
+LoseText = 
+Pokemon = HARIYAMA,33
+#-------------------------------
+[RSE_EXPERT_M,Timothy,2]
+LoseText = 
+Pokemon = HARIYAMA,36
+#-------------------------------
+[RSE_EXPERT_M,Timothy,3]
+LoseText = 
+Pokemon = HARIYAMA,39
+#-------------------------------
+[RSE_EXPERT_M,Timothy,4]
+LoseText = 
+Pokemon = HARIYAMA,42
+#-------------------------------
+[RSE_TRIATHLETERUN_F,Kyra]
+LoseText = 
+Pokemon = DODUO,26
+Pokemon = DODRIO,26
+#-------------------------------
+[RSE_BLACKBELT,Koichi]
+LoseText = 
+Pokemon = MACHOP,24
+Pokemon = MACHOKE,28
+#-------------------------------
+[RSE_BATTLEGIRL,Cyndy]
+LoseText = 
+Pokemon = MEDITITE,18
+Pokemon = MAKUHITA,18
+	Gender = male
+#-------------------------------
+[RSE_BATTLEGIRL,Cyndy,1]
+LoseText = 
+Pokemon = MEDITITE,26
+Pokemon = MAKUHITA,26
+	Gender = male
+#-------------------------------
+[RSE_BATTLEGIRL,Cyndy,2]
+LoseText = 
+Pokemon = MEDITITE,29
+Pokemon = MAKUHITA,29
+	Gender = male
+#-------------------------------
+[RSE_BATTLEGIRL,Cyndy,3]
+LoseText = 
+Pokemon = MEDICHAM,32
+Pokemon = HARIYAMA,32
+	Gender = male
+#-------------------------------
+[RSE_BATTLEGIRL,Cyndy,4]
+LoseText = 
+Pokemon = MEDICHAM,35
+Pokemon = HARIYAMA,35
+	Gender = male
+#-------------------------------
+[RSE_BLACKBELT,Nob]
+LoseText = 
+Pokemon = MACHOP,19
+#-------------------------------
+[RSE_BLACKBELT,Nob,1]
+LoseText = 
+Pokemon = MACHOKE,27
+#-------------------------------
+[RSE_BLACKBELT,Nob,2]
+LoseText = 
+Pokemon = MACHOP,29
+Pokemon = MACHOKE,31
+#-------------------------------
+[RSE_BLACKBELT,Nob,3]
+LoseText = 
+Pokemon = MACHOP,31
+Pokemon = MACHOKE,31
+Pokemon = MACHOKE,31
+#-------------------------------
+[RSE_BLACKBELT,Nob,4]
+LoseText = 
+Pokemon = MACHOP,33
+Pokemon = MACHOKE,33
+Pokemon = MACHOKE,33
+Pokemon = MACHAMP,33
+	Item = BLACKBELT
+#-------------------------------
+[RSE_COLLECTOR,Hector]
+LoseText = 
+Pokemon = ZANGOOSE,18
+Pokemon = SEVIPER,18
+#-------------------------------
+[RSE_PSYCHIC_F,Marlene]
+LoseText = 
+Pokemon = MEDITITE,18
+Pokemon = SPOINK,18
+#-------------------------------#
+# Route 116
+#-------------------------------#
+[RSE_YOUNGSTER,Joey]
+LoseText = 
+Pokemon = MACHOP,9
+#-------------------------------
+[RSE_BUGCATCHER,Jose]
+LoseText = 
+Pokemon = WURMPLE,8
+Pokemon = NINCADA,8
+#-------------------------------
+[RSE_SCHOOLKID_F,Karen]
+LoseText = 
+Pokemon = SHROOMISH,9
+#-------------------------------
+[RSE_SCHOOLKID_F,Karen,1]
+LoseText = 
+Pokemon = SHROOMISH,26
+Pokemon = WHISMUR,26
+#-------------------------------
+[RSE_SCHOOLKID_F,Karen,2]
+LoseText = 
+Pokemon = SHROOMISH,29
+Pokemon = LOUDRED,29
+#-------------------------------
+[RSE_SCHOOLKID_F,Karen,3]
+LoseText = 
+Pokemon = BRELOOM,32
+Pokemon = LOUDRED,32
+#-------------------------------
+[RSE_SCHOOLKID_F,Karen,4]
+LoseText = 
+Pokemon = BRELOOM,35
+Pokemon = EXPLOUD,35
+#-------------------------------
+[RSE_LASS,Janice]
+LoseText = 
+Pokemon = MARILL,9
+#-------------------------------
+[RSE_SCHOOLKID_M,Jerry]
+LoseText = 
+Pokemon = RALTS,9
+#-------------------------------
+[RSE_SCHOOLKID_M,Jerry,1]
+LoseText = 
+Pokemon = RALTS,26
+Pokemon = MEDITITE,26
+#-------------------------------
+[RSE_SCHOOLKID_M,Jerry,2]
+LoseText = 
+Pokemon = KIRLIA,29
+Pokemon = MEDITITE,29
+#-------------------------------
+[RSE_SCHOOLKID_M,Jerry,3]
+LoseText = 
+Pokemon = KIRLIA,32
+Pokemon = MEDICHAM,32
+#-------------------------------
+[RSE_SCHOOLKID_M,Jerry,4]
+LoseText = 
+Pokemon = KIRLIA,34
+Pokemon = BANETTE,34
+Pokemon = MEDICHAM,34
+#-------------------------------
+[RSE_RICHBOY,Dawson]
+LoseText = 
+Pokemon = ZIGZAGOON,8
+	Item = NUGGET
+Pokemon = POOCHYENA,8
+#-------------------------------
+[RSE_LADY,Sarah]
+LoseText = 
+Pokemon = LOTAD,8
+Pokemon = ZIGZAGOON,8
+	Item = NUGGET
+#-------------------------------
+[RSE_YOUNGSTER,Johnson]
+LoseText = 
+Pokemon = SHROOMISH,8
+Pokemon = LOTAD,8
+#-------------------------------
+[RSE_HIKER,Clark]
+LoseText = 
+Pokemon = GEODUDE,8
+#-------------------------------
+[RSE_HIKER,Devan]
+LoseText = 
+Pokemon = GEODUDE,8
+Pokemon = GEODUDE,8
+
+
+
+
+
+
+
 
 #-------------------------------#
 # RSE Cities
@@ -2578,262 +2897,6 @@ Pokemon = MARILL,12
 
 
 
-
-#-------------------------------
-# Route 114
-#-------------------------------
-[RSE_FISHERMAN,Kai]
-LoseText = 
-Pokemon = BARBOACH,19
-[RSE_FISHERMAN,Nolan]
-LoseText = I like to battle, but that doesn't mean I'm good at it…
-Pokemon = BARBOACH,19
-[RSE_PICNICKER,Charlotte]
-LoseText = 
-Pokemon = NUZLEAF,19
-[RSE_FISHERMAN,Claude]
-LoseText = 
-Pokemon = MAGIKARP,16
-Pokemon = GOLDEEN,17
-Pokemon = BARBOACH,18
-[RSE_PICNICKER,Nancy]
-LoseText = 
-Pokemon = MARILL,18
-Pokemon = LOMBRE,18
-[RSE_SRANDJR,Tyra & Ivy]
-LoseText = 
-Pokemon = ROSELIA,18
-Pokemon = GRAVELER,20
-[RSE_CAMPER,Shane]
-LoseText = 
-Pokemon = SANDSHREW,18
-Pokemon = NUZLEAF,18
-[RSE_POKEMANIAC,Steve]
-LoseText = 
-Pokemon = ARON,19
-[RSE_KINDLER,Bernie]
-LoseText = 
-Pokemon = SLUGMA,18
-Pokemon = WINGULL,18
-[RSE_HIKER,Lucas]
-LoseText = 
-Pokemon = GEODUDE,18
-Pokemon = NUMEL,18
-[RSE_PICNICKER,Angelina]
-LoseText = 
-Pokemon = LOMBRE,18
-Pokemon = MARILL,18
-[RSE_HIKER,Lenny]
-LoseText = 
-Pokemon = GEODUDE,18
-Pokemon = MACHOP,18
-#-------------------------------
-# Route 114 Rematches
-#-------------------------------
-[RSE_POKEMANIAC,Steve,1]
-LoseText = 
-Pokemon = LAIRON,27
-[RSE_POKEMANIAC,Steve,2]
-LoseText = 
-Pokemon = LAIRON,29
-Pokemon = RHYHORN,29
-[RSE_POKEMANIAC,Steve,3]
-LoseText = 
-Pokemon = LAIRON,32
-Pokemon = RHYHORN,32
-[RSE_POKEMANIAC,Steve,4]
-LoseText = 
-Pokemon = AGGRON,35
-Pokemon = RHYDON,35
-[RSE_KINDLER,Bernie,1]
-LoseText = 
-Pokemon = SLUGMA,26
-Pokemon = WINGULL,26
-[RSE_KINDLER,Bernie,2]
-LoseText = 
-Pokemon = SLUGMA,29
-Pokemon = PELIPPER,29
-[RSE_KINDLER,Bernie,3]
-LoseText = 
-Pokemon = SLUGMA,32
-Pokemon = PELIPPER,32
-[RSE_KINDLER,Bernie,4]
-LoseText = 
-Pokemon = MAGCARGO,35
-Pokemon = PELIPPER,35
-#-------------------------------
-# Route 115
-#-------------------------------
-[RSE_BLACKBELT,Nob]
-LoseText = 
-Pokemon = MACHOP,19
-[RSE_COLLECTOR,Hector]
-LoseText = 
-Pokemon = ZANGOOSE,18
-Pokemon = SEVIPER,18
-[RSE_PSYCHIC_F,Marlene]
-LoseText = 
-Pokemon = MEDITITE,18
-Pokemon = SPOINK,18
-[RSE_BATTLEGIRL,Cyndy]
-LoseText = 
-Pokemon = MEDITITE,18
-Pokemon = MAKUHITA,18
-	Gender = male
-[RSE_TRIATHLETERUN_F,Kyra]
-LoseText = 
-Pokemon = DODUO,26
-Pokemon = DODRIO,26
-[RSE_NINJABOY,Jaiden]
-LoseText = 
-Pokemon = NINJASK,26
-Pokemon = GULPIN,26
-[RSE_EXPERT_M,Timothy]
-LoseText = 
-Pokemon = HARIYAMA,27
-[RSE_BLACKBELT,Koichi]
-LoseText = 
-Pokemon = MACHOP,24
-Pokemon = MACHOKE,28
-[RSE_BATTLEGIRL,Helene]
-LoseText = 
-Pokemon = MEDITITE,26
-Pokemon = MAKUHITA,26
-	Gender = male
-[RSE_PSYCHIC_F,Alix]
-LoseText = 
-Pokemon = KADABRA,26
-Pokemon = KIRLIA,26
-#-------------------------------
-# Route 115 Rematches
-#-------------------------------
-[RSE_BLACKBELT,Nob,1]
-LoseText = 
-Pokemon = MACHOKE,27
-[RSE_BLACKBELT,Nob,2]
-LoseText = 
-Pokemon = MACHOP,29
-Pokemon = MACHOKE,31
-[RSE_BLACKBELT,Nob,3]
-LoseText = 
-Pokemon = MACHOP,31
-Pokemon = MACHOKE,31
-Pokemon = MACHOKE,31
-[RSE_BLACKBELT,Nob,4]
-LoseText = 
-Pokemon = MACHOP,33
-Pokemon = MACHOKE,33
-Pokemon = MACHOKE,33
-Pokemon = MACHAMP,33
-	Item = BLACKBELT
-[RSE_BATTLEGIRL,Cyndy,1]
-LoseText = 
-Pokemon = MEDITITE,26
-Pokemon = MAKUHITA,26
-	Gender = male
-[RSE_BATTLEGIRL,Cyndy,2]
-LoseText = 
-Pokemon = MEDITITE,29
-Pokemon = MAKUHITA,29
-	Gender = male
-[RSE_BATTLEGIRL,Cyndy,3]
-LoseText = 
-Pokemon = MEDICHAM,32
-Pokemon = HARIYAMA,32
-	Gender = male
-[RSE_BATTLEGIRL,Cyndy,4]
-LoseText = 
-Pokemon = MEDICHAM,35
-Pokemon = HARIYAMA,35
-	Gender = male
-[RSE_EXPERT_M,Timothy,1]
-LoseText = 
-Pokemon = HARIYAMA,33
-[RSE_EXPERT_M,Timothy,2]
-LoseText = 
-Pokemon = HARIYAMA,36
-[RSE_EXPERT_M,Timothy,3]
-LoseText = 
-Pokemon = HARIYAMA,39
-[RSE_EXPERT_M,Timothy,4]
-LoseText = 
-Pokemon = HARIYAMA,42
-#-------------------------------
-# Route 116
-#-------------------------------
-[RSE_BUGCATCHER,Jose]
-LoseText = 
-Pokemon = WURMPLE,8
-Pokemon = NINCADA,8
-[RSE_YOUNGSTER,Joey]
-LoseText = 
-Pokemon = MACHOP,9
-[RSE_SCHOOLKID_F,Karen]
-LoseText = 
-Pokemon = SHROOMISH,9
-[RSE_YOUNGSTER,Johnson]
-LoseText = 
-Pokemon = SHROOMISH,8
-Pokemon = LOTAD,8
-[RSE_HIKER,Devan]
-LoseText = 
-Pokemon = GEODUDE,8
-Pokemon = GEODUDE,8
-[RSE_HIKER,Clark]
-LoseText = 
-Pokemon = GEODUDE,8
-[RSE_SCHOOLKID_M,Jerry]
-LoseText = 
-Pokemon = RALTS,9
-[RSE_LASS,Janice]
-LoseText = 
-Pokemon = MARILL,9
-[RSE_LADY,Sarah]
-LoseText = 
-Pokemon = LOTAD,8
-Pokemon = ZIGZAGOON,8
-	Item = NUGGET
-[RSE_RICHBOY,Dawson]
-LoseText = 
-Pokemon = ZIGZAGOON,8
-	Item = NUGGET
-Pokemon = POOCHYENA,8
-#-------------------------------
-# Route 116 Rematches
-#-------------------------------
-[RSE_SCHOOLKID_F,Karen,1]
-LoseText = 
-Pokemon = SHROOMISH,26
-Pokemon = WHISMUR,26
-[RSE_SCHOOLKID_F,Karen,2]
-LoseText = 
-Pokemon = SHROOMISH,29
-Pokemon = LOUDRED,29
-[RSE_SCHOOLKID_F,Karen,3]
-LoseText = 
-Pokemon = BRELOOM,32
-Pokemon = LOUDRED,32
-[RSE_SCHOOLKID_F,Karen,4]
-LoseText = 
-Pokemon = BRELOOM,35
-Pokemon = EXPLOUD,35
-[RSE_SCHOOLKID_M,Jerry,1]
-LoseText = 
-Pokemon = RALTS,26
-Pokemon = MEDITITE,26
-[RSE_SCHOOLKID_M,Jerry,2]
-LoseText = 
-Pokemon = KIRLIA,29
-Pokemon = MEDITITE,29
-[RSE_SCHOOLKID_M,Jerry,3]
-LoseText = 
-Pokemon = KIRLIA,32
-Pokemon = MEDICHAM,32
-[RSE_SCHOOLKID_M,Jerry,4]
-LoseText = 
-Pokemon = KIRLIA,34
-Pokemon = BANETTE,34
-Pokemon = MEDICHAM,34
 #-------------------------------
 # Route 117
 #-------------------------------
@@ -4203,7 +4266,7 @@ Pokemon = SWABLU,19
 [RSE_PICNICKER,Autumn]
 LoseText = 
 Pokemon = SHROOMISH,21
-[RSE_TRIATHLETEBIKE_M,Julio]
+[RSE_TRIATHLETECYCLE_M,Julio]
 LoseText = 
 Pokemon = MAGNEMITE,21
 [RSE_CAMPER,Ethan]
@@ -4779,11 +4842,11 @@ Pokemon = MIGHTYENA,38
 #-------------------------------
 # RSE SPECIAL TRAINERS
 #-------------------------------
-[RSE_POKEMONTRAINER_WALLY,Wally]
+[RSE_POKEMONTRAINER_Wally,Wally]
 LoseText = … … … … … … … … … … … … … … … I lost…
 Pokemon = RALTS,16
 #
-[RSE_POKEMONTRAINER_WALLY,Wally,1]
+[RSE_POKEMONTRAINER_Wally,Wally,1]
 Items = FULLRESTORE,FULLRESTORE
 LoseText = Wow! \PN, you are strong, after all!
 Pokemon = ALTARIA,44
@@ -4798,7 +4861,7 @@ Pokemon = MAGNETON,41
 Pokemon = GARDEVOIR,45
 	Moves = DOUBLETEAM,CALMMIND,PSYCHIC,FUTURESIGHT
 #
-[RSE_POKEMONTRAINER_WALLY,Wally,2]
+[RSE_POKEMONTRAINER_Wally,Wally,2]
 Items = FULLRESTORE,FULLRESTORE
 LoseText = Wow! \PN, you are strong, after all!
 Pokemon = ALTARIA,47
@@ -4813,7 +4876,7 @@ Pokemon = MAGNETON,44
 Pokemon = GARDEVOIR,48
 	Moves = DOUBLETEAM,CALMMIND,PSYCHIC,FUTURESIGHT
 #
-[RSE_POKEMONTRAINER_WALLY,Wally,3]
+[RSE_POKEMONTRAINER_Wally,Wally,3]
 Items = FULLRESTORE,FULLRESTORE
 LoseText = Wow! \PN, you are strong, after all!
 Pokemon = ALTARIA,50
@@ -4828,7 +4891,7 @@ Pokemon = MAGNETON,47
 Pokemon = GARDEVOIR,51
 	Moves = DOUBLETEAM,CALMMIND,PSYCHIC,FUTURESIGHT
 #
-[RSE_POKEMONTRAINER_WALLY,Wally,4]
+[RSE_POKEMONTRAINER_Wally,Wally,4]
 Items = FULLRESTORE,FULLRESTORE
 LoseText = Wow! \PN, you are strong, after all!
 Pokemon = ALTARIA,53
@@ -4843,7 +4906,7 @@ Pokemon = MAGNETON,50
 Pokemon = GARDEVOIR,54
 	Moves = DOUBLETEAM,CALMMIND,PSYCHIC,FUTURESIGHT
 #
-[RSE_POKEMONTRAINER_WALLY,Wally,5]
+[RSE_POKEMONTRAINER_Wally,Wally,5]
 Items = FULLRESTORE,FULLRESTORE
 LoseText = Wow! \PN, you are strong, after all!
 Pokemon = ALTARIA,56

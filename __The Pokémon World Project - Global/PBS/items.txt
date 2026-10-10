@@ -3030,7 +3030,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 0
 BPPrice = 50
-Description = A shiny red orb that is said to have a legend tied to it. It's known to be connected with the Hoenn region.
+Description = An orb that glows red. It is said to contain an incredible power from ancient times.
 #-------------------------------
 [BLUEORB]
 Name = Blue Orb
@@ -3039,7 +3039,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 0
 BPPrice = 50
-Description = A shiny blue orb that is said to have a legend tied to it. It's known to be connected with the Hoenn region.
+Description = An orb that glows blue. It is said to contain an incredible power from ancient times.
 #-------------------------------#
 # [MDC] Medicine Items
 #-------------------------------#
@@ -10128,7 +10128,7 @@ Price = 0
 Flags = KeyItem
 Description = Nifty goggles that protect eyes from desert sandstorms.
 #-------------------------------
-[BLUEORB]
+[RSE_BLUEORB]
 Name = Blue Orb
 NamePlural = Blue Orbs
 Pocket = 8
@@ -10136,7 +10136,7 @@ Price = 0
 Flags = KeyItem
 Description = An orb that glows blue. It is said to contain an incredible power from ancient times.
 #-------------------------------
-[REDORB]
+[RSE_REDORB]
 Name = Red Orb
 NamePlural = Red Orbs
 Pocket = 8
@@ -10167,14 +10167,6 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A ticket required to board the ship to Birth Island. It glows beautifully.
-#-------------------------------
-[METEORITE]
-Name = Meteorite
-NamePlural = Meteorites
-Pocket = 8
-Price = 0
-Flags = KeyItem
-Description = A rock that fell to earth from space. It’s slightly warm to the touch. It allows a certain species of Pokémon to change forms.
 #-------------------------------#
 # [KEYDPPt] Sinnoh Key Items
 #-------------------------------#

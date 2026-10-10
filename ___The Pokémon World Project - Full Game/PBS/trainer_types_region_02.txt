@@ -24,7 +24,7 @@ IntroBGM =
 #-------------------------------#
 # [BOSS] Boss Trainer Classes
 #-------------------------------#
-[FRLG_LEADER_Falkner]
+[HGSS_LEADER_Falkner]
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
@@ -39,37 +39,37 @@ BaseMoney = 100
 #-------------------------------#
 # [VILLAIN] Villain Trainer Classes
 #-------------------------------#
-[FRLG_ROCKETGRUNT_M]
+[HGSS_ROCKETGRUNT_M]
 Name = Team Rocket
 Gender = Male
 BaseMoney = 32
 IntroBGM = 
 #-------------------------------
-[FRLG_ROCKETGRUNT_F]
+[HGSS_ROCKETGRUNT_F]
 Name = Rocket
 Gender = Female
 BaseMoney = 32
 IntroBGM = 
 #-------------------------------
-[FRLG_ROCKETEXECUTIVE_Proton]
+[HGSS_ROCKETEXECUTIVE_Proton]
 Name = Executive
 Gender = Male
 BaseMoney = 72
 IntroBGM = 
 #-------------------------------
-[FRLG_ROCKETEXECUTIVE_Petrel]
+[HGSS_ROCKETEXECUTIVE_Petrel]
 Name = Executive
 Gender = Male
 BaseMoney = 72
 IntroBGM = 
 #-------------------------------
-[FRLG_ROCKETEXECUTIVE_Ariana]
+[HGSS_ROCKETEXECUTIVE_Ariana]
 Name = Executive
 Gender = Female
 BaseMoney = 72
 IntroBGM = 
 #-------------------------------
-[FRLG_ROCKETEXECUTIVE_Archer]
+[HGSS_ROCKETEXECUTIVE_Archer]
 Name = Executive
 Gender = Male
 BaseMoney = 72
