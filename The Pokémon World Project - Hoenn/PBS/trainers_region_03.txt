@@ -1,0 +1,4884 @@
+﻿# Table of Contents:
+# [RSE] Hoenn Trainers
+#
+# Sections are broken down into subsections (Routes, Cities, Landmarks), and further again by map
+# To find a specific subsection, search the Region code then the subsection name (i.e., "FRLG Routes")
+# To find a specific Map's Trainers, search it by name (i.e., "Route 1")
+# Some special Trainers such as the Rival have their own sections. These are always found first in their Regional section
+#-------------------------------#
+# [RSE] Hoenn Trainers
+#-------------------------------#
+#-------------------------------#
+# RSE Rival
+#-------------------------------#
+#-------------------------------#
+# Route 103
+#-------------------------------#
+[RSE_POKEMONTRAINER_Brendan,Brendan]
+LoseText = Huh, \PN, you're not too shabby.
+Pokemon = TORCHIC,5
+	Moves = SCRATCH,GROWL
+#-------------------------------
+[RSE_POKEMONTRAINER_Brendan,Brendan,1]
+LoseText = Huh, \PN, you're not too shabby.
+Pokemon = MUDKIP,5
+	Moves = TACKLE,GROWL
+#-------------------------------
+[RSE_POKEMONTRAINER_Brendan,Brendan,2]
+LoseText = Huh, \PN, you're not too shabby.
+Pokemon = TREECKO,5
+	Moves = POUND,LEER
+#-------------------------------
+[RSE_POKEMONTRAINER_May,May]
+LoseText = Wow! That's great! \PN, you're pretty good!
+Pokemon = TORCHIC,5
+	Gender = male
+	Moves = SCRATCH,GROWL
+#-------------------------------
+[RSE_POKEMONTRAINER_May,May,1]
+LoseText = Wow! That's great! \PN, you're pretty good!
+Pokemon = MUDKIP,5
+	Gender = male
+	Moves = TACKLE,GROWL
+#-------------------------------
+[RSE_POKEMONTRAINER_May,May,2]
+LoseText = Wow! That's great! \PN, you're pretty good!
+Pokemon = TREECKO,5
+	Gender = male
+	Moves = POUND,LEER
+#-------------------------------#
+# Rustboro City OR Route 104
+#-------------------------------#
+[RSE_POKEMONTRAINER_Brendan,Brendan,3]
+LoseText = Hmm… You're pretty good.
+Pokemon = LOTAD,13
+	Moves = ASTONISH,GROWL,ABSORB,NATUREPOWER
+Pokemon = TORCHIC,15
+	Moves = SCRATCH,GROWL,FOCUSENERGY,EMBER
+#-------------------------------
+[RSE_POKEMONTRAINER_Brendan,Brendan,4]
+LoseText = Hmm… You're pretty good.
+Pokemon = SLUGMA,13
+	Moves = YAWN,SMOG,EMBER
+Pokemon = MUDKIP,15
+	Moves = GROWL,MUDSLAP,WATERGUN,BIDE
+#-------------------------------
+[RSE_POKEMONTRAINER_Brendan,Brendan,5]
+LoseText = Hmm… You're pretty good.
+Pokemon = WINGULL,13
+	Moves = GROWL,WATERGUN,SUPERSONIC,WINGATTACK
+Pokemon = TREECKO,15
+	Moves = POUND,LEER,ABSORB,QUICKATTACK
+#-------------------------------
+[RSE_POKEMONTRAINER_May,May,3]
+LoseText = Yikes! You're better than I expected!
+Pokemon = LOTAD,13
+	Moves = ASTONISH,GROWL,ABSORB,NATUREPOWER
+Pokemon = TORCHIC,15
+	Gender = male
+	Moves = SCRATCH,GROWL,FOCUSENERGY,EMBER
+#-------------------------------
+[RSE_POKEMONTRAINER_May,May,4]
+LoseText = Yikes! You're better than I expected!
+Pokemon = TORKOAL,13
+	Moves = EMBER,SMOG,CURSE
+Pokemon = MUDKIP,15
+	Gender = male
+	Moves = GROWL,MUDSLAP,WATERGUN,BIDE
+#-------------------------------
+[RSE_POKEMONTRAINER_May,May,5]
+LoseText = Yikes! You're better than I expected!
+Pokemon = WINGULL,13
+	Moves = GROWL,WATERGUN,SUPERSONIC,WINGATTACK
+Pokemon = TREECKO,15
+	Gender = male
+	Moves = POUND,LEER,ABSORB,QUICKATTACK
+#-------------------------------#
+# Route 110
+#-------------------------------#
+[RSE_POKEMONTRAINER_Brendan,Brendan,6]
+LoseText = Hmm… You're pretty good.
+Pokemon = WINGULL,18
+	Moves = GROWL,WATERGUN,SUPERSONIC,WINGATTACK
+Pokemon = LOMBRE,18
+	Moves = ASTONISH,GROWL,ABSORB,NATUREPOWER
+Pokemon = COMBUSKEN,20
+	Moves = FOCUSENERGY,EMBER,DOUBLEKICK,PECK
+#-------------------------------
+[RSE_POKEMONTRAINER_Brendan,Brendan,7]
+LoseText = Hmm… You're pretty good.
+Pokemon = LOMBRE,18
+	Moves = ASTONISH,GROWL,ABSORB,NATUREPOWER
+Pokemon = SLUGMA,18
+	Moves = YAWN,SMOG,EMBER,ROCKTHROW
+Pokemon = MARSHTOMP,20
+	Moves = WATERGUN,BIDE,MUDSHOT,FORESIGHT
+#-------------------------------
+[RSE_POKEMONTRAINER_Brendan,Brendan,8]
+LoseText = Hmm… You're pretty good.
+Pokemon = SLUGMA,18
+	Moves = YAWN,SMOG,EMBER,ROCKTHROW
+Pokemon = WINGULL,18
+	Moves = GROWL,WATERGUN,SUPERSONIC,WINGATTACK
+Pokemon = GROVYLE,20
+	Moves = ABSORB,
+#-------------------------------
+[RSE_POKEMONTRAINER_May,May,6]
+LoseText = Yikes! You're better than I expected!
+Pokemon = WINGULL,18
+	Moves = GROWL,WATERGUN,SUPERSONIC,WINGATTACK
+Pokemon = LOMBRE,18
+	Moves = ASTONISH,GROWL,ABSORB,NATUREPOWER
+Pokemon = COMBUSKEN,20
+	Gender = male
+	Moves = FOCUSENERGY,EMBER,DOUBLEKICK,PECK
+#-------------------------------
+[RSE_POKEMONTRAINER_May,May,7]
+LoseText = Yikes! You're better than I expected!
+Pokemon = LOMBRE,18
+	Moves = ASTONISH,GROWL,ABSORB,NATUREPOWER
+Pokemon = SLUGMA,18
+	Moves = YAWN,SMOG,EMBER,ROCKTHROW
+Pokemon = MARSHTOMP,20
+	Gender = male
+	Moves = WATERGUN,BIDE,MUDSHOT,FORESIGHT
+#-------------------------------
+[RSE_POKEMONTRAINER_May,May,8]
+LoseText = Yikes! You're better than I expected!
+Pokemon = SLUGMA,18
+	Moves = YAWN,SMOG,EMBER,ROCKTHROW
+Pokemon = WINGULL,18
+	Moves = GROWL,WATERGUN,SUPERSONIC,WINGATTACK
+Pokemon = GROVYLE,20
+	Gender = male
+	Moves = ABSORB,QUICKATTACK,FURYCUTTER,PURSUIT
+#-------------------------------#
+# Route 119
+#-------------------------------#
+[RSE_POKEMONTRAINER_Brendan,Brendan,9]
+LoseText = Hmm… You've gotten pretty darn decent.
+Pokemon = Pelipper,29
+	Moves = WINGATTACK,SUPERSONIC,MIST,PROTECT
+Pokemon = LOMBRE,29
+	Moves = ABSORB,NATUREPOWER,FAKEOUT,FURYSWIPES
+Pokemon = COMBUSKEN,31
+	Moves = DOUBLEKICK,PECK,SANDATTACK,BULKUP
+#-------------------------------
+[RSE_POKEMONTRAINER_Brendan,Brendan,10]
+LoseText = Hmm… You've gotten pretty darn decent.
+Pokemon = LOMBRE,29
+	Moves = ABSORB,NATUREPOWER,FAKEOUT,FURYSWIPES
+Pokemon = SLUGMA,29
+	Moves = EMBER,ROCKTHROW,HARDEN,AMNESIA
+Pokemon = MARSHTOMP,31
+	Moves = MUDSHOT,FORESIGHT,MUDSPORT,TAKEDOWN
+#-------------------------------
+[RSE_POKEMONTRAINER_Brendan,Brendan,11]
+LoseText = Hmm… You've gotten pretty darn decent.
+Pokemon = SLUGMA,29
+	Moves = EMBER,ROCKTHROW,HARDEN,AMNESIA
+Pokemon = Pelipper,29
+	Moves = WINGATTACK,SUPERSONIC,MIST,PROTECT
+Pokemon = GROVYLE,31
+	Moves = FURYCUTTER,PURSUIT,SCREECH,LEAFBLADE
+#-------------------------------
+[RSE_POKEMONTRAINER_May,May,9]
+LoseText = Achah! \PN,you're strong! I was worried that you might be struggling with your training.
+Pokemon = Pelipper,29
+	Moves = WINGATTACK,SUPERSONIC,MIST,PROTECT
+Pokemon = LOMBRE,29
+	Moves = ABSORB,NATUREPOWER,FAKEOUT,FURYSWIPES
+Pokemon = COMBUSKEN,31
+	Gender = male
+	Moves = DOUBLEKICK,PECK,SANDATTACK,BULKUP
+#-------------------------------
+[RSE_POKEMONTRAINER_May,May,10]
+LoseText = Achah! \PN,you're strong! I was worried that you might be struggling with your training.
+Pokemon = LOMBRE,29
+	Moves = ABSORB,NATUREPOWER,FAKEOUT,FURYSWIPES
+Pokemon = SLUGMA,29
+	Moves = EMBER,ROCKTHROW,HARDEN,AMNESIA
+Pokemon = MARSHTOMP,31
+	Gender = male
+	Moves = MUDSHOT,FORESIGHT,MUDSPORT,TAKEDOWN
+#-------------------------------
+[RSE_POKEMONTRAINER_May,May,11]
+LoseText = Achah! \PN,you're strong! I was worried that you might be struggling with your training.
+Pokemon = SLUGMA,29
+	Moves = EMBER,ROCKTHROW,HARDEN,AMNESIA
+Pokemon = Pelipper,29
+	Moves = WINGATTACK,SUPERSONIC,MIST,PROTECT
+Pokemon = GROVYLE,31
+	Gender = male
+	Moves = FURYCUTTER,PURSUIT,SCREECH,LEAFBLADE
+#-------------------------------#
+# Lilycove City
+#-------------------------------#
+[RSE_POKEMONTRAINER_Brendan,Brendan,12]
+LoseText = Humph… You've done a lot of raising. That stings a bit--I had a head start on you as a Trainer...
+Pokemon = TROPIUS,31
+	Moves = STOMP,SWEETSCENT,WHIRLWIND,MAGICALLEAF
+Pokemon = PELIPPER,32
+	Moves = WINGATTACK,SUPERSONIC,MIST,PROTECT
+Pokemon = LUDICOLO,32
+	Moves = ASTONISH,GROWL,ABSORB,NATUREPOWER
+Pokemon = COMBUSKEN,34
+	Moves = PECK,SANDATTACK,BULKUP,QUICKATTACK
+#-------------------------------
+[RSE_POKEMONTRAINER_Brendan,Brendan,13]
+LoseText = Humph… You've done a lot of raising. That stings a bit--I had a head start on you as a Trainer...
+Pokemon = TROPIUS,31
+	Moves = STOMP,SWEETSCENT,WHIRLWIND,MAGICALLEAF
+Pokemon = LUDICOLO,32
+	Moves = ASTONISH,GROWL,ABSORB,NATUREPOWER
+Pokemon = SLUGMA,32
+	Moves = EMBER,ROCKTHROW,HARDEN,AMNESIA
+Pokemon = MARSHTOMP,34
+	Moves = MUDSHOT,FORESIGHT,MUDSPORT,TAKEDOWN
+#-------------------------------
+[RSE_POKEMONTRAINER_Brendan,Brendan,14]
+LoseText = Humph… You've done a lot of raising. That stings a bit--I had a head start on you as a Trainer...
+Pokemon = TROPIUS,31
+	Moves = STOMP,SWEETSCENT,WHIRLWIND,MAGICALLEAF
+Pokemon = SLUGMA,32
+	Moves = EMBER,ROCKTHROW,HARDEN,AMNESIA
+Pokemon = PELIPPER,32
+	Moves = WINGATTACK,SUPERSONIC,MIST,PROTECT
+Pokemon = GROVYLE,34
+	Moves = FURYCUTTER,PURSUIT,SCREECH,LEAFBLADE
+#-------------------------------
+[RSE_POKEMONTRAINER_May,May,12]
+LoseText = … … … … … … … … I remember the battle I had with you, \PN, on Route 103. That battle helped you become this strong, \PN, didn't it?
+Pokemon = TROPIUS,31
+	Moves = STOMP,SWEETSCENT,WHIRLWIND,MAGICALLEAF
+Pokemon = PELIPPER,32
+	Moves = WINGATTACK,SUPERSONIC,MIST,PROTECT
+Pokemon = LUDICOLO,32
+	Moves = ASTONISH,GROWL,ABSORB,NATUREPOWER
+Pokemon = COMBUSKEN,34
+	Gender = male
+	Moves = PECK,SANDATTACK,BULKUP,QUICKATTACK
+#-------------------------------
+[RSE_POKEMONTRAINER_May,May,13]
+LoseText = … … … … … … … … I remember the battle I had with you, \PN, on Route 103. That battle helped you become this strong, \PN, didn't it?
+Pokemon = TROPIUS,31
+	Moves = STOMP,SWEETSCENT,WHIRLWIND,MAGICALLEAF
+Pokemon = LUDICOLO,32
+	Moves = ASTONISH,GROWL,ABSORB,NATUREPOWER
+Pokemon = SLUGMA,32
+	Moves = EMBER,ROCKTHROW,HARDEN,AMNESIA
+Pokemon = MARSHTOMP,34
+	Gender = male
+	Moves = MUDSHOT,FORESIGHT,MUDSPORT,TAKEDOWN
+#-------------------------------
+[RSE_POKEMONTRAINER_May,May,14]
+LoseText = … … … … … … … … I remember the battle I had with you, \PN, on Route 103. That battle helped you become this strong, \PN, didn't it?
+Pokemon = TROPIUS,31
+	Moves = STOMP,SWEETSCENT,WHIRLWIND,MAGICALLEAF
+Pokemon = SLUGMA,32
+	Moves = EMBER,ROCKTHROW,HARDEN,AMNESIA
+Pokemon = PELIPPER,32
+	Moves = WINGATTACK,SUPERSONIC,MIST,PROTECT
+Pokemon = GROVYLE,34
+	Gender = male
+	Moves = FURYCUTTER,PURSUIT,SCREECH,LEAFBLADE
+#-------------------------------#
+# RSE Gabby & Ty
+#-------------------------------#
+# In Emerald, Gabby & Ty rotate between Routes 111, 118, and 120 after being defeated, in order.
+# After fighting Gabby & Ty for the sixth time they continue to move between routes but repeat rematch 5.
+# Due to the integer cap, in the original game they would get stuck on Route 111 after beating them 255 times.
+# NOTE: ORAS changes rematch levels to be based on earned badges instead and provides a much smoother rematch curve for Gabby & Ty
+#-------------------------------#
+[RSE_INTERVIEWERS,Gabby & Ty]
+LoseText = Gabby: My eyes didn't lie! I did discover an astonishing Trainer!
+Pokemon = MAGNEMITE,17
+Pokemon = WHISMUR,17
+#-------------------------------
+[RSE_INTERVIEWERS,Gabby & Ty,1]
+LoseText = Ty: Yep, we sure spotted a hot Trainer. This is a huge scoop for us!
+Pokemon = MAGNEMITE,17
+Pokemon = WHISMUR,17
+#-------------------------------
+[RSE_INTERVIEWERS,Gabby & Ty,2]
+LoseText = Gabby: That was an intense battle! Did you get all that on camera?
+Pokemon = MAGNEMITE,27
+Pokemon = LOUDRED,27
+#-------------------------------
+[RSE_INTERVIEWERS,Gabby & Ty,3]
+LoseText = Ty: Yep, I got it all. That whole battle's on camera.
+Pokemon = MAGNEMITE,27
+Pokemon = LOUDRED,27
+#-------------------------------
+[RSE_INTERVIEWERS,Gabby & Ty,4]
+LoseText = Gabby: That was an intense battle! Did you get all that on camera?
+Pokemon = MAGNETON,30
+Pokemon = LOUDRED,30
+#-------------------------------
+[RSE_INTERVIEWERS,Gabby & Ty,5]
+LoseText = Ty: Yep, I got it all. That whole battle's on camera.
+Pokemon = MAGNETON,30
+Pokemon = LOUDRED,30
+#-------------------------------
+[RSE_INTERVIEWERS,Gabby & Ty,6]
+LoseText = Gabby: That was an intense battle! Did you get all that on camera?
+Pokemon = MAGNETON,33
+Pokemon = LOUDRED,33
+#-------------------------------
+[RSE_INTERVIEWERS,Gabby & Ty,7]
+LoseText = Ty: Yep, I got it all. That whole battle's on camera.
+Pokemon = MAGNETON,33
+Pokemon = LOUDRED,33
+#-------------------------------
+[RSE_INTERVIEWERS,Gabby & Ty,8]
+LoseText = Gabby: That was an intense battle! Did you get all that on camera?
+Pokemon = MAGNETON,36
+Pokemon = LOUDRED,36
+#-------------------------------
+[RSE_INTERVIEWERS,Gabby & Ty,9]
+LoseText = Ty: Yep, I got it all. That whole battle's on camera.
+Pokemon = MAGNETON,36
+Pokemon = LOUDRED,36
+#-------------------------------
+[RSE_INTERVIEWERS,Gabby & Ty,10]
+LoseText = Gabby: That was an intense battle! Did you get all that on camera?
+Pokemon = MAGNETON,39
+Pokemon = EXPLOUD,39
+#-------------------------------
+[RSE_INTERVIEWERS,Gabby & Ty,11]
+LoseText = Ty: Yep, I got it all. That whole battle's on camera.
+Pokemon = MAGNETON,39
+Pokemon = EXPLOUD,39
+#-------------------------------#
+# RSE Winstrate Family
+#-------------------------------#
+# The Winstrate family is a back-to-back gauntlet of trainers started at their house on Route 111.
+# Despite being their mentioned son, Cooltrainer Vito in Victory Road does not share the Winstrate trainer class.
+#-------------------------------#
+[RSE_WINSTRATE_Victor,Victor]
+LoseText = Aiyah! You're a lot tougher than I expected!
+Pokemon = TAILLOW,17
+	Item = ORANBERRY
+Pokemon = ZIGZAGOON,17
+	Item = ORANBERRY
+#-------------------------------
+[RSE_WINSTRATE_Victoria,Victoria]
+LoseText = Oh, gosh! I can't get over how strong you are!
+Pokemon = ROSELIA,17
+	Item = ORANBERRY
+#-------------------------------
+[RSE_WINSTRATE_Vivi,Vivi]
+LoseText = Huh? Did I just lose?
+Pokemon = MARILL,15
+Pokemon = SHROOMISH,15
+Pokemon = NUMEL,15
+#-------------------------------
+[RSE_WINSTRATE_Vicky,Vicky]
+LoseText = Kwah! You are strong… My granddaughter was right…
+Pokemon = MEDITITE,18
+#-------------------------------#
+# RSE Routes
+#-------------------------------#
+#-------------------------------#
+# Route 101
+#-------------------------------#
+#-------------------------------#
+# Route 102
+#-------------------------------#
+[RSE_LASS,Tiana]
+LoseText = I ended up furthering your career…
+Pokemon = ZIGZAGOON,4
+Pokemon = SHROOMISH,4
+#-------------------------------
+[RSE_YOUNGSTER,Allen]
+LoseText = I called you because I thought I could beat you…
+Pokemon = ZIGZAGOON,4
+Pokemon = TAILLOW,4
+#-------------------------------
+[RSE_BUGCATCHER,Rick]
+LoseText = Ow! Down and out!
+Pokemon = WURMPLE,4
+Pokemon = WURMPLE,4
+#-------------------------------
+[RSE_YOUNGSTER,Calvin]
+LoseText = Arrgh, I lost… I should have trained mine more…
+Pokemon = POOCHYENA,5
+#-------------------------------
+[RSE_YOUNGSTER,Calvin,1]
+LoseText = Arrgh, I lost… Is my training method not right?
+Pokemon = MIGHTYENA,27
+#-------------------------------
+[RSE_YOUNGSTER,Calvin,2]
+LoseText = Arrgh, I lost… Is my training method not right?
+Pokemon = SWELLOW,28
+Pokemon = MIGHTYENA,30
+#-------------------------------
+[RSE_YOUNGSTER,Calvin,3]
+LoseText = Arrgh, I lost… Is my training method not right?
+Pokemon = SWELLOW,31
+Pokemon = LINOONE,29
+Pokemon = MIGHTYENA,33
+#-------------------------------
+[RSE_YOUNGSTER,Calvin,4]
+LoseText = Arrgh, I lost… Is my training method not right?
+Pokemon = SWELLOW,34
+Pokemon = LINOONE,32
+Pokemon = MIGHTYENA,36
+#-------------------------------#
+# Route 103
+#-------------------------------#
+[RSE_SWIMMER_F,Isabelle]
+LoseText = Groan...
+Pokemon = MARILL,15
+#-------------------------------
+[RSE_SWIMMER_M,Pete]
+LoseText = Oh, that's good going!
+Pokemon = TENTACOOL,15
+#-------------------------------
+[RSE_FISHERMAN,Andrew]
+LoseText = Gah! Lost it! I'm even more annoyed now!
+Pokemon = MAGIKARP,5
+Pokemon = TENTACOOL,10
+Pokemon = MAGIKARP,15
+#-------------------------------
+[RSE_POKEFAN_M,Miguel]
+LoseText = Oh, my gosh! My darling Pokémon!
+Pokemon = SKITTY,15
+	Gender = female
+	Item = ORANBERRY
+#-------------------------------
+[RSE_POKEFAN_M,Miguel,1]
+LoseText = Oh! My darling POKéMON!
+Pokemon = SKITTY,29
+	Gender = female
+	Item = ORANBERRY
+#-------------------------------
+[RSE_POKEFAN_M,Miguel,2]
+LoseText = Oh! My darling POKéMON!
+Pokemon = SKITTY,32
+	Gender = female
+	Item = ORANBERRY
+#-------------------------------
+[RSE_POKEFAN_M,Miguel,3]
+LoseText = Oh! My darling POKéMON!
+Pokemon = DELCATTY,35
+	Gender = female
+	Item = ORANBERRY
+#-------------------------------
+[RSE_POKEFAN_M,Miguel,4]
+LoseText = Oh! My darling POKéMON!
+Pokemon = DELCATTY,38
+	Gender = female
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_TWINS,Amy & Liv]
+LoseText = Amy: Uh-oh, we lost.
+Pokemon = PLUSLE,15
+	Gender = male
+Pokemon = MINUN,15
+	Gender = male
+#-------------------------------
+[RSE_TWINS,Amy & Liv,1]
+LoseText = Liv: Oh, we lost, big sister…
+Pokemon = PLUSLE,15
+	Gender = male
+Pokemon = MINUN,15
+	Gender = male
+#-------------------------------
+[RSE_TWINS,Amy & Liv,2]
+LoseText = Amy: Aww, boo! We couldn't win again…
+Pokemon = PLUSLE,27
+Pokemon = MINUN,27
+#-------------------------------
+[RSE_TWINS,Amy & Liv,3]
+LoseText = Liv: Awww, we lost again… Big sister…
+Pokemon = PLUSLE,27
+Pokemon = MINUN,27
+#-------------------------------
+[RSE_TWINS,Amy & Liv,4]
+LoseText = Amy: Aww, boo! We couldn't win again…
+Pokemon = PLUSLE,30
+Pokemon = MINUN,30
+#-------------------------------
+[RSE_TWINS,Amy & Liv,5]
+LoseText = Liv: Awww, we lost again… Big sister…
+Pokemon = PLUSLE,30
+Pokemon = MINUN,30
+#-------------------------------
+[RSE_TWINS,Amy & Liv,6]
+LoseText = Amy: Aww, boo! We couldn't win again…
+Pokemon = PLUSLE,33
+Pokemon = MINUN,33
+#-------------------------------
+[RSE_TWINS,Amy & Liv,7]
+LoseText = Liv: Awww, we lost again… Big sister…
+Pokemon = PLUSLE,33
+Pokemon = MINUN,33
+#-------------------------------
+[RSE_TWINS,Amy & Liv,8]
+LoseText = Amy: Aww, boo! We couldn't win again…
+Pokemon = PLUSLE,36
+Pokemon = MINUN,36
+#-------------------------------
+[RSE_TWINS,Amy & Liv,9]
+LoseText = Liv: Awww, we lost again… Big sister…
+Pokemon = PLUSLE,36
+Pokemon = MINUN,36
+#-------------------------------
+[RSE_AROMALADY,Daisy]
+LoseText = You weren't led astray by our aroma…
+Pokemon = SHROOMISH,14
+Pokemon = ROSELIA,14
+#-------------------------------
+[RSE_BLACKBELT,Rhett]
+LoseText = Whoa! The kid can rock!
+Pokemon = MAKUHITA,15
+#-------------------------------
+[RSE_GUITARIST,Marcos]
+LoseText = My one-man show is ruined…
+Pokemon = VOLTORB,15
+#-------------------------------#
+# Route 104
+#-------------------------------#
+[RSE_FISHERMAN,Ivan]
+LoseText = I thought I wasn't too bad, if I may say so, but I guess not… Bleah…
+Pokemon = MAGIKARP,5
+Pokemon = MAGIKARP,6
+Pokemon = MAGIKARP,7
+#-------------------------------
+[RSE_TWINS,Gina & Mia]
+LoseText = Gina: Losing upsets me!
+Pokemon = SEEDOT,6
+Pokemon = LOTAD,6
+#-------------------------------
+[RSE_TWINS,Gina & Mia,1]
+LoseText = Mia: We battled together, but we both lost…
+Pokemon = SEEDOT,6
+Pokemon = LOTAD,6
+#-------------------------------
+[RSE_RICHBOY,Winston]
+LoseText = Why couldn't I win?
+Pokemon = ZIGZAGOON,7
+	Item = NUGGET
+#-------------------------------
+[RSE_RICHBOY,Winston,1]
+LoseText = I lost again? Why couldn't I win?
+Pokemon = LINOONE,27
+	Item = NUGGET
+#-------------------------------
+[RSE_RICHBOY,Winston,2]
+LoseText = I lost again? Why couldn't I win?
+Pokemon = LINOONE,30
+	Item = NUGGET
+#-------------------------------
+[RSE_RICHBOY,Winston,3]
+LoseText = I lost again? Why couldn't I win?
+Pokemon = LINOONE,33
+	Item = NUGGET
+#-------------------------------
+[RSE_RICHBOY,Winston,4]
+LoseText = I lost again? Why couldn't I win?
+Pokemon = LINOONE,36
+	Item = NUGGET
+#-------------------------------
+[RSE_LASS,Haley]
+LoseText = I shouldn't have battled…
+Pokemon = LOTAD,6
+Pokemon = SHROOMISH,6
+#-------------------------------
+[RSE_LASS,Haley,1]
+LoseText = Ohh… I thought I could win…
+Pokemon = LOMBRE,26
+Pokemon = SHROOMISH,26
+#-------------------------------
+[RSE_LASS,Haley,2]
+LoseText = Ohh… I thought I could win…
+Pokemon = LOMBRE,29
+Pokemon = BRELOOM,29
+#-------------------------------
+[RSE_LASS,Haley,3]
+LoseText = Ohh… I thought I could win…
+Pokemon = LOMBRE,32
+Pokemon = BRELOOM,32
+#-------------------------------
+[RSE_LASS,Haley,4]
+LoseText = Ohh… I thought I could win…
+Pokemon = SWELLOW,34
+Pokemon = LOMBRE,34
+Pokemon = BRELOOM,34
+#-------------------------------
+[RSE_LADY,Cindy]
+LoseText = Oh, my!
+Pokemon = ZIGZAGOON,7
+	Item = NUGGET
+#-------------------------------
+[RSE_LADY,Cindy,1]
+LoseText = Oh, my… I did the best that I could…
+Pokemon = LINOONE,27
+	Item = NUGGET
+#-------------------------------
+[RSE_LADY,Cindy,2]
+LoseText = Oh, my… I did the best that I could…
+Pokemon = LINOONE,30
+	Item = NUGGET
+#-------------------------------
+[RSE_LADY,Cindy,3]
+LoseText = Oh, my… I did the best that I could…
+Pokemon = LINOONE,33
+	Item = NUGGET
+#-------------------------------
+[RSE_LADY,Cindy,4]
+LoseText = Oh, my… I did the best that I could…
+Pokemon = LINOONE,36
+	Item = NUGGET
+#-------------------------------
+[RSE_FISHERMAN,Darian]
+LoseText = What the…
+Pokemon = MAGIKARP,9
+#-------------------------------
+[RSE_YOUNGSTER,Billy]
+LoseText = Waah! I got sand in my runners! They're all gritty!
+Pokemon = ZIGZAGOON,5
+Pokemon = SEEDOT,7
+#-------------------------------#
+# Route 105
+#-------------------------------#
+[RSE_SWIMMER_F,Imani]
+LoseText = I lost while I was lounging!
+Pokemon = MARILL,26
+#-------------------------------
+[RSE_SWIMMER_M,Dominik]
+LoseText = I lost… Now I'm feeling blue…
+Pokemon = TENTACOOL,26
+#-------------------------------
+[RSE_SWIMMER_F,Beverly]
+LoseText = I'm floating…
+Pokemon = WINGULL,25
+Pokemon = WAILMER,25
+#-------------------------------
+[RSE_RUINMANIAC,Foster]
+LoseText = I was thinking too much about that rock, while my POKéMON remained weak…
+Pokemon = SANDSHREW,25
+Pokemon = SANDSLASH,25
+#-------------------------------
+[RSE_BIRDKEEPER,Josue]
+LoseText = I lost because I battled at sea.
+Pokemon = TAILLOW,25
+Pokemon = WINGULL,25
+#-------------------------------
+[RSE_RUINMANIAC,Andres]
+LoseText = Yes… I am no good at battling…
+Pokemon = SANDSHREW,25
+Pokemon = SANDSHREW,25
+#-------------------------------
+[RSE_RUINMANIAC,Andres,1]
+LoseText = Yes… I didn't think I could win.
+Pokemon = SANDSHREW,31
+Pokemon = SANDSHREW,31
+#-------------------------------
+[RSE_RUINMANIAC,Andres,2]
+LoseText = Yes… I didn't think I could win.
+Pokemon = NOSEPASS,33
+Pokemon = SANDSHREW,33
+Pokemon = SANDSHREW,33
+#-------------------------------
+[RSE_RUINMANIAC,Andres,3]
+LoseText = Yes… I didn't think I could win.
+Pokemon = NOSEPASS,35
+Pokemon = SANDSHREW,35
+Pokemon = SANDSHREW,35
+#-------------------------------
+[RSE_RUINMANIAC,Andres,4]
+LoseText = Yes… I didn't think I could win.
+Pokemon = NOSEPASS,37
+Pokemon = SANDSLASH,37
+Pokemon = SANDSLASH,37
+#-------------------------------
+[RSE_SWIMMER_M,Luis]
+LoseText = Glub… Glub…
+Pokemon = CARVANHA,26
+#-------------------------------#
+# Route 106
+#-------------------------------#
+[RSE_SWIMMER_M,Douglas]
+LoseText = I give up!
+Pokemon = TENTACOOL,24
+Pokemon = TENTACOOL,24
+#-------------------------------
+[RSE_SWIMMER_F,Kyla]
+LoseText = Did you take it easy on me by any chance?
+Pokemon = WAILMER,26
+#-------------------------------
+[RSE_FISHERMAN,Elliot]
+LoseText = Like in deep-sea fishing, I lost spectacularly!
+Pokemon = MAGIKARP,10
+Pokemon = TENTACOOL,7
+Pokemon = MAGIKARP,10
+#-------------------------------
+[RSE_FISHERMAN,Elliot,1]
+LoseText = I lost again spectacularly!
+Pokemon = TENTACOOL,24
+Pokemon = GYARADOS,27
+Pokemon = GYARADOS,27
+#-------------------------------
+[RSE_FISHERMAN,Elliot,2]
+LoseText = I lost again spectacularly!
+Pokemon = GYARADOS,29
+Pokemon = CARVANHA,26
+Pokemon = TENTACOOL,26
+Pokemon = GYARADOS,29
+#-------------------------------
+[RSE_FISHERMAN,Elliot,3]
+LoseText = I lost again spectacularly!
+Pokemon = GYARADOS,31
+Pokemon = CARVANHA,30
+Pokemon = TENTACRUEL,30
+Pokemon = GYARADOS,31
+#-------------------------------
+[RSE_FISHERMAN,Elliot,4]
+LoseText = I lost again spectacularly!
+Pokemon = GYARADOS,33
+Pokemon = SHARPEDO,33
+Pokemon = GYARADOS,33
+Pokemon = TENTACRUEL,35
+#-------------------------------
+[RSE_FISHERMAN,Ned]
+LoseText = I lost because I'm trying to not go to the washroom…
+Pokemon = TENTACOOL,11
+#-------------------------------#
+# Route 107
+#-------------------------------#
+[RSE_SWIMMER_F,Denise]
+LoseText = I hate this!
+Pokemon = WINGULL,25
+Pokemon = GOLDEEN,25
+#-------------------------------
+[RSE_SWIMMER_M,Tony]
+LoseText = I lost on my home field… I'm in shock!
+Pokemon = CARVANHA,26
+#-------------------------------
+[RSE_SWIMMER_M,Tony,1]
+LoseText = What a shock! My POKéMON has gotten stronger, but I stayed weak as a Trainer!
+Pokemon = SHARPEDO,30
+#-------------------------------
+[RSE_SWIMMER_M,Tony,2]
+LoseText = What a shock! My POKéMON has gotten stronger, but I stayed weak as a Trainer!
+Pokemon = SHARPEDO,33
+#-------------------------------
+[RSE_SWIMMER_M,Tony,3]
+LoseText = What a shock! My POKéMON have gotten stronger, but I stayed weak as a Trainer!
+Pokemon = STARYU,34
+Pokemon = SHARPEDO,36
+#-------------------------------
+[RSE_SWIMMER_M,Tony,4]
+LoseText = What a shock! My POKéMON have gotten stronger, but I stayed weak as a Trainer!
+Pokemon = STARMIE,37
+Pokemon = SHARPEDO,39
+#-------------------------------
+[RSE_SISANDBRO,Lisa & Ray]
+LoseText = Ray: Wowee, you're at a higher level than us!
+Pokemon = GOLDEEN,27
+Pokemon = TENTACOOL,25
+#-------------------------------
+[RSE_SISANDBRO,Lisa & Ray,1]
+LoseText = Lisa: Awesome. You're in a different class of tough.
+Pokemon = GOLDEEN,27
+Pokemon = TENTACOOL,25
+#-------------------------------
+[RSE_SWIMMER_M,Darrin]
+LoseText = Ahaha, I lost… I'll take a snooze, I think…
+Pokemon = TENTACOOL,24
+Pokemon = WINGULL,24
+Pokemon = TENTACOOL,24
+#-------------------------------
+[RSE_TRIATHLETESWIM_M,Camron]
+LoseText = That exhausted me…
+Pokemon = STARYU,26
+#-------------------------------
+[RSE_SWIMMER_F,Beth]
+LoseText = I wasn't good enough for you.
+Pokemon = GOLDEEN,26
+#-------------------------------#
+# Route 108
+#-------------------------------#
+[RSE_SWIMMER_F,Missy]
+LoseText = When I lose a battle, I get all stressed out!
+Pokemon = GOLDEEN,26
+#-------------------------------
+[RSE_SWIMMER_M,Matthew]
+LoseText = I'm sinking! Glub… Glub…
+Pokemon = CARVANHA,26
+#-------------------------------
+[RSE_SWIMMER_F,Tara]
+LoseText = Oh, boo!
+Pokemon = HORSEA,25
+Pokemon = MARILL,25
+#-------------------------------
+[RSE_COOLTRAINER_F,Carolina]
+LoseText = That wasn't cute at all.
+Pokemon = MANECTRIC,24
+Pokemon = SWELLOW,24
+Pokemon = MANECTRIC,24
+#-------------------------------
+[RSE_SAILOR,Cory]
+LoseText = Waaah! I lost! Waaah! Waaah!
+Pokemon = WINGULL,24
+Pokemon = MACHOP,24
+Pokemon = TENTACOOL,24
+#-------------------------------
+[RSE_SAILOR,Cory,1]
+LoseText = Waaah! I lost again! Waaah! Waaah!
+Pokemon = WINGULL,30
+Pokemon = MACHOP,30
+Pokemon = TENTACOOL,30
+#-------------------------------
+[RSE_SAILOR,Cory,2]
+LoseText = Waaah! I lost again! Waaah! Waaah!
+Pokemon = PELIPPER,32
+Pokemon = MACHOP,32
+Pokemon = TENTACOOL,32
+#-------------------------------
+[RSE_SAILOR,Cory,3]
+LoseText = Waaah! I lost again! Waaah! Waaah!
+Pokemon = PELIPPER,34
+Pokemon = MACHOP,34
+Pokemon = TENTACRUEL,34
+#-------------------------------
+[RSE_SAILOR,Cory,4]
+LoseText = Waaah! I lost again! Waaah! Waaah!
+Pokemon = PELIPPER,36
+Pokemon = MACHOKE,36
+Pokemon = TENTACRUEL,36
+#-------------------------------
+[RSE_SWIMMER_M,Jerome]
+LoseText = I won't be able to swim the seven seas like this…
+Pokemon = TENTACRUEL,26
+#-------------------------------#
+# Route 109
+#-------------------------------#
+[RSE_TUBER_F,Lola]
+LoseText = Mommy!
+Pokemon = AZURILL,12
+Pokemon = AZURILL,12
+#-------------------------------
+[RSE_TUBER_F,Lola,1]
+LoseText = Mommy!
+Pokemon = MARILL,26
+Pokemon = MARILL,26
+#-------------------------------
+[RSE_TUBER_F,Lola,2]
+LoseText = Mommy!
+Pokemon = MARILL,29
+Pokemon = MARILL,29
+#-------------------------------
+[RSE_TUBER_F,Lola,3]
+LoseText = Mommy!
+Pokemon = MARILL,32
+Pokemon = MARILL,32
+#-------------------------------
+[RSE_TUBER_F,Lola,4]
+LoseText = Mommy!
+Pokemon = AZUMARILL,35
+Pokemon = AZUMARILL,35
+#-------------------------------
+[RSE_TUBER_M,Chandler]
+LoseText = Oh, oh! Too bad!
+Pokemon = TENTACOOL,12
+Pokemon = TENTACOOL,12
+#-------------------------------
+[RSE_TUBER_M,Ricky]
+LoseText = Groan…
+Pokemon = ZIGZAGOON,13
+#-------------------------------
+[RSE_TUBER_M,Ricky,1]
+LoseText = I lost… It's because I'm hungry…
+Pokemon = LINOONE,27
+#-------------------------------
+[RSE_TUBER_M,Ricky,2]
+LoseText = I lost… It's because I'm hungry…
+Pokemon = LINOONE,30
+#-------------------------------
+[RSE_TUBER_M,Ricky,3]
+LoseText = I lost… It's because I'm hungry…
+Pokemon = LINOONE,33
+#-------------------------------
+[RSE_TUBER_M,Ricky,4]
+LoseText = I lost… It's because I'm hungry…
+Pokemon = LINOONE,36
+#-------------------------------
+[RSE_TUBER_F,Hailey]
+LoseText = I thought so! I didn't think we could win.
+Pokemon = MARILL,13
+#-------------------------------
+[RSE_SAILOR,Edmond]
+LoseText = Urp… Ooooooohhhhhh… Urrrrpppp…
+Pokemon = WINGULL,13
+#-------------------------------
+[RSE_SAILOR,Huey]
+LoseText = You're the best!
+Pokemon = WINGULL,12
+Pokemon = MACHOP,12
+#-------------------------------
+[RSE_TUBER_F,Austina]
+LoseText = Did I lose because I have an inner tube?
+Pokemon = MARILL,26
+#-------------------------------
+[RSE_TUBER_F,Gwen]
+LoseText = Oh, you're strong.
+Pokemon = MARILL,26
+#-------------------------------
+[RSE_SWIMMER_M,David]
+LoseText = Aiyah! Flubbed out!
+Pokemon = TENTACOOL,25
+Pokemon = CARVANHA,25
+#-------------------------------
+[RSE_SWIMMER_F,Alice]
+LoseText = Ouch, ouch, ouch!
+Pokemon = GOLDEEN,24
+Pokemon = WINGULL,24
+Pokemon = GOLDEEN,24
+#-------------------------------
+[RSE_YOUNGCOUPLE,Mel & Paul]
+LoseText = Mel: We lost, and it's my fault! Paul will hate me!
+Pokemon = DUSTOX,27
+Pokemon = BEAUTIFLY,27
+#-------------------------------
+[RSE_YOUNGCOUPLE,Mel & Paul,1]
+LoseText = Paul: Well, I give up.
+Pokemon = DUSTOX,27
+Pokemon = BEAUTIFLY,27
+#-------------------------------
+[RSE_BIRDKEEPER,Elijah]
+LoseText = I'm cool even in defeat, hey?
+Pokemon = SKARMORY,25
+Pokemon = SKARMORY,25
+#-------------------------------
+[RSE_FISHERMAN,Carter]
+LoseText = This dude just lost one…
+Pokemon = WAILMER,25
+Pokemon = TENTACRUEL,25
+#-------------------------------#
+# Route 110
+#-------------------------------#
+[RSE_PSYCHIC_F,Jaclyn]
+LoseText = I wondrously lost!
+Pokemon = ABRA,16
+#-------------------------------
+[RSE_FISHERMAN,Dale]
+LoseText = I lost! Drat!
+Pokemon = TENTACOOL,11
+Pokemon = WAILMER,14
+Pokemon = TENTACOOL,11
+Pokemon = WAILMER,14
+#-------------------------------
+[RSE_PSYCHIC_M,Edward]
+LoseText = I failed to prophesize my own demise!
+Pokemon = ABRA,15
+#-------------------------------
+[RSE_TRIATHLETEBIKE_F,Alyssa]
+LoseText = Oops! I ended up losing!
+Pokemon = MAGNEMITE,15
+#-------------------------------
+[RSE_COLLECTOR,Edwin]
+LoseText = I wanted to complete my collection…
+Pokemon = LOMBRE,14
+Pokemon = NUZLEAF,14
+#-------------------------------
+[RSE_COLLECTOR,Edwin,1]
+LoseText = Your POKéMON… I envy you.
+Pokemon = LOMBRE,26
+Pokemon = NUZLEAF,26
+#-------------------------------
+[RSE_COLLECTOR,Edwin,2]
+LoseText = Your POKéMON… I envy you.
+Pokemon = LOMBRE,29
+Pokemon = NUZLEAF,29
+#-------------------------------
+[RSE_COLLECTOR,Edwin,3]
+LoseText = Your POKéMON… I envy you.
+Pokemon = LOMBRE,32
+Pokemon = NUZLEAF,32
+#-------------------------------
+[RSE_COLLECTOR,Edwin,4]
+LoseText = Your POKéMON… I envy you.
+Pokemon = LUDICOLO,35
+Pokemon = SHIFTRY,35
+#-------------------------------
+[RSE_GUITARIST,Joseph]
+LoseText = You got into the groove all right…
+Pokemon = ELECTRIKE,14
+Pokemon = VOLTORB,14
+#-------------------------------
+[RSE_YOUNGSTER,Timmy]
+LoseText = Being cool isn't enough to win…
+Pokemon = ARON,15
+Pokemon = ELECTRIKE,13
+#-------------------------------
+[RSE_POKEFAN_M,Kaleb]
+LoseText = Have you no compassion or pity?
+Pokemon = MINUN,14
+	Item = ORANBERRY
+Pokemon = PLUSLE,14
+	Item = ORANBERRY
+#-------------------------------
+[RSE_POKEFAN_F,Isabel]
+LoseText = Oh, dear, this won't do.
+Pokemon = PLUSLE,14
+	Item = ORANBERRY
+Pokemon = MINUN,14
+	Item = ORANBERRY
+#-------------------------------
+[RSE_POKEFAN_F,Isabel,1]
+LoseText = Oh, dear, this won't do.
+Pokemon = PLUSLE,26
+	Item = ORANBERRY
+Pokemon = MINUN,26
+	Item = ORANBERRY
+#-------------------------------
+[RSE_POKEFAN_F,Isabel,2]
+LoseText = Oh, dear, this won't do.
+Pokemon = PLUSLE,29
+	Item = ORANBERRY
+Pokemon = MINUN,29
+	Item = ORANBERRY
+#-------------------------------
+[RSE_POKEFAN_F,Isabel,3]
+LoseText = Oh, dear, this won't do.
+Pokemon = PLUSLE,32
+	Item = ORANBERRY
+Pokemon = MINUN,32
+	Item = ORANBERRY
+#-------------------------------
+[RSE_POKEFAN_F,Isabel,4]
+LoseText = Oh, dear, this won't do.
+Pokemon = PLUSLE,35
+	Item = SITRUSBERRY
+Pokemon = MINUN,35
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_TRIATHLETEBIKE_M,Anthony]
+LoseText = Crash and burn!
+Pokemon = MAGNEMITE,14
+Pokemon = MAGNEMITE,14
+#-------------------------------
+[RSE_TRIATHLETEBIKE_F,Abigail]
+LoseText = POKéMON battles are hard, too!
+Pokemon = MAGNEMITE,16
+#-------------------------------
+[RSE_TRIATHLETEBIKE_F,Abigail,1]
+LoseText = Wow… How could you be so strong?
+Pokemon = MAGNEMITE,28
+#-------------------------------
+[RSE_TRIATHLETEBIKE_F,Abigail,2]
+LoseText = Wow… How could you be so strong?
+Pokemon = MAGNEMITE,31
+#-------------------------------
+[RSE_TRIATHLETEBIKE_F,Abigail,3]
+LoseText = Wow… How could you be so strong?
+Pokemon = MAGNETON,34
+#-------------------------------
+[RSE_TRIATHLETEBIKE_F,Abigail,4]
+LoseText = Wow… How could you be so strong?
+Pokemon = MAGNETON,37
+#-------------------------------
+[RSE_TRIATHLETEBIKE_M,Benjamin]
+LoseText = I shouldn't panic during POKéMON battles…
+Pokemon = MAGNEMITE,16
+#-------------------------------
+[RSE_TRIATHLETEBIKE_M,Benjamin,1]
+LoseText = I didn't panic, but I still lost…
+Pokemon = MAGNEMITE,30
+#-------------------------------
+[RSE_TRIATHLETEBIKE_M,Benjamin,2]
+LoseText = I didn't panic, but I still lost…
+Pokemon = MAGNEMITE,33
+#-------------------------------
+[RSE_TRIATHLETEBIKE_M,Benjamin,3]
+LoseText = I didn't panic, but I still lost…
+Pokemon = MAGNETON,36
+#-------------------------------
+[RSE_TRIATHLETEBIKE_M,Benjamin,4]
+LoseText = I didn't panic, but I still lost…
+Pokemon = MAGNETON,39
+#-------------------------------
+[RSE_TRIATHLETEBIKE_F,Jasmine]
+LoseText = I'm worried about muscle cramps…
+Pokemon = MAGNEMITE,14
+Pokemon = MAGNEMITE,14
+Pokemon = VOLTORB,6
+#-------------------------------
+[RSE_TRIATHLETEBIKE_M,Jacob]
+LoseText = Whoa! My brakes failed!
+Pokemon = VOLTORB,6
+Pokemon = VOLTORB,6
+Pokemon = MAGNEMITE,14
+#-------------------------------#
+# Route 111
+#-------------------------------#
+[RSE_COOLTRAINER_F,Brooke]
+LoseText = They didn't just look strong, they are strong!
+Pokemon = WINGULL,17
+Pokemon = NUMEL,17
+Pokemon = ROSELIA,17
+#-------------------------------
+[RSE_COOLTRAINER_F,Brooke,1]
+LoseText = You've taught them good moves!
+Pokemon = WINGULL,26
+Pokemon = NUMEL,26
+Pokemon = ROSELIA,26
+#-------------------------------
+[RSE_COOLTRAINER_F,Brooke,2]
+LoseText = You've taught them good moves!
+Pokemon = PELIPPER,29
+Pokemon = NUMEL,29
+Pokemon = ROSELIA,29
+#-------------------------------
+[RSE_COOLTRAINER_F,Brooke,3]
+LoseText = You've taught them good moves!
+Pokemon = PELIPPER,32
+Pokemon = NUMEL,32
+Pokemon = ROSELIA,32
+#-------------------------------
+[RSE_COOLTRAINER_F,Brooke,4]
+LoseText = You've taught them good moves!
+Pokemon = PELIPPER,34
+Pokemon = CAMERUPT,34
+Pokemon = ROSELIA,34
+#-------------------------------
+[RSE_COOLTRAINER_M,Wilton]
+LoseText = I see, you've toughened them considerably.
+Pokemon = ELECTRIKE,17
+Pokemon = WAILMER,17
+Pokemon = MAKUHITA,17
+#-------------------------------
+[RSE_COOLTRAINER_M,Wilton,1]
+LoseText = Ooh, you're decent!
+Pokemon = ELECTRIKE,26
+Pokemon = WAILMER,26
+Pokemon = MAKUHITA,26
+#-------------------------------
+[RSE_COOLTRAINER_M,Wilton,2]
+LoseText = Ooh, you're decent!
+Pokemon = MANECTRIC,29
+Pokemon = WAILMER,29
+Pokemon = MAKUHITA,29
+#-------------------------------
+[RSE_COOLTRAINER_M,Wilton,3]
+LoseText = Ooh, you're decent!
+Pokemon = MANECTRIC,32
+Pokemon = WAILMER,32
+Pokemon = MAKUHITA,32
+#-------------------------------
+[RSE_COOLTRAINER_M,Wilton,4]
+LoseText = Ooh, you're decent!
+Pokemon = MANECTRIC,35
+Pokemon = WAILMER,35
+Pokemon = HARIYAMA,35
+#-------------------------------
+[RSE_BLACKBELT,Daisuke]
+LoseText = Uncle! I give up!
+Pokemon = MACHOP,19
+#-------------------------------
+[RSE_CAMPER,Drew]
+LoseText = I couldn't see what was happening at my sides because of the Go-Goggles.
+Pokemon = SANDSHREW,23
+#-------------------------------
+[RSE_CAMPER,Beau]
+LoseText = I can't win on spirit alone…
+Pokemon = BALTOY,21
+Pokemon = SANDSHREW,21
+Pokemon = BALTOY,21
+#-------------------------------
+[RSE_PICNICKER,Heidi]
+LoseText = Ohhh! You're mean!
+Pokemon = SANDSHREW,22
+Pokemon = BALTOY,22
+#-------------------------------
+[RSE_PICNICKER,Becky]
+LoseText = I came up short…
+Pokemon = SANDSHREW,22
+Pokemon = MARILL,22
+#-------------------------------
+[RSE_RUINMANIAC,Dusty]
+LoseText = While I have searched for ruins, I've not searched for strong POKéMON.
+Pokemon = SANDSLASH,23
+#-------------------------------
+[RSE_RUINMANIAC,Dusty,1]
+LoseText = I've found no ruins, nor have I found any strong POKéMON…
+Pokemon = SANDSLASH,27
+#-------------------------------
+[RSE_RUINMANIAC,Dusty,2]
+LoseText = I've found no ruins, nor have I found any strong POKéMON…
+Pokemon = SANDSLASH,30
+#-------------------------------
+[RSE_RUINMANIAC,Dusty,3]
+LoseText = I've found no ruins, nor have I found any strong POKéMON…
+Pokemon = SANDSLASH,33
+#-------------------------------
+[RSE_RUINMANIAC,Dusty,4]
+LoseText = I've found no ruins, nor have I found any strong POKéMON…
+Pokemon = SANDSLASH,36
+#-------------------------------
+[RSE_PICNICKER,Celia]
+LoseText = Aww! I really shouldn't have come!
+Pokemon = MARILL,22
+Pokemon = LOMBRE,22
+#-------------------------------
+[RSE_RUINMANIAC,Bryan]
+LoseText = Oh! Your strength! It is shrouded in mystery!
+Pokemon = SANDSHREW,22
+Pokemon = SANDSLASH,22
+#-------------------------------
+[RSE_CAMPER,Branden]
+LoseText = Tch! I thought a sandwich would be enough of a bribe…
+Pokemon = TAILLOW,22
+Pokemon = NUZLEAF,22
+#-------------------------------
+[RSE_CAMPER,Travis]
+LoseText = My POKéMON lost its pep…
+Pokemon = SANDSHREW,18
+#-------------------------------
+[RSE_PICNICKER,Irene]
+LoseText = Oh, you're disgustingly good!
+Pokemon = SHROOMISH,17
+Pokemon = MARILL,17
+#-------------------------------
+[RSE_KINDLER,Hayden]
+LoseText = Groan…
+Pokemon = NUMEL,18
+#-------------------------------
+[RSE_PICNICKER,Bianca]
+LoseText = Ooh lala! That's a lot to take!
+Pokemon = SHROOMISH,18
+#-------------------------------
+[RSE_AROMALADY,Celina]
+LoseText = Oh… My… That was too much excitement.
+Pokemon = ROSELIA,18
+#-------------------------------
+[RSE_CAMPER,Tyron]
+LoseText = Wait! Did you get a good look at my POKéMON?
+Pokemon = SANDSHREW,19
+#-------------------------------#
+# Route 112
+#-------------------------------#
+[RSE_KINDLER,Bryant]
+LoseText = What a bumpy ride that was!
+Pokemon = NUMEL,18
+Pokemon = SLUGMA,18
+#-------------------------------
+[RSE_AROMALADY,Shayla]
+LoseText = Oh, how strong you are! You've given me quite a shock!
+Pokemon = SHROOMISH,18
+Pokemon = ROSELIA,18
+#-------------------------------
+[RSE_HIKER,Brice]
+LoseText = I lost! Hahahaha!
+Pokemon = NUMEL,17
+Pokemon = MACHOP,17
+#-------------------------------
+[RSE_HIKER,Trent]
+LoseText = Ouch! My legs cramped up!
+Pokemon = GEODUDE,16
+Pokemon = GEODUDE,17
+Pokemon = GEODUDE,16
+#-------------------------------
+[RSE_HIKER,Trent,1]
+LoseText = I got trumped in power?
+Pokemon = GEODUDE,24
+Pokemon = GEODUDE,24
+Pokemon = GEODUDE,24
+Pokemon = GRAVELER,24
+#-------------------------------
+[RSE_HIKER,Trent,2]
+LoseText = I got trumped in power?
+Pokemon = GEODUDE,27
+Pokemon = GEODUDE,27
+Pokemon = GRAVELER,27
+Pokemon = GRAVELER,27
+#-------------------------------
+[RSE_HIKER,Trent,3]
+LoseText = I got trumped in power?
+Pokemon = GEODUDE,30
+Pokemon = GRAVELER,30
+Pokemon = GRAVELER,30
+Pokemon = GRAVELER,30
+#-------------------------------
+[RSE_HIKER,Trent,4]
+LoseText = I got trumped in power?
+Pokemon = GRAVELER,33
+Pokemon = GRAVELER,33
+Pokemon = GRAVELER,33
+Pokemon = GOLEM,33
+#-------------------------------
+[RSE_PICNICKER,Carol]
+LoseText = Oh, you're so strong!
+Pokemon = TAILLOW,17
+Pokemon = LOMBRE,17
+#-------------------------------
+[RSE_CAMPER,Larry]
+LoseText = Waaaah!
+Pokemon = NUZLEAF,18
+#-------------------------------#
+# Route 113
+#-------------------------------#
+[RSE_PICNICKER,Sophie]
+LoseText = This is a dream. I'm sure of it…
+Pokemon = MARILL,17
+Pokemon = LOMBRE,19
+#-------------------------------
+[RSE_BIRDKEEPER,Coby]
+LoseText = A… What?
+Pokemon = SKARMORY,17
+Pokemon = SWELLOW,19
+#-------------------------------
+[RSE_YOUNGSTER,Dillon]
+LoseText = You're some kind of strong!
+Pokemon = ARON,19
+#-------------------------------
+[RSE_NINJABOY,Lao]
+LoseText = With honor I admit defeat!
+Pokemon = KOFFING,17
+Pokemon = KOFFING,17
+Pokemon = KOFFING,17
+#-------------------------------
+[RSE_NINJABOY,Lao,1]
+LoseText = With honor I admit defeat!
+Pokemon = KOFFING,24
+Pokemon = KOFFING,24
+Pokemon = KOFFING,24
+Pokemon = KOFFING,26
+#-------------------------------
+[RSE_NINJABOY,Lao,2]
+LoseText = With honor I admit defeat!
+Pokemon = KOFFING,27
+Pokemon = KOFFING,27
+Pokemon = KOFFING,27
+Pokemon = KOFFING,29
+#-------------------------------
+[RSE_NINJABOY,Lao,3]
+LoseText = With honor I admit defeat!
+Pokemon = KOFFING,30
+Pokemon = KOFFING,30
+Pokemon = KOFFING,30
+Pokemon = KOFFING,32
+#-------------------------------
+[RSE_NINJABOY,Lao,4]
+LoseText = With honor I admit defeat!
+Pokemon = KOFFING,33
+Pokemon = KOFFING,33
+Pokemon = KOFFING,33
+Pokemon = WEEZING,35
+	Item = SMOKEBALL
+#-------------------------------
+[RSE_TWINS,Tori & Tia]
+LoseText = Tori: We lost… It's boring, so I'm going to get some more ashes.
+Pokemon = SPINDA,19
+Pokemon = SPINDA,19
+#-------------------------------
+[RSE_TWINS,Tori & Tia,1]
+LoseText = Tia: We couldn't win… It's boring, so I'm getting some more ashes.
+Pokemon = SPINDA,19
+Pokemon = SPINDA,19
+#-------------------------------
+[RSE_PARASOLLADY,Madeline]
+LoseText = Huff, huff… I am exhausted…
+Pokemon = NUMEL,19
+#-------------------------------
+[RSE_PARASOLLADY,Madeline,1]
+LoseText = Oh, how super!
+Pokemon = NUMEL,29
+#-------------------------------
+[RSE_PARASOLLADY,Madeline,2]
+LoseText = Oh, how super!
+Pokemon = NUMEL,32
+#-------------------------------
+[RSE_PARASOLLADY,Madeline,3]
+LoseText = Oh, how super!
+Pokemon = ROSELIA,34
+Pokemon = NUMEL,34
+#-------------------------------
+[RSE_PARASOLLADY,Madeline,4]
+LoseText = Oh, how super!
+Pokemon = ROSELIA,37
+Pokemon = CAMERUPT,37
+#-------------------------------
+[RSE_YOUNGSTER,Jaylen]
+LoseText = Peeuuw! That stinks!
+Pokemon = TRAPINCH,19
+#-------------------------------
+[RSE_NINJABOY,Lung]
+LoseText = I'll use my ninjutsu on you… “Volcanic Ash Swirl Cloak”! …What? It's already over?
+Pokemon = KOFFING,18
+Pokemon = NINJASK,18
+#-------------------------------
+[RSE_CAMPER,Lawrence]
+LoseText = Ehehe. We got beaten cleanly.
+Pokemon = BALTOY,18
+Pokemon = SANDSHREW,18
+#-------------------------------
+[RSE_POKEMANIAC,Wyatt]
+LoseText = Y-You're all happy to win? Even though it's only me?
+Pokemon = ARON,18
+Pokemon = ARON,18
+
+#-------------------------------#
+# RSE Cities
+#-------------------------------#
+#-------------------------------#
+# Littleroot Town
+#-------------------------------#
+#-------------------------------#
+# Oldale Town
+#-------------------------------#
+#-------------------------------#
+# Petalburg City
+#-------------------------------#
+#-------------------------------#
+# Petalburg Gym
+#-------------------------------#
+[RSE_COOLTRAINER_M,Randall]
+LoseText = That was a magnificent battle!
+Pokemon = SWELLOW,26
+#-------------------------------
+[RSE_COOLTRAINER_F,Mary]
+LoseText = You were a cut above me…
+Pokemon = DELCATTY,26
+#-------------------------------
+[RSE_COOLTRAINER_M,Parker]
+LoseText = I couldn't confuse your team enough… You share a strong bond together.
+Pokemon = SPINDA,26
+#-------------------------------
+[RSE_COOLTRAINER_F,Alexia]
+LoseText = Our defenses weren't enough…
+Pokemon = WIGGLYTUFF,26
+#-------------------------------
+[RSE_COOLTRAINER_M,George]
+LoseText = I couldn't restore HP enough… What attack power…
+Pokemon = SLAKOTH,26
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_COOLTRAINER_F,Jody]
+LoseText = But… I went all out!
+Pokemon = ZANGOOSE,26
+#-------------------------------
+[RSE_COOLTRAINER_M,Berke]
+LoseText = Your power… You're the real deal.
+Pokemon = VIGOROTH,26
+#-------------------------------
+[RSE_LEADER_Norman,Norman]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = … I… I can't… I can't believe it.
+Pokemon = SPINDA,27
+	Moves = TEETERDANCE,PSYBEAM,FACADE,ENCORE
+Pokemon = VIGOROTH,27
+	Moves = SLASH,FACADE,ENCORE,FEINTATTACK
+Pokemon = LINOONE,29
+	Moves = SLASH,BELLYDRUM,FACADE,HEADBUTT
+Pokemon = SLAKING,31
+	Moves = COUNTER,YAWN,FACADE,FEINTATTACK
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_Norman,Norman,1]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Uh… Haha… Maybe that was going too hard…
+Pokemon = CHANSEY,42
+	Moves = LIGHTSCREEN,SING,SKILLSWAP,FOCUSPUNCH
+Pokemon = SLAKING,42
+	Moves = BLIZZARD,SHADOWBALL,DOUBLEEDGE,FIREBLAST
+	Item = SITRUSBERRY
+Pokemon = SPINDA,43
+	Moves = TEETERDANCE,SKILLSWAP,FACADE,HYPNOSIS
+Pokemon = SLAKING,45
+	Moves = HYPERBEAM,FLAMETHROWER,THUNDERBOLT,SHADOWBALL
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_Norman,Norman,2]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Uh… Haha… Maybe that was going too hard…
+Pokemon = SLAKING,47
+	Moves = BLIZZARD,SHADOWBALL,DOUBLEEDGE,FIREBLAST
+	Item = SITRUSBERRY
+Pokemon = CHANSEY,47
+	Moves = LIGHTSCREEN,SING,SKILLSWAP,FOCUSPUNCH
+Pokemon = KANGASKHAN,45
+	Moves = FAKEOUT,DIZZYPUNCH,ENDURE,REVERSAL
+Pokemon = SPINDA,48
+	Moves = TEETERDANCE,SKILLSWAP,FACADE,HYPNOSIS
+Pokemon = SLAKING,50
+	Moves = HYPERBEAM,FLAMETHROWER,THUNDERBOLT,SHADOWBALL
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_Norman,Norman,3]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Uh… Haha… Maybe that was going too hard…
+Pokemon = SLAKING,52
+	Moves = BLIZZARD,SHADOWBALL,DOUBLEEDGE,FIREBLAST
+	Item = SITRUSBERRY
+Pokemon = BLISSEY,52
+	Moves = LIGHTSCREEN,SING,SKILLSWAP,FOCUSPUNCH
+Pokemon = KANGASKHAN,50
+	Moves = FAKEOUT,DIZZYPUNCH,ENDURE,REVERSAL
+Pokemon = SPINDA,53
+	Moves = TEETERDANCE,SKILLSWAP,FACADE,HYPNOSIS
+Pokemon = SLAKING,55
+	Moves = HYPERBEAM,FLAMETHROWER,THUNDERBOLT,SHADOWBALL
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_Norman,Norman,4]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Uh… Haha… Maybe that was going too hard…
+Pokemon = SLAKING,57
+	Moves = BLIZZARD,SHADOWBALL,DOUBLEEDGE,FIREBLAST
+	Item = SITRUSBERRY
+Pokemon = BLISSEY,57
+	Moves = PROTECT,SING,SKILLSWAP,FOCUSPUNCH
+Pokemon = KANGASKHAN,55
+	Moves = FAKEOUT,DIZZYPUNCH,ENDURE,REVERSAL
+Pokemon = TAUROS,57
+	Moves = TAKEDOWN,PROTECT,FIREBLAST,EARTHQUAKE
+Pokemon = SPINDA,58
+	Moves = TEETERDANCE,SKILLSWAP,FACADE,HYPNOSIS
+Pokemon = SLAKING,60
+	Moves = HYPERBEAM,FLAMETHROWER,THUNDERBOLT,SHADOWBALL
+	Item = SITRUSBERRY
+#-------------------------------#
+# Rustboro City
+#-------------------------------#
+#-------------------------------#
+# Rustboro Gym
+#-------------------------------#
+[RSE_YOUNGSTER,Josh]
+LoseText = You were too good for me…
+Pokemon = GEODUDE,10
+#-------------------------------
+[RSE_YOUNGSTER,Tommy]
+LoseText = Wow! You've got some potential!
+Pokemon = GEODUDE,8
+Pokemon = GEODUDE,8
+#-------------------------------
+[RSE_HIKER,Marc]
+LoseText = Oh, man oh man! Our challenger is one feisty customer!
+Pokemon = GEODUDE,8
+Pokemon = GEODUDE,8
+#-------------------------------
+[RSE_LEADER_Roxanne,Roxanne]
+Items = POTION,POTION
+LoseText = So… I lost…
+Pokemon = GEODUDE,12
+	Moves = TACKLE,DEFENSECURL,ROCKTHROW,ROCKTOMB
+Pokemon = GEODUDE,12
+	Moves = TACKLE,DEFENSECURL,ROCKTHROW,ROCKTOMB
+Pokemon = NOSEPASS,15
+	Moves = BLOCK,HARDEN,TACKLE,ROCKTOMB
+	Item = ORANBERRY
+#-------------------------------
+[RSE_LEADER_Roxanne,Roxanne,1]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Grr… Again, I have lost…
+Pokemon = GOLEM,32
+	Moves = PROTECT,ROLLOUT,MAGNITUDE,EXPLOSION
+Pokemon = KABUTO,35
+	Moves = SWORDSDANCE,ICEBEAM,SURF,ROCKSLIDE
+	Item = SITRUSBERRY
+Pokemon = ONIX,35
+	Moves = IRONTAIL,EXPLOSION,ROAR,ROCKSLIDE
+Pokemon = NOSEPASS,37
+	Moves = DOUBLETEAM,EXPLOSION,PROTECT,ROCKSLIDE
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_Roxanne,Roxanne,2]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Grr… Again, I have lost…
+Pokemon = OMANYTE,37
+	Moves = PROTECT,ICEBEAM,ROCKSLIDE,SURF
+Pokemon = GOLEM,37
+	Moves = PROTECT,ROLLOUT,MAGNITUDE,EXPLOSION
+Pokemon = KABUTOPS,40
+	Moves = SWORDSDANCE,ICEBEAM,SURF,ROCKSLIDE
+	Item = SITRUSBERRY
+Pokemon = ONIX,40
+	Moves = IRONTAIL,EXPLOSION,ROAR,ROCKSLIDE
+Pokemon = NOSEPASS,42
+	Moves = DOUBLETEAM,EXPLOSION,PROTECT,ROCKSLIDE
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_Roxanne,Roxanne,3]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Grr… Again, I have lost…
+Pokemon = OMASTAR,42
+	Moves = PROTECT,ICEBEAM,ROCKSLIDE,SURF
+Pokemon = GOLEM,42
+	Moves = PROTECT,ROLLOUT,EARTHQUAKE,EXPLOSION
+Pokemon = KABUTOPS,45
+	Moves = SWORDSDANCE,ICEBEAM,SURF,ROCKSLIDE
+	Item = SITRUSBERRY
+Pokemon = ONIX,45
+	Moves = IRONTAIL,EXPLOSION,ROAR,ROCKSLIDE
+Pokemon = NOSEPASS,47
+	Moves = DOUBLETEAM,EXPLOSION,PROTECT,ROCKSLIDE
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_Roxanne,Roxanne,4]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Grr… Again, I have lost…
+Pokemon = AERODACTYL,47
+	Moves = ROCKSLIDE,HYPERBEAM,SUPERSONIC,PROTECT
+Pokemon = GOLEM,47
+	Moves = FOCUSPUNCH,ROLLOUT,EARTHQUAKE,EXPLOSION
+Pokemon = OMASTAR,47
+	Moves = PROTECT,ICEBEAM,ROCKSLIDE,SURF
+Pokemon = KABUTOPS,50
+	Moves = SWORDSDANCE,ICEBEAM,SURF,ROCKSLIDE
+	Item = SITRUSBERRY
+Pokemon = STEELIX,50
+	Moves = IRONTAIL,EXPLOSION,ROAR,ROCKSLIDE
+Pokemon = NOSEPASS,52
+	Moves = DOUBLETEAM,EXPLOSION,PROTECT,ROCKSLIDE
+	Item = SITRUSBERRY
+#-------------------------------#
+# Dewford Town
+#-------------------------------#
+#-------------------------------#
+# Dewford Gym
+#-------------------------------#
+[RSE_BATTLEGIRL,Laura]
+LoseText = Waaaaaaah! I lost!
+Pokemon = MEDITITE,13
+#-------------------------------
+[RSE_BATTLEGIRL,Lilith]
+LoseText = Oh, you… I don't want to know you!
+Pokemon = MEDITITE,13
+#-------------------------------
+[RSE_SAILOR,Brenden]
+LoseText = How'd this happen? It's not like me to lose this way!
+Pokemon = MACHOP,13
+#-------------------------------
+[RSE_BLACKBELT,Takao]
+LoseText = Not enough power…
+Pokemon = MACHOP,13
+#-------------------------------
+[RSE_BLACKBELT,Cristian]
+LoseText = Grrrrr! Vastly overpowered!
+Pokemon = MAKUHITA,13
+#-------------------------------
+[RSE_BATTLEGIRL,Jocelyn]
+LoseText = But… How? How could I lose so easily?
+Pokemon = MEDITITE,13
+#-------------------------------
+[RSE_LEADER_Brawly,Brawly]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = Whoah, wow! You made a much bigger splash than I expected! You swamped me!
+Pokemon = MACHOP,16
+	Moves = KARATECHOP,LOWKICK,SEISMICTOSS,BULKUP
+Pokemon = MEDITITE,16
+	Moves = FOCUSPUNCH,LIGHTSCREEN,REFLECT,BULKUP
+Pokemon = MAKUHITA,19
+	Moves = ARMTHRUST,VITALTHROW,REVERSAL,BULKUP
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_Brawly,Brawly,1]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Wow! Swamped again!
+Pokemon = MACHAMP,33
+	Moves = KARATECHOP,ROCKSLIDE,FOCUSPUNCH,BULKUP
+	Item = SITRUSBERRY
+Pokemon = MEDITITE,33
+	Moves = PSYCHIC,LIGHTSCREEN,REFLECT,FOCUSPUNCH
+Pokemon = HITMONTOP,35
+	Moves = PURSUIT,COUNTER,PROTECT,TRIPLEKICK
+Pokemon = HARIYAMA,37
+	Moves = FAKEOUT,FOCUSPUNCH,BELLYDRUM,EARTHQUAKE
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_Brawly,Brawly,2]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Wow! Swamped again!
+Pokemon = MACHAMP,38
+	Moves = KARATECHOP,ROCKSLIDE,FOCUSPUNCH,BULKUP
+	Item = SITRUSBERRY
+Pokemon = MEDICHAM,38
+	Moves = PSYCHIC,LIGHTSCREEN,REFLECT,FOCUSPUNCH
+Pokemon = HITMONTOP,40
+	Moves = PURSUIT,COUNTER,PROTECT,TRIPLEKICK
+Pokemon = HARIYAMA,42
+	Moves = FAKEOUT,FOCUSPUNCH,BELLYDRUM,EARTHQUAKE
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_Brawly,Brawly,3]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Wow! Swamped again!
+Pokemon = HITMONCHAN,40
+	Moves = SKYUPPERCUT,PROTECT,FIREPUNCH,ICEPUNCH
+Pokemon = MACHAMP,43
+	Moves = KARATECHOP,ROCKSLIDE,FOCUSPUNCH,BULKUP
+	Item = SITRUSBERRY
+Pokemon = MEDICHAM,43
+	Moves = FOCUSPUNCH,LIGHTSCREEN,REFLECT,PSYCHIC
+Pokemon = HITMONTOP,45
+	Moves = PURSUIT,COUNTER,PROTECT,TRIPLEKICK
+Pokemon = HARIYAMA,47
+	Moves = FAKEOUT,FOCUSPUNCH,BELLYDRUM,EARTHQUAKE
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_Brawly,Brawly,4]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Wow! Swamped again!
+Pokemon = HITMONLEE,46
+	Moves = MEGAKICK,FOCUSPUNCH,EARTHQUAKE,BULKUP
+Pokemon = HITMONCHAN,46
+	Moves = SKYUPPERCUT,PROTECT,FIREPUNCH,ICEPUNCH
+Pokemon = MACHAMP,48
+	Moves = CROSSCHOP,ROCKSLIDE,FOCUSPUNCH,BULKUP
+	Item = SITRUSBERRY
+Pokemon = MEDICHAM,48
+	Moves = FOCUSPUNCH,LIGHTSCREEN,REFLECT,PSYCHIC
+Pokemon = HITMONTOP,50
+	Moves = PURSUIT,COUNTER,PROTECT,TRIPLEKICK
+Pokemon = HARIYAMA,52
+	Moves = FAKEOUT,FOCUSPUNCH,BELLYDRUM,EARTHQUAKE
+	Item = SITRUSBERRY
+#-------------------------------#
+# Mauville City
+#-------------------------------#
+#-------------------------------#
+# Mauville Gym
+#-------------------------------#
+[RSE_BATTLEGIRL,Vivian]
+LoseText = I'm shocked by your power!
+Pokemon = MEDITITE,17
+Pokemon = MEDITITE,17
+#-------------------------------
+[RSE_GUITARIST,Kirk]
+LoseText = That was plugged in, amped up, over-driven electric, man!
+Pokemon = ELECTRIKE,17
+Pokemon = VOLTORB,17
+#-------------------------------
+[RSE_YOUNGSTER,Ben]
+LoseText = It's no fun to lose…
+Pokemon = ZIGZAGOON,17
+Pokemon = GULPIN,17
+#-------------------------------
+[RSE_BUGMANIAC,Angelo]
+LoseText = Oh… My eyes are frazzled…
+Pokemon = ILLUMISE,17
+Pokemon = VOLBEAT,17
+#-------------------------------
+[RSE_GUITARIST,Shawn]
+LoseText = Unplugged and turned off…
+Pokemon = VOLTORB,17
+Pokemon = MAGNEMITE,17
+#-------------------------------
+[RSE_LEADER_Wattson,Wattson]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = Wahahahah! Fine, I lost!
+Pokemon = VOLTORB,20
+	Moves = ROLLOUT,SPARK,SELFDESTRUCT,SHOCKWAVE
+Pokemon = ELECTRIKE,20
+	Moves = SHOCKWAVE,LEER,QUICKATTACK,HOWL
+Pokemon = MAGNETON,22
+	Moves = SUPERSONIC,SHOCKWAVE,THUNDERWAVE,SONICBOOM
+Pokemon = MANECTRIC,24
+	Moves = QUICKATTACK,THUNDERWAVE,SHOCKWAVE,HOWL
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_Wattson,Wattson,1]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Oof… Our batteries ran dry…
+Pokemon = MAREEP,36
+	Moves = THUNDER,PROTECT,THUNDERWAVE,LIGHTSCREEN
+Pokemon = ELECTRODE,36
+	Moves = ROLLOUT,THUNDER,EXPLOSION,RAINDANCE
+Pokemon = MAGNETON,38
+	Moves = SUPERSONIC,PROTECT,THUNDER,RAINDANCE
+	Item = SITRUSBERRY
+Pokemon = MANECTRIC,40
+	Moves = BITE,THUNDERWAVE,THUNDER,PROTECT
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_Wattson,Wattson,2]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Oof… Our batteries ran dry…
+Pokemon = PIKACHU,39
+	Moves = THUNDER,SLAM,RAINDANCE,SHOCKWAVE
+Pokemon = FLAAFFY,41
+	Moves = THUNDER,PROTECT,THUNDERWAVE,LIGHTSCREEN
+Pokemon = ELECTRODE,41
+	Moves = ROLLOUT,THUNDER,EXPLOSION,RAINDANCE
+Pokemon = MAGNETON,43
+	Moves = SUPERSONIC,PROTECT,THUNDER,RAINDANCE
+	Item = SITRUSBERRY
+Pokemon = MANECTRIC,45
+	Moves = BITE,THUNDERWAVE,THUNDER,PROTECT
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_Wattson,Wattson,3]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Oof… Our batteries ran dry…
+Pokemon = RAICHU,44
+	Moves = THUNDER,SLAM,RAINDANCE,PROTECT
+Pokemon = AMPHAROS,46
+	Moves = THUNDER,PROTECT,THUNDERWAVE,LIGHTSCREEN
+Pokemon = ELECTRODE,46
+	Moves = ROLLOUT,THUNDER,EXPLOSION,RAINDANCE
+Pokemon = MAGNETON,48
+	Moves = SUPERSONIC,PROTECT,THUNDER,RAINDANCE
+	Item = SITRUSBERRY
+Pokemon = MANECTRIC,50
+	Moves = BITE,THUNDERWAVE,THUNDER,PROTECT
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_Wattson,Wattson,4]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Oof… Our batteries ran dry…
+Pokemon = ELECTABUZZ,50
+	Moves = SWIFT,FOCUSPUNCH,THUNDERPUNCH,LIGHTSCREEN
+Pokemon = RAICHU,51
+	Moves = THUNDER,SLAM,RAINDANCE,PROTECT
+Pokemon = AMPHAROS,51
+	Moves = THUNDER,PROTECT,THUNDERWAVE,LIGHTSCREEN
+Pokemon = ELECTRODE,53
+	Moves = ROLLOUT,THUNDER,EXPLOSION,RAINDANCE
+Pokemon = MAGNETON,53
+	Moves = SUPERSONIC,PROTECT,THUNDER,RAINDANCE
+	Item = SITRUSBERRY
+Pokemon = MANECTRIC,55
+	Moves = BITE,THUNDERWAVE,THUNDER,PROTECT
+	Item = SITRUSBERRY
+#-------------------------------#
+# Verdanturf Town
+#-------------------------------#
+#-------------------------------#
+# Fallarbor Town
+#-------------------------------#
+#-------------------------------#
+# Lavaridge Town
+#-------------------------------#
+#-------------------------------#
+# Lavaridge Gym
+#-------------------------------#
+[RSE_BATTLEGIRL,Danielle]
+LoseText = Oh, but you're too strong.
+Pokemon = MEDITITE,23
+#-------------------------------
+[RSE_KINDLER,Axle]
+LoseText = I hope Flannery flames you good!
+Pokemon = NUMEL,23
+#-------------------------------
+[RSE_KINDLER,Cole]
+LoseText = I'm blinded by sweat in my eyes…
+Pokemon = NUMEL,23
+#-------------------------------
+[RSE_COOLTRAINER_M,Gerald]
+LoseText = It didn't burn hotly enough…
+Pokemon = KECLEON,23
+#-------------------------------
+[RSE_KINDLER,Keegan]
+LoseText = Play with fire, and be burned…
+Pokemon = SLUGMA,23
+#-------------------------------
+[RSE_KINDLER,Jace]
+LoseText = It's so hot, and yet my heart is clutched by ice…
+Pokemon = SLUGMA,23
+#-------------------------------
+[RSE_KINDLER,Jeff]
+LoseText = Something didn't go right.
+Pokemon = SLUGMA,22
+Pokemon = SLUGMA,22
+#-------------------------------
+[RSE_HIKER,Eli]
+LoseText = Well, it seems to me I lost without ever being in control.
+Pokemon = NUMEL,23
+#-------------------------------
+[RSE_LEADER_Flannery,Flannery]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = Oh… I guess I was trying too hard…
+Pokemon = NUMEL,24
+	Moves = OVERHEAT,TAKEDOWN,MAGNITUDE,SUNNYDAY
+Pokemon = SLUGMA,24
+	Moves = OVERHEAT,SMOG,LIGHTSCREEN,SUNNYDAY
+Pokemon = CAMERUPT,26
+	Moves = OVERHEAT,TACKLE,SUNNYDAY,ATTRACT
+Pokemon = TORKOAL,29
+	Moves = OVERHEAT,SUNNYDAY,BODYSLAM,ATTRACT
+	Item = WHITEHERB
+#-------------------------------
+[RSE_LEADER_Flannery,Flannery,1]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Whew! On the verge of eruption!
+Pokemon = MAGCARGO,38
+	Moves = OVERHEAT,ATTRACT,LIGHTSCREEN,ROCKSLIDE
+	Item = WHITEHERB
+Pokemon = PONYTA,36
+	Moves = FLAMETHROWER,ATTRACT,SOLARBEAM,BOUNCE
+Pokemon = CAMERUPT,38
+	Moves = OVERHEAT,SUNNYDAY,EARTHQUAKE,ATTRACT
+	Item = WHITEHERB
+Pokemon = TORKOAL,40
+	Moves = OVERHEAT,SUNNYDAY,EXPLOSION,ATTRACT
+	Item = WHITEHERB
+#-------------------------------
+[RSE_LEADER_Flannery,Flannery,2]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Whew! On the verge of eruption!
+Pokemon = GROWLITHE,41
+	Moves = HELPINGHAND,FLAMETHROWER,ROAR,SUNNYDAY
+Pokemon = MAGCARGO,43
+	Moves = OVERHEAT,ATTRACT,LIGHTSCREEN,ROCKSLIDE
+	Item = WHITEHERB
+Pokemon = PONYTA,41
+	Moves = FLAMETHROWER,ATTRACT,SOLARBEAM,BOUNCE
+Pokemon = CAMERUPT,43
+	Moves = OVERHEAT,SUNNYDAY,EARTHQUAKE,ATTRACT
+	Item = WHITEHERB
+Pokemon = TORKOAL,45
+	Moves = OVERHEAT,SUNNYDAY,EXPLOSION,ATTRACT
+	Item = WHITEHERB
+#-------------------------------
+[RSE_LEADER_Flannery,Flannery,3]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Whew! On the verge of eruption!
+Pokemon = HOUNDOUR,46
+	Moves = ROAR,SOLARBEAM,TAUNT,SUNNYDAY
+Pokemon = GROWLITHE,46
+	Moves = HELPINGHAND,FLAMETHROWER,SUNNYDAY,ROAR
+Pokemon = MAGCARGO,48
+	Moves = OVERHEAT,ATTRACT,LIGHTSCREEN,ROCKSLIDE
+	Item = WHITEHERB
+Pokemon = RAPIDASH,46
+	Moves = FLAMETHROWER,ATTRACT,SOLARBEAM,BOUNCE
+Pokemon = CAMERUPT,48
+	Moves = OVERHEAT,SUNNYDAY,EARTHQUAKE,ATTRACT
+	Item = WHITEHERB
+Pokemon = TORKOAL,50
+	Moves = OVERHEAT,SUNNYDAY,EXPLOSION,ATTRACT
+	Item = WHITEHERB
+#-------------------------------
+[RSE_LEADER_Flannery,Flannery,4]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Whew! On the verge of eruption!
+Pokemon = ARCANINE,51
+	Moves = HELPINGHAND,FLAMETHROWER,SUNNYDAY,ROAR
+Pokemon = MAGCARGO,53
+	Moves = OVERHEAT,ATTRACT,LIGHTSCREEN,ROCKSLIDE
+	Item = WHITEHERB
+Pokemon = HOUNDOOM,51
+	Moves = ROAR,SOLARBEAM,TAUNT,SUNNYDAY
+Pokemon = RAPIDASH,51
+	Moves = FLAMETHROWER,ATTRACT,SOLARBEAM,BOUNCE
+Pokemon = CAMERUPT,53
+	Moves = OVERHEAT,SUNNYDAY,EARTHQUAKE,ATTRACT
+	Item = WHITEHERB
+Pokemon = TORKOAL,55
+	Moves = OVERHEAT,SUNNYDAY,EXPLOSION,ATTRACT
+	Item = WHITEHERB
+#-------------------------------#
+# Fortree City
+#-------------------------------#
+#-------------------------------#
+# Fortree Gym
+#-------------------------------#
+[RSE_BIRDKEEPER,Humberto]
+LoseText = Urk! I couldn't stop you.
+Pokemon = SKARMORY,30
+#-------------------------------
+[RSE_BIRDKEEPER,Jared]
+LoseText = You… You're strong…
+Pokemon = DODUO,27
+Pokemon = SKARMORY,27
+Pokemon = TROPIUS,27
+#-------------------------------
+[RSE_PICNICKER,Ashley]
+LoseText = I was beaten…
+Pokemon = SWABLU,27
+Pokemon = SWABLU,27
+Pokemon = SWABLU,27
+#-------------------------------
+[RSE_CAMPER,Flint]
+LoseText = Winona, I… I lost!
+Pokemon = SWELLOW,29
+Pokemon = XATU,29
+#-------------------------------
+[RSE_BIRDKEEPER,Edwardo]
+LoseText = It was too much of a load for me to bear…
+Pokemon = DODUO,29
+Pokemon = PELIPPER,29
+#-------------------------------
+[RSE_BIRDKEEPER,Darius]
+LoseText = You seem to know your stuff!
+Pokemon = TROPIUS,30
+#-------------------------------
+[RSE_LEADER_Winona,Winona]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = Never before have I seen a Trainer command POKéMON with more grace than I…
+Pokemon = SWABLU,29
+	Moves = PERISHSONG,MIRRORMOVE,SAFEGUARD,AERIALACE
+Pokemon = TROPIUS,29
+	Moves = SUNNYDAY,AERIALACE,SOLARBEAM,SYNTHESIS
+Pokemon = PELIPPER,30
+	Moves = WATERGUN,SUPERSONIC,PROTECT,AERIALACE
+Pokemon = SKARMORY,31
+	Moves = SANDATTACK,FURYATTACK,STEELWING,AERIALACE
+Pokemon = ALTARIA,33
+	Moves = EARTHQUAKE,DRAGONBREATH,DRAGONDANCE,AERIALACE
+	Item = ORANBERRY
+#-------------------------------
+[RSE_LEADER_Winona,Winona,1]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = I failed to reach your height again…
+Pokemon = DRATINI,40
+	Moves = THUNDERWAVE,THUNDERBOLT,PROTECT,ICEBEAM
+	Item = SITRUSBERRY
+Pokemon = TROPIUS,38
+	Moves = SUNNYDAY,AERIALACE,SOLARBEAM,EARTHQUAKE
+Pokemon = PELIPPER,41
+	Moves = SURF,SUPERSONIC,PROTECT,AERIALACE
+Pokemon = SKARMORY,43
+	Moves = WHIRLWIND,SPIKES,STEELWING,AERIALACE
+Pokemon = ALTARIA,45
+	Moves = AERIALACE,REST,DRAGONDANCE,EARTHQUAKE
+	Item = CHESTOBERRY
+#-------------------------------
+[RSE_LEADER_Winona,Winona,2]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = I failed to reach your height again…
+Pokemon = HOOTHOOT,43
+	Moves = HYPNOSIS,PSYCHIC,REFLECT,DREAMEATER
+Pokemon = TROPIUS,43
+	Moves = SUNNYDAY,AERIALACE,SOLARBEAM,EARTHQUAKE
+Pokemon = DRAGONAIR,45
+	Moves = THUNDERWAVE,THUNDERBOLT,PROTECT,ICEBEAM
+	Item = SITRUSBERRY
+Pokemon = PELIPPER,46
+	Moves = SURF,SUPERSONIC,PROTECT,AERIALACE
+Pokemon = SKARMORY,48
+	Moves = WHIRLWIND,SPIKES,STEELWING,AERIALACE
+Pokemon = ALTARIA,50
+	Moves = AERIALACE,REST,DRAGONDANCE,EARTHQUAKE
+	Item = CHESTOBERRY
+#-------------------------------
+[RSE_LEADER_Winona,Winona,3]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = I failed to reach your height again…
+Pokemon = NOCTOWL,48
+	Moves = HYPNOSIS,PSYCHIC,REFLECT,DREAMEATER
+Pokemon = TROPIUS,49
+	Moves = SUNNYDAY,AERIALACE,SOLARBEAM,EARTHQUAKE
+Pokemon = DRAGONAIR,50
+	Moves = THUNDERWAVE,THUNDERBOLT,PROTECT,ICEBEAM
+	Item = SITRUSBERRY
+Pokemon = PELIPPER,51
+	Moves = SURF,SUPERSONIC,PROTECT,AERIALACE
+Pokemon = SKARMORY,53
+	Moves = WHIRLWIND,SPIKES,STEELWING,AERIALACE
+Pokemon = ALTARIA,55
+	Moves = AERIALACE,REST,DRAGONDANCE,EARTHQUAKE
+	Item = CHESTOBERRY
+#-------------------------------
+[RSE_LEADER_Winona,Winona,4]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = I failed to reach your height again…
+Pokemon = NOCTOWL,53
+	Moves = HYPNOSIS,PSYCHIC,REFLECT,DREAMEATER
+Pokemon = TROPIUS,54
+	Moves = SUNNYDAY,AERIALACE,SOLARBEAM,EARTHQUAKE
+Pokemon = PELIPPER,55
+	Moves = SURF,SUPERSONIC,PROTECT,AERIALACE
+Pokemon = DRAGONITE,55
+	Moves = HYPERBEAM,THUNDERBOLT,EARTHQUAKE,ICEBEAM
+	Item = SITRUSBERRY
+Pokemon = SKARMORY,58
+	Moves = WHIRLWIND,SPIKES,STEELWING,AERIALACE
+Pokemon = ALTARIA,60
+	Moves = SKYATTACK,REST,DRAGONDANCE,EARTHQUAKE
+	Item = CHESTOBERRY
+#-------------------------------#
+# Lilycove City
+#-------------------------------#
+#-------------------------------#
+# Mossdeep City
+#-------------------------------#
+#-------------------------------#
+# Mossdeep Gym
+#-------------------------------#
+[RSE_PSYCHIC_M,Preston]
+LoseText = I lost! I must temper my spirit again!
+Pokemon = KIRLIA,36
+#-------------------------------
+[RSE_PSYCHIC_F,Maura]
+LoseText = You've traveled a path of greatness!
+Pokemon = KADABRA,36
+#-------------------------------
+[RSE_PSYCHIC_F,Samantha]
+LoseText = I surrender!
+Pokemon = XATU,36
+#-------------------------------
+[RSE_PSYCHIC_M,Blake]
+LoseText = My POKéMON battling skills are out of sync, too!
+Pokemon = GIRAFARIG,36
+#-------------------------------
+[RSE_PSYCHIC_F,Macey]
+LoseText = How could you be so ludicrously strong?
+Pokemon = NATU,36
+#-------------------------------
+[RSE_GENTLEMAN,Clifford]
+LoseText = Ah, you overflow with the power of youth!
+Pokemon = GIRAFARIG,36
+#-------------------------------
+[RSE_HEXMANIAC,Kathleen]
+LoseText = N-Nooooo!
+Pokemon = KADABRA,36
+#-------------------------------
+[RSE_PSYCHIC_M,Nicholas]
+LoseText = Oh! Done in!
+Pokemon = WOBBUFFET,36
+#-------------------------------
+[RSE_GENTLEMAN,Nate]
+LoseText = Oh! My, my! Your battle style is fantastic!
+Pokemon = SPOINK,36
+#-------------------------------
+[RSE_PSYCHIC_M,Virgil]
+LoseText = You possess spectacular talent!
+Pokemon = RALTS,36
+#-------------------------------
+[RSE_HEXMANIAC,Sylvia]
+LoseText = What you do… It horrifies me…
+Pokemon = MEDITITE,36
+#-------------------------------
+[RSE_PSYCHIC_F,Hannah]
+LoseText = You're just too strong!
+Pokemon = KIRLIA,36
+#-------------------------------
+[RSE_LEADER_TateandLiza,Tate & Liza]
+Items = HYPERPOTION,HYPERPOTION,HYPERPOTION,HYPERPOTION
+LoseText = Tate: What?! Our combination…        Liza: Was shattered!
+Pokemon = CLAYDOL,41
+	Moves = EARTHQUAKE,ANCIENTPOWER,PSYCHIC,LIGHTSCREEN
+Pokemon = XATU,41
+	Moves = PSYCHIC,SUNNYDAY,CONFUSERAY,CALMMIND
+Pokemon = LUNATONE,42
+	Moves = LIGHTSCREEN,PSYCHIC,HYPNOSIS,CALMMIND
+	Item = SITRUSBERRY
+Pokemon = SOLROCK,42
+	Moves = SUNNYDAY,SOLARBEAM,PSYCHIC,FLAMETHROWER
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_TateandLiza,Tate & Liza,1]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = TATE: You and your POKéMON…             LIZA: It's as if you were siblings!
+Pokemon = SLOWPOKE,48
+	Moves = YAWN,PSYCHIC,CALMMIND,PROTECT
+Pokemon = CLAYDOL,49
+	Moves = EARTHQUAKE,ANCIENTPOWER,PSYCHIC,LIGHTSCREEN
+Pokemon = XATU,49
+	Moves = PSYCHIC,REST,CONFUSERAY,CALMMIND
+	Item = CHESTOBERRY
+Pokemon = LUNATONE,50
+	Moves = EARTHQUAKE,PSYCHIC,REST,CALMMIND
+	Item = CHESTOBERRY
+Pokemon = SOLROCK,50
+	Moves = SUNNYDAY,SOLARBEAM,PSYCHIC,FLAMETHROWER
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_TateandLiza,Tate & Liza,2]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = TATE: You and your POKéMON…             LIZA: It's as if you were siblings!
+Pokemon = DROWZEE,53
+	Moves = HYPNOSIS,DREAMEATER,HEADBUTT,PROTECT
+Pokemon = SLOWPOKE,53
+	Moves = YAWN,PSYCHIC,CALMMIND,PROTECT
+Pokemon = CLAYDOL,54
+	Moves = EARTHQUAKE,EXPLOSION,PSYCHIC,LIGHTSCREEN
+Pokemon = XATU,54
+	Moves = PSYCHIC,REST,CONFUSERAY,CALMMIND
+	Item = CHESTOBERRY
+Pokemon = LUNATONE,55
+	Moves = EARTHQUAKE,PSYCHIC,REST,CALMMIND
+	Item = CHESTOBERRY
+Pokemon = SOLROCK,55
+	Moves = SUNNYDAY,SOLARBEAM,PSYCHIC,FLAMETHROWER
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_TateandLiza,Tate & Liza,3]
+LoseText = TATE: You and your POKéMON…             LIZA: It's as if you were siblings!
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = 
+Pokemon = HYPNO,58
+	Moves = HYPNOSIS,DREAMEATER,HEADBUTT,PROTECT
+Pokemon = CLAYDOL,59
+	Moves = EARTHQUAKE,EXPLOSION,PSYCHIC,LIGHTSCREEN
+Pokemon = SLOWPOKE,58
+	Moves = YAWN,PSYCHIC,CALMMIND,PROTECT
+Pokemon = XATU,59
+	Moves = PSYCHIC,REST,CONFUSERAY,CALMMIND
+	Item = CHESTOBERRY
+Pokemon = LUNATONE,60
+	Moves = EARTHQUAKE,PSYCHIC,REST,CALMMIND
+	Item = CHESTOBERRY
+Pokemon = SOLROCK,60
+	Moves = SUNNYDAY,SOLARBEAM,PSYCHIC,FLAMETHROWER
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_LEADER_TateandLiza,Tate & Liza,4]
+LoseText = TATE: You and your POKéMON…             LIZA: It's as if you were siblings!
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = 
+Pokemon = HYPNO,63
+	Moves = HYPNOSIS,DREAMEATER,HEADBUTT,PROTECT
+Pokemon = CLAYDOL,64
+	Moves = EARTHQUAKE,EXPLOSION,PSYCHIC,LIGHTSCREEN
+Pokemon = SLOWKING,63
+	Moves = YAWN,PSYCHIC,CALMMIND,PROTECT
+Pokemon = XATU,64
+	Moves = PSYCHIC,REST,CONFUSERAY,CALMMIND
+	Item = CHESTOBERRY
+Pokemon = LUNATONE,65
+	Moves = EARTHQUAKE,PSYCHIC,REST,CALMMIND
+	Item = CHESTOBERRY
+Pokemon = SOLROCK,65
+	Moves = SUNNYDAY,SOLARBEAM,PSYCHIC,FLAMETHROWER
+	Item = SITRUSBERRY
+#-------------------------------#
+# Sootopolis City
+#-------------------------------#
+#-------------------------------#
+# Sootopolis Gym
+#-------------------------------#
+[RSE_BEAUTY,Connie]
+LoseText = Oh. You're strong.
+Pokemon = GOLDEEN,40
+#-------------------------------
+[RSE_LASS,Andrea]
+LoseText = Please forgive me, Juan…
+Pokemon = LUVDISC,40
+#-------------------------------
+[RSE_LADY,Daphne]
+LoseText = You battled with more beauty than I could muster…
+Pokemon = LUVDISC,39
+	Item = NUGGET
+Pokemon = LUVDISC,39
+	Item = NUGGET
+#-------------------------------
+[RSE_POKEFAN_F,Annika]
+LoseText = Oh, there now! Did you have a good look at my POKéMON?
+Pokemon = FEEBAS,39
+	Item = ORANBERRY
+Pokemon = FEEBAS,39
+	Item = ORANBERRY
+#-------------------------------
+[RSE_BEAUTY,Tiffany]
+LoseText = Well, excuse me?!
+Pokemon = CARVANHA,39
+Pokemon = SHARPEDO,39
+#-------------------------------
+[RSE_LASS,Crissy]
+LoseText = You're strong! I was fooled by your cute looks!
+Pokemon = GOLDEEN,39
+Pokemon = WAILMER,39
+#-------------------------------
+[RSE_POKEFAN_F,Bethany]
+LoseText = Oops!
+Pokemon = AZURILL,35
+	Item = ORANBERRY
+Pokemon = MARILL,37
+	Item = ORANBERRY
+Pokemon = AZUMARILL,39
+	Item = ORANBERRY
+#-------------------------------
+[RSE_BEAUTY,Olivia]
+LoseText = I was beaten…
+Pokemon = CLAMPERL,35
+Pokemon = CORPHISH,37
+Pokemon = LOMBRE,29
+#-------------------------------
+[RSE_LADY,Brianna]
+LoseText = Oh, dear. I went much too easy on you.
+Pokemon = SEAKING,40
+	Item = NUGGET
+#-------------------------------
+[RSE_BEAUTY,Bridget]
+LoseText = What a high level you are!
+Pokemon = AZUMARILL,40
+#-------------------------------
+[RSE_LEADER_Juan,Juan]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = Ahahaha, excellent! Very well, you are the winner.
+Pokemon = LUVDISC,41
+	Gender = female
+	Moves = WATERPULSE,ATTRACT,SWEETKISS,FLAIL
+Pokemon = WHISCASH,41
+	Moves = RAINDANCE,WATERPULSE,AMNESIA,EARTHQUAKE
+Pokemon = SEALEO,43
+	Moves = ENCORE,BODYSLAM,AURORABEAM,WATERPULSE
+Pokemon = CRAWDAUNT,43
+	Moves = WATERPULSE,CRABHAMMER,TAUNT,LEER
+Pokemon = KINGDRA,46
+	Moves = WATERPULSE,DOUBLETEAM,ICEBEAM,REST
+	Item = CHESTOBERRY
+#-------------------------------
+[RSE_LEADER_Juan,Juan,1]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Ahahaha, you are the winner! You have defeated me again!
+Pokemon = POLIWAG,46
+	Moves = HYPNOSIS,RAINDANCE,PROTECT,HYDROPUMP
+Pokemon = WHISCASH,46
+	Moves = RAINDANCE,WATERPULSE,DOUBLETEAM,FISSURE
+Pokemon = WALREIN,48
+	Moves = WATERPULSE,BODYSLAM,PROTECT,ICEBEAM
+Pokemon = CRAWDAUNT,48
+	Moves = REST,CRABHAMMER,TAUNT,DOUBLETEAM
+	Item = CHESTOBERRY
+Pokemon = KINGDRA,51
+	Moves = WATERPULSE,DOUBLETEAM,ICEBEAM,REST
+	Item = CHESTOBERRY
+#-------------------------------
+[RSE_LEADER_Juan,Juan,2]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Ahahaha, you are the winner! You have defeated me again!
+Pokemon = POLIWHIRL,50
+	Moves = HYPNOSIS,RAINDANCE,PROTECT,HYDROPUMP
+Pokemon = WHISCASH,51
+	Moves = RAINDANCE,WATERPULSE,DOUBLETEAM,FISSURE
+Pokemon = WALREIN,53
+	Moves = WATERPULSE,BODYSLAM,PROTECT,ICEBEAM
+Pokemon = CRAWDAUNT,53
+	Moves = REST,GUILLOTINE,TAUNT,DOUBLETEAM
+	Item = CHESTOBERRY
+Pokemon = KINGDRA,56
+	Moves = WATERPULSE,DOUBLETEAM,ICEBEAM,REST
+	Item = CHESTOBERRY
+#-------------------------------
+[RSE_LEADER_Juan,Juan,3]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Ahahaha, you are the winner! You have defeated me again!
+Pokemon = LAPRAS,56
+	Moves = HYDROPUMP,PERISHSONG,ICEBEAM,CONFUSERAY
+Pokemon = WHISCASH,58
+	Moves = RAINDANCE,WATERPULSE,DOUBLETEAM,FISSURE
+Pokemon = POLIWHIRL,56
+	Moves = HYPNOSIS,RAINDANCE,PROTECT,HYDROPUMP
+Pokemon = WALREIN,58
+	Moves = WATERPULSE,BODYSLAM,PROTECT,ICEBEAM
+Pokemon = CRAWDAUNT,58
+	Moves = REST,GUILLOTINE,TAUNT,DOUBLETEAM
+	Item = CHESTOBERRY
+Pokemon = KINGDRA,61
+	Moves = WATERPULSE,DOUBLETEAM,ICEBEAM,REST
+	Item = CHESTOBERRY
+#-------------------------------
+[RSE_LEADER_Juan,Juan,4]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = Ahahaha, you are the winner! You have defeated me again!
+Pokemon = LAPRAS,61
+	Moves = HYDROPUMP,PERISHSONG,ICEBEAM,CONFUSERAY
+Pokemon = WHISCASH,63
+	Moves = RAINDANCE,WATERPULSE,DOUBLETEAM,FISSURE
+Pokemon = POLITOED,61
+	Moves = HYPNOSIS,RAINDANCE,HYDROPUMP,PERISHSONG
+Pokemon = WALREIN,63
+	Moves = WATERPULSE,BODYSLAM,PROTECT,SHEERCOLD
+Pokemon = CRAWDAUNT,63
+	Moves = REST,GUILLOTINE,TAUNT,DOUBLETEAM
+	Item = CHESTOBERRY
+Pokemon = KINGDRA,66
+	Moves = WATERPULSE,DOUBLETEAM,ICEBEAM,REST
+	Item = CHESTOBERRY
+#-------------------------------
+#
+# THE BELOW BATTLE IS UNUSED IN EMERALD
+#
+[RSE_LEADER_Wallace,Wallace]
+Items = HYPERPOTION,HYPERPOTION
+LoseText = Bravo. I realize now your authenticity and magnificence as a POKéMON Trainer. I find much joy in having met you and your POKéMON. You have proven yourself worthy of the RAIN BADGE. Accept it.
+Pokemon = LUVDISC,40
+	Gender = female
+	Moves = FLAIL,ATTRACT,SWEETKISS,WATERPULSE
+Pokemon = SEALEO,40
+	Moves = ENCORE,BODYSLAM,AURORABEAM,WATERPULSE
+Pokemon = SEAKING,42
+	Moves = HORNDRILL,FURYATTACK,RAINDANCE,WATERPULSE
+Pokemon = WHISCASH,42
+	Moves = AMNESIA,RAINDANCE,EARTHQUAKE,WATERPULSE
+Pokemon = MILOTIC,43
+	Moves = RECOVER,TWISTER,ICEBEAM,WATERPULSE
+#-------------------------------#
+# Pacifidlog Town
+#-------------------------------#
+#-------------------------------#
+# Ever Grande City South
+#-------------------------------#
+#-------------------------------#
+# Ever Grande City North
+#-------------------------------#
+#-------------------------------#
+# RSE Elite Four
+#-------------------------------#
+[RSE_ELITEFOUR_Sidney,Sidney]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Well, how do you like that? I lost! Eh, it was fun, so it doesn't matter.
+Pokemon = MIGHTYENA,46
+	Moves = ROAR,DOUBLEEDGE,SANDATTACK,CRUNCH
+Pokemon = SHIFTRY,48
+	Moves = TORMENT,DOUBLETEAM,SWAGGER,EXTRASENSORY
+Pokemon = CACTURNE,46
+	Moves = LEECHSEED,FEINTATTACK,NEEDLEARM,COTTONSPORE
+Pokemon = CRAWDAUNT,48
+	Moves = SURF,SWORDSDANCE,STRENGTH,FACADE
+Pokemon = ABSOL,49
+	Moves = AERIALACE,ROCKSLIDE,SWORDSDANCE,SLASH
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_ELITEFOUR_Phoebe]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Oh, darn. I've gone and lost.
+Pokemon = DUSCLOPS,48
+	Moves = SHADOWPUNCH,CONFUSERAY,CURSE,PROTECT
+Pokemon = BANETTE,49
+	Moves = SHADOWBALL,GRUDGE,WILLOWISP,FEINTATTACK
+Pokemon = SABLEYE,50
+	Moves = SHADOWBALL,DOUBLETEAM,NIGHTSHADE,FEINTATTACK
+Pokemon = BANETTE,49
+	Moves = SHADOWBALL,PSYCHIC,THUNDERBOLT,FACADE
+Pokemon = DUSCLOPS,51
+	Moves = SHADOWBALL,ICEBEAM,ROCKSLIDE,EARTHQUAKE
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_ELITEFOUR_Glacia]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = You and your POKéMON… How hot your spirits burn! The all-consuming heat overwhelms. It's no surprise that my icy skills failed to harm you.
+Pokemon = SEALEO,50
+	Moves = ENCORE,BODYSLAM,HAIL,ICEBALL
+Pokemon = GLALIE,50
+	Moves = LIGHTSCREEN,CRUNCH,ICYWIND,ICEBEAM
+Pokemon = SEALEO,52
+	Moves = ATTRACT,DOUBLEEDGE,HAIL,BLIZZARD
+Pokemon = GLALIE,52
+	Moves = SHADOWBALL,EXPLOSION,HAIL,ICEBEAM
+Pokemon = WALREIN,53
+	Moves = SURF,BODYSLAM,ICEBEAM,SHEERCOLD
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_ELITEFOUR_Drake]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Superb, it should be said.
+Pokemon = SHELGON,52
+	Moves = ROCKTOMB,DRAGONCLAW,PROTECT,DOUBLEEDGE
+Pokemon = ALTARIA,54
+	Moves = DOUBLEEDGE,DRAGONBREATH,DRAGONDANCE,AERIALACE
+Pokemon = KINGDRA,53
+	Moves = SMOKESCREEN,DRAGONDANCE,SURF,BODYSLAM
+Pokemon = FLYGON,53
+	Moves = FLAMETHROWER,CRUNCH,DRAGONBREATH,EARTHQUAKE
+Pokemon = SALAMENCE,55
+	Moves = FLAMETHROWER,DRAGONCLAW,ROCKSLIDE,CRUNCH
+	Item = SITRUSBERRY
+#-------------------------------
+[RSE_CHAMPION_Wallace]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = I, the Champion, fall in defeat… That was wonderful work. You were elegant, infuriatingly so. And yet it was utterly glorious! Kudos to you, \PN! You are a truly noble POKéMON Trainer!
+Pokemon = WAILORD,57
+	Moves = RAINDANCE,WATERSPOUT,DOUBLEEDGE,BLIZZARD
+Pokemon = TENTACRUEL,55
+	Moves = TOXIC,HYDROPUMP,SLUDGEBOMB,ICEBEAM
+Pokemon = LUDICOLO,56
+	Moves = GIGADRAIN,SURF,LEECHSEED,DOUBLETEAM
+Pokemon = WHISCASH,56
+	Moves = EARTHQUAKE,SURF,AMNESIA,HYPERBEAM
+Pokemon = GYARADOS,56
+	Moves = DRAGONDANCE,EARTHQUAKE,HYPERBEAM,SURF
+Pokemon = MILOTIC,58
+	Moves = RECOVER,SURF,ICEBEAM,TOXIC
+	Item = SITRUSBERRY
+#-------------------------------
+#
+# THE BELOW BATTLE IS UNUSED IN EMERALD
+#
+[RSE_CHAMPION_Steven]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
+LoseText = I, the Champion, fall in defeat… Kudos to you, \PN! You are a truly noble POKéMON Trainer!
+Pokemon = SKARMORY,57
+	Moves = STEELWING,TOXIC,AERIALACE,SPIKES
+Pokemon = CLAYDOL,55
+	Moves = EARTHQUAKE,ANCIENTPOWER,LIGHTSCREEN,REFLECT
+Pokemon = AGGRON,56
+	Moves = EARTHQUAKE,DRAGONCLAW,THUNDER,SOLARBEAM
+Pokemon = CRADILY,56
+	Moves = ANCIENTPOWER,CONFUSERAY,SLUDGEBOMB,GIGADRAIN
+Pokemon = ARMALDO,56
+	Moves = ANCIENTPOWER,SLASH,AERIALACE,WATERPULSE
+Pokemon = METAGROSS,58
+	Moves = METEORMASH,EARTHQUAKE,PSYCHIC,HYPERBEAM
+	Item = SITRUSBERRY
+#-------------------------------#
+# RSE Landmarks
+#-------------------------------#
+#-------------------------------#
+# Seaside House
+#-------------------------------#
+[RSE_SAILOR,Dwayne]
+LoseText = That was a hot battle! I can accept that loss, matey!
+Pokemon = WINGULL,11
+Pokemon = MACHOP,11
+Pokemon = TENTACOOL,11
+#-------------------------------
+[RSE_BEAUTY,Johanna]
+LoseText = That's hot!
+Pokemon = GOLDEEN,13
+#-------------------------------
+[RSE_TUBER_M,Simon]
+LoseText = …I lost, but I won't cry…
+Pokemon = AZURILL,12
+Pokemon = MARILL,12
+#-------------------------------#
+# Trick House
+#-------------------------------#
+#-------------------------------#
+# Weather Institute
+#-------------------------------#
+#-------------------------------#
+# Petalburg Woods
+#-------------------------------#
+#-------------------------------#
+# Rusturf Tunnel
+#-------------------------------#
+#-------------------------------#
+# Abandoned Ship
+#-------------------------------#
+#-------------------------------#
+# Mt. Chimney
+#-------------------------------#
+#-------------------------------#
+# Jagged Pass
+#-------------------------------#
+#-------------------------------#
+# Magma Hideout
+#-------------------------------#
+#-------------------------------#
+# Meteor Falls
+#-------------------------------#
+#-------------------------------#
+# Mt. Pyre
+#-------------------------------#
+#-------------------------------#
+# Aqua Hideout
+#-------------------------------#
+#-------------------------------#
+# Shoal Cave
+#-------------------------------#
+#-------------------------------#
+# Seafloor Cavern
+#-------------------------------#
+#-------------------------------#
+# Victory Road
+#-------------------------------#
+#-------------------------------#
+# S.S. Tidal
+#-------------------------------#
+
+
+
+
+
+
+#-------------------------------
+# Route 114
+#-------------------------------
+[RSE_FISHERMAN,Kai]
+LoseText = 
+Pokemon = BARBOACH,19
+[RSE_FISHERMAN,Nolan]
+LoseText = I like to battle, but that doesn't mean I'm good at it…
+Pokemon = BARBOACH,19
+[RSE_PICNICKER,Charlotte]
+LoseText = 
+Pokemon = NUZLEAF,19
+[RSE_FISHERMAN,Claude]
+LoseText = 
+Pokemon = MAGIKARP,16
+Pokemon = GOLDEEN,17
+Pokemon = BARBOACH,18
+[RSE_PICNICKER,Nancy]
+LoseText = 
+Pokemon = MARILL,18
+Pokemon = LOMBRE,18
+[RSE_SRANDJR,Tyra & Ivy]
+LoseText = 
+Pokemon = ROSELIA,18
+Pokemon = GRAVELER,20
+[RSE_CAMPER,Shane]
+LoseText = 
+Pokemon = SANDSHREW,18
+Pokemon = NUZLEAF,18
+[RSE_POKEMANIAC,Steve]
+LoseText = 
+Pokemon = ARON,19
+[RSE_KINDLER,Bernie]
+LoseText = 
+Pokemon = SLUGMA,18
+Pokemon = WINGULL,18
+[RSE_HIKER,Lucas]
+LoseText = 
+Pokemon = GEODUDE,18
+Pokemon = NUMEL,18
+[RSE_PICNICKER,Angelina]
+LoseText = 
+Pokemon = LOMBRE,18
+Pokemon = MARILL,18
+[RSE_HIKER,Lenny]
+LoseText = 
+Pokemon = GEODUDE,18
+Pokemon = MACHOP,18
+#-------------------------------
+# Route 114 Rematches
+#-------------------------------
+[RSE_POKEMANIAC,Steve,1]
+LoseText = 
+Pokemon = LAIRON,27
+[RSE_POKEMANIAC,Steve,2]
+LoseText = 
+Pokemon = LAIRON,29
+Pokemon = RHYHORN,29
+[RSE_POKEMANIAC,Steve,3]
+LoseText = 
+Pokemon = LAIRON,32
+Pokemon = RHYHORN,32
+[RSE_POKEMANIAC,Steve,4]
+LoseText = 
+Pokemon = AGGRON,35
+Pokemon = RHYDON,35
+[RSE_KINDLER,Bernie,1]
+LoseText = 
+Pokemon = SLUGMA,26
+Pokemon = WINGULL,26
+[RSE_KINDLER,Bernie,2]
+LoseText = 
+Pokemon = SLUGMA,29
+Pokemon = PELIPPER,29
+[RSE_KINDLER,Bernie,3]
+LoseText = 
+Pokemon = SLUGMA,32
+Pokemon = PELIPPER,32
+[RSE_KINDLER,Bernie,4]
+LoseText = 
+Pokemon = MAGCARGO,35
+Pokemon = PELIPPER,35
+#-------------------------------
+# Route 115
+#-------------------------------
+[RSE_BLACKBELT,Nob]
+LoseText = 
+Pokemon = MACHOP,19
+[RSE_COLLECTOR,Hector]
+LoseText = 
+Pokemon = ZANGOOSE,18
+Pokemon = SEVIPER,18
+[RSE_PSYCHIC_F,Marlene]
+LoseText = 
+Pokemon = MEDITITE,18
+Pokemon = SPOINK,18
+[RSE_BATTLEGIRL,Cyndy]
+LoseText = 
+Pokemon = MEDITITE,18
+Pokemon = MAKUHITA,18
+	Gender = male
+[RSE_TRIATHLETERUN_F,Kyra]
+LoseText = 
+Pokemon = DODUO,26
+Pokemon = DODRIO,26
+[RSE_NINJABOY,Jaiden]
+LoseText = 
+Pokemon = NINJASK,26
+Pokemon = GULPIN,26
+[RSE_EXPERT_M,Timothy]
+LoseText = 
+Pokemon = HARIYAMA,27
+[RSE_BLACKBELT,Koichi]
+LoseText = 
+Pokemon = MACHOP,24
+Pokemon = MACHOKE,28
+[RSE_BATTLEGIRL,Helene]
+LoseText = 
+Pokemon = MEDITITE,26
+Pokemon = MAKUHITA,26
+	Gender = male
+[RSE_PSYCHIC_F,Alix]
+LoseText = 
+Pokemon = KADABRA,26
+Pokemon = KIRLIA,26
+#-------------------------------
+# Route 115 Rematches
+#-------------------------------
+[RSE_BLACKBELT,Nob,1]
+LoseText = 
+Pokemon = MACHOKE,27
+[RSE_BLACKBELT,Nob,2]
+LoseText = 
+Pokemon = MACHOP,29
+Pokemon = MACHOKE,31
+[RSE_BLACKBELT,Nob,3]
+LoseText = 
+Pokemon = MACHOP,31
+Pokemon = MACHOKE,31
+Pokemon = MACHOKE,31
+[RSE_BLACKBELT,Nob,4]
+LoseText = 
+Pokemon = MACHOP,33
+Pokemon = MACHOKE,33
+Pokemon = MACHOKE,33
+Pokemon = MACHAMP,33
+	Item = BLACKBELT
+[RSE_BATTLEGIRL,Cyndy,1]
+LoseText = 
+Pokemon = MEDITITE,26
+Pokemon = MAKUHITA,26
+	Gender = male
+[RSE_BATTLEGIRL,Cyndy,2]
+LoseText = 
+Pokemon = MEDITITE,29
+Pokemon = MAKUHITA,29
+	Gender = male
+[RSE_BATTLEGIRL,Cyndy,3]
+LoseText = 
+Pokemon = MEDICHAM,32
+Pokemon = HARIYAMA,32
+	Gender = male
+[RSE_BATTLEGIRL,Cyndy,4]
+LoseText = 
+Pokemon = MEDICHAM,35
+Pokemon = HARIYAMA,35
+	Gender = male
+[RSE_EXPERT_M,Timothy,1]
+LoseText = 
+Pokemon = HARIYAMA,33
+[RSE_EXPERT_M,Timothy,2]
+LoseText = 
+Pokemon = HARIYAMA,36
+[RSE_EXPERT_M,Timothy,3]
+LoseText = 
+Pokemon = HARIYAMA,39
+[RSE_EXPERT_M,Timothy,4]
+LoseText = 
+Pokemon = HARIYAMA,42
+#-------------------------------
+# Route 116
+#-------------------------------
+[RSE_BUGCATCHER,Jose]
+LoseText = 
+Pokemon = WURMPLE,8
+Pokemon = NINCADA,8
+[RSE_YOUNGSTER,Joey]
+LoseText = 
+Pokemon = MACHOP,9
+[RSE_SCHOOLKID_F,Karen]
+LoseText = 
+Pokemon = SHROOMISH,9
+[RSE_YOUNGSTER,Johnson]
+LoseText = 
+Pokemon = SHROOMISH,8
+Pokemon = LOTAD,8
+[RSE_HIKER,Devan]
+LoseText = 
+Pokemon = GEODUDE,8
+Pokemon = GEODUDE,8
+[RSE_HIKER,Clark]
+LoseText = 
+Pokemon = GEODUDE,8
+[RSE_SCHOOLKID_M,Jerry]
+LoseText = 
+Pokemon = RALTS,9
+[RSE_LASS,Janice]
+LoseText = 
+Pokemon = MARILL,9
+[RSE_LADY,Sarah]
+LoseText = 
+Pokemon = LOTAD,8
+Pokemon = ZIGZAGOON,8
+	Item = NUGGET
+[RSE_RICHBOY,Dawson]
+LoseText = 
+Pokemon = ZIGZAGOON,8
+	Item = NUGGET
+Pokemon = POOCHYENA,8
+#-------------------------------
+# Route 116 Rematches
+#-------------------------------
+[RSE_SCHOOLKID_F,Karen,1]
+LoseText = 
+Pokemon = SHROOMISH,26
+Pokemon = WHISMUR,26
+[RSE_SCHOOLKID_F,Karen,2]
+LoseText = 
+Pokemon = SHROOMISH,29
+Pokemon = LOUDRED,29
+[RSE_SCHOOLKID_F,Karen,3]
+LoseText = 
+Pokemon = BRELOOM,32
+Pokemon = LOUDRED,32
+[RSE_SCHOOLKID_F,Karen,4]
+LoseText = 
+Pokemon = BRELOOM,35
+Pokemon = EXPLOUD,35
+[RSE_SCHOOLKID_M,Jerry,1]
+LoseText = 
+Pokemon = RALTS,26
+Pokemon = MEDITITE,26
+[RSE_SCHOOLKID_M,Jerry,2]
+LoseText = 
+Pokemon = KIRLIA,29
+Pokemon = MEDITITE,29
+[RSE_SCHOOLKID_M,Jerry,3]
+LoseText = 
+Pokemon = KIRLIA,32
+Pokemon = MEDICHAM,32
+[RSE_SCHOOLKID_M,Jerry,4]
+LoseText = 
+Pokemon = KIRLIA,34
+Pokemon = BANETTE,34
+Pokemon = MEDICHAM,34
+#-------------------------------
+# Route 117
+#-------------------------------
+[RSE_TRIATHLETERUN_M,Dylan]
+LoseText = 
+Pokemon = DODUO,17
+[RSE_POKEMONBREEDER_F,Lydia]
+LoseText = 
+Pokemon = WINGULL,11
+Pokemon = SHROOMISH,11
+Pokemon = MARILL,11
+Pokemon = ROSELIA,11
+Pokemon = SKITTY,11
+Pokemon = GOLDEEN,11
+[RSE_SRANDJR,Anna & Meg]
+LoseText = 
+Pokemon = ZIGZAGOON,15
+Pokemon = MAKUHITA,17
+[RSE_TRIATHLETERUN_F,Maria]
+LoseText = 
+Pokemon = DODUO,17
+[RSE_POKEMONBREEDER_M,Isaac]
+LoseText = 
+Pokemon = WHISMUR,11
+Pokemon = ZIGZAGOON,11
+Pokemon = ARON,11
+Pokemon = POOCHYENA,11
+Pokemon = TAILLOW,11
+Pokemon = MAKUHITA,11
+[RSE_BATTLEGIRL,Aisha]
+LoseText = 
+Pokemon = MEDITITE,17
+[RSE_TRIATHLETERUN_F,Melina]
+LoseText = 
+Pokemon = DODUO,17
+[RSE_PSYCHIC_F,Brandi]
+LoseText = 
+Pokemon = RALTS,17
+[RSE_BUGMANIAC,Derek]
+LoseText = 
+Pokemon = DUSTOX,16
+Pokemon = BEAUTIFLY,16
+#-------------------------------
+# Route 117 Rematches
+#-------------------------------
+[RSE_TRIATHLETERUN_M,Dylan,1]
+LoseText = 
+Pokemon = DODUO,28
+[RSE_TRIATHLETERUN_M,Dylan,2]
+LoseText = 
+Pokemon = DODUO,31
+[RSE_TRIATHLETERUN_M,Dylan,3]
+LoseText = 
+Pokemon = DODRIO,34
+[RSE_TRIATHLETERUN_M,Dylan,4]
+LoseText = 
+Pokemon = DODRIO,37
+[RSE_POKEMONBREEDER_F,Lydia,1]
+LoseText = 
+Pokemon = WINGULL,22
+Pokemon = SHROOMISH,22
+Pokemon = MARILL,22
+Pokemon = ROSELIA,22
+Pokemon = SKITTY,22
+Pokemon = GOLDEEN,22
+[RSE_POKEMONBREEDER_F,Lydia,2]
+LoseText = 
+Pokemon = PELIPPER,25
+Pokemon = BRELOOM,25
+Pokemon = MARILL,25
+Pokemon = ROSELIA,25
+Pokemon = DELCATTY,25
+Pokemon = GOLDEEN,25
+[RSE_POKEMONBREEDER_F,Lydia,3]
+LoseText = 
+Pokemon = PELIPPER,28
+Pokemon = BRELOOM,28
+Pokemon = MARILL,28
+Pokemon = ROSELIA,28
+Pokemon = DELCATTY,28
+Pokemon = GOLDEEN,28
+[RSE_POKEMONBREEDER_F,Lydia,4]
+LoseText = 
+Pokemon = PELIPPER,31
+Pokemon = BRELOOM,31
+Pokemon = AZUMARILL,31
+Pokemon = ROSELIA,31
+Pokemon = DELCATTY,31
+Pokemon = SEAKING,31
+[RSE_SRANDJR,Anna & Meg,1]
+LoseText = 
+Pokemon = ZIGZAGOON,28
+Pokemon = MAKUHITA,30
+[RSE_SRANDJR,Anna & Meg,2]
+LoseText = 
+Pokemon = ZIGZAGOON,31
+Pokemon = MAKUHITA,33
+[RSE_SRANDJR,Anna & Meg,3]
+LoseText = 
+Pokemon = LINOONE,34
+Pokemon = MAKUHITA,36
+[RSE_SRANDJR,Anna & Meg,4]
+LoseText = 
+Pokemon = LINOONE,36
+Pokemon = HARIYAMA,38
+[RSE_TRIATHLETERUN_F,Maria,1]
+LoseText = 
+Pokemon = DODUO,28
+[RSE_TRIATHLETERUN_F,Maria,2]
+LoseText = 
+Pokemon = DODUO,31
+[RSE_TRIATHLETERUN_F,Maria,3]
+LoseText = 
+Pokemon = DODRIO,34
+[RSE_TRIATHLETERUN_F,Maria,4]
+LoseText = 
+Pokemon = DODRIO,37
+[RSE_POKEMONBREEDER_M,Isaac,1]
+LoseText = 
+Pokemon = LOUDRED,22
+Pokemon = LINOONE,22
+Pokemon = ARON,22
+Pokemon = MIGHTYENA,22
+Pokemon = SWELLOW,22
+Pokemon = MAKUHITA,22
+[RSE_POKEMONBREEDER_M,Isaac,2]
+LoseText = 
+Pokemon = LOUDRED,25
+Pokemon = LINOONE,25
+Pokemon = ARON,25
+Pokemon = MIGHTYENA,25
+Pokemon = SWELLOW,25
+Pokemon = HARIYAMA,25
+[RSE_POKEMONBREEDER_M,Isaac,3]
+LoseText = 
+Pokemon = LOUDRED,28
+Pokemon = LINOONE,28
+Pokemon = ARON,28
+Pokemon = MIGHTYENA,28
+Pokemon = SWELLOW,28
+Pokemon = HARIYAMA,28
+[RSE_POKEMONBREEDER_M,Isaac,4]
+LoseText = 
+Pokemon = LOUDRED,31
+Pokemon = LINOONE,31
+Pokemon = LAIRON,31
+Pokemon = MIGHTYENA,31
+Pokemon = SWELLOW,31
+Pokemon = HARIYAMA,31
+#-------------------------------
+# Route 118
+#-------------------------------
+[RSE_AROMALADY,Rose]
+LoseText = 
+Pokemon = ROSELIA,14
+Pokemon = SHROOMISH,14
+Pokemon = ROSELIA,14
+[RSE_YOUNGSTER,Deandre]
+LoseText = 
+Pokemon = ZIGZAGOON,14
+Pokemon = ARON,14
+Pokemon = ELECTRIKE,14
+[RSE_FISHERMAN,Wade]
+LoseText = 
+Pokemon = TENTACOOL,16
+[RSE_GUITARIST,Dalton]
+LoseText = 
+Pokemon = MAGNEMITE,15
+Pokemon = WHISMUR,15
+[RSE_FISHERMAN,Barny]
+LoseText = 
+Pokemon = TENTACOOL,25
+Pokemon = CARVANHA,25
+[RSE_BIRDKEEPER,Chester]
+LoseText = 
+Pokemon = TAILLOW,25
+Pokemon = SWELLOW,25
+[RSE_BIRDKEEPER,Perry]
+LoseText = 
+Pokemon = WINGULL,26
+#-------------------------------
+# Route 118 Rematches
+#-------------------------------
+[RSE_AROMALADY,Rose,1]
+LoseText = 
+Pokemon = SHROOMISH,26
+Pokemon = ROSELIA,26
+[RSE_AROMALADY,Rose,2]
+LoseText = 
+Pokemon = SHROOMISH,28
+Pokemon = GLOOM,28
+Pokemon = ROSELIA,28
+[RSE_AROMALADY,Rose,3]
+LoseText = 
+Pokemon = SHROOMISH,31
+Pokemon = GLOOM,31
+Pokemon = ROSELIA,31
+[RSE_AROMALADY,Rose,4]
+LoseText = 
+Pokemon = BRELOOM,34
+Pokemon = GLOOM,34
+Pokemon = ROSELIA,34
+[RSE_GUITARIST,Dalton,1]
+LoseText = 
+Pokemon = MAGNEMITE,25
+Pokemon = WHISMUR,25
+Pokemon = MAGNEMITE,25
+[RSE_GUITARIST,Dalton,2]
+LoseText = 
+Pokemon = MAGNEMITE,28
+Pokemon = LOUDRED,28
+Pokemon = MAGNEMITE,28
+[RSE_GUITARIST,Dalton,3]
+LoseText = 
+Pokemon = MAGNETON,31
+Pokemon = LOUDRED,31
+Pokemon = MAGNETON,31
+[RSE_GUITARIST,Dalton,4]
+LoseText = 
+Pokemon = MAGNETON,34
+Pokemon = EXPLOUD,34
+Pokemon = MAGNETON,34
+#-------------------------------
+# Route 119
+#-------------------------------
+[RSE_BUGCATCHER,Kent]
+LoseText = 
+Pokemon = NINJASK,25
+[RSE_BUGMANIAC,Donald]
+LoseText = 
+Pokemon = WURMPLE,24
+Pokemon = SILCOON,24
+Pokemon = BEAUTIFLY,24
+[RSE_BUGCATCHER,Greg]
+LoseText = 
+Pokemon = VOLBEAT,25
+Pokemon = ILLUMISE,25
+[RSE_BUGMANIAC,Taylor]
+LoseText = 
+Pokemon = WURMPLE,27
+Pokemon = CASCOON,27
+Pokemon = DUSTOX,27
+[RSE_BUGMANIAC,Brent]
+LoseText = 
+Pokemon = SURSKIT,26
+[RSE_BUGCATCHER,Doug]
+LoseText = 
+Pokemon = NINCADA,28
+Pokemon = NINJASK,28
+[RSE_FISHERMAN,Chris]
+LoseText = 
+Pokemon = MAGIKARP,29
+Pokemon = TENTACOOL,20
+Pokemon = FEEBAS,26
+Pokemon = CARVANHA,23
+[RSE_POKEMONRANGER_F,Catherine]
+LoseText = 
+Pokemon = GLOOM,26
+Pokemon = ROSELIA,26
+[RSE_POKEMONRANGER_M,Jackson]
+LoseText = 
+Pokemon = BRELOOM,27
+[RSE_BIRDKEEPER,Phil]
+LoseText = 
+Pokemon = SWELLOW,26
+[RSE_PARASOLLADY,Rachel]
+LoseText = 
+Pokemon = GOLDEEN,26
+[RSE_NINJABOY,Takashi]
+LoseText = 
+Pokemon = NINJASK,25
+Pokemon = KOFFING,25
+[RSE_KINDLER,Dayton]
+LoseText = 
+Pokemon = SLUGMA,25
+Pokemon = NUMEL,25
+[RSE_BIRDKEEPER,Hugh]
+LoseText = 
+Pokemon = WINGULL,25
+Pokemon = TROPIUS,25
+[RSE_GUITARIST,Fabian]
+LoseText = 
+Pokemon = MANECTRIC,26
+[RSE_NINJABOY,Yasu]
+LoseText = 
+Pokemon = NINJASK,26
+[RSE_NINJABOY,Hideo]
+LoseText = 
+Pokemon = KOFFING,25
+Pokemon = KOFFING,25
+#-------------------------------
+# Route 119 Rematches
+#-------------------------------
+[RSE_POKEMONRANGER_F,Catherine,1]
+LoseText = 
+Pokemon = GLOOM,30
+Pokemon = ROSELIA,30
+[RSE_POKEMONRANGER_F,Catherine,2]
+LoseText = 
+Pokemon = GLOOM,33
+Pokemon = ROSELIA,33
+[RSE_POKEMONRANGER_F,Catherine,3]
+LoseText = 
+Pokemon = GLOOM,36
+Pokemon = ROSELIA,36
+[RSE_POKEMONRANGER_F,Catherine,4]
+LoseText = 
+Pokemon = BELLOSSOM,39
+Pokemon = ROSELIA,39
+[RSE_POKEMONRANGER_M,Jackson,1]
+LoseText = 
+Pokemon = BRELOOM,31
+[RSE_POKEMONRANGER_M,Jackson,2]
+LoseText = 
+Pokemon = BRELOOM,34
+[RSE_POKEMONRANGER_M,Jackson,3]
+LoseText = 
+Pokemon = BRELOOM,37
+[RSE_POKEMONRANGER_M,Jackson,4]
+LoseText = 
+Pokemon = KECLEON,39
+Pokemon = BRELOOM,39
+#-------------------------------
+# Route 120
+#-------------------------------
+[RSE_PARASOLLADY,Clarissa]
+LoseText = 
+Pokemon = ROSELIA,28
+Pokemon = WAILMER,28
+[RSE_BIRDKEEPER,Robert]
+LoseText = 
+Pokemon = SWABLU,29
+[RSE_BIRDKEEPER,Colin]
+LoseText = 
+Pokemon = WINGULL,28
+Pokemon = NATU,28
+[RSE_PARASOLLADY,Angelica]
+LoseText = 
+Pokemon = CASTFORM,30
+[RSE_COOLTRAINER_M,Leonel]
+LoseText = 
+Pokemon = MANECTRIC,30
+[RSE_NINJABOY,Riley]
+LoseText = 
+Pokemon = NINCADA,28
+Pokemon = KOFFING,28
+[RSE_BATTLEGIRL,Callie]
+LoseText = 
+Pokemon = MEDITITE,28
+Pokemon = MAKUHITA,28
+	Gender = male
+[RSE_COOLTRAINER_F,Jennifer]
+LoseText = 
+Pokemon = SABLEYE,30
+[RSE_POKEMONRANGER_F,Jenna]
+LoseText = 
+Pokemon = LOTAD,28
+Pokemon = LOMBRE,28
+Pokemon = NUZLEAF,28
+[RSE_POKEMONRANGER_M,Lorenzo]
+LoseText = 
+Pokemon = SEEDOT,28
+Pokemon = NUZLEAF,28
+Pokemon = LOMBRE,28
+[RSE_BUGMANIAC,Jeffrey]
+LoseText = 
+Pokemon = SURSKIT,27
+Pokemon = SURSKIT,27
+Pokemon = SURSKIT,27
+[RSE_NINJABOY,Keigo]
+LoseText = 
+Pokemon = KOFFING,28
+Pokemon = NINJASK,28
+[RSE_RUINMANIAC,Chip]
+LoseText = 
+Pokemon = BALTOY,27
+Pokemon = SANDSHREW,27
+Pokemon = SANDSLASH,27
+#-------------------------------
+# Route 120 Rematches
+#-------------------------------
+[RSE_BIRDKEEPER,Robert,1]
+LoseText = 
+Pokemon = NATU,32
+Pokemon = SWABLU,32
+[RSE_BIRDKEEPER,Robert,2]
+LoseText = 
+Pokemon = NATU,35
+Pokemon = ALTARIA,35
+[RSE_BIRDKEEPER,Robert,3]
+LoseText = 
+Pokemon = NATU,38
+Pokemon = ALTARIA,38
+[RSE_BIRDKEEPER,Robert,4]
+LoseText = 
+Pokemon = ALTARIA,41
+Pokemon = XATU,41
+[RSE_BUGMANIAC,Jeffrey,1]
+LoseText = 
+Pokemon = SURSKIT,31
+Pokemon = SURSKIT,31
+Pokemon = SURSKIT,31
+[RSE_BUGMANIAC,Jeffrey,2]
+LoseText = 
+Pokemon = SURSKIT,34
+Pokemon = SURSKIT,34
+Pokemon = MASQUERAIN,34
+[RSE_BUGMANIAC,Jeffrey,3]
+LoseText = 
+Pokemon = SURSKIT,36
+Pokemon = WURMPLE,36
+Pokemon = SURSKIT,36
+Pokemon = MASQUERAIN,36
+[RSE_BUGMANIAC,Jeffrey,4]
+LoseText = 
+Pokemon = SURSKIT,38
+Pokemon = DUSTOX,38
+Pokemon = SURSKIT,38
+Pokemon = MASQUERAIN,38
+	Item = SILVERPOWDER
+Pokemon = BEAUTIFLY,38
+#-------------------------------
+# Route 121
+#-------------------------------
+[RSE_HEXMANIAC,Tammy]
+LoseText = 
+Pokemon = DUSKULL,29
+Pokemon = SHUPPET,29
+[RSE_BUGMANIAC,Cale]
+LoseText = 
+Pokemon = DUSTOX,29
+Pokemon = BEAUTIFLY,29
+[RSE_BEAUTY,Jessica]
+LoseText = 
+Pokemon = KECLEON,29
+Pokemon = SEVIPER,29
+[RSE_SRANDJR,Kate & Joy]
+LoseText = 
+Pokemon = SPINDA,30
+Pokemon = SLAKING,32
+[RSE_POKEMONBREEDER_M,Myles]
+LoseText = 
+Pokemon = MAKUHITA,25
+Pokemon = WINGULL,25
+Pokemon = TROPIUS,25
+Pokemon = ZIGZAGOON,25
+Pokemon = ELECTRIKE,25
+Pokemon = NUMEL,25
+[RSE_POKEMONBREEDER_F,Pat]
+LoseText = 
+Pokemon = POOCHYENA,25
+Pokemon = SHROOMISH,25
+Pokemon = ELECTRIKE,25
+Pokemon = MARILL,25
+Pokemon = SANDSHREW,25
+Pokemon = GULPIN,25
+[RSE_GENTLEMAN,Walter]
+LoseText = 
+Pokemon = MANECTRIC,29
+[RSE_POKEFAN_F,Vanessa]
+LoseText = 
+Pokemon = PIKACHU,30
+	Item = ORANBERRY
+[RSE_COOLTRAINER_M,Marcel]
+LoseText = 
+Pokemon = MANECTRIC,29
+Pokemon = SHIFTRY,29
+[RSE_COOLTRAINER_F,Cristin]
+LoseText = 
+Pokemon = LOUDRED,29
+Pokemon = VIGOROTH,29
+#-------------------------------
+# Route 121 Rematches
+#-------------------------------
+[RSE_BEAUTY,Jessica,1]
+LoseText = 
+Pokemon = KECLEON,35
+Pokemon = SEVIPER,35
+[RSE_BEAUTY,Jessica,2]
+LoseText = 
+Pokemon = KECLEON,38
+Pokemon = SEVIPER,38
+[RSE_BEAUTY,Jessica,3]
+LoseText = 
+Pokemon = KECLEON,41
+Pokemon = SEVIPER,41
+[RSE_BEAUTY,Jessica,4]
+LoseText = 
+Pokemon = KECLEON,44
+Pokemon = SEVIPER,44
+[RSE_GENTLEMAN,Walter,1]
+LoseText = 
+Pokemon = MANECTRIC,34
+[RSE_GENTLEMAN,Walter,2]
+LoseText = 
+Pokemon = LINOONE,36
+Pokemon = MANECTRIC,36
+[RSE_GENTLEMAN,Walter,3]
+LoseText = 
+Pokemon = LINOONE,39
+Pokemon = MANECTRIC,39
+[RSE_GENTLEMAN,Walter,4]
+LoseText = 
+Pokemon = LINOONE,41
+Pokemon = GOLDUCK,41
+Pokemon = MANECTRIC,41
+[RSE_COOLTRAINER_F,Cristin,1]
+LoseText = 
+Pokemon = LOUDRED,35
+Pokemon = VIGOROTH,35
+[RSE_COOLTRAINER_F,Cristin,2]
+LoseText = 
+Pokemon = SPINDA,37
+Pokemon = EXPLOUD,37
+Pokemon = VIGOROTH,37
+[RSE_COOLTRAINER_F,Cristin,3]
+LoseText = 
+Pokemon = SPINDA,39
+Pokemon = EXPLOUD,39
+Pokemon = VIGOROTH,39
+[RSE_COOLTRAINER_F,Cristin,4]
+LoseText = 
+Pokemon = SPINDA,41
+Pokemon = EXPLOUD,41
+Pokemon = SLAKING,41
+#-------------------------------
+# Route 122
+#-------------------------------
+#-------------------------------
+# Route 122 Rematches
+#-------------------------------
+#-------------------------------
+# Route 123
+#-------------------------------
+[RSE_COOLTRAINER_F,Jazmyn]
+LoseText = 
+Pokemon = ABSOL,27
+[RSE_BUGCATCHER,Davis]
+LoseText = 
+Pokemon = PINSIR,27
+[RSE_AROMALADY,Violet]
+LoseText = 
+Pokemon = ROSELIA,26
+Pokemon = GLOOM,26
+[RSE_TWINS,Miu & Yuki]
+LoseText = 
+Pokemon = BEAUTIFLY,26
+Pokemon = DUSTOX,26
+[RSE_PSYCHIC_M,Cameron]
+LoseText = 
+Pokemon = SOLROCK,31
+[RSE_NINJABOY,Jonas]
+LoseText = 
+Pokemon = KOFFING,31
+[RSE_PARASOLLADY,Kayley]
+LoseText = 
+Pokemon = CASTFORM,31
+[RSE_HEXMANIAC,Kindra]
+LoseText = 
+Pokemon = DUSKULL,30
+Pokemon = SHUPPET,30
+[RSE_COLLECTOR,Ed]
+LoseText = 
+Pokemon = ZANGOOSE,30
+Pokemon = SEVIPER,30
+[RSE_COOLTRAINER_F,Wendy]
+LoseText = 
+Pokemon = MAWILE,29
+Pokemon = ROSELIA,29
+Pokemon = PELIPPER,29
+[RSE_COOLTRAINER_M,Braxton]
+LoseText = 
+Pokemon = SWELLOW,28
+Pokemon = TRAPINCH,28
+Pokemon = WAILMER,28
+Pokemon = MAGNETON,28
+Pokemon = SHIFTRY,28
+[RSE_GUITARIST,Fernando]
+LoseText = 
+Pokemon = ELECTRIKE,30
+Pokemon = LOUDRED,30
+[RSE_BIRDKEEPER,Alberto]
+LoseText = 
+Pokemon = PELIPPER,30
+Pokemon = XATU,30
+[RSE_PSYCHIC_F,Jacki]
+LoseText = 
+Pokemon = KADABRA,30
+Pokemon = LUNATONE,30
+[RSE_EXPERT_M,Fredrick]
+LoseText = 
+Pokemon = MAKUHITA,30
+Pokemon = MACHOKE,30
+#-------------------------------
+# Route 123 Rematches
+#-------------------------------
+[RSE_PSYCHIC_M,Cameron,1]
+LoseText = 
+Pokemon = KADABRA,33
+Pokemon = SOLROCK,33
+[RSE_PSYCHIC_M,Cameron,2]
+LoseText = 
+Pokemon = KADABRA,38
+Pokemon = SOLROCK,38
+[RSE_PSYCHIC_M,Cameron,3]
+LoseText = 
+Pokemon = KADABRA,41
+Pokemon = SOLROCK,41
+[RSE_PSYCHIC_M,Cameron,4]
+LoseText = 
+Pokemon = SOLROCK,45
+Pokemon = ALAKAZAM,45
+[RSE_GUITARIST,Fernando,1]
+LoseText = 
+Pokemon = ELECTRIKE,35
+Pokemon = ELECTRIKE,35
+Pokemon = LOUDRED,35
+[RSE_GUITARIST,Fernando,2]
+LoseText = 
+Pokemon = ELECTRIKE,37
+Pokemon = MANECTRIC,37
+Pokemon = LOUDRED,37
+[RSE_GUITARIST,Fernando,3]
+LoseText = 
+Pokemon = MANECTRIC,39
+Pokemon = MANECTRIC,39
+Pokemon = LOUDRED,39
+[RSE_GUITARIST,Fernando,4]
+LoseText = 
+Pokemon = MANECTRIC,41
+Pokemon = MANECTRIC,41
+Pokemon = EXPLOUD,41
+[RSE_PSYCHIC_F,Jacki,1]
+LoseText = 
+Pokemon = KADABRA,34
+Pokemon = LUNATONE,34
+[RSE_PSYCHIC_F,Jacki,2]
+LoseText = 
+Pokemon = KADABRA,37
+Pokemon = LUNATONE,37
+[RSE_PSYCHIC_F,Jacki,3]
+LoseText = 
+Pokemon = KADABRA,40
+Pokemon = LUNATONE,40
+[RSE_PSYCHIC_F,Jacki,4]
+LoseText = 
+Pokemon = LUNATONE,43
+Pokemon = ALAKAZAM,43
+#-------------------------------
+# Route 124
+#-------------------------------
+[RSE_SWIMMER_F,Grace]
+LoseText = 
+Pokemon = MARILL,34
+[RSE_SWIMMER_M,Declan]
+LoseText = 
+Pokemon = GYARADOS,34
+[RSE_SWIMMER_M,Spencer]
+LoseText = 
+Pokemon = TENTACOOL,33
+Pokemon = WINGULL,33
+[RSE_SISANDBRO,Lila & Roy]
+LoseText = 
+Pokemon = CHINCHOU,34
+Pokemon = CARVANHA,33
+[RSE_SWIMMER_F,Jenny]
+LoseText = 
+Pokemon = WAILMER,34
+[RSE_SWIMMER_M,Chad]
+LoseText = 
+Pokemon = TENTACOOL,33
+Pokemon = WAILMER,33
+[RSE_TRIATHLETESWIM_F,Isabella]
+LoseText = 
+Pokemon = STARYU,34
+[RSE_SWIMMER_M,Roland]
+LoseText = 
+Pokemon = CARVANHA,34
+#-------------------------------
+# Route 124 Rematches
+#-------------------------------
+[RSE_SISANDBRO,Lila & Roy,1]
+LoseText = 
+Pokemon = CHINCHOU,42
+Pokemon = CARVANHA,40
+[RSE_SISANDBRO,Lila & Roy,2]
+LoseText = 
+Pokemon = LANTURN,45
+Pokemon = CARVANHA,43
+[RSE_SISANDBRO,Lila & Roy,3]
+LoseText = 
+Pokemon = LANTURN,48
+Pokemon = SHARPEDO,46
+[RSE_SISANDBRO,Lila & Roy,4]
+LoseText = 
+Pokemon = LANTURN,51
+Pokemon = SHARPEDO,49
+[RSE_SWIMMER_F,Jenny,1]
+LoseText = 
+Pokemon = WAILMER,38
+[RSE_SWIMMER_F,Jenny,2]
+LoseText = 
+Pokemon = WAILMER,41
+[RSE_SWIMMER_F,Jenny,3]
+LoseText = 
+Pokemon = STARYU,43
+Pokemon = WAILMER,43
+[RSE_SWIMMER_F,Jenny,4]
+LoseText = 
+Pokemon = LUVDISC,45
+Pokemon = WAILMER,45
+Pokemon = STARMIE,45
+#-------------------------------
+# Route 125
+#-------------------------------
+[RSE_SAILOR,Ernest]
+LoseText = 
+Pokemon = WINGULL,33
+Pokemon = MACHOKE,33
+[RSE_SWIMMER_F,Sharon]
+LoseText = 
+Pokemon = SEAKING,34
+[RSE_SWIMMER_F,Tanya]
+LoseText = 
+Pokemon = LUVDISC,34
+[RSE_BIRDKEEPER,Presley]
+LoseText = 
+Pokemon = TROPIUS,33
+Pokemon = XATU,33
+[RSE_EXPERT_M,Auron]
+LoseText = 
+Pokemon = MANECTRIC,33
+Pokemon = MACHAMP,33
+[RSE_SRANDJR,Kim & Iris]
+LoseText = 
+Pokemon = SWABLU,32
+Pokemon = NUMEL,35
+[RSE_SWIMMER_M,Nolen]
+LoseText = 
+Pokemon = TENTACRUEL,34
+#-------------------------------
+# Route 125 Rematches
+#-------------------------------
+[RSE_SAILOR,Ernest,1]
+LoseText = 
+Pokemon = WINGULL,36
+Pokemon = TENTACOOL,36
+Pokemon = MACHOKE,36
+[RSE_SAILOR,Ernest,2]
+LoseText = 
+Pokemon = PELIPPER,39
+Pokemon = TENTACOOL,39
+Pokemon = MACHOKE,39
+[RSE_SAILOR,Ernest,3]
+LoseText = 
+Pokemon = PELIPPER,42
+Pokemon = TENTACOOL,42
+Pokemon = MACHOKE,42
+[RSE_SAILOR,Ernest,4]
+LoseText = 
+Pokemon = PELIPPER,45
+Pokemon = MACHOKE,45
+Pokemon = TENTACRUEL,45
+#-------------------------------
+# Route 126
+#-------------------------------
+[RSE_TRIATHLETESWIM_F,Isobel]
+LoseText = 
+Pokemon = STARYU,34
+[RSE_SWIMMER_M,Leonardo]
+LoseText = 
+Pokemon = CARVANHA,34
+[RSE_SWIMMER_M,Dean]
+LoseText = 
+Pokemon = CARVANHA,31
+Pokemon = WINGULL,31
+Pokemon = CARVANHA,31
+[RSE_SWIMMER_F,Nikki]
+LoseText = 
+Pokemon = MARILL,33
+Pokemon = SPHEAL,33
+[RSE_SWIMMER_M,Barry]
+LoseText = 
+Pokemon = GYARADOS,34
+[RSE_SWIMMER_F,Sienna]
+LoseText = 
+Pokemon = LUVDISC,33
+Pokemon = LUVDISC,33
+[RSE_TRIATHLETESWIM_M,Pablo]
+LoseText = 
+Pokemon = STARYU,33
+Pokemon = STARYU,33
+[RSE_SWIMMER_F,Brenda]
+LoseText = 
+Pokemon = GOLDEEN,34
+#-------------------------------
+# Route 126 Rematches
+#-------------------------------
+[RSE_TRIATHLETESWIM_M,Pablo,1]
+LoseText = 
+Pokemon = STARYU,37
+Pokemon = STARYU,37
+[RSE_TRIATHLETESWIM_M,Pablo,2]
+LoseText = 
+Pokemon = WINGULL,39
+Pokemon = STARYU,39
+Pokemon = STARYU,39
+[RSE_TRIATHLETESWIM_M,Pablo,3]
+LoseText = 
+Pokemon = PELIPPER,41
+Pokemon = STARYU,41
+Pokemon = STARYU,41
+[RSE_TRIATHLETESWIM_M,Pablo,4]
+LoseText = 
+Pokemon = PELIPPER,43
+Pokemon = STARMIE,43
+Pokemon = STARMIE,43
+#-------------------------------
+# Route 127
+#-------------------------------
+[RSE_BIRDKEEPER,Aiden]
+LoseText = 
+Pokemon = SWELLOW,32
+Pokemon = SKARMORY,32
+[RSE_COOLTRAINER_F,Athena]
+LoseText = 
+Pokemon = MANECTRIC,32
+Pokemon = LINOONE,32
+[RSE_FISHERMAN,Roger]
+LoseText = 
+Pokemon = MAGIKARP,15
+Pokemon = MAGIKARP,25
+Pokemon = GYARADOS,35
+[RSE_FISHERMAN,Jonah]
+LoseText = 
+Pokemon = WAILMER,30
+Pokemon = TENTACOOL,31
+Pokemon = SHARPEDO,32
+[RSE_FISHERMAN,Henry]
+LoseText = 
+Pokemon = CARVANHA,31
+Pokemon = TENTACRUEL,34
+[RSE_TRIATHLETESWIM_M,Camden]
+LoseText = 
+Pokemon = STARYU,33
+Pokemon = STARYU,33
+[RSE_BLACKBELT,Koji]
+LoseText = 
+Pokemon = MACHOKE,34
+[RSE_TRIATHLETESWIM_F,Donny]
+LoseText = 
+Pokemon = WINGULL,26
+Pokemon = STARYU,34
+#-------------------------------
+# Route 127 Rematches
+#-------------------------------
+[RSE_BLACKBELT,Koji,1]
+LoseText = 
+Pokemon = MACHOKE,37
+Pokemon = MACHOKE,37
+[RSE_BLACKBELT,Koji,2]
+LoseText = 
+Pokemon = MAKUHITA,39
+Pokemon = MACHOKE,39
+Pokemon = MACHOKE,39
+[RSE_BLACKBELT,Koji,3]
+LoseText = 
+Pokemon = HARIYAMA,41
+Pokemon = MACHOKE,41
+Pokemon = MACHOKE,41
+[RSE_BLACKBELT,Koji,4]
+LoseText = 
+Pokemon = HARIYAMA,43
+Pokemon = MACHAMP,43
+Pokemon = MACHAMP,43
+#-------------------------------
+# Route 128
+#-------------------------------
+[RSE_TRIATHLETESWIM_M,Isaiah]
+LoseText = 
+Pokemon = STARYU,35
+[RSE_COOLTRAINER_F,Alexa]
+LoseText = 
+Pokemon = GLOOM,34
+Pokemon = AZUMARILL,34
+[RSE_COOLTRAINER_M,Ruben]
+LoseText = 
+Pokemon = SHIFTRY,34
+Pokemon = NOSEPASS,34
+[RSE_FISHERMAN,Wayne]
+LoseText = 
+Pokemon = TENTACOOL,31
+Pokemon = TENTACOOL,31
+Pokemon = WAILMER,36
+[RSE_TRIATHLETESWIM_F,Katelyn]
+LoseText = 
+Pokemon = STARYU,35
+[RSE_SWIMMER_F,Carlee]
+LoseText = 
+Pokemon = SEAKING,35
+[RSE_SWIMMER_M,Harrison]
+LoseText = 
+Pokemon = TENTACRUEL,35
+#-------------------------------
+# Route 128 Rematches
+#-------------------------------
+[RSE_TRIATHLETESWIM_M,Isaiah,1]
+LoseText = 
+Pokemon = STARYU,39
+[RSE_TRIATHLETESWIM_M,Isaiah,2]
+LoseText = 
+Pokemon = STARYU,42
+[RSE_TRIATHLETESWIM_M,Isaiah,3]
+LoseText = 
+Pokemon = STARMIE,45
+[RSE_TRIATHLETESWIM_M,Isaiah,4]
+LoseText = 
+Pokemon = STARMIE,48
+[RSE_TRIATHLETESWIM_F,Katelyn,1]
+LoseText = 
+Pokemon = STARYU,39
+[RSE_TRIATHLETESWIM_F,Katelyn,2]
+LoseText = 
+Pokemon = STARYU,42
+[RSE_TRIATHLETESWIM_F,Katelyn,3]
+LoseText = 
+Pokemon = STARMIE,45
+[RSE_TRIATHLETESWIM_F,Katelyn,4]
+LoseText = 
+Pokemon = STARMIE,48
+#-------------------------------
+# Route 129
+#-------------------------------
+[RSE_SWIMMER_M,Reed]
+LoseText = 
+Pokemon = SPHEAL,33
+Pokemon = SHARPEDO,33
+[RSE_TRIATHLETESWIM_M,Chase]
+LoseText = 
+Pokemon = WINGULL,26
+Pokemon = STARYU,34
+[RSE_TRIATHLETESWIM_F,Allison]
+LoseText = 
+Pokemon = WINGULL,27
+Pokemon = STARYU,33
+[RSE_SWIMMER_F,Tisha]
+LoseText = 
+Pokemon = CHINCHOU,34
+[RSE_SWIMMER_M,Clarence]
+LoseText = 
+Pokemon = SHARPEDO,34
+#-------------------------------
+# Route 129 Rematches
+#-------------------------------
+#-------------------------------
+# Route 130
+#-------------------------------
+[RSE_SWIMMER_M,Rodney]
+LoseText = 
+Pokemon = GYARADOS,34
+[RSE_SWIMMER_F,Katie]
+LoseText = 
+Pokemon = GOLDEEN,33
+Pokemon = SPHEAL,33
+[RSE_SWIMMER_M,Santiago]
+LoseText = 
+Pokemon = TENTACRUEL,33
+Pokemon = WAILMER,33
+#-------------------------------
+# Route 130 Rematches
+#-------------------------------
+#-------------------------------
+# Route 131
+#-------------------------------
+[RSE_SWIMMER_M,Kevin]
+LoseText = 
+Pokemon = SPHEAL,34
+[RSE_TRIATHLETESWIM_F,Talia]
+LoseText = 
+Pokemon = STARYU,34
+[RSE_SWIMMER_M,Richard]
+LoseText = 
+Pokemon = PELIPPER,34
+[RSE_SWIMMER_F,Kara]
+LoseText = 
+Pokemon = SEAKING,34
+[RSE_SWIMMER_F,Susie]
+LoseText = 
+Pokemon = LUVDISC,34
+[RSE_SWIMMER_M,Herman]
+LoseText = 
+Pokemon = WINGULL,33
+Pokemon = TENTACRUEL,33
+[RSE_SISANDBRO,Reli & Ian]
+LoseText = 
+Pokemon = AZUMARILL,35
+Pokemon = WINGULL,33
+#-------------------------------
+# Route 131 Rematches
+#-------------------------------
+#-------------------------------
+# Route 132
+#-------------------------------
+[RSE_SWIMMER_M,Gilbert]
+LoseText = 
+Pokemon = SHARPEDO,34
+[RSE_SWIMMER_F,Dana]
+LoseText = 
+Pokemon = AZUMARILL,34
+[RSE_FISHERMAN,Ronald]
+LoseText = 
+Pokemon = MAGIKARP,19
+Pokemon = GYARADOS,21
+Pokemon = GYARADOS,23
+Pokemon = GYARADOS,26
+Pokemon = GYARADOS,30
+Pokemon = GYARADOS,35
+[RSE_EXPERT_M,Paxton]
+LoseText = 
+Pokemon = SWELLOW,33
+Pokemon = BRELOOM,33
+[RSE_COOLTRAINER_F,Darcy]
+LoseText = 
+Pokemon = PELIPPER,33
+Pokemon = CAMERUPT,33
+[RSE_EXPERT_F,Makayla]
+LoseText = 
+Pokemon = ROSELIA,33
+Pokemon = MEDICHAM,33
+[RSE_COOLTRAINER_M,Jonathan]
+LoseText = 
+Pokemon = KECLEON,33
+Pokemon = LOUDRED,33
+[RSE_BLACKBELT,Kiyo]
+LoseText = 
+Pokemon = HARIYAMA,34
+#-------------------------------
+# Route 132 Rematches
+#-------------------------------
+#-------------------------------
+# Route 133
+#-------------------------------
+[RSE_SWIMMER_F,Linda]
+LoseText = 
+Pokemon = HORSEA,33
+Pokemon = SEADRA,33
+[RSE_COOLTRAINER_M,Warren]
+LoseText = 
+Pokemon = GRAVELER,33
+Pokemon = LUDICOLO,33
+[RSE_SWIMMER_F,Debra]
+LoseText = 
+Pokemon = SEAKING,34
+[RSE_SWIMMER_M,Franklin]
+LoseText = 
+Pokemon = SEALEO,34
+[RSE_EXPERT_M,Conor]
+LoseText = 
+Pokemon = CHINCHOU,33
+Pokemon = HARIYAMA,33
+[RSE_EXPERT_F,Mollie]
+LoseText = 
+Pokemon = WHISCASH,33
+Pokemon = MEDITITE,33
+[RSE_BIRDKEEPER,Beck]
+LoseText = 
+Pokemon = TROPIUS,34
+#-------------------------------
+# Route 133 Rematches
+#-------------------------------
+#-------------------------------
+# Route 134
+#-------------------------------
+[RSE_DRAGONTAMER,Aaron]
+LoseText = 
+Pokemon = BAGON,34
+[RSE_COOLTRAINER_M,Marley]
+LoseText = 
+Pokemon = MANECTRIC,34
+[RSE_SAILOR,Kelvin]
+LoseText = 
+Pokemon = MACHOKE,33
+Pokemon = SPHEAL,33
+[RSE_BIRDKEEPER,Alex]
+LoseText = 
+Pokemon = NATU,33
+Pokemon = SWELLOW,33
+[RSE_SWIMMER_M,Laurel]
+LoseText = 
+Pokemon = LUVDISC,33
+Pokemon = LUVDISC,33
+[RSE_SWIMMER_M,Jack]
+LoseText = 
+Pokemon = GYARADOS,34
+[RSE_BLACKBELT,Hitoshi]
+LoseText = 
+Pokemon = MACHOP,32
+Pokemon = MACHOKE,32
+[RSE_BATTLEGIRL,Reyna]
+LoseText = 
+Pokemon = MEDITITE,33
+Pokemon = HARIYAMA,33
+	Gender = male
+#-------------------------------
+# Route 134 Rematches
+#-------------------------------
+#-------------------------------
+# Interiors and Misc
+#-------------------------------
+# Petalburg Woods #-------------
+[RSE_BUGCATCHER,Lyle]
+LoseText = 
+Pokemon = WURMPLE,3
+Pokemon = WURMPLE,3
+Pokemon = WURMPLE,3
+Pokemon = WURMPLE,3
+[RSE_BUGCATCHER,James]
+LoseText = 
+Pokemon = NINCADA,6
+Pokemon = NINCADA,6
+[RSE_BUGCATCHER,James,1]
+LoseText = 
+Pokemon = NINJASK,27
+[RSE_BUGCATCHER,James,2]
+LoseText = 
+Pokemon = DUSTOX,29
+Pokemon = NINJASK,29
+[RSE_BUGCATCHER,James,3]
+LoseText = 
+Pokemon = SURSKIT,31
+Pokemon = DUSTOX,31
+Pokemon = NINJASK,31
+[RSE_BUGCATCHER,James,4]
+LoseText = 
+Pokemon = SURSKIT,33
+Pokemon = NINJASK,33
+Pokemon = DUSTOX,33
+Pokemon = NINJASK,33
+# Abandoned Ship #--------------
+[RSE_BEAUTY,Thalia]
+LoseText = 
+Pokemon = WAILMER,25
+Pokemon = HORSEA,25
+[RSE_YOUNGSTER,Demetrius]
+LoseText = 
+Pokemon = ZIGZAGOON,25
+Pokemon = ELECTRIKE,25
+[RSE_SAILOR,Duncan]
+LoseText = 
+Pokemon = SPHEAL,25
+Pokemon = MACHOKE,25
+[RSE_TUBER_M,Charlie]
+LoseText = 
+Pokemon = MARILL,26
+[RSE_RUINMANIAC,Garrison]
+LoseText = 
+Pokemon = SANDSLASH,26
+[RSE_TUBER_F,Jani]
+LoseText = 
+Pokemon = MARILL,26
+[RSE_YOUNGCOUPLE,Kira & Dan]
+LoseText = 
+Pokemon = VOLBEAT,25
+Pokemon = ILLUMISE,25
+[RSE_BEAUTY,Thalia,1]
+LoseText = 
+Pokemon = WAILMER,34
+Pokemon = HORSEA,34
+[RSE_BEAUTY,Thalia,2]
+LoseText = 
+Pokemon = LUVDISC,36
+Pokemon = WAILMER,36
+Pokemon = SEADRA,36
+[RSE_BEAUTY,Thalia,3]
+LoseText = 
+Pokemon = LUVDISC,38
+Pokemon = WAILMER,38
+Pokemon = SEADRA,38
+[RSE_BEAUTY,Thalia,4]
+LoseText = 
+Pokemon = LUVDISC,40
+Pokemon = WAILORD,40
+Pokemon = KINGDRA,40
+[RSE_YOUNGCOUPLE,Kira & Dan,1]
+LoseText = 
+Pokemon = VOLBEAT,30
+Pokemon = ILLUMISE,30
+[RSE_YOUNGCOUPLE,Kira & Dan,2]
+LoseText = 
+Pokemon = VOLBEAT,33
+Pokemon = ILLUMISE,33
+[RSE_YOUNGCOUPLE,Kira & Dan,3]
+LoseText = 
+Pokemon = VOLBEAT,36
+Pokemon = ILLUMISE,36
+[RSE_YOUNGCOUPLE,Kira & Dan,4]
+LoseText = 
+Pokemon = VOLBEAT,39
+Pokemon = ILLUMISE,39
+# Trick House 1 #--------------
+[RSE_LASS,Sally]
+LoseText = 
+Pokemon = ODDISH,16
+[RSE_LASS,Robin]
+LoseText = 
+Pokemon = SKITTY,14
+Pokemon = SHROOMISH,14
+Pokemon = MARILL,14
+[RSE_YOUNGSTER,Eddie]
+LoseText = 
+Pokemon = ZIGZAGOON,14
+Pokemon = ZIGZAGOON,16
+# Trick House 2 #--------------
+[RSE_SCHOOLKID_M,Ted]
+LoseText = 
+Pokemon = RALTS,17
+[RSE_SCHOOLKID_M,Paul]
+LoseText = 
+Pokemon = NUMEL,15
+Pokemon = ODDISH,15
+Pokemon = WINGULL,15
+[RSE_SCHOOLKID_F,Georgia]
+LoseText = 
+Pokemon = SHROOMISH,16
+Pokemon = BEAUTIFLY,16
+# Trick House 3 #---------------
+[RSE_CAMPER,Justin]
+LoseText = 
+Pokemon = KECLEON,24
+[RSE_PICNICKER,Martha]
+LoseText = 
+Pokemon = SKITTY,23
+Pokemon = SWABLU,23
+[RSE_HIKER,Alan]
+LoseText = 
+Pokemon = GEODUDE,22
+Pokemon = NOSEPASS,22
+Pokemon = GRAVELER,22
+# Trick House 4 #--------------
+[RSE_BLACKBELT,Yuji]
+LoseText = 
+Pokemon = MAKUHITA,26
+Pokemon = MACHOKE,26
+[RSE_BATTLEGIRL,Cora]
+LoseText = 
+Pokemon = MEDITITE,27
+[RSE_BATTLEGIRL,Paula]
+LoseText = 
+Pokemon = BRELOOM,27
+# Trick House 6 #--------------
+[RSE_POKEMONRANGER_F,Sophia]
+LoseText = 
+Pokemon = SWABLU,38
+Pokemon = ROSELIA,38
+[RSE_POKEMONRANGER_M,Sebastian]
+LoseText = 
+Pokemon = CACTURNE,39
+[RSE_BIRDKEEPER,Benny]
+LoseText = 
+Pokemon = SWELLOW,36
+Pokemon = PELIPPER,36
+Pokemon = XATU,36
+# Trick House 7 #-------------
+[RSE_PSYCHIC_M,Joshua]
+LoseText = 
+Pokemon = KADABRA,41
+Pokemon = SOLROCK,41
+[RSE_HEXMANIAC,Patricia]
+LoseText = 
+Pokemon = BANETTE,41
+Pokemon = LUNATONE,41
+[RSE_PSYCHIC_F,Mariela]
+LoseText = 
+Pokemon = CHIMECHO,41
+[RSE_GENTLEMAN,Everett]
+LoseText = 
+Pokemon = WOBBUFFET,41
+[RSE_PSYCHIC_F,Alexis]
+LoseText = 
+Pokemon = KIRLIA,41
+Pokemon = XATU,41
+[RSE_PSYCHIC_M,Alvaro]
+LoseText = 
+Pokemon = BANETTE,41
+Pokemon = KADABRA,41
+# Trick House 8 #---------------
+[RSE_COOLTRAINER_F,Keira]
+LoseText = 
+Pokemon = LAIRON,45
+Pokemon = MANECTRIC,45
+[RSE_COOLTRAINER_M,Vincent]
+LoseText = 
+Pokemon = SABLEYE,44
+Pokemon = MEDICHAM,44
+Pokemon = SHARPEDO,44
+[RSE_COOLTRAINER_M,Leroy]
+LoseText = 
+Pokemon = MAWILE,46
+Pokemon = STARMIE,46
+# Mt.Chimney #------------------
+[RSE_BEAUTY,Shirley]
+LoseText = 
+Pokemon = NUMEL,21
+[RSE_BEAUTY,Sheila]
+LoseText = 
+Pokemon = SHROOMISH,21
+[RSE_EXPERT_F,Shelby]
+LoseText = 
+Pokemon = MEDITITE,21
+Pokemon = MAKUHITA,21
+	Gender = male
+[RSE_HIKER,Sawyer]
+LoseText = 
+Pokemon = GEODUDE,21
+[RSE_BEAUTY,Melissa]
+LoseText = 
+Pokemon = MARILL,21
+[RSE_EXPERT_F,Shelby,1]
+LoseText = 
+Pokemon = MEDITITE,30
+Pokemon = MAKUHITA,30
+	Gender = male
+[RSE_EXPERT_F,Shelby,2]
+LoseText = 
+Pokemon = MEDICHAM,33
+Pokemon = HARIYAMA,33
+	Gender = male
+[RSE_EXPERT_F,Shelby,3]
+LoseText = 
+Pokemon = MEDICHAM,36
+Pokemon = HARIYAMA,36
+	Gender = male
+[RSE_EXPERT_F,Shelby,4]
+LoseText = 
+Pokemon = MEDICHAM,39
+Pokemon = HARIYAMA,39
+	Gender = male
+[RSE_HIKER,Sawyer,1]
+LoseText = 
+Pokemon = GEODUDE,26
+Pokemon = NUMEL,26
+[RSE_HIKER,Sawyer,2]
+LoseText = 
+Pokemon = MACHOP,28
+Pokemon = NUMEL,28
+Pokemon = GRAVELER,28
+[RSE_HIKER,Sawyer,3]
+LoseText = 
+Pokemon = MACHOP,30
+Pokemon = NUMEL,30
+Pokemon = GRAVELER,30
+[RSE_HIKER,Sawyer,4]
+LoseText = 
+Pokemon = MACHOKE,33
+Pokemon = CAMERUPT,33
+Pokemon = GOLEM,33
+# Jagged Pass #
+[RSE_HIKER,Eric]
+LoseText = 
+Pokemon = GEODUDE,20
+Pokemon = BALTOY,20
+[RSE_PICNICKER,Diana]
+LoseText = 
+Pokemon = SHROOMISH,19
+Pokemon = ODDISH,19
+Pokemon = SWABLU,19
+[RSE_PICNICKER,Autumn]
+LoseText = 
+Pokemon = SHROOMISH,21
+[RSE_TRIATHLETEBIKE_M,Julio]
+LoseText = 
+Pokemon = MAGNEMITE,21
+[RSE_CAMPER,Ethan]
+LoseText = 
+Pokemon = ZIGZAGOON,20
+Pokemon = TAILLOW,20
+[RSE_PICNICKER,Diana,1]
+LoseText = 
+Pokemon = SHROOMISH,25
+Pokemon = GLOOM,25
+Pokemon = SWABLU,25
+[RSE_PICNICKER,Diana,2]
+LoseText = 
+Pokemon = BRELOOM,28
+Pokemon = GLOOM,28
+Pokemon = SWABLU,28
+[RSE_PICNICKER,Diana,3]
+LoseText = 
+Pokemon = BRELOOM,31
+Pokemon = GLOOM,31
+Pokemon = SWABLU,31
+[RSE_PICNICKER,Diana,4]
+LoseText = 
+Pokemon = BRELOOM,40
+Pokemon = VILEPLUME,40
+Pokemon = ALTARIA,40
+[RSE_CAMPER,Ethan,1]
+LoseText = 
+Pokemon = ZIGZAGOON,26
+Pokemon = TAILLOW,26
+[RSE_CAMPER,Ethan,2]
+LoseText = 
+Pokemon = LINOONE,29
+Pokemon = SWELLOW,29
+[RSE_CAMPER,Ethan,3]
+LoseText = 
+Pokemon = SANDSHREW,31
+Pokemon = SWELLOW,31
+Pokemon = LINOONE,31
+[RSE_CAMPER,Ethan,4]
+LoseText = 
+Pokemon = SWELLOW,34
+Pokemon = SANDSLASH,34
+Pokemon = LINOONE,34
+# Mt.Pyre #---------------------
+[RSE_POKEMANIAC,Mark]
+LoseText = 
+Pokemon = RHYHORN,31
+[RSE_HEXMANIAC,Leah]
+LoseText = 
+Pokemon = SPOINK,31
+[RSE_BLACKBELT,Zander]
+LoseText = 
+Pokemon = HARIYAMA,31
+[RSE_YOUNGCOUPLE,Dez & Luke]
+LoseText = 
+Pokemon = DELCATTY,31
+	Gender = female
+Pokemon = MANECTRIC,31
+[RSE_PSYCHIC_F,Kayla]
+LoseText = 
+Pokemon = WOBBUFFET,26
+Pokemon = NATU,26
+Pokemon = KADABRA,26
+	Gender = male
+[RSE_POKEMONBREEDER_F,Gabrielle]
+LoseText = 
+Pokemon = SKITTY,26
+Pokemon = POOCHYENA,26
+Pokemon = ZIGZAGOON,26
+Pokemon = LOTAD,26
+Pokemon = SEEDOT,26
+Pokemon = TAILLOW,26
+[RSE_PSYCHIC_M,William]
+LoseText = 
+Pokemon = RALTS,26
+Pokemon = RALTS,26
+Pokemon = KIRLIA,26
+[RSE_HEXMANIAC,Tasha]
+LoseText = 
+Pokemon = SHUPPET,32
+[RSE_BLACKBELT,Atsushi]
+LoseText = 
+Pokemon = HARIYAMA,32
+[RSE_HEXMANIAC,Valerie]
+LoseText = 
+Pokemon = SABLEYE,32
+[RSE_PSYCHIC_M,Cedric]
+LoseText = 
+Pokemon = WOBBUFFET,32
+[RSE_POKEMONBREEDER_F,Gabrielle,1]
+LoseText = 
+Pokemon = SKITTY,31
+Pokemon = MIGHTYENA,31
+Pokemon = ZIGZAGOON,31
+Pokemon = LOTAD,31
+Pokemon = SEEDOT,31
+Pokemon = TAILLOW,31
+[RSE_POKEMONBREEDER_F,Gabrielle,2]
+LoseText = 
+Pokemon = SKITTY,33
+Pokemon = MIGHTYENA,33
+Pokemon = LINOONE,33
+Pokemon = LOMBRE,33
+Pokemon = NUZLEAF,33
+Pokemon = TAILLOW,33
+[RSE_POKEMONBREEDER_F,Gabrielle,3]
+LoseText = 
+Pokemon = DELCATTY,35
+Pokemon = MIGHTYENA,35
+Pokemon = LINOONE,35
+Pokemon = LOMBRE,35
+Pokemon = NUZLEAF,35
+Pokemon = SWELLOW,35
+[RSE_POKEMONBREEDER_F,Gabrielle,4]
+LoseText = 
+Pokemon = DELCATTY,37
+Pokemon = MIGHTYENA,37
+Pokemon = LINOONE,37
+Pokemon = LUDICOLO,37
+Pokemon = SHIFTRY,37
+Pokemon = SWELLOW,37
+[RSE_HEXMANIAC,Valerie,1]
+LoseText = 
+Pokemon = SABLEYE,31
+Pokemon = SPOINK,31
+[RSE_HEXMANIAC,Valerie,2]
+LoseText = 
+Pokemon = SPOINK,35
+Pokemon = SABLEYE,35
+[RSE_HEXMANIAC,Valerie,3]
+LoseText = 
+Pokemon = SPOINK,40
+Pokemon = SABLEYE,40
+[RSE_HEXMANIAC,Valerie,4]
+LoseText = 
+Pokemon = DUSKULL,42
+Pokemon = SABLEYE,42
+Pokemon = GRUMPIG,42
+# Meteor Falls #----------------
+[RSE_OLDCOUPLE,John and Jay]
+LoseText = 
+Pokemon = MEDICHAM,39
+Pokemon = HARIYAMA,39
+[RSE_DRAGONTAMER,Nicolas]
+LoseText = 
+Pokemon = ALTARIA,37
+Pokemon = ALTARIA,37
+[RSE_OLDCOUPLE,John and Jay,1]
+Pokemon = MEDICHAM,43
+Pokemon = HARIYAMA,43
+[RSE_OLDCOUPLE,John and Jay,2]
+Pokemon = MEDICHAM,46
+Pokemon = HARIYAMA,46
+[RSE_OLDCOUPLE,John and Jay,3]
+Pokemon = MEDICHAM,49
+Pokemon = HARIYAMA,49
+[RSE_OLDCOUPLE,John and Jay,4]
+Pokemon = MEDICHAM,52
+Pokemon = HARIYAMA,52
+[RSE_DRAGONTAMER,Nicolas,1]
+LoseText = 
+Pokemon = ALTARIA,41
+Pokemon = ALTARIA,41
+[RSE_DRAGONTAMER,Nicolas,2]
+LoseText = 
+Pokemon = ALTARIA,44
+Pokemon = ALTARIA,44
+[RSE_DRAGONTAMER,Nicolas,3]
+LoseText = 
+Pokemon = BAGON,46
+Pokemon = ALTARIA,46
+Pokemon = ALTARIA,46
+[RSE_DRAGONTAMER,Nicolas,4]
+LoseText = 
+Pokemon = ALTARIA,49
+Pokemon = ALTARIA,49
+Pokemon = SHELGON,49
+	Item = DRAGONFANG
+# Victory Road #----------------
+[RSE_COOLTRAINER_M,Albert]
+LoseText = 
+Pokemon = MAGNETON,43
+Pokemon = MUK,43
+[RSE_COOLTRAINER_F,Hope]
+LoseText = 
+Pokemon = ROSELIA,45
+[RSE_COOLTRAINER_F,Shannon]
+LoseText = 
+Pokemon = CLAYDOL,45
+[RSE_COOLTRAINER_M,Samuel]
+LoseText = 
+Pokemon = SWELLOW,42
+Pokemon = MAWILE,42
+Pokemon = KADABRA,42
+[RSE_COOLTRAINER_F,Julie]
+LoseText = 
+Pokemon = SANDSLASH,42
+Pokemon = NINETALES,42
+Pokemon = TROPIUS,42
+[RSE_COOLTRAINER_M,Owen]
+LoseText = 
+Pokemon = KECLEON,42
+Pokemon = GRAVELER,42
+Pokemon = WAILORD,42
+[RSE_COOLTRAINER_F,Dianne]
+LoseText = 
+Pokemon = CLAYDOL,43
+Pokemon = LANTURN,43
+[RSE_COOLTRAINER_M,Felix]
+LoseText = 
+Pokemon = MEDICHAM,43
+Pokemon = CLAYDOL,43
+[RSE_COOLTRAINER_F,Caroline]
+LoseText = 
+Pokemon = SKARMORY,43
+Pokemon = SABLEYE,43
+[RSE_COOLTRAINER_M,Vito]
+LoseText = 
+Pokemon = DODRIO,42
+Pokemon = KADABRA,42
+Pokemon = ELECTRODE,42
+Pokemon = SHIFTRY,42
+[RSE_COOLTRAINER_F,Michelle]
+LoseText = 
+Pokemon = TORKOAL,42
+Pokemon = MEDICHAM,42
+Pokemon = LUDICOLO,42
+[RSE_COOLTRAINER_M,Mitchell]
+LoseText = 
+Pokemon = LUNATONE,43
+Pokemon = SOLROCK,43
+[RSE_COOLTRAINER_F,Halle]
+LoseText = 
+Pokemon = SABLEYE,43
+Pokemon = ABSOL,43
+[RSE_COOLTRAINER_M,Edgar]
+LoseText = 
+Pokemon = CACTURNE,43
+Pokemon = PELIPPER,43
+[RSE_COOLTRAINER_F,Katelynn]
+LoseText = 
+Pokemon = GARDEVOIR,43
+Pokemon = SLAKING,43
+[RSE_COOLTRAINER_M,Quincy]
+LoseText = 
+Pokemon = SLAKING,43
+Pokemon = DUSCLOPS,43
+#-------------------------------
+# RSE TEAM AQUA
+#-------------------------------
+[RSE_AQUALEADER_ARCHIE,Archie]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = What?! I lost to a mere child like you?!
+Pokemon = MIGHTYENA,41
+Pokemon = CROBAT,41
+Pokemon = SHARPEDO,43
+#
+RSE_AQUAADMIN_MATT,Matt]
+Items = SUPERPOTION
+LoseText = Hehehe… So, I lost, too…
+Pokemon = MIGHTYENA,34
+Pokemon = GOLBAT,34
+#
+[RSE_AQUAADMIN_SHELLY,Shelly]
+LoseText = Ahahahaha! You're disgustingly strong!
+Pokemon = CARVANHA,28
+Pokemon = MIGHTYENA,28
+#
+[RSE_AQUAADMIN_SHELLY,Shelly]
+LoseText = Ahahahaha! Ouch!
+Pokemon = SHARPEDO,37
+Pokemon = MIGHTYENA,37
+#
+[RSE_AQUAGRUNT_M,Grunt]
+LoseText = You're kidding me! You're tough!
+Pokemon = POOCHYENA,9
+#
+[RSE_AQUAGRUNT_M,Grunt,1]
+LoseText = Urrrggh! My career in crimes comes to a dead end!
+Pokemon = POOCHYENA,11
+#
+[RSE_AQUAGRUNT_M,Grunt,2]
+LoseText = Awaaaah! A kid beat me!
+Pokemon = CARVANHA,15
+#
+[RSE_AQUAGRUNT_M,Grunt,3]
+LoseText = What?! I lost, too!
+Pokemon = ZUBAT,14
+Pokemon = CARVANHA,14
+#
+[RSE_AQUAGRUNT_F,Grunt]
+LoseText = Huh? I lost?!
+Pokemon = CARVANHA,28
+#
+[RSE_AQUAGRUNT_M,Grunt,4]
+LoseText = Blast it… Blasted by a kid…
+Pokemon = ZUBAT,27
+Pokemon = POOCHYENA,27
+#
+[RSE_AQUAGRUNT_M,Grunt,5]
+LoseText = Our plan's being spoiled by a kid?
+Pokemon = POOCHYENA,27
+Pokemon = CARVANHA,27
+#
+[RSE_AQUAGRUNT_F,Grunt,1]
+LoseText = Oh, will you look at my POKéMON?
+Pokemon = ZUBAT,27
+Pokemon = POOCHYENA,27
+#
+[RSE_AQUAGRUNT_M,Grunt,6]
+LoseText = You got me!
+Pokemon = POOCHYENA,26
+Pokemon = ZUBAT,26
+Pokemon = CARVANHA,26
+#
+[RSE_AQUAGRUNT_M,Grunt,7]
+LoseText = Urgh… I should've let you take on TEAM MAGMA first…
+Pokemon = CARVANHA,32
+#
+[RSE_AQUAGRUNT_M,Grunt,8]
+LoseText = I thought you were one of the MAGMAS who happened to come back…
+Pokemon = ZUBAT,32
+#
+[RSE_AQUAGRUNT_M,Grunt,9]
+LoseText = If you're going to mess with anyone, let it be TEAM MAGMA…
+Pokemon = POOCHYENA,30
+Pokemon = CARVANHA,30
+#
+[RSE_AQUAGRUNT_F,Grunt,2]
+LoseText = If you want to join TEAM AQUA that badly, we can consider it…
+Pokemon = WAILMER,30
+Pokemon = ZUBAT,30
+#
+[RSE_AQUAGRUNT_M,Grunt,10]
+LoseText = Grrrrr… I lost it!
+Pokemon = POOCHYENA,32
+#
+[RSE_AQUAGRUNT_F,Grunt,3]
+LoseText = Yawn… Oh, I lost…
+Pokemon = CARVANHA,32
+#
+[RSE_AQUAGRUNT_M,Grunt,11]
+LoseText = I can't win at all…
+Pokemon = ZUBAT,31
+Pokemon = CARVANHA,31
+#
+[RSE_AQUAGRUNT_F,Grunt,4]
+LoseText = I lost in a cool way…
+Pokemon = POOCHYENA,31
+Pokemon = ZUBAT,31
+#
+[RSE_AQUAGRUNT_M,Grunt,12]
+LoseText = Tired of waiting… Lost and dazed…
+Pokemon = CARVANHA,32
+#
+[RSE_AQUAGRUNT_M,Grunt,13]
+LoseText = I took a serious licking!
+Pokemon = ZUBAT,32
+#
+[RSE_AQUAGRUNT_F,Grunt,5]
+LoseText = What's wrong with you? You're not tired at all!
+Pokemon = ZUBAT,32
+#
+[RSE_AQUAGRUNT_M,Grunt,14]
+LoseText = I was too occupied thinking about  the warp panels…
+Pokemon = CARVANHA,32
+#
+[RSE_AQUAGRUNT_M,Grunt,15]
+LoseText = I want to go home…
+Pokemon = POOCHYENA,36
+#
+[RSE_AQUAGRUNT_M,Grunt,16]
+LoseText = Losing makes me sore!
+Pokemon = CARVANHA,36
+#
+[RSE_AQUAGRUNT_M,Grunt,17]
+LoseText = Lost it…
+Pokemon = ZUBAT,36
+#
+[RSE_AQUAGRUNT_F,Grunt,6]
+LoseText = I failed to win!
+Pokemon = CARVANHA,36
+#
+[RSE_AQUAGRUNT_M,Grunt,18]
+LoseText = Gwah!
+Pokemon = MIGHTYENA,35
+Pokemon = GOLBAT,35
+#
+# SAPPHIRE ONLY
+[RSE_AQUALEADER_ARCHIE,Archie,1]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = What?! I, ARCHIE, was caught off guard?!
+Pokemon = MIGHTYENA,24
+Pokemon = GOLBAT,24
+Pokemon = SHARPEDO,25
+# SAPPHIRE ONLY
+#
+#-------------------------------
+# RSE TEAM MAGMA
+#-------------------------------
+[RSE_MAGMALEADER_MAXIE,Maxie]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = What?! I, MAXIE, was caught off guard?!
+Pokemon = MIGHTYENA,24
+Pokemon = ZUBAT,24
+Pokemon = CAMERUPT,25
+#
+[RSE_MAGMALEADER_MAXIE,Maxie,1]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = What makes you so adept at handling POKéMON?
+Pokemon = MIGHTYENA,37
+Pokemon = CROBAT,38
+Pokemon = CAMERUPT,39
+#
+[RSE_MAGMALEADER_MAXIE,Maxie,2]
+LoseText = All I want… I just want to expand the land mass…
+Pokemon = MIGHTYENA,42
+Pokemon = CROBAT,43
+Pokemon = CAMERUPT,44
+#
+[RSE_MAGMAADMIN_TABITHA,Tabitha]
+LoseText = Hehehe… Even though I've lost, if our leader awakens that thing…
+Pokemon = NUMEL,18
+Pokemon = POOCHYENA,20
+Pokemon = NUMEL,22
+Pokemon = ZUBAT,22
+#
+[RSE_MAGMAADMIN_TABITHA,Tabitha,1]
+LoseText = Taken down again… Hehe…
+Pokemon = NUMEL,26
+Pokemon = MIGHTYENA,28
+Pokemon = ZUBAT,30
+Pokemon = CAMERUPT,33
+#
+[RSE_MAGMAADMIN_TABITHA,Tabitha,2]
+LoseText = I'm with our leader…
+Pokemon = CAMERUPT,36
+Pokemon = MIGHTYENA,38
+Pokemon = GOLBAT,40
+#
+[RSE_MAGMAGRUNT_F,Grunt]
+LoseText = My dream of a big house…
+Pokemon = NUMEL,20
+#
+[RSE_MAGMAGRUNT_M,Grunt]
+LoseText = Hunh? What do you mean I lost?
+Pokemon = ZUBAT,20
+#
+[RSE_MAGMAGRUNT_M,Grunt,1]
+LoseText = Urrrgh… I should've ducked into our HIDEOUT right away…
+Pokemon = POOCHYENA,22
+Pokemon = NUMEL,22
+#
+[RSE_MAGMAGRUNT_M,Grunt,2]
+LoseText = Arrgh! Taken down!
+Pokemon = POOCHYENA,29
+#
+# IMPORTANT, THE GRUNT BELOW IS IS THE ONE IN 1F
+[RSE_MAGMAGRUNT_M,Grunt,3]
+LoseText = Ooh wow! I concede!
+Pokemon = NUMEL,29
+#
+[RSE_MAGMAGRUNT_F,Grunt,1]
+LoseText = Aiyiyi… My pride as a TEAM MAGMA member…
+Pokemon = MIGHTYENA,29
+#
+[RSE_MAGMAGRUNT_M,Grunt,4]
+LoseText = Mutter…
+Pokemon = BALTOY,28
+Pokemon = NUMEL,28
+#
+[RSE_MAGMAGRUNT_M,Grunt,5]
+LoseText = Graaah!
+Pokemon = BALTOY,28
+Pokemon = ZUBAT,28
+#
+# IMPORTANT, THE GRUNT BELOW IS THE ONE IN MAGMA HIDEOUT ENTRANCE
+[RSE_MAGMAGRUNT_M,Grunt,6]
+LoseText = I'm always late for training sessions, too! I hate to say it, but I'm wimpy…
+Pokemon = ZUBAT,29
+#
+# IMPORTANT, THE GRUNT BELOW IS THE ONE IN B1F
+[RSE_MAGMAGRUNT_M,Grunt,7]
+LoseText = You're a fiery battler. Just like a volcano!
+Pokemon = ZUBAT,29
+#
+[RSE_MAGMAGRUNT_M,Grunt,8]
+LoseText = I'm having trouble believing this…
+Pokemon = POOCHYENA,29
+#
+[RSE_MAGMAGRUNT_F,Grunt,2]
+LoseText = I may have lost, but…
+Pokemon = NUMEL,29
+#
+# IMPORTANT, THE GRUNT BELOW IS IN B1F
+[RSE_MAGMAGRUNT_M,Grunt,9]
+LoseText = Yeah, I really may not be right for TEAM MAGMA…
+Pokemon = MIGHTYENA,29
+#
+# IMPORTANT, THE GRUNT BELOW IS IN B2F
+[RSE_MAGMAGRUNT_M,Grunt,10]
+LoseText = I'm getting heat exhaustion…
+Pokemon = ZUBAT,29
+#
+# IMPORTANT, THE GRUNT BELOW IS IN B3F
+[RSE_MAGMAGRUNT_M,Grunt,11]
+LoseText = Yeah, I think we are doing something wrong somehow.
+Pokemon = MIGHTYENA,29
+#
+[RSE_MAGMAGRUNT_F,Grunt,3]
+LoseText = Oh, no! You're not to be trusted at all!
+Pokemon = BALTOY,29
+#
+[RSE_MAGMAGRUNT_M,Grunt,12]
+LoseText = I guess it's impossible to win if one doesn't have a calm mind…
+Pokemon = BALTOY,29
+#
+# IMPORTANT, THE GRUNT BELOW IS IN B4F
+[RSE_MAGMAGRUNT_M,Grunt,13]
+LoseText = Grrr… I've come so far, but now this?
+Pokemon = NUMEL,29
+#
+# IMPORTANT, THE GRUNT BELOW IS IN B4F
+[RSE_MAGMAGRUNT_M,Grunt,14]
+LoseText = Was I that easy to knock down?
+Pokemon = ZUBAT,29
+#
+[RSE_MAGMAGRUNT_F,Grunt,4]
+LoseText = Ran out of fuel…
+Pokemon = ZUBAT,31
+Pokemon = POOCHYENA,31
+#
+[RSE_MAGMAGRUNT_M,Grunt,15]
+LoseText = Grrr… We should've used sneaky treachery…
+Pokemon = NUMEL,32
+#
+[RSE_MAGMAGRUNT_M,Grunt,16]
+LoseText = Please, can you spare some fuel? Even a chintzy cup will do!
+Pokemon = BALTOY,32
+#
+[RSE_MAGMAGRUNT_M,Grunt,17]
+LoseText = Ack! Ack! Aaack!
+Pokemon = MIGHTYENA,26
+Pokemon = MIGHTYENA,28
+Pokemon = NUMEL,30
+#
+[RSE_MAGMAGRUNT_M,Grunt,18]
+LoseText = I lost! But!
+Pokemon = ZUBAT,32
+#
+[RSE_MAGMAGRUNT_M,Grunt,19]
+LoseText = I lost, too! But!
+Pokemon = MIGHTYENA,32
+#
+# IMPORTANT, THE GRUNT BELOW IS ON THE UPPER FLOOR OF THE SPACE CENTER
+[RSE_MAGMAGRUNT_M,Grunt,20]
+LoseText = We should've taken a break… That's what we should've done…
+Pokemon = BALTOY,32
+#
+# RUBY ONLY
+[RSE_MAGMAADMIN_COURTNEY,Courtney]
+LoseText = Ahahahaha! You're disgustingly strong!
+Pokemon = NUMEL,28
+Pokemon = MIGHTYENA,28
+#
+[RSE_MAGMAADMIN_COURTNEY,Courtney,1]
+LoseText = Ahahahaha! Ouch!
+Pokemon = CAMERUPT,38
+Pokemon = MIGHTYENA,38
+# RUBY ONLY
+
+#-------------------------------
+# RSE SPECIAL TRAINERS
+#-------------------------------
+[RSE_POKEMONTRAINER_WALLY,Wally]
+LoseText = … … … … … … … … … … … … … … … I lost…
+Pokemon = RALTS,16
+#
+[RSE_POKEMONTRAINER_WALLY,Wally,1]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Wow! \PN, you are strong, after all!
+Pokemon = ALTARIA,44
+	Moves = AERIALACE,SAFEGUARD,DRAGONBREATH,DRAGONDANCE
+Pokemon = DELCATTY,43
+	Gender = female
+	Moves = SING,ASSIST,CHARM,FEINTATTACK
+Pokemon = ROSELIA,44
+	Moves = MAGICALLEAF,LEECHSEED,GIGADRAIN,TOXIC
+Pokemon = MAGNETON,41
+	Moves = SUPERSONIC,THUNDERBOLT,TRIATTACK,SCREECH
+Pokemon = GARDEVOIR,45
+	Moves = DOUBLETEAM,CALMMIND,PSYCHIC,FUTURESIGHT
+#
+[RSE_POKEMONTRAINER_WALLY,Wally,2]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Wow! \PN, you are strong, after all!
+Pokemon = ALTARIA,47
+	Moves = AERIALACE,SAFEGUARD,DRAGONBREATH,DRAGONDANCE
+Pokemon = DELCATTY,46
+	Gender = female
+	Moves = SING,ASSIST,CHARM,FEINTATTACK
+Pokemon = ROSELIA,47
+	Moves = MAGICALLEAF,LEECHSEED,GIGADRAIN,TOXIC
+Pokemon = MAGNETON,44
+	Moves = SUPERSONIC,THUNDERBOLT,TRIATTACK,SCREECH
+Pokemon = GARDEVOIR,48
+	Moves = DOUBLETEAM,CALMMIND,PSYCHIC,FUTURESIGHT
+#
+[RSE_POKEMONTRAINER_WALLY,Wally,3]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Wow! \PN, you are strong, after all!
+Pokemon = ALTARIA,50
+	Moves = AERIALACE,SAFEGUARD,DRAGONBREATH,DRAGONDANCE
+Pokemon = DELCATTY,49
+	Gender = female
+	Moves = SING,ASSIST,CHARM,FEINTATTACK
+Pokemon = ROSELIA,50
+	Moves = MAGICALLEAF,LEECHSEED,GIGADRAIN,TOXIC
+Pokemon = MAGNETON,47
+	Moves = SUPERSONIC,THUNDERBOLT,TRIATTACK,SCREECH
+Pokemon = GARDEVOIR,51
+	Moves = DOUBLETEAM,CALMMIND,PSYCHIC,FUTURESIGHT
+#
+[RSE_POKEMONTRAINER_WALLY,Wally,4]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Wow! \PN, you are strong, after all!
+Pokemon = ALTARIA,53
+	Moves = AERIALACE,SAFEGUARD,DRAGONBREATH,DRAGONDANCE
+Pokemon = DELCATTY,52
+	Gender = female
+	Moves = SING,ASSIST,CHARM,FEINTATTACK
+Pokemon = ROSELIA,53
+	Moves = MAGICALLEAF,LEECHSEED,GIGADRAIN,TOXIC
+Pokemon = MAGNETON,50
+	Moves = SUPERSONIC,THUNDERBOLT,TRIATTACK,SCREECH
+Pokemon = GARDEVOIR,54
+	Moves = DOUBLETEAM,CALMMIND,PSYCHIC,FUTURESIGHT
+#
+[RSE_POKEMONTRAINER_WALLY,Wally,5]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Wow! \PN, you are strong, after all!
+Pokemon = ALTARIA,56
+	Moves = AERIALACE,SAFEGUARD,DRAGONBREATH,DRAGONDANCE
+Pokemon = DELCATTY,55
+	Gender = female
+	Moves = SING,ASSIST,CHARM,FEINTATTACK
+Pokemon = ROSELIA,56
+	Moves = MAGICALLEAF,LEECHSEED,GIGADRAIN,TOXIC
+Pokemon = MAGNETON,53
+	Moves = SUPERSONIC,THUNDERBOLT,TRIATTACK,SCREECH
+Pokemon = GARDEVOIR,57
+	Moves = DOUBLETEAM,CALMMIND,PSYCHIC,FUTURESIGHT
+#
+[RSE_POKEMONTRAINER_Steven,Steven]
+Pokemon = METANG,42
+	Moves = LIGHTSCREEN,PSYCHIC,REFLECT,METALCLAW
+Pokemon = SKARMORY,43
+	Gender = female
+	Moves = TOXIC,AERIALACE,PROTECT,STEELWING
+Pokemon = AGGRON,44
+	Gender = female
+	Moves = THUNDER,PROTECT,SOLARBEAM,DRAGONCLAW
+#
+[RSE_POKEMONTRAINER_Steven,Steven,1]
+Pokemon = SKARMORY,77
+	Moves = TOXIC,AERIALACE,SPIKES,STEELWING,
+Pokemon = CLAYDOL,75
+	Moves = EARTHQUAKE,ANCIENTPOWER,LIGHTSCREEN,REFLECT
+Pokemon = AGGRON,76
+	Moves = EARTHQUAKE,DRAGONCLAW,THUNDER,SOLARBEAM
+Pokemon = CRADILY,76
+	Moves = ANCIENTPOWER,CONFUSERAY,INGRAIN,GIGADRAIN
+Pokemon = ARMALDO,76
+	Moves = ANCIENTPOWER,SLASH,AERIALACE,WATERPULSE
+Pokemon = METAGROSS,78
+	Moves = METEORMASH,EARTHQUAKE,PSYCHIC,SHADOWBALL
+	Item = SITRUSBERRY

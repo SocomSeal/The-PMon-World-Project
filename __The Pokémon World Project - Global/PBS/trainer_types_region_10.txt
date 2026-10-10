@@ -1,0 +1,22 @@
+﻿# Table of Contents:
+# [WiWa] FILLER Trainer Classes
+# [RIVAL] Rival Trainer Classes
+# [BOSS] Boss Trainer Classes
+# [VILLAIN] Villain Trainer Classes
+# [NPC] NPC Trainer Classes
+#-------------------------------#
+# [WiWa] FILLER Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [RIVAL] Rival Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [BOSS] Boss Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [VILLAIN] Villain Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [NPC] NPC Trainer Classes
+#-------------------------------#
+#-------------------------------#

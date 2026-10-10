@@ -1,0 +1,9 @@
+﻿# Table of Contents:
+# [WiWa] REGION 10 Town Map
+#-------------------------------#
+# [WiWa] REGION 10 Town Map
+#-------------------------------#
+[10]
+Name = Filler
+Filename = map_Kanto.png
+#-------------------------------#

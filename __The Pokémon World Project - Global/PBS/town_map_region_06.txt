@@ -1,0 +1,9 @@
+﻿# Table of Contents:
+# [XY] Kalos Town Map
+#-------------------------------#
+# [XY] Kalos Town Map
+#-------------------------------#
+[6]
+Name = Kalos
+Filename = map_Kalos.png
+#-------------------------------#

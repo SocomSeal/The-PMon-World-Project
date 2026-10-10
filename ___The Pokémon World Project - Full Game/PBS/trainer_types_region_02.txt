@@ -1,0 +1,100 @@
+﻿# Table of Contents:
+# [HGSS] Johto Trainer Classes
+# [RIVAL] Rival Trainer Classes
+# [BOSS] Boss Trainer Classes
+# [VILLAIN] Villain Trainer Classes
+# [NPC] NPC Trainer Classes
+#-------------------------------#
+# [HGSS] Johto Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [RIVAL] Rival Trainer Classes
+#-------------------------------#
+[HGSS_PASSERBY]
+Name = Passerby
+Gender = Male
+BaseMoney = 16
+IntroBGM = 
+#-------------------------------
+[HGSS_RIVAL]
+Name = Rival
+Gender = Male
+BaseMoney = 36
+IntroBGM = 
+#-------------------------------#
+# [BOSS] Boss Trainer Classes
+#-------------------------------#
+[FRLG_LEADER_Falkner]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+IntroBGM = 
+BattleBGM = 
+VictoryBGM = 
+#-------------------------------
+[HGSS_POKEMONTRAINER_Red]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 100
+#-------------------------------#
+# [VILLAIN] Villain Trainer Classes
+#-------------------------------#
+[FRLG_ROCKETGRUNT_M]
+Name = Team Rocket
+Gender = Male
+BaseMoney = 32
+IntroBGM = 
+#-------------------------------
+[FRLG_ROCKETGRUNT_F]
+Name = Rocket
+Gender = Female
+BaseMoney = 32
+IntroBGM = 
+#-------------------------------
+[FRLG_ROCKETEXECUTIVE_Proton]
+Name = Executive
+Gender = Male
+BaseMoney = 72
+IntroBGM = 
+#-------------------------------
+[FRLG_ROCKETEXECUTIVE_Petrel]
+Name = Executive
+Gender = Male
+BaseMoney = 72
+IntroBGM = 
+#-------------------------------
+[FRLG_ROCKETEXECUTIVE_Ariana]
+Name = Executive
+Gender = Female
+BaseMoney = 72
+IntroBGM = 
+#-------------------------------
+[FRLG_ROCKETEXECUTIVE_Archer]
+Name = Executive
+Gender = Male
+BaseMoney = 72
+IntroBGM = 
+#-------------------------------
+[HGSS_ROCKETBOSS]
+Name = Rocket Boss
+Gender = Male
+BaseMoney = 100
+IntroBGM = FRLG Battle Intro - Team Rocket (A Trainer Appears (Bad Guy Version))
+#-------------------------------#
+# [NPC] NPC Trainer Classes
+#-------------------------------#
+[HGSS_POKEMONTRAINER_Ethan]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[HGSS_POKEMONTRAINER_Kris]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[HGSS_POKEMONTRAINER_Silver]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------#

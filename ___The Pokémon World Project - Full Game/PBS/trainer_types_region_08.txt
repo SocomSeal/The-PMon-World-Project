@@ -1,0 +1,72 @@
+﻿# Table of Contents:
+# [SwSh] Galar Trainer Classes
+# [RIVAL] Rival Trainer Classes
+# [BOSS] Boss Trainer Classes
+# [VILLAIN] Villain Trainer Classes
+# [NPC] NPC Trainer Classes
+####
+# BREAK OUT IA DATA?
+####
+# [IA] Isle of Armor Trainer Classes
+# [RIVAL] Rival Trainer Classes
+# [BOSS] Boss Trainer Classes
+# [VILLAIN] Villain Trainer Classes
+# [NPC] NPC Trainer Classes
+####
+# BREAK OUT CT DATA?
+####
+# [CT] Crown Tundra Trainer Classes
+# [RIVAL] Rival Trainer Classes
+# [BOSS] Boss Trainer Classes
+# [VILLAIN] Villain Trainer Classes
+# [NPC] NPC Trainer Classes
+#-------------------------------#
+# [SwSh] Galar Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [RIVAL] Rival Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [BOSS] Boss Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [VILLAIN] Villain Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [NPC] NPC Trainer Classes
+#-------------------------------#
+[SwSh_POKEMONTRAINER_Victor]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[SwSh_POKEMONTRAINER_Gloria]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[SwSh_POKEMONTRAINER_Hop]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[SwSh_POKEMONTRAINER_Bede]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[SwSh_POKEMONTRAINER_Marnie]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[SwSh_POKEMONTRAINER_Klara]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[SwSh_POKEMONTRAINER_Avery]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------#
