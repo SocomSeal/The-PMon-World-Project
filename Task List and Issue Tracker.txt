@@ -63,20 +63,21 @@ HOENN
 - Missing Mystery Gift NPC (is usually on PC floor 2, relocate where? Mart behind counter next to shopkeep?)
 	- Additionally missing the Mystery Gift questionaire in Marts
 - Profile Man in Petalburg Pokecenter
-- All vendors that sell secret base items are missing them (Pretty Petal Flower Shop, Slateport Market, 
+- All vendors that sell secret base items are missing them (Search for "pbSecretBaseMart" and "pbReceiveDecoration")
+	- Pretty Petal Flower Shop, Slateport Market, Mauville Game Corner, Glass Workshop, 
 - Berry Powder functionality (NPC in Slateport Market, 
 - Pokemon contests. Contests themselves, Fan club, artwork in museum, 
-- Interviewers and interview code (OCeanic Museum, Fan club, gabby and ty, 
+- Interviewers and interview code (Oceanic Museum, Fan club, 
 - Battle tent functionality 
 - Birch pokedex review events, including in lab
 - Post-game Norman and other player house events
 - Post-game littleroot events i.e. battle frontier, lati roamer, etc.
 - Update Slateport and Lilycove ferry attendant events (they currently have the Vermillion sailor dialogue)
 - Implement Mach and Acro bikes
-	- Implement cracked cave tiles (Granite Cave, 
+	- Implement cracked cave tiles (Granite Cave, Sky Pillar
 - Superancient pokemon roaming events (Route 105, 
-- Dungeons: Petalburg Woods, Rusturf Tunnel, Granite Cave, Abandoned Cave, New Mauvile, Trick House, 
 - Change the Voltorb Flip tables in the Mauville Game Corner with the proper Roulette game
+- The trainers on R119 that mimic the player's movement ("Mimic Circle") need implementation
 SINNOH
 - 
 UNOVA
@@ -137,6 +138,7 @@ KANTO
 - No arriving animations for falling through holes
 - The running shoes event in Pewter was entirely omitted - it should be included in the resource, even if commented out/hidden by self-switches during regular gameplay
 - Large tree sprites need their shadows properly done, i.e. sprite without them on the outer edge of the trees
+- Audit 4 Island daycare NPC scripts to make sure they're accurate
 JOHTO
 - Missing backsprites (and implementation) of alternate player costumes 201
 HOENN
@@ -168,6 +170,7 @@ HOENN
 - Mauville "OldGuys" NPCs are missing from the Pokecenter
 - Rustboro Match Call cutscene has the incorrect sound effect
 - Missing animation/cutscene for the Cable Car
+- Route 114 Berry Man is using the Pretal Petal Flower Shop Berry Girl logic instead of his own
 SINNOH
 - 
 - There are no dungeon location previews
