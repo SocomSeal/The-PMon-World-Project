@@ -75,7 +75,9 @@ HOENN
 - Update Slateport and Lilycove ferry attendant events (they currently have the Vermillion sailor dialogue)
 - Implement Mach and Acro bikes
 	- Implement cracked cave tiles (Granite Cave, Sky Pillar
-- Superancient pokemon roaming events (Route 105, 
+- Dungeons missing implementation
+	- Trick House, Weather Institute
+- Superancient pokemon roaming events
 - Change the Voltorb Flip tables in the Mauville Game Corner with the proper Roulette game
 - The trainers on R119 that mimic the player's movement ("Mimic Circle") need implementation
 SINNOH
@@ -171,6 +173,9 @@ HOENN
 - Rustboro Match Call cutscene has the incorrect sound effect
 - Missing animation/cutscene for the Cable Car
 - Route 114 Berry Man is using the Pretal Petal Flower Shop Berry Girl logic instead of his own
+- Route 120's Weather effects aren't fully accurate.
+	- The clouds always appear as a panorama, and are only shown on the southern half of the route via tiling. This means clouds are seen before the trigger is supposed to start showing them
+	- The tiles used for the empty spaces that create the puddles on the southern half of the route are regular free-travel blank tiles, and do not have tiletag 6 for the purpose of battle calculations
 SINNOH
 - 
 - There are no dungeon location previews
