@@ -1643,6 +1643,7 @@ MapPosition = 103,22,16
 #-------------------------------
 [318]   # The... Moon?
 Name = The... Moon?
+Outdoor = true
 ShowArea = true
 MapPosition = 3,26,7
 #-------------------------------
@@ -1651,7 +1652,7 @@ Name = Sootopolis City
 Outdoor = true
 ShowArea = true
 Bicycle = true
-Weather = HeavyRain,100
+Weather = Storm,100
 MapPosition = 3,22,9
 DiveMap = 338
 #-------------------------------
@@ -1846,3 +1847,7 @@ MapPosition = 3,9,16
 Name = Mauville City
 Outdoor = true
 MapPosition = 3,9,8
+#-------------------------------
+[367]   # Pokemon Trainer Fan Club
+Name = Pokemon Trainer Fan Club
+MapPosition = 3,19,5

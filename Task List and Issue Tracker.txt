@@ -17,6 +17,8 @@ JOHTO
 HOENN
 - Verify tileset tiletags (combine with outdoor tileset door and overhang work?). Best done by copying a single tileset, then re-adding animated tiles per tileset.
 - Trainers PBS needs to be completed
+- Encounters PBS needs auditing - finalize a combined encounterset, and add starters
+	- Torchic on Jagged Pass, Treecko route 119 or 120, and Mudkip on 123 (evolved to fit wild levels)
 SINNOH
 - 
 UNOVA
@@ -66,13 +68,16 @@ HOENN
 - All vendors that sell secret base items are missing them (Search for "pbSecretBaseMart" and "pbReceiveDecoration")
 	- Pretty Petal Flower Shop, Slateport Market, Mauville Game Corner, Glass Workshop, 
 - Berry Powder functionality (NPC in Slateport Market, 
-- Pokemon contests. Contests themselves, Fan club, artwork in museum, 
-- Interviewers and interview code (Oceanic Museum, Fan club, 
+- Pokemon contests
+	- Contests themselves, Fan club, Lilycove museum scripts (including artist in hall), berry blender, pokeblocks
+- Interviewers and interview code (Oceanic Museum, Fan club, contest hall, 
+- Dewford secret phrase and Feebas unimplemented
 - Battle tent functionality 
 - Birch pokedex review events, including in lab
 - Post-game Norman and other player house events
 - Post-game littleroot events i.e. battle frontier, lati roamer, etc.
 - Update Slateport and Lilycove ferry attendant events (they currently have the Vermillion sailor dialogue)
+	- Need to code event ticket cutscenes too, check lilycove harbor
 - Implement Mach and Acro bikes
 	- Implement cracked cave tiles (Granite Cave, Sky Pillar
 - Dungeons missing implementation
@@ -80,7 +85,14 @@ HOENN
 - Superancient pokemon roaming events
 - Change the Voltorb Flip tables in the Mauville Game Corner with the proper Roulette game
 - The trainers on R119 that mimic the player's movement ("Mimic Circle") need implementation
-SINNOH
+- "Lilycove Lady" NPCs are missing from the Pokecenter (instead of one that's static, implement daily changing?)
+- Missing functionality for Lotad and Seedot brothers in Mossdeep, Mystery house in Mossdeep
+- Return/Frustration TM giver doesn't properly declare how many days remain until you can get another TM
+- Mirage Island is controlled by a Switch, triggered by talking to the man in Pacifidlog, instead of appearing and disappearing based on the 65535 personality id
+- Sound effects in the elite four use the FRLG open gate SE, should be "SE_DOOR" for opening doors and "SE_TRUCK_DOOR" for closing the room behind the player
+- No animation on the Hall of Fame machine/room
+- Trick Master blastoff needs proper Explosion sound effect, doors and buttons need "SE_PIN"
+SINNOH 
 - 
 UNOVA
 - 
@@ -175,7 +187,11 @@ HOENN
 - Route 114 Berry Man is using the Pretal Petal Flower Shop Berry Girl logic instead of his own
 - Route 120's Weather effects aren't fully accurate.
 	- The clouds always appear as a panorama, and are only shown on the southern half of the route via tiling. This means clouds are seen before the trigger is supposed to start showing them
-	- The tiles used for the empty spaces that create the puddles on the southern half of the route are regular free-travel blank tiles, and do not have tiletag 6 for the purpose of battle calculations
+- "Pokeblocks" in the text codes are referred to with a replacement identifier, "{POKEBLOCK}". Why? "Pokéblock" was used during eventing first pass
+- NPCs that fly away from the player do not have the animation coded (Steven R120, Rival Lilycove, 
+- NPCs in Dewford can teleport when taking Briney's boat due to them not having their locations mirrored from the town map to the cutscene map
+- Rocket Launch Counter NPC in Mossdeep isn't implemented yet
+- Current storming Sootopolis implementation shows the player a non-storming sootopolis during fly or teleport intro animations before placing them on the correct map
 SINNOH
 - 
 - There are no dungeon location previews

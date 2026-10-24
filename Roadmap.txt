@@ -1,12 +1,16 @@
-Roadmap as of May 22nd 2026:
+Roadmap as of October 13th 2026:
 
-- Hoenn (Mid to Late 2026)
+- Finish Hoenn (End of 2026)
 	- Mapping
 	- Eventing (Main game)
 	- Eventing (Post game)
 	- Bug fix pass
-- Sinnoh
-	- Begin work
+- Technical Pass (Early 2027)
+	- Strip project and port to v22
+	- Categorize all custom scripts and plugins as mandatory or cosmetic
+		- Break custom scripts out into plugins. All v22 code should remain entirely pure in the resource.
+	- Implement spinners, sidestair plugins
+- Begin Johto (Mid 2027)
 	
 	
 Current Major Roadblocks:
@@ -19,7 +23,7 @@ Current Major Roadblocks:
 Socom's Worklist
 
 - Scripting
-	Events through delivering Steven's Letter are done
+	Events through Lilycove are done
 	
 	!!!When Sootopolis is scripted, MAKE SURE TO REMEMBER SCENARIO HANDLING. 
 	If the player flies into Sootopolis when the storm sequence is happening, 
@@ -31,3 +35,5 @@ Socom's Worklist
 - Hoenn mapping
 	DOORS. !!!Tilesets need overhangs!!!
 		Could touch up Kanto in this way?
+
+- Kanto needs to be audited for moveroutes. Do when implementing spinner plugin. Utilize move_random_range(1,1) script routes for wanderers and turn_random_(URLD) for turners
