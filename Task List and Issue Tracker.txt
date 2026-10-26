@@ -92,6 +92,9 @@ HOENN
 - Sound effects in the elite four use the FRLG open gate SE, should be "SE_DOOR" for opening doors and "SE_TRUCK_DOOR" for closing the room behind the player
 - No animation on the Hall of Fame machine/room
 - Trick Master blastoff needs proper Explosion sound effect, doors and buttons need "SE_PIN"
+- Conveyor tiles (Trick House, Mossdeep Gym) need a sound effect
+- Fortree spinning gates are not implemented (Fortree Gym, Trick House 6)
+- Recurring items. Not present in Emerald, were added in ORAS (tinymushrooms in petalburg woods as an example)
 SINNOH 
 - 
 UNOVA
@@ -192,6 +195,9 @@ HOENN
 - NPCs in Dewford can teleport when taking Briney's boat due to them not having their locations mirrored from the town map to the cutscene map
 - Rocket Launch Counter NPC in Mossdeep isn't implemented yet
 - Current storming Sootopolis implementation shows the player a non-storming sootopolis during fly or teleport intro animations before placing them on the correct map
+- Groudon and Kyogre awakening cutscenes are placeholders
+- Fog effects on Mt Pyre Exterior and during the Kyogre wakening cutscene in Seafloor Cavern need to be faded instead of instantly changed
+- During the weather crisis, the overworld weather and bgm are very buggy - this is due to the event-based temporary solutions in place
 SINNOH
 - 
 - There are no dungeon location previews

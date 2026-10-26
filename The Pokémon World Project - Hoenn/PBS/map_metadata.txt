@@ -854,37 +854,37 @@ Bicycle = true
 MapPosition = 3,6,16
 #-------------------------------
 [164]   # Abandoned Ship 1F
-Name = Abandoned Ship 1F
+Name = Abandoned Ship
 ShowArea = true
 Bicycle = true
 MapPosition = 3,6,16
 #-------------------------------
 [165]   # Abandoned Ship 1F Cabins
-Name = Abandoned Ship 1F
+Name = Abandoned Ship
 Bicycle = true
 MapPosition = 3,6,16
 #-------------------------------
 [166]   # Abandoned Ship B1F
-Name = Abandoned Ship B1F
+Name = Abandoned Ship
 ShowArea = true
 Bicycle = true
 MapPosition = 3,6,16
 #-------------------------------
 [167]   # Abandoned Ship B1F Cabins
-Name = Abandoned Ship B1F
+Name = Abandoned Ship
 Bicycle = true
 MapPosition = 3,6,16
 DiveMap = 264
 #-------------------------------
 [168]   # Abandoned Ship Hidden Floor
-Name = Abandoned Ship Hidden Floor
+Name = Abandoned Ship
 ShowArea = true
 Bicycle = true
 MapPosition = 3,6,16
 DiveMap = 265
 #-------------------------------
 [169]   # Abandoned Ship Hidden Floor Cabins
-Name = Abandoned Ship Hidden Floor
+Name = Abandoned Ship
 Bicycle = true
 MapPosition = 3,6,16
 #-------------------------------
@@ -1851,3 +1851,8 @@ MapPosition = 3,9,8
 [367]   # Pokemon Trainer Fan Club
 Name = Pokemon Trainer Fan Club
 MapPosition = 3,19,5
+#-------------------------------
+[368]   # Captain's Office
+Name = Captain's Office
+Bicycle = true
+MapPosition = 3,6,16

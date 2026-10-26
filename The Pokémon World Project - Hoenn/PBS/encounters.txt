@@ -122,25 +122,7 @@ SuperRod
     60,WAILMER,25,45
     40,SHARPEDO,30,35
 #-------------------------------
-[104] # Route 104 S
-Land,11
-    20,POOCHYENA,4,5
-    20,ZIGZAGOON,4,5
-    20,MARILL,4,5
-    20,WURMPLE,4
-    10,TAILLOW,4,5
-    10,WINGULL,3,5
-Water,2
-    95,WINGULL,10,30
-    5,PELIPPER,25,30
-OldRod
-    100,MAGIKARP,5,10
-GoodRod
-    100,MAGIKARP,10,30
-SuperRod
-    100,MAGIKARP,20,45
-#-------------------------------
-[104] # Route 104 N
+[104] # Route 104
 Land,11
     20,POOCHYENA,4,5
     20,ZIGZAGOON,4,5

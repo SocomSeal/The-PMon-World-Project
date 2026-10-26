@@ -47,6 +47,7 @@ Script section UI_PokeMart - redefine pbPokemonMart to include introSpeech and e
 Script section Weather - Added Weathers NIL (id 9 & 10, Filler), RSE_Rain (id 11), RSE_Storm (id 12), RSE_Sandstorm (id 13), RSE_Ash (id 14), RSE_Snow (id 15)
 Script section Interpreter - add "def pbSetEventTimeGlobal(id, map)" which will set an event time for an event on any map
 Script section Game_Character - add "def turn_random_URL" and all veriations, to let events turn in limited directions randomly
+Script section Overworld_FieldMoves - updated pbDive and pbSurfacing to include arguments for overrides (x, y, map)
 
 
 
