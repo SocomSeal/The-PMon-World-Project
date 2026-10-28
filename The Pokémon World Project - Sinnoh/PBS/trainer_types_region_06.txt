@@ -1,0 +1,45 @@
+﻿# Table of Contents:
+# [XY] Kalos Trainer Classes
+# [RIVAL] Rival Trainer Classes
+# [BOSS] Boss Trainer Classes
+# [VILLAIN] Villain Trainer Classes
+# [NPC] NPC Trainer Classes
+#-------------------------------#
+# [XY] Kalos Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [RIVAL] Rival Trainer Classes
+#-------------------------------#
+[XY_POKEMONTRAINER_Shauna]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[XY_POKEMONTRAINER_Tierno]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[XY_POKEMONTRAINER_Trevor]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------#
+# [BOSS] Boss Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [VILLAIN] Villain Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [NPC] NPC Trainer Classes
+#-------------------------------#
+[XY_POKEMONTRAINER_Calem]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[XY_POKEMONTRAINER_Serena]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------#

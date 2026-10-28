@@ -9836,7 +9836,7 @@ Price = 0
 Flags = KeyItem
 Decription = A parcel to be delivered to Prof. Oak from Viridian City's Pokémon Mart.
 #-------------------------------
-[SSTICKET]
+[SSTICKET_FRLG]
 Name = S.S. Ticket
 NamePlural = S.S. Tickets
 Pocket = 8
@@ -9940,7 +9940,7 @@ Price = 0
 Flags = KeyItem
 Description = A faded sea chart that shows the way to a certain island.
 #-------------------------------
-[FRLG_METEORITE]
+[METEORITE_FRLG]
 Name = Meteorite
 NamePlural = Meteorites
 Pocket = 8
@@ -9958,13 +9958,21 @@ Price = 0
 Flags = KeyItem
 Description = A watering can shaped like a Squirtle. It helps promote healthy growth of Berries planted in soft soil.
 #-------------------------------
-[BASEMENTKEYJOHTO]
+[BASEMENTKEY_HGSS]
 Name = Basement Key
 NamePlural = Basement Keys
 Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A key that opens a door in the Goldenrod Tunnel.
+#-------------------------------
+[SSTICKET_HGSS]
+Name = S.S. Ticket
+NamePlural = S.S. Tickets
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A ticket required for sailing on the high-speed ferry S.S. Aqua. It has a drawing of a ship on it.
 #-------------------------------#
 # [KEYRSE] Hoenn Key Items
 #-------------------------------#
@@ -10072,7 +10080,7 @@ Price = 0
 Flags = KeyItem
 Description = A device used to search for life-forms in water. It looks too difficult to use.
 #-------------------------------
-[BASEMENTKEYHOENN]
+[BASEMENTKEY_RSE]
 Name = Basement Key
 NamePlural = Basement Keys
 Pocket = 8
@@ -10080,7 +10088,7 @@ Price = 0
 Flags = KeyItem
 Description = The key to New Mauville, which was constructed beneath Mauville City.
 #-------------------------------
-[RSE_METEORITE]
+[METEORITE_RSE]
 Name = Meteorite
 NamePlural = Meteorites
 Pocket = 8
@@ -10088,7 +10096,7 @@ Price = 0
 Flags = KeyItem
 Description = A meteorite found at Meteor Falls. You got it at Mt. Chimney.
 #-------------------------------
-[ORAS_METEORITE_1]
+[METEORITE_1]
 Name = Meteorite
 NamePlural = Meteorites
 Pocket = 8
@@ -10096,7 +10104,7 @@ Price = 0
 Flags = KeyItem
 Description = A meteorite found at Meteor Falls.
 #-------------------------------
-[ORAS_METEORITE_2]
+[METEORITE_2]
 Name = Meteorite
 NamePlural = Meteorites
 Pocket = 8
@@ -10104,7 +10112,7 @@ Price = 0
 Flags = KeyItem
 Description = A meteorite found at Meteor Falls. It gives off a faint glow.
 #-------------------------------
-[ORAS_METEORITE_3]
+[METEORITE_3]
 Name = Meteorite
 NamePlural = Meteorites
 Pocket = 8
@@ -10112,7 +10120,7 @@ Price = 0
 Flags = KeyItem
 Description = A meteorite found at Meteor Falls. It continues to give off a faint glow and is slightly warm to the touch.
 #-------------------------------
-[ORAS_METEORITE_4]
+[METEORITE_4]
 Name = Meteorite
 NamePlural = Meteorites
 Pocket = 8
@@ -10128,7 +10136,7 @@ Price = 0
 Flags = KeyItem
 Description = Nifty goggles that protect eyes from desert sandstorms.
 #-------------------------------
-[RSE_BLUEORB]
+[BLUEORB_RSE]
 Name = Blue Orb
 NamePlural = Blue Orbs
 Pocket = 8
@@ -10136,7 +10144,7 @@ Price = 0
 Flags = KeyItem
 Description = An orb that glows blue. It is said to contain an incredible power from ancient times.
 #-------------------------------
-[RSE_REDORB]
+[REDORB_RSE]
 Name = Red Orb
 NamePlural = Red Orbs
 Pocket = 8
@@ -10167,6 +10175,14 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A ticket required to board the ship to Birth Island. It glows beautifully.
+#-------------------------------
+[SSTICKET_RSE]
+Name = S.S. Ticket
+NamePlural = S.S. Tickets
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = Ticket required for sailing on a ferry.
 #-------------------------------#
 # [KEYDPPt] Sinnoh Key Items
 #-------------------------------#

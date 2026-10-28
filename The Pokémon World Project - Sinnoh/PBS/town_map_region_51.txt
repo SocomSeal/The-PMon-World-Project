@@ -1,0 +1,9 @@
+﻿# Table of Contents:
+# [LA] Hisui Town Map
+#-------------------------------#
+# [LA] Hisui Town Map
+#-------------------------------#
+[51]
+Name = Filler
+Filename = map_Kanto.png
+#-------------------------------#

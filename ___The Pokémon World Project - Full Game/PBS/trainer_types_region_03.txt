@@ -486,7 +486,7 @@ IntroBGM = ORAS Battle Intro - Team Aqua (Team Aqua Appears!)
 BattleBGM = ORAS Battle Music - Team Grunt (Battle! (Team Magma - Team Aqua))
 VictoryBGM = ORAS Battle Victory - Team Magma and Aqua (Victory! (Team Magma - Team Aqua))
 #-------------------------------
-[RSE_AQUAADMIN_MATT]
+[RSE_AQUAADMIN_Matt]
 Name = Aqua Admin
 Gender = Male
 BaseMoney = 40
@@ -494,7 +494,7 @@ IntroBGM = ORAS Battle Intro - Team Aqua (Team Aqua Appears!)
 BattleBGM = ORAS Battle Music - Team Grunt (Battle! (Team Magma - Team Aqua))
 VictoryBGM = ORAS Battle Victory - Team Magma and Aqua (Victory! (Team Magma - Team Aqua))
 #-------------------------------
-[RSE_AQUAADMIN_SHELLY]
+[RSE_AQUAADMIN_Shelly]
 Name = Aqua Admin
 Gender = Female
 BaseMoney = 40
@@ -502,7 +502,7 @@ IntroBGM = ORAS Battle Intro - Team Aqua (Team Aqua Appears!)
 BattleBGM = ORAS Battle Music - Team Grunt (Battle! (Team Magma - Team Aqua))
 VictoryBGM = ORAS Battle Victory - Team Magma and Aqua (Victory! (Team Magma - Team Aqua))
 #-------------------------------
-[RSE_AQUALEADER_ARCHIE]
+[RSE_AQUALEADER_Archie]
 Name = Aqua Leader
 Gender = Male
 BaseMoney = 80
@@ -526,7 +526,7 @@ IntroBGM = ORAS Battle Intro - Team Magma (Team Magma Appears!)
 BattleBGM = ORAS Battle Music - Team Grunt (Battle! (Team Magma - Team Aqua))
 VictoryBGM = ORAS Battle Victory - Team Magma and Aqua (Victory! (Team Magma - Team Aqua))
 #-------------------------------
-[RSE_MAGMAADMIN_TABITHA]
+[RSE_MAGMAADMIN_Tabitha]
 Name = Magma Admin
 Gender = Male
 BaseMoney = 40
@@ -534,7 +534,7 @@ IntroBGM = ORAS Battle Intro - Team Magma (Team Magma Appears!)
 BattleBGM = ORAS Battle Music - Team Grunt (Battle! (Team Magma - Team Aqua))
 VictoryBGM = ORAS Battle Victory - Team Magma and Aqua (Victory! (Team Magma - Team Aqua))
 #-------------------------------
-[RSE_MAGMAADMIN_COURTNEY]
+[RSE_MAGMAADMIN_Courtney]
 Name = Magma Admin
 Gender = Female
 BaseMoney = 40
@@ -542,7 +542,7 @@ IntroBGM = ORAS Battle Intro - Team Magma (Team Magma Appears!)
 BattleBGM = ORAS Battle Music - Team Grunt (Battle! (Team Magma - Team Aqua))
 VictoryBGM = ORAS Battle Victory - Team Magma and Aqua (Victory! (Team Magma - Team Aqua))
 #-------------------------------
-[RSE_MAGMALEADER_MAXIE]
+[RSE_MAGMALEADER_Maxie]
 Name = Magma Leader
 Gender = Male
 BaseMoney = 80

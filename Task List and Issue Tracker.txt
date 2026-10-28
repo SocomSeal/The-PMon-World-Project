@@ -76,13 +76,10 @@ HOENN
 - Birch pokedex review events, including in lab
 - Post-game Norman and other player house events
 - Post-game littleroot events i.e. battle frontier, lati roamer, etc.
-- Update Slateport and Lilycove ferry attendant events (they currently have the Vermillion sailor dialogue)
-	- Need to code event ticket cutscenes too, check lilycove harbor
+- Need to code event ticket cutscenes, check lilycove harbor
 - Implement Mach and Acro bikes
-	- Implement cracked cave tiles (Granite Cave, Sky Pillar
-- Dungeons missing implementation
-	- Trick House, Weather Institute
-- Superancient pokemon roaming events
+	- Implement cracked cave tiles (Granite Cave, Sky Pillar, Mirage Tower
+- Kyogre roaming events/maps
 - Change the Voltorb Flip tables in the Mauville Game Corner with the proper Roulette game
 - The trainers on R119 that mimic the player's movement ("Mimic Circle") need implementation
 - "Lilycove Lady" NPCs are missing from the Pokecenter (instead of one that's static, implement daily changing?)
@@ -198,6 +195,9 @@ HOENN
 - Groudon and Kyogre awakening cutscenes are placeholders
 - Fog effects on Mt Pyre Exterior and during the Kyogre wakening cutscene in Seafloor Cavern need to be faded instead of instantly changed
 - During the weather crisis, the overworld weather and bgm are very buggy - this is due to the event-based temporary solutions in place
+- Diving to and from maps where the dive maps don't properly align is functional, but buggy; dive handlers need to be updated to properly handle these cases
+	- Abandoned Ship, Sootopolis + STORMING, Seafloor Cavern, Sealed Chamber, Marine Cave
+	- Sealed Chamber is technically fine, but is missing regi puzzle functionality and the lighter dive tiles to transition from the true dive spot in the cave
 SINNOH
 - 
 - There are no dungeon location previews

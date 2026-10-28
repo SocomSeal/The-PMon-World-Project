@@ -1,0 +1,22 @@
+﻿# Table of Contents:
+# [Orre] Orre Trainer Classes
+# [RIVAL] Rival Trainer Classes
+# [BOSS] Boss Trainer Classes
+# [VILLAIN] Villain Trainer Classes
+# [NPC] NPC Trainer Classes
+#-------------------------------#
+# [Orre] Orre Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [RIVAL] Rival Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [BOSS] Boss Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [VILLAIN] Villain Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [NPC] NPC Trainer Classes
+#-------------------------------#
+#-------------------------------#

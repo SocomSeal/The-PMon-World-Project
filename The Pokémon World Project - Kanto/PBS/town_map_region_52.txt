@@ -1,0 +1,16 @@
+﻿# Table of Contents:
+# [ZA] Lumiose Town Map
+# [MD] Mega Dimension Town Map
+#-------------------------------#
+# [ZA] Lumiose Town Map
+#-------------------------------#
+[52]
+Name = Filler
+Filename = map_Kanto.png
+#-------------------------------#
+# [MD] Mega Dimension Town Map
+#-------------------------------#
+[5201]
+Name = Filler
+Filename = map_Kanto.png
+#-------------------------------#

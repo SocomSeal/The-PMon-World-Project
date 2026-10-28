@@ -1,0 +1,9 @@
+﻿# Table of Contents:
+# [DPPt] Sinnoh Town Map
+#-------------------------------#
+# [DPPt] Sinnoh Town Map
+#-------------------------------#
+[4]
+Name = Sinnoh
+Filename = map_Sinnoh.png
+#-------------------------------#

@@ -1,5 +1,20 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
-#-------------------------------
+#-------------------------------#
+# Table of Contents:
+# [ITM] Regular Items
+# [HLD] Held Items
+# [MDC] Medicine Items
+# [PBL] Pokeballs
+# [HMS] Hidden Machines
+# [TMS] Technical Machines, Multi-Use
+# [TRS] Technical Records, Single-Use
+# [BRY] Berries
+# [MAIL] Mail Items
+# [BTL] Battle Items
+# [KEY] Key Items by Region
+#-------------------------------#
+# [ITM] Regular Items
+#-------------------------------#
 [REPEL]
 Name = Repel
 NamePlural = Repels
@@ -756,7 +771,9 @@ SellPrice = 75
 FieldUse = OnPokemon
 Flags = Fling_10
 Description = A flower nectar obtained at Poni Meadow. It changes the form of certain species of Pokémon.
-#-------------------------------
+#-------------------------------#
+# [HLD] Held Items
+#-------------------------------#
 [AIRBALLOON]
 Name = Air Balloon
 NamePlural = Air Balloons
@@ -3013,7 +3030,7 @@ Pocket = 1
 Price = 10000
 SellPrice = 0
 BPPrice = 50
-Description = A shiny red orb that is said to have a legend tied to it. It's known to be connected with the Hoenn region.
+Description = An orb that glows red. It is said to contain an incredible power from ancient times.
 #-------------------------------
 [BLUEORB]
 Name = Blue Orb
@@ -3022,8 +3039,10 @@ Pocket = 1
 Price = 10000
 SellPrice = 0
 BPPrice = 50
-Description = A shiny blue orb that is said to have a legend tied to it. It's known to be connected with the Hoenn region.
-#-------------------------------
+Description = An orb that glows blue. It is said to contain an incredible power from ancient times.
+#-------------------------------#
+# [MDC] Medicine Items
+#-------------------------------#
 [POTION]
 Name = Potion
 NamePlural = Potions
@@ -3943,7 +3962,9 @@ BPPrice = 20
 FieldUse = OnPokemon
 Consumable = false
 Description = A candy that is packed with energy. It raises the level of a single Pokémon by one.
-#-------------------------------
+#-------------------------------#
+# [PBL] Pokeballs
+#-------------------------------#
 [MASTERBALL]
 Name = Master Ball
 NamePlural = Master Balls
@@ -4190,7 +4211,110 @@ Price = 1000
 BattleUse = OnFoe
 Flags = PokeBall
 Description = A special Poké Ball designed to catch Ultra Beasts. It has a low success rate for catching others.
+#-------------------------------#
+# [HMS] Hidden Machines
+#-------------------------------#
+[HM01]
+Name = HM01
+NamePlural = HM01s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = CUT
+Description = The target is cut with a scythe or claw. This can also be used to cut down thin trees.
 #-------------------------------
+[HM02]
+Name = HM02
+NamePlural = HM02s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = FLY
+Description = The user soars and then strikes on the next turn. This can also be used to fly to any familiar town.
+#-------------------------------
+[HM03]
+Name = HM03
+NamePlural = HM03s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = SURF
+Description = Attacks everything by swamping the surroundings with a giant wave. This can also be used to cross water.
+#-------------------------------
+[HM04]
+Name = HM04
+NamePlural = HM04s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = STRENGTH
+Description = The target is slugged with a punch thrown at maximum power. This can also be used to move heavy boulders.
+#-------------------------------
+[HM05]
+Name = HM05
+NamePlural = HM05s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = FLASH
+Description = The user flashes a bright light that cuts the target's accuracy. It can also be used to illuminate dark caves.
+#-------------------------------
+[HM06]
+Name = HM06
+NamePlural = HM06s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = ROCKSMASH
+Description = The user hits with a punch that may lower the target's Defense. It can also smash cracked boulders.
+#-------------------------------
+[HM07]
+Name = HM07
+NamePlural = HM07s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = WATERFALL
+Description = The user charges at the target and may make it flinch. It can also be used to climb a waterfall.
+#-------------------------------
+[HM08]
+Name = HM08
+NamePlural = HM08s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = DIVE
+Description = Diving on the first turn, the user floats up and attacks on the second. It can be used to dive underwater.
+#-------------------------------
+[HM09]
+Name = HM09
+NamePlural = HM09s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = WHIRLPOOL
+Description = Traps foes in a violent swirling whirlpool. It can also be used to traverse whirlpools.
+#-------------------------------
+[HM10]
+Name = HM10
+NamePlural = HM10s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = DEFOG
+Description = Obstacles are moved, reducing the foe's evasion stat. It can also be used to clear deep fog, etc.
+#-------------------------------
+[HM11]
+Name = HM11
+NamePlural = HM11s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = ROCKCLIMB
+Description = A charging attack that may also leave the foe confused. It can also be used to scale rocky walls.
+#-------------------------------#
+# [TMS] Technical Machines, Multi-Use
+#-------------------------------#
 [TM001]
 Name = TM001
 NamePlural = TM001s
@@ -8150,106 +8274,12 @@ FieldUse = TM
 Flags = Fling_150
 Move = ICEBALL
 Description = PLACEHOLDER TEXT
-#-------------------------------
-[HM01]
-Name = HM01
-NamePlural = HM01s
-Pocket = 4
-Price = 0
-FieldUse = HM
-Move = CUT
-Description = The target is cut with a scythe or claw. This can also be used to cut down thin trees.
-#-------------------------------
-[HM02]
-Name = HM02
-NamePlural = HM02s
-Pocket = 4
-Price = 0
-FieldUse = HM
-Move = FLY
-Description = The user soars and then strikes on the next turn. This can also be used to fly to any familiar town.
-#-------------------------------
-[HM03]
-Name = HM03
-NamePlural = HM03s
-Pocket = 4
-Price = 0
-FieldUse = HM
-Move = SURF
-Description = Attacks everything by swamping the surroundings with a giant wave. This can also be used to cross water.
-#-------------------------------
-[HM04]
-Name = HM04
-NamePlural = HM04s
-Pocket = 4
-Price = 0
-FieldUse = HM
-Move = STRENGTH
-Description = The target is slugged with a punch thrown at maximum power. This can also be used to move heavy boulders.
-#-------------------------------
-[HM05]
-Name = HM05
-NamePlural = HM05s
-Pocket = 4
-Price = 0
-FieldUse = HM
-Move = FLASH
-Description = The user flashes a bright light that cuts the target's accuracy. It can also be used to illuminate dark caves.
-#-------------------------------
-[HM06]
-Name = HM06
-NamePlural = HM06s
-Pocket = 4
-Price = 0
-FieldUse = HM
-Move = ROCKSMASH
-Description = The user hits with a punch that may lower the target's Defense. It can also smash cracked boulders.
-#-------------------------------
-[HM07]
-Name = HM07
-NamePlural = HM07s
-Pocket = 4
-Price = 0
-FieldUse = HM
-Move = WATERFALL
-Description = The user charges at the target and may make it flinch. It can also be used to climb a waterfall.
-#-------------------------------
-[HM08]
-Name = HM08
-NamePlural = HM08s
-Pocket = 4
-Price = 0
-FieldUse = HM
-Move = DIVE
-Description = Diving on the first turn, the user floats up and attacks on the second. It can be used to dive underwater.
-#-------------------------------
-[HM09]
-Name = HM09
-NamePlural = HM09s
-Pocket = 4
-Price = 0
-FieldUse = HM
-Move = WHIRLPOOL
-Description = Traps foes in a violent swirling whirlpool. It can also be used to traverse whirlpools.
-#-------------------------------
-[HM10]
-Name = HM10
-NamePlural = HM10s
-Pocket = 4
-Price = 0
-FieldUse = HM
-Move = DEFOG
-Description = Obstacles are moved, reducing the foe's evasion stat. It can also be used to clear deep fog, etc.
-#-------------------------------
-[HM11]
-Name = HM11
-NamePlural = HM11s
-Pocket = 4
-Price = 0
-FieldUse = HM
-Move = ROCKCLIMB
-Description = A charging attack that may also leave the foe confused. It can also be used to scale rocky walls.
-#-------------------------------
+#-------------------------------#
+# [TRS] Technical Records, Single-Use
+#-------------------------------#
+#-------------------------------#
+# [BRY] Berries
+#-------------------------------#
 [CHERIBERRY]
 Name = Cheri Berry
 NamePlural = Cheri Berries
@@ -8810,36 +8840,238 @@ Pocket = 5
 Price = 40
 Flags = Berry,Fling_10,NaturalGift_DARK_100
 Description = If held by a Pokémon, this Berry will increase the holder's Sp. Def if it's hit with a special move.
-#-------------------------------
-[GRASSMAIL]
-Name = Grass Mail
-NamePlural = Grass Mail
-PortionName = piece of Grass Mail
-PortionNamePlural = pieces of Grass Mail
+#-------------------------------#
+# [MAIL] Mail Items
+#-------------------------------#
+[BLUESKYMAIL]
+Name = Blue Sky Mail
+NamePlural = Blue Sky Mail
+PortionName = piece of Blue Sky Mail
+PortionNamePlural = pieces of Blue Sky Mail
 Pocket = 6
 Price = 50
 Flags = IconMail
-Description = Stationery featuring a print of a refreshingly green field. Let a Pokémon hold it for delivery.
+Description = Sky-print Mail. Let a Pokémon hold it for delivery.
 #-------------------------------
-[FLAMEMAIL]
-Name = Flame Mail
-NamePlural = Flame Mail
-PortionName = piece of Flame Mail
-PortionNamePlural = pieces of Flame Mail
+[EONMAIL]
+Name = Eon Mail
+NamePlural = Eon Mail
+PortionName = piece of Eon Mail
+PortionNamePlural = pieces of Eon Mail
 Pocket = 6
 Price = 50
 Flags = IconMail
-Description = Stationery featuring a print of flames in blazing red. Let a Pokémon hold it for delivery.
+Description = Eevee-print Mail. Let a Pokémon hold it for delivery.
 #-------------------------------
-[BUBBLEMAIL]
-Name = Bubble Mail
-NamePlural = Bubble Mail
-PortionName = piece of Bubble Mail
-PortionNamePlural = pieces of Bubble Mail
+[FLOWERMAIL]
+Name = Flower Mail
+NamePlural = Flower Mail
+PortionName = piece of Flower Mail
+PortionNamePlural = pieces of Flower Mail
 Pocket = 6
 Price = 50
 Flags = IconMail
-Description = Stationery featuring a print of a blue world underwater. Let a Pokémon hold it for delivery.
+Description = Flower-print Mail. Let a Pokémon hold it for delivery.
+#-------------------------------
+[LITEBLUEMAIL]
+Name = Light-Blue Mail
+NamePlural = Light-Blue Mail
+PortionName = piece of Light-Blue Mail
+PortionNamePlural = pieces of Light-Blue Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Dratini-print Mail. Let a Pokémon hold it for delivery.
+#-------------------------------
+[LOVELYMAIL]
+Name = Lovely Mail
+NamePlural = Lovely Mail
+PortionName = piece of Lovely Mail
+PortionNamePlural = pieces of Lovely Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Heart-print Mail. Let a Pokémon hold it for delivery.
+#-------------------------------
+[MIRAGEMAIL]
+Name = Mirage Mail
+NamePlural = Mirage Mail
+PortionName = piece of Mirage Mail
+PortionNamePlural = pieces of Mirage Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Mew-print Mail. Let a Pokémon hold it for delivery.
+#-------------------------------
+[MORPHMAIL]
+Name = Morph Mail
+NamePlural = Morph Mail
+PortionName = piece of Morph Mail
+PortionNamePlural = pieces of Morph Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Ditto-print Mail. Let a Pokémon hold it for delivery.
+#-------------------------------
+[MUSICMAIL]
+Name = Music Mail
+NamePlural = Music Mail
+PortionName = piece of Music Mail
+PortionNamePlural = pieces of Music Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Natu-print Mail. Let a Pokémon hold it for delivery.
+#-------------------------------
+[PORTRAITMAIL]
+Name = Portrait Mail
+NamePlural = Portrait Mail
+PortionName = piece of Portrait Mail
+PortionNamePlural = pieces of Portrait Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Mail featuring the holder's likeness. Let a Pokémon hold it for delivery.
+#-------------------------------
+[SURFMAIL]
+Name = Surf Mail
+NamePlural = Surf Mail
+PortionName = piece of Surf Mail
+PortionNamePlural = pieces of Surf Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Lapras-print Mail. Let a Pokémon hold it for delivery.
+#-------------------------------
+[BEADMAIL]
+Name = Bead Mail
+NamePlural = Bead Mail
+PortionName = piece of Bead Mail
+PortionNamePlural = pieces of Bead Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Mail featuring a sketch of the holding Pokémon. Let a Pokémon hold it for delivery.
+#-------------------------------
+[DREAMMAIL]
+Name = Dream Mail
+NamePlural = Dream Mail
+PortionName = piece of Dream Mail
+PortionNamePlural = pieces of Dream Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Mail featuring a sketch of the holding Pokémon. Let a Pokémon hold it for delivery.
+#-------------------------------
+[FABMAIL]
+Name = Fab Mail
+NamePlural = Fab Mail
+PortionName = piece of Fab Mail
+PortionNamePlural = pieces of Fab Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a gorgeous, extravagant print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[GLITTERMAIL]
+Name = Glitter Mail
+NamePlural = Glitter Mail
+PortionName = piece of Glitter Mail
+PortionNamePlural = pieces of Glitter Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a cute Pikachu print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[HARBORMAIL]
+Name = Harbor Mail
+NamePlural = Harbor Mail
+PortionName = piece of Harbor Mail
+PortionNamePlural = pieces of Harbor Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a cute Wingull print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[MECHMAIL]
+Name = Mech Mail
+NamePlural = Mech Mail
+PortionName = piece of Mech Mail
+PortionNamePlural = pieces of Mech Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a cute Magnemite print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[ORANGEMAIL]
+Name = Orange Mail
+NamePlural = Orange Mail
+PortionName = piece of Orange Mail
+PortionNamePlural = pieces of Orange Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a cute Zigzagoon print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[RETROMAIL]
+Name = Retro Mail
+NamePlural = Retro Mail
+PortionName = piece of Retro Mail
+PortionNamePlural = pieces of Retro Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a print of three cute Pokémon. Let a Pokémon hold it for delivery.
+#-------------------------------
+[SHADOWMAIL]
+Name = Shadow Mail
+NamePlural = Shadow Mail
+PortionName = piece of Shadow Mail
+PortionNamePlural = pieces of Shadow Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a cute Duskull print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[TROPICMAIL]
+Name = Tropic Mail
+NamePlural = Tropic Mail
+PortionName = piece of Tropic Mail
+PortionNamePlural = pieces of Tropic Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a cute Bellossom print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[WAVEMAIL]
+Name = Wave Mail
+NamePlural = Wave Mail
+PortionName = piece of Wave Mail
+PortionNamePlural = pieces of Wave Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a cute Wailmer print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[WOODMAIL]
+Name = Wood Mail
+NamePlural = Wood Mail
+PortionName = piece of Wood Mail
+PortionNamePlural = pieces of Wood Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a cute Slakoth print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[AIRMAIL]
+Name = Air Mail
+NamePlural = Air Mail
+PortionName = piece of Air Mail
+PortionNamePlural = pieces of Air Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Stationery featuring a print of colorful letter sets. Let a Pokémon hold it for delivery.
 #-------------------------------
 [BLOOMMAIL]
 Name = Bloom Mail
@@ -8851,25 +9083,45 @@ Price = 50
 Flags = IconMail
 Description = Stationery featuring a print of pretty floral patterns. Let a Pokémon hold it for delivery.
 #-------------------------------
-[TUNNELMAIL]
-Name = Tunnel Mail
-NamePlural = Tunnel Mail
-PortionName = piece of Tunnel Mail
-PortionNamePlural = pieces of Tunnel Mail
+[BRICKMAIL]
+Name = Brick Mail
+NamePlural = Brick Mail
+PortionName = piece of Brick Mail
+PortionNamePlural = pieces of Brick Mail
 Pocket = 6
 Price = 50
 Flags = IconMail
-Description = Stationery featuring a print of a dimly lit coal mine. Let a Pokémon hold it for delivery.
+Description = Stationery featuring a print of a tough-looking brick pattern. Let a Pokémon hold it for delivery.
 #-------------------------------
-[STEELMAIL]
-Name = Steel Mail
-NamePlural = Steel Mail
-PortionName = piece of Steel Mail
-PortionNamePlural = pieces of Steel Mail
+[BUBBLEMAIL]
+Name = Bubble Mail
+NamePlural = Bubble Mail
+PortionName = piece of Bubble Mail
+PortionNamePlural = pieces of Bubble Mail
 Pocket = 6
 Price = 50
 Flags = IconMail
-Description = Stationery featuring a print of cool mechanical designs. Let a Pokémon hold it for delivery.
+Description = Stationery featuring a print of a blue world underwater. Let a Pokémon hold it for delivery.
+#-------------------------------
+[FLAMEMAIL]
+Name = Flame Mail
+NamePlural = Flame Mail
+PortionName = piece of Flame Mail
+PortionNamePlural = pieces of Flame Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Stationery featuring a print of flames in blazing red. Let a Pokémon hold it for delivery.
+#-------------------------------
+[GRASSMAIL]
+Name = Grass Mail
+NamePlural = Grass Mail
+PortionName = piece of Grass Mail
+PortionNamePlural = pieces of Grass Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Stationery featuring a print of a refreshingly green field. Let a Pokémon hold it for delivery.
 #-------------------------------
 [HEARTMAIL]
 Name = Heart Mail
@@ -8880,6 +9132,16 @@ Pocket = 6
 Price = 50
 Flags = IconMail
 Description = Stationery featuring a print of giant heart patterns. Let a Pokémon hold it for delivery.
+#-------------------------------
+[MOSAICMAIL]
+Name = Mosaic Mail
+NamePlural = Mosaic Mail
+PortionName = piece of Mosaic Mail
+PortionNamePlural = pieces of Mosaic Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Stationery featuring a print of a vivid rainbow pattern. Let a Pokémon hold it for delivery.
 #-------------------------------
 [SNOWMAIL]
 Name = Snow Mail
@@ -8901,46 +9163,148 @@ Price = 50
 Flags = IconMail
 Description = Stationery featuring a print depicting the huge expanse of space. Let a Pokémon hold it for delivery.
 #-------------------------------
-[AIRMAIL]
-Name = Air Mail
-NamePlural = Air Mail
-PortionName = piece of Air Mail
-PortionNamePlural = pieces of Air Mail
+[STEELMAIL]
+Name = Steel Mail
+NamePlural = Steel Mail
+PortionName = piece of Steel Mail
+PortionNamePlural = pieces of Steel Mail
 Pocket = 6
 Price = 50
 Flags = IconMail
-Description = Stationery featuring a print of colorful letter sets. Let a Pokémon hold it for delivery.
+Description = Stationery featuring a print of cool mechanical designs. Let a Pokémon hold it for delivery.
 #-------------------------------
-[MOSAICMAIL]
-Name = Mosaic Mail
-NamePlural = Mosaic Mail
-PortionName = piece of Mosaic Mail
-PortionNamePlural = pieces of Mosaic Mail
+[TUNNELMAIL]
+Name = Tunnel Mail
+NamePlural = Tunnel Mail
+PortionName = piece of Tunnel Mail
+PortionNamePlural = pieces of Tunnel Mail
 Pocket = 6
 Price = 50
 Flags = IconMail
-Description = Stationery featuring a print of a vivid rainbow pattern. Let a Pokémon hold it for delivery.
+Description = Stationery featuring a print of a dimly lit coal mine. Let a Pokémon hold it for delivery.
 #-------------------------------
-[BRICKMAIL]
-Name = Brick Mail
-NamePlural = Brick Mail
-PortionName = piece of Brick Mail
-PortionNamePlural = pieces of Brick Mail
+[BRIDGEMAILD]
+Name = Bridge Mail D
+NamePlural = Bridge Mail D
+PortionName = piece of Bridge Mail D
+PortionNamePlural = pieces of Bridge Mail D
 Pocket = 6
 Price = 50
 Flags = IconMail
-Description = Stationery featuring a print of a tough-looking brick pattern. Let a Pokémon hold it for delivery.
+Description = Stationery featuring an illustration of a bright-red drawbridge. Let a Pokémon hold it for delivery.
 #-------------------------------
-[FABMAIL]
-Name = Fab Mail
-NamePlural = Fab Mail
-PortionName = piece of Fab Mail
-PortionNamePlural = pieces of Fab Mail
+[BRIDGEMAILM]
+Name = Bridge Mail M
+NamePlural = Bridge Mail M
+PortionName = piece of Bridge Mail M
+PortionNamePlural = pieces of Bridge Mail M
 Pocket = 6
 Price = 50
 Flags = IconMail
-Description = PLACEHOLDER TEXT
+Description = Stationery featuring an illustration of a majestically arched bridge. Let a Pokémon hold it for delivery.
 #-------------------------------
+[BRIDGEMAILS]
+Name = Bridge Mail S
+NamePlural = Bridge Mail S
+PortionName = piece of Bridge Mail S
+PortionNamePlural = pieces of Bridge Mail S
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Stationery featuring an illustration of a bridge that seems to pierce the sky. Let a Pokémon hold it for delivery.
+#-------------------------------
+[BRIDGEMAILT]
+Name = Bridge Mail T
+NamePlural = Bridge Mail T
+PortionName = piece of Bridge Mail T
+PortionNamePlural = pieces of Bridge Mail T
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Stationery featuring an illustration of a high-tension steel suspension bridge. Let a Pokémon hold it for delivery.
+#-------------------------------
+[BRIDGEMAILV]
+Name = Bridge Mail V
+NamePlural = Bridge Mail V
+PortionName = piece of Bridge Mail V
+PortionNamePlural = pieces of Bridge Mail V
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Stationery featuring an illustration of a vintage-looking brick bridge. Let a Pokémon hold it for delivery.
+#-------------------------------
+[FAVOREDMAIL]
+Name = Favored Mail
+NamePlural = Favored Mail
+PortionName = piece of Favored Mail
+PortionNamePlural = pieces of Favored Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Stationery designed for writing about your favorite things. Let a Pokémon hold it for delivery.
+#-------------------------------
+[GREETMAIL]
+Name = Greet Mail
+NamePlural = Greet Mail
+PortionName = piece of Greet Mail
+PortionNamePlural = pieces of Greet Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Stationery designed for introductory greetings. Let a Pokémon hold it for delivery.
+#-------------------------------
+[INQUIRYMAIL]
+Name = Inquiry Mail
+NamePlural = Inquiry Mail
+PortionName = piece of Inquiry Mail
+PortionNamePlural = pieces of Inquiry Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Stationery designed for writing questions. Let a Pokémon hold it for delivery.
+#-------------------------------
+[LIKEMAIL]
+Name = Like Mail
+NamePlural = Like Mail
+PortionName = piece of Like Mail
+PortionNamePlural = pieces of Like Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Stationery designed for writing recommendations. Let a Pokémon hold it for delivery.
+#-------------------------------
+[REPLYMAIL]
+Name = Reply Mail
+NamePlural = Reply Mail
+PortionName = piece of Reply Mail
+PortionNamePlural = pieces of Reply Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Stationery designed for writing a reply. Let a Pokémon hold it for delivery.
+#-------------------------------
+[RSVPMAIL]
+Name = RSVP Mail
+NamePlural = RSVP Mail
+PortionName = piece of RSVP Mail
+PortionNamePlural = pieces of RSVP Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Stationery designed for invitations. Let a Pokémon hold it for delivery.
+#-------------------------------
+[THANKSMAIL]
+Name = Thanks Mail
+NamePlural = Thanks Mail
+PortionName = piece of Thanks Mail
+PortionNamePlural = pieces of Thanks Mail
+Pocket = 6
+Price = 50
+Flags = IconMail
+Description = Stationery designed for a thank-you note. Let a Pokémon hold it for delivery.
+#-------------------------------#
+# [BTL] Battle Items
+#-------------------------------#
 [XATTACK]
 Name = X Attack
 NamePlural = X Attacks
@@ -9304,7 +9668,9 @@ SellPrice = 75
 BattleUse = Direct
 Flags = Fling_30
 Description = An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.
-#-------------------------------
+#-------------------------------#
+# [KEY] Key Items by Region
+#-------------------------------#
 [BICYCLE]
 Name = Bicycle
 NamePlural = Bicycles
@@ -9396,183 +9762,6 @@ BattleUse = Direct
 Flags = KeyItem
 Description = A flute that is said to instantly awaken any Pokémon. It has a lovely tone.
 #-------------------------------
-[SOOTSACK]
-Name = Soot Sack
-NamePlural = Soot Sacks
-Pocket = 8
-Price = 0
-Flags = KeyItem
-Description = A sack used to gather and hold volcanic ash.
-#-------------------------------
-[SILPHSCOPE]
-Name = Silph Scope
-NamePlural = Silph Scopes
-Pocket = 8
-Price = 0
-Flags = KeyItem
-Description = A scope that makes unseeable Pokémon visible. It is made by Silph Co.
-#-------------------------------
-[DEVONSCOPE]
-Name = Devon Scope
-NamePlural = Devon Scopes
-Pocket = 8
-Price = 0
-Flags = KeyItem
-Description = A device by Devon that signals any unseeable Pokémon.
-#-------------------------------
-[SQUIRTBOTTLE]
-Name = Squirt Bottle
-NamePlural = Squirt Bottles
-Pocket = 8
-Price = 0
-Flags = KeyItem
-Description = A watering can shaped like a Squirtle. It helps promote healthy growth of Berries planted in soft soil.
-#-------------------------------
-[SPRAYDUCK]
-Name = Sprayduck
-NamePlural = Sprayducks
-Pocket = 8
-Price = 0
-Flags = KeyItem
-Description = A watering can shaped like a Psyduck. It helps promote healthy growth of Berries planted in soft soil.
-#-------------------------------
-[WAILMERPAIL]
-Name = Wailmer Pail
-NamePlural = Wailmer Pails
-Pocket = 8
-Price = 0
-Flags = KeyItem
-Description = A nifty watering pail. Use it to promote strong growth in Berries planted in soft soil.
-#-------------------------------
-[SPRINKLOTAD]
-Name = Sprinklotad
-NamePlural = Sprinklotads
-Pocket = 8
-Price = 0
-Flags = KeyItem
-Description = A watering can shaped like a Lotad. It helps promote the healthy growth of any Berries planted in soft soil.
-#-------------------------------
-[GRACIDEA]
-Name = Gracidea
-NamePlural = Gracideas
-Pocket = 8
-Price = 0
-FieldUse = OnPokemon
-Flags = KeyItem
-Description = A flower sometimes bundled in bouquets to convey gratitude on special occasions like birthdays.
-#-------------------------------
-[REVEALGLASS]
-Name = Reveal Glass
-NamePlural = Reveal Glasses
-Pocket = 8
-Price = 0
-FieldUse = OnPokemon
-Flags = KeyItem
-Description = A glass that reveals the truth. It is a mysterious glass that returns a Pokémon back to its original shape.
-#-------------------------------
-[PRISONBOTTLE]
-Name = Prison Bottle
-NamePlural = Prison Bottles
-Pocket = 8
-Price = 0
-FieldUse = OnPokemon
-Flags = KeyItem
-Description = A bottle believed to have been used to seal away the power of a certain Pokémon long, long ago.
-#-------------------------------
-[ROTOMCATALOG]
-Name = Rotom Catalog
-NamePlural = Rotom Catalogs
-Pocket = 8
-Price = 0
-FieldUse = OnPokemon
-Flags = KeyItem
-Description = A catalog of devices that Rotom like. Use the catalog to have Rotom hop in and out of the devices listed within.
-#-------------------------------
-[ZYGARDECUBE]
-Name = Zygarde Cube
-NamePlural = Zygarde Cubes
-Pocket = 8
-Price = 0
-FieldUse = OnPokemon
-Flags = KeyItem
-Description = An item in which Zygarde Cores and Cells are gathered. You can also use it to change Zygarde's forms.
-#-------------------------------
-[DNASPLICERS]
-Name = DNA Splicers
-NamePlural = DNA Splicers
-Pocket = 8
-Price = 0
-FieldUse = OnPokemon
-Flags = KeyItem
-Description = A splicer that fuses Kyurem and a certain Pokémon. They are said to have been one in the beginning.
-#-------------------------------
-[DNASPLICERSUSED]
-Name = DNA Splicers
-NamePlural = DNA Splicers
-Pocket = 8
-Price = 0
-FieldUse = OnPokemon
-Flags = KeyItem
-Description = A splicer that separates Kyurem and a certain Pokémon when they have been fused.
-#-------------------------------
-[NSOLARIZER]
-Name = N-Solarizer
-NamePlural = N-Solarizers
-Pocket = 8
-Price = 0
-FieldUse = OnPokemon
-Flags = KeyItem
-Description = A machine to fuse Necrozma, which needs light, and Solgaleo.
-#-------------------------------
-[NSOLARIZERUSED]
-Name = N-Solarizer
-NamePlural = N-Solarizers
-Pocket = 8
-Price = 0
-FieldUse = OnPokemon
-Flags = KeyItem
-Description = A machine to separate Necrozma, which needed light, from Solgaleo.
-#-------------------------------
-[NLUNARIZER]
-Name = N-Lunarizer
-NamePlural = N-Lunarizers
-Pocket = 8
-Price = 0
-FieldUse = OnPokemon
-Flags = KeyItem
-Description = A machine to fuse Necrozma, which needs light, and Lunala.
-#-------------------------------
-[NLUNARIZERUSED]
-Name = N-Lunarizer
-NamePlural = N-Lunarizers
-Pocket = 8
-Price = 0
-FieldUse = OnPokemon
-Flags = KeyItem
-Description = A machine to separate Necrozma, which needed light, from Lunala.
-#-------------------------------
-[REINSOFUNITY]
-Name = Reins of Unity
-NamePlural = Reins of Unity
-PortionName = set of Reins of Unity
-PortionNamePlural = sets of Reins of Unity
-Pocket = 8
-Price = 0
-FieldUse = OnPokemon
-Flags = KeyItem
-Description = Reins that people presented to the king. They unite Calyrex with its beloved steed.
-#-------------------------------
-[REINSOFUNITYUSED]
-Name = Reins of Unity
-NamePlural = Reins of Unity
-PortionName = set of Reins of Unity
-PortionNamePlural = sets of Reins of Unity
-Pocket = 8
-Price = 0
-FieldUse = OnPokemon
-Flags = KeyItem
-Description = Reins that people presented to the king. They separate Calyrex and its beloved steed.
-#-------------------------------
 [OVALCHARM]
 Name = Oval Charm
 NamePlural = Oval Charms
@@ -9620,14 +9809,24 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A device that allows you to access the Pokémon storage system. There are some places where it won't work.
-#-------------------------------
-[OLDSEAMAP]
-Name = Old Sea Map
-NamePlural = Old Sea Maps
+#-------------------------------#
+# [KEYFRLG] Kanto Key Items
+#-------------------------------#
+[FAMECHECKER]
+Name = Fame Checker
+NamePlural = Fame Checkers
 Pocket = 8
 Price = 0
 Flags = KeyItem
-Description = A faded sea chart that shows the way to a certain island.
+Description = A device that enables you to recall what you've heard and seen about famous people.
+#-------------------------------
+[TEACHYTV]
+Name = Teachy TV
+NamePlural = Teachy TVs
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A television set that is tuned to a program with useful tips for novice Trainers.
 #-------------------------------
 [OAKPARCEL]
 Name = Oak's Parcel
@@ -9637,7 +9836,7 @@ Price = 0
 Flags = KeyItem
 Decription = A parcel to be delivered to Prof. Oak from Viridian City's Pokémon Mart.
 #-------------------------------
-[SSTICKET]
+[SSTICKET_FRLG]
 Name = S.S. Ticket
 NamePlural = S.S. Tickets
 Pocket = 8
@@ -9660,6 +9859,14 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = 	A voucher for obtaining a bicycle from the Bike Shop.
+#-------------------------------
+[SILPHSCOPE]
+Name = Silph Scope
+NamePlural = Silph Scopes
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A scope that makes unseeable Pokémon visible. It is made by Silph Co.
 #-------------------------------
 [CARDKEY]
 Name = Card Key
@@ -9725,6 +9932,242 @@ Price = 0
 Flags = KeyItem
 Description = An exquisitely beautiful gem that has a blue glow. It symbolizes honesty.
 #-------------------------------
+[OLDSEAMAP]
+Name = Old Sea Map
+NamePlural = Old Sea Maps
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A faded sea chart that shows the way to a certain island.
+#-------------------------------
+[METEORITE_FRLG]
+Name = Meteorite
+NamePlural = Meteorites
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A meteorite that fell from space onto Mt. Moon long ago. It is very lumpy and hard.
+#-------------------------------#
+# [KEYHGSS] Johto Key Items
+#-------------------------------#
+[SQUIRTBOTTLE]
+Name = Squirt Bottle
+NamePlural = Squirt Bottles
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A watering can shaped like a Squirtle. It helps promote healthy growth of Berries planted in soft soil.
+#-------------------------------
+[BASEMENTKEY_HGSS]
+Name = Basement Key
+NamePlural = Basement Keys
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A key that opens a door in the Goldenrod Tunnel.
+#-------------------------------
+[SSTICKET_HGSS]
+Name = S.S. Ticket
+NamePlural = S.S. Tickets
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A ticket required for sailing on the high-speed ferry S.S. Aqua. It has a drawing of a ship on it.
+#-------------------------------#
+# [KEYRSE] Hoenn Key Items
+#-------------------------------#
+[SOOTSACK]
+Name = Soot Sack
+NamePlural = Soot Sacks
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A sack used to gather and hold volcanic ash.
+#-------------------------------
+[POKEBLOCKCASE]
+Name = Pokéblock Case
+NamePlural = Pokéblock Cases
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A case for holding Pokéblocks made with a Berry Blender.
+#-------------------------------
+[DEVONSCOPE]
+Name = Devon Scope
+NamePlural = Devon Scopes
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A device by Devon that signals any unseeable Pokémon.
+#-------------------------------
+[WAILMERPAIL]
+Name = Wailmer Pail
+NamePlural = Wailmer Pails
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A nifty watering pail. Use it to promote strong growth in Berries planted in soft soil.
+#-------------------------------
+[SPRINKLOTAD]
+Name = Sprinklotad
+NamePlural = Sprinklotads
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A watering can shaped like a Lotad. It helps promote the healthy growth of any Berries planted in soft soil.
+#-------------------------------
+[DEVONGOODS]
+Name = Devon Goods
+NamePlural = Devon Goods
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A package that contains mechanical parts of some sort made by the Devon Corporation.
+#-------------------------------
+[LETTER]
+Name = Letter
+NamePlural = Letters
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = An extremely important letter to Steven from the President of Devon Corporation.
+#-------------------------------
+[RM1KEY]
+Name = Rm. 1 Key
+NamePlural = Rm. 1 Keys
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A key that opens the door to Room 1 inside the Abandoned Ship. It is old and looks easily broken.
+#-------------------------------
+[RM2KEY]
+Name = Rm. 2 Key
+NamePlural = Rm. 2 Keys
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A key that opens the door to Room 2 inside the Abandoned Ship. It is old and looks easily broken.
+#-------------------------------
+[RM4KEY]
+Name = Rm. 4 Key
+NamePlural = Rm. 4 Keys
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A key that opens the door to Room 4 inside the Abandoned Ship. It is old and looks easily broken.
+#-------------------------------
+[RM6KEY]
+Name = Rm. 6 Key
+NamePlural = Rm. 6 Keys
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A key that opens the door to Room 6 inside the Abandoned Ship. It is old and looks easily broken.
+#-------------------------------
+[STORAGEKEY]
+Name = Storage Key
+NamePlural = Storage Keys
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A key that opens the storage hold inside the Abandoned Ship. It is old and looks easily broken.
+#-------------------------------
+[SCANNER]
+Name = Scanner
+NamePlural = Scanners
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A device used to search for life-forms in water. It looks too difficult to use.
+#-------------------------------
+[BASEMENTKEY_RSE]
+Name = Basement Key
+NamePlural = Basement Keys
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = The key to New Mauville, which was constructed beneath Mauville City.
+#-------------------------------
+[METEORITE_RSE]
+Name = Meteorite
+NamePlural = Meteorites
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A meteorite found at Meteor Falls. You got it at Mt. Chimney.
+#-------------------------------
+[METEORITE_1]
+Name = Meteorite
+NamePlural = Meteorites
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A meteorite found at Meteor Falls.
+#-------------------------------
+[METEORITE_2]
+Name = Meteorite
+NamePlural = Meteorites
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A meteorite found at Meteor Falls. It gives off a faint glow.
+#-------------------------------
+[METEORITE_3]
+Name = Meteorite
+NamePlural = Meteorites
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A meteorite found at Meteor Falls. It continues to give off a faint glow and is slightly warm to the touch.
+#-------------------------------
+[METEORITE_4]
+Name = Meteorite
+NamePlural = Meteorites
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A meteorite found at Meteor Falls. Some sort of pattern has risen to the surface, and it's shining with rainbow-colored light.
+#-------------------------------
+[GOGOGGLES]
+Name = Go-Goggles
+NamePlural = Go-Goggles
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = Nifty goggles that protect eyes from desert sandstorms.
+#-------------------------------
+[BLUEORB_RSE]
+Name = Blue Orb
+NamePlural = Blue Orbs
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = An orb that glows blue. It is said to contain an incredible power from ancient times.
+#-------------------------------
+[REDORB_RSE]
+Name = Red Orb
+NamePlural = Red Orbs
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = An orb that glows red. It is said to contain an incredible power from ancient times.
+#-------------------------------
+[MAGMAEMBLEM]
+Name = Magma Emblem
+NamePlural = Magma Emblems
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A medal-like item in the same shape as Team Magma's mark.
+#-------------------------------
+[EONTICKET]
+Name = Eon Ticket
+NamePlural = Eon Tickets
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = The ticket required for sailing on a ferry to a distant southern island. It features a drawing of an island.
+#-------------------------------
 [AURORATICKET]
 Name = Aurora Ticket
 NamePlural = Aurora Tickets
@@ -9732,3 +10175,198 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A ticket required to board the ship to Birth Island. It glows beautifully.
+#-------------------------------
+[SSTICKET_RSE]
+Name = S.S. Ticket
+NamePlural = S.S. Tickets
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = Ticket required for sailing on a ferry.
+#-------------------------------#
+# [KEYDPPt] Sinnoh Key Items
+#-------------------------------#
+[SPRAYDUCK]
+Name = Sprayduck
+NamePlural = Sprayducks
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A watering can shaped like a Psyduck. It helps promote healthy growth of Berries planted in soft soil.
+#-------------------------------
+[ROTOMCATALOG]
+Name = Rotom Catalog
+NamePlural = Rotom Catalogs
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = A catalog of devices that Rotom like. Use the catalog to have Rotom hop in and out of the devices listed within.
+#-------------------------------
+[GRACIDEA]
+Name = Gracidea
+NamePlural = Gracideas
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = A flower sometimes bundled in bouquets to convey gratitude on special occasions like birthdays.
+#-------------------------------#
+# [KEYBW] Unova Key Items
+#-------------------------------#
+[REVEALGLASS]
+Name = Reveal Glass
+NamePlural = Reveal Glasses
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = A glass that reveals the truth. It is a mysterious glass that returns a Pokémon back to its original shape.
+#-------------------------------
+[DNASPLICERS]
+Name = DNA Splicers
+NamePlural = DNA Splicers
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = A splicer that fuses Kyurem and a certain Pokémon. They are said to have been one in the beginning.
+#-------------------------------
+[DNASPLICERSUSED]
+Name = DNA Splicers
+NamePlural = DNA Splicers
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = A splicer that separates Kyurem and a certain Pokémon when they have been fused.
+#-------------------------------#
+# [KEYXY] Kalos Key Items
+#-------------------------------#
+[PRISONBOTTLE]
+Name = Prison Bottle
+NamePlural = Prison Bottles
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = A bottle believed to have been used to seal away the power of a certain Pokémon long, long ago.
+#-------------------------------
+[ZYGARDECUBE]
+Name = Zygarde Cube
+NamePlural = Zygarde Cubes
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = An item in which Zygarde Cores and Cells are gathered. You can also use it to change Zygarde's forms.
+#-------------------------------#
+# [KEYUSUM] Alola Key Items
+#-------------------------------#
+[NSOLARIZER]
+Name = N-Solarizer
+NamePlural = N-Solarizers
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = A machine to fuse Necrozma, which needs light, and Solgaleo.
+#-------------------------------
+[NSOLARIZERUSED]
+Name = N-Solarizer
+NamePlural = N-Solarizers
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = A machine to separate Necrozma, which needed light, from Solgaleo.
+#-------------------------------
+[NLUNARIZER]
+Name = N-Lunarizer
+NamePlural = N-Lunarizers
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = A machine to fuse Necrozma, which needs light, and Lunala.
+#-------------------------------
+[NLUNARIZERUSED]
+Name = N-Lunarizer
+NamePlural = N-Lunarizers
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = A machine to separate Necrozma, which needed light, from Lunala.
+#-------------------------------#
+# [KEYSwSh] Galar Key Items
+#-------------------------------#
+[REINSOFUNITY]
+Name = Reins of Unity
+NamePlural = Reins of Unity
+PortionName = set of Reins of Unity
+PortionNamePlural = sets of Reins of Unity
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = Reins that people presented to the king. They unite Calyrex with its beloved steed.
+#-------------------------------
+[REINSOFUNITYUSED]
+Name = Reins of Unity
+NamePlural = Reins of Unity
+PortionName = set of Reins of Unity
+PortionNamePlural = sets of Reins of Unity
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = Reins that people presented to the king. They separate Calyrex and its beloved steed.
+#-------------------------------#
+# [KEYSV] Paldea Key Items
+#-------------------------------#
+#-------------------------------#
+# [KEY10] R10 Key Items
+#-------------------------------#
+#-------------------------------#
+# [KEYUNUSED] Unused Key Items
+#-------------------------------#
+[BERRYPOUCH]
+Name = Berry Pouch
+NamePlural = Berry Pouches
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A pouch for carrying Berries. It is attached to the Bag's compartment for important items.
+#-------------------------------
+[TMCASE]
+Name = TM Case
+NamePlural = TM Cases
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A case that holds TMs and HMs. It is attached to the bag's compartment for important items.
+#-------------------------------
+[VSSEEKER]
+Name = VS Seeker
+NamePlural = VS Seekers
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A device that indicates Trainers who want to battle. The battery charges while traveling.
+#-------------------------------
+[POWDERJAR]
+Name = Powder Jar
+NamePlural = Powder Jars
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A jar for storing Berry Powder made using a Berry Crusher.
+#-------------------------------
+[CONTESTPASS]
+Name = Contest Pass
+NamePlural = Contest Passes
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = The pass required for entering Pokémon Contests. It has a drawing of an award ribbon on it.

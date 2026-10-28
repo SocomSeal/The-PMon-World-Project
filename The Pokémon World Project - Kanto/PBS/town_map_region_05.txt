@@ -1,0 +1,9 @@
+﻿# Table of Contents:
+# [BW] Unova Town Map
+#-------------------------------#
+# [BW] Unova Town Map
+#-------------------------------#
+[5]
+Name = Unova
+Filename = map_Unova.png
+#-------------------------------#

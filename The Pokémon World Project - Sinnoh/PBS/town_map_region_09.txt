@@ -1,0 +1,23 @@
+﻿# Table of Contents:
+# [SV] Paldea Town Map
+# [TM] Kitakami Town Map
+# [ID] Blueberry Town Map
+#-------------------------------#
+# [SV] Paldea Town Map
+#-------------------------------#
+[9]
+Name = Paldea
+Filename = map_Paldea.png
+#-------------------------------#
+# [TM] Kitakami Town Map
+#-------------------------------#
+[901]
+Name = Paldea
+Filename = map_Paldea.png
+#-------------------------------#
+# [ID] Blueberry Town Map
+#-------------------------------#
+[902]
+Name = Paldea
+Filename = map_Paldea.png
+#-------------------------------#

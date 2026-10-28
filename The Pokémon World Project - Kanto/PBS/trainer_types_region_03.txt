@@ -1,0 +1,600 @@
+﻿# Table of Contents:
+# [RSE] Hoenn Trainer Classes
+# [RIVAL] Rival Trainer Classes
+# [BOSS] Boss Trainer Classes
+# [VILLAIN] Villain Trainer Classes
+# [NPC] NPC Trainer Classes
+#-------------------------------#
+# [RSE] Hoenn Trainer Classes
+#-------------------------------#
+[RSE_AROMALADY]
+Name = Aroma Lady
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_BATTLEGIRL]
+Name = Battle Girl
+Gender = Female
+BaseMoney = 24
+IntroBGM = ORAS Battle Intro - Trainer Intense (Trainer_s Eyes Meet (Cooltrainer))
+#-------------------------------
+[RSE_BEAUTY]
+Name = Beauty
+Gender = Female
+BaseMoney = 80
+#-------------------------------
+[RSE_BIRDKEEPER]
+Name = Bird Keeper
+Gender = Male
+BaseMoney = 32
+IntroBGM = ORAS Battle Intro - Trainer Cool (Trainer_s Eyes Meet (Ace Trainer))
+#-------------------------------
+[RSE_BLACKBELT]
+Name = Black Belt
+Gender = Male
+BaseMoney = 32
+IntroBGM = ORAS Battle Intro - Trainer Intense (Trainer_s Eyes Meet (Cooltrainer))
+#-------------------------------
+[RSE_BUGCATCHER]
+Name = Bug Catcher
+Gender = Male
+BaseMoney = 16
+#-------------------------------
+[RSE_BUGMANIAC]
+Name = Bug Maniac
+Gender = Male
+BaseMoney = 60
+IntroBGM = ORAS Battle Intro - Trainer Suspicious (Trainers_ Eyes Meet (Hex Maniac))
+#-------------------------------
+[RSE_CAMPER]
+Name = Camper
+Gender = Male
+BaseMoney = 16
+#-------------------------------
+[RSE_COLLECTOR]
+Name = Collector
+Gender = Male
+BaseMoney = 60
+IntroBGM = ORAS Battle Intro - Trainer Suspicious (Trainers_ Eyes Meet (Hex Maniac))
+#-------------------------------
+[RSE_COOLTRAINER_M]
+Name = Cooltrainer
+Gender = Male
+BaseMoney = 48
+IntroBGM = ORAS Battle Intro - Trainer Cool (Trainer_s Eyes Meet (Ace Trainer))
+#-------------------------------
+[RSE_COOLTRAINER_F]
+Name = Cooltrainer
+Gender = Female
+BaseMoney = 48
+IntroBGM = ORAS Battle Intro - Trainer Cool (Trainer_s Eyes Meet (Ace Trainer))
+#-------------------------------
+[RSE_DRAGONTAMER]
+Name = Dragon Tamer
+Gender = Male
+BaseMoney = 48
+IntroBGM = ORAS Battle Intro - Trainer Intense (Trainer_s Eyes Meet (Cooltrainer))
+#-------------------------------
+[RSE_EXPERT_M]
+Name = Expert
+Gender = Male
+BaseMoney = 40
+IntroBGM = ORAS Battle Intro - Trainer Intense (Trainer_s Eyes Meet (Cooltrainer))
+#-------------------------------
+[RSE_EXPERT_F]
+Name = Expert
+Gender = Female
+BaseMoney = 40
+IntroBGM = ORAS Battle Intro - Trainer Intense (Trainer_s Eyes Meet (Cooltrainer))
+#-------------------------------
+[RSE_FISHERMAN]
+Name = Fisherman
+Gender = Male
+BaseMoney = 40
+IntroBGM = ORAS Battle Intro - Trainer Hiker (Trainers_ Eyes Meet (Hiker))
+#-------------------------------
+[RSE_GENTLEMAN]
+Name = Gentleman
+Gender = Male
+BaseMoney = 80
+IntroBGM = ORAS Battle Intro - Trainer Rich (Trainers_ Eyes Meet (Gentleman))
+#-------------------------------
+[RSE_GUITARIST]
+Name = Guitarist
+Gender = Male
+BaseMoney = 32
+IntroBGM = ORAS Battle Intro - Trainer Intense (Trainer_s Eyes Meet (Cooltrainer))
+#-------------------------------
+[RSE_HEXMANIAC]
+Name = Hex Maniac
+Gender = Female
+BaseMoney = 24
+IntroBGM = ORAS Battle Intro - Trainer Suspicious (Trainers_ Eyes Meet (Hex Maniac))
+#-------------------------------
+[RSE_HIKER]
+Name = Hiker
+Gender = Male
+BaseMoney = 40
+IntroBGM = ORAS Battle Intro - Trainer Hiker (Trainers_ Eyes Meet (Hiker))
+#-------------------------------
+[RSE_INTERVIEWERS]
+Name = Interviewer
+Gender = Unknown
+BaseMoney = 96
+IntroBGM = ORAS Battle Intro - Trainer Interviewer (Interviewers)
+#-------------------------------
+[RSE_KINDLER]
+Name = Kindler
+Gender = Male
+BaseMoney = 32
+IntroBGM = ORAS Battle Intro - Trainer Hiker (Trainers_ Eyes Meet (Hiker))
+#-------------------------------
+[RSE_LADY]
+Name = Lady
+Gender = Female
+BaseMoney = 200
+#-------------------------------
+[RSE_LASS]
+Name = Lass
+Gender = Female
+BaseMoney = 16
+#-------------------------------
+[RSE_NINJABOY]
+Name = Ninja Boy
+Gender = Male
+BaseMoney = 12
+IntroBGM = ORAS Battle Intro - Trainer Suspicious (Trainers_ Eyes Meet (Hex Maniac))
+#-------------------------------
+[RSE_OLDCOUPLE]
+Name = Old Couple
+Gender = Unknown
+BaseMoney = 80
+IntroBGM = ORAS Battle Intro - Trainer Intense (Trainer_s Eyes Meet (Cooltrainer))
+#-------------------------------
+[RSE_PARASOLLADY]
+Name = Parasol Lady
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_PICNICKER]
+Name = Picnicker
+Gender = Female
+BaseMoney = 16
+#-------------------------------
+[RSE_POKEMONBREEDER_M]
+Name = Pokémon Breeder
+Gender = Male
+BaseMoney = 40
+#-------------------------------
+[RSE_POKEMONBREEDER_F]
+Name = Pokémon Breeder
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_POKEFAN_M]
+Name = PokéFan
+Gender = Male
+BaseMoney = 80
+IntroBGM = ORAS Battle Intro - Trainer Twins (Trainers_ Eyes Meet (Twins))
+#-------------------------------
+[RSE_POKEFAN_F]
+Name = PokéFan
+Gender = Female
+BaseMoney = 80
+IntroBGM = ORAS Battle Intro - Trainer Twins (Trainers_ Eyes Meet (Twins))
+#-------------------------------
+[RSE_POKEMANIAC]
+Name = PokéManiac
+Gender = Male
+BaseMoney = 60
+IntroBGM = ORAS Battle Intro - Trainer Suspicious (Trainers_ Eyes Meet (Hex Maniac))
+#-------------------------------
+[RSE_POKEMONRANGER_M]
+Name = Pokémon Ranger
+Gender = Male
+BaseMoney = 48
+IntroBGM = ORAS Battle Intro - Trainer Cool (Trainer_s Eyes Meet (Ace Trainer))
+#-------------------------------
+[RSE_POKEMONRANGER_F]
+Name = Pokémon Ranger
+Gender = Female
+BaseMoney = 48
+IntroBGM = ORAS Battle Intro - Trainer Cool (Trainer_s Eyes Meet (Ace Trainer))
+#-------------------------------
+[RSE_PSYCHIC_M]
+Name = Psychic
+Gender = Male
+BaseMoney = 24
+IntroBGM = ORAS Battle Intro - Trainer Intense (Trainer_s Eyes Meet (Cooltrainer))
+#-------------------------------
+[RSE_PSYCHIC_F]
+Name = Psychic
+Gender = Female
+BaseMoney = 24
+IntroBGM = ORAS Battle Intro - Trainer Intense (Trainer_s Eyes Meet (Cooltrainer))
+#-------------------------------
+[RSE_RICHBOY]
+Name = Rich Boy
+Gender = Male
+BaseMoney = 200
+IntroBGM = ORAS Battle Intro - Trainer Rich (Trainers_ Eyes Meet (Gentleman))
+#-------------------------------
+[RSE_RUINMANIAC]
+Name = Ruin Maniac
+Gender = Male
+BaseMoney = 60
+IntroBGM = ORAS Battle Intro - Trainer Hiker (Trainers_ Eyes Meet (Hiker))
+#-------------------------------
+[RSE_SAILOR]
+Name = Sailor
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[RSE_SCHOOLKID_M]
+Name = School Kid
+Gender = Male
+BaseMoney = 20
+#-------------------------------
+[RSE_SCHOOLKID_F]
+Name = School Kid
+Gender = Female
+BaseMoney = 20
+#-------------------------------
+[RSE_SISANDBRO]
+Name = Sis and Bro
+Gender = Unknown
+BaseMoney = 23
+IntroBGM = ORAS Battle Intro - Trainer Swimmer (Trainers_ Eyes Meet (Swimmer))
+#-------------------------------
+[RSE_SRANDJR]
+Name = Sr. and Jr.
+Gender = Unknown
+BaseMoney = 32
+IntroBGM = ORAS Battle Intro - Trainer Twins (Trainers_ Eyes Meet (Twins))
+#-------------------------------
+[RSE_SWIMMER_M]
+Name = Swimmer
+Gender = Male
+BaseMoney = 8
+IntroBGM = ORAS Battle Intro - Trainer Swimmer (Trainers_ Eyes Meet (Swimmer))
+#-------------------------------
+[RSE_SWIMMER_F]
+Name = Swimmer
+Gender = Female
+BaseMoney = 8
+IntroBGM = ORAS Battle Intro - Trainer Swimmer (Trainers_ Eyes Meet (Swimmer))
+#-------------------------------
+[RSE_TRIATHLETECYCLE_M]
+Name = Triathlete
+Gender = Male
+BaseMoney = 40
+#-------------------------------
+[RSE_TRIATHLETECYCLE_F]
+Name = Triathlete
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_TRIATHLETERUN_M]
+Name = Triathlete
+Gender = Male
+BaseMoney = 40
+#-------------------------------
+[RSE_TRIATHLETERUN_F]
+Name = Triathlete
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_TRIATHLETESWIM_M]
+Name = Triathlete
+Gender = Male
+BaseMoney = 40
+IntroBGM = ORAS Battle Intro - Trainer Swimmer (Trainers_ Eyes Meet (Swimmer))
+#-------------------------------
+[RSE_TRIATHLETESWIM_F]
+Name = Triathlete
+Gender = Female
+BaseMoney = 40
+IntroBGM = ORAS Battle Intro - Trainer Swimmer (Trainers_ Eyes Meet (Swimmer))
+#-------------------------------
+[RSE_TUBER_M]
+Name = Tuber
+Gender = Male
+BaseMoney = 4
+IntroBGM = ORAS Battle Intro - Trainer Girl (Trainers_ Eyes Meet (Tuber))
+#-------------------------------
+[RSE_TUBER_F]
+Name = Tuber
+Gender = Female
+BaseMoney = 4
+IntroBGM = ORAS Battle Intro - Trainer Girl (Trainers_ Eyes Meet (Tuber))
+#-------------------------------
+[RSE_TWINS]
+Name = Twins
+Gender = Unknown
+BaseMoney = 24
+IntroBGM = ORAS Battle Intro - Trainer Twins (Trainers_ Eyes Meet (Twins))
+#-------------------------------
+[RSE_YOUNGCOUPLE]
+Name = Young Couple
+Gender = Unknown
+BaseMoney = 64
+IntroBGM = ORAS Battle Intro - Trainer Girl (Trainers_ Eyes Meet (Tuber))
+#-------------------------------
+[RSE_YOUNGSTER]
+Name = Youngster
+Gender = Male
+BaseMoney = 16
+#-------------------------------#
+# [RIVAL] Rival Trainer Classes
+#-------------------------------#
+[RSE_POKEMONTRAINER_Brendan]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+IntroBGM = ORAS Battle Intro - Rival Brendan (Brendan)
+BattleBGM = ORAS Battle Music - Rival (Battle! (Brendan-May))
+#-------------------------------
+[RSE_POKEMONTRAINER_May]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+IntroBGM = ORAS Battle Intro - Rival May (May)
+BattleBGM = ORAS Battle Music - Rival (Battle! (Brendan-May))
+#-------------------------------
+[RSE_POKEMONTRAINER_Wally]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+SkillLevel = 100
+BattleBGM = ORAS Battle Music - Rival (Battle! (Brendan-May))
+#-------------------------------#
+# [BOSS] Boss Trainer Classes
+#-------------------------------#
+[RSE_LEADER_Roxanne]
+Name = Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS Battle Music - Gym Leader (Battle! (Gym Leader))
+VictoryBGM = ORAS Battle Victory - Gym Leader (Victory! (Gym Leader))
+#-------------------------------
+[RSE_LEADER_Brawly]
+Name = Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS Battle Music - Gym Leader (Battle! (Gym Leader))
+VictoryBGM = ORAS Battle Victory - Gym Leader (Victory! (Gym Leader))
+#-------------------------------
+[RSE_LEADER_Wattson]
+Name = Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS Battle Music - Gym Leader (Battle! (Gym Leader))
+VictoryBGM = ORAS Battle Victory - Gym Leader (Victory! (Gym Leader))
+#-------------------------------
+[RSE_LEADER_Flannery]
+Name = Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS Battle Music - Gym Leader (Battle! (Gym Leader))
+VictoryBGM = ORAS Battle Victory - Gym Leader (Victory! (Gym Leader))
+#-------------------------------
+[RSE_LEADER_Norman]
+Name = Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS Battle Music - Gym Leader (Battle! (Gym Leader))
+VictoryBGM = ORAS Battle Victory - Gym Leader (Victory! (Gym Leader))
+#-------------------------------
+[RSE_LEADER_Winona]
+Name = Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS Battle Music - Gym Leader (Battle! (Gym Leader))
+VictoryBGM = ORAS Battle Victory - Gym Leader (Victory! (Gym Leader))
+#-------------------------------
+[RSE_LEADER_Tate]
+Name = Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS Battle Music - Gym Leader (Battle! (Gym Leader))
+VictoryBGM = ORAS Battle Victory - Gym Leader (Victory! (Gym Leader))
+#-------------------------------
+[RSE_LEADER_Liza]
+Name = Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS Battle Music - Gym Leader (Battle! (Gym Leader))
+VictoryBGM = ORAS Battle Victory - Gym Leader (Victory! (Gym Leader))
+#-------------------------------
+[RSE_LEADER_TateandLiza]
+Name = Leaders
+Gender = Unknown
+BaseMoney = 100
+BattleBGM = ORAS Battle Music - Gym Leader (Battle! (Gym Leader))
+VictoryBGM = ORAS Battle Victory - Gym Leader (Victory! (Gym Leader))
+#-------------------------------
+[RSE_LEADER_Juan]
+Name = Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS Battle Music - Gym Leader (Battle! (Gym Leader))
+VictoryBGM = ORAS Battle Victory - Gym Leader (Victory! (Gym Leader))
+#-------------------------------
+[RSE_ELITEFOUR_Sidney]
+Name = Elite Four
+Gender = Male
+BaseMoney = 100
+IntroBGM = ORAS Battle Intro - Elite Four (The Elite Four Appear!)
+BattleBGM = ORAS Battle Music - Gym Leader (Battle! (Gym Leader))
+VictoryBGM = ORAS Battle Victory - Gym Leader (Victory! (Gym Leader))
+#-------------------------------
+[RSE_ELITEFOUR_Phoebe]
+Name = Elite Four
+Gender = Female
+BaseMoney = 100
+IntroBGM = ORAS Battle Intro - Elite Four (The Elite Four Appear!)
+BattleBGM = ORAS Battle Music - Gym Leader (Battle! (Gym Leader))
+VictoryBGM = ORAS Battle Victory - Gym Leader (Victory! (Gym Leader))
+#-------------------------------
+[RSE_ELITEFOUR_Glacia]
+Name = Elite Four
+Gender = Female
+BaseMoney = 100
+IntroBGM = ORAS Battle Intro - Elite Four (The Elite Four Appear!)
+BattleBGM = ORAS Battle Music - Gym Leader (Battle! (Gym Leader))
+VictoryBGM = ORAS Battle Victory - Gym Leader (Victory! (Gym Leader))
+#-------------------------------
+[RSE_ELITEFOUR_Drake]
+Name = Elite Four
+Gender = Male
+BaseMoney = 100
+IntroBGM = ORAS Battle Intro - Elite Four (The Elite Four Appear!)
+BattleBGM = ORAS Battle Music - Gym Leader (Battle! (Gym Leader))
+VictoryBGM = ORAS Battle Victory - Gym Leader (Victory! (Gym Leader))
+#-------------------------------
+[RSE_CHAMPION_Wallace]
+Name = Champion
+Gender = Male
+BaseMoney = 200
+BattleBGM = ORAS Battle Music - Gym Leader (Battle! (Gym Leader))
+VictoryBGM = ORAS Battle Victory - Gym Leader (Victory! (Gym Leader))
+#-------------------------------
+[RSE_POKEMONTRAINER_Steven]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+SkillLevel = 100
+IntroBGM = ORAS Battle Intro - Steven (Champion Steven)
+BattleBGM = ORAS Battle Music - Steven (Battle! (Steven))
+VictoryBGM = ORAS Battle Victory - Steven (Victory! (Steven))
+#-------------------------------#
+# [VILLAIN] Villain Trainer Classes
+#-------------------------------#
+[RSE_AQUAGRUNT_M]
+Name = Team Aqua
+Gender = Male
+BaseMoney = 20
+IntroBGM = ORAS Battle Intro - Team Aqua (Team Aqua Appears!)
+BattleBGM = ORAS Battle Music - Team Grunt (Battle! (Team Magma - Team Aqua))
+VictoryBGM = ORAS Battle Victory - Team Magma and Aqua (Victory! (Team Magma - Team Aqua))
+#-------------------------------
+[RSE_AQUAGRUNT_F]
+Name = Team Aqua
+Gender = Female
+BaseMoney = 20
+IntroBGM = ORAS Battle Intro - Team Aqua (Team Aqua Appears!)
+BattleBGM = ORAS Battle Music - Team Grunt (Battle! (Team Magma - Team Aqua))
+VictoryBGM = ORAS Battle Victory - Team Magma and Aqua (Victory! (Team Magma - Team Aqua))
+#-------------------------------
+[RSE_AQUAADMIN_Matt]
+Name = Aqua Admin
+Gender = Male
+BaseMoney = 40
+IntroBGM = ORAS Battle Intro - Team Aqua (Team Aqua Appears!)
+BattleBGM = ORAS Battle Music - Team Grunt (Battle! (Team Magma - Team Aqua))
+VictoryBGM = ORAS Battle Victory - Team Magma and Aqua (Victory! (Team Magma - Team Aqua))
+#-------------------------------
+[RSE_AQUAADMIN_Shelly]
+Name = Aqua Admin
+Gender = Female
+BaseMoney = 40
+IntroBGM = ORAS Battle Intro - Team Aqua (Team Aqua Appears!)
+BattleBGM = ORAS Battle Music - Team Grunt (Battle! (Team Magma - Team Aqua))
+VictoryBGM = ORAS Battle Victory - Team Magma and Aqua (Victory! (Team Magma - Team Aqua))
+#-------------------------------
+[RSE_AQUALEADER_Archie]
+Name = Aqua Leader
+Gender = Male
+BaseMoney = 80
+IntroBGM = ORAS Battle Intro - Team Aqua (Team Aqua Appears!)
+BattleBGM = ORAS Battle Music - Team Leader (Battle! (Team Magma _ Aqua Leader))
+VictoryBGM = ORAS Battle Victory - Team Magma and Aqua (Victory! (Team Magma - Team Aqua))
+#-------------------------------
+[RSE_MAGMAGRUNT_M]
+Name = Team Magma
+Gender = Male
+BaseMoney = 20
+IntroBGM = ORAS Battle Intro - Team Magma (Team Magma Appears!)
+BattleBGM = ORAS Battle Music - Team Grunt (Battle! (Team Magma - Team Aqua))
+VictoryBGM = ORAS Battle Victory - Team Magma and Aqua (Victory! (Team Magma - Team Aqua))
+#-------------------------------
+[RSE_MAGMAGRUNT_F]
+Name = Team Magma
+Gender = Female
+BaseMoney = 20
+IntroBGM = ORAS Battle Intro - Team Magma (Team Magma Appears!)
+BattleBGM = ORAS Battle Music - Team Grunt (Battle! (Team Magma - Team Aqua))
+VictoryBGM = ORAS Battle Victory - Team Magma and Aqua (Victory! (Team Magma - Team Aqua))
+#-------------------------------
+[RSE_MAGMAADMIN_Tabitha]
+Name = Magma Admin
+Gender = Male
+BaseMoney = 40
+IntroBGM = ORAS Battle Intro - Team Magma (Team Magma Appears!)
+BattleBGM = ORAS Battle Music - Team Grunt (Battle! (Team Magma - Team Aqua))
+VictoryBGM = ORAS Battle Victory - Team Magma and Aqua (Victory! (Team Magma - Team Aqua))
+#-------------------------------
+[RSE_MAGMAADMIN_Courtney]
+Name = Magma Admin
+Gender = Female
+BaseMoney = 40
+IntroBGM = ORAS Battle Intro - Team Magma (Team Magma Appears!)
+BattleBGM = ORAS Battle Music - Team Grunt (Battle! (Team Magma - Team Aqua))
+VictoryBGM = ORAS Battle Victory - Team Magma and Aqua (Victory! (Team Magma - Team Aqua))
+#-------------------------------
+[RSE_MAGMALEADER_Maxie]
+Name = Magma Leader
+Gender = Male
+BaseMoney = 80
+IntroBGM = ORAS Battle Intro - Team Magma (Team Magma Appears!)
+BattleBGM = ORAS Battle Music - Team Leader (Battle! (Team Magma _ Aqua Leader))
+VictoryBGM = ORAS Battle Victory - Team Magma and Aqua (Victory! (Team Magma - Team Aqua))
+#-------------------------------#
+# [NPC] NPC Trainer Classes
+#-------------------------------#
+[RSE_WINSTRATE_Victor]
+Name = Winstrate
+Gender = Male
+BaseMoney = 40
+IntroBGM = ORAS Battle Intro - Trainer Twins (Trainers_ Eyes Meet (Twins))
+#-------------------------------
+[RSE_WINSTRATE_Victoria]
+Name = Winstrate
+Gender = Female
+BaseMoney = 40
+IntroBGM = ORAS Battle Intro - Trainer Twins (Trainers_ Eyes Meet (Twins))
+#-------------------------------
+[RSE_WINSTRATE_Vivi]
+Name = Winstrate
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[RSE_WINSTRATE_Vicky]
+Name = Winstrate
+Gender = Female
+BaseMoney = 40
+IntroBGM = ORAS Battle Intro - Trainer Intense (Trainer_s Eyes Meet (Cooltrainer))
+#-------------------------------
+[RSE_POKEMONTRAINER_Zinnia]
+Name = Zinnia
+Gender = Female
+BaseMoney = 100
+IntroBGM = ORAS Battle Intro - Zinnia (Zinnia)
+BattleBGM = ORAS Battle Music - Zinnia (Battle! (Zinnia))
+#-------------------------------
+[RSE_LEADER_Wallace]
+Name = Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS Battle Music - Gym Leader (Battle! (Gym Leader))
+VictoryBGM = ORAS Battle Victory - Gym Leader (Victory! (Gym Leader))
+#-------------------------------
+[RSE_CHAMPION_Steven]
+Name = Champion
+Gender = Male
+BaseMoney = 60
+SkillLevel = 100
+IntroBGM = ORAS Battle Intro - Steven (Champion Steven)
+BattleBGM = ORAS Battle Music - Steven (Battle! (Steven))
+VictoryBGM = ORAS Battle Victory - Steven (Victory! (Steven))
+#-------------------------------#
