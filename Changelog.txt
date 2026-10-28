@@ -25,6 +25,7 @@ Script section Formhandlers for regional forms
 Script section Overworld_Metadata - Additional Day Cares
 Script section Overworld_DayCare - Support for Additional Day Cares
 Script section Overworld_FieldMoves - Custom code for regi events (Regi Event)
+	Includes Cut, Dig, RSma
 Plugin script for gen 9 project General > Pokemon - define Hisui region as id 51
 Plugin settings for dynamax and terastal - switches
 Plugin scripts for bag with interactable party screen to add page jumping functionality, cloning jumpup and jumpdown from elsif block (line 72/92) into if block above (line 32 to 51)
