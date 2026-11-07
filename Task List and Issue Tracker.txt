@@ -92,6 +92,7 @@ HOENN
 - Conveyor tiles (Trick House, Mossdeep Gym) need a sound effect
 - Fortree spinning gates are not implemented (Fortree Gym, Trick House 6)
 - Recurring items. Not present in Emerald, were added in ORAS (tinymushrooms in petalburg woods as an example)
+- Feebas tiles are not implemented, instead a 5% old rod encounter placeholder is in effect
 SINNOH 
 - 
 UNOVA
@@ -190,12 +191,18 @@ HOENN
 - NPCs in Dewford can teleport when taking Briney's boat due to them not having their locations mirrored from the town map to the cutscene map
 - Rocket Launch Counter NPC in Mossdeep isn't implemented yet
 - Current storming Sootopolis implementation shows the player a non-storming sootopolis during fly or teleport intro animations before placing them on the correct map
-- Groudon and Kyogre awakening cutscenes are placeholders
+- Rayquaza, Groudon, and Kyogre awakening cutscenes are placeholders
+	- Storming Sootopolis also needs some refinement and to add the movies
 - Fog effects on Mt Pyre Exterior and during the Kyogre wakening cutscene in Seafloor Cavern need to be faded instead of instantly changed
 - During the weather crisis, the overworld weather and bgm are very buggy - this is due to the event-based temporary solutions in place
 - Diving to and from maps where the dive maps don't properly align is functional, but buggy; dive handlers need to be updated to properly handle these cases
 	- Abandoned Ship, Sootopolis + STORMING, Seafloor Cavern, Sealed Chamber, Marine Cave
 	- Sealed Chamber is technically fine, but is missing the regi puzzle dive functionality meant to take you back to R134 when failing and the lighter dive tiles to transition from the true dive spot in the cave
+- Deoxys 'puzzle' is not implemented
+- Birth Island is set as an indoor map in order to disable Fly - as the island otherwise is a part of region 103, attempting to use fly on it causes issues with the region scripts
+- The storming Sootopolis water is missing a border between the deep and 'turbulent calm' tiles
+- The IV rater on the Battle Frontier does not properly replace _ or titleize the stat name of the checked Pokemon
+- The female scientist in the Delta Episode cutscene needs an ORAS sprite (currently using DPPt Beauty)
 SINNOH
 - 
 - There are no dungeon location previews
@@ -227,6 +234,8 @@ HOENN
 HOENN
 - Flypoint and healingpoint for Littleroot is set to Birch's Lab, how to make it go to each house defined by player gender?
 	Healingpoint can be done by splitting player's house into two maps, but how fly?
+- Tilesets could be cleaned up and condensed - R120 tileset can be changed to Misc, with calm water and 'transparent' water tiles (that show panorama, like windy, clouds) moved away from autotiles
+	- Windy condensed into combo?
 SINNOH
 - 
 UNOVA

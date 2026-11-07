@@ -888,14 +888,14 @@ Name = Abandoned Ship
 Bicycle = true
 MapPosition = 3,6,16
 #-------------------------------
-[170]   # New Mauvile
-Name = New Mauvile
+[170]   # New Mauville
+Name = New Mauville
 ShowArea = true
 Bicycle = true
 MapPosition = 3,9,9
 #-------------------------------
-[171]   # New Mauvile Entrance
-Name = New Mauvile Entrance
+[171]   # New Mauville Entrance
+Name = New Mauville Entrance
 ShowArea = true
 Bicycle = true
 MapPosition = 3,9,9
@@ -1631,7 +1631,6 @@ MapPosition = 3,13,16
 #-------------------------------
 [316]   # Birth Island
 Name = Birth Island
-Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 103,22,16
@@ -1765,7 +1764,7 @@ MapPosition = 0,0,0
 Name = North Ocean
 MapPosition = 0,0,0
 #-------------------------------
-[348]   # Northeast Ocean
+[348]   # Southeast EverGrande
 Name = Northeast Ocean
 MapPosition = 0,0,0
 #-------------------------------
@@ -1805,9 +1804,10 @@ MapPosition = 0,0,0
 Name = South Central Ocean
 MapPosition = 0,0,0
 #-------------------------------
-[358]   # North Pokemon League
-Name = North Pokemon League
-MapPosition = 0,0,0
+[358]   # Captain's Office
+Name = Captain's Office
+Bicycle = true
+MapPosition = 3,6,16
 #-------------------------------
 [359]   # Cutscene Maps
 Name = Cutscene Maps
@@ -1851,8 +1851,3 @@ MapPosition = 3,9,8
 [367]   # Pokemon Trainer Fan Club
 Name = Pokemon Trainer Fan Club
 MapPosition = 3,19,5
-#-------------------------------
-[368]   # Captain's Office
-Name = Captain's Office
-Bicycle = true
-MapPosition = 3,6,16

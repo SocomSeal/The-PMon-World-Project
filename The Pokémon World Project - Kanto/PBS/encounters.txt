@@ -1,4 +1,5 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
+# Encounters for Kanto are a mixture of FR and LG where appropriate
 #-------------------------------
 [006] # Pallet Town
 Water,2
