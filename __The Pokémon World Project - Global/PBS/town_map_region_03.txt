@@ -158,6 +158,6 @@ Point = 13,12,Route 133,,,,,
 Point = 12,12,Route 134,Sealed Chamber,,,,
 Point = 11,12,Route 134,,,,,
 Point = 10,12,Route 134,,,,,
-Point = 23,14,Battle Frontier,,284,64,54,
-Point = 13,16,South Island,,,,,
+Point = 23,14,Battle Frontier,,284,64,54,195
+Point = 13,16,Southern Island,,,,,76
 #-------------------------------#

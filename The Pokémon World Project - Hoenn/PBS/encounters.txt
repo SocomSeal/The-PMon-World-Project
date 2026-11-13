@@ -585,13 +585,14 @@ SuperRod
     60,CARVANHA,20,45
     40,SHARPEDO,30,35
 #-------------------------------
-[135] # Route 119
+[135] # Route 119 # Grovyle replaces 1% of Tropius
 Land,11
     30,LINOONE,25,27
     30,ODDISH,24,27
     30,ZIGZAGOON,25,27
-    9,TROPIUS,25,27
+    8,TROPIUS,25,27
     1,KECLEON,25
+	1,GROVYLE,25
 Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
@@ -721,7 +722,7 @@ SuperRod
     60,WAILMER,20,45
     40,SHARPEDO,30,35
 #-------------------------------
-[142] # Route 123
+[142] # Route 123 # Marshtomp replaces 1% of Wingull
 Land,11
     15,SHUPPET,26,28
     15,DUSKULL,26,28
@@ -729,8 +730,9 @@ Land,11
     20,POOCHYENA,26
     15,ODDISH,26,28
     5,GLOOM,28
-    9,WINGULL,26,28
+    8,WINGULL,26,28
     1,KECLEON,25
+	1,MARSHTOMP,25
 Water,2
     60,TENTACOOL,5,35
     35,WINGULL,10,30
@@ -1054,11 +1056,12 @@ Cave,5
     20,SLUGMA,15
     36,TORKOAL,14,16
 #-------------------------------
-[180] # Jagged Pass
+[180] # Jagged Pass # Combusken replaces 1% of Spoink
 Land,11
     55,NUMEL,20,22
     25,MACHOP,20,22
-    20,SPOINK,20,22
+    19,SPOINK,20,22
+	1,COMBUSKEN,20
 #-------------------------------
 [182] # Magma Hideout 1F
 Cave,5

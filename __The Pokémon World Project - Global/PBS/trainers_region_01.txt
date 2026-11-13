@@ -15,7 +15,7 @@
 #-------------------------------#
 # Professor Oak's Lab
 #-------------------------------#
-[FRLG_RIVAL1,Blue,0]
+[FRLG_RIVAL1,Blue]
 LoseText = WHAT? Unbelievable! I picked the wrong Pokémon!
 Pokemon = CHARMANDER,5
 	Moves = SCRATCH,GROWL
@@ -90,7 +90,7 @@ Pokemon = BULBASAUR,18
 #-------------------------------#
 # S.S. Anne
 #-------------------------------#
-[FRLG_RIVAL2,Blue,0]
+[FRLG_RIVAL2,Blue]
 LoseText = Humph! At least you're raising your Pokémon!
 Pokemon = PIDGEOTTO,19
 	Moves = TACKLE,SANDATTACK,GUST,QUICKATTACK
@@ -254,7 +254,7 @@ Pokemon = VENUSAUR,40
 #-------------------------------#
 # Indigo Plateau + Rematch
 #-------------------------------#
-[FRLG_CHAMPION,Blue,0]
+[FRLG_CHAMPION,Blue]
 Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
 LoseText = NO! That can't be! You beat my best! After all that work to become League Champ? My reign is over already? It's not fair!
 Pokemon = PIDGEOT,59
@@ -548,7 +548,7 @@ LoseText = Stop! Don't be so mean to my Clefairy!
 Pokemon = CLEFAIRY,22
 Pokemon = CLEFAIRY,22
 #-------------------------------
-[FRLG_GAMBLER,Rich,0]
+[FRLG_GAMBLER,Rich]
 LoseText = Missed the big chance!
 Pokemon = GROWLITHE,24
 Pokemon = VULPIX,24
@@ -564,7 +564,7 @@ Pokemon = GRIMER,22
 Pokemon = MUK,22
 Pokemon = GRIMER,22
 #-------------------------------
-[FRLG_TWINS,Eli & Anne,0]
+[FRLG_TWINS,Eli & Anne]
 LoseText = Eli: But... We used our twin power...
 Pokemon = CLEFAIRY,22
 Pokemon = JIGGLYPUFF,22
@@ -599,7 +599,7 @@ Pokemon = MEOWTH,24
 Pokemon = MEOWTH,24
 Pokemon = MEOWTH,24
 #-------------------------------
-[FRLG_LASS,Megan,0]
+[FRLG_LASS,Megan]
 LoseText = Look what you did to my poor, cute Pokémon!
 Pokemon = PIDGEY,19
 Pokemon = RATTATA,19
@@ -623,7 +623,7 @@ Pokemon = NIDORINO,47
 Pokemon = PERSIAN,47
 Pokemon = RAICHU,48
 #-------------------------------
-[FRLG_BIKER,Jaren,0]
+[FRLG_BIKER,Jaren]
 LoseText = You for real, kid?
 Pokemon = GRIMER,24
 Pokemon = GRIMER,24
@@ -885,7 +885,7 @@ Pokemon = GOLDEEN,24
 LoseText = That one got away!
 Pokemon = GOLDEEN,27
 #-------------------------------
-[FRLG_FISHERMAN,Elliot,0]
+[FRLG_FISHERMAN,Elliot]
 LoseText = It's not easy...
 Pokemon = POLIWAG,21
 Pokemon = SHELLDER,21
@@ -899,7 +899,7 @@ Pokemon = CLOYSTER,28
 Pokemon = SEAKING,28
 Pokemon = SEADRA,28
 #-------------------------------
-[FRLG_YOUNGCOUPLE,Gia & Jes,0]
+[FRLG_YOUNGCOUPLE,Gia & Jes]
 LoseText = Gia: Oh, but why?
 Pokemon = NIDORANfE,24
 Pokemon = NIDORANmA,24
@@ -929,7 +929,7 @@ LoseText = Jes: Oh, please, why couldn't you let us win?
 Pokemon = NIDOQUEEN,55
 Pokemon = NIDOKING,55
 #-------------------------------
-[FRLG_ROCKER,Luca,0]
+[FRLG_ROCKER,Luca]
 LoseText = Unplugged!
 Pokemon = VOLTORB,29
 Pokemon = ELECTRODE,29
@@ -962,7 +962,7 @@ LoseText = My Pidgey and Pidgeotto combo lost?
 Pokemon = PIDGEY,29
 Pokemon = PIDGEOTTO,29
 #-------------------------------
-[FRLG_PICNICKER,Susie,0]
+[FRLG_PICNICKER,Susie]
 LoseText = Ohh! I lost!
 Pokemon = PIDGEY,24
 Pokemon = MEOWTH,24
@@ -1000,7 +1000,7 @@ Pokemon = RATTATA,27
 Pokemon = PIKACHU,27
 Pokemon = RATTATA,27
 #-------------------------------
-[FRLG_BEAUTY,Sheila,0]
+[FRLG_BEAUTY,Sheila]
 LoseText = It's over already?
 Pokemon = CLEFAIRY,29
 Pokemon = MEOWTH,29
@@ -1036,7 +1036,7 @@ Pokemon = KOFFING,28
 Pokemon = KOFFING,28
 Pokemon = KOFFING,28
 #-------------------------------
-[FRLG_BIRDKEEPER,Robert,0]
+[FRLG_BIRDKEEPER,Robert]
 LoseText = Out of power!
 Pokemon = PIDGEY,26
 Pokemon = PIDGEOTTO,26
@@ -1072,7 +1072,7 @@ Pokemon = SPEAROW,26
 Pokemon = PIDGEY,26
 Pokemon = FEAROW,26
 #-------------------------------
-[FRLG_BIRDKEEPER,Marlon,0]
+[FRLG_BIRDKEEPER,Marlon]
 LoseText = Shot down in flames!
 Pokemon = SPEAROW,28
 Pokemon = DODUO,28
@@ -1099,7 +1099,7 @@ Pokemon = FEAROW,29
 LoseText = Why? Why'd I lose?
 Pokemon = FARFETCHD,33
 #-------------------------------
-[FRLG_BIRDKEEPER,Benny,0]
+[FRLG_BIRDKEEPER,Benny]
 LoseText = I knew it!
 Pokemon = SPEAROW,29
 Pokemon = FEAROW,29
@@ -1130,7 +1130,7 @@ Pokemon = GRIMER,28
 Pokemon = GRIMER,28
 Pokemon = KOFFING,28
 #-------------------------------
-[FRLG_BIKER,Lukas,0]
+[FRLG_BIKER,Lukas]
 LoseText = Arrg! Lost! Get lost!
 Pokemon = KOFFING,26
 Pokemon = KOFFING,26
@@ -1144,7 +1144,7 @@ Pokemon = KOFFING,47
 Pokemon = MUK,47
 Pokemon = WEEZING,47
 #-------------------------------
-[FRLG_TWINS,Kiri & Jan,0]
+[FRLG_TWINS,Kiri & Jan]
 LoseText = Kiri: Whimper... We lost, didn't we?
 Pokemon = SQUIRTLE,29
 Pokemon = CHARMANDER,29
@@ -1156,7 +1156,7 @@ Pokemon = CHARMANDER,29
 #-------------------------------#
 # Route 15
 #-------------------------------#
-[FRLG_PICNICKER,Becky,0]
+[FRLG_PICNICKER,Becky]
 LoseText = No, wrong!
 Pokemon = PIKACHU,29
 Pokemon = RAICHU,29
@@ -1176,7 +1176,7 @@ LoseText = No, wrong!
 Pokemon = RAICHU,54
 Pokemon = RAICHU,54
 #-------------------------------
-[FRLG_CRUSHKIN,Ron & Mya,0]
+[FRLG_CRUSHKIN,Ron & Mya]
 LoseText = Ron: Oh, no, no... Sis, I'm sorry!
 Pokemon = HITMONCHAN,29
 Pokemon = HITMONLEE,29
@@ -1234,7 +1234,7 @@ Pokemon = KOFFING,28
 Pokemon = GRIMER,28
 Pokemon = WEEZING,28
 #-------------------------------
-[FRLG_BEAUTY,Grace,0]
+[FRLG_BEAUTY,Grace]
 LoseText = You looked so cute, too!
 Pokemon = PIDGEOTTO,29
 Pokemon = WIGGLYTUFF,29
@@ -1255,7 +1255,7 @@ Pokemon = GLOOM,28
 Pokemon = ODDISH,28
 Pokemon = ODDISH,28
 #-------------------------------
-[FRLG_BIRDKEEPER,Chester,0]
+[FRLG_BIRDKEEPER,Chester]
 LoseText = Just as I thought!
 Pokemon = DODRIO,28
 Pokemon = DODUO,28
@@ -1288,7 +1288,7 @@ Pokemon = TANGELA,29
 #-------------------------------#
 # Route 16
 #-------------------------------#
-[FRLG_YOUNGCOUPLE,Lea & Jed,0]
+[FRLG_YOUNGCOUPLE,Lea & Jed]
 LoseText = Lea: Ohh! But Jed looks cool even in a loss!
 Pokemon = NINETALES,29
 Pokemon = RAPIDASH,29
@@ -1318,7 +1318,7 @@ Pokemon = MACHOP,29
 LoseText = Kaboom!
 Pokemon = WEEZING,33
 #-------------------------------
-[FRLG_BIKER,Ruben,0]
+[FRLG_BIKER,Ruben]
 LoseText = Don't make me mad!
 Pokemon = WEEZING,28
 Pokemon = KOFFING,28
@@ -1330,7 +1330,7 @@ Pokemon = WEEZING,48
 Pokemon = WEEZING,48
 Pokemon = WEEZING,48
 #-------------------------------
-[FRLG_CUEBALL,Camron,0]
+[FRLG_CUEBALL,Camron]
 LoseText = Bad, bad, bad!
 Pokemon = MANKEY,29
 Pokemon = MACHOP,29
@@ -1342,7 +1342,7 @@ Pokemon = MACHOKE,49
 #-------------------------------#
 # Route 17
 #-------------------------------#
-[FRLG_CUEBALL,Isaiah,0]
+[FRLG_CUEBALL,Isaiah]
 LoseText = Whoo!
 Pokemon = MACHOP,29
 Pokemon = MACHAMP,29
@@ -1376,7 +1376,7 @@ Pokemon = VOLTORB,29
 LoseText = Why, you!
 Pokemon = MACHOKE,33
 #-------------------------------
-[FRLG_CUEBALL,Corey,0]
+[FRLG_CUEBALL,Corey]
 LoseText = Aaaargh!
 Pokemon = PRIMEAPE,29
 Pokemon = MACHOKE,29
@@ -1386,7 +1386,7 @@ LoseText = Aaaargh!
 Pokemon = PRIMEAPE,49
 Pokemon = MACHAMP,49
 #-------------------------------
-[FRLG_BIKER,Jaxon,0]
+[FRLG_BIKER,Jaxon]
 LoseText = Shoot!
 Pokemon = WEEZING,29
 Pokemon = MUK,29
@@ -1413,7 +1413,7 @@ Pokemon = WEEZING,25
 #-------------------------------#
 # Route 18
 #-------------------------------#
-[FRLG_BIRDKEEPER,Jacob,0]
+[FRLG_BIRDKEEPER,Jacob]
 LoseText = Darn!
 Pokemon = SPEAROW,26
 Pokemon = SPEAROW,26
@@ -1456,7 +1456,7 @@ Pokemon = GOLDEEN,29
 Pokemon = HORSEA,29
 Pokemon = STARYU,29
 #-------------------------------
-[FRLG_SWIMMER_M,Tony,0]
+[FRLG_SWIMMER_M,Tony]
 LoseText = Ooh! Traumatic!
 Pokemon = HORSEA,30
 Pokemon = HORSEA,30
@@ -1479,7 +1479,7 @@ Pokemon = TENTACOOL,27
 Pokemon = TENTACOOL,27
 Pokemon = GOLDEEN,27
 #-------------------------------
-[FRLG_SWIMMER_M,Matthew,0]
+[FRLG_SWIMMER_M,Matthew]
 LoseText = Belly flop!
 Pokemon = POLIWAG,30
 Pokemon = POLIWHIRL,30
@@ -1489,7 +1489,7 @@ LoseText = Belly flop!
 Pokemon = POLIWHIRL,49
 Pokemon = POLIWRATH,49
 #-------------------------------
-[FRLG_SISANDBRO,Lia & Luc,0]
+[FRLG_SISANDBRO,Lia & Luc]
 LoseText = Lia: That's no way to treat my little brother!
 Pokemon = SEAKING,30
 Pokemon = GOLDEEN,30
@@ -1507,7 +1507,7 @@ Pokemon = STARYU,27
 Pokemon = HORSEA,27
 Pokemon = TENTACRUEL,27
 #-------------------------------
-[FRLG_SWIMMER_F,Alice,0]
+[FRLG_SWIMMER_F,Alice]
 LoseText = Shocker!
 Pokemon = GOLDEEN,30
 Pokemon = SEAKING,30
@@ -1538,7 +1538,7 @@ LoseText = Splash!
 Pokemon = SHELLDER,31
 Pokemon = CLOYSTER,31
 #-------------------------------
-[FRLG_SWIMMER_M,Darrin,0]
+[FRLG_SWIMMER_M,Darrin]
 LoseText = Ouch! Torpedoed!
 Pokemon = HORSEA,28
 Pokemon = HORSEA,28
@@ -1584,7 +1584,7 @@ Pokemon = CLOYSTER,30
 LoseText = Wimpy!
 Pokemon = STARYU,35
 #-------------------------------
-[FRLG_PICNICKER,Missy,0]
+[FRLG_PICNICKER,Missy]
 LoseText = I'm so disappointed!
 Pokemon = GOLDEEN,31
 Pokemon = SEAKING,31
@@ -1599,7 +1599,7 @@ LoseText = I'm so disappointed!
 Pokemon = SEAKING,54
 Pokemon = SEAKING,54
 #-------------------------------
-[FRLG_SWIMMER_F,Melissa,0]
+[FRLG_SWIMMER_F,Melissa]
 LoseText = Wait! You're supposed to wait!
 Pokemon = POLIWAG,31
 Pokemon = SEAKING,31
@@ -1611,7 +1611,7 @@ Pokemon = SEAKING,49
 #-------------------------------#
 # Route 21
 #-------------------------------#
-[FRLG_FISHERMAN,Wade,0]
+[FRLG_FISHERMAN,Wade]
 LoseText = Heheh, Magikarp just don't make the grade, do they?
 Pokemon = MAGIKARP,27
 Pokemon = MAGIKARP,27
@@ -1636,7 +1636,7 @@ Pokemon = GOLDEEN,28
 Pokemon = SEAKING,28
 Pokemon = SEAKING,28
 #-------------------------------
-[FRLG_SISANDBRO,Lil & Ian,0]
+[FRLG_SISANDBRO,Lil & Ian]
 LoseText = Lil: Oh, see? We lost. Happy now?
 Pokemon = SEADRA,33
 Pokemon = STARMIE,33
@@ -1681,7 +1681,7 @@ LoseText = That burned some time.
 Pokemon = SEAKING,33
 Pokemon = GOLDEEN,33
 #-------------------------------
-[FRLG_SWIMMER_M,Jack,0]
+[FRLG_SWIMMER_M,Jack]
 LoseText = Diver!! Down!!
 Pokemon = STARMIE,37
 #-------------------------------
@@ -1721,7 +1721,7 @@ Pokemon = PIDGEY,12
 Pokemon = ODDISH,12
 Pokemon = BELLSPROUT,12
 #-------------------------------
-[FRLG_YOUNGSTER,Timmy,0]
+[FRLG_YOUNGSTER,Timmy]
 LoseText = Ow! Stomped flat!
 Pokemon = SANDSHREW,14
 Pokemon = EKANS,14
@@ -1744,7 +1744,7 @@ Pokemon = RATICATE,52
 Pokemon = ARBOK,52
 Pokemon = GOLBAT,52
 #-------------------------------
-[FRLG_LASS,Reli,0]
+[FRLG_LASS,Reli]
 LoseText = I lost, too!
 Pokemon = NIDORANmA,16
 Pokemon = NIDORANfE,16
@@ -1775,7 +1775,7 @@ Pokemon = EKANS,14
 #-------------------------------#
 # Route 25
 #-------------------------------#
-[FRLG_HIKER,Franklin,0]
+[FRLG_HIKER,Franklin]
 LoseText = You worked hard!
 Pokemon = MACHOP,15
 Pokemon = GEODUDE,15
@@ -1798,7 +1798,7 @@ Pokemon = SPEAROW,15
 LoseText = I'm not mad!
 Pokemon = SLOWPOKE,17
 #-------------------------------
-[FRLG_PICNICKER,Kelsey,0]
+[FRLG_PICNICKER,Kelsey]
 LoseText = I'm not mad!
 Pokemon = NIDORANmA,15
 Pokemon = NIDORANfE,15
@@ -1830,7 +1830,7 @@ LoseText = Aww, darn.
 Pokemon = RATTATA,14
 Pokemon = EKANS,14
 #-------------------------------
-[FRLG_YOUNGSTER,Chad,0]
+[FRLG_YOUNGSTER,Chad]
 LoseText = I knew I'd lose, too!
 Pokemon = EKANS,14
 Pokemon = SANDSHREW,14
@@ -2254,7 +2254,7 @@ Pokemon = ARCANINE,47
 #-------------------------------#
 # FRLG Elite Four
 #-------------------------------#
-[FRLG_ELITEFOUR_Lorelei,Lorelei,0]
+[FRLG_ELITEFOUR_Lorelei,Lorelei]
 Items = FULLRESTORE,FULLRESTORE
 LoseText = ...Things shouldn't be this way!
 Pokemon = DEWGONG,52
@@ -2284,7 +2284,7 @@ Pokemon = LAPRAS,66
 	Item = CHERIBERRY
 	Moves = PSYCHIC,THUNDER,SURF,ICEBEAM
 #-------------------------------
-[FRLG_ELITEFOUR_Bruno,Bruno,0]
+[FRLG_ELITEFOUR_Bruno,Bruno]
 Items = FULLRESTORE,FULLRESTORE
 LoseText = Why? How could I lose?
 Pokemon = ONIX,51
@@ -2314,7 +2314,7 @@ Pokemon = MACHAMP,68
 	Item = PERSIMBERRY
 	Moves = BRICKBREAK,CROSSCHOP,EARTHQUAKE,ROCKSLIDE
 #-------------------------------
-[FRLG_ELITEFOUR_Agatha,Agatha,0]
+[FRLG_ELITEFOUR_Agatha,Agatha]
 Items = FULLRESTORE,FULLRESTORE
 LoseText = Oh, my! You're something special, child!
 Pokemon = GENGAR,54
@@ -2344,7 +2344,7 @@ Pokemon = GENGAR,70
 	Item = CHESTOBERRY
 	Moves = SHADOWBALL,SLUDGEBOMB,PSYCHIC,THUNDERBOLT
 #-------------------------------
-[FRLG_ELITEFOUR_Lance,Lance,0]
+[FRLG_ELITEFOUR_Lance,Lance]
 Items = FULLRESTORE,FULLRESTORE
 LoseText = That's it! I hate to admit it, but you are a Pokémon master!
 Pokemon = GYARADOS,56
@@ -3158,7 +3158,7 @@ Pokemon = VICTREEBEL,42
 Pokemon = PARAS,42
 Pokemon = PARASECT,42
 #-------------------------------
-[FRLG_COOLCOUPLE,Ray & Tyra,0]
+[FRLG_COOLCOUPLE,Ray & Tyra]
 LoseText = Ray: Ludicrous! This can't be!
 Pokemon = NIDOKING,45
 Pokemon = NIDOQUEEN,45
@@ -3203,7 +3203,7 @@ Pokemon = NIDORINO,36
 Pokemon = RATICATE,36
 Pokemon = SANDSLASH,36
 #-------------------------------
-[FRLG_CRUSHGIRL,Tanya,0]
+[FRLG_CRUSHGIRL,Tanya]
 LoseText = I'm such a fool!
 Pokemon = HITMONLEE,38
 Pokemon = HITMONCHAN,38
@@ -3224,7 +3224,7 @@ Pokemon = SHELLDER,35
 Pokemon = CLOYSTER,35
 Pokemon = WARTORTLE,38
 #-------------------------------
-[FRLG_CRUSHKIN,Mik & Kia,0]
+[FRLG_CRUSHKIN,Mik & Kia]
 LoseText = Mik: Whoa! That's too much!
 Pokemon = MACHOKE,39
 Pokemon = PRIMEAPE,39
@@ -3254,7 +3254,7 @@ LoseText = Kia: Huh?! I can't believe it!
 Pokemon = MACHOKE,56
 Pokemon = PRIMEAPE,56
 #-------------------------------
-[FRLG_BLACKBELT,Hugh,0]
+[FRLG_BLACKBELT,Hugh]
 LoseText = Why me?!
 Pokemon = MACHOP,37
 Pokemon = MACHOKE,37
@@ -3269,7 +3269,7 @@ LoseText = Why me?!
 Pokemon = MACHOKE,55
 Pokemon = MACHAMP,55
 #-------------------------------
-[FRLG_BLACKBELT,Shea,0]
+[FRLG_BLACKBELT,Shea]
 LoseText = Gasp... Gasp...
 Pokemon = MACHOP,38
 Pokemon = MACHOKE,38
@@ -3284,7 +3284,7 @@ LoseText = Gasp... Gasp...
 Pokemon = MACHOKE,55
 Pokemon = MACHAMP,55
 #-------------------------------
-[FRLG_CRUSHGIRL,Sharon,0]
+[FRLG_CRUSHGIRL,Sharon]
 LoseText = You were a cut above me.
 Pokemon = MANKEY,37
 Pokemon = PRIMEAPE,37
@@ -3299,7 +3299,7 @@ LoseText = You were a cut above me.
 Pokemon = PRIMEAPE,55
 Pokemon = PRIMEAPE,55
 #-------------------------------
-[FRLG_SWIMMER_M,Finn,0]
+[FRLG_SWIMMER_M,Finn]
 LoseText = Well, aren't you tough?
 Pokemon = STARMIE,38
 #-------------------------------
@@ -3325,7 +3325,7 @@ Pokemon = SEAKING,35
 #-------------------------------#
 # Bond Bridge
 #-------------------------------#
-[FRLG_TWINS,Joy & Meg,0]
+[FRLG_TWINS,Joy & Meg]
 LoseText = Joy: Ohh... Meg!
 Pokemon = CLEFAIRY,37
 Pokemon = CLEFAIRY,37
@@ -3362,7 +3362,7 @@ Pokemon = KRABBY,34
 LoseText = Okay, you've won! Now will you please go away?
 Pokemon = KINGLER,38
 #-------------------------------
-[FRLG_TUBER_F,Amira,0]
+[FRLG_TUBER_F,Amira]
 LoseText = Waaah! Waaah!
 Pokemon = POLIWAG,34
 Pokemon = POLIWHIRL,35
@@ -3381,7 +3381,7 @@ Pokemon = WEEPINBELL,37
 #-------------------------------#
 # Water Labyrinth
 #-------------------------------#
-[FRLG_PKMNBREEDER,Alize,0]
+[FRLG_PKMNBREEDER,Alize]
 LoseText = Your Pokémon are growing up admirably well!
 Pokemon = PIKACHU,48
 Pokemon = CLEFAIRY,48
@@ -3395,7 +3395,7 @@ Pokemon = MARILL,53
 #-------------------------------#
 # Resort Gorgeous
 #-------------------------------#
-[FRLG_PAINTER,Rayna,0]
+[FRLG_PAINTER,Rayna]
 LoseText = Oh... My feelings, they are blue...
 Pokemon = SMEARGLE,50
 	Moves = CROSSCHOP,MEGAHORN,DOUBLEEDGE,SELFDESTRUCT
@@ -3426,7 +3426,7 @@ Pokemon = MAREEP,48
 Pokemon = FLAAFFY,49
 	Item = NUGGET
 #-------------------------------
-[FRLG_YOUNGSTER,Dustin,0]
+[FRLG_YOUNGSTER,Dustin]
 LoseText = Oops! I rushed things!
 Pokemon = RATICATE,48
 Pokemon = PIDGEOTTO,48
@@ -3468,7 +3468,7 @@ Pokemon = WEEZING,49
 #-------------------------------#
 # Memorial Pillar
 #-------------------------------#
-[FRLG_BIRDKEEPER,Milo,0]
+[FRLG_BIRDKEEPER,Milo]
 LoseText = Oh, so sharp!
 Pokemon = PIDGEY,47
 Pokemon = PIDGEOTTO,49
@@ -3478,7 +3478,7 @@ LoseText = Oh, so sharp!
 Pokemon = PIDGEOTTO,53
 Pokemon = PIDGEOT,55
 #-------------------------------
-[FRLG_BIRDKEEPER,Chaz,0]
+[FRLG_BIRDKEEPER,Chaz]
 LoseText = Flap, flap!
 Pokemon = SPEAROW,47
 Pokemon = FEAROW,49
@@ -3488,7 +3488,7 @@ LoseText = Flap, flap!
 Pokemon = FEAROW,53
 Pokemon = FEAROW,55
 #-------------------------------
-[FRLG_BIRDKEEPER,Harold,0]
+[FRLG_BIRDKEEPER,Harold]
 LoseText = Down is so comfy... It makes me drowsy...
 Pokemon = HOOTHOOT,47
 Pokemon = NOCTOWL,49
@@ -3507,7 +3507,7 @@ Pokemon = VOLTORB,46
 Pokemon = ELECTRODE,47
 Pokemon = MRMIME,48
 #-------------------------------
-[FRLG_HIKER,Earl,0]
+[FRLG_HIKER,Earl]
 LoseText = I lost my way while I was busy battling!
 Pokemon = ONIX,49
 Pokemon = MACHOKE,49
@@ -3522,7 +3522,7 @@ LoseText = Awww, I knew this would happen!
 Pokemon = CHINCHOU,49
 Pokemon = LANTURN,49
 #-------------------------------
-[FRLG_SWIMMER_M,Samir,0]
+[FRLG_SWIMMER_M,Samir]
 LoseText = Oh, no, no, no.
 Pokemon = GYARADOS,50
 #-------------------------------
@@ -3530,7 +3530,7 @@ Pokemon = GYARADOS,50
 LoseText = Oh, no, no, no.
 Pokemon = GYARADOS,55
 #-------------------------------
-[FRLG_TWINS,Miu & Mia,0]
+[FRLG_TWINS,Miu & Mia]
 LoseText = Miu: Oh, no! Mommy!
 Pokemon = PIKACHU,50
 Pokemon = PIKACHU,50
@@ -3547,7 +3547,7 @@ Pokemon = SUNFLORA,49
 #-------------------------------#
 # Green Path
 #-------------------------------#
-[FRLG_PSYCHIC_F,Jaclyn,0]
+[FRLG_PSYCHIC_F,Jaclyn]
 LoseText = Big boo-boo!
 Pokemon = NATU,48
 Pokemon = SLOWBRO,48
@@ -3561,7 +3561,7 @@ Pokemon = KADABRA,54
 #-------------------------------#
 # Outcast Island
 #-------------------------------#
-[FRLG_SWIMMER_F,Nicole,0]
+[FRLG_SWIMMER_F,Nicole]
 LoseText = I didn't lose to you at swimming. This doesn't bother me.
 Pokemon = MARILL,50
 #-------------------------------
@@ -3569,7 +3569,7 @@ Pokemon = MARILL,50
 LoseText = I didn't lose to you at swimming. This doesn't bother me.
 Pokemon = MARILL,54
 #-------------------------------
-[FRLG_SISANDBRO,Ava & Geb,0]
+[FRLG_SISANDBRO,Ava & Geb]
 LoseText = Ava: Oh, you're amazing! Even better, you're on your own!
 Pokemon = STARMIE,50
 Pokemon = POLIWHIRL,50
@@ -3601,7 +3601,7 @@ Pokemon = RATICATE,48
 LoseText = Oh, the heartbreak of losing so easily to you!
 Pokemon = SUDOWOODO,50
 #-------------------------------
-[FRLG_POKEMANIAC,Hector,0]
+[FRLG_POKEMANIAC,Hector]
 LoseText = You don't need to be so pushy. I'll be happy to tell you.
 Pokemon = RHYHORN,49
 Pokemon = KANGASKHAN,49
@@ -3621,7 +3621,7 @@ Pokemon = GRAVELER,48
 LoseText = It's been so long since I battled, my instincts are off.
 Pokemon = GOLEM,50
 #-------------------------------
-[FRLG_RUINMANIAC,Larry,0]
+[FRLG_RUINMANIAC,Larry]
 LoseText = Oh, interesting.
 Pokemon = MACHOKE,49
 Pokemon = MACHOKE,49
@@ -3633,7 +3633,7 @@ Pokemon = MACHOKE,54
 #-------------------------------#
 # Trainer Tower
 #-------------------------------#
-[FRLG_PSYCHIC_F,Rodette,0]
+[FRLG_PSYCHIC_F,Rodette]
 LoseText = What an amazing Trainer!
 Pokemon = NATU,48
 Pokemon = DROWZEE,48
@@ -3645,7 +3645,7 @@ Pokemon = NATU,53
 Pokemon = HYPNO,53
 Pokemon = HYPNO,53
 #-------------------------------
-[FRLG_PSYCHIC_M,Dario,0]
+[FRLG_PSYCHIC_M,Dario]
 LoseText = Give up...
 Pokemon = GIRAFARIG,52
 #-------------------------------
@@ -3660,24 +3660,24 @@ LoseText = Tch! Too strong for me!
 Pokemon = BELLOSSOM,50
 Pokemon = BELLOSSOM,50
 #-------------------------------
-[FRLG_JUGGLER,Mason,0]
+[FRLG_JUGGLER,Mason]
 LoseText = Oh, so you're not a fan... Well, I can change that. Let me sing for you!
 Pokemon = VOLTORB,47
 Pokemon = VOLTORB,47
 Pokemon = PINECO,47
 Pokemon = PINECO,47
 #-------------------------------
-[FRLG_PKMNRANGER_M,Nicolas,0]
+[FRLG_PKMNRANGER_M,Nicolas]
 LoseText = Uh-huh...
 Pokemon = WEEPINBELL,51
 Pokemon = VICTREEBEL,51
 #-------------------------------
-[FRLG_PKMNRANGER_F,Madeline,0]
+[FRLG_PKMNRANGER_F,Madeline]
 LoseText = You don't seem to be a problem Trainer.
 Pokemon = GLOOM,51
 Pokemon = VILEPLUME,51
 #-------------------------------
-[FRLG_YOUNGCOUPLE,Eve & Jon,0]
+[FRLG_YOUNGCOUPLE,Eve & Jon]
 LoseText = Eve: Me and Jon, we lost. Ehehe.
 Pokemon = GOLDUCK,50
 Pokemon = PSYDUCK,50
@@ -3689,7 +3689,7 @@ Pokemon = PSYDUCK,50
 #-------------------------------#
 # Sevault Canyon
 #-------------------------------#
-[FRLG_COOLCOUPLE,Lex & Nya,0]
+[FRLG_COOLCOUPLE,Lex & Nya]
 LoseText = Lex: I seem to have been too careless...
 Pokemon = TAUROS,52
 Pokemon = MILTANK,52
@@ -3709,7 +3709,7 @@ LoseText = Nya: Oh, no... I'm so sorry, I...
 Pokemon = TAUROS,57
 Pokemon = MILTANK,57
 #-------------------------------
-[FRLG_TAMER,Evan,0]
+[FRLG_TAMER,Evan]
 LoseText = You're a master at this.
 Pokemon = SANDSLASH,48
 Pokemon = LICKITUNG,48
@@ -3721,7 +3721,7 @@ Pokemon = SANDSLASH,52
 Pokemon = LICKITUNG,52
 Pokemon = URSARING,55
 #-------------------------------
-[FRLG_PKMNRANGER_M,Jackson,0]
+[FRLG_PKMNRANGER_M,Jackson]
 LoseText = Whoa! You're tough! How about protecting me?
 Pokemon = TANGELA,49
 Pokemon = EXEGGCUTE,49
@@ -3733,7 +3733,7 @@ Pokemon = TANGELA,53
 Pokemon = EXEGGUTOR,54
 Pokemon = EXEGGUTOR,55
 #-------------------------------
-[FRLG_PKMNRANGER_F,Katelyn,0]
+[FRLG_PKMNRANGER_F,Katelyn]
 LoseText = You're hot stuff in spite of your cute looks.
 Pokemon = CHANSEY,52
 #-------------------------------
@@ -3741,7 +3741,7 @@ Pokemon = CHANSEY,52
 LoseText = You're hot stuff in spite of your cute looks.
 Pokemon = CHANSEY,56
 #-------------------------------
-[FRLG_CRUSHGIRL,Cyndy,0]
+[FRLG_CRUSHGIRL,Cyndy]
 LoseText = Huh? Something's not right...
 Pokemon = PRIMEAPE,48
 	Item = BLACKBELT
@@ -3759,7 +3759,7 @@ Pokemon = HITMONTOP,54
 Pokemon = MACHAMP,54
 	Item = BLACKBELT
 #-------------------------------
-[FRLG_COOLTRAINER_M,Leroy,0]
+[FRLG_COOLTRAINER_M,Leroy]
 LoseText = I knew it! You're as tough as I thought!
 Pokemon = RHYDON,47
 Pokemon = SLOWBRO,48
@@ -3775,7 +3775,7 @@ Pokemon = MACHOKE,52
 Pokemon = KANGASKHAN,52
 Pokemon = URSARING,55
 #-------------------------------
-[FRLG_COOLTRAINER_F,Michelle,0]
+[FRLG_COOLTRAINER_F,Michelle]
 LoseText = Thank you. I feel like I've been set free by losing to you.
 Pokemon = PERSIAN,47
 Pokemon = DEWGONG,48
@@ -3821,7 +3821,7 @@ Pokemon = GRAVELER,48
 #-------------------------------#
 # Two Island
 #-------------------------------#
-[FRLG_BIKER,Goon,0]
+[FRLG_BIKER,Goon]
 LoseText = Wha… What is this kid?!
 Pokemon = KOFFING,37
 Pokemon = GRIMER,37
@@ -3979,67 +3979,67 @@ Pokemon = PORYGON,46
 #-------------------------------#
 # Pattern Bush
 #-------------------------------#
-[FRLG_YOUNGSTER],Cordell,0
+[FRLG_YOUNGSTER,Cordell]
 LoseText = I bet you think I'm weak, don't you, eh?
 Pokemon = FARFETCHD,48
 Pokemon = FARFETCHD,48
 #-------------------------------
-[FRLG_PKMNBREEDER],Bethany,0
+[FRLG_PKMNBREEDER,Bethany]
 LoseText = You raise your Pokémon with a whole lot of love!
 Pokemon = CHANSEY,50
 #-------------------------------
-[FRLG_BUGCATCHER],Garret,0
+[FRLG_BUGCATCHER,Garret]
 LoseText = Heheh... Isn't my Pokémon awesome?
 Pokemon = HERACROSS,49
 #-------------------------------
-[FRLG_LASS],Joana,0
+[FRLG_LASS,Joana]
 LoseText = I lost, but I'm still laughing. Am I the only girl like that?
 Pokemon = SNUBBULL,49
 #-------------------------------
-[FRLG_YOUNGSTER],Nash,0
+[FRLG_YOUNGSTER,Nash]
 LoseText = Super awesome!
 Pokemon = WEEPINBELL,47
 Pokemon = WEEPINBELL,47
 Pokemon = VICTREEBEL,49
 #-------------------------------
-[FRLG_BUGCATCHER],Vance,0
+[FRLG_BUGCATCHER,Vance]
 LoseText = I got beat while I was still busy celebrating!
 Pokemon = VENONAT,48
 Pokemon = VENOMOTH,48
 #-------------------------------
-[FRLG_RUINMANIAC],Layton,0
+[FRLG_RUINMANIAC,Layton]
 LoseText = Have you taken a good luck around your feet?
 Pokemon = SANDSLASH,48
 Pokemon = ONIX,48
 Pokemon = SANDSLASH,48
 #-------------------------------
-[FRLG_PICNICKER],Marcy,0
+[FRLG_PICNICKER,Marcy]
 LoseText = It wasn't a bug. I cut my shin on some grass.
 Pokemon = PARAS,48
 Pokemon = PARAS,48
 Pokemon = PARASECT,49
 #-------------------------------
-[FRLG_BUGCATCHER],JONAH,0
+[FRLG_BUGCATCHER,JONAH]
 LoseText = It's okay, losing is a fun part of Pokémon's appeal, too.
 Pokemon = YANMA,45
 Pokemon = BEEDRILL,45
 Pokemon = YANMA,46
 Pokemon = BEEDRILL,47
 #-------------------------------
-[FRLG_LASS],Dalia,0
+[FRLG_LASS,Dalia]
 LoseText = If you'd like, I can teach you how to breathe properly.
 Pokemon = HOPPIP,46
 Pokemon = HOPPIP,47
 Pokemon = SKIPLOOM,47
 Pokemon = SKIPLOOM,48
 #-------------------------------
-[FRLG_PKMNBREEDER],Allison,0
+[FRLG_PKMNBREEDER,Allison]
 LoseText = Oh, for someone so young, you are tremendous!
 Pokemon = CLEFAIRY,48
 Pokemon = CLEFAIRY,48
 Pokemon = CLEFABLE,48
 #-------------------------------
-[FRLG_CAMPER],Riley,0
+[FRLG_CAMPER,Riley]
 LoseText = Wimped out...
 Pokemon = PINSIR,49
 Pokemon = HERACROSS,50
