@@ -1,0 +1,5 @@
+Name         = Terrain Tag Side Stairs
+Version      = 1.5a
+Essentials   = 21.1
+Website      = https://eeveeexpo.com/resources/397/
+Credits      = Boon, Vendily, REALMUGEN
