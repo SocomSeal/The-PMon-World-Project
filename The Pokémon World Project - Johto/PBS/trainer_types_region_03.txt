@@ -575,8 +575,15 @@ Gender = Female
 BaseMoney = 40
 IntroBGM = ORAS Battle Intro - Trainer Intense (Trainer_s Eyes Meet (Cooltrainer))
 #-------------------------------
-[RSE_POKEMONTRAINER_Zinnia]
-Name = Zinnia
+[ORAS_POKEMONTRAINER_Zinnia]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 100
+IntroBGM = ORAS Battle Intro - Zinnia (Zinnia)
+BattleBGM = ORAS Battle Music - Zinnia (Battle! (Zinnia))
+#-------------------------------
+[ORAS_LOREKEEPER_Zinnia]
+Name = Lorekeeper
 Gender = Female
 BaseMoney = 100
 IntroBGM = ORAS Battle Intro - Zinnia (Zinnia)

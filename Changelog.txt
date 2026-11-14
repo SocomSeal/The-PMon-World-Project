@@ -6,7 +6,6 @@ Audio
 Script Settings
 Script section UI_ItemStorage line 79 from def pbStartScene(bag) to def pbStartScene(bag, party)
 Script section UI_PokeMart line 320 from @subscene.pbStartScene(bag) to @subscene.pbStartScene(bag, $player.party)
-Script section Battle_CatchAndStoreMixin - controlling pokeballs in battle - if gameswitch 100 is on, "Disables Poké Balls"
 Script section Item_Effects (Infini Candy, Infini Repel)
 Script section UI_Trading - Add pbStartTradeYourself function
 Script section Utilities_BattleAudio -  define region defaults, including per gender of trainer
@@ -25,7 +24,7 @@ Script section Formhandlers for regional forms
 Script section Overworld_Metadata - Additional Day Cares
 Script section Overworld_DayCare - Support for Additional Day Cares
 Script section Overworld_FieldMoves - Custom code for regi events (Regi Event)
-	Includes Cut, Dig, RSma
+	Includes Cut, Dig, RSmash, Flash
 Plugin script for gen 9 project General > Pokemon - define Hisui region as id 51
 Plugin settings for dynamax and terastal - switches
 Plugin scripts for bag with interactable party screen to add page jumping functionality, cloning jumpup and jumpdown from elsif block (line 72/92) into if block above (line 32 to 51)
@@ -47,8 +46,10 @@ Script section Item_Phone - Line 207, add def self.doublebattle(trainer_type, na
 Script section UI_PokeMart - redefine pbPokemonMart to include introSpeech and endSpeech variables, as well as edit command text to simply "BUY, SELL, EXIT"
 Script section Weather - Added Weathers NIL (id 9 & 10, Filler), RSE_Rain (id 11), RSE_Storm (id 12), RSE_Sandstorm (id 13), RSE_Ash (id 14), RSE_Snow (id 15)
 Script section Interpreter - add "def pbSetEventTimeGlobal(id, map)" which will set an event time for an event on any map
-Script section Game_Character - add "def turn_random_URL" and all veriations, to let events turn in limited directions randomly
+Script section Game_Character - add "def turn_random_URL" and all variations, to let events turn in limited directions randomly
 Script section Overworld_FieldMoves - updated pbDive and pbSurfacing to include arguments for overrides (x, y, map)
+Plugin script for WaterCurrents
+
 
 
 

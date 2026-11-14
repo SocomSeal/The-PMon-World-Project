@@ -1,15 +1,11 @@
-Roadmap as of October 13th 2026:
+Roadmap as of November 14th 2026:
+	
+- Implement sidestair plugin
 
-- Finish Hoenn (End of 2026)
-	- Mapping
-	- Eventing (Main game)
-	- Eventing (Post game)
-	- Bug fix pass
 - Technical Pass (Early 2027)
 	- Strip project and port to v22
 	- Categorize all custom scripts and plugins as mandatory or cosmetic
 		- Break custom scripts out into plugins. All v22 code should remain entirely pure in the resource.
-	- Implement spinners, sidestair plugins
 - Begin Johto (Mid 2027)
 	
 	
@@ -22,18 +18,11 @@ Current Major Roadblocks:
 
 Socom's Worklist
 
-- Scripting
-	Events through Lilycove are done
-	
-	!!!When Sootopolis is scripted, MAKE SURE TO REMEMBER SCENARIO HANDLING. 
-	If the player flies into Sootopolis when the storm sequence is happening, 
-	they need to be sent to the storm/event version of the map! (Use autorun event to transfer?)!!!
+- Future updates to make resource more user friendly
+	- Pull out each region's assets as its own datapack
+	- Global would include player, system, general-use (pkmn, etc) sprites
 
 - Graphics standardization
 	- Create secondary set of Trainer and Pokemon graphics (Gen 3 64px statics, and Gen4/5 80px static/96px animated)
-
-- Hoenn mapping
-	DOORS. !!!Tilesets need overhangs!!!
-		Could touch up Kanto in this way?
 
 - Kanto needs to be audited for moveroutes. Do when implementing spinner plugin. Utilize move_random_range(1,1) script routes for wanderers and turn_random_(URLD) for turners

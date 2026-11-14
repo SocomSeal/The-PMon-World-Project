@@ -1,0 +1,5 @@
+Name         = PKW Tiletags
+Version      = 1.0
+Essentials   = 21.1
+Link		 = 
+Credits      = SocomSeal, EagleOwl4Lyfe, ChromusSama

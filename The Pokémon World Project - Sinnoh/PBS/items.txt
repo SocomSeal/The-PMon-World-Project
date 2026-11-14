@@ -10183,6 +10183,22 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = Ticket required for sailing on a ferry.
+#-------------------------------
+[PAIROFTICKETS]
+Name = Pair of Tickets
+NamePlural = Pairs of Tickets
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = Tickets for two to the astronomical show being held at the Mossdeep Space Center.
+#-------------------------------
+[METEORITESHARD]
+Name = Meteorite Shard
+NamePlural = Meteorite Shards
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = One of the fragments of a Meteorite from Granite Cave. It's faintly warm to the touch.
 #-------------------------------#
 # [KEYDPPt] Sinnoh Key Items
 #-------------------------------#
