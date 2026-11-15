@@ -1,6 +1,4 @@
 Roadmap as of November 14th 2026:
-	
-- Implement sidestair plugin
 
 - Technical Pass (Early 2027)
 	- Strip project and port to v22
@@ -25,4 +23,6 @@ Socom's Worklist
 - Graphics standardization
 	- Create secondary set of Trainer and Pokemon graphics (Gen 3 64px statics, and Gen4/5 80px static/96px animated)
 
-- Kanto needs to be audited for moveroutes. Do when implementing spinner plugin. Utilize move_random_range(1,1) script routes for wanderers and turn_random_(URLD) for turners
+- Kanto needs to be audited for moveroutes. Do when implementing spinner plugin. 
+	- Spinning trainers use @spinner ||= SpinnerBehavior.new(self, [2, 4, 6, 8], 3); @spinner.update
+	- Utilize move_random_range(1,1) script routes for wandering NPCs and turn_random_(URLD) for turners
