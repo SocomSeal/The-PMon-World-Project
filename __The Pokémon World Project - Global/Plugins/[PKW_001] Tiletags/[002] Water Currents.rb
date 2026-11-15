@@ -9,7 +9,7 @@ end
 
 EventHandlers.add(:on_step_taken, :slide_player,
   proc { |event|
-    next if !$scene.a?(Scene_Map)
+    next if !$scene.is_a?(Scene_Map)
     next if event != $game_player
     currentTag = $game_player.pbTerrainTag
     if currentTag.water_current || $PokemonGlobal.current_sliding

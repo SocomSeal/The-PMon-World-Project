@@ -2,7 +2,7 @@ Core Systems
 - Add 'error handling' scripts for the regional storage merge functions. Currently, there is no way to proceed if a player (somehow) has a full storage when these are triggered
 - Define wild pokemon held items past gen 1
 - Dynamax and tera plugin settings (verify these are correct)
-- Update Follower plugin to include gen 9 data (low prio, fix in v22?) (Update from 21.1 port to official version?)
+- Update Follower plugin to include gen 9 data (low prio, fix in v22?)
 - Roamers? (v22, if ever)
 - You can't do trade evolutions where you need to trade a mon for a mon, such as karablast (fixed in v22)
 - TM black market event is hardcoded to not allow numbers above 360 (how to make dynamic?)

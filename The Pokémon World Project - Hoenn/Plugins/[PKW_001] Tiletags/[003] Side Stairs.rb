@@ -11,17 +11,6 @@
 # v1.3 - Updated for v19
 # v1.2 - Fixed bugs with ledges, surfing and map transfers
 #-------------------------------------------------------------------------------
-# Config
-#-------------------------------------------------------------------------------
-GameData::TerrainTag.register({
-  :id => :StairLeft,
-  :id_number => 22,
-})
-GameData::TerrainTag.register({
-  :id => :StairRight,
-  :id_number => 23,
-})
-#-------------------------------------------------------------------------------
 # Existing Class Extensions
 #-------------------------------------------------------------------------------
 def pbTurnTowardEvent(event, otherEvent)
