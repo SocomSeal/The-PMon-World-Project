@@ -101,7 +101,6 @@ Cosmetic
 - Standardize all maps with proper tilesets
 - Standardize dialogue with "…" and NOT "..."
 - Standardize monetary symbols in dialogue to the PokeDollar symbol (¥, $, etc.) (custom font for $?)
-- Standardize signskins and check for bolding, i.e. signs with a quote, newline, then name of a place should have the name of the place bolded
 - Verify color palettes are RGB (Debug is showing errors on sprite load)
 - Pokemon Center 2nd floors are missing (includes some generic NPCs with dialogue)
 - Entrance/Exits do not display an arrow when standing on them, before the player triggers the warp
