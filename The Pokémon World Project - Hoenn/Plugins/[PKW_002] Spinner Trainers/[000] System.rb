@@ -7,11 +7,6 @@ class SpinnerBehavior
     @radius = radius
     @next_spin_time = 0
 	@frequency = frequency
-	
-	@spin_delay 	=	[0.8]						# Default minimum - this variable dynamically updates based on the last triggered spinner
-	@short_delay 	=	[0.8,1.2,1.6,2.0]
-	@medium_delay 	=	[0.8,1.6,2.4,3.2]
-	@long_delay 	=	[0.8,2.0,3.2,4.4]			# There is no official 'long delay' range
   end
 
   def update
@@ -19,8 +14,6 @@ class SpinnerBehavior
 
     if player_in_range? && player_running?
       face_player_if_possible
-	  # Updates next spin interval based on currently stored range
-      @next_spin_time = $stats.play_time + @spin_delay[rand(0..(@spin_delay.length - 1))]
     else
       random_spin(@frequency)
     end
@@ -74,19 +67,26 @@ class SpinnerBehavior
   # Time-based randomized idle spinning
   #===============================================================================
   def random_spin(frequency = 0)
-    return if $stats.play_time < @next_spin_time
+    now = $stats.play_time
+    return if now < @next_spin_time
+	
+	spin_delay = []
+	
+	short_delay = [0.8,1.2,1.6,2.0]
+	medium_delay = [0.8,1.6,2.4,3.2]
+	long_delay = [0.8,2.0,3.2,4.4] # There is no official 'long delay' range
 	
 	case frequency
 		when 0
-			@spin_delay = @short_delay
+			spin_delay = short_delay
 		when 1
-			@spin_delay = @medium_delay
+			spin_delay = medium_delay
 		when 2
-			@spin_delay = @long_delay
+			spin_delay = long_delay
 	end
 	
     # Spin happens randomly based on assigned frequency's range
-    @next_spin_time = $stats.play_time + @spin_delay[rand(0..(@spin_delay.length - 1))]
+    @next_spin_time = now + spin_delay[rand(0..(spin_delay.length - 1))]
 
     apply_direction(@allowed_dirs.sample)
   end
@@ -123,7 +123,7 @@ class SpinnerBehavior
  
   def player_running?
     return false if !$game_player
-    return $game_player.move_speed == 4
+    return $game_player.move_speed >= 4
   end
  
 end
