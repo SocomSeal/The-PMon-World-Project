@@ -48,7 +48,6 @@ KANTO
 - Trainer tower
 - Respawning item systems e.g. berries in berry forest, beach items
 - Implement better spinners
-- Seafoam Island boulder puzzle & water current tiles
 - Audit 4 Island daycare NPC scripts to make sure they're accurate
 JOHTO
 - 
@@ -124,7 +123,7 @@ Cosmetic
 - No arriving animations for falling through holes
 KANTO
 - Audit dungeon transitions with a location preview (they're kinda clunky atm)
-- Audit cutscenes - "walk in place" (2 steps @ 1frame) and "Walk faster in place" (1 step @ 1frame) moveroutes are coded as "turn" moveroutes instead
+- Audit Sevii cutscenes - "walk in place" (2 steps @ 1frame) and "Walk faster in place" (1 step @ 1frame) moveroutes are coded as "turn" moveroutes instead
 - Audit named NPC text (i.e. gym leaders) have themselves introduced by name
 - Intro cutscene needs to be touched up, sprite positioning
 	- Intro cutscene does not have the Nidoran coming out of a pokeball animation while Oak remains loaded
@@ -139,6 +138,8 @@ KANTO
 - Missing Pokecenter Monitor animations during healing sequence
 - Large tree sprites need their shadows properly done, i.e. sprite without them on the outer edge of the trees
 - Water edge borders don't properly curve at apexes; they terminate in a squared end
+- Seafoam Island boulders in water are missing animated sprites with splash
+- One Island Leaving cutscene is a hardcoded placeholder that triggers when player enters the network center instead of being a floor trigger with dynamic movement (see og map)
 JOHTO
 - Missing backsprites (and implementation) of alternate player costumes 201
 HOENN

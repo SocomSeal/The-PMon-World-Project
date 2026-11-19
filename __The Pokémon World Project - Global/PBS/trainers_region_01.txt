@@ -256,7 +256,7 @@ Pokemon = VENUSAUR,40
 #-------------------------------#
 [FRLG_CHAMPION,Blue]
 Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
-LoseText = NO! That can't be! You beat my best! After all that work to become League Champ? My reign is over already? It's not fair!
+LoseText = NO! That can't be! You beat me at my best?
 Pokemon = PIDGEOT,59
 	Moves = AERIALACE,FEATHERDANCE,SANDATTACK,WHIRLWIND
 Pokemon = ALAKAZAM,57
@@ -273,7 +273,7 @@ Pokemon = CHARIZARD,63
 #-------------------------------
 [FRLG_CHAMPION,Blue,1]
 Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
-LoseText = NO! That can't be! You beat my best! After all that work to become League Champ? My reign is over already? It's not fair!
+LoseText = NO! That can't be! You beat me at my best?
 Pokemon = PIDGEOT,59
 	Moves = AERIALACE,FEATHERDANCE,SANDATTACK,WHIRLWIND
 Pokemon = ALAKAZAM,57
@@ -290,7 +290,7 @@ Pokemon = BLASTOISE,63
 #-------------------------------
 [FRLG_CHAMPION,Blue,2]
 Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
-LoseText = NO! That can't be! You beat my best! After all that work to become League Champ? My reign is over already? It's not fair!
+LoseText = NO! That can't be! You beat me at my best?
 Pokemon = PIDGEOT,59
 	Moves = AERIALACE,FEATHERDANCE,SANDATTACK,WHIRLWIND
 Pokemon = ALAKAZAM,57
@@ -307,7 +307,7 @@ Pokemon = VENUSAUR,63
 #-------------------------------
 [FRLG_CHAMPION,Blue,3]
 Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
-LoseText = NO! That can't be! You beat my best! After all that work to become League Champ? My reign is over already? It's not fair!
+LoseText = NO! That can't be! You beat me at my best?
 Pokemon = HERACROSS,72
 	Moves = MEGAHORN,EARTHQUAKE,COUNTER,ROCKTOMB
 Pokemon = ALAKAZAM,73
@@ -324,7 +324,7 @@ Pokemon = CHARIZARD,75
 #-------------------------------
 [FRLG_CHAMPION,Blue,4]
 Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
-LoseText = NO! That can't be! You beat my best! After all that work to become League Champ? My reign is over already? It's not fair!
+LoseText = NO! That can't be! You beat me at my best?
 Pokemon = HERACROSS,72
 	Moves = MEGAHORN,EARTHQUAKE,COUNTER,ROCKTOMB
 Pokemon = ALAKAZAM,73
@@ -341,7 +341,7 @@ Pokemon = BLASTOISE,75
 #-------------------------------
 [FRLG_CHAMPION,Blue,5]
 Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE
-LoseText = NO! That can't be! You beat my best! After all that work to become League Champ? My reign is over already? It's not fair!
+LoseText = NO! That can't be! You beat me at my best?
 Pokemon = HERACROSS,72
 	Moves = MEGAHORN,EARTHQUAKE,COUNTER,ROCKTOMB
 Pokemon = ALAKAZAM,73
@@ -570,17 +570,17 @@ Pokemon = CLEFAIRY,22
 Pokemon = JIGGLYPUFF,22
 #-------------------------------
 [FRLG_TWINS,Eli & Anne,1]
+LoseText = Anne: Our twin power...
+Pokemon = CLEFAIRY,22
+Pokemon = JIGGLYPUFF,22
+#-------------------------------
+[FRLG_TWINS,Eli & Anne,2]
 LoseText = Eli: But... We used our twin power...
 Pokemon = CLEFAIRY,28
 Pokemon = JIGGLYPUFF,28
 #-------------------------------
-[FRLG_TWINS,Eli & Anne,2]
-LoseText = Anne:Our twin power...
-Pokemon = CLEFAIRY,22
-Pokemon = JIGGLYPUFF,22
-#-------------------------------
 [FRLG_TWINS,Eli & Anne,3]
-LoseText = Anne:Our twin power...
+LoseText = Anne: Our twin power...
 Pokemon = CLEFAIRY,28
 Pokemon = JIGGLYPUFF,28
 #-------------------------------
@@ -1940,7 +1940,7 @@ Pokemon = GEODUDE,10
 Pokemon = SANDSHREW,11
 #-------------------------------
 [FRLG_LEADER_Brock,Brock]
-LoseText = I took you for granted, and so I lost. As proof of your victory, I confer on you this: the official Pokémon League Boulder Badge.
+LoseText = I took you for granted, and so I lost.
 Items = FULLHEAL,FULLHEAL,FULLHEAL,FULLHEAL,FULLHEAL
 Pokemon = GEODUDE,12
 	Moves = TACKLE,DEFENSECURL
@@ -1966,7 +1966,7 @@ LoseText = You overwhelmed me!
 Pokemon = GOLDEEN,16
 #-------------------------------
 [FRLG_LEADER_Misty,Misty]
-LoseText = Wow! You're too much! All right! You can have the Cascade Badge to show you beat me.
+LoseText = Wow! You're too much!
 Pokemon = STARYU,18
 	Moves = TACKLE,HARDEN,RECOVER,WATERPULSE
 Pokemon = STARMIE,21
@@ -1992,7 +1992,7 @@ LoseText = Stop! You're very good!
 Pokemon = PIKACHU,23
 #-------------------------------
 [FRLG_LEADER_Surge,Lt. Surge]
-LoseText = Now that's a shocker! You're the real deal, kid! Fine, then, take the Thunder Badge!
+LoseText = Now that's a shocker!
 Pokemon = VOLTORB,21
 	Moves = SHOCKWAVE,TACKLE,SCREECH,SONICBOOM
 Pokemon = PIKACHU,18
@@ -2056,7 +2056,7 @@ Pokemon = IVYSAUR,22
 #-------------------------------
 [FRLG_LEADER_Erika,Erika]
 Items = HYPERPOTION,FULLHEAL
-LoseText = Oh! I concede defeat. You are remarkably strong. I must confer on you the Rainbow Badge.
+LoseText = Oh! I concede defeat.
 Pokemon = VICTREEBEL,29
 	Moves = STUNSPORE,ACID,POISONPOWDER,GIGADRAIN
 Pokemon = TANGELA,24
@@ -2103,7 +2103,7 @@ Pokemon = HYPNO,34
 #-------------------------------
 [FRLG_LEADER_Koga,Koga]
 Items = HYPERPOTION,HYPERPOTION,FULLHEAL
-LoseText = Humph! You have proven your worth! Here! Take the Soul Badge!
+LoseText = Humph! You have proven your worth!
 Pokemon = KOFFING,37
 	Moves = SELFDESTRUCT,SLUDGE,SMOKESCREEN,TOXIC
 Pokemon = MUK,39
@@ -2185,7 +2185,7 @@ Pokemon = SLOWBRO,38
 #-------------------------------
 [FRLG_LEADER_Sabrina,Sabrina]
 Items = HYPERPOTION,HYPERPOTION,FULLHEAL
-LoseText = This loss shocks me! But, a loss is a loss. I admit, I didn't work hard enough to win. Your victory has earned you the Marsh Badge.
+LoseText = This loss shocks me! But, a loss is a loss.
 Pokemon = KADABRA,38
 	Moves = PSYBEAM,REFLECT,FUTURESIGHT,CALMMIND
 Pokemon = MRMIME,37
@@ -2239,7 +2239,7 @@ Pokemon = VULPIX,37
 #-------------------------------
 [FRLG_LEADER_Blaine,Blaine]
 Items = HYPERPOTION,HYPERPOTION,FULLHEAL
-LoseText = I have burned down to nothing! Not even ashes remain! You have earned the Volcano Badge.
+LoseText = I have burned down to nothing! Not even ashes remain!
 Pokemon = GROWLITHE,42
 	Moves = BITE,ROAR,TAKEDOWN,FIREBLAST
 Pokemon = PONYTA,40
