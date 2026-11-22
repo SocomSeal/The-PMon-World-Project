@@ -1,0 +1,33 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[Common,Rain]
+Name = Essentials
+NoUser = true
+NoTarget = true
+HidesDataBoxes = true
+Credit = Maruno
+<Background>
+    Focus = Background
+    Graphic = Screens/black
+    SetOpacity = 0,0
+    MoveOpacity = 0,7,192
+    MoveOpacity = 33,7,0
+<Rain emitter>
+    Focus = Foreground
+    Graphic = strobe 1
+    Emitter = Straight
+    EmitterRate = 15
+    EmitterIntensity = 3
+    SetZoomX = 0,5
+    SetZoomY = 0,150
+    SetAngle = 0,10
+    SetVisible = 7,false
+    SetEmitting = 0,true
+    SetEmitting = 28,false
+    SetEmitterX = 0,224
+    SetEmitterY = 0,-80
+    SetSpawnXRange = 0,256
+    SetEmitSpeed = 0,1200
+    SetEmitDirection = 0,-80
+<SE>
+    Play = 0,Water/Rain Dance,80

@@ -1,0 +1,75 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[Move,BUGBITE]
+Name = Essentials
+NoUser = true
+Credit = Maruno
+<Target>
+    FoeInvertX = true
+    SetX = 0,0
+    MoveX = 0,1,-2
+    MoveX = 1,2,2
+    MoveX = 3,2,-2
+    MoveX = 5,2,2
+    MoveX = 7,2,-2
+    MoveX = 9,2,2
+    MoveX = 11,2,-2
+    MoveX = 13,2,2
+    MoveX = 15,1,0
+<Hit emitter>
+    Focus = Target
+    Graphic = dazzle small
+    SecondLayer = true
+    InitialAngle = None
+    Emitter = NoMovement
+    EmitterRate = 6
+    SetZ = 0,20
+    SetZoomX = 0,40
+    SetZoomY = 0,40
+    SetVisible = 0,true
+    SetColor = 0,00C0F8FF
+    MoveZoomX = 0,3,110
+    MoveZoomY = 0,3,110
+    SetOpacity = 2,255
+    SetColor = 2,00E000FF
+    MoveOpacity = 2,1,0
+    SetVisible = 3,false
+    SetZ2 = 0,1
+    SetZoomX2 = 0,70
+    SetZoomY2 = 0,70
+    SetEmitting = 0,true
+    SetEmitting = 15,false
+    SetSpawnXRange = 0,40
+    SetSpawnYRange = 0,40
+<Rubble emitter>
+    Focus = Target
+    Graphic = rock 1
+    RandomAngleRange = 180
+    RandomInvertAngle = true
+    RandomInvertFlip = true
+    Emitter = Projectile
+    EmitterRate = 10
+    EmitterIntensity = 2
+    SetZ = 0,10
+    SetZoomX = 0,0
+    SetZoomY = 0,0
+    SetAngle = 0,0
+    SetTone = 0,+00-20-FF+00
+    MoveZoomX = 0,7,25
+    MoveZoomY = 0,7,25
+    MoveAngle = 0,7,180
+    SetVisible = 7,false
+    SetEmitting = 0,true
+    SetEmitting = 16,false
+    SetEmitterY = 0,16
+    SetSpawnXRange = 0,4
+    SetSpawnYRange = 0,4
+    SetEmitSpeed = 0,350
+    SetEmitSpeedRange = 0,100
+    SetEmitDirection = 0,90
+    SetEmitDirectionRange = 0,135
+    SetEmitGravity = 0,800
+    SetEmitGravityRange = 0,100
+    SetEmitZoomRange = 0,20
+<SE>
+    Play = 0,Bug/Bug Bite,80

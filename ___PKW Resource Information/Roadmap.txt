@@ -1,0 +1,42 @@
+Roadmap as of November 14th 2026:
+
+- Technical Pass (Early 2027)
+	- Strip project and port to v22
+	- Categorize all custom scripts and plugins as mandatory or cosmetic
+		- Break custom scripts out into plugins. All v22 code should remain entirely pure in the resource.
+- Begin Johto (Mid 2027)
+	
+	
+Current Major Roadblocks:
+
+- 
+
+
+
+
+Socom's Worklist
+
+- Future updates to make resource more user friendly
+	- Pull out each region's assets as its own datapack
+	- Global would include player, system, general-use (pkmn, etc) sprites
+
+- Graphics standardization
+	- Create secondary set of Trainer and Pokemon graphics (Gen 3 64px statics, and Gen4/5 80px static/96px animated)
+
+
+
+
+
+
+
+
+
+
+
+
+plugins that are cool but shouldn't be baseline:
+interactive bag party; (might be full broke in v22)
+Script section UI_ItemStorage line 79 from def pbStartScene(bag) to def pbStartScene(bag, party) (interactive bag party plugin)
+Script section UI_PokeMart line 320 from @subscene.pbStartScene(bag) to @subscene.pbStartScene(bag, $player.party)
+Plugin scripts for bag with interactable party screen to add page jumping functionality, cloning jumpup and jumpdown from elsif block (line 72/92) into if block above (line 32 to 51)
+Plugin scripts for bag with interactable party screen to add multiple item use at once (line 1717 to 1724) as well as item handlers in terastalization plugin (line 196 to 203)

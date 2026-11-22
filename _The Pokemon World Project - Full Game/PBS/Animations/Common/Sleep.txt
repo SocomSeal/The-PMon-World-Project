@@ -1,0 +1,63 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[Common,Sleep]
+Name = Essentials
+NoTarget = true
+Credit = Dawn Bronze, Maruno
+<User>
+<Z 1>
+    Focus = User
+    Graphic = sleep 1
+    SetX = 0,-24
+    SetY = 0,0
+    SetZ = 0,10
+    SetZoomX = 0,40
+    SetZoomY = 0,40
+    SetAngle = 0,30
+    SetColor = 0,D8A0F800
+    MoveX = 0,20,-64
+    MoveY = 0,20,-128
+    MoveZoomX = 0,20,180
+    MoveZoomY = 0,20,180
+    MoveAngle = 0,20,16
+    MoveColor = 0,20,D8A0F8FF
+    MoveOpacity = 16,4,0
+    SetVisible = 20,false
+<Z 2>
+    Focus = User
+    Graphic = sleep 1
+    SetX = 10,-24
+    SetY = 10,0
+    SetZ = 10,10
+    SetZoomX = 10,40
+    SetZoomY = 10,40
+    SetAngle = 10,30
+    SetColor = 10,D9A0F800
+    MoveX = 10,20,-64
+    MoveY = 10,20,-128
+    MoveZoomX = 10,20,180
+    MoveZoomY = 10,20,180
+    MoveAngle = 10,20,16
+    MoveColor = 10,20,D8A0F8FF
+    MoveOpacity = 26,4,0
+    SetVisible = 30,false
+<Z 3>
+    Focus = User
+    Graphic = sleep 1
+    SetX = 20,-24
+    SetY = 20,0
+    SetZ = 20,10
+    SetZoomX = 20,40
+    SetZoomY = 20,40
+    SetAngle = 20,30
+    SetColor = 20,D8A0F800
+    MoveX = 20,20,-64
+    MoveY = 20,20,-128
+    MoveZoomX = 20,20,180
+    MoveZoomY = 20,20,180
+    MoveAngle = 20,20,16
+    MoveColor = 20,20,D8A0F8FF
+    MoveOpacity = 36,4,0
+    SetVisible = 40,false
+<SE>
+    Play = 0,Common/Sleep,80

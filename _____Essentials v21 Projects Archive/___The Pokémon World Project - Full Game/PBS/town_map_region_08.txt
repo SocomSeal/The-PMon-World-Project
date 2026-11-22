@@ -1,0 +1,23 @@
+﻿# Table of Contents:
+# [SwSh] Galar Town Map
+# [IA] Isle of Armor Town Map
+# [CT] Crown Tundra Town Map
+#-------------------------------#
+# [SwSh] Galar Town Map
+#-------------------------------#
+[8]
+Name = Galar
+Filename = map_Galar.png
+#-------------------------------#
+# [IA] Isle of Armor Town Map
+#-------------------------------#
+[801]
+Name = Galar
+Filename = map_Galar.png
+#-------------------------------#
+# [CT] Crown Tundra Town Map
+#-------------------------------#
+[802]
+Name = Galar
+Filename = map_Galar.png
+#-------------------------------#

@@ -1,0 +1,121 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[Move,BUGBUZZ]
+Name = Essentials
+HidesDataBoxes = true
+Credit = Dawn Bronze, Maruno
+<User>
+<Target>
+    FoeInvertX = true
+    MoveX = 5,1,-2
+    MoveX = 6,2,2
+    MoveX = 8,2,-2
+    MoveX = 10,2,2
+    MoveX = 12,1,0
+<Soundwaves L emitter>
+    Focus = User
+    Graphic = soundwave 1
+    Emitter = Straight
+    EmitterRate = 9
+    SetZ = 0,20
+    SetZoomX = 0,140
+    SetZoomY = 0,100
+    SetAngle = 0,35
+    SetOpacity = 0,0
+    SetColor = 0,D8882000
+    MoveOpacity = 0,3,160
+    MoveColor = 0,10,E0902080
+    MoveZoomX = 0,15,350
+    MoveZoomY = 0,15,250
+    MoveOpacity = 9,6,0
+    SetVisible = 15,false
+    SetEmitting = 0,true
+    SetEmitting = 12,false
+    SetEmitterX = 0,-88
+    SetEmitterY = 0,-24
+    SetEmitSpeed = 0,230
+    SetEmitDirection = 0,125
+<Buzz L emitter>
+    Focus = User
+    Graphic = soundwave 1
+    Emitter = Straight
+    EmitterRate = 16
+    SetZ = 0,30
+    SetZoomX = 0,150
+    SetZoomY = 0,100
+    SetAngle = 0,35
+    SetOpacity = 0,160
+    SetOpacity = 2,160
+    MoveOpacity = 2,1,0
+    SetVisible = 3,false
+    SetEmitting = 0,true
+    SetEmitting = 12,false
+    SetEmitterX = 0,-72
+    SetEmitterY = 0,-32
+    SetEmitSpeed = 0,260
+    SetEmitDirection = 0,125
+<Soundwaves R emitter>
+    Focus = User
+    Graphic = soundwave 1
+    Emitter = Straight
+    EmitterRate = 9
+    SetZ = 0,20
+    SetZoomX = 0,140
+    SetZoomY = 0,100
+    SetAngle = 0,-35
+    SetOpacity = 0,0
+    SetColor = 0,D8882000
+    MoveOpacity = 0,3,160
+    MoveColor = 0,10,E0902080
+    MoveZoomX = 0,15,350
+    MoveZoomY = 0,15,250
+    MoveOpacity = 9,6,0
+    SetVisible = 15,false
+    SetEmitting = 0,true
+    SetEmitting = 12,false
+    SetEmitterX = 0,88
+    SetEmitterY = 0,-24
+    SetEmitSpeed = 0,230
+    SetEmitDirection = 0,55
+<Buzz R emitter>
+    Focus = User
+    Graphic = soundwave 1
+    Emitter = Straight
+    EmitterRate = 16
+    SetZ = 0,30
+    SetZoomX = 0,150
+    SetZoomY = 0,100
+    SetAngle = 0,-35
+    SetOpacity = 0,160
+    SetOpacity = 2,160
+    MoveOpacity = 2,1,0
+    SetVisible = 3,false
+    SetEmitting = 0,true
+    SetEmitting = 12,false
+    SetEmitterX = 0,72
+    SetEmitterY = 0,-32
+    SetEmitSpeed = 0,260
+    SetEmitDirection = 0,35
+<Circle emitter>
+    Focus = User
+    Graphic = circle 1
+    Emitter = NoMovement
+    EmitterRate = 5
+    SetZ = 6,10
+    SetZoomX = 6,300
+    SetZoomY = 6,250
+    SetOpacity = 6,0
+    SetColor = 6,F8600080
+    MoveOpacity = 6,4,255
+    MoveZoomX = 6,11,60
+    MoveZoomY = 6,11,50
+    SetColor = 10,F8600080
+    MoveColor = 10,2,F81800A0
+    MoveOpacity = 12,5,0
+    SetVisible = 17,false
+    SetEmitting = 6,true
+    SetEmitting = 19,false
+    SetEmitterY = 6,16
+<SE>
+    Play = 0,Bug/Bug Buzz,80
+    Play = 11,Bug/Bug Buzz,80

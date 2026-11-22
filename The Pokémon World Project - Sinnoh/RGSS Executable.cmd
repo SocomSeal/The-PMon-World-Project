@@ -1,1 +1,0 @@
-rgss-db "%~dp0Data" -t json

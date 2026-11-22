@@ -1,0 +1,36 @@
+﻿# Table of Contents:
+# [DPPt] Sinnoh Trainer Classes
+# [RIVAL] Rival Trainer Classes
+# [BOSS] Boss Trainer Classes
+# [VILLAIN] Villain Trainer Classes
+# [NPC] NPC Trainer Classes
+#-------------------------------#
+# [DPPt] Sinnoh Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [RIVAL] Rival Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [BOSS] Boss Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [VILLAIN] Villain Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [NPC] NPC Trainer Classes
+#-------------------------------#
+[DPPt_POKEMONTRAINER_Lucas]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[DPPt_POKEMONTRAINER_Dawn]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[DPPt_POKEMONTRAINER_Barry]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------#

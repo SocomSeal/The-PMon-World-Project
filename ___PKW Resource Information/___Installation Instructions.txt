@@ -1,0 +1,3 @@
+Required Plugins:
+- The Pokemon World Project Plugin Suite
+- Gen 9 Resource Pack

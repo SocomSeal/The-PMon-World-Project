@@ -1,0 +1,4522 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------#
+# Table of Contents:
+# [ITM] Regular Items
+# [HLD] Held Items
+# [MDC] Medicine Items
+# [PBL] Pokeballs
+# [HMS] Hidden Machines
+# [TMS] Technical Machines, Multi-Use
+# [TRS] Technical Records, Single-Use
+# [BRY] Berries
+# [MAIL] Mail Items
+# [BTL] Battle Items
+# [KEY] Key Items by Region
+#-------------------------------#
+# [ITM] Regular Items
+#-------------------------------#
+[INFINIREPEL]
+Name = Infini Repel
+NamePlural = Infini Repels
+Pocket = KeyItems
+Price = 0
+FieldUse = Direct
+Flags = Repel
+Consumable = false
+Description = An item that prevents weak wild Pokémon from appearing for 250 steps after its use.
+#-------------------------------
+[ESCAPEROPE_ITM]
+Name = Escape Rope
+NamePlural = Escape Ropes
+Pocket = Items
+Price = 1000
+FieldUse = Direct
+Flags = Fling_30
+Description = A long, durable rope. Use it to escape instantly from a cave or a dungeon.
+#-------------------------------#
+# [HLD] Held Items
+#-------------------------------#
+#-------------------------------#
+# [MDC] Medicine Items
+#-------------------------------#
+[INFINICANDY]
+Name = Infini Candy
+NamePlural = Infini Candies
+Pocket = KeyItems
+Price = 0
+BPPrice = 20
+FieldUse = OnPokemon
+Consumable = false
+Description = A candy that is packed with energy. It raises the level of a single Pokémon by one.
+#-------------------------------#
+# [PBL] Pokeballs
+#-------------------------------#
+#-------------------------------#
+# [HMS] Hidden Machines
+#-------------------------------#
+[HM01]
+Name = HM01
+NamePlural = HM01s
+Pocket = Machines
+Price = 0
+FieldUse = HM
+Move = CUT
+Description = The target is cut with a scythe, a claw, or the like to inflict damage. It can also be used to cut down thin trees.
+#-------------------------------
+[HM02]
+Name = HM02
+NamePlural = HM02s
+Pocket = Machines
+Price = 0
+FieldUse = HM
+Move = FLY
+Description = The user flies up on the first turn, then attacks on the next turn. This can also be used to fly to any familiar town.
+#-------------------------------
+[HM03]
+Name = HM03
+NamePlural = HM03s
+Pocket = Machines
+Price = 0
+FieldUse = HM
+Move = SURF
+Description = The user attacks by swamping the entire area with a giant wave. This can also be used for crossing water.
+#-------------------------------
+[HM04]
+Name = HM04
+NamePlural = HM04s
+Pocket = Machines
+Price = 0
+FieldUse = HM
+Move = STRENGTH
+Description = The target is slugged with a punch thrown at maximum power. This can also be used to move heavy boulders.
+#-------------------------------
+[HM05]
+Name = HM05
+NamePlural = HM05s
+Pocket = Machines
+Price = 0
+FieldUse = HM
+Move = FLASH
+Description = The user flashes a bright light that cuts the target's accuracy. It can also be used to illuminate dark caves.
+#-------------------------------
+[HM06]
+Name = HM06
+NamePlural = HM06s
+Pocket = Machines
+Price = 0
+FieldUse = HM
+Move = ROCKSMASH
+Description = The user hits with a punch that may lower the target's Defense. It can also smash cracked boulders.
+#-------------------------------
+[HM07]
+Name = HM07
+NamePlural = HM07s
+Pocket = Machines
+Price = 0
+FieldUse = HM
+Move = WATERFALL
+Description = The user charges at the target and may make it flinch. This can also be used to climb a waterfall.
+#-------------------------------
+[HM08]
+Name = HM08
+NamePlural = HM08s
+Pocket = Machines
+Price = 0
+FieldUse = HM
+Move = DIVE
+Description = The user dives on the first turn, then floats up and attacks on the next turn. This can also be used to go underwater.
+#-------------------------------
+[HM09]
+Name = HM09
+NamePlural = HM09s
+Pocket = Machines
+Price = 0
+FieldUse = HM
+Move = WHIRLPOOL
+Description = The user summons a violent, swirling whirlpool to surround targets. It can also be used to traverse whirlpools.
+#-------------------------------
+[HM10]
+Name = HM10
+NamePlural = HM10s
+Pocket = Machines
+Price = 0
+FieldUse = HM
+Move = DEFOG
+Description = Obstacles are moved, reducing the foe's evasion stat. It can also be used to clear deep fog, etc.
+#-------------------------------
+[HM11]
+Name = HM11
+NamePlural = HM11s
+Pocket = Machines
+Price = 0
+FieldUse = HM
+Move = ROCKCLIMB
+Description = A charging attack that may also leave the foe confused. It can also be used to scale rocky walls.
+#-------------------------------#
+# [TMS] Technical Machines, Multi-Use
+#-------------------------------#
+[TM001]
+Name = TM001
+NamePlural = TM001s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = MEGAPUNCH
+#-------------------------------
+[TM002]
+Name = TM002
+NamePlural = TM002s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = RAZORWIND
+#-------------------------------
+[TM003]
+Name = TM003
+NamePlural = TM003s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SWORDSDANCE
+#-------------------------------
+[TM004]
+Name = TM004
+NamePlural = TM004s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = WHIRLWIND
+#-------------------------------
+[TM005]
+Name = TM005
+NamePlural = TM005s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = MEGAKICK
+#-------------------------------
+[TM006]
+Name = TM006
+NamePlural = TM006s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TOXIC
+#-------------------------------
+[TM007]
+Name = TM007
+NamePlural = TM007s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HORNDRILL
+#-------------------------------
+[TM008]
+Name = TM008
+NamePlural = TM008s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BODYSLAM
+#-------------------------------
+[TM009]
+Name = TM009
+NamePlural = TM009s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TAKEDOWN
+#-------------------------------
+[TM010]
+Name = TM010
+NamePlural = TM010s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DOUBLEEDGE
+#-------------------------------
+[TM011]
+Name = TM011
+NamePlural = TM011s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BUBBLEBEAM
+#-------------------------------
+[TM012]
+Name = TM012
+NamePlural = TM012s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = WATERGUN
+#-------------------------------
+[TM013]
+Name = TM013
+NamePlural = TM013s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ICEBEAM
+#-------------------------------
+[TM014]
+Name = TM014
+NamePlural = TM014s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BLIZZARD
+#-------------------------------
+[TM015]
+Name = TM015
+NamePlural = TM015s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HYPERBEAM
+#-------------------------------
+[TM016]
+Name = TM016
+NamePlural = TM016s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PAYDAY
+#-------------------------------
+[TM017]
+Name = TM017
+NamePlural = TM017s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SUBMISSION
+#-------------------------------
+[TM018]
+Name = TM018
+NamePlural = TM018s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = COUNTER
+#-------------------------------
+[TM019]
+Name = TM019
+NamePlural = TM019s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SEISMICTOSS
+#-------------------------------
+[TM020]
+Name = TM020
+NamePlural = TM020s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = RAGE
+#-------------------------------
+[TM021]
+Name = TM021
+NamePlural = TM021s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = MEGADRAIN
+#-------------------------------
+[TM022]
+Name = TM022
+NamePlural = TM022s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SOLARBEAM
+#-------------------------------
+[TM023]
+Name = TM023
+NamePlural = TM023s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DRAGONRAGE
+#-------------------------------
+[TM024]
+Name = TM024
+NamePlural = TM024s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = THUNDERBOLT
+#-------------------------------
+[TM025]
+Name = TM025
+NamePlural = TM025s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = THUNDER
+#-------------------------------
+[TM026]
+Name = TM026
+NamePlural = TM026s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = EARTHQUAKE
+#-------------------------------
+[TM027]
+Name = TM027
+NamePlural = TM027s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FISSURE
+#-------------------------------
+[TM028]
+Name = TM028
+NamePlural = TM028s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DIG
+#-------------------------------
+[TM029]
+Name = TM029
+NamePlural = TM029s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PSYCHIC
+#-------------------------------
+[TM030]
+Name = TM030
+NamePlural = TM030s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TELEPORT
+#-------------------------------
+[TM031]
+Name = TM031
+NamePlural = TM031s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = MIMIC
+#-------------------------------
+[TM032]
+Name = TM032
+NamePlural = TM032s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DOUBLETEAM
+#-------------------------------
+[TM033]
+Name = TM033
+NamePlural = TM033s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = REFLECT
+#-------------------------------
+[TM034]
+Name = TM034
+NamePlural = TM034s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BIDE
+#-------------------------------
+[TM035]
+Name = TM035
+NamePlural = TM035s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = METRONOME
+#-------------------------------
+[TM036]
+Name = TM036
+NamePlural = TM036s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SELFDESTRUCT
+#-------------------------------
+[TM037]
+Name = TM037
+NamePlural = TM037s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = EGGBOMB
+#-------------------------------
+[TM038]
+Name = TM038
+NamePlural = TM038s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FIREBLAST
+#-------------------------------
+[TM039]
+Name = TM039
+NamePlural = TM039s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SWIFT
+#-------------------------------
+[TM040]
+Name = TM040
+NamePlural = TM040s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SKULLBASH
+#-------------------------------
+[TM041]
+Name = TM041
+NamePlural = TM041s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SOFTBOILED
+#-------------------------------
+[TM042]
+Name = TM042
+NamePlural = TM042s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DREAMEATER
+#-------------------------------
+[TM043]
+Name = TM043
+NamePlural = TM043s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SKYATTACK
+#-------------------------------
+[TM044]
+Name = TM044
+NamePlural = TM044s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = REST
+#-------------------------------
+[TM045]
+Name = TM045
+NamePlural = TM045s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = THUNDERWAVE
+#-------------------------------
+[TM046]
+Name = TM046
+NamePlural = TM046s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PSYWAVE
+#-------------------------------
+[TM047]
+Name = TM047
+NamePlural = TM047s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = EXPLOSION
+#-------------------------------
+[TM048]
+Name = TM048
+NamePlural = TM048s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ROCKSLIDE
+#-------------------------------
+[TM049]
+Name = TM049
+NamePlural = TM049s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TRIATTACK
+#-------------------------------
+[TM050]
+Name = TM050
+NamePlural = TM050s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SUBSTITUTE
+#-------------------------------
+[TM051]
+Name = TM051
+NamePlural = TM051s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DYNAMICPUNCH
+#-------------------------------
+[TM052]
+Name = TM052
+NamePlural = TM052s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HEADBUTT
+#-------------------------------
+[TM053]
+Name = TM053
+NamePlural = TM053s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = CURSE
+#-------------------------------
+[TM054]
+Name = TM054
+NamePlural = TM054s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ROLLOUT
+#-------------------------------
+[TM055]
+Name = TM055
+NamePlural = TM055s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ROAR
+#-------------------------------
+[TM056]
+Name = TM056
+NamePlural = TM056s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ZAPCANNON
+#-------------------------------
+[TM057]
+Name = TM057
+NamePlural = TM057s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PSYCHUP
+#-------------------------------
+[TM058]
+Name = TM058
+NamePlural = TM058s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HIDDENPOWER
+#-------------------------------
+[TM059]
+Name = TM059
+NamePlural = TM059s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SUNNYDAY
+#-------------------------------
+[TM060]
+Name = TM060
+NamePlural = TM060s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SWEETSCENT
+#-------------------------------
+[TM061]
+Name = TM061
+NamePlural = TM061s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SNORE
+#-------------------------------
+[TM062]
+Name = TM062
+NamePlural = TM062s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ICYWIND
+#-------------------------------
+[TM063]
+Name = TM063
+NamePlural = TM063s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PROTECT
+#-------------------------------
+[TM064]
+Name = TM064
+NamePlural = TM064s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = RAINDANCE
+#-------------------------------
+[TM065]
+Name = TM065
+NamePlural = TM065s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = GIGADRAIN
+#-------------------------------
+[TM066]
+Name = TM066
+NamePlural = TM066s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ENDURE
+#-------------------------------
+[TM067]
+Name = TM067
+NamePlural = TM067s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FRUSTRATION
+#-------------------------------
+[TM068]
+Name = TM068
+NamePlural = TM068s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = IRONTAIL
+#-------------------------------
+[TM069]
+Name = TM069
+NamePlural = TM069s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DRAGONBREATH
+#-------------------------------
+[TM070]
+Name = TM070
+NamePlural = TM070s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = RETURN
+#-------------------------------
+[TM071]
+Name = TM071
+NamePlural = TM071s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SHADOWBALL
+#-------------------------------
+[TM072]
+Name = TM072
+NamePlural = TM072s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = MUDSLAP
+#-------------------------------
+[TM073]
+Name = TM073
+NamePlural = TM073s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ICEPUNCH
+#-------------------------------
+[TM074]
+Name = TM074
+NamePlural = TM074s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SWAGGER
+#-------------------------------
+[TM075]
+Name = TM075
+NamePlural = TM075s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SLEEPTALK
+#-------------------------------
+[TM076]
+Name = TM076
+NamePlural = TM076s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SLUDGEBOMB
+#-------------------------------
+[TM077]
+Name = TM077
+NamePlural = TM077s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SANDSTORM
+#-------------------------------
+[TM078]
+Name = TM078
+NamePlural = TM078s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DEFENSECURL
+#-------------------------------
+[TM079]
+Name = TM079
+NamePlural = TM079s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = THUNDERPUNCH
+#-------------------------------
+[TM080]
+Name = TM080
+NamePlural = TM080s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DETECT
+#-------------------------------
+[TM081]
+Name = TM081
+NamePlural = TM081s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ATTRACT
+#-------------------------------
+[TM082]
+Name = TM082
+NamePlural = TM082s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = THIEF
+#-------------------------------
+[TM083]
+Name = TM083
+NamePlural = TM083s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = STEELWING
+#-------------------------------
+[TM084]
+Name = TM084
+NamePlural = TM084s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FIREPUNCH
+#-------------------------------
+[TM085]
+Name = TM085
+NamePlural = TM085s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FURYCUTTER
+#-------------------------------
+[TM086]
+Name = TM086
+NamePlural = TM086s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = NIGHTMARE
+#-------------------------------
+[TM087]
+Name = TM087
+NamePlural = TM087s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FOCUSPUNCH
+#-------------------------------
+[TM088]
+Name = TM088
+NamePlural = TM088s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DRAGONCLAW
+#-------------------------------
+[TM089]
+Name = TM089
+NamePlural = TM089s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = WATERPULSE
+#-------------------------------
+[TM090]
+Name = TM090
+NamePlural = TM090s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = CALMMIND
+#-------------------------------
+[TM091]
+Name = TM091
+NamePlural = TM091s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HAIL
+#-------------------------------
+[TM092]
+Name = TM092
+NamePlural = TM092s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BULKUP
+#-------------------------------
+[TM093]
+Name = TM093
+NamePlural = TM093s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BULLETSEED
+#-------------------------------
+[TM094]
+Name = TM094
+NamePlural = TM094s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TAUNT
+#-------------------------------
+[TM095]
+Name = TM095
+NamePlural = TM095s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = LIGHTSCREEN
+#-------------------------------
+[TM096]
+Name = TM096
+NamePlural = TM096s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SAFEGUARD
+#-------------------------------
+[TM097]
+Name = TM097
+NamePlural = TM097s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BRICKBREAK
+#-------------------------------
+[TM098]
+Name = TM098
+NamePlural = TM098s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SHOCKWAVE
+#-------------------------------
+[TM099]
+Name = TM099
+NamePlural = TM099s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FLAMETHROWER
+#-------------------------------
+[TM100]
+Name = TM100
+NamePlural = TM100s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ROCKTOMB
+#-------------------------------
+[TM101]
+Name = TM101
+NamePlural = TM101s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = AERIALACE
+#-------------------------------
+[TM102]
+Name = TM102
+NamePlural = TM102s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TORMENT
+#-------------------------------
+[TM103]
+Name = TM103
+NamePlural = TM103s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FACADE
+#-------------------------------
+[TM104]
+Name = TM104
+NamePlural = TM104s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SECRETPOWER
+#-------------------------------
+[TM105]
+Name = TM105
+NamePlural = TM105s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SKILLSWAP
+#-------------------------------
+[TM106]
+Name = TM106
+NamePlural = TM106s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SNATCH
+#-------------------------------
+[TM107]
+Name = TM107
+NamePlural = TM107s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = OVERHEAT
+#-------------------------------
+[TM108]
+Name = TM108
+NamePlural = TM108s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ROOST
+#-------------------------------
+[TM109]
+Name = TM109
+NamePlural = TM109s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FOCUSBLAST
+#-------------------------------
+[TM110]
+Name = TM110
+NamePlural = TM110s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ENERGYBALL
+#-------------------------------
+[TM111]
+Name = TM111
+NamePlural = TM111s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FALSESWIPE
+#-------------------------------
+[TM112]
+Name = TM112
+NamePlural = TM112s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BRINE
+#-------------------------------
+[TM113]
+Name = TM113
+NamePlural = TM113s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FLING
+#-------------------------------
+[TM114]
+Name = TM114
+NamePlural = TM114s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = CHARGEBEAM
+#-------------------------------
+[TM115]
+Name = TM115
+NamePlural = TM115s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DRAGONPULSE
+#-------------------------------
+[TM116]
+Name = TM116
+NamePlural = TM116s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DRAINPUNCH
+#-------------------------------
+[TM117]
+Name = TM117
+NamePlural = TM117s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = WILLOWISP
+#-------------------------------
+[TM118]
+Name = TM118
+NamePlural = TM118s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SILVERWIND
+#-------------------------------
+[TM119]
+Name = TM119
+NamePlural = TM119s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = EMBARGO
+#-------------------------------
+[TM120]
+Name = TM120
+NamePlural = TM120s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SHADOWCLAW
+#-------------------------------
+[TM121]
+Name = TM121
+NamePlural = TM121s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PAYBACK
+#-------------------------------
+[TM122]
+Name = TM122
+NamePlural = TM122s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = RECYCLE
+#-------------------------------
+[TM123]
+Name = TM123
+NamePlural = TM123s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = GIGAIMPACT
+#-------------------------------
+[TM124]
+Name = TM124
+NamePlural = TM124s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ROCKPOLISH
+#-------------------------------
+[TM125]
+Name = TM125
+NamePlural = TM125s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = STONEEDGE
+#-------------------------------
+[TM126]
+Name = TM126
+NamePlural = TM126s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = AVALANCHE
+#-------------------------------
+[TM127]
+Name = TM127
+NamePlural = TM127s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = GYROBALL
+#-------------------------------
+[TM128]
+Name = TM128
+NamePlural = TM128s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = STEALTHROCK
+#-------------------------------
+[TM129]
+Name = TM129
+NamePlural = TM129s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = CAPTIVATE
+#-------------------------------
+[TM130]
+Name = TM130
+NamePlural = TM130s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DARKPULSE
+#-------------------------------
+[TM131]
+Name = TM131
+NamePlural = TM131s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = XSCISSOR
+#-------------------------------
+[TM132]
+Name = TM132
+NamePlural = TM132s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = NATURALGIFT
+#-------------------------------
+[TM133]
+Name = TM133
+NamePlural = TM133s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = POISONJAB
+#-------------------------------
+[TM134]
+Name = TM134
+NamePlural = TM134s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = GRASSKNOT
+#-------------------------------
+[TM135]
+Name = TM135
+NamePlural = TM135s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PLUCK
+#-------------------------------
+[TM136]
+Name = TM136
+NamePlural = TM136s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = UTURN
+#-------------------------------
+[TM137]
+Name = TM137
+NamePlural = TM137s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FLASHCANNON
+#-------------------------------
+[TM138]
+Name = TM138
+NamePlural = TM138s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TRICKROOM
+#-------------------------------
+[TM139]
+Name = TM139
+NamePlural = TM139s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HONECLAWS
+#-------------------------------
+[TM140]
+Name = TM140
+NamePlural = TM140s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PSYSHOCK
+#-------------------------------
+[TM141]
+Name = TM141
+NamePlural = TM141s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = VENOSHOCK
+#-------------------------------
+[TM142]
+Name = TM142
+NamePlural = TM142s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TELEKINESIS
+#-------------------------------
+[TM143]
+Name = TM143
+NamePlural = TM143s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SMACKDOWN
+#-------------------------------
+[TM144]
+Name = TM144
+NamePlural = TM144s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SLUDGEWAVE
+#-------------------------------
+[TM145]
+Name = TM145
+NamePlural = TM145s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FLAMECHARGE
+#-------------------------------
+[TM146]
+Name = TM146
+NamePlural = TM146s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = LOWSWEEP
+#-------------------------------
+[TM147]
+Name = TM147
+NamePlural = TM147s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ROUND
+#-------------------------------
+[TM148]
+Name = TM148
+NamePlural = TM148s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ECHOEDVOICE
+#-------------------------------
+[TM149]
+Name = TM149
+NamePlural = TM149s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ALLYSWITCH
+#-------------------------------
+[TM150]
+Name = TM150
+NamePlural = TM150s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SCALD
+#-------------------------------
+[TM151]
+Name = TM151
+NamePlural = TM151s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SKYDROP
+#-------------------------------
+[TM152]
+Name = TM152
+NamePlural = TM152s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = INCINERATE
+#-------------------------------
+[TM153]
+Name = TM153
+NamePlural = TM153s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = QUASH
+#-------------------------------
+[TM154]
+Name = TM154
+NamePlural = TM154s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ACROBATICS
+#-------------------------------
+[TM155]
+Name = TM155
+NamePlural = TM155s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = RETALIATE
+#-------------------------------
+[TM156]
+Name = TM156
+NamePlural = TM156s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = VOLTSWITCH
+#-------------------------------
+[TM157]
+Name = TM157
+NamePlural = TM157s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = STRUGGLEBUG
+#-------------------------------
+[TM158]
+Name = TM158
+NamePlural = TM158s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BULLDOZE
+#-------------------------------
+[TM159]
+Name = TM159
+NamePlural = TM159s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FROSTBREATH
+#-------------------------------
+[TM160]
+Name = TM160
+NamePlural = TM160s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DRAGONTAIL
+#-------------------------------
+[TM161]
+Name = TM161
+NamePlural = TM161s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = WORKUP
+#-------------------------------
+[TM162]
+Name = TM162
+NamePlural = TM162s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = WILDCHARGE
+#-------------------------------
+[TM163]
+Name = TM163
+NamePlural = TM163s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SNARL
+#-------------------------------
+[TM164]
+Name = TM164
+NamePlural = TM164s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SOLARBEAM
+#-------------------------------
+[TM165]
+Name = TM165
+NamePlural = TM165s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = INFESTATION
+#-------------------------------
+[TM166]
+Name = TM166
+NamePlural = TM166s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SECRETPOWER
+#-------------------------------
+[TM167]
+Name = TM167
+NamePlural = TM167s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = NATUREPOWER
+#-------------------------------
+[TM168]
+Name = TM168
+NamePlural = TM168s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = POWERUPPUNCH
+#-------------------------------
+[TM169]
+Name = TM169
+NamePlural = TM169s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DAZZLINGGLEAM
+#-------------------------------
+[TM170]
+Name = TM170
+NamePlural = TM170s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = CONFIDE
+#-------------------------------
+[TM171]
+Name = TM171
+NamePlural = TM171s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = LEECHLIFE
+#-------------------------------
+[TM172]
+Name = TM172
+NamePlural = TM172s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BRUTALSWING
+#-------------------------------
+[TM173]
+Name = TM173
+NamePlural = TM173s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SMARTSTRIKE
+#-------------------------------
+[TM174]
+Name = TM174
+NamePlural = TM174s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = AURORAVEIL
+#-------------------------------
+[TM175]
+Name = TM175
+NamePlural = TM175s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HELPINGHAND
+#-------------------------------
+[TM176]
+Name = TM176
+NamePlural = TM176s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FOULPLAY
+#-------------------------------
+[TM177]
+Name = TM177
+NamePlural = TM177s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = THUNDERPUNCH
+#-------------------------------
+[TM178]
+Name = TM178
+NamePlural = TM178s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = OUTRAGE
+#-------------------------------
+[TM179]
+Name = TM179
+NamePlural = TM179s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SELFDESTRUCT
+#-------------------------------
+[TM180]
+Name = TM180
+NamePlural = TM180s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PLAYROUGH
+#-------------------------------
+[TM181]
+Name = TM181
+NamePlural = TM181s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SUPERPOWER
+#-------------------------------
+[TM182]
+Name = TM182
+NamePlural = TM182s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DRILLRUN
+#-------------------------------
+[TM183]
+Name = TM183
+NamePlural = TM183s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = MEGAHORN
+#-------------------------------
+[TM184]
+Name = TM184
+NamePlural = TM184s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PINMISSILE
+#-------------------------------
+[TM185]
+Name = TM185
+NamePlural = TM185s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = MAGICALLEAF
+#-------------------------------
+[TM186]
+Name = TM186
+NamePlural = TM186s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SOLARBLADE
+#-------------------------------
+[TM187]
+Name = TM187
+NamePlural = TM187s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FIRESPIN
+#-------------------------------
+[TM188]
+Name = TM188
+NamePlural = TM188s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SCREECH
+#-------------------------------
+[TM189]
+Name = TM189
+NamePlural = TM189s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SCARYFACE
+#-------------------------------
+[TM190]
+Name = TM190
+NamePlural = TM190s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = CHARM
+#-------------------------------
+[TM191]
+Name = TM191
+NamePlural = TM191s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BEATUP
+#-------------------------------
+[TM192]
+Name = TM192
+NamePlural = TM192s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = REVENGE
+#-------------------------------
+[TM193]
+Name = TM193
+NamePlural = TM193s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = IMPRISON
+#-------------------------------
+[TM194]
+Name = TM194
+NamePlural = TM194s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = WEATHERBALL
+#-------------------------------
+[TM195]
+Name = TM195
+NamePlural = TM195s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FAKETEARS
+#-------------------------------
+[TM196]
+Name = TM196
+NamePlural = TM196s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SANDTOMB
+#-------------------------------
+[TM197]
+Name = TM197
+NamePlural = TM197s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ICICLESPEAR
+#-------------------------------
+[TM198]
+Name = TM198
+NamePlural = TM198s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BOUNCE
+#-------------------------------
+[TM199]
+Name = TM199
+NamePlural = TM199s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = MUDSHOT
+#-------------------------------
+[TM200]
+Name = TM200
+NamePlural = TM200s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ROCKBLAST
+#-------------------------------
+[TM201]
+Name = TM201
+NamePlural = TM201s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ASSURANCE
+#-------------------------------
+[TM202]
+Name = TM202
+NamePlural = TM202s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = POWERSWAP
+#-------------------------------
+[TM203]
+Name = TM203
+NamePlural = TM203s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = GUARDSWAP
+#-------------------------------
+[TM204]
+Name = TM204
+NamePlural = TM204s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SPEEDSWAP
+#-------------------------------
+[TM205]
+Name = TM205
+NamePlural = TM205s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = THUNDERFANG
+#-------------------------------
+[TM206]
+Name = TM206
+NamePlural = TM206s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ICEFANG
+#-------------------------------
+[TM207]
+Name = TM207
+NamePlural = TM207s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FIREFANG
+#-------------------------------
+[TM208]
+Name = TM208
+NamePlural = TM208s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PSYCHOCUT
+#-------------------------------
+[TM209]
+Name = TM209
+NamePlural = TM209s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = WONDERROOM
+#-------------------------------
+[TM210]
+Name = TM210
+NamePlural = TM210s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = MAGICROOM
+#-------------------------------
+[TM211]
+Name = TM211
+NamePlural = TM211s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = CROSSPOISON
+#-------------------------------
+[TM212]
+Name = TM212
+NamePlural = TM212s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HEX
+#-------------------------------
+[TM213]
+Name = TM213
+NamePlural = TM213s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ELECTROWEB
+#-------------------------------
+[TM214]
+Name = TM214
+NamePlural = TM214s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = RAZORSHELL
+#-------------------------------
+[TM215]
+Name = TM215
+NamePlural = TM215s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TAILSLAP
+#-------------------------------
+[TM216]
+Name = TM216
+NamePlural = TM216s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PHANTOMFORCE
+#-------------------------------
+[TM217]
+Name = TM217
+NamePlural = TM217s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DRAININGKISS
+#-------------------------------
+[TM218]
+Name = TM218
+NamePlural = TM218s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = GRASSYTERRAIN
+#-------------------------------
+[TM219]
+Name = TM219
+NamePlural = TM219s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = MISTYTERRAIN
+#-------------------------------
+[TM220]
+Name = TM220
+NamePlural = TM220s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ELECTRICTERRAIN
+#-------------------------------
+[TM221]
+Name = TM221
+NamePlural = TM221s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PSYCHICTERRAIN
+#-------------------------------
+[TM222]
+Name = TM222
+NamePlural = TM222s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = MYSTICALFIRE
+#-------------------------------
+[TM223]
+Name = TM223
+NamePlural = TM223s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = EERIEIMPULSE
+#-------------------------------
+[TM224]
+Name = TM224
+NamePlural = TM224s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = AIRSLASH
+#-------------------------------
+[TM225]
+Name = TM225
+NamePlural = TM225s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = STOMPINGTANTRUM
+#-------------------------------
+[TM226]
+Name = TM226
+NamePlural = TM226s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BREAKINGSWIPE
+#-------------------------------
+[TM227]
+Name = TM227
+NamePlural = TM227s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BUGBUZZ
+#-------------------------------
+[TM228]
+Name = TM228
+NamePlural = TM228s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = NASTYPLOT
+#-------------------------------
+[TM229]
+Name = TM229
+NamePlural = TM229s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = AGILITY
+#-------------------------------
+[TM230]
+Name = TM230
+NamePlural = TM230s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = LOWKICK
+#-------------------------------
+[TM231]
+Name = TM231
+NamePlural = TM231s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ACIDSPRAY
+#-------------------------------
+[TM232]
+Name = TM232
+NamePlural = TM232s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PSYBEAM
+#-------------------------------
+[TM233]
+Name = TM233
+NamePlural = TM233s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = CONFUSERAY
+#-------------------------------
+[TM234]
+Name = TM234
+NamePlural = TM234s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DISARMINGVOICE
+#-------------------------------
+[TM235]
+Name = TM235
+NamePlural = TM235s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TRAILBLAZE
+#-------------------------------
+[TM236]
+Name = TM236
+NamePlural = TM236s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = POUNCE
+#-------------------------------
+[TM237]
+Name = TM237
+NamePlural = TM237s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = CHILLINGWATER
+#-------------------------------
+[TM238]
+Name = TM238
+NamePlural = TM238s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = POISONTAIL
+#-------------------------------
+[TM239]
+Name = TM239
+NamePlural = TM239s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = METALCLAW
+#-------------------------------
+[TM240]
+Name = TM240
+NamePlural = TM240s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = AIRCUTTER
+#-------------------------------
+[TM241]
+Name = TM241
+NamePlural = TM241s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = STOREDPOWER
+#-------------------------------
+[TM242]
+Name = TM242
+NamePlural = TM242s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = NIGHTSHADE
+#-------------------------------
+[TM243]
+Name = TM243
+NamePlural = TM243s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SNOWSCAPE
+#-------------------------------
+[TM244]
+Name = TM244
+NamePlural = TM244s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ZENHEADBUTT
+#-------------------------------
+[TM245]
+Name = TM245
+NamePlural = TM245s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PSYCHICFANGS
+#-------------------------------
+[TM246]
+Name = TM246
+NamePlural = TM246s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SEEDBOMB
+#-------------------------------
+[TM247]
+Name = TM247
+NamePlural = TM247s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ELECTROBALL
+#-------------------------------
+[TM248]
+Name = TM248
+NamePlural = TM248s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BODYPRESS
+#-------------------------------
+[TM249]
+Name = TM249
+NamePlural = TM249s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SPIKES
+#-------------------------------
+[TM250]
+Name = TM250
+NamePlural = TM250s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TOXICSPIKES
+#-------------------------------
+[TM251]
+Name = TM251
+NamePlural = TM251s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = IRONHEAD
+#-------------------------------
+[TM252]
+Name = TM252
+NamePlural = TM252s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DRAGONDANCE
+#-------------------------------
+[TM253]
+Name = TM253
+NamePlural = TM253s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = POWERGEM
+#-------------------------------
+[TM254]
+Name = TM254
+NamePlural = TM254s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = GUNKSHOT
+#-------------------------------
+[TM255]
+Name = TM255
+NamePlural = TM255s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = IRONDEFENSE
+#-------------------------------
+[TM256]
+Name = TM256
+NamePlural = TM256s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = CRUNCH
+#-------------------------------
+[TM257]
+Name = TM257
+NamePlural = TM257s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TRICK
+#-------------------------------
+[TM258]
+Name = TM258
+NamePlural = TM258s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = LIQUIDATION
+#-------------------------------
+[TM259]
+Name = TM259
+NamePlural = TM259s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = AURASPHERE
+#-------------------------------
+[TM260]
+Name = TM260
+NamePlural = TM260s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TAILWIND
+#-------------------------------
+[TM261]
+Name = TM261
+NamePlural = TM261s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HYPERVOICE
+#-------------------------------
+[TM262]
+Name = TM262
+NamePlural = TM262s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HEATWAVE
+#-------------------------------
+[TM263]
+Name = TM263
+NamePlural = TM263s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HEAVYSLAM
+#-------------------------------
+[TM264]
+Name = TM264
+NamePlural = TM264s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ENCORE
+#-------------------------------
+[TM265]
+Name = TM265
+NamePlural = TM265s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ICESPINNER
+#-------------------------------
+[TM266]
+Name = TM266
+NamePlural = TM266s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = AMNESIA
+#-------------------------------
+[TM267]
+Name = TM267
+NamePlural = TM267s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = POLLENPUFF
+#-------------------------------
+[TM268]
+Name = TM268
+NamePlural = TM268s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BATONPASS
+#-------------------------------
+[TM269]
+Name = TM269
+NamePlural = TM269s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = EARTHPOWER
+#-------------------------------
+[TM270]
+Name = TM270
+NamePlural = TM270s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = REVERSAL
+#-------------------------------
+[TM271]
+Name = TM271
+NamePlural = TM271s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HYDROPUMP
+#-------------------------------
+[TM272]
+Name = TM272
+NamePlural = TM272s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FIREPLEDGE
+#-------------------------------
+[TM273]
+Name = TM273
+NamePlural = TM273s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = WATERPLEDGE
+#-------------------------------
+[TM274]
+Name = TM274
+NamePlural = TM274s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = GRASSPLEDGE
+#-------------------------------
+[TM275]
+Name = TM275
+NamePlural = TM275s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BLASTBURN
+#-------------------------------
+[TM276]
+Name = TM276
+NamePlural = TM276s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HYDROCANNON
+#-------------------------------
+[TM277]
+Name = TM277
+NamePlural = TM277s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FRENZYPLANT
+#-------------------------------
+[TM278]
+Name = TM278
+NamePlural = TM278s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = LEAFSTORM
+#-------------------------------
+[TM279]
+Name = TM279
+NamePlural = TM279s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HURRICANE
+#-------------------------------
+[TM280]
+Name = TM280
+NamePlural = TM280s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BRAVEBIRD
+#-------------------------------
+[TM281]
+Name = TM281
+NamePlural = TM281s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FLAREBLITZ
+#-------------------------------
+[TM282]
+Name = TM282
+NamePlural = TM282s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = CLOSECOMBAT
+#-------------------------------
+[TM283]
+Name = TM283
+NamePlural = TM283s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DRACOMETEOR
+#-------------------------------
+[TM284]
+Name = TM284
+NamePlural = TM284s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = STEELBEAM
+#-------------------------------
+[TM285]
+Name = TM285
+NamePlural = TM285s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TERABLAST
+#-------------------------------
+[TM286]
+Name = TM286
+NamePlural = TM286s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = CHARGE
+#-------------------------------
+[TM287]
+Name = TM287
+NamePlural = TM287s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HAZE
+#-------------------------------
+[TM288]
+Name = TM288
+NamePlural = TM288s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SPITE
+#-------------------------------
+[TM289]
+Name = TM289
+NamePlural = TM289s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = GRAVITY
+#-------------------------------
+[TM290]
+Name = TM290
+NamePlural = TM290s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = KNOCKOFF
+#-------------------------------
+[TM291]
+Name = TM291
+NamePlural = TM291s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BUGBITE
+#-------------------------------
+[TM292]
+Name = TM292
+NamePlural = TM292s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SUPERFANG
+#-------------------------------
+[TM293]
+Name = TM293
+NamePlural = TM293s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = VACUUMWAVE
+#-------------------------------
+[TM294]
+Name = TM294
+NamePlural = TM294s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = LUNGE
+#-------------------------------
+[TM295]
+Name = TM295
+NamePlural = TM295s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HIGHHORSEPOWER
+#-------------------------------
+[TM296]
+Name = TM296
+NamePlural = TM296s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HEATCRASH
+#-------------------------------
+[TM297]
+Name = TM297
+NamePlural = TM297s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = UPROAR
+#-------------------------------
+[TM298]
+Name = TM298
+NamePlural = TM298s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = GRASSYGLIDE
+#-------------------------------
+[TM299]
+Name = TM299
+NamePlural = TM299s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BURNINGJEALOUSY
+#-------------------------------
+[TM300]
+Name = TM300
+NamePlural = TM300s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FLIPTURN
+#-------------------------------
+[TM301]
+Name = TM301
+NamePlural = TM301s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DUALWINGBEAT
+#-------------------------------
+[TM302]
+Name = TM302
+NamePlural = TM302s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = POLTERGEIST
+#-------------------------------
+[TM303]
+Name = TM303
+NamePlural = TM303s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = LASHOUT
+#-------------------------------
+[TM304]
+Name = TM304
+NamePlural = TM304s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SCALESHOT
+#-------------------------------
+[TM305]
+Name = TM305
+NamePlural = TM305s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = MISTYEXPLOSION
+#-------------------------------
+[TM306]
+Name = TM306
+NamePlural = TM306s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PAINSPLIT
+#-------------------------------
+[TM307]
+Name = TM307
+NamePlural = TM307s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ENDEAVOR
+#-------------------------------
+[TM308]
+Name = TM308
+NamePlural = TM308s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PETALBLIZZARD
+#-------------------------------
+[TM309]
+Name = TM309
+NamePlural = TM309s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TEMPERFLARE
+#-------------------------------
+[TM310]
+Name = TM310
+NamePlural = TM310s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = MUDDYWATER
+#-------------------------------
+[TM311]
+Name = TM311
+NamePlural = TM311s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SUPERCELLSLAM
+#-------------------------------
+[TM312]
+Name = TM312
+NamePlural = TM312s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TRIPLEAXEL
+#-------------------------------
+[TM313]
+Name = TM313
+NamePlural = TM313s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = COACHING
+#-------------------------------
+[TM314]
+Name = TM314
+NamePlural = TM314s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SCORCHINGSANDS
+#-------------------------------
+[TM315]
+Name = TM315
+NamePlural = TM315s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FEATHERDANCE
+#-------------------------------
+[TM316]
+Name = TM316
+NamePlural = TM316s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FUTURESIGHT
+#-------------------------------
+[TM317]
+Name = TM317
+NamePlural = TM317s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = EXPANDINGFORCE
+#-------------------------------
+[TM318]
+Name = TM318
+NamePlural = TM318s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SKITTERSMACK
+#-------------------------------
+[TM319]
+Name = TM319
+NamePlural = TM319s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = METEORBEAM
+#-------------------------------
+[TM320]
+Name = TM320
+NamePlural = TM320s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = THROATCHOP
+#-------------------------------
+[TM321]
+Name = TM321
+NamePlural = TM321s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = METALSOUND
+#-------------------------------
+[TM322]
+Name = TM322
+NamePlural = TM322s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HARDPRESS
+#-------------------------------
+[TM323]
+Name = TM323
+NamePlural = TM323s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DRAGONCHEER
+#-------------------------------
+[TM324]
+Name = TM324
+NamePlural = TM324s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ALLURINGVOICE
+#-------------------------------
+[TM325]
+Name = TM325
+NamePlural = TM325s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = PSYCHICNOISE
+#-------------------------------
+[TM326]
+Name = TM326
+NamePlural = TM326s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = UPPERHAND
+#-------------------------------
+[TM327]
+Name = TM327
+NamePlural = TM327s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ROLEPLAY
+#-------------------------------
+[TM328]
+Name = TM328
+NamePlural = TM328s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = FAKEOUT
+#-------------------------------
+[TM329]
+Name = TM329
+NamePlural = TM329s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = OMINOUSWIND
+#-------------------------------
+[TM330]
+Name = TM330
+NamePlural = TM330s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SUCKERPUNCH
+#-------------------------------
+[TM331]
+Name = TM331
+NamePlural = TM331s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SYNTHESIS
+#-------------------------------
+[TM332]
+Name = TM332
+NamePlural = TM332s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = MAGNETRISE
+#-------------------------------
+[TM333]
+Name = TM333
+NamePlural = TM333s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = LASTRESORT
+#-------------------------------
+[TM334]
+Name = TM334
+NamePlural = TM334s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TWISTER
+#-------------------------------
+[TM335]
+Name = TM335
+NamePlural = TM335s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SIGNALBEAM
+#-------------------------------
+[TM336]
+Name = TM336
+NamePlural = TM336s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = GASTROACID
+#-------------------------------
+[TM337]
+Name = TM337
+NamePlural = TM337s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = AQUATAIL
+#-------------------------------
+[TM338]
+Name = TM338
+NamePlural = TM338s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ANCIENTPOWER
+#-------------------------------
+[TM339]
+Name = TM339
+NamePlural = TM339s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = WORRYSEED
+#-------------------------------
+[TM340]
+Name = TM340
+NamePlural = TM340s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = STRINGSHOT
+#-------------------------------
+[TM341]
+Name = TM341
+NamePlural = TM341s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = MAGICCOAT
+#-------------------------------
+[TM342]
+Name = TM342
+NamePlural = TM342s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = HEALBELL
+#-------------------------------
+[TM343]
+Name = TM343
+NamePlural = TM343s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BLOCK
+#-------------------------------
+[TM344]
+Name = TM344
+NamePlural = TM344s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = SECRETSWORD
+#-------------------------------
+[TM345]
+Name = TM345
+NamePlural = TM345s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = RELICSONG
+#-------------------------------
+[TM346]
+Name = TM346
+NamePlural = TM346s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DRAGONASCENT
+#-------------------------------
+[TM347]
+Name = TM347
+NamePlural = TM347s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = DUALCHOP
+#-------------------------------
+[TM348]
+Name = TM348
+NamePlural = TM348s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = COVET
+#-------------------------------
+[TM349]
+Name = TM349
+NamePlural = TM349s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BIND
+#-------------------------------
+[TM350]
+Name = TM350
+NamePlural = TM350s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = AFTERYOU
+#-------------------------------
+[TM351]
+Name = TM351
+NamePlural = TM351s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = VOLTTACKLE
+#-------------------------------
+[TM352]
+Name = TM352
+NamePlural = TM352s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ENDEAVOR
+#-------------------------------
+[TM353]
+Name = TM353
+NamePlural = TM353s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = LASERFOCUS
+#-------------------------------
+[TM354]
+Name = TM354
+NamePlural = TM354s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = STEELROLLER
+#-------------------------------
+[TM355]
+Name = TM355
+NamePlural = TM355s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = CORROSIVEGAS
+#-------------------------------
+[TM356]
+Name = TM356
+NamePlural = TM356s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = RISINGVOLTAGE
+#-------------------------------
+[TM357]
+Name = TM357
+NamePlural = TM357s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = TERRAINPULSE
+#-------------------------------
+[TM358]
+Name = TM358
+NamePlural = TM358s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = BABYDOLLEYES
+#-------------------------------
+[TM359]
+Name = TM359
+NamePlural = TM359s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = POWERSHIFT
+#-------------------------------
+[TM360]
+Name = TM360
+NamePlural = TM360s
+Pocket = Machines
+Price = 3000
+BPPrice = 32
+FieldUse = TM
+Flags = Fling_150
+Move = ICEBALL
+#-------------------------------#
+# [TRS] Technical Records, Single-Use
+#-------------------------------#
+#-------------------------------#
+# [BRY] Berries
+#-------------------------------#
+#-------------------------------#
+# [MAIL] Mail Items
+#-------------------------------#
+[BLUESKYMAIL]
+Name = Blue Sky Mail
+NamePlural = Blue Sky Mail
+PortionName = piece of Blue Sky Mail
+PortionNamePlural = pieces of Blue Sky Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Sky-print Mail. Let a Pokémon hold it for delivery.
+#-------------------------------
+[EONMAIL]
+Name = Eon Mail
+NamePlural = Eon Mail
+PortionName = piece of Eon Mail
+PortionNamePlural = pieces of Eon Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Eevee-print Mail. Let a Pokémon hold it for delivery.
+#-------------------------------
+[FLOWERMAIL]
+Name = Flower Mail
+NamePlural = Flower Mail
+PortionName = piece of Flower Mail
+PortionNamePlural = pieces of Flower Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Flower-print Mail. Let a Pokémon hold it for delivery.
+#-------------------------------
+[LITEBLUEMAIL]
+Name = Light-Blue Mail
+NamePlural = Light-Blue Mail
+PortionName = piece of Light-Blue Mail
+PortionNamePlural = pieces of Light-Blue Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Dratini-print Mail. Let a Pokémon hold it for delivery.
+#-------------------------------
+[LOVELYMAIL]
+Name = Lovely Mail
+NamePlural = Lovely Mail
+PortionName = piece of Lovely Mail
+PortionNamePlural = pieces of Lovely Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Heart-print Mail. Let a Pokémon hold it for delivery.
+#-------------------------------
+[MIRAGEMAIL]
+Name = Mirage Mail
+NamePlural = Mirage Mail
+PortionName = piece of Mirage Mail
+PortionNamePlural = pieces of Mirage Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Mew-print Mail. Let a Pokémon hold it for delivery.
+#-------------------------------
+[MORPHMAIL]
+Name = Morph Mail
+NamePlural = Morph Mail
+PortionName = piece of Morph Mail
+PortionNamePlural = pieces of Morph Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Ditto-print Mail. Let a Pokémon hold it for delivery.
+#-------------------------------
+[MUSICMAIL]
+Name = Music Mail
+NamePlural = Music Mail
+PortionName = piece of Music Mail
+PortionNamePlural = pieces of Music Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Natu-print Mail. Let a Pokémon hold it for delivery.
+#-------------------------------
+[PORTRAITMAIL]
+Name = Portrait Mail
+NamePlural = Portrait Mail
+PortionName = piece of Portrait Mail
+PortionNamePlural = pieces of Portrait Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Mail featuring the holder's likeness. Let a Pokémon hold it for delivery.
+#-------------------------------
+[SURFMAIL]
+Name = Surf Mail
+NamePlural = Surf Mail
+PortionName = piece of Surf Mail
+PortionNamePlural = pieces of Surf Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Lapras-print Mail. Let a Pokémon hold it for delivery.
+#-------------------------------
+[BEADMAIL]
+Name = Bead Mail
+NamePlural = Bead Mail
+PortionName = piece of Bead Mail
+PortionNamePlural = pieces of Bead Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Mail featuring a sketch of the holding Pokémon. Let a Pokémon hold it for delivery.
+#-------------------------------
+[DREAMMAIL]
+Name = Dream Mail
+NamePlural = Dream Mail
+PortionName = piece of Dream Mail
+PortionNamePlural = pieces of Dream Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Mail featuring a sketch of the holding Pokémon. Let a Pokémon hold it for delivery.
+#-------------------------------
+[FABMAIL]
+Name = Fab Mail
+NamePlural = Fab Mail
+PortionName = piece of Fab Mail
+PortionNamePlural = pieces of Fab Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a gorgeous, extravagant print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[GLITTERMAIL]
+Name = Glitter Mail
+NamePlural = Glitter Mail
+PortionName = piece of Glitter Mail
+PortionNamePlural = pieces of Glitter Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a cute Pikachu print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[HARBORMAIL]
+Name = Harbor Mail
+NamePlural = Harbor Mail
+PortionName = piece of Harbor Mail
+PortionNamePlural = pieces of Harbor Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a cute Wingull print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[MECHMAIL]
+Name = Mech Mail
+NamePlural = Mech Mail
+PortionName = piece of Mech Mail
+PortionNamePlural = pieces of Mech Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a cute Magnemite print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[ORANGEMAIL]
+Name = Orange Mail
+NamePlural = Orange Mail
+PortionName = piece of Orange Mail
+PortionNamePlural = pieces of Orange Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a cute Zigzagoon print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[RETROMAIL]
+Name = Retro Mail
+NamePlural = Retro Mail
+PortionName = piece of Retro Mail
+PortionNamePlural = pieces of Retro Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a print of three cute Pokémon. Let a Pokémon hold it for delivery.
+#-------------------------------
+[SHADOWMAIL]
+Name = Shadow Mail
+NamePlural = Shadow Mail
+PortionName = piece of Shadow Mail
+PortionNamePlural = pieces of Shadow Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a cute Duskull print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[TROPICMAIL]
+Name = Tropic Mail
+NamePlural = Tropic Mail
+PortionName = piece of Tropic Mail
+PortionNamePlural = pieces of Tropic Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a cute Bellossom print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[WAVEMAIL]
+Name = Wave Mail
+NamePlural = Wave Mail
+PortionName = piece of Wave Mail
+PortionNamePlural = pieces of Wave Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a cute Wailmer print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[WOODMAIL]
+Name = Wood Mail
+NamePlural = Wood Mail
+PortionName = piece of Wood Mail
+PortionNamePlural = pieces of Wood Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = A piece of Mail featuring a cute Slakoth print. Let a Pokémon hold it for delivery.
+#-------------------------------
+[BRIDGEMAILD]
+Name = Bridge Mail D
+NamePlural = Bridge Mail D
+PortionName = piece of Bridge Mail D
+PortionNamePlural = pieces of Bridge Mail D
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Stationery featuring an illustration of a bright-red drawbridge. Let a Pokémon hold it for delivery.
+#-------------------------------
+[BRIDGEMAILM]
+Name = Bridge Mail M
+NamePlural = Bridge Mail M
+PortionName = piece of Bridge Mail M
+PortionNamePlural = pieces of Bridge Mail M
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Stationery featuring an illustration of a majestically arched bridge. Let a Pokémon hold it for delivery.
+#-------------------------------
+[BRIDGEMAILS]
+Name = Bridge Mail S
+NamePlural = Bridge Mail S
+PortionName = piece of Bridge Mail S
+PortionNamePlural = pieces of Bridge Mail S
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Stationery featuring an illustration of a bridge that seems to pierce the sky. Let a Pokémon hold it for delivery.
+#-------------------------------
+[BRIDGEMAILT]
+Name = Bridge Mail T
+NamePlural = Bridge Mail T
+PortionName = piece of Bridge Mail T
+PortionNamePlural = pieces of Bridge Mail T
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Stationery featuring an illustration of a high-tension steel suspension bridge. Let a Pokémon hold it for delivery.
+#-------------------------------
+[BRIDGEMAILV]
+Name = Bridge Mail V
+NamePlural = Bridge Mail V
+PortionName = piece of Bridge Mail V
+PortionNamePlural = pieces of Bridge Mail V
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Stationery featuring an illustration of a vintage-looking brick bridge. Let a Pokémon hold it for delivery.
+#-------------------------------
+[FAVOREDMAIL]
+Name = Favored Mail
+NamePlural = Favored Mail
+PortionName = piece of Favored Mail
+PortionNamePlural = pieces of Favored Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Stationery designed for writing about your favorite things. Let a Pokémon hold it for delivery.
+#-------------------------------
+[GREETMAIL]
+Name = Greet Mail
+NamePlural = Greet Mail
+PortionName = piece of Greet Mail
+PortionNamePlural = pieces of Greet Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Stationery designed for introductory greetings. Let a Pokémon hold it for delivery.
+#-------------------------------
+[INQUIRYMAIL]
+Name = Inquiry Mail
+NamePlural = Inquiry Mail
+PortionName = piece of Inquiry Mail
+PortionNamePlural = pieces of Inquiry Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Stationery designed for writing questions. Let a Pokémon hold it for delivery.
+#-------------------------------
+[LIKEMAIL]
+Name = Like Mail
+NamePlural = Like Mail
+PortionName = piece of Like Mail
+PortionNamePlural = pieces of Like Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Stationery designed for writing recommendations. Let a Pokémon hold it for delivery.
+#-------------------------------
+[REPLYMAIL]
+Name = Reply Mail
+NamePlural = Reply Mail
+PortionName = piece of Reply Mail
+PortionNamePlural = pieces of Reply Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Stationery designed for writing a reply. Let a Pokémon hold it for delivery.
+#-------------------------------
+[RSVPMAIL]
+Name = RSVP Mail
+NamePlural = RSVP Mail
+PortionName = piece of RSVP Mail
+PortionNamePlural = pieces of RSVP Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Stationery designed for invitations. Let a Pokémon hold it for delivery.
+#-------------------------------
+[THANKSMAIL]
+Name = Thanks Mail
+NamePlural = Thanks Mail
+PortionName = piece of Thanks Mail
+PortionNamePlural = pieces of Thanks Mail
+Pocket = Mail
+Price = 50
+Flags = IconMail
+Description = Stationery designed for a thank-you note. Let a Pokémon hold it for delivery.
+#-------------------------------#
+# [BTL] Battle Items
+#-------------------------------#
+#-------------------------------#
+# [KEY] Key Items by Region
+#-------------------------------#
+#-------------------------------#
+# [KEYFRLG] Kanto Key Items
+#-------------------------------#
+[FAMECHECKER]
+Name = Fame Checker
+NamePlural = Fame Checkers
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A device that enables you to recall what you've heard and seen about famous people.
+#-------------------------------
+[TEACHYTV]
+Name = Teachy TV
+NamePlural = Teachy TVs
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A television set that is tuned to a program with useful tips for novice Trainers.
+#-------------------------------
+[OAKSPARCEL]
+Name = Oak's Parcel
+NamePlural = Oak's Parcels
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Decription = A parcel to be delivered to Prof. Oak from Viridian City's Pokémon Mart.
+#-------------------------------
+[SSTICKET_FRLG]
+Name = S.S. Ticket
+NamePlural = S.S. Tickets
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = The ticket required to board the S.S. Anne. It has a drawing of a ship on it.
+#-------------------------------
+[GOLDTEETH]
+Name = Gold Teeth
+NamePlural = Gold Teeth
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A set of golden false teeth lost by the Safari Zone's warden. They make his smile sparkle.
+#-------------------------------
+[BIKEVOUCHER]
+Name = Bike Voucher
+NamePlural = Bike Vouchers
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = 	A voucher for obtaining a bicycle from the Bike Shop.
+#-------------------------------
+[CARDKEY_FRLG]
+Name = Card Key
+NamePlural = Card Keys
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A card key that unlocks doors in Silph Co.'s head office in Saffron City.
+#-------------------------------
+[LIFTKEY]
+Name = Lift Key
+NamePlural = Lift Keys
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A key that operates the elevator in the Team Rocket Hideout. It bears the Team Rocket logo.
+#-------------------------------
+[SECRETKEY_FRLG]
+Name = Secret Key
+NamePlural = Secret Keys
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = The key that unlocks the front door of the Pokémon Gym on Cinnabar Island. It has a red decoration.
+#-------------------------------
+[TEA]
+Name = Tea
+NamePlural = Tea
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = Aromatic tea that has a slightly bitter taste. It soothes a dry throat.
+#-------------------------------
+[TRIPASS]
+Name = Tri-Pass
+NamePlural = Tri-Passes
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A pass for ferries between One, Two, and Three Island. It has a drawing of three islands.
+#-------------------------------
+[RAINBOWPASS]
+Name = Rainbow Pass
+NamePlural = Rainbow Passes
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A pass for ferries between Vermilion and the Sevii Islands. It features a drawing of a rainbow.
+#-------------------------------
+[RUBY]
+Name = Ruby
+NamePlural = Rubies
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = An exquisitely beautiful gem that has a red glow. It symbolizes passion.
+#-------------------------------
+[SAPPHIRE]
+Name = Sapphire
+NamePlural = Sapphires
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = An exquisitely beautiful gem that has a blue glow. It symbolizes honesty.
+#-------------------------------
+[METEORITE_FRLG]
+Name = Meteorite
+NamePlural = Meteorites
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A meteorite that fell from space onto Mt. Moon long ago. It is very lumpy and hard.
+#-------------------------------#
+# [KEYHGSS] Johto Key Items
+#-------------------------------#
+[BASEMENTKEY_HGSS]
+Name = Basement Key
+NamePlural = Basement Keys
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A key that opens a door in the Goldenrod Tunnel.
+#-------------------------------
+[CARDKEY_HGSS]
+Name = Card Key
+NamePlural = Card Keys
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A card key that opens a shutter in the Radio Tower.
+#-------------------------------
+[SSTICKET_HGSS]
+Name = S.S. Ticket
+NamePlural = S.S. Tickets
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A ticket required for sailing on the high-speed ferry S.S. Aqua. It has a drawing of a ship on it.
+#-------------------------------#
+# [KEYRSE] Hoenn Key Items
+#-------------------------------#
+[POKEBLOCKCASE]
+Name = Pokéblock Case
+NamePlural = Pokéblock Cases
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A case for holding Pokéblocks made with a Berry Blender.
+#-------------------------------
+[DEVONGOODS]
+Name = Devon Goods
+NamePlural = Devon Goods
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A package that contains mechanical parts of some sort made by the Devon Corporation.
+#-------------------------------
+[LETTER]
+Name = Letter
+NamePlural = Letters
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = An extremely important letter to Steven from the President of Devon Corporation.
+#-------------------------------
+[RM1KEY]
+Name = Rm. 1 Key
+NamePlural = Rm. 1 Keys
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A key that opens the door to Room 1 inside the Abandoned Ship. It is old and looks easily broken.
+#-------------------------------
+[RM2KEY]
+Name = Rm. 2 Key
+NamePlural = Rm. 2 Keys
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A key that opens the door to Room 2 inside the Abandoned Ship. It is old and looks easily broken.
+#-------------------------------
+[RM4KEY]
+Name = Rm. 4 Key
+NamePlural = Rm. 4 Keys
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A key that opens the door to Room 4 inside the Abandoned Ship. It is old and looks easily broken.
+#-------------------------------
+[RM6KEY]
+Name = Rm. 6 Key
+NamePlural = Rm. 6 Keys
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A key that opens the door to Room 6 inside the Abandoned Ship. It is old and looks easily broken.
+#-------------------------------
+[STORAGEKEY_RSE]
+Name = Storage Key
+NamePlural = Storage Keys
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A key that opens the storage hold inside the Abandoned Ship. It is old and looks easily broken.
+#-------------------------------
+[SCANNER]
+Name = Scanner
+NamePlural = Scanners
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A device used to search for life-forms in water. It looks too difficult to use.
+#-------------------------------
+[BASEMENTKEY_RSE]
+Name = Basement Key
+NamePlural = Basement Keys
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = The key to New Mauville, which was constructed beneath Mauville City.
+#-------------------------------
+[METEORITE_RSE]
+Name = Meteorite
+NamePlural = Meteorites
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A meteorite found at Meteor Falls. You got it at Mt. Chimney.
+#-------------------------------
+[METEORITE_1]
+Name = Meteorite
+NamePlural = Meteorites
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A meteorite found at Meteor Falls.
+#-------------------------------
+[METEORITE_2]
+Name = Meteorite
+NamePlural = Meteorites
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A meteorite found at Meteor Falls. It gives off a faint glow.
+#-------------------------------
+[METEORITE_3]
+Name = Meteorite
+NamePlural = Meteorites
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A meteorite found at Meteor Falls. It continues to give off a faint glow and is slightly warm to the touch.
+#-------------------------------
+[METEORITE_4]
+Name = Meteorite
+NamePlural = Meteorites
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A meteorite found at Meteor Falls. Some sort of pattern has risen to the surface, and it's shining with rainbow-colored light.
+#-------------------------------
+[GOGOGGLES]
+Name = Go-Goggles
+NamePlural = Go-Goggles
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = Nifty goggles that protect eyes from desert sandstorms.
+#-------------------------------
+[BLUEORB_RSE]
+Name = Blue Orb
+NamePlural = Blue Orbs
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = An orb that glows blue. It is said to contain an incredible power from ancient times.
+#-------------------------------
+[REDORB_RSE]
+Name = Red Orb
+NamePlural = Red Orbs
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = An orb that glows red. It is said to contain an incredible power from ancient times.
+#-------------------------------
+[MAGMAEMBLEM]
+Name = Magma Emblem
+NamePlural = Magma Emblems
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A medal-like item in the same shape as Team Magma's mark.
+#-------------------------------
+[EONTICKET]
+Name = Eon Ticket
+NamePlural = Eon Tickets
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = The ticket required for sailing on a ferry to a distant southern island. It features a drawing of an island.
+#-------------------------------
+[SSTICKET_RSE]
+Name = S.S. Ticket
+NamePlural = S.S. Tickets
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = Ticket required for sailing on a ferry.
+#-------------------------------
+[PAIROFTICKETS]
+Name = Pair of Tickets
+NamePlural = Pairs of Tickets
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = Tickets for two to the astronomical show being held at the Mossdeep Space Center.
+#-------------------------------
+[METEORITESHARD]
+Name = Meteorite Shard
+NamePlural = Meteorite Shards
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = One of the fragments of a Meteorite from Granite Cave. It's faintly warm to the touch.
+#-------------------------------#
+# [KEYDPPt] Sinnoh Key Items
+#-------------------------------#
+[SECRETKEY_DPPT]
+Name = Secret Key
+NamePlural = Secret Keys
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A high-tech key that has to be used at a specific location. It emits a special electronic signal to open a door.
+#-------------------------------
+[PARCEL]
+Name = Parcel
+NamePlural = Parcels
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Decription = A parcel entrusted in your care. You are supposed to deliver it to your childhood friend who left Twinleaf Town.
+#-------------------------------#
+# [KEYBW] Unova Key Items
+#-------------------------------#
+#-------------------------------#
+# [KEYXY] Kalos Key Items
+#-------------------------------#
+#-------------------------------#
+# [KEYUSUM] Alola Key Items
+#-------------------------------#
+#-------------------------------#
+# [KEYSwSh] Galar Key Items
+#-------------------------------#
+#-------------------------------#
+# [KEYSV] Paldea Key Items
+#-------------------------------#
+#-------------------------------#
+# [KEY10] R10 Key Items
+#-------------------------------#
+#-------------------------------#
+# [KEYUNUSED] Unused Key Items
+#-------------------------------#
+[BERRYPOUCH]
+Name = Berry Pouch
+NamePlural = Berry Pouches
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A pouch for carrying Berries. It is attached to the Bag's compartment for important items.
+#-------------------------------
+[TMCASE]
+Name = TM Case
+NamePlural = TM Cases
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A case that holds TMs and HMs. It is attached to the bag's compartment for important items.
+#-------------------------------
+[VSSEEKER]
+Name = VS Seeker
+NamePlural = VS Seekers
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A device that indicates Trainers who want to battle. The battery charges while traveling.
+#-------------------------------
+[POWDERJAR]
+Name = Powder Jar
+NamePlural = Powder Jars
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = A jar for storing Berry Powder made using a Berry Crusher.
+#-------------------------------
+[CONTESTPASS]
+Name = Contest Pass
+NamePlural = Contest Passes
+Pocket = KeyItems
+Price = 0
+Flags = KeyItem
+Description = The pass required for entering Pokémon Contests. It has a drawing of an award ribbon on it.

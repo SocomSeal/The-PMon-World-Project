@@ -1,0 +1,107 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[Move,THUNDERPUNCH]
+Name = Essentials
+NoUser = true
+HidesDataBoxes = true
+Credit = Maruno
+<Target>
+    FoeInvertX = true
+    MoveX = 0,1,-2
+    MoveX = 1,2,2
+    SetColor = 3,F8F84000
+    MoveX = 3,2,-2
+    MoveColor = 3,5,F8F840E0
+    MoveX = 5,2,2
+    MoveX = 7,1,0
+    MoveColor = 10,10,F8F84000
+    MoveColor = 22,5,F8F840E0
+    MoveColor = 29,8,F8F84000
+<Background>
+    Focus = Background
+    Graphic = Screens/black
+    SetOpacity = 0,0
+    MoveOpacity = 0,7,192
+    MoveOpacity = 19,7,0
+<Punch>
+    Focus = Target
+    Graphic = fist
+    SetZ = 0,40
+    SetZoomX = 0,1000
+    SetZoomY = 0,1000
+    SetOpacity = 0,0
+    SetColor = 0,D0D000C0
+    MoveZoomX = 0,2,150
+    MoveZoomY = 0,2,150
+    MoveOpacity = 0,4,255
+    MoveX = 2,1,-4,EaseIn
+    MoveY = 2,1,-6,EaseBoth
+    MoveX = 3,1,-10,EaseOut
+    MoveY = 3,1,6,EaseBoth
+    MoveX = 4,1,4,EaseBoth
+    MoveY = 4,1,2,EaseIn
+    MoveOpacity = 4,8,0,EaseIn
+    MoveX = 5,1,-8,EaseBoth
+    MoveY = 5,1,-6,EaseOut
+    MoveX = 6,1,-2,EaseIn
+    MoveY = 6,1,6,EaseBoth
+    MoveX = 7,1,10,EaseOut
+    MoveY = 7,1,-2,EaseIn
+    MoveX = 8,1,-10,EaseBoth
+    MoveY = 8,1,-4,EaseOut
+    MoveX = 9,1,4,EaseIn
+    MoveY = 9,1,6,EaseBoth
+    MoveX = 10,1,10,EaseOut
+    MoveY = 10,1,-6,EaseBoth
+    MoveX = 11,1,-4,EaseBoth
+    MoveY = 11,1,0,EaseIn
+    MoveX = 12,1,4,EaseBoth
+    MoveY = 12,1,6,EaseOut
+    MoveX = 13,1,0,EaseBoth
+    MoveY = 13,1,0,EaseBoth
+    SetVisible = 14,false
+<Flare>
+    Focus = Target
+    Graphic = glow 2
+    SetZ = 3,10
+    MoveZoomX = 3,4,600,EaseOut
+    MoveZoomY = 3,4,600,EaseOut
+    MoveZoomX = 9,5,100,EaseIn
+    MoveZoomY = 9,5,100,EaseIn
+    MoveOpacity = 10,4,0,EaseIn
+    SetVisible = 14,false
+<Zaps emitter>
+    Focus = Target
+    Graphic = electricity 1
+    InitialAngle = AlwaysParticleToFocus
+    RandomInvertFlip = true
+    Emitter = Straight
+    EmitterRate = 40
+    SetZ = 1,20
+    SetZoomX = 1,20
+    SetZoomY = 1,75
+    SetAngle = 1,90
+    SetFrame = 1,1
+    MoveZoomX = 1,8,150
+    MoveZoomY = 1,8,250
+    SetFlip = 2,true
+    SetFlip = 3,false
+    SetFlip = 4,true
+    SetFlip = 5,false
+    SetColor = 5,F8F80000
+    MoveColor = 5,2,F8F800FF
+    SetFlip = 6,true
+    SetFlip = 7,false
+    MoveOpacity = 7,4,0
+    SetFlip = 8,true
+    SetFlip = 9,false
+    SetFlip = 10,true
+    SetFlip = 11,false
+    SetVisible = 11,false
+    SetEmitting = 1,true
+    SetEmitting = 11,false
+    SetEmitSpeed = 1,250
+    SetEmitSpeedRange = 1,100
+    SetEmitDirectionRange = 1,180
+<SE>
+    Play = 0,Electric/Thunder Punch,80

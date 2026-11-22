@@ -1,0 +1,24 @@
+Roadmap as of November 14th 2026:
+
+- Technical Pass (Early 2027)
+	- Strip project and port to v22
+	- Categorize all custom scripts and plugins as mandatory or cosmetic
+		- Break custom scripts out into plugins. All v22 code should remain entirely pure in the resource.
+- Begin Johto (Mid 2027)
+	
+	
+Current Major Roadblocks:
+
+- 
+
+
+
+
+Socom's Worklist
+
+- Future updates to make resource more user friendly
+	- Pull out each region's assets as its own datapack
+	- Global would include player, system, general-use (pkmn, etc) sprites
+
+- Graphics standardization
+	- Create secondary set of Trainer and Pokemon graphics (Gen 3 64px statics, and Gen4/5 80px static/96px animated)

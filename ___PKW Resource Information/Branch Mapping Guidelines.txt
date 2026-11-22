@@ -1,0 +1,41 @@
+Where should you be working? If you're editing:
+- Map Data Files
+- encounters PBS
+- map_connections PBS
+- map_metadata PBS
+- Region-specific assets (audio, graphics, regional PBS)
+
+ONLY make these changes within your region's project. 
+
+If your work is finalized, you MUST compile your project afterwards, and copy these things to Full Game, in the relevant Data\disc# folder
+- Maps
+- encounters.dat
+- map_connections.dat
+- map_metadata.dat
+
+Then, copy assets to their proper folders in Full Game, and ensure you have updated the relevant data package:
+- PBS
+- Audio files
+- Characters, Trainers, Pictures, or other graphics
+
+
+
+If you want to edit:
+- System settings
+- Scripts
+- Plugins
+- Tilesets (including autotiles)
+- Other, 'global' PBS files (such as moves or metadata)
+- Any other 'global' data or assets
+
+Then you MUST perform these changes within the System Data project, and ensure that your changes are properly copied to Full Game AND other region projects.
+DO NOT FORGET TO COMPILE AND COPY DATA FILES
+Failure to follow these guidelines will cause projects to desync and may cause conflicts.
+
+
+
+If starting a new Region, copy the "System Data" project and rename it. The items to change are:
+Project Title
+Region Transfer Map Scripts (Copy from another region, such as Kanto, and update variables)
+
+Example images can be found in the #systems-general Discord channel.

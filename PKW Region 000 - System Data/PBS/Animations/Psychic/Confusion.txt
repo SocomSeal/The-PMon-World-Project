@@ -1,0 +1,68 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[Move,CONFUSION]
+Name = Essentials
+HidesDataBoxes = true
+Credit = Dawn Bronze, Maruno
+<User>
+    FoeInvertX = true
+    SetColor = 13,FFFFFF00
+    MoveX = 13,1,5
+    MoveColor = 13,4,FFFFFF50
+    MoveX = 14,2,-5
+    MoveX = 16,2,5
+    MoveX = 18,2,-5
+    MoveColor = 18,4,FFFFFF00
+    MoveX = 20,1,0
+<Target>
+    FoeInvertX = true
+    SetX = 23,0
+    SetZoomY = 23,100
+    MoveX = 23,1,-8
+    MoveZoomX = 23,3,130
+    MoveZoomY = 23,3,130
+    MoveX = 24,2,8
+    MoveX = 26,2,-8
+    SetZoomX = 28,130
+    SetZoomY = 28,130
+    MoveX = 28,2,8
+    MoveZoomX = 28,3,100
+    MoveZoomY = 28,3,100
+    MoveX = 30,1,0
+<Target Afterimage>
+    Focus = Target
+    Graphic = TARGET
+    FoeInvertX = true
+    SetX = 23,0
+    SetZ = 23,10
+    SetOpacity = 23,0
+    SetTone = 23,-20-20-20+00
+    SetBlending = 23,1
+    MoveX = 23,1,-8
+    MoveZoomX = 23,1,130
+    MoveOpacity = 23,1,255
+    MoveZoomY = 23,3,150
+    MoveZoomX = 24,1,125
+    MoveX = 24,2,8
+    MoveZoomX = 25,1,160
+    MoveZoomX = 26,1,150
+    MoveX = 26,2,-8
+    MoveZoomX = 27,1,160
+    SetZoomY = 28,150
+    MoveZoomX = 28,1,125
+    MoveX = 28,2,8
+    MoveZoomY = 28,3,100
+    MoveZoomX = 29,1,130
+    SetOpacity = 30,255
+    MoveX = 30,1,0
+    MoveZoomX = 30,1,100
+    MoveOpacity = 30,1,0
+    SetVisible = 31,false
+<Background>
+    Focus = Background
+    Graphic = Screens/black
+    SetOpacity = 0,0
+    MoveOpacity = 0,5,224
+    MoveOpacity = 39,5,0
+<SE>
+    Play = 21,Psychic/Confusion

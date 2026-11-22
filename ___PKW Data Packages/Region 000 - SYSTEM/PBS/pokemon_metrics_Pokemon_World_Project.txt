@@ -1,0 +1,11 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[MISSINGNO]
+BackSprite = -9,41
+FrontSprite = 5,7
+ShadowSprite = 4,5,9
+#-------------------------------
+[MEW,1]
+BackSprite = -9,41
+FrontSprite = 5,7
+ShadowSprite = 4,5,9

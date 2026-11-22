@@ -1,0 +1,4 @@
+Name         = PKW Tiletags
+Version      = 1.0
+Essentials   = 21.1
+Credits      = SocomSeal, EagleOwl4Lyfe, ChromusSama, Boon, Vendily, REALMUGEN

@@ -1,0 +1,235 @@
+Core Systems
+- Add 'error handling' scripts for the regional storage merge functions. Currently, there is no way to proceed if a player (somehow) has a full storage when these are triggered
+- Dynamax and tera plugin settings (verify these are correct) (Removed from main resource for now, will return in gen 8/9)
+	- Plugin settings for dynamax and terastal - switches (need 6 total, yikes) (put them in regions?)
+- Update Follower plugin to include gen 9 data (low prio, fix in v22?) (removed from main resource)
+- You can't do trade evolutions where you need to trade a mon for a mon, such as karablast (fixed in v22?)
+- TM black market event is hardcoded to not allow numbers above 360 (how to make dynamic?)
+	- Add ability to trade in duplicate TMs to black market for credit
+- Trainer lose text needs new line characters - how to implement?
+- Pokemon Wild Held Item PBS needs completion
+- Full sound effect pass is required
+KANTO
+- Gamefreak diploma NPC is currently hard coded instead of calling for each number of species in a dex dynamically
+JOHTO
+- 
+HOENN
+- 
+SINNOH
+- 
+UNOVA
+- 
+KALOS
+- 
+ALOLA
+- 
+GALAR
+- 
+PALDEA
+- 
+
+Feature Complete
+- Redefine trainer classes and give proper money reward values
+- Trainer rematches/phone system, make it REGIONAL
+	- All trainer events with rematches need to be remade (completely missing in Kanto)
+	- Pay special attention to boss trainers such as gym leaders and rival, and key characters such as professor, mom, etc. (Prof region+0 i.e. Birch = 30, leaders region+gym#, mom region+9) (Other special NPCS would be numbered how?)
+KANTO
+- Teachy TV tutorial is nonfunctional
+- Selphy's requests are not coded
+- Missing functionality for Saffron Fan Club, Berry powder guy, badge description guy in cerulean, Sticker npc on four island, heracross measurer on six island, magikarp guy on route 12
+- Lavender Tower ghost system unimplemented; an NPC stopgap is in place for now
+- Some TMs and items are unobtainable due to generational differences - i.e., TM07 Horn Drill can't be obtained as it was replaced in the gen 3 celadon mart, protector has no sources as this is not gen 4 kanto, etc.
+	- Changes to canon content should be kept minimal when solving this issue
+	- Items should be held by wild pokemon that can evolve using them, i.e. Protector on Rhyhorn/Rhydon, Magmarizer on Magmar, etc.
+	- Exceptions should be made at best judgement and must fit established lore, I.e., the Up-Grade for Porygon was moved to Silph Co. from the Rocket Warehouse, with the Dubious Disc replacing the spawn in the Rocket Warehouse
+- Trainer tower
+JOHTO
+- 
+HOENN
+- Implement a workaround or regional roamer script for Lati not found at South Island
+- Implement Mach and Acro bikes
+	- Implement cracked cave tiles (Granite Cave, Sky Pillar, Mirage Tower
+- Pokemon contests
+	- Contests themselves, Fan club, Lilycove museum scripts (including artist in hall), berry blender, pokeblocks
+- Post-game facilities are missing functionality
+	- Trainer Hill
+	- Battle frontier
+		- Check the events leading up to it. Scott's Match Call after becoming Champion
+- Missing Mystery Gift NPC (is usually on PC floor 2, relocate where? Mart behind counter next to shopkeep?)
+	- Additionally missing the Mystery Gift questionaire in Marts
+- Dewford secret phrase and Feebas unimplemented
+- Interviewers and interview code (Oceanic Museum, Fan club, contest hall, battle frontier facilities
+- Profile Man in Petalburg Pokecenter
+- All vendors that sell secret base items are missing functionality (Search for "pbSecretBaseMart" and "pbReceiveDecoration")
+	- Pretty Petal Flower Shop, Slateport Market, Mauville Game Corner, Glass Workshop, 
+- Berry Powder functionality (NPC in Slateport Market, 
+- Battle tent functionality 
+- Change the Voltorb Flip tables in the Mauville Game Corner with the proper Roulette game
+- The trainers on R119 that mimic the player's movement ("Mimic Circle") need implementation
+- "Lilycove Lady" NPCs are missing from the Pokecenter (instead of one that's static, implement daily changing?)
+- Missing functionality for Lotad and Seedot brothers in Mossdeep, Mystery house in Mossdeep
+- Return/Frustration TM giver doesn't properly declare how many days remain until you can get another TM
+- Mirage Island is controlled by a Switch, triggered by talking to the man in Pacifidlog, instead of appearing and disappearing based on the 65535 personality id
+- Sound effects in the elite four use the FRLG open gate SE, should be "SE_DOOR" for opening doors and "SE_TRUCK_DOOR" for closing the room behind the player
+- No animation on the Hall of Fame machine/room
+- Trick Master blastoff needs proper Explosion sound effect, doors and buttons need "SE_PIN"
+- Conveyor tiles (Trick House, Mossdeep Gym) need a sound effect
+- Fortree spinning gates are not implemented (Fortree Gym, Trick House 6)
+- Recurring items. Not present in Emerald, were added in ORAS (tinymushrooms in petalburg woods as an example)
+- Feebas tiles are not implemented, instead a 5% old rod encounter placeholder is in effect
+SINNOH 
+- 
+UNOVA
+- 
+KALOS
+- 
+ALOLA
+- 
+GALAR
+- 
+PALDEA
+- 
+
+Cosmetic
+- Location signpost graphics
+- Add pokeball data to trainer types
+- Town map city maps
+- Standardize all maps with proper tilesets
+- Standardize monetary symbols in dialogue to the PokeDollar symbol (¥, $, etc.) (custom font for ¥? does essentials natively handle changing $?)
+- Standardize sign and other flavor text rules:
+	- Bold for place names when not inline text
+	- Italicization for trainer tips titles (anything else?)
+	- Add quotes on any in-game text, and no quotes for system?
+- Verify color palettes are RGB (Debug is showing errors on sprite load)
+- Pokemon Center 2nd floors are missing (includes some generic NPCs with dialogue)
+- Entrance/Exits do not display an arrow when standing on them, before the player triggers the warp
+- Sprites for animated trainer intros
+- Add proper VS sprites and transitions
+- Custom title screen, credits images
+- "Wading" tiles do not properly function (v22?)
+- Missing sound effect for spin tiles
+- Camera flicker with spin tiles, water currents (camera lag)
+- Music fade is unimplemented with cutscenes, rival appearances, etc
+- Side-stair events are clunky (plugin?)
+- NPC dialogue referencing "Single Use TM" items should be updated to reference TRs, due to the project's mechanics gen being set to current
+- Should title_bgm be updated to a regional array? A random regional array?
+- Should evolution be updated to a regional array?
+- Credits need to be updated with a regional music array
+- Game corner mechanics need to be audited. I.e., some slot machines are supposed to have different odds
+- Region-specific weather effects of default weathers need to be looked at i.e. Hoenn Rain and Sand instead of default
+- Water currents don't auto-dismount the player. This is due to a bug when the tiles push a player across a map connection that needs solving
+- No arriving animations for falling through holes
+KANTO
+- Audit dungeon transitions with a location preview (they're kinda clunky atm)
+- Audit Sevii cutscenes - "walk in place" (2 steps @ 1frame) and "Walk faster in place" (1 step @ 1frame) moveroutes are coded as "turn" moveroutes instead
+- Audit named NPC text (i.e. gym leaders) have themselves introduced by name
+- Intro cutscene needs to be touched up, sprite positioning
+	- Intro cutscene does not have the Nidoran coming out of a pokeball animation while Oak remains loaded
+- No Fame Checker in Cerulean; most fame checker lore events are missing around the world.
+- Missing info on Bill's PC in his cottage (Can usually see Eeveelutions)
+- Missing animation for Hall of Fame machine
+- Stopgap Tri-Pass cutscene is in place
+- Intro BGM is not looped properly
+- Missing light effects in E4
+- Missing animations for Seagallop Ferry
+- Missing TV animations
+- Missing Pokecenter Monitor animations during healing sequence
+- Large tree sprites need their shadows properly done, i.e. sprite without them on the outer edge of the trees
+- Water edge borders don't properly curve at apexes; they terminate in a squared end
+- Seafoam Island boulders in water are missing animated sprites with splash
+- One Island Leaving cutscene is a hardcoded placeholder that triggers when player enters the network center instead of being a floor trigger with dynamic movement (see og map)
+JOHTO
+- Missing backsprites (and implementation) of alternate player costumes 201
+- Sprites for gen 2 mail items (Blue Sky to Surf)
+HOENN
+- Various tiles are not "complete" as faithful recreations, e.g. fences (Slateport, Route 117, etc.), slateport southwest sea corner, path inner corners, flower shop planter boxes, Lilycove Aqua Hideout Outdoor Entrance, Secret Base divots, land/sea edge upper tips (sootopolis, mt pyre), aqua hideout deep water with shadows, cave ledges, rusturf tunnel cave exits, Mirage Tower, MT. Chimney Caldera, Meteor Falls ledges, Seafloor cavern walls, Cave of Origin crystals (the corners on this tileset also suck, the whole thing is a mess), underwater cliffs, cave inner corners, Current tiles on Routes 132-134 are not layered below rocks/cliffs, causing unpleasant seams (see Route 133 middle for example of how this can be fixed, would need to do on all cliff and rock tiles)
+- Missing Sootopolis "crater tiles" on Route 126 - non-visible to player, low priority
+- Fortree shadows are missing
+- Fortree bridges don't have bobbing animations when walked on
+- Tilesets need color correction - i.e. Lilycove Department textures are desaturated, this is a recurring issue with the Hoenn asset pack used. All tilesets must be corrected using properly ripped tiles.
+- Starter choice cutscene with Birch's bag is unimplemented - a temporary choice menu has been added in its place
+- NPC_RSE_WOMAN_3 has an incorrect sprite (top is meant to be yellow over red, with red bottoms)
+- color correction on trainer_RSE_AROMALADY
+- trainer_RSE_PSYCHIC_F has no accurate overworld sprite
+- Missing accurate overworlds for the RSE_YOUNGCOUPLE trainer class
+- Hoenn TV Events and Logic
+- No player house clock event after "setting" it
+- Wally Ralts Catching Tutorial is unimplemented - a simple screen flash has been added in its place
+- Missing player front and backsprites for ORAS sprite (302)
+- Pokecenter Healing Machine ball graphic is reused from FRLG
+- Missing implementation of "Wanda" NPC in Rustboro
+- Secret base tiles (especially cliff walls) need to be redone once the plugin is implemented to abide by proper tiling rules
+- Prof Birch needs coding to be on Route 101 and Route 103 after the Wally sequence - time should be split, Sun Lab, Mon/Tues 101, Weds/Thurs 103, Fri/Sat Lab
+- Petalburg Gym Doors are missing the proper "Unlock" sound effect
+- Mauville Gym Gates are missing the proper "Open" sound effect
+- There are no dungeon location previews
+- Briney Boat sequence TECHNICALLY has the camera one tile too low, as it is centered on the player (which is the boat sprite during the cutscene), and not one tile above as it is in the OG
+- Intro Truck cutscene is missing (truck noises, shifting boxes)
+- Dewford Gym doesn't have the darkness mechanic implemented
+- Wally's Pokenav registration is linked to the Rock Smash rocks on Route 111 instead of a step counter as in the original games
+- Mauville "OldGuys" NPCs are missing from the Pokecenter
+- Rustboro Match Call cutscene has the incorrect sound effect
+- Missing animation/cutscene for the Cable Car
+- Route 114 Berry Man is using the Pretal Petal Flower Shop Berry Girl logic instead of his own
+- Route 120's Weather effects aren't fully accurate.
+	- The clouds always appear as a panorama, and are only shown on the southern half of the route via tiling. This means clouds are seen before the trigger is supposed to start showing them
+- NPCs that fly away from the player do not have the animation coded (Steven R120, Rival Lilycove, Steven R128
+- NPCs in Dewford can teleport when taking Briney's boat due to them not having their locations mirrored from the town map to the cutscene map
+- Rocket Launch Counter NPC in Mossdeep isn't implemented yet
+- Current storming Sootopolis implementation shows the player a non-storming sootopolis during fly or teleport intro animations before placing them on the correct map
+- Rayquaza, Groudon, and Kyogre awakening cutscenes are placeholders
+	- Storming Sootopolis also needs some refinement and to add the movies - check code in refresh_charset to handle the surfing charset for the puppet
+- Fog effects on Mt Pyre Exterior and during the Kyogre wakening cutscene in Seafloor Cavern need to be faded instead of instantly changed
+- During the weather crisis, the overworld weather and bgm are very buggy - this is due to the event-based temporary solutions in place
+- Diving to and from maps where the dive maps don't properly align is functional, but buggy; dive handlers need to be updated to properly handle these cases
+	- Abandoned Ship, Sootopolis + STORMING, Seafloor Cavern, Sealed Chamber, Marine Cave
+	- Sealed Chamber is technically fine, but is missing the regi puzzle dive functionality meant to take you back to R134 when failing and the lighter dive tiles to transition from the true dive spot in the cave
+- Deoxys 'puzzle' is not implemented
+- Birth Island is set as an indoor map in order to disable Fly - as the island otherwise should be a part of region 103, attempting to use fly on it causes issues with the region scripts
+- The storming Sootopolis water is missing a border between the deep and 'turbulent calm' tiles
+- The IV rater on the Battle Frontier does not properly replace "_" or titleize the stat name of the checked Pokemon
+- The female scientist/greeter in the Delta Episode cutscene needs an ORAS sprite (currently using DPPt Beauty)
+SINNOH
+- 
+- There are no dungeon location previews
+UNOVA
+- 
+- There are no dungeon location previews
+KALOS
+- 
+- There are no dungeon location previews
+ALOLA
+- 
+- There are no dungeon location previews
+GALAR
+- 
+- There are no dungeon location previews
+PALDEA
+- 
+- There are no dungeon location previews
+
+Inconsequential
+- PBS data is (mostly) shared between regions. Could rewrite Essentials code to utilize the disc scripts? I.e., change Species DATA_FILENAME from "species.dat" to filepath disc#/+"species.dat"
+- In-game trade pokemon do not properly set OT ID
+KANTO
+- Missing blackboard text on celadon mansion rooftop explaining game mechanics (replaced by status blackboard)
+- NPC_FRLG_POLICEMAN should be renamed NPC_FRLG_GUARD
+HOENN
+- 
+HOENN
+- Flypoint and healingpoint for Littleroot is set to Birch's Lab, how to make it go to each house defined by player gender?
+	Healingpoint can be done by splitting player's house into two maps, but how fly?
+- Tilesets could be cleaned up and condensed - R120 tileset can be changed to Misc, with calm water and 'transparent' water tiles (that show panorama, like windy, clouds) moved away from autotiles
+	- Windy condensed into combo?
+SINNOH
+- 
+UNOVA
+- 
+KALOS
+- 
+ALOLA
+- 
+GALAR
+- 
+PALDEA
+- 

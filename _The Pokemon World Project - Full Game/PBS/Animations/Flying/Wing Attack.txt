@@ -1,0 +1,90 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[Move,WINGATTACK]
+Name = Essentials
+NoUser = true
+Credit = Maruno
+<Target>
+    MoveX = 0,1,6
+    MoveX = 1,2,-6
+    MoveX = 3,2,6
+    MoveX = 5,2,-6
+    MoveX = 7,1,0
+<Hit 1>
+    Focus = Target
+    Graphic = hit
+    SetY = 0,64
+    SetZ = 0,40
+    SetZoomX = 0,125
+    SetZoomY = 0,125
+    SetColor = 0,F8F8B4C0
+    SetVisible = 3,false
+<Hit 2>
+    Focus = Target
+    Graphic = hit
+    SetY = 1,32
+    SetZ = 1,39
+    SetZoomX = 1,115
+    SetZoomY = 1,115
+    SetColor = 1,F8F8B4C0
+    SetVisible = 4,false
+<Hit 3>
+    Focus = Target
+    Graphic = hit
+    SetY = 2,-8
+    SetZ = 2,38
+    SetZoomX = 2,105
+    SetZoomY = 2,105
+    SetColor = 2,F8F8B4C0
+    SetVisible = 5,false
+<Hit 4>
+    Focus = Target
+    Graphic = hit
+    SetY = 3,-48
+    SetZ = 3,37
+    SetZoomX = 3,95
+    SetZoomY = 3,95
+    SetOpacity = 3,224
+    SetColor = 3,C0C040C0
+    SetVisible = 6,false
+<Hit 5>
+    Focus = Target
+    Graphic = hit
+    SetY = 4,-88
+    SetZ = 4,36
+    SetZoomX = 4,85
+    SetZoomY = 4,85
+    SetOpacity = 4,192
+    SetColor = 4,C0C040C0
+    SetVisible = 7,false
+<Feather emitter>
+    Focus = Target
+    Graphic = feather
+    RandomAngleRange = 20
+    RandomInvertAngle = true
+    Emitter = Projectile
+    EmitterRate = 40
+    SetZ = 0,1
+    SetZoomX = 0,0
+    SetZoomY = 0,0
+    SetOpacity = 0,0
+    SetTone = 0,+00+00-FF+00
+    MoveOpacity = 0,2,255
+    MoveZoomX = 0,3,50
+    MoveZoomY = 0,3,50
+    MoveX = 6,14,70,EaseIn
+    MoveY = 6,14,-550,EaseIn
+    MoveAngle = 10,10,45
+    MoveZoomX = 14,6,25
+    MoveZoomY = 14,6,25
+    MoveOpacity = 14,6,0
+    SetVisible = 20,false
+    SetEmitting = 0,true
+    SetEmitting = 5,false
+    SetEmitSpeed = 0,800
+    SetEmitSpeedRange = 0,50
+    SetEmitDirection = 0,90
+    SetEmitDirectionRange = 0,10
+    SetEmitGravity = 0,2600
+<SE>
+    Play = 0,Flying/Wing Attack,80

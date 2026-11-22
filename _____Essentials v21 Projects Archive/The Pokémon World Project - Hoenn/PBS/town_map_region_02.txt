@@ -1,0 +1,9 @@
+﻿# Table of Contents:
+# [HGSS] Johto Town Map
+#-------------------------------#
+# [HGSS] Johto Town Map
+#-------------------------------#
+[2]
+Name = Johto
+Filename = map_Johto.png
+#-------------------------------#

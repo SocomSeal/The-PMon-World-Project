@@ -1,0 +1,13 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[Common,StatDown]
+Name = Essentials
+NoTarget = true
+Credit = Maruno
+<User>
+    MaskGraphic = Masks/stat down
+    SetMaskOpacity = 0,192
+    MoveMaskY = 0,22,600
+    MoveMaskOpacity = 15,7,0
+<SE>
+    Play = 0,Common/StatDown,80
