@@ -1,0 +1,66 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[Move,TACKLE]
+Name = Essentials
+Credit = Maruno
+<User>
+    FoeInvertX = true
+    FoeInvertY = true
+    MoveX = 0,1,32
+    MoveY = 0,1,-16
+    MoveX = 3,1,0
+    MoveY = 3,1,0
+<Target>
+    FoeInvertX = true
+    MoveX = 4,1,-2
+    MoveX = 5,2,2
+    MoveX = 7,2,-2
+    MoveX = 9,2,2
+    MoveX = 11,1,0
+<Hit 1>
+    Focus = Target
+    Graphic = hit
+    SetZ = 4,10
+    SetZoomX = 4,75
+    SetZoomY = 4,75
+    SetColor = 4,F8F8C0FF
+    MoveZoomX = 4,1,100
+    MoveZoomY = 4,1,100
+    SetVisible = 5,false
+<Hit 2>
+    Focus = Target
+    Graphic = hit
+    SetZ = 5,10
+    SetZoomX = 5,60
+    SetZoomY = 5,60
+    SetColor = 5,F8C000FF
+    SetFrame = 5,1
+    MoveZoomX = 5,4,100
+    MoveZoomY = 5,4,100
+    MoveOpacity = 5,4,0
+    SetVisible = 9,false
+<Spark spawner>
+    Focus = Target
+    Graphic = glow 1
+    Emitter = Projectile
+    EmitterRate = 80
+    SetZ = 4,5
+    SetZoomX = 4,50
+    SetZoomY = 4,50
+    SetOpacity = 4,0
+    SetColor = 4,F8F880FF
+    MoveOpacity = 4,1,255
+    MoveZoomX = 8,9,0
+    MoveZoomY = 8,9,0
+    MoveOpacity = 8,9,0
+    MoveColor = 8,9,F86020FF,EaseOut
+    SetVisible = 17,false
+    SetEmitting = 4,true
+    SetEmitting = 6,false
+    SetEmitSpeed = 0,300
+    SetEmitSpeedRange = 0,75
+    SetEmitDirection = 0,90
+    SetEmitDirectionRange = 0,120
+    SetEmitGravity = 0,500
+<SE>
+    Play = 4,Normal/Tackle

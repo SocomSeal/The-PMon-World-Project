@@ -1,0 +1,100 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[Move,FAKEOUT]
+Name = Essentials
+NoUser = true
+HidesDataBoxes = true
+Credit = Dawn Bronze, Maruno
+<Target>
+    FoeInvertX = true
+    SetX = 16,0
+    MoveX = 16,1,-2
+    MoveZoomX = 16,2,70
+    MoveZoomY = 16,2,300
+    MoveX = 17,2,2
+    MoveX = 19,2,-2
+    MoveZoomX = 19,2,100
+    MoveZoomY = 19,2,100
+    MoveX = 21,1,0
+<Hand L>
+    Focus = Target
+    Graphic = hand gesture
+    SetX = 0,-32
+    SetY = 0,-32
+    SetZ = 0,40
+    SetOpacity = 0,0
+    SetFrame = 0,4
+    MoveOpacity = 0,5,255
+    MoveX = 10,1,-58
+    MoveX = 11,1,-12,EaseIn
+    SetZoomY = 12,100
+    SetFrame = 12,5
+    MoveX = 12,1,-8
+    MoveZoomY = 12,1,110
+    SetFrame = 13,6
+    MoveZoomY = 13,1,100
+    SetX = 14,-8
+    SetFrame = 14,5
+    MoveX = 14,1,-32
+    MoveFrame = 14,1,4
+    MoveOpacity = 26,5,0
+<Hand R>
+    Focus = Target
+    Graphic = hand gesture
+    SetX = 0,32
+    SetY = 0,-32
+    SetZ = 0,41
+    SetFlip = 0,true
+    SetOpacity = 0,0
+    SetFrame = 0,4
+    MoveOpacity = 0,5,255
+    MoveX = 10,1,58
+    MoveX = 11,1,12,EaseIn
+    SetZoomY = 12,100
+    SetFrame = 12,5
+    MoveX = 12,1,8
+    MoveZoomY = 12,1,110
+    SetFrame = 13,6
+    MoveZoomY = 13,1,100
+    SetX = 14,8
+    SetFrame = 14,5
+    MoveX = 14,1,32
+    MoveFrame = 14,1,4
+    MoveOpacity = 26,5,0
+<Black crop left>
+    Focus = Background
+    Graphic = Screens/black
+    SetX = 8,-512
+    MoveX = 8,5,-256
+    SetVisible = 13,false
+<Black crop right>
+    Focus = Background
+    Graphic = Screens/black
+    SetX = 8,512
+    MoveX = 8,5,256
+    SetVisible = 13,false
+<White background>
+    Focus = Background
+    Graphic = Screens/white
+    SetZ = 8,10
+    SetOpacity = 8,0
+    MoveOpacity = 8,5,255
+    MoveOpacity = 15,5,0
+    SetVisible = 20,false
+<Hit>
+    Focus = Target
+    Graphic = hit
+    SetY = 13,16
+    SetZ = 13,20
+    SetZoomX = 13,45
+    SetZoomY = 13,45
+    SetColor = 13,00E0F830
+    SetFrame = 13,1
+    MoveColor = 13,2,00E0F8FF
+    MoveZoomX = 13,3,135
+    MoveZoomY = 13,3,135
+    SetOpacity = 15,255
+    MoveOpacity = 15,1,0
+    SetVisible = 16,false
+<SE>
+    Play = 10,Normal/Fake Out,90

@@ -1,0 +1,9 @@
+﻿# Table of Contents:
+# [USUM] Alola Town Map
+#-------------------------------#
+# [USUM] Alola Town Map
+#-------------------------------#
+[7]
+Name = Alola
+Filename = map_Alola.png
+#-------------------------------#

@@ -1,0 +1,37 @@
+﻿# This base PBS only stores Global Player Classes
+#
+# See each region's PBS for Regional data
+#-------------------------------#
+# Table of Contents:
+# [MC] Player Characters
+# [FRLG] Kanto Trainer Classes
+# [HGSS] Johto Trainer Classes
+# [RSE] Hoenn Trainer Classes
+# [DPPt] Sinnoh Trainer Classes
+# [BW] Unova Trainer Classes
+# [XY] Kalos Trainer Classes
+# [USUM] Alola Trainer Classes
+# [SwSh] Galar Trainer Classes
+# [IA] Isle of Armor Trainer Classes
+# [CT] Crown Tundra Trainer Classes
+# [SV] Paldea Trainer Classes
+# [TM] Kitakami Trainer Classes
+# [ID] Blueberry Trainer Classes
+# [WiWa] REGION 10 Trainer Classes
+# [Orre] Orre Trainer Classes
+# [LA] Hisui Trainer Classes
+# [ZA] Lumiose Trainer Classes
+# [MD] Hyperspace Trainer Classes
+#-------------------------------#
+# [MC] Player Characters
+#-------------------------------#
+[player_M]
+Name = Player
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[player_F]
+Name = Player
+Gender = Female
+BaseMoney = 60
+#-------------------------------#

@@ -1,0 +1,11 @@
+﻿# Table of Contents:
+# [WiWa] FILLER Trainers
+# [TEMP] Battle Frontier Trainers?
+#
+# Sections are broken down into subsections (Routes, Cities, Landmarks), and further again by map
+# To find a specific subsection, search the Region code then the subsection name (i.e., "FRLG Routes")
+# To find a specific Map's Trainers, search it by name (i.e., "Route 1")
+# Some special Trainers such as the Rival have their own sections. These are always found first in their Regional section
+#-------------------------------#
+# [WiWa] FILLER Trainers
+#-------------------------------#

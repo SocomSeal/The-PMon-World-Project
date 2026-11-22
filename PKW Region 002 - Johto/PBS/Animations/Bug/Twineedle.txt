@@ -1,0 +1,73 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[Move,TWINEEDLE]
+Name = Essentials
+Credit = Maruno
+<User>
+    FoeInvertX = true
+    FoeInvertY = true
+    MoveX = 0,1,28
+    MoveY = 0,1,-16
+    MoveX = 3,1,0
+    MoveY = 3,1,0
+<Target>
+    FoeInvertX = true
+    MoveX = 9,1,-2
+    MoveColor = 9,8,A020F8A0
+    MoveX = 10,2,2
+    MoveX = 12,2,-2
+    MoveX = 14,2,2
+    MoveX = 16,1,0
+    MoveColor = 19,6,00000000
+<Needle 1>
+    Focus = UserAndTarget
+    Graphic = needle
+    InitialAngle = ParticleToFocus
+    SetZ = 4,-50
+    SetZoomX = 4,50
+    SetZoomY = 4,80
+    SetAngle = 4,270
+    SetColor = 4,A020C080
+    MoveX = 4,7,200
+    MoveY = 4,7,-180
+    SetVisible = 11,false
+<Hit 1>
+    Focus = Target
+    Graphic = hit
+    SetY = 11,16
+    SetZ = 11,10
+    SetZoomX = 11,0
+    SetZoomY = 11,0
+    SetFrame = 11,1
+    MoveZoomX = 11,3,50
+    MoveZoomY = 11,3,50
+    SetColor = 13,F800F8FF
+    MoveOpacity = 13,3,0
+    SetVisible = 16,false
+<Needle 2>
+    Focus = UserAndTarget
+    Graphic = needle
+    InitialAngle = ParticleToFocus
+    SetZ = 7,-50
+    SetZoomX = 7,50
+    SetZoomY = 7,80
+    SetAngle = 7,270
+    SetColor = 7,A020C080
+    MoveX = 7,6,200
+    MoveY = 7,6,-200
+    SetVisible = 13,false
+<Hit 2>
+    Focus = Target
+    Graphic = hit
+    SetX = 13,-8
+    SetZ = 13,10
+    SetZoomX = 13,0
+    SetZoomY = 13,0
+    SetFrame = 13,1
+    MoveZoomX = 13,3,50
+    MoveZoomY = 13,3,50
+    SetColor = 15,F800F8FF
+    MoveOpacity = 15,3,0
+    SetVisible = 18,false
+<SE>
+    Play = 0,Bug/Twineedle

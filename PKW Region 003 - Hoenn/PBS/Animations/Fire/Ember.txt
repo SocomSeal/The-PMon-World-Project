@@ -1,0 +1,49 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[Move,EMBER]
+Name = Essentials
+NoUser = true
+Credit = Dawn Bronze, Maruno
+<Target>
+    FoeInvertX = true
+    SetColor = 0,F8000000
+    MoveX = 0,1,-2
+    MoveColor = 0,7,F80000A0
+    MoveX = 1,2,2
+    MoveX = 3,2,-2
+    MoveX = 5,2,2
+    MoveX = 7,1,0
+    SetColor = 9,F80000A0
+    MoveColor = 9,7,F8000000
+<Flame emitter>
+    Focus = Target
+    Graphic = flame
+    SecondLayer = true
+    RandomInvertFlip = true
+    Emitter = Straight
+    EmitterRate = 30
+    SetZ = 0,10
+    SetZoomX = 0,140
+    SetZoomY = 0,140
+    SetColor = 0,F87000F8
+    MoveZoomX = 0,6,0
+    MoveZoomY = 0,6,0
+    SetColor = 1,F87000F8
+    MoveColor = 1,1,F80000F8
+    MoveOpacity = 2,4,0
+    SetVisible = 6,false
+    SetZ2 = 0,1
+    SetZoomX2 = 0,55
+    SetZoomY2 = 0,55
+    SetColor2 = 0,F8E030F8
+    SetEmitting = 0,true
+    SetEmitting = 6,false
+    SetEmitterY = 0,8
+    SetEmitSpeed = 0,400
+    SetEmitSpeedRange = 0,50
+    SetEmitDirection = 0,90
+    SetEmitDirectionRange = 0,20
+    SetEmitZoomXRange = 0,10
+    SetEmitZoomYRange = 0,10
+<SE>
+    Play = 0,Fire/Ember,80

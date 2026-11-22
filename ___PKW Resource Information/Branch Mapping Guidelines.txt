@@ -9,6 +9,7 @@ ONLY make these changes within your region's project.
 
 If your work is finalized, you MUST compile your project afterwards, and copy these things to Full Game, in the relevant Data\disc# folder
 - Maps
+- MapInfos
 - encounters.dat
 - map_connections.dat
 - map_metadata.dat

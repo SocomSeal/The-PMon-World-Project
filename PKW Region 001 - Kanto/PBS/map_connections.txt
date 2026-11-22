@@ -1,0 +1,360 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+# Route 21 (137) - Pallet Town (6)
+137,North,0,6,South,0
+# Blue sea left (135) - Pallet Town (6)
+135,West,0,6,East,80
+# Route 1 (71) - Pallet Town (6)
+71,South,0,6,North,0
+# Viridian City (10) - Route 1 (71)
+10,South,6,71,North,0
+# Route 22 (138) - Viridian City (10)
+138,East,0,10,West,6
+# Route 2-S (73) - Viridian City (10)
+73,South,2,10,North,0
+# Pewter City (15) - Route 3 (76)
+15,East,17,76,West,0
+# Route 2-N (74) - Pewter City (15)
+74,North,0,15,South,2
+# Route 3 filler (77) - Pewter City (15)
+77,West,8,15,East,0
+# Cerulean City (21) - Route 9 (98)
+21,East,5,98,West,0
+# Route 4-E (80) - Cerulean City (21)
+80,East,4,21,West,0
+# Route 24 (143) - Cerulean City (21)
+143,South,0,21,North,0
+# Cerulean filler (146) - Cerulean City (21)
+146,South,0,21,North,36
+# Route 5 (83) - Cerulean City (21)
+83,North,0,21,South,0
+# Route 6 (88) - Vermilion City (27)
+88,South,0,27,North,3
+# Route 11-W (105) - Vermilion City (27)
+105,West,0,27,East,1
+# Lavender Town (32) - Route 8 (94)
+32,West,0,94,East,4
+# Route 10-S (101) - Lavender Town (32)
+101,South,0,32,North,0
+# Route 12-N (109) - Lavender Town (32)
+109,North,0,32,South,0
+# Route 10 Lavender filler (103) - Lavender Town (32)
+103,East,34,32,West,0
+# Route 12 lavender filler (113) - Lavender Town (32)
+113,East,0,32,West,25
+# Celadon City (36) - Route 16 (123)
+36,West,2,123,East,0
+# Route 7 (91) - Celadon City (36)
+91,West,0,36,East,2
+# Fuchsia City (46) - Route 15-W (120)
+46,East,0,120,West,0
+# Route 18 (128) - Fuchsia City (46)
+128,East,0,46,West,0
+# Route 19 (131) - Fuchsia City (46)
+131,North,0,46,South,12
+# Blue sea right (136) - Fuchsia City (46)
+136,North,102,46,South,0
+# Cinnabar Island (58) - Route 21 (137)
+58,North,0,137,South,0
+# Blue sea left (135) - Cinnabar Island (58)
+135,South,0,58,North,36
+# Route 20-W (133) - Cinnabar Island (58)
+133,West,0,58,East,0
+# Indigo Plateau (63) - Route 23 (141)
+63,South,0,141,North,4
+# Route 22 (138) - Route 1 (71)
+138,South,59,71,North,0
+# Route 4-W (81) - Route 3 (76)
+81,South,0,76,North,60
+# Route 3 filler (77) - Route 3 (76)
+77,South,0,76,North,0
+# Route 3 filler 2 (78) - Route 3 (76)
+78,West,0,76,East,0
+# Route 3 filler (77) - Route 4-W (81)
+77,East,1,81,West,0
+# Route 3 filler 2 (78) - Route 3 filler (77)
+78,North,0,77,South,84
+# Route 3 filler 2 (78) - Route 4-W (81)
+78,North,0,81,South,24
+# Route 24 (143) - Route 4-E (80)
+143,West,39,80,East,0
+# Route 5 (83) - Route 4-E (80)
+83,West,0,80,East,44
+# Route 5 (83) - Route 9 (98)
+83,East,0,98,West,35
+# Route 10-S (101) - Route 8 (94)
+101,West,76,94,East,0
+# Route 12-N (109) - Route 8 (94)
+109,West,0,94,East,24
+# Route 10 Lavender filler (103) - Route 8 (94)
+103,South,0,94,North,53
+# Route 12 lavender filler (113) - Route 8 (94)
+113,North,0,94,South,43
+# Route 9 (98) - Route 10-N (100)
+98,East,0,100,West,0
+# Route 10 Lavender filler (103) - Route 10-S (101)
+103,East,0,101,West,46
+# Route 12 lavender filler (113) - Route 10-S (101)
+113,East,0,101,West,105
+# Route 10 Lavender filler (103) - Route 12-N (109)
+103,East,54,109,West,0
+# Route 11-E (106) - Route 12-S (110)
+106,East,0,110,West,51
+# Route 15-E (121) - Route 11-E (106)
+121,East,0,106,West,108
+# Route 14 grass filler 2 (117) - Route 11-E (106)
+117,East,0,106,West,69
+# Route 12 lavender filler (113) - Route 12-N (109)
+113,East,0,109,West,5
+# Route 13 (114) - Route 12-S (110)
+114,North,48,110,South,0
+# Route 14 (115) - Route 12-S (110)
+115,North,72,110,South,0
+# Route 14 grass filler 2 (117) - Route 12-S (110)
+117,North,92,110,South,0
+# Route 14 (115) - Route 13 (114)
+115,East,0,114,West,0
+# Route 14 water filler (118) - Route 13 (114)
+118,North,0,114,South,0
+# Route 14 water filler (118) - Route 14 (115)
+118,West,0,115,East,24
+# Route 15-E (121) - Route 14 (115)
+121,East,0,115,West,39
+# Route 14 grass filler 2 (117) - Route 14 (115)
+117,East,0,115,West,0
+# Route 14 grass filler 2 (117) - Route 15-E (121)
+117,South,0,121,North,52
+# Route 19 (131) - Route 15-W (120)
+131,North,36,120,South,0
+# Blue sea right (136) - Route 15-W (120)
+136,North,150,120,South,0
+# Route 16-C (124) - Route 17 (127)
+124,South,0,127,North,0
+# Route 17 (127) - Route 18-C (129)
+127,South,0,129,North,4
+# Route 19 (131) - Route 18 (128)
+131,North,0,128,South,72
+# Blue sea right (136) - Route 18 (128)
+136,North,42,128,South,0
+# Route 20-E (134) - Route 19 (131)
+134,East,0,131,West,40
+# Blue sea right (136) - Route 19 (131)
+136,East,0,131,West,0
+# Route 20-W (133) - Route 21 (137)
+133,North,0,137,South,30
+# Route 20-W (133) - Blue sea left (135)
+133,North,6,135,South,0
+# Blue sea right (136) - Route 20-E (134)
+136,South,0,134,North,6
+# Blue sea left (135) - Route 21 (137)
+135,West,0,137,East,60
+# Route 25 (144) - Route 24 (143)
+144,West,1,143,East,0
+# Cerulean filler (146) - Route 24 (143)
+146,West,0,143,East,23
+# Cerulean filler (146) - Route 25 (144)
+146,North,0,144,South,0
+# One Island (225) - Kindle Road (239)
+225,East,0,239,West,120
+# Treasure Kindle Filler (264) - One Island (225)
+264,West,0,225,East,21
+# Treasure Beach (238) - One Island (225)
+238,North,5,225,South,0
+# Two Island (229) - Two Brink Filler (273)
+229,North,0,273,South,2
+# Cape Brink (240) - Two Island (229)
+240,South,0,229,North,23
+# Three Island (234) - Bond Bridge (242)
+234,West,0,242,East,2
+# Three Isle Port (241) - Three Island (234)
+241,North,0,234,South,0
+# Three Island Filler (268) - Three Island (234)
+268,West,0,234,East,0
+# Three Bond Filler (271) - Three Island (234)
+271,East,0,234,West,24
+# Treasure Beach (238) - Kindle Road (239)
+238,North,30,239,South,0
+# Treasure Beach (238) - Treasure Kindle Filler (264)
+238,East,0,264,West,0
+# Treasure Kindle Filler (264) - Kindle Road (239)
+264,North,0,239,South,0
+# Kindle Road Filler (266) - Kindle Road (239)
+266,West,0,239,East,0
+# Kindle One Filler (265) - Kindle Road (239)
+265,East,0,239,West,0
+# Cape Brink (240) - Two Brink Filler (273)
+240,West,0,273,East,0
+# Three Isle Port (241) - Bond Bridge (242)
+241,West,0,242,East,42
+# Three Island Filler (268) - Three Isle Port (241)
+268,South,0,241,North,24
+# Three Bond Filler (271) - Three Isle Port (241)
+271,East,16,241,West,0
+# Three Bond Filler (271) - Bond Bridge (242)
+271,North,0,242,South,0
+# Kindle One Filler (265) - Treasure Kindle Filler (264)
+265,East,141,264,West,0
+# Five Island (284) - Meadow Memorial Filler 1 (341)
+284,East,40,341,West,0
+# Five Meadow Filler (343) - Five Island (284)
+343,North,24,284,South,0
+# Five Isle Meadow (293) - Five Island (284)
+293,West,0,284,East,0
+# Water Labyrinth (288) - Five Island (284)
+288,South,56,284,North,0
+# Five Labyrinth Filler (344) - Five Island (284)
+344,East,0,284,West,0
+# Memorial Pillar (294) - Five Island (284)
+294,North,0,284,South,48
+# Water Five Filler (339) - Five Island (284)
+339,South,0,284,North,32
+# Water Labyrinth (288) - Five Isle Meadow (293)
+288,South,80,293,North,0
+# Five Labyrinth Filler (344) - Water Labyrinth (288)
+344,North,0,288,South,0
+# Meadow Memorial Filler 2 (342) - Water Labyrinth (288)
+342,North,0,288,South,104
+# Water Five Filler (339) - Water Labyrinth (288)
+339,West,0,288,East,0
+# Resort Gorgeous (289) - Water Labyrinth (288)
+289,South,0,288,North,48
+# Gorgeous Labyrinth Filler (340) - Water Labyrinth (288)
+340,South,0,288,North,0
+# Resort Gorgeous (289) - Water Five Filler (339)
+289,South,40,339,North,0
+# Gorgeous Labyrinth Filler (340) - Resort Gorgeous (289)
+340,East,0,289,West,0
+# Five Isle Meadow (293) - Meadow Memorial Filler 1 (341)
+293,South,0,341,North,0
+# Five Isle Meadow (293) - Five Meadow Filler (343)
+293,West,20,343,East,0
+# Memorial Pillar (294) - Five Isle Meadow (293)
+294,West,0,293,East,20
+# Meadow Memorial Filler 2 (342) - Five Isle Meadow (293)
+342,West,0,293,East,0
+# Water Five Filler (339) - Five Isle Meadow (293)
+339,South,0,293,North,8
+# Memorial Pillar (294) - Meadow Memorial Filler 1 (341)
+294,West,20,341,East,0
+# Memorial Pillar (294) - Five Labyrinth Filler (344)
+294,North,0,344,South,104
+# Meadow Memorial Filler 2 (342) - Memorial Pillar (294)
+342,South,0,294,North,0
+# Six Island (296) - Green Path (305)
+296,North,0,305,South,55
+# Six Island (296) - Water Path (301)
+296,East,0,301,West,39
+# Ruin Water Filler (336) - Six Island (296)
+336,West,0,296,East,61
+# Water Path (301) - Green Path (305)
+301,West,0,305,East,0
+# Ruin Water Filler (336) - Water Path (301)
+336,North,0,301,South,0
+# Ruin Valley (303) - Water Path (301)
+303,East,0,301,West,77
+# Outcast Island (307) - Water Path (301)
+307,South,96,301,North,0
+# Green Water Filler (335) - Water Path (301)
+335,South,24,301,North,0
+# Ruin Valley (303) - Ruin Water Filler (336)
+303,East,23,336,West,0
+# Ruin Water Filler (336) - Green Path (305)
+336,West,0,305,East,100
+# Outcast Island (307) - Green Path (305)
+307,South,16,305,North,0
+# Green Water Filler (335) - Green Path (305)
+335,South,0,305,North,56
+# Green Water Filler (335) - Outcast Island (307)
+335,West,0,307,East,60
+# Water Five Filler (339) - Five Labyrinth Filler (344)
+339,South,0,344,North,88
+# Water Five Filler (339) - Meadow Memorial Filler 2 (342)
+339,South,16,342,North,0
+# Gorgeous Labyrinth Filler (340) - Water Five Filler (339)
+340,South,88,339,North,0
+# Five Meadow Filler (343) - Meadow Memorial Filler 1 (341)
+343,East,20,341,West,0
+# Meadow Memorial Filler 2 (342) - Meadow Memorial Filler 1 (341)
+342,West,40,341,East,0
+# Meadow Memorial Filler 2 (342) - Five Meadow Filler (343)
+342,South,0,343,North,72
+# Five Labyrinth Filler (344) - Five Meadow Filler (343)
+344,South,32,343,North,0
+# Tanoby Ruins (320) - Tanoby Filler 1 (321)
+320,North,0,321,South,0
+# Entrance Canyon Filler 1 (334) - Tanoby Filler 1 (321)
+334,South,0,321,North,6
+# Entrance Canyon Filler 2 (345) - Tanoby Filler 1 (321)
+345,South,0,321,North,30
+# Seven Island (310) - Sevault Canyon (317)
+310,East,40,317,West,0
+# Canyon Entrance (316) - Sevault Canyon (317)
+316,East,20,317,West,0
+# Entrance Canyon Filler (332) - Sevault Canyon (317)
+332,South,0,317,North,0
+# Tanoby Ruins (320) - Sevault Canyon (317)
+320,North,54,317,South,0
+# Canyon Filler (333) - Sevault Canyon (317)
+333,West,0,317,East,0
+# Entrance Canyon Filler 2 (345) - Sevault Canyon (317)
+345,East,0,317,West,20
+# Canyon Entrance (316) - Seven Island (310)
+316,North,0,310,South,0
+# Entrance Canyon Filler (332) - Seven Island (310)
+332,West,0,310,East,20
+# Trainer Tower (315) - Seven Island (310)
+315,South,24,310,North,0
+# Seven Canyon Filler (338) - Seven Island (310)
+338,West,0,310,East,0
+# Entrance Canyon Filler 1 (334) - Seven Island (310)
+334,North,24,310,South,0
+# Seven Entrance Filler (337) - Seven Island (310)
+337,East,0,310,West,0
+# Entrance Canyon Filler (332) - Canyon Entrance (316)
+332,West,0,316,East,0
+# Seven Canyon Filler (338) - Canyon Entrance (316)
+338,West,20,316,East,0
+# Entrance Canyon Filler 1 (334) - Canyon Entrance (316)
+334,East,0,316,West,0
+# Seven Entrance Filler (337) - Canyon Entrance (316)
+337,East,20,316,West,0
+# Entrance Canyon Filler 2 (345) - Canyon Entrance (316)
+345,North,0,316,South,0
+# Canyon Filler (333) - Entrance Canyon Filler (332)
+333,North,0,332,South,24
+# Seven Canyon Filler (338) - Entrance Canyon Filler (332)
+338,South,0,332,North,0
+# Tanoby Filler 2 (322) - Entrance Canyon Filler (332)
+322,West,0,332,East,80
+# Seven Entrance Filler (337) - Entrance Canyon Filler (332)
+337,South,48,332,North,0
+# Entrance Canyon Filler 2 (345) - Entrance Canyon Filler (332)
+345,East,0,332,West,40
+# Canyon Filler (333) - Tanoby Ruins (320)
+333,South,0,320,North,78
+# Tanoby Filler 2 (322) - Tanoby Ruins (320)
+322,South,0,320,North,102
+# Trainer Tower (315) - Canyon Filler (333)
+315,East,81,333,West,0
+# Seven Canyon Filler (338) - Canyon Filler (333)
+338,East,40,333,West,0
+# Tanoby Filler 2 (322) - Canyon Filler (333)
+322,West,0,333,East,60
+# Seven Canyon Filler (338) - Trainer Tower (315)
+338,North,0,315,South,48
+# Seven Entrance Filler (337) - Trainer Tower (315)
+337,North,0,315,South,0
+# Entrance Canyon Filler 1 (334) - Seven Canyon Filler (338)
+334,North,48,338,South,0
+# Entrance Canyon Filler 2 (345) - Seven Canyon Filler (338)
+345,East,0,338,West,60
+# Entrance Canyon Filler 1 (334) - Tanoby Filler 2 (322)
+334,South,96,322,North,0
+# Entrance Canyon Filler 2 (345) - Tanoby Filler 2 (322)
+345,South,72,322,North,0
+# Seven Entrance Filler (337) - Entrance Canyon Filler 1 (334)
+337,South,0,334,North,0
+# Entrance Canyon Filler 2 (345) - Entrance Canyon Filler 1 (334)
+345,West,0,334,East,40
+# Entrance Canyon Filler 2 (345) - Seven Entrance Filler (337)
+345,West,0,337,East,60

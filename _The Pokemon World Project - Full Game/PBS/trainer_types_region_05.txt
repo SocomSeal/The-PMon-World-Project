@@ -1,0 +1,89 @@
+﻿# Table of Contents:
+# [BW] Unova Trainer Classes
+# [RIVAL] Rival Trainer Classes
+# [BOSS] Boss Trainer Classes
+# [VILLAIN] Villain Trainer Classes
+# [NPC] NPC Trainer Classes
+####
+# BREAK OUT BW2 DATA?
+####
+# [B2W2] Unova Trainer Classes
+# [RIVAL] Rival Trainer Classes
+# [BOSS] Boss Trainer Classes
+# [VILLAIN] Villain Trainer Classes
+# [NPC] NPC Trainer Classes
+#-------------------------------#
+# [BW] Unova Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [RIVAL] Rival Trainer Classes
+#-------------------------------#
+[BW_POKEMONTRAINER_Cheren]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[BW_POKEMONTRAINER_Bianca]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------#
+# [BOSS] Boss Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [VILLAIN] Villain Trainer Classes
+#-------------------------------#
+[BW_POKEMONTRAINER_N]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[BW_TEAMPLASMA_N]
+Name = Team Plasma
+Gender = Male
+BaseMoney = 100
+#-------------------------------#
+# [NPC] NPC Trainer Classes
+#-------------------------------#
+[BW_POKEMONTRAINER_Hilbert]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[BW_POKEMONTRAINER_Hilda]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------#
+#
+#-------------------------------#
+#
+#-------------------------------#
+# [B2W2] Unova Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [RIVAL] Rival Trainer Classes
+#-------------------------------#
+[BW_POKEMONTRAINER_Hugh]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------#
+# [BOSS] Boss Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [VILLAIN] Villain Trainer Classes
+#-------------------------------#
+#-------------------------------#
+# [NPC] NPC Trainer Classes
+#-------------------------------#
+[BW_POKEMONTRAINER_Nate]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[BW_POKEMONTRAINER_Rosa]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------#

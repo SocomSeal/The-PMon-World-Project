@@ -1,0 +1,88 @@
+
+=================
+
+[2026-11-22 13:17:58 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NoMethodError
+Message: undefined method `uniq' for nil:NilClass
+
+Backtrace:
+423:Compiler_CompilePBS:826:in `block in compile_regional_dexes'
+423:Compiler_CompilePBS:825:in `each'
+423:Compiler_CompilePBS:825:in `each_with_index'
+423:Compiler_CompilePBS:825:in `compile_regional_dexes'
+423:Compiler_CompilePBS:114:in `compile_pbs_files'
+423:Compiler_CompilePBS:18:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+422:Compiler:693:in `main'
+
+=================
+
+[2026-11-22 13:18:09 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-22 13:28:42 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Undefined value YOUNGSTER in GameData::TrainerType.
+File PBS/battle_tower_trainers.txt, section 000, key Type
+YOUNGSTER
+
+
+
+Backtrace:
+422:Compiler:374:in `checkEnumField'
+422:Compiler:350:in `cast_csv_value'
+422:Compiler:443:in `block (2 levels) in get_csv_record'
+422:Compiler:429:in `each'
+422:Compiler:429:in `block in get_csv_record'
+422:Compiler:427:in `loop'
+422:Compiler:427:in `get_csv_record'
+423:Compiler_CompilePBS:1258:in `block (3 levels) in compile_battle_tower_trainers'
+423:Compiler_CompilePBS:1254:in `each_key'
+423:Compiler_CompilePBS:1254:in `block (2 levels) in compile_battle_tower_trainers'
+
+=================
+
+[2026-11-22 13:29:46 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Undefined value CAMPER in GameData::TrainerType.
+File PBS/phone.txt, section CAMPER,Jeff, key End
+["See you later!"]
+
+
+
+Backtrace:
+422:Compiler:374:in `checkEnumField'
+422:Compiler:350:in `cast_csv_value'
+422:Compiler:443:in `block (2 levels) in get_csv_record'
+422:Compiler:429:in `each'
+422:Compiler:429:in `block in get_csv_record'
+422:Compiler:427:in `loop'
+422:Compiler:427:in `get_csv_record'
+423:Compiler_CompilePBS:1457:in `validate_compiled_phone_contact'
+423:Compiler_CompilePBS:1447:in `block in compile_phone'
+423:Compiler_CompilePBS:191:in `block (3 levels) in compile_PBS_file_generic'

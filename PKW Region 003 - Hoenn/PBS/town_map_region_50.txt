@@ -1,0 +1,9 @@
+﻿# Table of Contents:
+# [Orre] Orre Town Map
+#-------------------------------#
+# [Orre] Orre Town Map
+#-------------------------------#
+[50]
+Name = Filler
+Filename = map_Kanto.png
+#-------------------------------#

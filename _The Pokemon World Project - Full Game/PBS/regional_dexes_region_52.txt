@@ -1,0 +1,9 @@
+﻿# Table of Contents:
+# [ZA] Lumiose Pokedex
+# [MD] Mega Dimension Pokedex
+#-------------------------------#
+# [ZA] Lumiose Pokedex
+#-------------------------------#
+[52]
+MISSINGNO
+#-------------------------------#

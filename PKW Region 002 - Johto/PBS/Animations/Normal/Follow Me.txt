@@ -1,0 +1,80 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[Move,FOLLOWME]
+Name = Essentials
+NoTarget = true
+HidesDataBoxes = true
+Credit = Dawn Bronze, Maruno
+<User>
+<Finger>
+    Focus = User
+    Graphic = hand point 2
+    SetZ = 0,10
+    MoveX = 0,7,88,EaseOut
+    MoveZ = 0,14,-10,EaseBoth
+    MoveX = 7,14,-88,EaseBoth
+    MoveZ = 14,14,10,EaseBoth
+    MoveX = 21,7,0,EaseIn
+    SetX = 30,0
+    SetY = 30,0
+    MoveX = 30,2,8
+    MoveY = 30,2,8
+    MoveAngle = 30,2,-20
+    MoveX = 32,4,-8
+    MoveY = 32,4,-4
+    MoveAngle = 32,4,20
+    MoveX = 36,4,8
+    MoveY = 36,4,8
+    MoveAngle = 36,4,-20
+    MoveX = 40,4,-8
+    MoveY = 40,4,-4
+    MoveAngle = 40,4,20
+    MoveX = 44,4,8
+    MoveY = 44,4,8
+    MoveAngle = 44,4,-20
+    MoveX = 48,2,0
+    MoveY = 48,2,0
+    MoveAngle = 48,2,0
+    MoveOpacity = 51,2,0
+<SE>
+    Play = 0,Normal/Follow Me,90
+#-------------------------------
+[OppMove,FOLLOWME]
+Name = Essentials
+NoTarget = true
+HidesDataBoxes = true
+Credit = Dawn Bronze, Maruno
+<User>
+<Finger>
+    Focus = User
+    Graphic = hand point 2
+    SetZ = 0,10
+    SetFrame = 0,1
+    MoveX = 0,7,88,EaseOut
+    MoveZ = 0,14,-10,EaseBoth
+    MoveX = 7,14,-88,EaseBoth
+    MoveZ = 14,14,10,EaseBoth
+    MoveX = 21,7,0,EaseIn
+    SetX = 30,0
+    SetY = 30,0
+    MoveX = 30,2,-8
+    MoveY = 30,2,8
+    MoveAngle = 30,2,20
+    MoveX = 32,4,8
+    MoveY = 32,4,-4
+    MoveAngle = 32,4,-20
+    MoveX = 36,4,-8
+    MoveY = 36,4,8
+    MoveAngle = 36,4,20
+    MoveX = 40,4,8
+    MoveY = 40,4,-4
+    MoveAngle = 40,4,-20
+    MoveX = 44,4,-8
+    MoveY = 44,4,8
+    MoveAngle = 44,4,20
+    MoveX = 48,2,0
+    MoveY = 48,2,0
+    MoveAngle = 48,2,0
+    MoveOpacity = 51,2,0
+<SE>
+    Play = 0,Normal/Follow Me,90

@@ -1,0 +1,118 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[001]   # Intro
+Name = Intro
+#-------------------------------
+[002]   # Region Transfer Map
+Name = Region Transfer Map
+#-------------------------------
+[003]   # Johto
+Name = Johto
+#-------------------------------
+[004]   # Cities
+Name = Cities
+#-------------------------------
+[005]   # Routes
+Name = Routes
+#-------------------------------
+[006]   # Dungeons
+Name = Dungeons
+#-------------------------------
+[007]   # Special
+Name = Special
+#-------------------------------
+[008]   # New Bark Town
+Name = New Bark Town
+#-------------------------------
+[009]   # \PN's House
+Name = \PN's House
+#-------------------------------
+[010]   # New Bark Town Houses
+Name = New Bark Town Houses
+#-------------------------------
+[011]   # Elm's Lab
+Name = Elm's Lab
+#-------------------------------
+[012]   # Cherrygrove City
+Name = Cherrygrove City
+#-------------------------------
+[013]   # Cherrygrove City Poké Center
+Name = Cherrygrove City Poké Center
+#-------------------------------
+[014]   # Cherrygrove City Poké Mart
+Name = Cherrygrove City Poké Mart
+#-------------------------------
+[015]   # Cherrygrove City Houses
+Name = Cherrygrove City Houses
+#-------------------------------
+[016]   # Violet City
+Name = Violet City
+#-------------------------------
+[017]   # Cherrygrove City Poké Center
+Name = Cherrygrove City Poké Center
+#-------------------------------
+[018]   # Cherrygrove City Poké Mart
+Name = Cherrygrove City Poké Mart
+#-------------------------------
+[019]   # Cherrygrove City Houses
+Name = Cherrygrove City Houses
+#-------------------------------
+[020]   # Pokémon School
+Name = Pokémon School
+#-------------------------------
+[021]   # Violet City Gym
+Name = Violet City Gym
+#-------------------------------
+[022]   # Azalea Town
+Name = Azalea Town
+#-------------------------------
+[023]   # Cherrygrove City Poké Center
+Name = Cherrygrove City Poké Center
+#-------------------------------
+[024]   # Cherrygrove City Poké Mart
+Name = Cherrygrove City Poké Mart
+#-------------------------------
+[025]   # Cherrygrove City Houses
+Name = Cherrygrove City Houses
+#-------------------------------
+[026]   # Violet City Gym
+Name = Violet City Gym
+#-------------------------------
+[027]   # Goldenrod City
+Name = Goldenrod City
+#-------------------------------
+[028]   # Cherrygrove City Poké Center
+Name = Cherrygrove City Poké Center
+#-------------------------------
+[029]   # Goldenrod Department Store
+Name = Goldenrod Department Store
+#-------------------------------
+[030]   # Cherrygrove City Houses
+Name = Cherrygrove City Houses
+#-------------------------------
+[031]   # Violet City Gym
+Name = Violet City Gym
+#-------------------------------
+[032]   # Goldenrod Bike Shop
+Name = Goldenrod Bike Shop
+#-------------------------------
+[033]   # Goldenrod Flower Shop
+Name = Goldenrod Flower Shop
+#-------------------------------
+[034]   # Goldenrod Game Corner
+Name = Goldenrod Game Corner
+#-------------------------------
+[035]   # Goldenrod Radio Tower
+Name = Goldenrod Radio Tower
+#-------------------------------
+[036]   # Goldenrod Magnet Train Station
+Name = Goldenrod Magnet Train Station
+#-------------------------------
+[037]   # Goldenrod Tunnel
+Name = Goldenrod Tunnel
+#-------------------------------
+[038]   # Goldenrod Tunnel Entrance
+Name = Goldenrod Tunnel Entrance
+#-------------------------------
+[039]   # Global Terminal
+Name = Global Terminal

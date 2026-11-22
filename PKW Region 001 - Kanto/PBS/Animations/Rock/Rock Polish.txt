@@ -1,0 +1,66 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[Move,ROCKPOLISH]
+Name = Essentials
+NoTarget = true
+HidesDataBoxes = true
+Credit = Maruno
+<User>
+<Background>
+    Focus = Background
+    Graphic = Screens/black
+    SetOpacity = 0,0
+    MoveOpacity = 0,7,192
+    MoveOpacity = 61,6,0
+<Strobe emitter>
+    Focus = User
+    Graphic = strobe 2 [bottom]
+    RandomAngleRange = 180
+    Emitter = NoMovement
+    EmitterRate = 15
+    SetX = 10,70
+    SetY = 10,8
+    SetZ = 10,20
+    SetZoomX = 10,40
+    SetZoomY = 10,70
+    SetOpacity = 10,0
+    MoveOpacity = 10,4,255
+    MoveZoomY = 10,13,400
+    SetColor = 17,E060E000
+    MoveColor = 17,1,E060E040
+    MoveOpacity = 17,6,0
+    SetVisible = 23,false
+    SetEmitting = 10,true
+    SetEmitting = 33,false
+    SetSpawnXRange = 10,64
+    SetSpawnYRange = 10,64
+    SetEmitZoomRange = 10,50
+<Star emitter>
+    Focus = User
+    Graphic = shine 3
+    SecondLayer = true
+    Emitter = NoMovement
+    EmitterRate = 15
+    SetX = 37,76
+    SetY = 37,-53
+    SetZ = 37,10
+    SetZoomX = 37,0
+    SetZoomY = 37,0
+    SetColor = 37,E060E0E0
+    MoveZoomX = 37,5,60
+    MoveZoomY = 37,5,60
+    MoveZoomX = 42,7,0,EaseOut
+    MoveZoomY = 42,7,0,EaseOut
+    MoveOpacity = 42,7,0
+    SetVisible = 49,false
+    SetZoomX2 = 37,80
+    SetZoomY2 = 37,80
+    SetOpacity2 = 37,64
+    SetEmitting = 37,true
+    SetEmitting = 48,false
+    SetEmitterY = 37,-16
+    SetSpawnXRange = 37,64
+    SetSpawnYRange = 37,64
+    SetEmitZoomRange = 37,20
+<SE>
+    Play = 10,Rock/Rock Polish,80

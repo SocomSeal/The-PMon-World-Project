@@ -1,0 +1,1335 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[001]   # Intro
+Name = Intro
+#-------------------------------
+[002]   # Region Transfer Map
+Name = Lappet Town
+MapPosition = 0,13,12
+Outdoor = true
+ShowArea = true
+LocationSign = Pt town
+BattleBack = field
+#-------------------------------
+[003]   # Hoenn
+Name = \PN's house
+MapPosition = 0,13,12
+HealingSpot = 2,8,8
+#-------------------------------
+[004]   # Cities
+Name = Pokémon Lab
+MapPosition = 0,13,12
+#-------------------------------
+[005]   # Routes
+Name = Route 1
+MapPosition = 0,13,11
+Outdoor = true
+ShowArea = true
+LocationSign = Pt route
+BattleBack = field
+#-------------------------------
+[006]   # Dungeons
+Name = Route 1
+MapPosition = 0,13,11
+#-------------------------------
+[007]   # Littleroot Town
+Name = Cedolan City
+MapPosition = 0,13,10
+MapSize = 2,11
+Outdoor = true
+ShowArea = true
+LocationSign = Pt city
+#-------------------------------
+[008]   # \PN's House
+Name = Lappet Town
+MapPosition = 0,13,12
+#-------------------------------
+[009]   # Brendan's House
+Name = Cedolan City
+MapPosition = 0,14,10
+HealingSpot = 8,17,11
+#-------------------------------
+[010]   # May's House
+Name = Cedolan City
+MapPosition = 0,13,10
+BattleBack = indoor3
+Environment = Rock
+Flags = DisableBoxLink
+#-------------------------------
+[011]   # Birch's Lab
+Name = Cedolan City
+MapPosition = 0,14,10
+#-------------------------------
+[012]   # Oldale Town
+Name = Cedolan City
+MapPosition = 0,14,10
+#-------------------------------
+[013]   # Oldale Town Poké Center
+Name = Cedolan City
+MapPosition = 0,14,10
+#-------------------------------
+[014]   # Oldale Town Poké Mart
+Name = Cedolan City
+MapPosition = 0,13,10
+#-------------------------------
+[015]   # Oldale Town Houses
+Name = Cedolan City
+MapPosition = 0,13,10
+#-------------------------------
+[016]   # Petalburg City
+Name = Cedolan City
+MapPosition = 0,13,10
+#-------------------------------
+[017]   # Petalburg City Poké Center
+Name = Cedolan City
+MapPosition = 0,13,10
+#-------------------------------
+[018]   # Petalburg City Poké Mart
+Name = Cedolan City
+MapPosition = 0,13,10
+#-------------------------------
+[019]   # Petalburg City Houses
+Name = Cedolan City
+MapPosition = 0,13,10
+#-------------------------------
+[020]   # Petalburg Gym
+Name = Cedolan City
+MapPosition = 0,13,10
+#-------------------------------
+[021]   # Rustboro City
+Name = Route 2
+MapPosition = 0,14,8
+MapSize = 1,11
+Outdoor = true
+ShowArea = true
+LocationSign = Pt route
+Weather = Rain,100
+BattleBack = field
+#-------------------------------
+[022]   # Rustboro City Poké Center
+Name = Rustboro City Poké Center
+#-------------------------------
+[023]   # Rustboro City Poké Mart
+Name = Lerucean Town
+MapPosition = 0,15,8
+Outdoor = true
+ShowArea = true
+LocationSign = Pt town
+#-------------------------------
+[024]   # Rustboro City Houses
+Name = Lerucean Town
+MapPosition = 0,15,8
+HealingSpot = 23,11,15
+#-------------------------------
+[025]   # Trainer School
+Name = Lerucean Town
+MapPosition = 0,15,8
+#-------------------------------
+[026]   # Devon Corporation
+Name = Lerucean Town
+MapPosition = 0,15,8
+#-------------------------------
+[027]   # Rustboro Gym
+Name = Lerucean Town
+MapPosition = 0,15,8
+#-------------------------------
+[028]   # Dewford Town
+Name = Natural Park
+MapPosition = 0,16,8
+Outdoor = true
+ShowArea = true
+LocationSign = Pt park
+BattleBack = field
+Flags = MossRock,BugContest
+#-------------------------------
+[029]   # Dewford Town Poké Center
+Name = Natural Park
+MapPosition = 0,16,8
+Bicycle = true
+Flags = BugContestReception
+#-------------------------------
+[030]   # Dewford Town Houses
+Name = Natural Park
+MapPosition = 0,16,8
+Flags = BugContestReception
+#-------------------------------
+[031]   # Dewford Gym
+Name = Route 3
+MapPosition = 0,14,6
+MapSize = 2,1101
+Outdoor = true
+ShowArea = true
+LocationSign = Pt route
+BattleBack = field
+#-------------------------------
+[032]   # Slateport City
+Name = Slateport City
+#-------------------------------
+[033]   # Slateport City Harbor
+Name = Slateport City Harbor
+#-------------------------------
+[034]   # Slateport City Poké Center
+Name = Ice Cave
+MapPosition = 0,15,6
+ShowArea = true
+LocationSign = Pt cave
+Bicycle = true
+BattleBack = cave1
+Environment = Cave
+Flags = IceRock
+#-------------------------------
+[035]   # Slateport City Poké Mart
+Name = Ingido Plateau
+MapPosition = 0,13,6
+Outdoor = true
+ShowArea = true
+LocationSign = Pt route
+#-------------------------------
+[036]   # Slateport City Houses
+Name = Ingido Plateau
+MapPosition = 0,13,6
+HealingSpot = 35,17,7
+#-------------------------------
+[037]   # Pokémon Fan Club
+Name = Ingido Plateau
+MapPosition = 0,13,6
+BattleBack = elite1
+Flags = DisableBoxLink
+#-------------------------------
+[038]   # Stern's Shipyard
+Name = Ingido Plateau
+MapPosition = 0,13,6
+Flags = DisableBoxLink
+#-------------------------------
+[039]   # Oceanic Museum
+Name = Route 4
+MapPosition = 0,11,6
+MapSize = 2,11
+Outdoor = true
+ShowArea = true
+LocationSign = Pt route
+BattleBack = field
+#-------------------------------
+[040]   # Slateport Battle Tent
+Name = Route 4
+MapPosition = 0,11,6
+Outdoor = true
+ShowArea = true
+LocationSign = Pt route
+BicycleAlways = true
+#-------------------------------
+[041]   # Mauville City
+Name = Route 5
+MapPosition = 0,11,7
+MapSize = 1,111
+Outdoor = true
+ShowArea = true
+LocationSign = Pt route
+BicycleAlways = true
+#-------------------------------
+[042]   # Mauville City Poké Center
+Name = Mauville City Poké Center
+#-------------------------------
+[043]   # Mauville City Poké Mart
+Name = Mauville City Poké Mart
+#-------------------------------
+[044]   # Mauville City Houses
+Name = Route 6
+MapPosition = 0,11,10
+MapSize = 2,11
+Outdoor = true
+ShowArea = true
+LocationSign = Pt route
+BattleBack = field
+#-------------------------------
+[045]   # Rydel's Cycles
+Name = Route 6
+MapPosition = 0,11,10
+Outdoor = true
+ShowArea = true
+LocationSign = Pt route
+BicycleAlways = true
+#-------------------------------
+[046]   # Mauville Game Corner
+Name = Route 4
+MapPosition = 0,12,6
+Bicycle = true
+#-------------------------------
+[047]   # Mauville Gym
+Name = Route 7
+MapPosition = 0,15,10
+MapSize = 2,11
+Outdoor = true
+ShowArea = true
+LocationSign = Pt route
+Weather = Rain,0
+BattleBack = rocky
+Environment = Rock
+#-------------------------------
+[048]   # Verdanturf Town
+Name = Verdanturf Town
+#-------------------------------
+[049]   # Verdanturf Town Poké Center
+Name = Rock Cave
+MapPosition = 0,16,10
+ShowArea = true
+LocationSign = Pt cave
+Bicycle = true
+BattleBack = cave1
+Environment = Cave
+Flags = Magnetic,DistortionWorld
+#-------------------------------
+[050]   # Verdanturf Town Poké Mart
+Name = Rock Cave
+MapPosition = 0,16,10
+ShowArea = true
+LocationSign = Pt cave
+Bicycle = true
+DarkMap = true
+BattleBack = cave3
+Environment = Cave
+Flags = Magnetic,DistortionWorld
+#-------------------------------
+[051]   # Verdanturf Town Houses
+Name = Rock Cave
+MapPosition = 0,16,10
+ShowArea = true
+LocationSign = Pt cave
+Bicycle = true
+Dungeon = true
+BattleBack = cave2
+Environment = Cave
+Flags = Magnetic,DistortionWorld,ScaleWildEncounterLevels
+#-------------------------------
+[052]   # Verdanturf Battle Tent
+Name = Battle Frontier
+MapPosition = 0,17,10
+Outdoor = true
+ShowArea = true
+LocationSign = Pt city
+#-------------------------------
+[053]   # Fallarbor Town
+Name = Battle Frontier
+MapPosition = 0,17,10
+HealingSpot = 52,17,14
+#-------------------------------
+[054]   # Fallarbor Town Poké Center
+Name = Battle Frontier
+MapPosition = 0,17,10
+#-------------------------------
+[055]   # Fallarbor Town Poké Mart
+Name = Battle Frontier
+MapPosition = 0,17,10
+HealingSpot = 52,30,10
+#-------------------------------
+[056]   # Fallarbor Town Houses
+Name = Battle Frontier
+MapPosition = 0,17,10
+BattleBack = indoor1
+Flags = DisableBoxLink
+#-------------------------------
+[057]   # Fallarbor Battle Tent
+Name = Battle Frontier
+MapPosition = 0,17,10
+#-------------------------------
+[058]   # Lavaridge Town
+Name = Battle Frontier
+MapPosition = 0,17,10
+#-------------------------------
+[059]   # Lavaridge Town Poké Center
+Name = Battle Frontier
+MapPosition = 0,17,10
+BattleBack = indoor1
+Flags = DisableBoxLink
+#-------------------------------
+[060]   # Lavaridge Town Poké Mart
+Name = Battle Frontier
+MapPosition = 0,17,10
+#-------------------------------
+[061]   # Lavaridge Town Houses
+Name = Battle Frontier
+MapPosition = 0,17,10
+BattleBack = indoor1
+Flags = DisableBoxLink
+#-------------------------------
+[062]   # Lavaridge Town Herb Shop
+Name = Battle Frontier
+MapPosition = 0,17,10
+#-------------------------------
+[063]   # Lavaridge Gym
+Name = Battle Frontier
+MapPosition = 0,17,10
+Flags = DisableBoxLink
+#-------------------------------
+[064]   # Fortree City
+Name = Battle Frontier
+MapPosition = 0,17,10
+BattleBack = indoor1
+Flags = DisableBoxLink
+#-------------------------------
+[065]   # Fortree City Poké Center
+Name = Battle Frontier
+MapPosition = 0,17,10
+Flags = DisableBoxLink
+#-------------------------------
+[066]   # Fortree City Poké Mart
+Name = Safari Zone
+MapPosition = 0,12,12
+Outdoor = true
+ShowArea = true
+LocationSign = Pt route
+BattleBack = field
+#-------------------------------
+[067]   # Fortree City Houses
+Name = Safari Zone
+MapPosition = 0,12,12
+#-------------------------------
+[068]   # Fortree Gym
+Name = Safari Zone
+MapPosition = 0,12,12
+Outdoor = true
+ShowArea = true
+LocationSign = Pt forest
+SafariMap = true
+BattleBack = forest
+Environment = Forest
+#-------------------------------
+[069]   # Lilycove City
+Name = Route 8
+MapPosition = 0,13,13
+Outdoor = true
+ShowArea = true
+LocationSign = Pt route
+DiveMap = 70
+BattleBack = field
+#-------------------------------
+[070]   # Lilycove City Harbor
+Name = Route 8
+MapPosition = 0,13,13
+BattleBack = underwater
+Environment = Underwater
+#-------------------------------
+[071]   # Lilycove City Poké Center
+Name = Route 8
+MapPosition = 0,13,13
+#-------------------------------
+[072]   # Lilycove Department Store
+Name = Berth Island
+MapPosition = 0,18,17
+Outdoor = true
+ShowArea = true
+LocationSign = Pt lake
+Weather = Storm,50
+BattleBack = field
+Flags = DistortionWorld
+#-------------------------------
+[073]   # Lilycove City Houses
+Name = Faraday Island
+MapPosition = 0,22,16
+Outdoor = true
+ShowArea = true
+LocationSign = Pt lake
+BattleBack = field
+Flags = DistortionWorld
+#-------------------------------
+[074]   # Lilycove Museum
+Name = Route 6
+MapPosition = 0,12,10
+Bicycle = true
+#-------------------------------
+[075]   # Lilycove Contest Hall
+Name = Tiall Region
+MapPosition = 1,13,16
+Outdoor = true
+BattleBack = city
+#-------------------------------
+[076]   # Mossdeep City
+Name = Mossdeep City
+#-------------------------------
+[077]   # Mossdeep City Poké Center
+Name = Mossdeep City Poké Center
+#-------------------------------
+[078]   # Mossdeep City Poké Mart
+Name = Mossdeep City Poké Mart
+#-------------------------------
+[079]   # Mossdeep City Houses
+Name = Mossdeep City Houses
+#-------------------------------
+[080]   # Mossdeep Game Corner
+Name = Mossdeep Game Corner
+#-------------------------------
+[081]   # Mossdeep Space Center
+Name = Mossdeep Space Center
+#-------------------------------
+[082]   # Mossdeep Gym
+Name = Mossdeep Gym
+#-------------------------------
+[083]   # Sootopolis City
+Name = Sootopolis City
+#-------------------------------
+[084]   # Sootopolis City Poké Center
+Name = Sootopolis City Poké Center
+#-------------------------------
+[085]   # Sootopolis City Poké Mart
+Name = Sootopolis City Poké Mart
+#-------------------------------
+[086]   # Sootopolis City Houses
+Name = Sootopolis City Houses
+#-------------------------------
+[087]   # Sootopolis Gym
+Name = Sootopolis Gym
+#-------------------------------
+[088]   # Pacifidlog Town
+Name = Pacifidlog Town
+#-------------------------------
+[089]   # Pacifidlog Town Poké Center
+Name = Pacifidlog Town Poké Center
+#-------------------------------
+[090]   # Pacifidlog Town Houses
+Name = Pacifidlog Town Houses
+#-------------------------------
+[091]   # Ever Grande City South
+Name = Ever Grande City South
+#-------------------------------
+[092]   # Ever Grande City Poké Center
+Name = Ever Grande City Poké Center
+#-------------------------------
+[093]   # Pokémon League
+Name = Pokémon League
+#-------------------------------
+[094]   # Elite Four Sidney
+Name = Elite Four Sidney
+#-------------------------------
+[095]   # Elite Four Phoebe
+Name = Elite Four Phoebe
+#-------------------------------
+[096]   # Elite Four Glacia
+Name = Elite Four Glacia
+#-------------------------------
+[097]   # Elite Four Drake
+Name = Elite Four Drake
+#-------------------------------
+[098]   # League Champion
+Name = League Champion
+#-------------------------------
+[099]   # Hall of Fame
+Name = Hall of Fame
+#-------------------------------
+[100]   # E4 Hallways
+Name = E4 Hallways
+#-------------------------------
+[101]   # Route 101
+Name = Route 101
+#-------------------------------
+[102]   # Route 102
+Name = Route 102
+#-------------------------------
+[103]   # Route 103
+Name = Route 103
+#-------------------------------
+[104]   # Route 104
+Name = Route 104
+#-------------------------------
+[105]   # Mr. Briney's House
+Name = Mr. Briney's House
+#-------------------------------
+[106]   # Pretty Petal Flower Shop
+Name = Pretty Petal Flower Shop
+#-------------------------------
+[107]   # Route 105
+Name = Route 105
+#-------------------------------
+[108]   # Route 106
+Name = Route 106
+#-------------------------------
+[109]   # Route 107
+Name = Route 107
+#-------------------------------
+[110]   # Route 108
+Name = Route 108
+#-------------------------------
+[111]   # Route 109
+Name = Route 109
+#-------------------------------
+[112]   # Seaside House
+Name = Seaside House
+#-------------------------------
+[113]   # Route 110
+Name = Route 110
+#-------------------------------
+[114]   # Route 110-C
+Name = Route 110-C
+#-------------------------------
+[115]   # Cycling Road Gate
+Name = Cycling Road Gate
+#-------------------------------
+[116]   # Trick House
+Name = Trick House
+#-------------------------------
+[117]   # Route 111
+Name = Route 111
+#-------------------------------
+[118]   # Winstrate House
+Name = Winstrate House
+#-------------------------------
+[119]   # Trainer Hill
+Name = Trainer Hill
+#-------------------------------
+[120]   # Rest House
+Name = Rest House
+#-------------------------------
+[121]   # Route 112
+Name = Route 112
+#-------------------------------
+[122]   # Cable Car Station
+Name = Cable Car Station
+#-------------------------------
+[123]   # Route 113
+Name = Route 113
+#-------------------------------
+[124]   # Glass Workshop
+Name = Glass Workshop
+#-------------------------------
+[125]   # Route 114
+Name = Route 114
+#-------------------------------
+[126]   # Fossil Maniac's House
+Name = Fossil Maniac's House
+#-------------------------------
+[127]   # Fossil Maniac's Tunnel
+Name = Fossil Maniac's Tunnel
+#-------------------------------
+[128]   # Lanette's House
+Name = Lanette's House
+#-------------------------------
+[129]   # Route 115
+Name = Route 115
+#-------------------------------
+[130]   # Route 116
+Name = Route 116
+#-------------------------------
+[131]   # Tunneler's Rest House
+Name = Tunneler's Rest House
+#-------------------------------
+[132]   # Route 117
+Name = Route 117
+#-------------------------------
+[133]   # Pokémon Daycare
+Name = Pokémon Daycare
+#-------------------------------
+[134]   # Route 118
+Name = Route 118
+#-------------------------------
+[135]   # Route 119
+Name = Route 119
+#-------------------------------
+[136]   # Route 119 Houses
+Name = Route 119 Houses
+#-------------------------------
+[137]   # Weather Institute
+Name = Weather Institute
+#-------------------------------
+[138]   # Route 120
+Name = Route 120
+#-------------------------------
+[139]   # Route 121
+Name = Route 121
+#-------------------------------
+[140]   # Safari Zone Entrance
+Name = Safari Zone Entrance
+#-------------------------------
+[141]   # Route 122
+Name = Route 122
+#-------------------------------
+[142]   # Route 123
+Name = Route 123
+#-------------------------------
+[143]   # Berry Master's House
+Name = Berry Master's House
+#-------------------------------
+[144]   # Route 124
+Name = Route 124
+#-------------------------------
+[145]   # Diving Treasure Hunter's House
+Name = Diving Treasure Hunter's House
+#-------------------------------
+[146]   # Route 125
+Name = Route 125
+#-------------------------------
+[147]   # Route 126
+Name = Route 126
+#-------------------------------
+[148]   # Route 127
+Name = Route 127
+#-------------------------------
+[149]   # Route 128
+Name = Route 128
+#-------------------------------
+[150]   # Route 129
+Name = Route 129
+#-------------------------------
+[151]   # Route 130
+Name = Route 130
+#-------------------------------
+[152]   # Route 131
+Name = Route 131
+#-------------------------------
+[153]   # Route 132
+Name = Route 132
+#-------------------------------
+[154]   # Route 133
+Name = Route 133
+#-------------------------------
+[155]   # Route 134
+Name = Route 134
+#-------------------------------
+[156]   # Petalburg Woods
+Name = Petalburg Woods
+#-------------------------------
+[157]   # Rusturf Tunnel
+Name = Rusturf Tunnel
+#-------------------------------
+[158]   # Granite Cave
+Name = Granite Cave
+#-------------------------------
+[159]   # Granite Cave 1F
+Name = Granite Cave 1F
+#-------------------------------
+[160]   # Granite Cave B1F
+Name = Granite Cave B1F
+#-------------------------------
+[161]   # Granite Cave B2F
+Name = Granite Cave B2F
+#-------------------------------
+[162]   # Granite Cave Steven's Room
+Name = Granite Cave Steven's Room
+#-------------------------------
+[163]   # Abandoned Ship
+Name = Abandoned Ship
+#-------------------------------
+[164]   # Abandoned Ship 1F
+Name = Abandoned Ship 1F
+#-------------------------------
+[165]   # Abandoned Ship 1F Cabins
+Name = Abandoned Ship 1F Cabins
+#-------------------------------
+[166]   # Abandoned Ship B1F
+Name = Abandoned Ship B1F
+#-------------------------------
+[167]   # Abandoned Ship B1F Cabins
+Name = Abandoned Ship B1F Cabins
+#-------------------------------
+[168]   # Abandoned Ship Hidden Floor
+Name = Abandoned Ship Hidden Floor
+#-------------------------------
+[169]   # Abandoned Ship Hidden Floor Cabins
+Name = Abandoned Ship Hidden Floor Cabins
+#-------------------------------
+[170]   # New Mauville
+Name = New Mauville
+#-------------------------------
+[171]   # New Mauville Entrance
+Name = New Mauville Entrance
+#-------------------------------
+[172]   # Mirage Tower
+Name = Mirage Tower
+#-------------------------------
+[173]   # Mirage Tower 1F
+Name = Mirage Tower 1F
+#-------------------------------
+[174]   # Mirage Tower 2F
+Name = Mirage Tower 2F
+#-------------------------------
+[175]   # Mirage Tower 3F
+Name = Mirage Tower 3F
+#-------------------------------
+[176]   # Mirage Tower 4F
+Name = Mirage Tower 4F
+#-------------------------------
+[177]   # Fiery Path
+Name = Fiery Path
+#-------------------------------
+[178]   # Mt. Chimney
+Name = Mt. Chimney
+#-------------------------------
+[179]   # Cable Car Station
+Name = Cable Car Station
+#-------------------------------
+[180]   # Jagged Pass
+Name = Jagged Pass
+#-------------------------------
+[181]   # Magma Hideout
+Name = Magma Hideout
+#-------------------------------
+[182]   # Magma Hideout 1F
+Name = Magma Hideout 1F
+#-------------------------------
+[183]   # Magma Hideout 2F-1
+Name = Magma Hideout 2F-1
+#-------------------------------
+[184]   # Magma Hideout 2F-2
+Name = Magma Hideout 2F-2
+#-------------------------------
+[185]   # Magma Hideout 2F-3
+Name = Magma Hideout 2F-3
+#-------------------------------
+[186]   # Magma Hideout 3F-1
+Name = Magma Hideout 3F-1
+#-------------------------------
+[187]   # Magma Hideout 3F-2
+Name = Magma Hideout 3F-2
+#-------------------------------
+[188]   # Magma Hideout 3F-3
+Name = Magma Hideout 3F-3
+#-------------------------------
+[189]   # Magma Hideout 4F
+Name = Magma Hideout 4F
+#-------------------------------
+[190]   # Meteor Falls
+Name = Meteor Falls
+#-------------------------------
+[191]   # Meteor Falls 1F-1
+Name = Meteor Falls 1F-1
+#-------------------------------
+[192]   # Meteor Falls 1F-2
+Name = Meteor Falls 1F-2
+#-------------------------------
+[193]   # Meteor Falls B1F-1
+Name = Meteor Falls B1F-1
+#-------------------------------
+[194]   # Meteor Falls B1F-2
+Name = Meteor Falls B1F-2
+#-------------------------------
+[195]   # Meteor Falls Steven's Room
+Name = Meteor Falls Steven's Room
+#-------------------------------
+[196]   # Scorched Slab
+Name = Scorched Slab
+#-------------------------------
+[197]   # Safari Zone
+Name = Safari Zone
+#-------------------------------
+[198]   # Safari Zone NW
+Name = Safari Zone NW
+#-------------------------------
+[199]   # Safari Zone N
+Name = Safari Zone N
+#-------------------------------
+[200]   # Safari Zone NE
+Name = Safari Zone NE
+#-------------------------------
+[201]   # Safari Zone SW
+Name = Safari Zone SW
+#-------------------------------
+[202]   # Safari Zone S
+Name = Safari Zone S
+#-------------------------------
+[203]   # Safari Zone SE
+Name = Safari Zone SE
+#-------------------------------
+[204]   # Rest House
+Name = Rest House
+#-------------------------------
+[205]   # Mt. Pyre
+Name = Mt. Pyre
+#-------------------------------
+[206]   # Mt. Pyre 1F
+Name = Mt. Pyre 1F
+#-------------------------------
+[207]   # Mt. Pyre 2F
+Name = Mt. Pyre 2F
+#-------------------------------
+[208]   # Mt. Pyre 3F
+Name = Mt. Pyre 3F
+#-------------------------------
+[209]   # Mt. Pyre 4F
+Name = Mt. Pyre 4F
+#-------------------------------
+[210]   # Mt. Pyre 5F
+Name = Mt. Pyre 5F
+#-------------------------------
+[211]   # Mt. Pyre 6F
+Name = Mt. Pyre 6F
+#-------------------------------
+[212]   # Mt. Pyre Exterior
+Name = Mt. Pyre Exterior
+#-------------------------------
+[213]   # Mt. Pyre Summit
+Name = Mt. Pyre Summit
+#-------------------------------
+[214]   # Aqua Hideout
+Name = Aqua Hideout
+#-------------------------------
+[215]   # Aqua Hideout 1F
+Name = Aqua Hideout 1F
+#-------------------------------
+[216]   # Aqua Hideout B1F
+Name = Aqua Hideout B1F
+#-------------------------------
+[217]   # Aqua Hideout B2F
+Name = Aqua Hideout B2F
+#-------------------------------
+[218]   # Shoal Cave High
+Name = Shoal Cave High
+#-------------------------------
+[219]   # Shoal Cave High Entrance
+Name = Shoal Cave High Entrance
+#-------------------------------
+[220]   # Shoal Cave High Interior
+Name = Shoal Cave High Interior
+#-------------------------------
+[221]   # Shoal Cave Low
+Name = Shoal Cave Low
+#-------------------------------
+[222]   # Shoal Cave Low Entrance
+Name = Shoal Cave Low Entrance
+#-------------------------------
+[223]   # Shoal Cave Low Interior
+Name = Shoal Cave Low Interior
+#-------------------------------
+[224]   # Shoal Cave Descent
+Name = Shoal Cave Descent
+#-------------------------------
+[225]   # Shoal Cave Ice Room
+Name = Shoal Cave Ice Room
+#-------------------------------
+[226]   # Seafloor Cavern
+Name = Seafloor Cavern
+#-------------------------------
+[227]   # Seafloor Cavern Entrance
+Name = Seafloor Cavern Entrance
+#-------------------------------
+[228]   # Seafloor Cavern 1
+Name = Seafloor Cavern 1
+#-------------------------------
+[229]   # Seafloor Cavern 2
+Name = Seafloor Cavern 2
+#-------------------------------
+[230]   # Seafloor Cavern 3
+Name = Seafloor Cavern 3
+#-------------------------------
+[231]   # Seafloor Cavern 4
+Name = Seafloor Cavern 4
+#-------------------------------
+[232]   # Seafloor Cavern 5
+Name = Seafloor Cavern 5
+#-------------------------------
+[233]   # Seafloor Cavern 6
+Name = Seafloor Cavern 6
+#-------------------------------
+[234]   # Seafloor Cavern 7
+Name = Seafloor Cavern 7
+#-------------------------------
+[235]   # Seafloor Cavern 8
+Name = Seafloor Cavern 8
+#-------------------------------
+[236]   # Seafloor Cavern 9
+Name = Seafloor Cavern 9
+#-------------------------------
+[237]   # Cave of Origin
+Name = Cave of Origin
+#-------------------------------
+[238]   # Cave of Origin Entrance
+Name = Cave of Origin Entrance
+#-------------------------------
+[239]   # Cave of Origin 1F
+Name = Cave of Origin 1F
+#-------------------------------
+[240]   # Cave of Origin B1F
+Name = Cave of Origin B1F
+#-------------------------------
+[241]   # Sky Pillar
+Name = Sky Pillar
+#-------------------------------
+[242]   # Sky Pillar Entrance
+Name = Sky Pillar Entrance
+#-------------------------------
+[243]   # Sky Pillar 1F
+Name = Sky Pillar 1F
+#-------------------------------
+[244]   # Sky Pillar 2F
+Name = Sky Pillar 2F
+#-------------------------------
+[245]   # Sky Pillar 3F
+Name = Sky Pillar 3F
+#-------------------------------
+[246]   # Sky Pillar 4F
+Name = Sky Pillar 4F
+#-------------------------------
+[247]   # Sky Pillar 5F
+Name = Sky Pillar 5F
+#-------------------------------
+[248]   # Sky Pillar Top
+Name = Sky Pillar Top
+#-------------------------------
+[249]   # Victory Road
+Name = Victory Road
+#-------------------------------
+[250]   # Victory Road 1F
+Name = Victory Road 1F
+#-------------------------------
+[251]   # Victory Road B1F
+Name = Victory Road B1F
+#-------------------------------
+[252]   # Victory Road B2F
+Name = Victory Road B2F
+#-------------------------------
+[253]   # Special
+Name = Special
+#-------------------------------
+[254]   # Underwater Maps
+Name = Underwater Maps
+#-------------------------------
+[255]   # Sootopolis City_U
+Name = Sootopolis City_U
+#-------------------------------
+[256]   # Route 105_U
+Name = Route 105_U
+#-------------------------------
+[257]   # Route 124_U
+Name = Route 124_U
+#-------------------------------
+[258]   # Route 125_U
+Name = Route 125_U
+#-------------------------------
+[259]   # Route 126_U
+Name = Route 126_U
+#-------------------------------
+[260]   # Route 127_U
+Name = Route 127_U
+#-------------------------------
+[261]   # Route 128_U
+Name = Route 128_U
+#-------------------------------
+[262]   # Route 129_U
+Name = Route 129_U
+#-------------------------------
+[263]   # Route 134_U
+Name = Route 134_U
+#-------------------------------
+[264]   # Abandoned Ship 1_U
+Name = Abandoned Ship 1_U
+#-------------------------------
+[265]   # Abandoned Ship 2_U
+Name = Abandoned Ship 2_U
+#-------------------------------
+[266]   # Seafloor Cavern_U
+Name = Seafloor Cavern_U
+#-------------------------------
+[267]   # Sealed Chamber_U
+Name = Sealed Chamber_U
+#-------------------------------
+[268]   # Marine Cave_U
+Name = Marine Cave_U
+#-------------------------------
+[269]   # Intro Truck
+Name = Intro Truck
+#-------------------------------
+[270]   # Altering Cave
+Name = Altering Cave
+#-------------------------------
+[271]   # Altering Cave 1
+Name = Altering Cave 1
+#-------------------------------
+[272]   # Altering Cave 2
+Name = Altering Cave 2
+#-------------------------------
+[273]   # Altering Cave 3
+Name = Altering Cave 3
+#-------------------------------
+[274]   # Altering Cave 4
+Name = Altering Cave 4
+#-------------------------------
+[275]   # Altering Cave 5
+Name = Altering Cave 5
+#-------------------------------
+[276]   # Altering Cave 6
+Name = Altering Cave 6
+#-------------------------------
+[277]   # Altering Cave 7
+Name = Altering Cave 7
+#-------------------------------
+[278]   # Altering Cave 8
+Name = Altering Cave 8
+#-------------------------------
+[279]   # Desert Underpass
+Name = Desert Underpass
+#-------------------------------
+[280]   # S.S. Tidal
+Name = S.S. Tidal
+#-------------------------------
+[281]   # S.S. Tidal Corridor
+Name = S.S. Tidal Corridor
+#-------------------------------
+[282]   # S.S. Tidal Lower Deck
+Name = S.S. Tidal Lower Deck
+#-------------------------------
+[283]   # S.S. Tidal Rooms
+Name = S.S. Tidal Rooms
+#-------------------------------
+[284]   # Battle Frontier
+Name = Battle Frontier
+#-------------------------------
+[285]   # Battle Tower Lobby
+Name = Battle Tower Lobby
+#-------------------------------
+[286]   # Battle Dome Lobby
+Name = Battle Dome Lobby
+#-------------------------------
+[287]   # Battle Palace Lobby
+Name = Battle Palace Lobby
+#-------------------------------
+[288]   # Battle Arena Lobby
+Name = Battle Arena Lobby
+#-------------------------------
+[289]   # Battle Factory Lobby
+Name = Battle Factory Lobby
+#-------------------------------
+[290]   # Battle Pike Lobby
+Name = Battle Pike Lobby
+#-------------------------------
+[291]   # Battle Pyramid Lobby
+Name = Battle Pyramid Lobby
+#-------------------------------
+[292]   # Battle Frontier Poké Center
+Name = Battle Frontier Poké Center
+#-------------------------------
+[293]   # Battle Frontier Poké Mart
+Name = Battle Frontier Poké Mart
+#-------------------------------
+[294]   # Battle Frontier Exchange
+Name = Battle Frontier Exchange
+#-------------------------------
+[295]   # Battle Frontier Ranking Hall
+Name = Battle Frontier Ranking Hall
+#-------------------------------
+[296]   # Battle Frontier Lounges
+Name = Battle Frontier Lounges
+#-------------------------------
+[297]   # Battle Frontier Other
+Name = Battle Frontier Other
+#-------------------------------
+[298]   # Artisan Cave
+Name = Artisan Cave
+#-------------------------------
+[299]   # Artisan Cave 1F
+Name = Artisan Cave 1F
+#-------------------------------
+[300]   # Artisan Cave B1F
+Name = Artisan Cave B1F
+#-------------------------------
+[301]   # Sealed Chamber
+Name = Sealed Chamber
+#-------------------------------
+[302]   # Sealed Chamber Outer
+Name = Sealed Chamber Outer
+#-------------------------------
+[303]   # Sealed Chamber Inner
+Name = Sealed Chamber Inner
+#-------------------------------
+[304]   # Island Cave
+Name = Island Cave
+#-------------------------------
+[305]   # Desert Ruins
+Name = Desert Ruins
+#-------------------------------
+[306]   # Ancient Tomb
+Name = Ancient Tomb
+#-------------------------------
+[307]   # Marine Cave
+Name = Marine Cave
+#-------------------------------
+[308]   # Marine Cave Entrance
+Name = Marine Cave Entrance
+#-------------------------------
+[309]   # Marine Cave Interior
+Name = Marine Cave Interior
+#-------------------------------
+[310]   # Terra Cave
+Name = Terra Cave
+#-------------------------------
+[311]   # Terra Cave Entrance
+Name = Terra Cave Entrance
+#-------------------------------
+[312]   # Terra Cave Interior
+Name = Terra Cave Interior
+#-------------------------------
+[313]   # Southern Island
+Name = Southern Island
+#-------------------------------
+[314]   # Southern Island Exterior
+Name = Southern Island Exterior
+#-------------------------------
+[315]   # Southern Island Interior
+Name = Southern Island Interior
+#-------------------------------
+[316]   # Birth Island
+Name = Birth Island
+#-------------------------------
+[317]   # Birth Island Harbor
+Name = Birth Island Harbor
+#-------------------------------
+[318]   # The... Moon?
+Name = The... Moon?
+#-------------------------------
+[319]   # Sootopolis City (STORMING)
+Name = Sootopolis City (STORMING)
+#-------------------------------
+[320]   # Filler Maps
+Name = Filler Maps
+#-------------------------------
+[321]   # West Rustboro
+Name = West Rustboro
+#-------------------------------
+[322]   # Ever Grande City North
+Name = Ever Grande City North
+#-------------------------------
+[323]   # Southwest Granite Cave
+Name = Southwest Granite Cave
+#-------------------------------
+[324]   # Southwest Dewford
+Name = Southwest Dewford
+#-------------------------------
+[325]   # South Route 109
+Name = South Route 109
+#-------------------------------
+[326]   # East Route 109
+Name = East Route 109
+#-------------------------------
+[327]   # South Interior Ocean Dewford
+Name = South Interior Ocean Dewford
+#-------------------------------
+[328]   # South Interior Petalburg
+Name = South Interior Petalburg
+#-------------------------------
+[329]   # South Interior Littleroot
+Name = South Interior Littleroot
+#-------------------------------
+[330]   # West Interior Slateport
+Name = West Interior Slateport
+#-------------------------------
+[331]   # North Interior Petalburg
+Name = North Interior Petalburg
+#-------------------------------
+[332]   # Northeast Interior Petalburg
+Name = Northeast Interior Petalburg
+#-------------------------------
+[333]   # West Interior Cycling Road
+Name = West Interior Cycling Road
+#-------------------------------
+[334]   # South Interior Lavaridge
+Name = South Interior Lavaridge
+#-------------------------------
+[335]   # Interior Rusturf Tunnel
+Name = Interior Rusturf Tunnel
+#-------------------------------
+[336]   # South Interior Fallarbor
+Name = South Interior Fallarbor
+#-------------------------------
+[337]   # North Interior Lavaridge
+Name = North Interior Lavaridge
+#-------------------------------
+[338]   # Sootopolis City_U (STORMING)
+Name = Sootopolis City_U (STORMING)
+#-------------------------------
+[339]   # Northwest Meteor Falls
+Name = Northwest Meteor Falls
+#-------------------------------
+[340]   # Desert Jungle
+Name = Desert Jungle
+#-------------------------------
+[341]   # South Fortree
+Name = South Fortree
+#-------------------------------
+[342]   # West Mt. Pyre
+Name = West Mt. Pyre
+#-------------------------------
+[343]   # North Mainland Edge
+Name = North Mainland Edge
+#-------------------------------
+[344]   # West Safari Zone
+Name = West Safari Zone
+#-------------------------------
+[345]   # East Safari Zone
+Name = East Safari Zone
+#-------------------------------
+[346]   # North Lilycove
+Name = North Lilycove
+#-------------------------------
+[347]   # North Ocean
+Name = North Ocean
+#-------------------------------
+[348]   # Southeast EverGrande
+Name = Southeast EverGrande
+#-------------------------------
+[349]   # Southeast Ocean
+Name = Southeast Ocean
+#-------------------------------
+[350]   # Southwest Ocean
+Name = Southwest Ocean
+#-------------------------------
+[351]   # East Cycling Road
+Name = East Cycling Road
+#-------------------------------
+[352]   # South Ocean
+Name = South Ocean
+#-------------------------------
+[353]   # East Central Ocean
+Name = East Central Ocean
+#-------------------------------
+[354]   # East Mt. Pyre
+Name = East Mt. Pyre
+#-------------------------------
+[355]   # South Lilycove
+Name = South Lilycove
+#-------------------------------
+[356]   # North Central Ocean
+Name = North Central Ocean
+#-------------------------------
+[357]   # South Central Ocean
+Name = South Central Ocean
+#-------------------------------
+[358]   # Captain's Office
+Name = Captain's Office
+#-------------------------------
+[359]   # Cutscene Maps
+Name = Cutscene Maps
+#-------------------------------
+[360]   # Oldale Route101 Cutscene
+Name = Oldale Route101 Cutscene
+#-------------------------------
+[361]   # Petalburg Cutscene
+Name = Petalburg Cutscene
+#-------------------------------
+[362]   # Petalburg -> Dewford Boat Cutscene
+Name = Petalburg -> Dewford Boat Cutscene
+#-------------------------------
+[363]   # Dewford -> Petalburg Boat Cutscene
+Name = Dewford -> Petalburg Boat Cutscene
+#-------------------------------
+[364]   # Dewford -> Slateport Boat Cutscene
+Name = Dewford -> Slateport Boat Cutscene
+#-------------------------------
+[365]   # Slateport -> Dewford Boat Cutscene
+Name = Slateport -> Dewford Boat Cutscene
+#-------------------------------
+[366]   # Mauville Wally Cutscene
+Name = Mauville Wally Cutscene
+#-------------------------------
+[367]   # Pokemon Trainer Fan Club
+Name = Pokemon Trainer Fan Club
+#-------------------------------
+[368]   # Battle Frontier First Visit
+Name = Battle Frontier First Visit
+#-------------------------------
+[369]   # Delta Episode Cutscene 1
+Name = Delta Episode Cutscene 1
+#-------------------------------
+[370]   # Delta Episode Cutscene 2
+Name = Delta Episode Cutscene 2
+#-------------------------------
+[371]   # Delta Episode Cutscene 3
+Name = Delta Episode Cutscene 3
+#-------------------------------
+[372]   # Delta Episode Cutscene 4
+Name = Delta Episode Cutscene 4

@@ -1,0 +1,126 @@
+
+=================
+
+[2026-11-22 14:00:41 -0600]
+[Pokémon Essentials version 22]
+
+Script error in event 1 (coords 0,0), map 2 (Region Transfer Map)
+Exception: RuntimeError
+Message: Unknown ID MISSINGNO.
+
+***Full script:
+$game_variables[48] = []
+$game_variables[49] = $PokemonStorage
+
+$player.party = pbGet(48)
+$PokemonStorage = pbGet(49)
+pbAddPokemonSilent(:MISSINGNO,5)
+$player.has_running_shoes = true
+$player.pokedex.lock(0)
+
+Backtrace:
+102:GameData:106:in `get'
+279:Pokemon:1210:in `initialize'
+369:Utilities_Pokemon:76:in `new'
+369:Utilities_Pokemon:76:in `pbAddPokemonSilent'
+(eval):6:in `execute_script'
+034:Interpreter:145:in `eval'
+034:Interpreter:145:in `execute_script'
+035:Interpreter_Commands:1191:in `command_355'
+035:Interpreter_Commands:116:in `execute_command'
+034:Interpreter:137:in `block in update'
+
+=================
+
+[2026-11-22 14:02:53 -0600]
+[Pokémon Essentials version 22]
+
+Script error in event 1 (coords 0,0), map 2 (Region Transfer Map)
+Exception: RuntimeError
+Message: Unknown ID MISSINGNO.
+
+***Full script:
+$game_variables[48] = []
+$game_variables[49] = $PokemonStorage
+
+$player.party = pbGet(48)
+$PokemonStorage = pbGet(49)
+pbAddPokemonSilent(:MISSINGNO,5)
+$player.has_running_shoes = true
+$player.pokedex.lock(0)
+
+Backtrace:
+102:GameData:106:in `get'
+279:Pokemon:1210:in `initialize'
+369:Utilities_Pokemon:76:in `new'
+369:Utilities_Pokemon:76:in `pbAddPokemonSilent'
+(eval):6:in `execute_script'
+034:Interpreter:145:in `eval'
+034:Interpreter:145:in `execute_script'
+035:Interpreter_Commands:1191:in `command_355'
+035:Interpreter_Commands:116:in `execute_command'
+034:Interpreter:137:in `block in update'
+
+=================
+
+[2026-11-22 14:10:14 -0600]
+[Pokémon Essentials version 22]
+
+Exception: Errno::ENOENT
+Message: File Data/disc1/MapInfos.rxdata not found.
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:11:in `load_data'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:11:in `pbLoadMapInfos'
+266:Overworld_RoamingPokemon:104:in `block in <main>'
+036:Event_Handlers:89:in `block in trigger'
+036:Event_Handlers:89:in `each_value'
+036:Event_Handlers:89:in `trigger'
+037:Event_HandlerCollections:65:in `trigger'
+044:Game_MapFactory:147:in `setMapChanged'
+044:Game_MapFactory:26:in `setup'
+033:Scene_Map:77:in `transfer_player'
+
+=================
+
+[2026-11-22 14:19:20 -0600]
+[Pokémon Essentials version 22]
+
+Exception: Errno::ENOENT
+Message: File Data/disc1/MapInfos.rxdata not found.
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:11:in `load_data'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:11:in `pbLoadMapInfos'
+266:Overworld_RoamingPokemon:104:in `block in <main>'
+036:Event_Handlers:89:in `block in trigger'
+036:Event_Handlers:89:in `each_value'
+036:Event_Handlers:89:in `trigger'
+037:Event_HandlerCollections:65:in `trigger'
+044:Game_MapFactory:147:in `setMapChanged'
+044:Game_MapFactory:26:in `setup'
+033:Scene_Map:77:in `transfer_player'
+
+=================
+
+[2026-11-22 14:21:35 -0600]
+[Pokémon Essentials version 22]
+
+Script error in event 1 (coords 0,0), map 2 (Region Transfer Map)
+Exception: NameError
+Message: uninitialized constant Interpreter::FollowingPkmn
+
+***Full script:
+FollowingPkmn.toggle_off
+
+Backtrace:
+(eval):1:in `execute_script'
+034:Interpreter:145:in `eval'
+034:Interpreter:145:in `execute_script'
+035:Interpreter_Commands:1191:in `command_355'
+035:Interpreter_Commands:116:in `execute_command'
+034:Interpreter:137:in `block in update'
+034:Interpreter:89:in `loop'
+034:Interpreter:89:in `update'
+033:Scene_Map:183:in `block in update'
+033:Scene_Map:182:in `loop'

@@ -1,0 +1,28 @@
+﻿# This base PBS is unused in the Pokemon World Project
+#
+#
+# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------#
+# Table of Contents:
+# [FRLG] Kanto Town Map
+# [Sevii123] Sevii Islands 1-3 Town Map
+# [Sevii45] Sevii Islands 4-5 Town Map
+# [Sevii67] Sevii Islands 6-7 Town Map
+# [HGSS] Johto Town Map
+# [RSE] Hoenn Town Map
+# [DPPt] Sinnoh Town Map
+# [BW] Unova Town Map
+# [XY] Kalos Town Map
+# [USUM] Alola Town Map
+# [SwSh] Galar Town Map
+# [IA] Isle of Armor Town Map
+# [CT] Crown Tundra Town Map
+# [SV] Paldea Town Map
+# [TM] Kitakami Town Map
+# [ID] Blueberry Town Map
+# [WiWa] REGION 10 Town Map
+# [Orre] Orre Town Map
+# [LA] Hisui Town Map
+# [ZA] Lumiose Town Map
+# [MD] Mega Dimension Town Map
+#-------------------------------#

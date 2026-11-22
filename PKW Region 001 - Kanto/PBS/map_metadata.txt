@@ -1,0 +1,1922 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[001]   # Intro
+Name = Intro
+#-------------------------------
+[002]   # Region Transfer Map
+Name = Region Transfer Map
+#-------------------------------
+[003]   # Cities
+Name = Cities
+#-------------------------------
+[004]   # Routes
+Name = Routes
+#-------------------------------
+[005]   # Dungeons
+Name = Dungeons
+#-------------------------------
+[006]   # Pallet Town
+Name = Pallet Town
+MapPosition = 1,5,13
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[007]   # \PN's House
+Name = \PN's House
+MapPosition = 1,5,13
+HealingSpot = 6,12,8
+#-------------------------------
+[008]   # Daisy's House
+Name = Daisy's House
+MapPosition = 1,5,13
+#-------------------------------
+[009]   # Oak's Lab
+Name = Oak's Lab
+MapPosition = 1,5,13
+#-------------------------------
+[010]   # Viridian City
+Name = Viridian City
+MapPosition = 1,5,10
+Outdoor = true
+ShowArea = true
+Flags = PowerSpot
+#-------------------------------
+[011]   # Viridian City Poké Center
+Name = Viridian City
+MapPosition = 1,5,10
+HealingSpot = 10,26,27
+#-------------------------------
+[012]   # Viridian City Poké Mart
+Name = Viridian City
+MapPosition = 1,5,10
+#-------------------------------
+[013]   # Viridian City Houses
+Name = Viridian City
+MapPosition = 1,5,10
+#-------------------------------
+[014]   # Viridian Gym
+Name = Viridian Gym
+MapPosition = 1,5,10
+#-------------------------------
+[015]   # Pewter City
+Name = Pewter City
+MapPosition = 1,5,6
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[016]   # Pewter City Poké Center
+Name = Pewter City
+MapPosition = 1,5,6
+HealingSpot = 15,21,32
+#-------------------------------
+[017]   # Pewter City Poké Mart
+Name = Pewter City
+MapPosition = 1,5,6
+#-------------------------------
+[018]   # Pewter City Houses
+Name = Pewter City
+MapPosition = 1,5,6
+#-------------------------------
+[019]   # Pewter Museum
+Name = Pewter Museum
+MapPosition = 1,5,6
+#-------------------------------
+[020]   # Pewter Gym
+Name = Pewter Gym
+MapPosition = 1,5,6
+#-------------------------------
+[021]   # Cerulean City
+Name = Cerulean City
+MapPosition = 1,15,5
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[022]   # Cerulean City Poké Center
+Name = Cerulean City
+MapPosition = 1,15,5
+#-------------------------------
+[023]   # Cerulean City Poké Mart
+Name = Cerulean City
+MapPosition = 1,15,5
+HealingSpot = 21,22,20
+#-------------------------------
+[024]   # Cerulean City Houses
+Name = Cerulean City
+MapPosition = 1,15,5
+#-------------------------------
+[025]   # Cerulean Bike Shop
+Name = Cerulean City
+MapPosition = 1,15,5
+#-------------------------------
+[026]   # Cerulean Gym
+Name = Cerulean Gym
+MapPosition = 1,15,5
+#-------------------------------
+[027]   # Vermilion City
+Name = Vermilion City
+MapPosition = 1,15,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[028]   # Vermilion City Poké Center
+Name = Vermilion City
+MapPosition = 1,15,11
+#-------------------------------
+[029]   # Vermilion City Poké Mart
+Name = Vermilion City
+MapPosition = 1,15,11
+#-------------------------------
+[030]   # Vermilion City Houses
+Name = Vermilion City
+MapPosition = 1,15,11
+#-------------------------------
+[031]   # Vermilion Gym
+Name = Vermilion Gym
+MapPosition = 1,15,11
+#-------------------------------
+[032]   # Lavender Town
+Name = Lavender Town
+MapPosition = 1,19,8
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[033]   # Lavender Town Poké Center
+Name = Lavender Town
+MapPosition = 1,19,8
+HealingSpot = 32,6,6
+#-------------------------------
+[034]   # Lavender Town Poké Mart
+Name = Lavender Town
+MapPosition = 1,19,8
+#-------------------------------
+[035]   # Lavender Town Houses
+Name = Lavender Town
+MapPosition = 1,19,8
+#-------------------------------
+[036]   # Celadon City
+Name = Celadon City
+MapPosition = 1,12,8
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[037]   # Celadon City Poké Center
+Name = Celadon City
+MapPosition = 1,12,8
+HealingSpot = 36,48,18
+Flags = PowerSpot
+#-------------------------------
+[038]   # Celadon Dept. Store
+Name = Celadon Dept. Store
+MapPosition = 1,12,8
+#-------------------------------
+[039]   # Celadon Dept. Rooftop
+Name = Celadon Dept. Store
+MapPosition = 1,12,8
+#-------------------------------
+[040]   # Celadon Dept. Elevator
+Name = Celadon Dept. Store
+MapPosition = 1,12,8
+#-------------------------------
+[041]   # Celadon Houses
+Name = Celadon City
+MapPosition = 1,12,8
+#-------------------------------
+[042]   # Celadon Mansion
+Name = Celadon City
+MapPosition = 1,12,8
+#-------------------------------
+[043]   # Celadon Mansion Rooftop
+Name = Celadon City
+MapPosition = 1,12,8
+#-------------------------------
+[044]   # Rocket Game Corner
+Name = Rocket Game Corner
+MapPosition = 1,12,8
+#-------------------------------
+[045]   # Celadon Gym
+Name = Celadon Gym
+MapPosition = 1,12,8
+#-------------------------------
+[046]   # Fuchsia City
+Name = Fuchsia City
+MapPosition = 1,13,14
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[047]   # Fuchsia City Poké Center
+Name = Fuchsia City
+MapPosition = 1,13,14
+HealingSpot = 46,25,33
+#-------------------------------
+[048]   # Fuchsia City Poké Mart
+Name = Fuchsia City
+MapPosition = 1,13,14
+#-------------------------------
+[049]   # Fuchsia City Houses
+Name = Fuchsia City
+MapPosition = 1,13,14
+#-------------------------------
+[050]   # Safari Zone Gate
+Name = Safari Zone Gate
+MapPosition = 1,13,14
+#-------------------------------
+[051]   # Fuchsia Gym
+Name = Fuchsia Gym
+MapPosition = 1,13,14
+#-------------------------------
+[052]   # Saffron City
+Name = Saffron City
+MapPosition = 1,15,8
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[053]   # Saffron City Poké Center
+Name = Saffron City
+MapPosition = 1,15,8
+HealingSpot = 52,24,40
+#-------------------------------
+[054]   # Saffron City Poké Mart
+Name = Saffron City
+MapPosition = 1,15,8
+#-------------------------------
+[055]   # Saffron City Houses
+Name = Saffron City
+MapPosition = 1,15,8
+#-------------------------------
+[056]   # Saffron Fighting Dojo
+Name = Fighting Dojo
+MapPosition = 1,15,8
+Flags = PowerSpot
+#-------------------------------
+[057]   # Saffron Gym
+Name = Saffron Gym
+MapPosition = 1,15,8
+#-------------------------------
+[058]   # Cinnabar Island
+Name = Cinnabar Island
+MapPosition = 1,5,16
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[059]   # Cinnabar Island Poké Center
+Name = Cinnabar Island
+MapPosition = 1,5,16
+HealingSpot = 58,20,12
+Flags = PowerSpot
+#-------------------------------
+[060]   # Cinnabar Island Poké Mart
+Name = Cinnabar Island
+MapPosition = 1,5,16
+#-------------------------------
+[061]   # Pokémon Lab
+Name = Pokémon Lab
+MapPosition = 1,5,16
+Flags = PowerSpot
+#-------------------------------
+[062]   # Cinnabar Gym
+Name = Cinnabar Gym
+MapPosition = 1,5,16
+#-------------------------------
+[063]   # Indigo Plateau
+Name = Indigo Plateau
+MapPosition = 1,3,5
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[064]   # Pokémon League
+Name = Pokémon League
+MapPosition = 1,3,5
+Flags = PowerSpot
+#-------------------------------
+[065]   # Elite Four Lorelei
+Name = Elite Four Lorelei
+MapPosition = 1,3,5
+#-------------------------------
+[066]   # Elite Four Bruno
+Name = Elite Four Bruno
+MapPosition = 1,3,5
+#-------------------------------
+[067]   # Elite Four Agatha
+Name = Elite Four Agatha
+MapPosition = 1,3,5
+#-------------------------------
+[068]   # Elite Four Lance
+Name = Elite Four Lance
+MapPosition = 1,3,5
+#-------------------------------
+[069]   # Pokémon League Champion
+Name = Pokémon League Champion
+MapPosition = 1,3,5
+#-------------------------------
+[070]   # Hall of Fame
+Name = Hall of Fame
+MapPosition = 1,3,5
+#-------------------------------
+[071]   # Route 1
+Name = Route 1
+MapPosition = 1,5,11
+MapSize = 1,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[072]   # Route 2 Folder
+Name = Route 2 Folder
+#-------------------------------
+[073]   # Route 2-S
+Name = Route 2
+MapPosition = 1,5,7
+MapSize = 1,111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[074]   # Route 2-N
+Name = Route 2
+MapPosition = 1,5,7
+MapSize = 1,111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[075]   # Route 2 Gate
+Name = Route 2
+MapPosition = 1,6,8
+Bicycle = true
+#-------------------------------
+[076]   # Route 3
+Name = Route 3
+MapPosition = 1,6,6
+MapSize = 4,1111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[077]   # Route 3 filler
+Name = Route 3 filler
+#-------------------------------
+[078]   # Route 3 filler 2
+Name = Route 3 filler 2
+#-------------------------------
+[079]   # Route 4 folder
+Name = Route 4 folder
+#-------------------------------
+[080]   # Route 4-E
+Name = Route 4
+MapPosition = 1,9,5
+MapSize = 6,111111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[081]   # Route 4-W
+Name = Route 4
+MapPosition = 1,9,5
+MapSize = 6,111111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[082]   # Route 4 Poké Center
+Name = Route 4 Poké Center
+MapPosition = 1,9,5
+HealingSpot = 80,12,10
+#-------------------------------
+[083]   # Route 5
+Name = Route 5
+MapPosition = 1,15,6
+MapSize = 1,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[084]   # North Saffron Gate
+Name = North Saffron Gate
+MapPosition = 1,15,7
+Bicycle = true
+#-------------------------------
+[085]   # Kanto Daycare
+Name = Kanto Daycare
+MapPosition = 1,15,7
+#-------------------------------
+[086]   # North Underground Path Entrance
+Name = Underground Path Entrance
+MapPosition = 1,15,7
+Bicycle = true
+#-------------------------------
+[087]   # Underground Path N-S
+Name = Underground Path
+MapPosition = 1,15,7
+MapSize = 1,111
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[088]   # Route 6
+Name = Route 6
+MapPosition = 1,15,9
+MapSize = 1,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[089]   # South Saffron Gate
+Name = South Saffron Gate
+MapPosition = 1,15,9
+Bicycle = true
+#-------------------------------
+[090]   # South Underground Path Entrance
+Name = Underground Path Entrance
+MapPosition = 1,15,9
+Bicycle = true
+#-------------------------------
+[091]   # Route 7
+Name = Route 7
+MapPosition = 1,13,8
+MapSize = 2,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[092]   # West Saffron Gate
+Name = West Saffron Gate
+MapPosition = 1,14,8
+Bicycle = true
+#-------------------------------
+[093]   # West Underground Path Entrance
+Name = Underground Path Entrance
+MapPosition = 1,13,8
+Bicycle = true
+#-------------------------------
+[094]   # Route 8
+Name = Route 8
+MapPosition = 1,16,8
+MapSize = 3,111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[095]   # East Saffron Gate
+Name = East Saffron Gate
+MapPosition = 1,16,8
+Bicycle = true
+#-------------------------------
+[096]   # East Underground Path Entrance
+Name = Underground Path Entrance
+MapPosition = 1,16,8
+Bicycle = true
+#-------------------------------
+[097]   # Underground Path W-E
+Name = Underground Path
+MapPosition = 1,14,8
+MapSize = 3,111
+Bicycle = true
+#-------------------------------
+[098]   # Route 9
+Name = Route 9
+MapPosition = 1,16,5
+MapSize = 3,111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[099]   # Route 10 folder
+Name = Route 10 folder
+#-------------------------------
+[100]   # Route 10-N
+Name = Route 10
+MapPosition = 1,19,5
+MapSize = 1,111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[101]   # Route 10-S
+Name = Route 10
+MapPosition = 1,19,5
+MapSize = 1,111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[102]   # Route 10 Poké Center
+Name = Route 10
+MapPosition = 1,19,5
+HealingSpot = 100,13,26
+#-------------------------------
+[103]   # Route 10 Lavender filler
+Name = Route 10 Lavender filler
+#-------------------------------
+[104]   # Route 11 folder
+Name = Route 11 folder
+#-------------------------------
+[105]   # Route 11-W
+Name = Route 11
+MapPosition = 1,16,11
+MapSize = 3,111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[106]   # Route 11-E
+Name = Route 11
+MapPosition = 1,16,11
+MapSize = 3,111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[107]   # Route 11 Gate
+Name = Route 11 Gate
+MapPosition = 1,18,11
+Bicycle = true
+#-------------------------------
+[108]   # Route 12 folder
+Name = Route 12 folder
+#-------------------------------
+[109]   # Route 12-N
+Name = Route 12
+MapPosition = 1,19,9
+MapSize = 1,1111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[110]   # Route 12-S
+Name = Route 12
+MapPosition = 1,19,9
+MapSize = 1,1111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[111]   # Fishing Guru's House
+Name = Fishing Guru's House
+MapPosition = 1,19,12
+#-------------------------------
+[112]   # Route 12 Gate
+Name = Route 12 Gate
+MapPosition = 1,19,9
+Bicycle = true
+#-------------------------------
+[113]   # Route 12 lavender filler
+Name = Route 12 lavender filler
+#-------------------------------
+[114]   # Route 13
+Name = Route 13
+MapPosition = 1,17,13
+MapSize = 3,111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[115]   # Route 14
+Name = Route 14
+MapPosition = 1,16,13
+MapSize = 1,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[116]   # Route 14 grass filler 1
+Name = Route 14 grass filler 1
+#-------------------------------
+[117]   # Route 14 grass filler 2
+Name = Route 14 grass filler 2
+#-------------------------------
+[118]   # Route 14 water filler
+Name = Route 14 water filler
+#-------------------------------
+[119]   # Route 15 folder
+Name = Route 15 folder
+#-------------------------------
+[120]   # Route 15-W
+Name = Route 15
+MapPosition = 1,14,14
+MapSize = 2,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[121]   # Route 15-E
+Name = Route 15
+MapPosition = 1,14,14
+MapSize = 2,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[122]   # Route 15 Gate
+Name = Route 15 Gate
+MapPosition = 1,14,14
+Bicycle = true
+#-------------------------------
+[123]   # Route 16
+Name = Route 16
+MapPosition = 1,8,8
+MapSize = 4,1111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[124]   # Route 16-C
+Name = Route 16
+MapPosition = 1,8,8
+MapSize = 4,1111
+Outdoor = true
+ShowArea = true
+BicycleAlways = true
+#-------------------------------
+[125]   # Celebrity House
+Name = Celebrity House
+MapPosition = 1,8,8
+#-------------------------------
+[126]   # Route 16 Gate
+Name = Route 16 Gate
+MapPosition = 1,9,8
+Bicycle = true
+#-------------------------------
+[127]   # Route 17
+Name = Route 17
+MapPosition = 1,8,9
+MapSize = 1,11111
+Outdoor = true
+ShowArea = true
+BicycleAlways = true
+#-------------------------------
+[128]   # Route 18
+Name = Route 18
+MapPosition = 1,8,14
+MapSize = 5,11111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[129]   # Route 18-C
+Name = Route 18
+MapPosition = 1,8,14
+MapSize = 5,11111
+Outdoor = true
+ShowArea = true
+BicycleAlways = true
+#-------------------------------
+[130]   # Route 18 Gate
+Name = Route 18 Gate
+MapPosition = 1,11,14
+Bicycle = true
+#-------------------------------
+[131]   # Route 19
+Name = Route 19
+MapPosition = 1,13,15
+MapSize = 1,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[132]   # Route 20 folder
+Name = Route 20 folder
+#-------------------------------
+[133]   # Route 20-W
+Name = Route 20
+MapPosition = 1,6,16
+MapSize = 7,1111111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[134]   # Route 20-E
+Name = Route 20
+MapPosition = 1,6,16
+MapSize = 7,1111111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[135]   # Blue sea left
+Name = Blue sea left
+#-------------------------------
+[136]   # Blue sea right
+Name = Blue sea right
+#-------------------------------
+[137]   # Route 21
+Name = Route 21
+MapPosition = 1,5,14
+MapSize = 1,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[138]   # Route 22
+Name = Route 22
+MapPosition = 1,3,10
+MapSize = 2,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[139]   # Pokémon League Gate
+Name = Pokémon League Gate
+MapPosition = 1,3,10
+Bicycle = true
+#-------------------------------
+[140]   # Route 2 Interior
+Name = Route 2
+MapPosition = 1,5,8
+#-------------------------------
+[141]   # Route 23
+Name = Route 23
+MapPosition = 1,3,6
+MapSize = 1,1111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[142]   # Faraway Island Exterior
+Name = Faraway Island
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[143]   # Route 24
+Name = Route 24
+MapPosition = 1,15,3
+MapSize = 1,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[144]   # Route 25
+Name = Route 25
+MapPosition = 1,16,3
+MapSize = 2,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[145]   # Bill's House
+Name = Bill's House
+MapPosition = 1,17,3
+#-------------------------------
+[146]   # Cerulean filler
+Name = Cerulean filler
+#-------------------------------
+[147]   # Viridian Forest
+Name = Viridian Forest
+#-------------------------------
+[148]   # Viridian Forest Gate
+Name = Viridian Forest Gate
+MapPosition = 1,5,8
+#-------------------------------
+[149]   # Viridian Forest
+Name = Viridian Forest
+MapPosition = 1,5,8
+ShowArea = true
+#-------------------------------
+[150]   # Diglett's Cave
+Name = Diglett's Cave
+#-------------------------------
+[151]   # Diglett's Cave Entrance
+Name = Diglett's Cave Entrance
+MapPosition = 1,5,7
+MapSize = 12,100000000000000000000000000000000000000000000000000000000001
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[152]   # Diglett's Cave
+Name = Diglett's Cave
+MapPosition = 1,5,7
+MapSize = 12,100000000000011100000000000011110000000000001110000000000001
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[153]   # Cerulean Cave
+Name = Cerulean Cave
+#-------------------------------
+[154]   # Cerulean Cave 1F
+Name = Cerulean Cave 1F
+MapPosition = 1,15,5
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[155]   # Cerulean Cave 2F
+Name = Cerulean Cave 2F
+MapPosition = 1,15,5
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[156]   # Cerulean Cave B1F
+Name = Cerulean Cave B1F
+MapPosition = 1,15,5
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[157]   # Pokémon Tower
+Name = Pokémon Tower
+#-------------------------------
+[158]   # Pokémon Tower 1F
+Name = Pokémon Tower 1F
+MapPosition = 1,19,8
+ShowArea = true
+#-------------------------------
+[159]   # Pokémon Tower 2F
+Name = Pokémon Tower 2F
+MapPosition = 1,19,8
+ShowArea = true
+#-------------------------------
+[160]   # Pokémon Tower 3F
+Name = Pokémon Tower 3F
+MapPosition = 1,19,8
+ShowArea = true
+#-------------------------------
+[161]   # Pokémon Tower 4F
+Name = Pokémon Tower 4F
+MapPosition = 1,19,8
+ShowArea = true
+#-------------------------------
+[162]   # Pokémon Tower 5F
+Name = Pokémon Tower 5F
+MapPosition = 1,19,8
+ShowArea = true
+#-------------------------------
+[163]   # Pokémon Tower 6F
+Name = Pokémon Tower 6F
+MapPosition = 1,19,8
+ShowArea = true
+#-------------------------------
+[164]   # Pokémon Tower 7F
+Name = Pokémon Tower 7F
+MapPosition = 1,19,8
+ShowArea = true
+#-------------------------------
+[165]   # Rock Tunnel
+Name = Rock Tunnel
+#-------------------------------
+[166]   # Rock Tunnel 1F
+Name = Rock Tunnel 1F
+MapPosition = 1,19,5
+MapSize = 1,11
+ShowArea = true
+Bicycle = true
+DarkMap = true
+#-------------------------------
+[167]   # Rock Tunnel B1F
+Name = Rock Tunnel B1F
+MapPosition = 1,19,5
+MapSize = 1,11
+ShowArea = true
+Bicycle = true
+DarkMap = true
+#-------------------------------
+[168]   # Mt. Moon
+Name = Mt. Moon
+#-------------------------------
+[169]   # Mt. Moon 1F
+Name = Mt. Moon 1F
+MapPosition = 1,10,5
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[170]   # Mt. Moon B1F
+Name = Mt. Moon B1F
+MapPosition = 1,10,5
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[171]   # Mt. Moon B2F
+Name = Mt. Moon B2F
+MapPosition = 1,10,5
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[172]   # Rocket Hideout
+Name = Rocket Hideout
+#-------------------------------
+[173]   # Hideout B1F
+Name = Hideout B1F
+MapPosition = 1,12,8
+ShowArea = true
+#-------------------------------
+[174]   # Hideout B2F
+Name = Hideout B2F
+MapPosition = 1,12,8
+ShowArea = true
+#-------------------------------
+[175]   # Hideout B3F
+Name = Hideout B3F
+MapPosition = 1,12,8
+ShowArea = true
+#-------------------------------
+[176]   # Hideout B4F
+Name = Hideout B4F
+MapPosition = 1,12,8
+ShowArea = true
+#-------------------------------
+[177]   # Hideout Elevator
+Name = Hideout Elevator
+MapPosition = 1,12,8
+#-------------------------------
+[178]   # S.S. Anne
+Name = S.S. Anne
+#-------------------------------
+[179]   # S.S. Anne Dock
+Name = S.S. Anne Dock
+MapPosition = 1,15,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[180]   # S.S. Anne 1F
+Name = S.S. Anne 1F
+MapPosition = 1,15,11
+ShowArea = true
+#-------------------------------
+[181]   # Dining Hall
+Name = Dining Hall
+MapPosition = 1,15,11
+#-------------------------------
+[182]   # Green Rooms
+Name = Green Rooms
+MapPosition = 1,15,11
+#-------------------------------
+[183]   # S.S. Anne 2F
+Name = S.S. Anne 2F
+MapPosition = 1,15,11
+ShowArea = true
+#-------------------------------
+[184]   # Orange Rooms
+Name = Orange Rooms
+MapPosition = 1,15,11
+#-------------------------------
+[185]   # S.S. Anne 3F
+Name = S.S. Anne 3F
+MapPosition = 1,15,11
+ShowArea = true
+#-------------------------------
+[186]   # Captain's room
+Name = Captain's room
+MapPosition = 1,15,11
+#-------------------------------
+[187]   # S.S. Anne B1F
+Name = S.S. Anne B1F
+MapPosition = 1,15,11
+ShowArea = true
+#-------------------------------
+[188]   # Orange Rooms
+Name = Orange Rooms
+MapPosition = 1,15,11
+#-------------------------------
+[189]   # S.S. Anne Deck
+Name = S.S. Anne Deck
+MapPosition = 1,15,11
+ShowArea = true
+#-------------------------------
+[190]   # Safari Zone
+Name = Safari Zone
+#-------------------------------
+[191]   # Safari Zone Center
+Name = Safari Zone Center
+MapPosition = 1,13,14
+Outdoor = true
+ShowArea = true
+SafariMap = true
+#-------------------------------
+[192]   # Safari Zone 1
+Name = Safari Zone 1
+MapPosition = 1,13,14
+Outdoor = true
+ShowArea = true
+SafariMap = true
+#-------------------------------
+[193]   # Safari Zone 2
+Name = Safari Zone 2
+MapPosition = 1,13,14
+Outdoor = true
+ShowArea = true
+SafariMap = true
+#-------------------------------
+[194]   # Safari Zone 3
+Name = Safari Zone 3
+MapPosition = 1,13,14
+Outdoor = true
+ShowArea = true
+SafariMap = true
+#-------------------------------
+[195]   # Safari Zone Houses
+Name = Safari Zone
+MapPosition = 1,13,14
+SafariMap = true
+#-------------------------------
+[196]   # Pokémon Mansion
+Name = Pokémon Mansion
+#-------------------------------
+[197]   # Pokémon Mansion 1F
+Name = Pokémon Mansion 1F
+MapPosition = 1,5,16
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[198]   # Pokémon Mansion 2F
+Name = Pokémon Mansion 2F
+MapPosition = 1,5,16
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[199]   # Pokémon Mansion 3F
+Name = Pokémon Mansion 3F
+MapPosition = 1,5,16
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[200]   # Pokémon Mansion B1F
+Name = Pokémon Mansion B1F
+MapPosition = 1,5,16
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[201]   # Victory Road
+Name = Victory Road
+#-------------------------------
+[202]   # Victory Road 1F
+Name = Victory Road 1F
+MapPosition = 1,3,6
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[203]   # Victory Road 2F
+Name = Victory Road 2F
+MapPosition = 1,3,6
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[204]   # Victory Road 3F
+Name = Victory Road 3F
+MapPosition = 1,3,6
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[205]   # Power Plant
+Name = Power Plant
+MapPosition = 1,19,6
+ShowArea = true
+Bicycle = true
+Flags = Magnetic
+#-------------------------------
+[206]   # Seafoam Islands
+Name = Seafoam Islands
+#-------------------------------
+[207]   # Seafoam Islands 1F
+Name = Seafoam Islands 1F
+MapPosition = 1,9,16
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[208]   # Seafoam Islands B1F
+Name = Seafoam Islands B1F
+MapPosition = 1,9,16
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[209]   # Seafoam Islands B2F
+Name = Seafoam Islands B2F
+MapPosition = 1,9,16
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[210]   # Seafoam Islands B3F
+Name = Seafoam Islands B3F
+MapPosition = 1,9,16
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[211]   # Seafoam Islands B4F
+Name = Seafoam Islands B4F
+MapPosition = 1,9,16
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[212]   # Silph. Co
+Name = Silph. Co
+#-------------------------------
+[213]   # Silph Co. 1F
+Name = Silph Co. 1F
+MapPosition = 1,15,8
+ShowArea = true
+#-------------------------------
+[214]   # Silph Co. 2F
+Name = Silph Co. 2F
+MapPosition = 1,15,8
+ShowArea = true
+#-------------------------------
+[215]   # Silph Co. 3F
+Name = Silph Co. 3F
+MapPosition = 1,15,8
+ShowArea = true
+#-------------------------------
+[216]   # Silph Co. 4F
+Name = Silph Co. 4F
+MapPosition = 1,15,8
+ShowArea = true
+#-------------------------------
+[217]   # Silph Co. 5F
+Name = Silph Co. 5F
+MapPosition = 1,15,8
+ShowArea = true
+#-------------------------------
+[218]   # Silph Co. 6F
+Name = Silph Co. 6F
+MapPosition = 1,15,8
+ShowArea = true
+#-------------------------------
+[219]   # Silph Co. 7F
+Name = Silph Co. 7F
+MapPosition = 1,15,8
+ShowArea = true
+#-------------------------------
+[220]   # Silph Co. 8F
+Name = Silph Co. 8F
+MapPosition = 1,15,8
+ShowArea = true
+#-------------------------------
+[221]   # Silph Co. 9F
+Name = Silph Co. 9F
+MapPosition = 1,15,8
+ShowArea = true
+#-------------------------------
+[222]   # Silph Co. 10F
+Name = Silph Co. 10F
+MapPosition = 1,15,8
+ShowArea = true
+#-------------------------------
+[223]   # Silph Co. 11F
+Name = Silph Co. 11F
+MapPosition = 1,15,8
+ShowArea = true
+#-------------------------------
+[224]   # Silph Co. Elevator
+Name = Silph Co. Elevator
+MapPosition = 1,15,8
+#-------------------------------
+[225]   # One Island
+Name = One Island
+MapPosition = 101,5,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[226]   # One Island Harbor
+Name = One Island
+MapPosition = 101,5,11
+#-------------------------------
+[227]   # One Island Poké Center
+Name = One Island
+MapPosition = 101,5,11
+HealingSpot = 225,15,7
+#-------------------------------
+[228]   # One Island Houses
+Name = One Island
+MapPosition = 101,5,11
+#-------------------------------
+[229]   # Two Island
+Name = Two Island
+MapPosition = 101,13,12
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[230]   # Two Island Harbor
+Name = Two Island
+MapPosition = 101,13,12
+#-------------------------------
+[231]   # Two Island Poké Center
+Name = Two Island
+MapPosition = 101,13,12
+HealingSpot = 229,21,8
+#-------------------------------
+[232]   # Two Island Houses
+Name = Two Island
+MapPosition = 101,13,12
+#-------------------------------
+[233]   # Joyful Game Corner
+Name = Joyful Game Corner
+MapPosition = 101,13,12
+#-------------------------------
+[234]   # Three Island
+Name = Three Island
+MapPosition = 101,22,15
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[235]   # Three Island Poké Center
+Name = Three Island
+MapPosition = 101,22,15
+HealingSpot = 234,14,28
+#-------------------------------
+[236]   # Three Island Poké Mart
+Name = Three Island
+MapPosition = 101,22,15
+#-------------------------------
+[237]   # Three Island Houses
+Name = Three Island
+MapPosition = 101,22,15
+#-------------------------------
+[238]   # Treasure Beach
+Name = Treasure Beach
+MapPosition = 101,5,12
+MapSize = 1,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[239]   # Kindle Road
+Name = Kindle Road
+MapPosition = 101,6,7
+MapSize = 1,11111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[240]   # Cape Brink
+Name = Cape Brink
+MapPosition = 101,13,10
+MapSize = 1,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[241]   # Three Isle Port
+Name = Three Isle Port
+MapPosition = 101,22,16
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[242]   # Bond Bridge
+Name = Bond Bridge
+MapPosition = 101,19,15
+MapSize = 3,111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[243]   # Mt. Ember
+Name = Mt. Ember
+#-------------------------------
+[244]   # Mt. Ember Entrance
+Name = Mt. Ember
+MapPosition = 101,6,6
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[245]   # Mt. Ember Summit
+Name = Mt. Ember
+MapPosition = 101,6,6
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[246]   # Mt. Ember Summit 1F
+Name = Mt. Ember 1F
+MapPosition = 101,6,6
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[247]   # Mt. Ember Summit 2F
+Name = Mt. Ember 2F
+MapPosition = 101,6,6
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[248]   # Mt. Ember Summit 3F
+Name = Mt. Ember 3F
+MapPosition = 101,6,6
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[249]   # Mt. Ember Ruby 1F
+Name = Mt. Ember 1F
+MapPosition = 101,6,6
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[250]   # Mt. Ember Ruby B1F
+Name = Mt. Ember B1F
+MapPosition = 101,6,6
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[251]   # Mt. Ember Ruby B2F
+Name = Mt. Ember B2F
+MapPosition = 101,6,6
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[252]   # Mt. Ember Ruby B3F
+Name = Mt. Ember B3F
+MapPosition = 101,6,6
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[253]   # Mt. Ember Ruby B4F
+Name = Mt. Ember B4F
+MapPosition = 101,6,6
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[254]   # Mt. Ember Ruby B5F
+Name = Mt. Ember B5F
+MapPosition = 101,6,6
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[255]   # Berry Forest
+Name = Berry Forest
+MapPosition = 101,18,15
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[256]   # Three Island Harbor
+Name = Three Isle Port
+MapPosition = 101,22,16
+#-------------------------------
+[257]   # Faraway Island Interior
+Name = Faraway Island
+#-------------------------------
+[258]   # Kanto
+Name = Kanto
+#-------------------------------
+[259]   # Sevii Islands
+Name = Sevii Islands
+#-------------------------------
+[260]   # Other Locations
+Name = Other Locations
+#-------------------------------
+[261]   # Cities
+Name = Cities
+#-------------------------------
+[262]   # Routes
+Name = Routes
+#-------------------------------
+[263]   # Dungeons
+Name = Dungeons
+#-------------------------------
+[264]   # Treasure Kindle Filler
+Name = Treasure Kindle Filler
+#-------------------------------
+[265]   # Kindle One Filler
+Name = Kindle One Filler
+#-------------------------------
+[266]   # Kindle Road Filler
+Name = Kindle Road Filler
+#-------------------------------
+[267]   # Cape Brink House
+Name = Cape Brink
+MapPosition = 101,13,10
+#-------------------------------
+[268]   # Three Island Filler
+Name = Three Island Filler
+#-------------------------------
+[269]   # Three Isle Path
+Name = Three Isle Port
+MapPosition = 101,22,16
+MapSize = 2,11
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[270]   # Three Isle Cave
+Name = Three Isle Port
+MapPosition = 101,22,16
+MapSize = 2,11
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[271]   # Three Bond Filler
+Name = Three Bond Filler
+#-------------------------------
+[272]   # Ember Spa
+Name = Ember Spa
+MapPosition = 101,6,9
+ShowArea = true
+#-------------------------------
+[273]   # Two Brink Filler
+Name = Two Brink Filler
+#-------------------------------
+[274]   # Four Island
+Name = Four Island
+MapPosition = 102,7,7
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[275]   # Four Island Harbor
+Name = Four Island
+MapPosition = 102,7,7
+#-------------------------------
+[276]   # Four Island Poké Center
+Name = Four Island
+MapPosition = 102,7,7
+HealingSpot = 274,21,21
+#-------------------------------
+[277]   # Four Island Poké Mart
+Name = Four Island
+MapPosition = 102,7,7
+#-------------------------------
+[278]   # Four Island Houses
+Name = Four Island
+MapPosition = 102,7,7
+#-------------------------------
+[279]   # Icefall Cave
+Name = Icefall Cave
+#-------------------------------
+[280]   # Icefall Cave Entrance
+Name = Icefall Cave
+MapPosition = 102,7,7
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[281]   # Icefall Cave 1F
+Name = Icefall Cave 1F
+MapPosition = 102,7,7
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[282]   # Icefall Cave B1F
+Name = Icefall Cave B1F
+MapPosition = 102,7,7
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[283]   # Icefall Cave Back
+Name = Icefall Cave
+MapPosition = 102,7,7
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[284]   # Five Island
+Name = Five Island
+MapPosition = 102,20,14
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[285]   # Five Island Harbor
+Name = Five Island
+MapPosition = 102,20,14
+#-------------------------------
+[286]   # Five Island Poké Center
+Name = Five Island
+MapPosition = 102,20,14
+HealingSpot = 284,18,7
+#-------------------------------
+[287]   # Five Island Houses
+Name = Five Island
+MapPosition = 102,20,14
+#-------------------------------
+[288]   # Water Labyrinth
+Name = Water Labyrinth
+MapPosition = 102,18,13
+MapSize = 3,111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[289]   # Resort Gorgeous
+Name = Resort Gorgeous
+MapPosition = 102,20,12
+MapSize = 3,111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[290]   # Resort Gorgeous
+Name = Resort Gorgeous
+MapPosition = 102,21,12
+#-------------------------------
+[291]   # Lost Cave Maze
+Name = Lost Cave Maze
+#-------------------------------
+[292]   # Lost Cave Item Rooms
+Name = Lost Cave Item Rooms
+#-------------------------------
+[293]   # Five Isle Meadow
+Name = Five Isle Meadow
+MapPosition = 102,21,14
+MapSize = 1,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[294]   # Memorial Pillar
+Name = Memorial Pillar
+MapPosition = 102,22,15
+MapSize = 1,111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[295]   # Rocket Warehouse
+Name = Rocket Warehouse
+MapPosition = 102,21,15
+ShowArea = true
+#-------------------------------
+[296]   # Six Island
+Name = Six Island
+MapPosition = 103,21,8
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[297]   # Six Island Harbor
+Name = Six Island
+MapPosition = 103,21,8
+#-------------------------------
+[298]   # Six Island Poké Center
+Name = Six Island
+MapPosition = 103,21,8
+HealingSpot = 296,12,13
+#-------------------------------
+[299]   # Six Island Poké Mart
+Name = Six Island
+MapPosition = 103,21,8
+#-------------------------------
+[300]   # Six Island Houses
+Name = Six Island
+MapPosition = 103,21,8
+#-------------------------------
+[301]   # Water Path
+Name = Water Path
+MapPosition = 103,22,6
+MapSize = 1,11111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[302]   # Water Path Houses
+Name = Water Path
+MapPosition = 103,22,6
+#-------------------------------
+[303]   # Ruin Valley
+Name = Ruin Valley
+MapPosition = 103,20,10
+MapSize = 2,1111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[304]   # Dotted Hole
+Name = Dotted Hole
+#-------------------------------
+[305]   # Green Path
+Name = Green Path
+MapPosition = 103,19,6
+MapSize = 3,111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[306]   # Pattern Bush
+Name = Pattern Bush
+MapPosition = 103,21,6
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[307]   # Outcast Island
+Name = Outcast Island
+MapPosition = 103,19,3
+MapSize = 1,111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[308]   # Altering Cave
+Name = Altering Cave
+MapPosition = 103,19,3
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[309]   # Lost Cave
+Name = Lost Cave
+#-------------------------------
+[310]   # Seven Island
+Name = Seven Island
+MapPosition = 103,9,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[311]   # Seven Island Harbor
+Name = Seven Island
+MapPosition = 103,9,11
+#-------------------------------
+[312]   # Seven Island Poké Center
+Name = Seven Island
+MapPosition = 103,9,11
+HealingSpot = 310,12,4
+#-------------------------------
+[313]   # Seven Island Poké Mart
+Name = Seven Island
+MapPosition = 103,9,11
+#-------------------------------
+[314]   # Seven Island Houses
+Name = Seven Island
+MapPosition = 103,9,11
+#-------------------------------
+[315]   # Trainer Tower
+Name = Tamer Tower
+MapPosition = 103,9,9
+MapSize = 1,11
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[316]   # Canyon Entrance
+Name = Canyon Entrance
+MapPosition = 103,9,12
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[317]   # Sevault Canyon
+Name = Sevault Canyon
+MapPosition = 103,10,12
+MapSize = 1,111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[318]   # Tanoby Key
+Name = Tanoby Key
+MapPosition = 103,10,12
+ShowArea = true
+#-------------------------------
+[319]   # Canyon House
+Name = Sevault Canyon
+MapPosition = 103,10,14
+#-------------------------------
+[320]   # Tanoby Ruins
+Name = Tanoby Ruins
+MapPosition = 103,7,15
+MapSize = 7,1111111
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[321]   # Tanoby Filler 1
+Name = Tanoby Filler 1
+#-------------------------------
+[322]   # Tanoby Filler 2
+Name = Tanoby Filler 2
+#-------------------------------
+[323]   # Tanoby Chambers
+Name = Tanoby Chambers
+#-------------------------------
+[324]   # Monean Chamber
+Name = Monean Chamber
+MapPosition = 103,13,15
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[325]   # Lipto Chamber
+Name = Lipto Chamber
+MapPosition = 103,12,15
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[326]   # Weepth Chamber
+Name = Weepth Chamber
+MapPosition = 103,11,15
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[327]   # Dilford Chamber
+Name = Dilford Chamber
+MapPosition = 103,10,15
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[328]   # Scufib Chamber
+Name = Scufib Chamber
+MapPosition = 103,9,15
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[329]   # Rixy Chamber
+Name = Rixy Chamber
+MapPosition = 103,8,15
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[330]   # Viapois Chamber
+Name = Viapois Chamber
+MapPosition = 103,7,15
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[331]   # Sevii Daycare
+Name = Sevii Daycare
+MapPosition = 102,7,7
+#-------------------------------
+[332]   # Entrance Canyon Filler
+Name = Entrance Canyon Filler
+#-------------------------------
+[333]   # Canyon Filler
+Name = Canyon Filler
+#-------------------------------
+[334]   # Entrance Canyon Filler 1
+Name = Entrance Canyon Filler 1
+#-------------------------------
+[335]   # Green Water Filler
+Name = Green Water Filler
+#-------------------------------
+[336]   # Ruin Water Filler
+Name = Ruin Water Filler
+#-------------------------------
+[337]   # Seven Entrance Filler
+Name = Seven Entrance Filler
+#-------------------------------
+[338]   # Seven Canyon Filler
+Name = Seven Canyon Filler
+#-------------------------------
+[339]   # Water Five Filler
+Name = Water Five Filler
+#-------------------------------
+[340]   # Gorgeous Labyrinth Filler
+Name = Gorgeous Labyrinth Filler
+#-------------------------------
+[341]   # Meadow Memorial Filler 1
+Name = Meadow Memorial Filler 1
+#-------------------------------
+[342]   # Meadow Memorial Filler 2
+Name = Meadow Memorial Filler 2
+#-------------------------------
+[343]   # Five Meadow Filler
+Name = Five Meadow Filler
+#-------------------------------
+[344]   # Five Labyrinth Filler
+Name = Five Labyrinth Filler
+#-------------------------------
+[345]   # Entrance Canyon Filler 2
+Name = Entrance Canyon Filler 2
+#-------------------------------
+[346]   # Lost Cave Entrance
+Name = Lost Cave
+MapPosition = 102,22,12
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[347]   # Lost Cave 1
+Name = Lost Cave
+MapPosition = 102,22,12
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[348]   # Lost Cave 2
+Name = Lost Cave
+MapPosition = 102,22,12
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[349]   # Lost Cave 3
+Name = Lost Cave
+MapPosition = 102,22,12
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[350]   # Lost Cave 4
+Name = Lost Cave
+MapPosition = 102,22,12
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[351]   # Lost Cave 5
+Name = Lost Cave
+MapPosition = 102,22,12
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[352]   # Lost Cave 6
+Name = Lost Cave
+MapPosition = 102,22,12
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[353]   # Lost Cave 7
+Name = Lost Cave
+MapPosition = 102,22,12
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[354]   # Lost Cave 8
+Name = Lost Cave
+MapPosition = 102,22,12
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[355]   # Lost Cave 9
+Name = Lost Cave
+MapPosition = 102,22,12
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[356]   # Lost Cave 10
+Name = Lost Cave
+MapPosition = 102,22,12
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[357]   # Lost Cave 11
+Name = Lost Cave
+MapPosition = 102,22,12
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[358]   # Lost Cave 12
+Name = Lost Cave
+MapPosition = 102,22,12
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[359]   # Lost Cave 13
+Name = Lost Cave
+MapPosition = 102,22,12
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[360]   # Lost Cave 14
+Name = Lost Cave
+MapPosition = 102,22,12
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[361]   # Dotted Hole 1F
+Name = Dotted Hole 1F
+MapPosition = 103,20,11
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[362]   # Dotted Hole B1F
+Name = Dotted Hole B1F
+MapPosition = 103,20,11
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[363]   # Dotted Hole B2F
+Name = Dotted Hole B2F
+MapPosition = 103,20,11
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[364]   # Dotted Hole B3F
+Name = Dotted Hole B3F
+MapPosition = 103,20,11
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[365]   # Dotted Hole B4F
+Name = Dotted Hole B4F
+MapPosition = 103,20,11
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[366]   # Dotted Hole B5F
+Name = Dotted Hole B5F
+MapPosition = 103,20,11
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[367]   # Altering Cave 1
+Name = Altering Cave
+MapPosition = 103,19,3
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[368]   # Altering Cave 2
+Name = Altering Cave
+MapPosition = 103,19,3
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[369]   # Altering Cave 3
+Name = Altering Cave
+MapPosition = 103,19,3
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[370]   # Altering Cave 4
+Name = Altering Cave
+MapPosition = 103,19,3
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[371]   # Altering Cave 5
+Name = Altering Cave
+MapPosition = 103,19,3
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[372]   # Altering Cave 6
+Name = Altering Cave
+MapPosition = 103,19,3
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[373]   # Altering Cave 7
+Name = Altering Cave
+MapPosition = 103,19,3
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[374]   # Altering Cave 8
+Name = Altering Cave
+MapPosition = 103,19,3
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[375]   # Tanoby Chambers With Unown
+Name = Tanoby Chambers With Unown
+#-------------------------------
+[376]   # Tanoby Chambers Without Unown
+Name = Tanoby Chambers Without Unown
+#-------------------------------
+[377]   # Monean Chamber
+Name = Monean Chamber
+MapPosition = 103,13,15
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[378]   # Lipto Chamber
+Name = Lipto Chamber
+MapPosition = 103,12,15
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[379]   # Weepth Chamber
+Name = Weepth Chamber
+MapPosition = 103,11,15
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[380]   # Dilford Chamber
+Name = Dilford Chamber
+MapPosition = 103,10,15
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[381]   # Scufib Chamber
+Name = Scufib Chamber
+MapPosition = 103,9,15
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[382]   # Rixy Chamber
+Name = Rixy Chamber
+MapPosition = 103,8,15
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[383]   # Viapois Chamber
+Name = Viapois Chamber
+MapPosition = 103,7,15
+ShowArea = true
+Bicycle = true

@@ -1,0 +1,81 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[Move,POISONSTING]
+Name = Essentials
+HidesDataBoxes = true
+Credit = Maruno
+<User>
+    FoeInvertX = true
+    FoeInvertY = true
+    MoveX = 0,2,32
+    MoveY = 0,2,-16
+    MoveX = 4,2,0
+    MoveY = 4,2,0
+<Target>
+    MoveX = 7,1,-2
+    MoveColor = 7,6,A000E0A0
+    MoveX = 8,2,2
+    MoveX = 10,1,0
+    MoveColor = 14,6,00000000
+<Stinger>
+    Focus = UserAndTarget
+    Graphic = needle
+    InitialAngle = AlwaysParticleToFocus
+    SetZ = 3,-1
+    SetZoomX = 3,50
+    SetAngle = 3,270
+    SetColor = 3,E040C880
+    MoveX = 3,4,200
+    MoveY = 3,4,-200
+    MoveZ = 3,4,-50
+    SetVisible = 7,false
+<Hit>
+    Focus = Target
+    Graphic = hit
+    SetZ = 7,10
+    SetZoomX = 7,0
+    SetZoomY = 7,0
+    SetFrame = 7,1
+    MoveZoomX = 7,6,75
+    MoveZoomY = 7,6,75
+    MoveColor = 9,1,FF00FFFF
+    MoveOpacity = 11,2,0
+    SetVisible = 13,false
+<Blob emitter>
+    Focus = Target
+    Graphic = bubble glow
+    SecondLayer = true
+    RandomInvertFlip = true
+    Emitter = Straight
+    EmitterRate = 10
+    SetZ = 7,5
+    SetZoomX = 7,50
+    SetZoomY = 7,50
+    SetOpacity = 7,0
+    SetTone = 7,+28-C0+20+00
+    MoveOpacity = 7,6,255
+    MoveZoomX = 16,12,0
+    MoveZoomY = 16,12,0
+    MoveOpacity = 16,12,0
+    SetVisible = 28,false
+    SetZ2 = 7,-1
+    SetZoomX2 = 7,130
+    SetZoomY2 = 7,130
+    SetOpacity2 = 7,0
+    SetColor2 = 7,F800F8A0
+    MoveOpacity2 = 7,6,-32
+    SetOpacity2 = 16,-32
+    MoveOpacity2 = 16,12,0
+    SetEmitting = 7,true
+    SetEmitting = 27,false
+    SetEmitterY = 7,64
+    SetSpawnXRange = 7,64
+    SetSpawnYRange = 7,8
+    SetEmitSpeed = 7,160
+    SetEmitDirection = 7,90
+<SE>
+    Play = 3,Poison/Poison Sting whoosh
+    Play = 7,Poison/Poison Sting hit
+    Play = 11,Poison/Poison Sting bubble,80
+    Play = 17,Poison/Poison Sting bubble,80
+    Play = 23,Poison/Poison Sting bubble,80

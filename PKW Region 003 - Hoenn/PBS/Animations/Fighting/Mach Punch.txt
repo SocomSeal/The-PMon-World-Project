@@ -1,0 +1,102 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[Move,MACHPUNCH]
+Name = Essentials
+NoUser = true
+Credit = Maruno
+<Target>
+    FoeInvertX = true
+    MoveX = 14,1,-2
+    MoveX = 15,2,2
+    MoveX = 17,2,-2
+    MoveX = 19,2,2
+    MoveX = 21,1,0
+<Fist>
+    Focus = Target
+    Graphic = fist
+    SetZ = 0,30
+    SetZoomX = 0,600
+    SetZoomY = 0,600
+    MoveZoomX = 0,4,150
+    MoveZoomY = 0,4,150
+    MoveAngle = 0,4,30
+    SetVisible = 4,false
+<Fist afterimage 1>
+    Focus = Target
+    Graphic = fist
+    SetZ = 0,15
+    SetZoomX = 0,600
+    SetZoomY = 0,600
+    SetColor = 0,C0008080
+    MoveZoomX = 0,5,500
+    MoveZoomY = 0,5,500
+    MoveOpacity = 0,5,0
+    MoveColor = 0,5,00000080
+    SetVisible = 5,false
+<Fist afterimage 2>
+    Focus = Target
+    Graphic = fist
+    SetZ = 0,20
+    SetZoomX = 0,450
+    SetZoomY = 0,450
+    SetColor = 0,90006080
+    MoveZoomX = 0,7,325
+    MoveZoomY = 0,7,325
+    MoveOpacity = 0,7,0
+    MoveColor = 1,6,00000080
+    SetVisible = 7,false
+<Fist afterimage 3>
+    Focus = Target
+    Graphic = fist
+    SetZ = 0,25
+    SetZoomX = 0,300
+    SetZoomY = 0,300
+    SetColor = 0,60004080
+    MoveZoomX = 0,8,150
+    MoveZoomY = 0,8,150
+    MoveOpacity = 0,8,0
+    MoveColor = 2,6,00000080
+    SetVisible = 8,false
+<Hit flash>
+    Focus = Target
+    Graphic = hit
+    SecondLayer = true
+    SetZ = 4,5
+    SetZoomX = 4,60
+    SetZoomY = 4,60
+    SetColor = 4,8080F880
+    SetFrame = 4,1
+    MoveZoomX = 4,4,150
+    MoveZoomY = 4,4,150
+    MoveOpacity = 6,2,0
+    SetVisible = 8,false
+    SetZ2 = 4,1
+    SetZoomX2 = 4,85
+    SetZoomY2 = 4,85
+    SetFrame2 = 4,1
+<Spark spawner>
+    Focus = Target
+    Graphic = glow 1
+    SecondLayer = true
+    Emitter = Straight
+    EmitterRate = 80
+    SetZ = 5,4
+    SetZoomX = 5,50
+    SetZoomY = 5,50
+    SetOpacity = 5,0
+    SetColor = 5,F8B0F800
+    MoveOpacity = 5,1,255
+    SetColor = 7,F8B0F8A0
+    MoveZoomX = 9,6,0
+    MoveZoomY = 9,6,0
+    SetVisible = 15,false
+    SetZ2 = 5,1
+    SetZoomX2 = 5,50
+    SetZoomY2 = 5,50
+    SetEmitting = 4,true
+    SetEmitting = 7,false
+    SetEmitSpeed = 0,300
+    SetEmitSpeedRange = 0,75
+    SetEmitDirectionRange = 0,180
+<SE>
+    Play = 0,Fighting/Mach Punch

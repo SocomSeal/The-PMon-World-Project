@@ -1,0 +1,5 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[MEW,1]
+FormName = Retro Mew
+TutorMoves = TERABLAST

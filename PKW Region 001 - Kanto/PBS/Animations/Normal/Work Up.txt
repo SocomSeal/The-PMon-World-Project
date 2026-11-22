@@ -1,0 +1,64 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[Move,WORKUP]
+Name = Essentials
+NoTarget = true
+Credit = Dawn Bronze, Maruno
+<User>
+    SetColor = 2,E0802000
+    MoveZoomX = 2,1,110
+    MoveZoomY = 2,1,90
+    MoveColor = 2,11,E0802090
+    MoveZoomX = 3,1,100
+    MoveZoomY = 3,1,100
+    MoveZoomX = 4,1,110
+    MoveZoomY = 4,1,90
+    MoveZoomX = 5,1,100
+    MoveZoomY = 5,1,100
+    MoveZoomX = 6,1,110
+    MoveZoomY = 6,1,90
+    MoveZoomX = 7,1,100
+    MoveZoomY = 7,1,100
+    MoveZoomX = 8,1,110
+    MoveZoomY = 8,1,90
+    MoveZoomX = 9,1,100
+    MoveZoomY = 9,1,100
+    MoveZoomX = 10,1,110
+    MoveZoomY = 10,1,90
+    MoveZoomX = 11,1,100
+    MoveZoomY = 11,1,100
+    MoveZoomX = 12,1,110
+    MoveZoomY = 12,1,90
+    MoveZoomX = 13,1,100
+    MoveZoomY = 13,1,100
+    MoveColor = 48,11,C8540000
+<Steam emitter>
+    Focus = User
+    Graphic = smog 2
+    Emitter = Straight
+    EmitterRate = 20
+    EmitterIntensity = 5
+    SetZ = 8,10
+    SetZoomX = 8,40
+    SetZoomY = 8,40
+    SetOpacity = 8,0
+    SetColor = 8,F8300000
+    MoveZoomX = 8,5,80
+    MoveZoomY = 8,5,80
+    MoveOpacity = 8,5,32
+    MoveColor = 8,5,F83000C0
+    SetOpacity = 23,32
+    SetColor = 23,F83000C0
+    MoveOpacity = 23,5,0
+    MoveColor = 23,5,F8300000
+    SetVisible = 28,false
+    SetEmitting = 8,true
+    SetEmitting = 33,false
+    SetSpawnXRange = 8,48
+    SetSpawnYRange = 8,48
+    SetEmitSpeed = 8,50
+    SetEmitSpeedRange = 8,20
+    SetEmitDirection = 8,90
+    SetEmitDirectionRange = 8,5
+<SE>
+    Play = 0,Normal/Work Up,90

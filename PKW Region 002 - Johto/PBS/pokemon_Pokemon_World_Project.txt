@@ -1,0 +1,21 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[MISSINGNO]
+Name = MissingNo
+Types = NORMAL
+BaseStats = 1,1,1,1,1,1
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 100
+EVs = ATTACK,1,DEFENSE,1,SPECIAL_ATTACK,1,SPECIAL_DEFENSE,1,HP,1,SPEED,1
+CatchRate = 255
+Happiness = 70
+TutorMoves = TERABLAST
+EggGroups = Undiscovered
+HatchSteps = 1
+Height = 0.1
+Weight = 0.1
+Color = Red
+Shape = Head
+Category = ???
+Pokedex = ???
