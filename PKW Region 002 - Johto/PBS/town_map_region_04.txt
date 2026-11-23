@@ -5,5 +5,7 @@
 #-------------------------------#
 [4]
 Name = Sinnoh
-Filename = map_Sinnoh.png
+Filename = mapRegion4
+PointSize = 16,16
+Size = 30,20
 #-------------------------------#

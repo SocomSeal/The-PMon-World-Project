@@ -7,17 +7,23 @@
 #-------------------------------#
 [9]
 Name = Paldea
-Filename = map_Paldea.png
+Filename = mapRegion9
+PointSize = 16,16
+Size = 30,20
 #-------------------------------#
 # [TM] Kitakami Town Map
 #-------------------------------#
 [901]
-Name = Paldea
-Filename = map_Paldea.png
+Name = Kitakami
+Filename = mapRegion901
+PointSize = 16,16
+Size = 30,20
 #-------------------------------#
 # [ID] Blueberry Town Map
 #-------------------------------#
 [902]
-Name = Paldea
-Filename = map_Paldea.png
+Name = Blueberry Academy
+Filename = mapRegion902
+PointSize = 16,16
+Size = 30,20
 #-------------------------------#

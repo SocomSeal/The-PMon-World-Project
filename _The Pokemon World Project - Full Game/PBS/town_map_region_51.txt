@@ -4,6 +4,8 @@
 # [LA] Hisui Town Map
 #-------------------------------#
 [51]
-Name = Filler
-Filename = map_Kanto.png
+Name = Hisui
+Filename = mapRegion51
+PointSize = 16,16
+Size = 30,20
 #-------------------------------#

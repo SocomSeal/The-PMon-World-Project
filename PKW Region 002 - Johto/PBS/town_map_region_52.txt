@@ -5,12 +5,16 @@
 # [ZA] Lumiose Town Map
 #-------------------------------#
 [52]
-Name = Filler
-Filename = map_Kanto.png
+Name = Lumiose City
+Filename = mapRegion52
+PointSize = 16,16
+Size = 30,20
 #-------------------------------#
 # [MD] Mega Dimension Town Map
 #-------------------------------#
 [5201]
-Name = Filler
-Filename = map_Kanto.png
+Name = Hyperspace Lumiose
+Filename = mapRegion5201
+PointSize = 16,16
+Size = 30,20
 #-------------------------------#

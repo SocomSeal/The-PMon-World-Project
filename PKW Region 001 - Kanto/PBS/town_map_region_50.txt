@@ -4,6 +4,8 @@
 # [Orre] Orre Town Map
 #-------------------------------#
 [50]
-Name = Filler
-Filename = map_Kanto.png
+Name = Orre
+Filename = mapRegion50
+PointSize = 16,16
+Size = 30,20
 #-------------------------------#

@@ -7,17 +7,23 @@
 #-------------------------------#
 [8]
 Name = Galar
-Filename = map_Galar.png
+Filename = mapRegion8
+PointSize = 16,16
+Size = 30,20
 #-------------------------------#
 # [IA] Isle of Armor Town Map
 #-------------------------------#
 [801]
-Name = Galar
-Filename = map_Galar.png
+Name = Isle of Armor
+Filename = mapRegion801
+PointSize = 16,16
+Size = 30,20
 #-------------------------------#
 # [CT] Crown Tundra Town Map
 #-------------------------------#
 [802]
-Name = Galar
-Filename = map_Galar.png
+Name = Crown Tundra
+Filename = mapRegion802
+PointSize = 16,16
+Size = 30,20
 #-------------------------------#

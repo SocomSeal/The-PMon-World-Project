@@ -1,10 +1,10 @@
-Roadmap as of November 14th 2026:
+Roadmap as of November 22nd 2026:
 
-- Technical Pass (Early 2027)
+- Technical Pass (End of 2026)
 	- Strip project and port to v22
 	- Categorize all custom scripts and plugins as mandatory or cosmetic
 		- Break custom scripts out into plugins. All v22 code should remain entirely pure in the resource.
-- Begin Johto (Mid 2027)
+- Begin Johto (Early 2027)
 	
 	
 Current Major Roadblocks:
@@ -24,6 +24,23 @@ Socom's Worklist
 
 
 
+todo
+
+pbs-
+pokemon (don't touch for now, but need to pull in the combined move stuff at some point) (wait for gen 9 pack update for v22)
+
+
+trainers, separate into 64 and 80-96px (use 64 for base resource)
+
+icons, using them for female and male in chat (nidoran trade npc kanto) but should they be?
+
+
+WildBattleBGM = Battle wild
+TrainerBattleBGM = Battle trainer
+WildVictoryBGM = Battle victory wild
+TrainerVictoryBGM = Battle victory trainer
+SurfBGM = Surfing
+BicycleBGM = Bicycle
 
 
 

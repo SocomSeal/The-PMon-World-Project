@@ -5,5 +5,7 @@
 #-------------------------------#
 [5]
 Name = Unova
-Filename = map_Unova.png
+Filename = mapRegion5
+PointSize = 16,16
+Size = 30,20
 #-------------------------------#

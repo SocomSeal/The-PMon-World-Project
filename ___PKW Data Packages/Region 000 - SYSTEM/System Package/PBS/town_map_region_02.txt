@@ -5,5 +5,7 @@
 #-------------------------------#
 [2]
 Name = Johto
-Filename = map_Johto.png
+Filename = mapRegion2
+PointSize = 16,16
+Size = 30,20
 #-------------------------------#

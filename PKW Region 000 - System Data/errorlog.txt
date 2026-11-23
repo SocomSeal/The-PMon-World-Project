@@ -1,0 +1,100 @@
+
+=================
+
+[2026-11-22 19:01:09 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NoMethodError
+Message: undefined method `uniq' for nil:NilClass
+
+Backtrace:
+423:Compiler_CompilePBS:826:in `block in compile_regional_dexes'
+423:Compiler_CompilePBS:825:in `each'
+423:Compiler_CompilePBS:825:in `each_with_index'
+423:Compiler_CompilePBS:825:in `compile_regional_dexes'
+423:Compiler_CompilePBS:114:in `compile_pbs_files'
+423:Compiler_CompilePBS:18:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+422:Compiler:693:in `main'
+
+=================
+
+[2026-11-22 19:01:18 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-22 19:02:01 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of Integer into String
+
+Backtrace:
+388:EditorBase:431:in `+'
+388:EditorBase:431:in `block in choose_graphic_file'
+388:EditorBase:445:in `choose_graphic_file'
+389:Editor_TownMap:750:in `apply_changed_region_property'
+389:Editor_TownMap:711:in `apply_button_press'
+388:EditorBase:874:in `block in update'
+388:EditorBase:873:in `each_pair'
+388:EditorBase:873:in `update'
+389:Editor_TownMap:879:in `update'
+388:EditorBase:889:in `block in run'
+
+=================
+
+[2026-11-22 19:03:49 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of Integer into String
+
+Backtrace:
+388:EditorBase:431:in `+'
+388:EditorBase:431:in `block in choose_graphic_file'
+388:EditorBase:445:in `choose_graphic_file'
+389:Editor_TownMap:750:in `apply_changed_region_property'
+389:Editor_TownMap:711:in `apply_button_press'
+388:EditorBase:874:in `block in update'
+388:EditorBase:873:in `each_pair'
+388:EditorBase:873:in `update'
+389:Editor_TownMap:879:in `update'
+388:EditorBase:889:in `block in run'
+
+=================
+
+[2026-11-22 19:08:02 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NoMethodError
+Message: undefined method `name' for nil:NilClass
+
+Backtrace:
+389:Editor_TownMap:499:in `set_point_fly_spot_text'
+389:Editor_TownMap:484:in `set_point_component_values'
+389:Editor_TownMap:423:in `set_coordinate'
+389:Editor_TownMap:704:in `apply_button_press'
+388:EditorBase:874:in `block in update'
+388:EditorBase:873:in `each_pair'
+388:EditorBase:873:in `update'
+389:Editor_TownMap:879:in `update'
+388:EditorBase:889:in `block in run'
+388:EditorBase:886:in `loop'
