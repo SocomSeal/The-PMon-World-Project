@@ -86,3 +86,229 @@ Backtrace:
 423:Compiler_CompilePBS:1457:in `validate_compiled_phone_contact'
 423:Compiler_CompilePBS:1447:in `block in compile_phone'
 423:Compiler_CompilePBS:191:in `block (3 levels) in compile_PBS_file_generic'
+
+=================
+
+[2026-11-22 16:02:45 -0600]
+[Pokémon Essentials version 22]
+
+Error in Plugin: [Pokemon World Project Tiletags]
+Exception: SyntaxError
+Message: [Pokemon World Project Tiletags] [000] System.rb:25: syntax error, unexpected symbol literal, expecting '}'
+  :id_number      => 22
+  ^
+[Pokemon World Project Tiletags] [000] System.rb:26: syntax error, unexpected '}', expecting end-of-input
+
+Backtrace:
+009:PluginManager:665:in `eval'
+009:PluginManager:665:in `block (2 levels) in runPlugins'
+009:PluginManager:655:in `each'
+009:PluginManager:655:in `block in runPlugins'
+009:PluginManager:646:in `each'
+009:PluginManager:646:in `runPlugins'
+430:Main:38:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+
+=================
+
+[2026-11-22 16:31:38 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NameError
+Message: undefined local variable or method `event' for main:Object
+
+Backtrace:
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:32:in `block in pbSpinTile'
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:31:in `loop'
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:31:in `pbSpinTile'
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:16:in `block in <main>'
+036:Event_Handlers:89:in `block in trigger'
+036:Event_Handlers:89:in `each_value'
+036:Event_Handlers:89:in `trigger'
+037:Event_HandlerCollections:65:in `trigger'
+045:Game_Character:1026:in `update_move'
+047:Game_Player:482:in `update_move'
+
+=================
+
+[2026-11-22 16:35:08 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NameError
+Message: undefined local variable or method `meta' for main:Object
+
+Backtrace:
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:39:in `block in pbSpinTile'
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:31:in `loop'
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:31:in `pbSpinTile'
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:16:in `block in <main>'
+036:Event_Handlers:89:in `block in trigger'
+036:Event_Handlers:89:in `each_value'
+036:Event_Handlers:89:in `trigger'
+037:Event_HandlerCollections:65:in `trigger'
+045:Game_Character:1026:in `update_move'
+047:Game_Player:482:in `update_move'
+
+=================
+
+[2026-11-22 16:39:13 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NameError
+Message: undefined local variable or method `tag' for main:Object
+
+Backtrace:
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:32:in `pbSpinTile'
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:16:in `block in <main>'
+036:Event_Handlers:89:in `block in trigger'
+036:Event_Handlers:89:in `each_value'
+036:Event_Handlers:89:in `trigger'
+037:Event_HandlerCollections:65:in `trigger'
+045:Game_Character:1026:in `update_move'
+047:Game_Player:482:in `update_move'
+045:Game_Character:951:in `update'
+047:Game_Player:435:in `update'
+
+=================
+
+[2026-11-22 16:39:38 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NoMethodError
+Message: undefined method `spin_charset' for #<GameData::PlayerMetadata>
+
+Backtrace:
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:50:in `block in pbSpinTile'
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:42:in `loop'
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:42:in `pbSpinTile'
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:16:in `block in <main>'
+036:Event_Handlers:89:in `block in trigger'
+036:Event_Handlers:89:in `each_value'
+036:Event_Handlers:89:in `trigger'
+037:Event_HandlerCollections:65:in `trigger'
+045:Game_Character:1026:in `update_move'
+047:Game_Player:482:in `update_move'
+
+=================
+
+[2026-11-22 17:21:08 -0600]
+[Pokémon Essentials version 22]
+
+Error in Plugin: [Pokemon World Project Tiletags]
+Exception: SyntaxError
+Message: [Pokemon World Project Tiletags] [001] Spin Tiles.rb:86: syntax error, unexpected `end', expecting end-of-input
+
+Backtrace:
+009:PluginManager:665:in `eval'
+009:PluginManager:665:in `block (2 levels) in runPlugins'
+009:PluginManager:655:in `each'
+009:PluginManager:655:in `block in runPlugins'
+009:PluginManager:646:in `each'
+009:PluginManager:646:in `runPlugins'
+430:Main:38:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+
+=================
+
+[2026-11-22 17:21:47 -0600]
+[Pokémon Essentials version 22]
+
+Exception: SystemStackError
+Message: stack level too deep
+
+Backtrace:
+016:Validation:20:in `block (2 levels) in validate'
+016:Validation:20:in `any?'
+016:Validation:20:in `block in validate'
+016:Validation:18:in `each'
+016:Validation:18:in `map'
+016:Validation:18:in `validate'
+115:TerrainTag:40:in `try_get'
+043:Game_Map:316:in `block in terrain_tag'
+043:Game_Map:313:in `downto'
+043:Game_Map:313:in `terrain_tag'
+
+=================
+
+[2026-11-22 17:27:32 -0600]
+[Pokémon Essentials version 22]
+
+Error in Plugin: [Pokemon World Project Tiletags]
+Exception: SyntaxError
+Message: [Pokemon World Project Tiletags] [001] Spin Tiles.rb:82: syntax error, unexpected `end', expecting end-of-input
+
+Backtrace:
+009:PluginManager:665:in `eval'
+009:PluginManager:665:in `block (2 levels) in runPlugins'
+009:PluginManager:655:in `each'
+009:PluginManager:655:in `block in runPlugins'
+009:PluginManager:646:in `each'
+009:PluginManager:646:in `runPlugins'
+430:Main:38:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+
+=================
+
+[2026-11-22 17:28:44 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NoMethodError
+Message: undefined method `force_direction' for nil:NilClass
+
+Backtrace:
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:61:in `pbSpinTile'
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:39:in `block in <main>'
+036:Event_Handlers:89:in `block in trigger'
+036:Event_Handlers:89:in `each_value'
+036:Event_Handlers:89:in `trigger'
+037:Event_HandlerCollections:65:in `trigger'
+045:Game_Character:1026:in `update_move'
+047:Game_Player:482:in `update_move'
+045:Game_Character:951:in `update'
+047:Game_Player:435:in `update'
+
+=================
+
+[2026-11-22 17:34:57 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NoMethodError
+Message: undefined method `force_direction' for nil:NilClass
+
+Backtrace:
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:62:in `block in pbSpinTile'
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:46:in `loop'
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:46:in `pbSpinTile'
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:39:in `block in <main>'
+036:Event_Handlers:89:in `block in trigger'
+036:Event_Handlers:89:in `each_value'
+036:Event_Handlers:89:in `trigger'
+037:Event_HandlerCollections:65:in `trigger'
+045:Game_Character:1026:in `update_move'
+047:Game_Player:482:in `update_move'
+
+=================
+
+[2026-11-22 17:36:52 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NoMethodError
+Message: undefined method `force_direction' for nil:NilClass
+
+Backtrace:
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:62:in `block in pbSpinTile'
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:46:in `loop'
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:46:in `pbSpinTile'
+[Pokemon World Project Tiletags] [001] Spin Tiles.rb:39:in `block in <main>'
+036:Event_Handlers:89:in `block in trigger'
+036:Event_Handlers:89:in `each_value'
+036:Event_Handlers:89:in `trigger'
+037:Event_HandlerCollections:65:in `trigger'
+045:Game_Character:1026:in `update_move'
+047:Game_Player:482:in `update_move'

@@ -1,0 +1,64 @@
+
+=================
+
+[2026-11-22 16:19:40 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Undefined value RSE_Ash in GameData::Weather.
+File PBS/map_metadata.txt, section 178, key Weather
+RSE_Ash,100
+
+
+
+Backtrace:
+422:Compiler:374:in `checkEnumField'
+422:Compiler:350:in `cast_csv_value'
+422:Compiler:443:in `block (2 levels) in get_csv_record'
+422:Compiler:429:in `each'
+422:Compiler:429:in `block in get_csv_record'
+422:Compiler:427:in `loop'
+422:Compiler:427:in `get_csv_record'
+423:Compiler_CompilePBS:185:in `block (4 levels) in compile_PBS_file_generic'
+423:Compiler_CompilePBS:167:in `each_key'
+423:Compiler_CompilePBS:167:in `block (3 levels) in compile_PBS_file_generic'
+
+=================
+
+[2026-11-22 16:22:51 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NameError
+Message: uninitialized constant Game_Character::SpinnerBehavior
+
+Backtrace:
+(eval):1:in `block in move_type_custom'
+045:Game_Character:575:in `eval'
+045:Game_Character:575:in `block in move_type_custom'
+045:Game_Character:462:in `times'
+045:Game_Character:462:in `move_type_custom'
+045:Game_Character:974:in `update_command_new'
+045:Game_Character:965:in `update_command'
+045:Game_Character:949:in `update'
+046:Game_Event:297:in `update'
+043:Game_Map:494:in `block in update'
+
+=================
+
+[2026-11-22 16:25:49 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NameError
+Message: undefined local variable or method `turn_random_UR' for #<Game_Event>
+
+Backtrace:
+(eval):1:in `block in move_type_custom'
+045:Game_Character:575:in `eval'
+045:Game_Character:575:in `block in move_type_custom'
+045:Game_Character:462:in `times'
+045:Game_Character:462:in `move_type_custom'
+045:Game_Character:974:in `update_command_new'
+045:Game_Character:965:in `update_command'
+045:Game_Character:949:in `update'
+046:Game_Event:297:in `update'
+043:Game_Map:494:in `block in update'

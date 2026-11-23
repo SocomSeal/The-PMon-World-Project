@@ -16,12 +16,9 @@ Current Major Roadblocks:
 
 Socom's Worklist
 
-- Future updates to make resource more user friendly
-	- Pull out each region's assets as its own datapack
-	- Global would include player, system, general-use (pkmn, etc) sprites
-
 - Graphics standardization
 	- Create secondary set of Trainer and Pokemon graphics (Gen 3 64px statics, and Gen4/5 80px static/96px animated)
+	- Trainers need to be made and placed in relevant resource locations
 
 
 

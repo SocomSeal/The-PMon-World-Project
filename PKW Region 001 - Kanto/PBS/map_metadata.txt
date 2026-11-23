@@ -22,7 +22,7 @@ Outdoor = true
 ShowArea = true
 #-------------------------------
 [007]   # \PN's House
-Name = \PN's House
+Name = Socom's House
 MapPosition = 1,5,13
 HealingSpot = 6,12,8
 #-------------------------------

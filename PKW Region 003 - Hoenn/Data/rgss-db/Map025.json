@@ -1,0 +1,4087 @@
+{
+  "json_class": "RPG::Map",
+  "tileset_id": 38,
+  "width": 20,
+  "height": 20,
+  "autoplay_bgm": true,
+  "bgm": {
+    "json_class": "RPG::AudioFile",
+    "name": "ORAS Location - Trainer's School (Trainer's School)",
+    "volume": 100,
+    "pitch": 100
+  },
+  "autoplay_bgs": false,
+  "bgs": {
+    "json_class": "RPG::AudioFile",
+    "name": "",
+    "volume": 80,
+    "pitch": 100
+  },
+  "encounter_list": [],
+  "encounter_step": 30,
+  "data": {
+    "json_class": "Table",
+    "dim": 3,
+    "x": 20,
+    "y": 20,
+    "z": 3,
+    "data": [
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      456,
+      457,
+      457,
+      456,
+      457,
+      457,
+      457,
+      457,
+      456,
+      457,
+      457,
+      456,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      470,
+      471,
+      464,
+      465,
+      466,
+      464,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      472,
+      473,
+      474,
+      475,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      480,
+      481,
+      481,
+      481,
+      482,
+      482,
+      482,
+      482,
+      481,
+      481,
+      481,
+      481,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      461,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      461,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      461,
+      463,
+      460,
+      463,
+      460,
+      460,
+      460,
+      460,
+      463,
+      460,
+      463,
+      460,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      461,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      461,
+      463,
+      460,
+      463,
+      460,
+      460,
+      460,
+      460,
+      463,
+      460,
+      463,
+      460,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      461,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      460,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      461,
+      463,
+      460,
+      463,
+      460,
+      460,
+      460,
+      460,
+      463,
+      460,
+      463,
+      460,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      385,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      483,
+      484,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      491,
+      492,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      485,
+      0,
+      486,
+      0,
+      0,
+      0,
+      0,
+      485,
+      0,
+      485,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      493,
+      0,
+      494,
+      0,
+      0,
+      0,
+      0,
+      493,
+      0,
+      493,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      485,
+      0,
+      485,
+      0,
+      0,
+      0,
+      0,
+      487,
+      0,
+      485,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      493,
+      0,
+      493,
+      0,
+      0,
+      0,
+      0,
+      495,
+      0,
+      493,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      485,
+      0,
+      485,
+      0,
+      0,
+      0,
+      0,
+      485,
+      0,
+      485,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      493,
+      0,
+      493,
+      0,
+      390,
+      391,
+      0,
+      493,
+      0,
+      493,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "events": {
+    "5": {
+      "json_class": "RPG::Event",
+      "id": 5,
+      "name": "NPC 1",
+      "x": 5,
+      "y": 8,
+      "pages": [
+        {
+          "json_class": "RPG::Event::Page",
+          "condition": {
+            "json_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "graphic": {
+            "json_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "NPC_RSE_SCHOOLKID_M",
+            "character_hue": 0,
+            "direction": 2,
+            "pattern": 0,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "move_type": 0,
+          "move_speed": 3,
+          "move_frequency": 3,
+          "move_route": {
+            "json_class": "RPG::MoveRoute",
+            "repeat": true,
+            "skippable": false,
+            "list": [
+              {
+                "json_class": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ]
+          },
+          "walk_anime": true,
+          "step_anime": false,
+          "direction_fix": false,
+          "through": false,
+          "always_on_top": false,
+          "trigger": 0,
+          "list": [
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bA Pokémon holding a Berry will heal\\nitself…"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bThere are many kinds of items that\\nPokémon can "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "hold…"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bBoy, it sure is hard taking notes\\ndown…"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "json_class": "RPG::Event",
+      "id": 6,
+      "name": "NPC 2",
+      "x": 10,
+      "y": 8,
+      "pages": [
+        {
+          "json_class": "RPG::Event::Page",
+          "condition": {
+            "json_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "graphic": {
+            "json_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "NPC_RSE_GAMEBOYKID",
+            "character_hue": 0,
+            "direction": 6,
+            "pattern": 0,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "move_type": 0,
+          "move_speed": 3,
+          "move_frequency": 3,
+          "move_route": {
+            "json_class": "RPG::MoveRoute",
+            "repeat": true,
+            "skippable": false,
+            "list": [
+              {
+                "json_class": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ]
+          },
+          "walk_anime": true,
+          "step_anime": false,
+          "direction_fix": false,
+          "through": false,
+          "always_on_top": false,
+          "trigger": 0,
+          "list": [
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bI'm trading Pokémon with my friend\\nright now."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        }
+      ]
+    },
+    "1": {
+      "json_class": "RPG::Event",
+      "id": 1,
+      "name": "Exit size(2,1)",
+      "x": 7,
+      "y": 13,
+      "pages": [
+        {
+          "json_class": "RPG::Event::Page",
+          "condition": {
+            "json_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "graphic": {
+            "json_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "",
+            "character_hue": 0,
+            "direction": 2,
+            "pattern": 0,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "move_type": 0,
+          "move_speed": 3,
+          "move_frequency": 3,
+          "move_route": {
+            "json_class": "RPG::MoveRoute",
+            "repeat": true,
+            "skippable": false,
+            "list": [
+              {
+                "json_class": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ]
+          },
+          "walk_anime": true,
+          "step_anime": false,
+          "direction_fix": false,
+          "through": false,
+          "always_on_top": false,
+          "trigger": 1,
+          "list": [
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "json_class": "RPG::AudioFile",
+                  "name": "Exit Door",
+                  "volume": 80,
+                  "pitch": 100
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 223,
+              "indent": 0,
+              "parameters": [
+                {
+                  "json_class": "Tone",
+                  "red": -255.0,
+                  "green": -255.0,
+                  "blue": -255.0,
+                  "gray": 0.0
+                },
+                6
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 106,
+              "indent": 0,
+              "parameters": [
+                8
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 201,
+              "indent": 0,
+              "parameters": [
+                0,
+                21,
+                27,
+                34,
+                0,
+                1
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 223,
+              "indent": 0,
+              "parameters": [
+                {
+                  "json_class": "Tone",
+                  "red": 0.0,
+                  "green": 0.0,
+                  "blue": 0.0,
+                  "gray": 0.0
+                },
+                6
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "json_class": "RPG::Event",
+      "id": 7,
+      "name": "NPC 3",
+      "x": 11,
+      "y": 8,
+      "pages": [
+        {
+          "json_class": "RPG::Event::Page",
+          "condition": {
+            "json_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "graphic": {
+            "json_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "NPC_RSE_GAMEBOYKID",
+            "character_hue": 0,
+            "direction": 4,
+            "pattern": 0,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "move_type": 0,
+          "move_speed": 3,
+          "move_frequency": 3,
+          "move_route": {
+            "json_class": "RPG::MoveRoute",
+            "repeat": true,
+            "skippable": false,
+            "list": [
+              {
+                "json_class": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ]
+          },
+          "walk_anime": true,
+          "step_anime": false,
+          "direction_fix": false,
+          "through": false,
+          "always_on_top": false,
+          "trigger": 0,
+          "list": [
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bI always wanted a Seedot, and\\nI'm finally getting "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "one!"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "json_class": "RPG::Event",
+      "id": 2,
+      "name": "Blackboard size(4,1)",
+      "x": 6,
+      "y": 4,
+      "pages": [
+        {
+          "json_class": "RPG::Event::Page",
+          "condition": {
+            "json_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "graphic": {
+            "json_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "",
+            "character_hue": 0,
+            "direction": 2,
+            "pattern": 0,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "move_type": 0,
+          "move_speed": 3,
+          "move_frequency": 3,
+          "move_route": {
+            "json_class": "RPG::MoveRoute",
+            "repeat": true,
+            "skippable": false,
+            "list": [
+              {
+                "json_class": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ]
+          },
+          "walk_anime": true,
+          "step_anime": false,
+          "direction_fix": false,
+          "through": false,
+          "always_on_top": false,
+          "trigger": 0,
+          "list": [
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                6,
+                -1,
+                8
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "The blackboard lists status changes\\nthat may affect "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 1,
+              "parameters": [
+                "Pokémon in battle."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 118,
+              "indent": 1,
+              "parameters": [
+                "Choose Topic"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 1,
+              "parameters": [
+                "Which topic do you want to read?"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 102,
+              "indent": 1,
+              "parameters": [
+                [
+                  "Poison",
+                  "Paralysis",
+                  "Sleep",
+                  "Burn"
+                ],
+                0
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 402,
+              "indent": 1,
+              "parameters": [
+                0,
+                "Poison"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "If a Pokémon is poisoned, it will\\nsteadily lose HP."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "The effects of poison remain after\\na battle."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "A poisoned Pokémon's HP will drop\\nwhile it is "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "traveling."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "Heal a poisoning using an Antidote."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 402,
+              "indent": 1,
+              "parameters": [
+                1,
+                "Paralysis"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "If a Pokémon becomes paralyzed,\\nits Speed drops."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "It may also not be able to move while\\nit is in battle."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "Paralysis remains after battle.\\nCure it using a "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "Paralyze Heal."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 402,
+              "indent": 1,
+              "parameters": [
+                2,
+                "Sleep"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "If a Pokémon falls asleep, it will be\\nunable to "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "attack."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "A Pokémon may wake up on its own,\\nbut if a battle "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "ends while it is\\nsleeping, it will stay asleep."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "Wake it up using an Awakening."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 402,
+              "indent": 1,
+              "parameters": [
+                3,
+                "Burn"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "A burn reduces Attack power, and it\\nsteadily "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "reduces the victim's HP."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "A burn lingers after battle.\\nCure a burn using a Burn "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "Heal."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 404,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 102,
+              "indent": 1,
+              "parameters": [
+                [
+                  "Freeze",
+                  "EXIT"
+                ],
+                2
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 402,
+              "indent": 1,
+              "parameters": [
+                0,
+                "Freeze"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "If a Pokémon is frozen, it becomes\\ncompletely "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "helpless."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 2,
+              "parameters": [
+                "It will remain frozen after battle.\\nThaw it out using "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 2,
+              "parameters": [
+                "an Ice Heal."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 402,
+              "indent": 1,
+              "parameters": [
+                1,
+                "EXIT"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 115,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 2,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 404,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 119,
+              "indent": 1,
+              "parameters": [
+                "Choose Topic"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        }
+      ]
+    },
+    "8": {
+      "json_class": "RPG::Event",
+      "id": 8,
+      "name": "NPC 4",
+      "x": 5,
+      "y": 10,
+      "pages": [
+        {
+          "json_class": "RPG::Event::Page",
+          "condition": {
+            "json_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "graphic": {
+            "json_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "NPC_RSE_RICHBOY",
+            "character_hue": 0,
+            "direction": 8,
+            "pattern": 0,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "move_type": 0,
+          "move_speed": 3,
+          "move_frequency": 3,
+          "move_route": {
+            "json_class": "RPG::MoveRoute",
+            "repeat": true,
+            "skippable": false,
+            "list": [
+              {
+                "json_class": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ]
+          },
+          "walk_anime": true,
+          "step_anime": false,
+          "direction_fix": false,
+          "through": false,
+          "always_on_top": false,
+          "trigger": 0,
+          "list": [
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bPokémon can hold items, but they\\ndon't know "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "what to do with man-made\\nitems like Potion and "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Antidote."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "json_class": "RPG::Event",
+      "id": 3,
+      "name": "Teacher",
+      "x": 7,
+      "y": 5,
+      "pages": [
+        {
+          "json_class": "RPG::Event::Page",
+          "condition": {
+            "json_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "graphic": {
+            "json_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "NPC_RSE_GENTLEMAN",
+            "character_hue": 0,
+            "direction": 2,
+            "pattern": 0,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "move_type": 0,
+          "move_speed": 3,
+          "move_frequency": 3,
+          "move_route": {
+            "json_class": "RPG::MoveRoute",
+            "repeat": true,
+            "skippable": false,
+            "list": [
+              {
+                "json_class": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ]
+          },
+          "walk_anime": true,
+          "step_anime": false,
+          "direction_fix": false,
+          "through": false,
+          "always_on_top": false,
+          "trigger": 0,
+          "list": [
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                6,
+                -1,
+                6
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 209,
+              "indent": 1,
+              "parameters": [
+                0,
+                {
+                  "json_class": "RPG::MoveRoute",
+                  "repeat": false,
+                  "skippable": false,
+                  "list": [
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 3,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 3,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 1,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 1,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 2,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 2,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 0,
+                      "parameters": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 3,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 3,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 1,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 1,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 2,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 2,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 411,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 209,
+              "indent": 1,
+              "parameters": [
+                0,
+                {
+                  "json_class": "RPG::MoveRoute",
+                  "repeat": false,
+                  "skippable": false,
+                  "list": [
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 2,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 1,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 1,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 3,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 0,
+                      "parameters": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 2,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 1,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 1,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 3,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 210,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 209,
+              "indent": 0,
+              "parameters": [
+                0,
+                {
+                  "json_class": "RPG::MoveRoute",
+                  "repeat": false,
+                  "skippable": false,
+                  "list": [
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 16,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 15,
+                      "parameters": [
+                        24
+                      ]
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 1,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 17,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 15,
+                      "parameters": [
+                        16
+                      ]
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 3,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 15,
+                      "parameters": [
+                        20
+                      ]
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 4,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 0,
+                      "parameters": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 0,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 16,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 0,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 15,
+                  "parameters": [
+                    24
+                  ]
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 0,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 1,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 0,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 17,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 0,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 15,
+                  "parameters": [
+                    16
+                  ]
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 0,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 3,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 0,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 15,
+                  "parameters": [
+                    20
+                  ]
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 0,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 4,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 210,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                6,
+                -1,
+                6
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 209,
+              "indent": 1,
+              "parameters": [
+                0,
+                {
+                  "json_class": "RPG::MoveRoute",
+                  "repeat": false,
+                  "skippable": false,
+                  "list": [
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 3,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 4,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 4,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 2,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 2,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 0,
+                      "parameters": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 3,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 4,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 4,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 2,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 2,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 411,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 209,
+              "indent": 1,
+              "parameters": [
+                0,
+                {
+                  "json_class": "RPG::MoveRoute",
+                  "repeat": false,
+                  "skippable": false,
+                  "list": [
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 2,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 2,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 4,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 4,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 3,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 0,
+                      "parameters": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 2,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 2,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 4,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 4,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 1,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 3,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 412,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 210,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bStudents who don't study get a little\\ntaste of my "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Quick Claw."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bWhether or not you are a good student \\nwill be "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "evident from the way you use\\nthis item."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 355,
+              "indent": 0,
+              "parameters": [
+                "pbReceiveItem(:QUICKCLAW)"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 209,
+              "indent": 0,
+              "parameters": [
+                0,
+                {
+                  "json_class": "RPG::MoveRoute",
+                  "repeat": false,
+                  "skippable": false,
+                  "list": [
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 16,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 0,
+                      "parameters": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 0,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 16,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 210,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 123,
+              "indent": 0,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "json_class": "RPG::Event::Page",
+          "condition": {
+            "json_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": true,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "graphic": {
+            "json_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "NPC_RSE_GENTLEMAN",
+            "character_hue": 0,
+            "direction": 2,
+            "pattern": 0,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "move_type": 0,
+          "move_speed": 3,
+          "move_frequency": 3,
+          "move_route": {
+            "json_class": "RPG::MoveRoute",
+            "repeat": true,
+            "skippable": false,
+            "list": [
+              {
+                "json_class": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ]
+          },
+          "walk_anime": true,
+          "step_anime": false,
+          "direction_fix": false,
+          "through": false,
+          "always_on_top": false,
+          "trigger": 0,
+          "list": [
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "A Pokémon holding the Quick Claw will"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "\\noccasionally speed up and get to move\\nbefore its "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "opponent."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bThere are many other items that are\\nmeant to be "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "held by Pokémon."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "Just those alone will give you many\\ntopics to study!"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 209,
+              "indent": 0,
+              "parameters": [
+                0,
+                {
+                  "json_class": "RPG::MoveRoute",
+                  "repeat": false,
+                  "skippable": false,
+                  "list": [
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 16,
+                      "parameters": []
+                    },
+                    {
+                      "json_class": "RPG::MoveCommand",
+                      "code": 0,
+                      "parameters": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 509,
+              "indent": 0,
+              "parameters": [
+                {
+                  "json_class": "RPG::MoveCommand",
+                  "code": 16,
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 210,
+              "indent": 0,
+              "parameters": []
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        }
+      ]
+    },
+    "9": {
+      "json_class": "RPG::Event",
+      "id": 9,
+      "name": "NPC 5",
+      "x": 12,
+      "y": 10,
+      "pages": [
+        {
+          "json_class": "RPG::Event::Page",
+          "condition": {
+            "json_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "graphic": {
+            "json_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "NPC_RSE_LASS",
+            "character_hue": 0,
+            "direction": 8,
+            "pattern": 0,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "move_type": 0,
+          "move_speed": 3,
+          "move_frequency": 3,
+          "move_route": {
+            "json_class": "RPG::MoveRoute",
+            "repeat": true,
+            "skippable": false,
+            "list": [
+              {
+                "json_class": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ]
+          },
+          "walk_anime": true,
+          "step_anime": false,
+          "direction_fix": false,
+          "through": false,
+          "always_on_top": false,
+          "trigger": 0,
+          "list": [
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\rYou know how some Pokémon moves can"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "\\nconfuse a Pokémon?"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\rA confused Pokémon will sometimes\\nattack itself "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "without meaning to."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\rBut once it leaves battle, it will\\nreturn to normal."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "json_class": "RPG::Event",
+      "id": 4,
+      "name": "Notebook",
+      "x": 5,
+      "y": 7,
+      "pages": [
+        {
+          "json_class": "RPG::Event::Page",
+          "condition": {
+            "json_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "graphic": {
+            "json_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "",
+            "character_hue": 0,
+            "direction": 2,
+            "pattern": 0,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "move_type": 0,
+          "move_speed": 3,
+          "move_frequency": 3,
+          "move_route": {
+            "json_class": "RPG::MoveRoute",
+            "repeat": true,
+            "skippable": false,
+            "list": [
+              {
+                "json_class": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ]
+          },
+          "walk_anime": true,
+          "step_anime": false,
+          "direction_fix": false,
+          "through": false,
+          "always_on_top": false,
+          "trigger": 0,
+          "list": [
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "It's this student's notebook…"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "Pokémon are to be caught using\\nPoké Balls."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "Up to six Pokémon can accompany\\na Trainer."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "A Trainer is someone who catches\\nPokémon, "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "raises them, and battles\\nwith them."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "A Trainer's mission is to defeat\\nthe strong Trainers "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "who await\\nchallengers in Pokémon Gyms."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        }
+      ]
+    },
+    "10": {
+      "json_class": "RPG::Event",
+      "id": 10,
+      "name": "Scott",
+      "x": 2,
+      "y": 12,
+      "pages": [
+        {
+          "json_class": "RPG::Event::Page",
+          "condition": {
+            "json_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "graphic": {
+            "json_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "NPC_RSE_Scott",
+            "character_hue": 0,
+            "direction": 8,
+            "pattern": 0,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "move_type": 0,
+          "move_speed": 3,
+          "move_frequency": 3,
+          "move_route": {
+            "json_class": "RPG::MoveRoute",
+            "repeat": true,
+            "skippable": false,
+            "list": [
+              {
+                "json_class": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ]
+          },
+          "walk_anime": true,
+          "step_anime": false,
+          "direction_fix": false,
+          "through": false,
+          "always_on_top": false,
+          "trigger": 0,
+          "list": [
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "highest level - met scott after badge is set, student "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 408,
+              "indent": 0,
+              "parameters": [
+                "talent level unknown"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 408,
+              "indent": 0,
+              "parameters": [
+                "else, if met already, check for badge and play that "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 408,
+              "indent": 0,
+              "parameters": [
+                "text; else, student talent level unknown"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 408,
+              "indent": 0,
+              "parameters": [
+                "else, not met yet, and badge got, greet with badge "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 408,
+              "indent": 0,
+              "parameters": [
+                "text"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bHello? Didn't we meet before?\\nI think back in "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Petalburg City."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bLet me introduce myself.\\nMy name's Scott."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bI've been traveling everywhere in\\nsearch of "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "outstanding Trainers."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bMore specifically, I'm looking for\\nPokémon battle "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "experts."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bSo, what brings you to this school?\\nAre you a "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Trainer, too?"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bThe first thing you should do is to\\nhave a "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Pokémon learn the move Cut."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bIf I remember correctly, someone in\\nthis town has "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Cut."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 123,
+              "indent": 0,
+              "parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                99,
+                99,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "json_class": "RPG::Event::Page",
+          "condition": {
+            "json_class": "RPG::Event::Page::Condition",
+            "switch1_valid": true,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 151,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "graphic": {
+            "json_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "NPC_RSE_Scott",
+            "character_hue": 0,
+            "direction": 8,
+            "pattern": 0,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "move_type": 0,
+          "move_speed": 3,
+          "move_frequency": 3,
+          "move_route": {
+            "json_class": "RPG::MoveRoute",
+            "repeat": true,
+            "skippable": false,
+            "list": [
+              {
+                "json_class": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ]
+          },
+          "walk_anime": true,
+          "step_anime": false,
+          "direction_fix": false,
+          "through": false,
+          "always_on_top": false,
+          "trigger": 0,
+          "list": [
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bHello? Didn't we meet before?\\nI think back in "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Petalburg City."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bLet me introduce myself.\\nMy name's Scott."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bI've been traveling everywhere in\\nsearch of "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "outstanding Trainers."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bMore specifically, I'm looking for\\nPokémon battle "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "experts."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bOh, what's that?\\nIt's a Stone Badge, isn't it?"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bThat's pretty impressive, I'd say, for\\na starting "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Trainer like yourself."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bBut, you know, I would've loved to see\\nyou in "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "battle."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bIt's hard to tell what you're like as\\na Trainer from a "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "League Badge."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 123,
+              "indent": 0,
+              "parameters": [
+                "B",
+                0
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                99,
+                99,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "json_class": "RPG::Event::Page",
+          "condition": {
+            "json_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": true,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "graphic": {
+            "json_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "NPC_RSE_Scott",
+            "character_hue": 0,
+            "direction": 8,
+            "pattern": 0,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "move_type": 0,
+          "move_speed": 3,
+          "move_frequency": 3,
+          "move_route": {
+            "json_class": "RPG::MoveRoute",
+            "repeat": true,
+            "skippable": false,
+            "list": [
+              {
+                "json_class": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ]
+          },
+          "walk_anime": true,
+          "step_anime": false,
+          "direction_fix": false,
+          "through": false,
+          "always_on_top": false,
+          "trigger": 0,
+          "list": [
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bScott: Hmm…"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bThe talent levels of the students here\\nare "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "unknown. The potential's there."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "json_class": "RPG::Event::Page",
+          "condition": {
+            "json_class": "RPG::Event::Page::Condition",
+            "switch1_valid": true,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": true,
+            "switch1_id": 151,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "graphic": {
+            "json_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "NPC_RSE_Scott",
+            "character_hue": 0,
+            "direction": 8,
+            "pattern": 0,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "move_type": 0,
+          "move_speed": 3,
+          "move_frequency": 3,
+          "move_route": {
+            "json_class": "RPG::MoveRoute",
+            "repeat": true,
+            "skippable": false,
+            "list": [
+              {
+                "json_class": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ]
+          },
+          "walk_anime": true,
+          "step_anime": false,
+          "direction_fix": false,
+          "through": false,
+          "always_on_top": false,
+          "trigger": 0,
+          "list": [
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bScott: Oh, what's that?"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bIt's a Stone Badge, isn't it?\\nThat's pretty "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "impressive, I'd say."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bBut, you know, I would've loved to see\\nyou in "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "battle."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bIt's hard to tell what you're like as\\na Trainer from a "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "League Badge."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 123,
+              "indent": 0,
+              "parameters": [
+                "B",
+                0
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                99,
+                99,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "json_class": "RPG::Event::Page",
+          "condition": {
+            "json_class": "RPG::Event::Page::Condition",
+            "switch1_valid": false,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": true,
+            "switch1_id": 1,
+            "switch2_id": 1,
+            "variable_id": 1,
+            "variable_value": 0,
+            "self_switch_ch": "B"
+          },
+          "graphic": {
+            "json_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "NPC_RSE_Scott",
+            "character_hue": 0,
+            "direction": 8,
+            "pattern": 0,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "move_type": 0,
+          "move_speed": 3,
+          "move_frequency": 3,
+          "move_route": {
+            "json_class": "RPG::MoveRoute",
+            "repeat": true,
+            "skippable": false,
+            "list": [
+              {
+                "json_class": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ]
+          },
+          "walk_anime": true,
+          "step_anime": false,
+          "direction_fix": false,
+          "through": false,
+          "always_on_top": false,
+          "trigger": 0,
+          "list": [
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bScott: Hmm…"
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "\\bThe talent levels of the students here\\nare "
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "unknown. The potential's there."
+              ]
+            },
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "json_class": "RPG::Event::Page",
+          "condition": {
+            "json_class": "RPG::Event::Page::Condition",
+            "switch1_valid": true,
+            "switch2_valid": false,
+            "variable_valid": false,
+            "self_switch_valid": false,
+            "switch1_id": 165,
+            "switch2_id": 1,
+            "variable_id": 83,
+            "variable_value": 0,
+            "self_switch_ch": "A"
+          },
+          "graphic": {
+            "json_class": "RPG::Event::Page::Graphic",
+            "tile_id": 0,
+            "character_name": "",
+            "character_hue": 0,
+            "direction": 2,
+            "pattern": 0,
+            "opacity": 255,
+            "blend_type": 0
+          },
+          "move_type": 0,
+          "move_speed": 3,
+          "move_frequency": 3,
+          "move_route": {
+            "json_class": "RPG::MoveRoute",
+            "repeat": true,
+            "skippable": false,
+            "list": [
+              {
+                "json_class": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ]
+          },
+          "walk_anime": false,
+          "step_anime": false,
+          "direction_fix": false,
+          "through": true,
+          "always_on_top": false,
+          "trigger": 0,
+          "list": [
+            {
+              "json_class": "RPG::EventCommand",
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

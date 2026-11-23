@@ -14,6 +14,7 @@ SurfCharset = player_M_surf
 DiveCharset = player_M_surf
 FishCharset = player_M_fish_offset
 SurfFishCharset = player_M_fish_offset
+SpinCharset = player_M_spin
 #-------------------------------
 [2]
 TrainerType = player_F
@@ -24,3 +25,4 @@ SurfCharset = player_F_surf
 DiveCharset = player_F_surf
 FishCharset = player_F_fish_offset
 SurfFishCharset = player_F_fish_offset
+SpinCharset = player_F_spin

@@ -1,0 +1,5 @@
+Name         = PKW Spinner Trainers
+Version      = 1.0
+Essentials   = 22
+Link		 = https://www.youtube.com/@TastyKenter
+Credits      = TastyKenter, SocomSeal

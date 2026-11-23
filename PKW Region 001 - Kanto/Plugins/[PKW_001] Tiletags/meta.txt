@@ -1,0 +1,5 @@
+Name         = Pokemon World Project Tiletags
+Version      = 1.0
+Essentials   = 22
+Link		 = https://eeveeexpo.com/resources/1877/
+Credits      = SocomSeal, EagleOwl4Lyfe

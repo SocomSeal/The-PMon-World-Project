@@ -189,6 +189,7 @@ HOENN
 - The storming Sootopolis water is missing a border between the deep and 'turbulent calm' tiles
 - The IV rater on the Battle Frontier does not properly replace "_" or titleize the stat name of the checked Pokemon
 - The female scientist/greeter in the Delta Episode cutscene needs an ORAS sprite (currently using DPPt Beauty)
+- Route 120 there is a puddle that still shows the cloud panorama even when weather is raining near the bridge section of the south of the route (just a graphical bug due to how things are set on the map)
 SINNOH
 - 
 - There are no dungeon location previews
