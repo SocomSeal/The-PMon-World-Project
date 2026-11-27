@@ -124,3 +124,1613 @@ Backtrace:
 034:Interpreter:89:in `update'
 033:Scene_Map:183:in `block in update'
 033:Scene_Map:182:in `loop'
+
+=================
+
+[2026-11-23 15:56:10 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of nil into String
+
+Backtrace:
+307:UI_TownMap:70:in `+'
+307:UI_TownMap:70:in `initialize_map_sprite'
+307:UI_TownMap:60:in `initialize_sprites'
+099:UI_base:343:in `initialize'
+307:UI_TownMap:23:in `initialize'
+307:UI_TownMap:957:in `new'
+307:UI_TownMap:957:in `initialize_visuals'
+099:UI_base:783:in `initialize'
+307:UI_TownMap:953:in `initialize'
+299:UI_PauseMenu:234:in `new'
+
+=================
+
+[2026-11-23 18:35:44 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of nil into String
+
+Backtrace:
+307:UI_TownMap:70:in `+'
+307:UI_TownMap:70:in `initialize_map_sprite'
+307:UI_TownMap:60:in `initialize_sprites'
+099:UI_base:343:in `initialize'
+307:UI_TownMap:23:in `initialize'
+307:UI_TownMap:957:in `new'
+307:UI_TownMap:957:in `initialize_visuals'
+099:UI_base:783:in `initialize'
+307:UI_TownMap:953:in `initialize'
+299:UI_PauseMenu:234:in `new'
+
+=================
+
+[2026-11-23 18:38:51 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of nil into String
+
+Backtrace:
+307:UI_TownMap:70:in `+'
+307:UI_TownMap:70:in `initialize_map_sprite'
+307:UI_TownMap:60:in `initialize_sprites'
+099:UI_base:343:in `initialize'
+307:UI_TownMap:23:in `initialize'
+307:UI_TownMap:957:in `new'
+307:UI_TownMap:957:in `initialize_visuals'
+099:UI_base:783:in `initialize'
+307:UI_TownMap:953:in `initialize'
+299:UI_PauseMenu:234:in `new'
+
+=================
+
+[2026-11-23 18:39:25 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of nil into String
+
+Backtrace:
+307:UI_TownMap:70:in `+'
+307:UI_TownMap:70:in `initialize_map_sprite'
+307:UI_TownMap:60:in `initialize_sprites'
+099:UI_base:343:in `initialize'
+307:UI_TownMap:23:in `initialize'
+307:UI_TownMap:957:in `new'
+307:UI_TownMap:957:in `initialize_visuals'
+099:UI_base:783:in `initialize'
+307:UI_TownMap:953:in `initialize'
+299:UI_PauseMenu:234:in `new'
+
+=================
+
+[2026-11-23 21:43:38 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of nil into String
+
+Backtrace:
+307:UI_TownMap:70:in `+'
+307:UI_TownMap:70:in `initialize_map_sprite'
+307:UI_TownMap:60:in `initialize_sprites'
+099:UI_base:343:in `initialize'
+307:UI_TownMap:23:in `initialize'
+307:UI_TownMap:957:in `new'
+307:UI_TownMap:957:in `initialize_visuals'
+099:UI_base:783:in `initialize'
+307:UI_TownMap:953:in `initialize'
+299:UI_PauseMenu:234:in `new'
+
+=================
+
+[2026-11-24 08:40:36 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NoMethodError
+Message: undefined method `disc' for nil:NilClass
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:97:in `load'
+102:GameData:254:in `block in load_all'
+102:GameData:252:in `each'
+102:GameData:252:in `load_all'
+427:Compiler_MapsAndEvents:149:in `create_missing_map_metadata'
+427:Compiler_MapsAndEvents:54:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+422:Compiler:693:in `main'
+
+=================
+
+[2026-11-24 08:40:52 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-24 08:47:22 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of nil into String
+
+Backtrace:
+307:UI_TownMap:70:in `+'
+307:UI_TownMap:70:in `initialize_map_sprite'
+307:UI_TownMap:60:in `initialize_sprites'
+099:UI_base:343:in `initialize'
+307:UI_TownMap:23:in `initialize'
+307:UI_TownMap:957:in `new'
+307:UI_TownMap:957:in `initialize_visuals'
+099:UI_base:783:in `initialize'
+307:UI_TownMap:953:in `initialize'
+299:UI_PauseMenu:234:in `new'
+
+=================
+
+[2026-11-24 08:54:07 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NoMethodError
+Message: undefined method `PrintC' for Compiler:Module
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:10:in `pbLoadMapInfos'
+427:Compiler_MapsAndEvents:95:in `new_maps_to_import'
+427:Compiler_MapsAndEvents:44:in `block in <module:Compiler>'
+422:Compiler:671:in `block in categories_to_compile'
+422:Compiler:670:in `each_pair'
+422:Compiler:670:in `categories_to_compile'
+422:Compiler:678:in `compile_all'
+422:Compiler:693:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+
+=================
+
+[2026-11-24 09:18:47 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of nil into String
+
+Backtrace:
+307:UI_TownMap:70:in `+'
+307:UI_TownMap:70:in `initialize_map_sprite'
+307:UI_TownMap:60:in `initialize_sprites'
+099:UI_base:343:in `initialize'
+307:UI_TownMap:23:in `initialize'
+307:UI_TownMap:957:in `new'
+307:UI_TownMap:957:in `initialize_visuals'
+099:UI_base:783:in `initialize'
+307:UI_TownMap:953:in `initialize'
+299:UI_PauseMenu:234:in `new'
+
+=================
+
+[2026-11-24 10:16:06 -0600]
+[Pokémon Essentials version 22]
+
+Script error in event 1 (coords 0,0), map 2 ()
+Exception: Errno::ENOENT
+Message: File Data/disc1/dungeon_parameters.dat not found.
+
+***Full script:
+change_disc(pbGet(50))
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:99:in `load_data'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:99:in `load'
+102:GameData:254:in `block in load_all'
+102:GameData:252:in `each'
+102:GameData:252:in `load_all'
+[Pokemon World Project Plugin Suite] [000] Main Script.rb:151:in `change_disc'
+(eval):1:in `execute_script'
+034:Interpreter:145:in `eval'
+034:Interpreter:145:in `execute_script'
+035:Interpreter_Commands:1191:in `command_355'
+
+=================
+
+[2026-11-24 10:23:06 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: No trainer front sprite exists for the player character, expected a file at Graphics/Trainers/player_M.png.
+
+Backtrace:
+310:UI_TrainerCard:21:in `initialize_sprites'
+099:UI_base:343:in `initialize'
+310:UI_TrainerCard:101:in `new'
+310:UI_TrainerCard:101:in `initialize_visuals'
+099:UI_base:783:in `initialize'
+299:UI_PauseMenu:250:in `new'
+299:UI_PauseMenu:250:in `block (2 levels) in <main>'
+080:MessageConfig:582:in `pbFadeOutIn'
+299:UI_PauseMenu:249:in `block in <main>'
+299:UI_PauseMenu:144:in `perform_action'
+
+=================
+
+[2026-11-24 10:23:45 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of nil into String
+
+Backtrace:
+307:UI_TownMap:70:in `+'
+307:UI_TownMap:70:in `initialize_map_sprite'
+307:UI_TownMap:60:in `initialize_sprites'
+099:UI_base:343:in `initialize'
+307:UI_TownMap:23:in `initialize'
+307:UI_TownMap:957:in `new'
+307:UI_TownMap:957:in `initialize_visuals'
+099:UI_base:783:in `initialize'
+307:UI_TownMap:953:in `initialize'
+299:UI_PauseMenu:234:in `new'
+
+=================
+
+[2026-11-24 12:11:19 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NoMethodError
+Message: undefined method `disc' for nil:NilClass
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:93:in `load'
+102:GameData:254:in `block in load_all'
+102:GameData:252:in `each'
+102:GameData:252:in `load_all'
+427:Compiler_MapsAndEvents:149:in `create_missing_map_metadata'
+427:Compiler_MapsAndEvents:54:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+422:Compiler:693:in `main'
+
+=================
+
+[2026-11-24 12:11:29 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-24 12:12:31 -0600]
+[Pokémon Essentials version 22]
+
+Error in Plugin: [Pokemon World Project Plugin Suite]
+Exception: SyntaxError
+Message: [Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:154: syntax error, unexpected `end', expecting end-of-input
+
+Backtrace:
+009:PluginManager:665:in `eval'
+009:PluginManager:665:in `block (2 levels) in runPlugins'
+009:PluginManager:655:in `each'
+009:PluginManager:655:in `block in runPlugins'
+009:PluginManager:646:in `each'
+009:PluginManager:646:in `runPlugins'
+430:Main:38:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+
+=================
+
+[2026-11-24 12:13:05 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NoMethodError
+Message: undefined method `disc' for nil:NilClass
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:93:in `load'
+102:GameData:254:in `block in load_all'
+102:GameData:252:in `each'
+102:GameData:252:in `load_all'
+427:Compiler_MapsAndEvents:149:in `create_missing_map_metadata'
+427:Compiler_MapsAndEvents:54:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+422:Compiler:693:in `main'
+
+=================
+
+[2026-11-24 12:13:30 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-24 12:14:47 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NoMethodError
+Message: undefined method `disc' for nil:NilClass
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:93:in `load'
+102:GameData:254:in `block in load_all'
+102:GameData:252:in `each'
+102:GameData:252:in `load_all'
+427:Compiler_MapsAndEvents:149:in `create_missing_map_metadata'
+427:Compiler_MapsAndEvents:54:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+422:Compiler:693:in `main'
+
+=================
+
+[2026-11-24 12:14:57 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-24 12:15:51 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NoMethodError
+Message: undefined method `disc' for nil:NilClass
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:136:in `map_data_exists?'
+007:Intl_Messages:117:in `block in gather_script_and_event_texts'
+007:Intl_Messages:112:in `each_key'
+007:Intl_Messages:112:in `gather_script_and_event_texts'
+427:Compiler_MapsAndEvents:70:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+422:Compiler:693:in `main'
+430:Main:39:in `mainFunctionDebug'
+
+=================
+
+[2026-11-24 12:17:21 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-24 12:19:30 -0600]
+[Pokémon Essentials version 22]
+
+Exception: Errno::ENOENT
+Message: File Data/shadow_pokemon.dat not found.
+
+Backtrace:
+102:GameData:142:in `load_data'
+102:GameData:142:in `load'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:135:in `block in load_all_base'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:133:in `each'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:133:in `load_all_base'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:167:in `create_missing_map_metadata'
+427:Compiler_MapsAndEvents:54:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+
+=================
+
+[2026-11-24 12:20:11 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-24 12:21:13 -0600]
+[Pokémon Essentials version 22]
+
+Exception: Errno::ENOENT
+Message: File Data/shadow_pokemon.dat not found.
+
+Backtrace:
+102:GameData:142:in `load_data'
+102:GameData:142:in `load'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:135:in `block in load_all_base'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:133:in `each'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:133:in `load_all_base'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:167:in `create_missing_map_metadata'
+427:Compiler_MapsAndEvents:54:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+
+=================
+
+[2026-11-24 12:21:25 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-24 12:22:16 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NoMethodError
+Message: undefined method `disc' for nil:NilClass
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:149:in `map_data_exists?'
+007:Intl_Messages:117:in `block in gather_script_and_event_texts'
+007:Intl_Messages:112:in `each_key'
+007:Intl_Messages:112:in `gather_script_and_event_texts'
+427:Compiler_MapsAndEvents:70:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+422:Compiler:693:in `main'
+430:Main:39:in `mainFunctionDebug'
+
+=================
+
+[2026-11-24 12:23:33 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-24 12:37:02 -0600]
+[Pokémon Essentials version 22]
+
+Error in Plugin: [Pokemon World Project Plugin Suite]
+Exception: SyntaxError
+Message: [Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:147: syntax error, unexpected method
+...data_exists?(map_id, compiling? = false)
+...                     ^~~~~~~~~~
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:156: syntax error, unexpected method
+...oad_map_data(map_id, compiling? = false)
+...                     ^~~~~~~~~~
+
+
+Backtrace:
+009:PluginManager:665:in `eval'
+009:PluginManager:665:in `block (2 levels) in runPlugins'
+009:PluginManager:655:in `each'
+009:PluginManager:655:in `block in runPlugins'
+009:PluginManager:646:in `each'
+009:PluginManager:646:in `runPlugins'
+430:Main:38:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+
+=================
+
+[2026-11-24 12:37:36 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NoMethodError
+Message: undefined method `disc' for nil:NilClass
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:95:in `load'
+102:GameData:254:in `block in load_all'
+102:GameData:252:in `each'
+102:GameData:252:in `load_all'
+427:Compiler_MapsAndEvents:149:in `create_missing_map_metadata'
+427:Compiler_MapsAndEvents:54:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+422:Compiler:693:in `main'
+
+=================
+
+[2026-11-24 12:37:44 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-24 12:38:35 -0600]
+[Pokémon Essentials version 22]
+
+Exception: Errno::ENOENT
+Message: File Data/shadow_pokemon.dat not found.
+
+Backtrace:
+102:GameData:142:in `load_data'
+102:GameData:142:in `load'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:135:in `block in load_all_base'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:133:in `each'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:133:in `load_all_base'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:214:in `create_missing_map_metadata'
+427:Compiler_MapsAndEvents:54:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+
+=================
+
+[2026-11-24 12:54:19 -0600]
+[Pokémon Essentials version 22]
+
+Exception: Errno::ENOENT
+Message: File Data/shadow_pokemon.dat not found.
+
+Backtrace:
+102:GameData:142:in `load_data'
+102:GameData:142:in `load'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:135:in `block in load_all_base'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:133:in `each'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:133:in `load_all_base'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:214:in `create_missing_map_metadata'
+427:Compiler_MapsAndEvents:54:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+
+=================
+
+[2026-11-24 12:57:31 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-24 13:00:38 -0600]
+[Pokémon Essentials version 22]
+
+Exception: Errno::ENOENT
+Message: File Data/shadow_pokemon.dat not found.
+
+Backtrace:
+102:GameData:142:in `load_data'
+102:GameData:142:in `load'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:135:in `block in load_all_base'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:133:in `each'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:133:in `load_all_base'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:214:in `create_missing_map_metadata'
+427:Compiler_MapsAndEvents:54:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+
+=================
+
+[2026-11-24 13:00:44 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-24 13:01:27 -0600]
+[Pokémon Essentials version 22]
+
+Exception: Errno::ENOENT
+Message: File Data/shadow_pokemon.dat not found.
+
+Backtrace:
+102:GameData:142:in `load_data'
+102:GameData:142:in `load'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:135:in `block in load_all_base'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:133:in `each'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:133:in `load_all_base'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:214:in `create_missing_map_metadata'
+427:Compiler_MapsAndEvents:54:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+
+=================
+
+[2026-11-24 13:02:51 -0600]
+[Pokémon Essentials version 22]
+
+Script error in event 1 (coords 0,0), map 2 ()
+Exception: Errno::ENOENT
+Message: File Data/disc1/dungeon_parameters.dat not found.
+
+***Full script:
+change_disc(pbGet(50))
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:95:in `load_data'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:95:in `load'
+102:GameData:254:in `block in load_all'
+102:GameData:252:in `each'
+102:GameData:252:in `load_all'
+[Pokemon World Project Plugin Suite] [000] Main Script.rb:151:in `change_disc'
+(eval):1:in `execute_script'
+034:Interpreter:145:in `eval'
+034:Interpreter:145:in `execute_script'
+035:Interpreter_Commands:1191:in `command_355'
+
+=================
+
+[2026-11-24 18:03:49 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of Hash into String
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:117:in `sprintf'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:117:in `save'
+423:Compiler_CompilePBS:282:in `compile_town_map'
+423:Compiler_CompilePBS:103:in `compile_pbs_files'
+423:Compiler_CompilePBS:18:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+422:Compiler:693:in `main'
+430:Main:39:in `mainFunctionDebug'
+
+=================
+
+[2026-11-24 18:07:51 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of Hash into String
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:117:in `sprintf'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:117:in `save'
+423:Compiler_CompilePBS:282:in `compile_town_map'
+423:Compiler_CompilePBS:103:in `compile_pbs_files'
+423:Compiler_CompilePBS:18:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+422:Compiler:693:in `main'
+430:Main:39:in `mainFunctionDebug'
+
+=================
+
+[2026-11-24 18:07:57 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-24 18:12:08 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of Hash into String
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:117:in `sprintf'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:117:in `save'
+423:Compiler_CompilePBS:282:in `compile_town_map'
+423:Compiler_CompilePBS:103:in `compile_pbs_files'
+423:Compiler_CompilePBS:18:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+422:Compiler:693:in `main'
+430:Main:39:in `mainFunctionDebug'
+
+=================
+
+[2026-11-24 18:16:32 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of Hash into String
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:117:in `sprintf'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:117:in `save'
+423:Compiler_CompilePBS:282:in `compile_town_map'
+423:Compiler_CompilePBS:103:in `compile_pbs_files'
+423:Compiler_CompilePBS:18:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+422:Compiler:693:in `main'
+430:Main:39:in `mainFunctionDebug'
+
+=================
+
+[2026-11-24 18:16:36 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-24 18:20:45 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of nil into String
+
+Backtrace:
+307:UI_TownMap:70:in `+'
+307:UI_TownMap:70:in `initialize_map_sprite'
+307:UI_TownMap:60:in `initialize_sprites'
+099:UI_base:343:in `initialize'
+307:UI_TownMap:23:in `initialize'
+307:UI_TownMap:957:in `new'
+307:UI_TownMap:957:in `initialize_visuals'
+099:UI_base:783:in `initialize'
+307:UI_TownMap:953:in `initialize'
+299:UI_PauseMenu:234:in `new'
+
+=================
+
+[2026-11-24 19:01:51 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NameError
+Message: undefined local variable or method `disc' for Game_Map:Class
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:87:in `map_data_exists?'
+032:StartGame:17:in `initialize'
+430:Main:40:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-26 11:12:25 -0600]
+[Pokémon Essentials version 22]
+
+Error in Plugin: [Pokemon World Project Plugin Suite]
+Exception: NameError
+Message: undefined method `save' for class `GameData::Encounter'
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:64:in `<class:Encounter>'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:62:in `<module:GameData>'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:61:in `<main>'
+009:PluginManager:665:in `eval'
+009:PluginManager:665:in `block (2 levels) in runPlugins'
+009:PluginManager:655:in `each'
+009:PluginManager:655:in `block in runPlugins'
+009:PluginManager:646:in `each'
+009:PluginManager:646:in `runPlugins'
+430:Main:38:in `mainFunctionDebug'
+
+=================
+
+[2026-11-26 11:13:29 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NameError
+Message: uninitialized constant Game_Character::SpinnerBehavior
+
+Backtrace:
+(eval):1:in `block in move_type_custom'
+045:Game_Character:575:in `eval'
+045:Game_Character:575:in `block in move_type_custom'
+045:Game_Character:462:in `times'
+045:Game_Character:462:in `move_type_custom'
+045:Game_Character:974:in `update_command_new'
+045:Game_Character:965:in `update_command'
+045:Game_Character:949:in `update'
+046:Game_Event:297:in `update'
+043:Game_Map:494:in `block in update'
+
+=================
+
+[2026-11-26 11:19:47 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of nil into String
+
+Backtrace:
+307:UI_TownMap:70:in `+'
+307:UI_TownMap:70:in `initialize_map_sprite'
+307:UI_TownMap:60:in `initialize_sprites'
+099:UI_base:343:in `initialize'
+307:UI_TownMap:23:in `initialize'
+307:UI_TownMap:957:in `new'
+307:UI_TownMap:957:in `initialize_visuals'
+099:UI_base:783:in `initialize'
+307:UI_TownMap:953:in `initialize'
+299:UI_PauseMenu:234:in `new'
+
+=================
+
+[2026-11-26 11:20:40 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of nil into String
+
+Backtrace:
+307:UI_TownMap:70:in `+'
+307:UI_TownMap:70:in `initialize_map_sprite'
+307:UI_TownMap:60:in `initialize_sprites'
+099:UI_base:343:in `initialize'
+307:UI_TownMap:23:in `initialize'
+307:UI_TownMap:957:in `new'
+307:UI_TownMap:957:in `initialize_visuals'
+099:UI_base:783:in `initialize'
+307:UI_TownMap:953:in `initialize'
+299:UI_PauseMenu:234:in `new'
+
+=================
+
+[2026-11-26 11:31:07 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of Hash into String
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:115:in `sprintf'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:115:in `save'
+423:Compiler_CompilePBS:282:in `compile_town_map'
+423:Compiler_CompilePBS:103:in `compile_pbs_files'
+423:Compiler_CompilePBS:18:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+422:Compiler:693:in `main'
+430:Main:39:in `mainFunctionDebug'
+
+=================
+
+[2026-11-26 11:34:05 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-26 11:36:53 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NoMethodError
+Message: undefined method `disc' for nil:NilClass
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:90:in `load'
+102:GameData:254:in `block in load_all'
+102:GameData:252:in `each'
+102:GameData:252:in `load_all'
+427:Compiler_MapsAndEvents:149:in `create_missing_map_metadata'
+427:Compiler_MapsAndEvents:54:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+422:Compiler:693:in `main'
+
+=================
+
+[2026-11-26 11:37:13 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-26 11:41:05 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Trainer back sprite doesn't exist.
+
+Backtrace:
+197:Battle_Visuals_BaseAnimation:104:in `ballTracksHand'
+198:Battle_Visuals_Animations:429:in `createProcesses'
+197:Battle_Visuals_BaseAnimation:12:in `initialize'
+198:Battle_Visuals_Animations:399:in `initialize'
+194:Visuals_PlayAnimations:156:in `new'
+194:Visuals_PlayAnimations:156:in `block in pbSendOutBattlers'
+194:Visuals_PlayAnimations:144:in `each'
+194:Visuals_PlayAnimations:144:in `each_with_index'
+194:Visuals_PlayAnimations:144:in `pbSendOutBattlers'
+155:Battle_ActionSwitching:298:in `pbSendOut'
+
+=================
+
+[2026-11-26 11:43:26 -0600]
+[Pokémon Essentials version 22]
+
+Script error in event 1 (coords 0,0), map 2 ()
+Exception: Errno::ENOENT
+Message: File Data/disc1/dungeon_parameters.dat not found.
+
+***Full script:
+change_disc(pbGet(50))
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:94:in `load_data'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:94:in `load'
+102:GameData:254:in `block in load_all'
+102:GameData:252:in `each'
+102:GameData:252:in `load_all'
+[Pokemon World Project Plugin Suite] [000] Main Script.rb:151:in `change_disc'
+(eval):1:in `execute_script'
+034:Interpreter:145:in `eval'
+034:Interpreter:145:in `execute_script'
+035:Interpreter_Commands:1191:in `command_355'
+
+=================
+
+[2026-11-26 11:44:46 -0600]
+[Pokémon Essentials version 22]
+
+Exception: Errno::ENOENT
+Message: File Data/disc1/MapInfos.rxdata not found.
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:9:in `load_data'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:9:in `pbLoadMapInfos'
+266:Overworld_RoamingPokemon:104:in `block in <main>'
+036:Event_Handlers:89:in `block in trigger'
+036:Event_Handlers:89:in `each_value'
+036:Event_Handlers:89:in `trigger'
+037:Event_HandlerCollections:65:in `trigger'
+044:Game_MapFactory:147:in `setMapChanged'
+044:Game_MapFactory:26:in `setup'
+033:Scene_Map:77:in `transfer_player'
+
+=================
+
+[2026-11-26 11:55:12 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NameError
+Message: uninitialized constant GameData::ClassMethodsSymbols::DATA_FILENAME
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:98:in `load'
+102:GameData:254:in `block in load_all'
+102:GameData:252:in `each'
+102:GameData:252:in `load_all'
+427:Compiler_MapsAndEvents:149:in `create_missing_map_metadata'
+427:Compiler_MapsAndEvents:54:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+422:Compiler:693:in `main'
+
+=================
+
+[2026-11-26 11:55:22 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-26 11:56:00 -0600]
+[Pokémon Essentials version 22]
+
+Script error in event 1 (coords 0,0), map 2 ()
+Exception: Errno::ENOENT
+Message: File Data/disc1/dungeon_parameters.dat not found.
+
+***Full script:
+change_disc(pbGet(50))
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:99:in `load_data'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:99:in `load'
+102:GameData:254:in `block in load_all'
+102:GameData:252:in `each'
+102:GameData:252:in `load_all'
+[Pokemon World Project Plugin Suite] [000] Main Script.rb:151:in `change_disc'
+(eval):1:in `execute_script'
+034:Interpreter:145:in `eval'
+034:Interpreter:145:in `execute_script'
+035:Interpreter_Commands:1191:in `command_355'
+
+=================
+
+[2026-11-26 12:17:42 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NameError
+Message: uninitialized constant GameData::PlayerMetadata::PBS_BASE_FILENAME
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:124:in `load'
+102:GameData:254:in `block in load_all'
+102:GameData:252:in `each'
+102:GameData:252:in `load_all'
+427:Compiler_MapsAndEvents:149:in `create_missing_map_metadata'
+427:Compiler_MapsAndEvents:54:in `block in <module:Compiler>'
+422:Compiler:682:in `block in compile_all'
+422:Compiler:679:in `each_pair'
+422:Compiler:679:in `compile_all'
+422:Compiler:693:in `main'
+
+=================
+
+[2026-11-26 12:17:48 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Unknown exception when compiling.
+
+Backtrace:
+422:Compiler:706:in `rescue in main'
+422:Compiler:692:in `main'
+430:Main:39:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+430:Main:58:in `block in <main>'
+430:Main:57:in `loop'
+430:Main:57:in `<main>'
+-e:in `eval'
+
+=================
+
+[2026-11-26 12:19:03 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of nil into String
+
+Backtrace:
+307:UI_TownMap:70:in `+'
+307:UI_TownMap:70:in `initialize_map_sprite'
+307:UI_TownMap:60:in `initialize_sprites'
+099:UI_base:343:in `initialize'
+307:UI_TownMap:23:in `initialize'
+307:UI_TownMap:957:in `new'
+307:UI_TownMap:957:in `initialize_visuals'
+099:UI_base:783:in `initialize'
+307:UI_TownMap:953:in `initialize'
+299:UI_PauseMenu:234:in `new'
+
+=================
+
+[2026-11-26 13:54:02 -0600]
+[Pokémon Essentials version 22]
+
+Error in Plugin: [Pokemon World Project Plugin Suite]
+Exception: NameError
+Message: uninitialized constant GameData::Encounter::DiscLoader
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:114:in `<class:Encounter>'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:113:in `<main>'
+009:PluginManager:665:in `eval'
+009:PluginManager:665:in `block (2 levels) in runPlugins'
+009:PluginManager:655:in `each'
+009:PluginManager:655:in `block in runPlugins'
+009:PluginManager:646:in `each'
+009:PluginManager:646:in `runPlugins'
+430:Main:38:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+
+=================
+
+[2026-11-26 13:54:43 -0600]
+[Pokémon Essentials version 22]
+
+Error in Plugin: [Pokemon World Project Plugin Suite]
+Exception: NameError
+Message: uninitialized constant GameData::Encounter::DiscLoader
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:114:in `<class:Encounter>'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:113:in `<main>'
+009:PluginManager:665:in `eval'
+009:PluginManager:665:in `block (2 levels) in runPlugins'
+009:PluginManager:655:in `each'
+009:PluginManager:655:in `block in runPlugins'
+009:PluginManager:646:in `each'
+009:PluginManager:646:in `runPlugins'
+430:Main:38:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+
+=================
+
+[2026-11-26 13:57:14 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Trainer back sprite doesn't exist.
+
+Backtrace:
+197:Battle_Visuals_BaseAnimation:104:in `ballTracksHand'
+198:Battle_Visuals_Animations:429:in `createProcesses'
+197:Battle_Visuals_BaseAnimation:12:in `initialize'
+198:Battle_Visuals_Animations:399:in `initialize'
+194:Visuals_PlayAnimations:156:in `new'
+194:Visuals_PlayAnimations:156:in `block in pbSendOutBattlers'
+194:Visuals_PlayAnimations:144:in `each'
+194:Visuals_PlayAnimations:144:in `each_with_index'
+194:Visuals_PlayAnimations:144:in `pbSendOutBattlers'
+155:Battle_ActionSwitching:298:in `pbSendOut'
+
+=================
+
+[2026-11-26 15:59:10 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NameError
+Message: undefined local variable or method `turn_random_LD' for #<Game_Event>
+
+Backtrace:
+(eval):1:in `block in move_type_custom'
+045:Game_Character:575:in `eval'
+045:Game_Character:575:in `block in move_type_custom'
+045:Game_Character:462:in `times'
+045:Game_Character:462:in `move_type_custom'
+045:Game_Character:974:in `update_command_new'
+045:Game_Character:965:in `update_command'
+045:Game_Character:949:in `update'
+046:Game_Event:297:in `update'
+043:Game_Map:494:in `block in update'
+
+=================
+
+[2026-11-26 16:10:49 -0600]
+[Pokémon Essentials version 22]
+
+Script error in event 1 (coords 0,0), map 2 (Region Transfer Map)
+Exception: NoMethodError
+Message: undefined method `gsub!' for 2:Integer
+
+***Full script:
+pbMessage(2)
+
+Backtrace:
+089:Messages:521:in `pbMessageDisplay_ReplaceMessageTextShorthands'
+089:Messages:486:in `pbMessageDisplay_ReplaceMessageText'
+089:Messages:405:in `pbMessageDisplay'
+089:Messages:805:in `pbMessage'
+(eval):1:in `execute_script'
+034:Interpreter:145:in `eval'
+034:Interpreter:145:in `execute_script'
+035:Interpreter_Commands:1191:in `command_355'
+035:Interpreter_Commands:116:in `execute_command'
+034:Interpreter:137:in `block in update'
+
+=================
+
+[2026-11-26 16:25:57 -0600]
+[Pokémon Essentials version 22]
+
+Script error in event 1 (coords 0,0), map 2 (Region Transfer Map)
+Exception: NameError
+Message: undefined local variable or method `next_index' for #<Interpreter @event_id: 1>
+
+***Full script:
+@index = next_index
+choices = setup_choices(@list[@index].parameters)
+command = pbMessage(pbGet(2), choices[0], choices[1])
+@branch[@list[@index].indent] = choices[2][command] || command
+
+Backtrace:
+(eval):1:in `execute_script'
+034:Interpreter:145:in `eval'
+034:Interpreter:145:in `execute_script'
+035:Interpreter_Commands:1191:in `command_355'
+035:Interpreter_Commands:116:in `execute_command'
+034:Interpreter:137:in `block in update'
+034:Interpreter:89:in `loop'
+034:Interpreter:89:in `update'
+034:Interpreter:102:in `block in update'
+034:Interpreter:89:in `loop'
+
+=================
+
+[2026-11-26 16:26:41 -0600]
+[Pokémon Essentials version 22]
+
+Script error in event 1 (coords 0,0), map 2 (Region Transfer Map)
+Exception: TypeError
+Message: no implicit conversion of Array into String
+
+***Full script:
+next_index = pbNextIndex(@index)
+@index = next_index
+choices = setup_choices(@list[@index].parameters)
+command = pbMessage(pbGet(2), choices[0], choices[1])
+@branch[@list[@index].indent] = choices[2][command] || command
+
+Backtrace:
+035:Interpreter_Commands:264:in `+'
+035:Interpreter_Commands:264:in `add_more_choices'
+035:Interpreter_Commands:234:in `setup_choices'
+(eval):3:in `execute_script'
+034:Interpreter:145:in `eval'
+034:Interpreter:145:in `execute_script'
+035:Interpreter_Commands:1191:in `command_355'
+035:Interpreter_Commands:116:in `execute_command'
+034:Interpreter:137:in `block in update'
+034:Interpreter:89:in `loop'
+
+=================
+
+[2026-11-26 17:40:57 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of nil into String
+
+Backtrace:
+307:UI_TownMap:70:in `+'
+307:UI_TownMap:70:in `initialize_map_sprite'
+307:UI_TownMap:60:in `initialize_sprites'
+099:UI_base:343:in `initialize'
+307:UI_TownMap:23:in `initialize'
+307:UI_TownMap:957:in `new'
+307:UI_TownMap:957:in `initialize_visuals'
+099:UI_base:783:in `initialize'
+307:UI_TownMap:953:in `initialize'
+299:UI_PauseMenu:234:in `new'
+
+=================
+
+[2026-11-26 17:43:00 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of nil into String
+
+Backtrace:
+307:UI_TownMap:70:in `+'
+307:UI_TownMap:70:in `initialize_map_sprite'
+307:UI_TownMap:60:in `initialize_sprites'
+099:UI_base:343:in `initialize'
+307:UI_TownMap:23:in `initialize'
+307:UI_TownMap:957:in `new'
+307:UI_TownMap:957:in `initialize_visuals'
+099:UI_base:783:in `initialize'
+307:UI_TownMap:953:in `initialize'
+299:UI_PauseMenu:234:in `new'
+
+=================
+
+[2026-11-26 17:43:30 -0600]
+[Pokémon Essentials version 22]
+
+Exception: TypeError
+Message: no implicit conversion of nil into String
+
+Backtrace:
+307:UI_TownMap:70:in `+'
+307:UI_TownMap:70:in `initialize_map_sprite'
+307:UI_TownMap:60:in `initialize_sprites'
+099:UI_base:343:in `initialize'
+307:UI_TownMap:23:in `initialize'
+307:UI_TownMap:957:in `new'
+307:UI_TownMap:957:in `initialize_visuals'
+099:UI_base:783:in `initialize'
+307:UI_TownMap:953:in `initialize'
+299:UI_PauseMenu:234:in `new'
+
+=================
+
+[2026-11-26 17:44:33 -0600]
+[Pokémon Essentials version 22]
+
+Error in Plugin: [Pokemon World Project Plugin Suite]
+Exception: SyntaxError
+Message: [Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:131: class/module name must be CONSTANT
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:144: syntax error, unexpected end-of-input, expecting `end'
+
+Backtrace:
+009:PluginManager:665:in `eval'
+009:PluginManager:665:in `block (2 levels) in runPlugins'
+009:PluginManager:655:in `each'
+009:PluginManager:655:in `block in runPlugins'
+009:PluginManager:646:in `each'
+009:PluginManager:646:in `runPlugins'
+430:Main:38:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+
+=================
+
+[2026-11-26 17:44:47 -0600]
+[Pokémon Essentials version 22]
+
+Error in Plugin: [Pokemon World Project Plugin Suite]
+Exception: SyntaxError
+Message: [Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:131: class/module name must be CONSTANT
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:144: syntax error, unexpected end-of-input, expecting `end'
+
+Backtrace:
+009:PluginManager:665:in `eval'
+009:PluginManager:665:in `block (2 levels) in runPlugins'
+009:PluginManager:655:in `each'
+009:PluginManager:655:in `block in runPlugins'
+009:PluginManager:646:in `each'
+009:PluginManager:646:in `runPlugins'
+430:Main:38:in `mainFunctionDebug'
+430:Main:22:in `block in mainFunction'
+015:Errors:85:in `pbCriticalCode'
+430:Main:22:in `mainFunction'
+
+=================
+
+[2026-11-26 17:45:22 -0600]
+[Pokémon Essentials version 22]
+
+Exception: Errno::ENOENT
+Message: File Data/disc-1/map_metadata.dat not found.
+
+Backtrace:
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:74:in `load_data'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:74:in `load'
+102:GameData:254:in `block in load_all'
+102:GameData:252:in `each'
+102:GameData:252:in `load_all'
+[Pokemon World Project Plugin Suite] [000] Main Script.rb:151:in `change_disc'
+[Pokemon World Project Plugin Suite] [001] Data Load Updates.rb:142:in `load'
+311:UI_Load:641:in `block in <class:Load>'
+099:UI_base:940:in `perform_action_effect'
+099:UI_base:934:in `perform_action'
+
+=================
+
+[2026-11-26 23:07:15 -0600]
+[Pokémon Essentials version 22]
+
+Exception: RuntimeError
+Message: Trainer back sprite doesn't exist.
+
+Backtrace:
+197:Battle_Visuals_BaseAnimation:104:in `ballTracksHand'
+198:Battle_Visuals_Animations:429:in `createProcesses'
+197:Battle_Visuals_BaseAnimation:12:in `initialize'
+198:Battle_Visuals_Animations:399:in `initialize'
+194:Visuals_PlayAnimations:156:in `new'
+194:Visuals_PlayAnimations:156:in `block in pbSendOutBattlers'
+194:Visuals_PlayAnimations:144:in `each'
+194:Visuals_PlayAnimations:144:in `each_with_index'
+194:Visuals_PlayAnimations:144:in `pbSendOutBattlers'
+155:Battle_ActionSwitching:298:in `pbSendOut'
+
+=================
+
+[2026-11-26 23:15:11 -0600]
+[Pokémon Essentials version 22]
+
+Exception: NoMethodError
+Message: undefined method `tileset_id' for nil:NilClass
+
+Backtrace:
+043:Game_Map:57:in `setup'
+044:Game_MapFactory:59:in `getMap'
+044:Game_MapFactory:65:in `getMapNoAdd'
+034:Interpreter:193:in `get_character'
+034:Interpreter:206:in `get_self'
+034:Interpreter:150:in `rescue in execute_script'
+034:Interpreter:143:in `execute_script'
+035:Interpreter_Commands:1191:in `command_355'
+035:Interpreter_Commands:116:in `execute_command'
+034:Interpreter:137:in `block in update'

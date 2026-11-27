@@ -1,0 +1,5 @@
+Name         = PKW Regi Events
+Version      = 1.0
+Essentials   = 22
+Link		 = https://eeveeexpo.com/resources/2049/
+Credits      = SocomSeal, Spectator

@@ -1,0 +1,5 @@
+Name         = PKW Multi Disc Changer
+Version      = 1.0
+Essentials   = 22
+Link		 = https://eeveeexpo.com/resources/1877/
+Credits      = SocomSeal, Maruno, Zeriab, NettoHikari, Vendily, Pokeminer20

@@ -129,7 +129,6 @@ KANTO
 - Missing info on Bill's PC in his cottage (Can usually see Eeveelutions)
 - Missing animation for Hall of Fame machine
 - Stopgap Tri-Pass cutscene is in place
-- Intro BGM is not looped properly
 - Missing light effects in E4
 - Missing animations for Seagallop Ferry
 - Missing TV animations
@@ -190,6 +189,7 @@ HOENN
 - The IV rater on the Battle Frontier does not properly replace "_" or titleize the stat name of the checked Pokemon
 - The female scientist/greeter in the Delta Episode cutscene needs an ORAS sprite (currently using DPPt Beauty)
 - Route 120 there is a puddle that still shows the cloud panorama even when weather is raining near the bridge section of the south of the route (just a graphical bug due to how things are set on the map)
+- Special intros for legendaries etc don't exist (such as regi eyes)
 SINNOH
 - 
 - There are no dungeon location previews
